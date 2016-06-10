@@ -1,0 +1,3211 @@
+[ {
+  "id" : "0001",
+  "description" : "Administrative Sex",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.0"
+}, {
+  "id" : "0002",
+  "description" : "Marital Status",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.1"
+}, {
+  "id" : "0003",
+  "description" : "Event Type",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.2"
+}, {
+  "id" : "0004",
+  "description" : "Patient Class",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.3.1"
+}, {
+  "id" : "0005",
+  "description" : "Race",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.3"
+}, {
+  "id" : "0006",
+  "description" : "Religion",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.2.16"
+}, {
+  "id" : "0007",
+  "description" : "Admission Type",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.3.3"
+}, {
+  "id" : "0008",
+  "description" : "Acknowledgment Code",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.4"
+}, {
+  "id" : "0009",
+  "description" : "Ambulatory Status",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.3.14"
+}, {
+  "id" : "0010",
+  "description" : "Physician ID",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.3.6"
+}, {
+  "id" : "0017",
+  "description" : "Transaction Type",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.1.5"
+}, {
+  "id" : "0018",
+  "description" : "Patient Type",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.3.17"
+}, {
+  "id" : "0019",
+  "description" : "Anesthesia Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.4.8"
+}, {
+  "id" : "0021",
+  "description" : "Bad Debt Agency Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.3.30"
+}, {
+  "id" : "0022",
+  "description" : "Billing Status",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.6.31"
+}, {
+  "id" : "0023",
+  "description" : "Admit Source",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.3.13"
+}, {
+  "id" : "0024",
+  "description" : "Fee Schedule",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.1.16"
+}, {
+  "id" : "0027",
+  "description" : "Priority",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.5"
+}, {
+  "id" : "0032",
+  "description" : "Charge/Price Indicator",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.3.20"
+}, {
+  "id" : "0038",
+  "description" : "Order status",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.6"
+}, {
+  "id" : "0042",
+  "description" : "Company Plan Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.6.34"
+}, {
+  "id" : "0043",
+  "description" : "Condition Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.11.2"
+}, {
+  "id" : "0044",
+  "description" : "Contract Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.3.23"
+}, {
+  "id" : "0045",
+  "description" : "Courtesy Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.3.21"
+}, {
+  "id" : "0046",
+  "description" : "Credit Rating",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.3.22"
+}, {
+  "id" : "0049",
+  "description" : "Department Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.1.12"
+}, {
+  "id" : "0050",
+  "description" : "Accident Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.9.1"
+}, {
+  "id" : "0051",
+  "description" : "Diagnosis Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.1.18"
+}, {
+  "id" : "0052",
+  "description" : "Diagnosis Type",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.2.5"
+}, {
+  "id" : "0055",
+  "description" : "Diagnosis Related Group",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.7"
+}, {
+  "id" : "0056",
+  "description" : "DRG Grouper Review Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.3.3"
+}, {
+  "id" : "0059",
+  "description" : "Consent Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.4.12"
+}, {
+  "id" : "0061",
+  "description" : "Check Digit Scheme",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.8"
+}, {
+  "id" : "0062",
+  "description" : "Event Reason",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.1.3"
+}, {
+  "id" : "0063",
+  "description" : "Relationship",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.5.2"
+}, {
+  "id" : "0064",
+  "description" : "Financial Class",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.9"
+}, {
+  "id" : "0065",
+  "description" : "Specimen Action Code",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.10"
+}, {
+  "id" : "0066",
+  "description" : "Employment Status",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.5.19"
+}, {
+  "id" : "0068",
+  "description" : "Guarantor Type",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.5.9"
+}, {
+  "id" : "0069",
+  "description" : "Hospital Service",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.3.9"
+}, {
+  "id" : "0072",
+  "description" : "Insurance plan ID",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.12"
+}, {
+  "id" : "0073",
+  "description" : "Interest Rate Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.3.27"
+}, {
+  "id" : "0074",
+  "description" : "Diagnostic Service Section ID",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.13"
+}, {
+  "id" : "0076",
+  "description" : "Message Type",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.14"
+}, {
+  "id" : "0078",
+  "description" : "Interpretation Codes",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.15"
+}, {
+  "id" : "0080",
+  "description" : "Nature of Abnormal Testing",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.16"
+}, {
+  "id" : "0083",
+  "description" : "Outlier Type",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.3.4"
+}, {
+  "id" : "0084",
+  "description" : "Performed by",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.1.19"
+}, {
+  "id" : "0085",
+  "description" : "Observation Result Status Codes Interpretation",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.17"
+}, {
+  "id" : "0086",
+  "description" : "Plan ID",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.6.14"
+}, {
+  "id" : "0087",
+  "description" : "Pre-Admit Test Indicator",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.3.11"
+}, {
+  "id" : "0088",
+  "description" : "Procedure Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.18"
+}, {
+  "id" : "0091",
+  "description" : "Query Priority",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.19"
+}, {
+  "id" : "0092",
+  "description" : "Re-Admission Indicator",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.3.12"
+}, {
+  "id" : "0093",
+  "description" : "Release Information",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.6.26"
+}, {
+  "id" : "0098",
+  "description" : "Type of Agreement",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.6.30"
+}, {
+  "id" : "0099",
+  "description" : "VIP Indicator",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.3.15"
+}, {
+  "id" : "0100",
+  "description" : "Invocation event",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.20"
+}, {
+  "id" : "0103",
+  "description" : "Processing ID",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.21"
+}, {
+  "id" : "0104",
+  "description" : "Version ID",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.22"
+}, {
+  "id" : "0105",
+  "description" : "Source of Comment",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.23"
+}, {
+  "id" : "0110",
+  "description" : "Transfer to Bad Debt Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.3.28"
+}, {
+  "id" : "0111",
+  "description" : "Delete Account Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.3.33"
+}, {
+  "id" : "0112",
+  "description" : "Discharge Disposition",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.3.35"
+}, {
+  "id" : "0113",
+  "description" : "Discharged to Location",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.24"
+}, {
+  "id" : "0114",
+  "description" : "Diet Type",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.3.37"
+}, {
+  "id" : "0115",
+  "description" : "Servicing Facility",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.3.38"
+}, {
+  "id" : "0116",
+  "description" : "Bed Status",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.9.1"
+}, {
+  "id" : "0117",
+  "description" : "Account Status",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.3.40"
+}, {
+  "id" : "0118",
+  "description" : "Major Diagnostic Category",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.25"
+}, {
+  "id" : "0119",
+  "description" : "Order Control Codes",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.26"
+}, {
+  "id" : "0121",
+  "description" : "Response Flag",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.27"
+}, {
+  "id" : "0122",
+  "description" : "Charge Type",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.28"
+}, {
+  "id" : "0123",
+  "description" : "Result Status",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.29"
+}, {
+  "id" : "0124",
+  "description" : "Transportation Mode",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.30"
+}, {
+  "id" : "0125",
+  "description" : "Value Type",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.31"
+}, {
+  "id" : "0126",
+  "description" : "Quantity Limited Request",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.32"
+}, {
+  "id" : "0127",
+  "description" : "Allergen Type",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.6.1"
+}, {
+  "id" : "0128",
+  "description" : "Allergy Severity",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.6.3"
+}, {
+  "id" : "0129",
+  "description" : "Accommodation Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.33"
+}, {
+  "id" : "0130",
+  "description" : "Visit User Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.4.6"
+}, {
+  "id" : "0131",
+  "description" : "Contact Role",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.34"
+}, {
+  "id" : "0132",
+  "description" : "Transaction Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.1.6"
+}, {
+  "id" : "0135",
+  "description" : "Assignment of Benefits",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.6.19"
+}, {
+  "id" : "0136",
+  "description" : "Yes/no Indicator",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.35"
+}, {
+  "id" : "0137",
+  "description" : "Mail Claim Party",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.7.4"
+}, {
+  "id" : "0139",
+  "description" : "Employer Information Data",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.7.3"
+}, {
+  "id" : "0140",
+  "description" : "Military Service",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.11.18"
+}, {
+  "id" : "0141",
+  "description" : "Military Rank/Grade",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.11.19"
+}, {
+  "id" : "0142",
+  "description" : "Military Status",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.11.20"
+}, {
+  "id" : "0143",
+  "description" : "Non-covered Insurance Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.7.23"
+}, {
+  "id" : "0144",
+  "description" : "Eligibility Source",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.7.26"
+}, {
+  "id" : "0145",
+  "description" : "Room Type",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.36"
+}, {
+  "id" : "0146",
+  "description" : "Amount Type",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.37"
+}, {
+  "id" : "0147",
+  "description" : "Policy Type",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.38"
+}, {
+  "id" : "0148",
+  "description" : "Money or Percentage Indicator",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.39"
+}, {
+  "id" : "0149",
+  "description" : "Day Type",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.40"
+}, {
+  "id" : "0150",
+  "description" : "Certification Patient Type",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.41"
+}, {
+  "id" : "0151",
+  "description" : "Second Opinion Status",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.8.22"
+}, {
+  "id" : "0152",
+  "description" : "Second Opinion Documentation Received",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.8.23"
+}, {
+  "id" : "0153",
+  "description" : "Value Code",
+  "type" : "#FIXME#",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.42"
+}, {
+  "id" : "0155",
+  "description" : "Accept/Application Acknowledgment Conditions",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.43"
+}, {
+  "id" : "0159",
+  "description" : "Diet Code Specification Type",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.44"
+}, {
+  "id" : "0160",
+  "description" : "Tray Type",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.45"
+}, {
+  "id" : "0161",
+  "description" : "Allow Substitution",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.46"
+}, {
+  "id" : "0162",
+  "description" : "Route of Administration",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.47"
+}, {
+  "id" : "0163",
+  "description" : "Body Site",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.48"
+}, {
+  "id" : "0164",
+  "description" : "Administration Device",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.49"
+}, {
+  "id" : "0165",
+  "description" : "Administration Method",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.50"
+}, {
+  "id" : "0166",
+  "description" : "RX Component Type",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.51"
+}, {
+  "id" : "0167",
+  "description" : "Substitution Status",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.52"
+}, {
+  "id" : "0168",
+  "description" : "Processing Priority",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.53"
+}, {
+  "id" : "0169",
+  "description" : "Reporting Priority",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.54"
+}, {
+  "id" : "0170",
+  "description" : "Derived Specimen",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.55"
+}, {
+  "id" : "0171",
+  "description" : "Citizenship",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.2.25"
+}, {
+  "id" : "0172",
+  "description" : "Veterans Military Status",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.2.26"
+}, {
+  "id" : "0173",
+  "description" : "Coordination of Benefits",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.6.20"
+}, {
+  "id" : "0174",
+  "description" : "Nature of Service/Test/Observation",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.56"
+}, {
+  "id" : "0175",
+  "description" : "Master File Identifier Code",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.57"
+}, {
+  "id" : "0177",
+  "description" : "Confidentiality Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.58"
+}, {
+  "id" : "0178",
+  "description" : "File Level Event Code",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.59"
+}, {
+  "id" : "0179",
+  "description" : "Response Level",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.60"
+}, {
+  "id" : "0180",
+  "description" : "Record-level Event Code",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.61"
+}, {
+  "id" : "0181",
+  "description" : "MFN Record-level Error Return",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.62"
+}, {
+  "id" : "0182",
+  "description" : "Staff type",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "15.4.8.4"
+}, {
+  "id" : "0183",
+  "description" : "Active/Inactive",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "15.4.8.7"
+}, {
+  "id" : "0184",
+  "description" : "Department",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "15.4.8.8"
+}, {
+  "id" : "0185",
+  "description" : "Preferred Method of Contact",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.63"
+}, {
+  "id" : "0186",
+  "description" : "Practitioner Category",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "15.4.6.3"
+}, {
+  "id" : "0187",
+  "description" : "Provider Billing",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "15.4.6.4"
+}, {
+  "id" : "0188",
+  "description" : "Operator ID",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.1.4"
+}, {
+  "id" : "0189",
+  "description" : "Ethnic Group",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.64"
+}, {
+  "id" : "0190",
+  "description" : "Address Type",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.65"
+}, {
+  "id" : "0191",
+  "description" : "Type of Referenced Data",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.66"
+}, {
+  "id" : "0193",
+  "description" : "Amount Class",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.67"
+}, {
+  "id" : "0200",
+  "description" : "Name Type",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.68"
+}, {
+  "id" : "0201",
+  "description" : "Telecommunication Use Code",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.69"
+}, {
+  "id" : "0202",
+  "description" : "Telecommunication Equipment Type",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.70"
+}, {
+  "id" : "0203",
+  "description" : "Identifier Type",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.71"
+}, {
+  "id" : "0204",
+  "description" : "Organizational Name Type",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.72"
+}, {
+  "id" : "0205",
+  "description" : "Price Type",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.73"
+}, {
+  "id" : "0206",
+  "description" : "Segment action code",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.10.4.1"
+}, {
+  "id" : "0207",
+  "description" : "Processing Mode",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.75"
+}, {
+  "id" : "0208",
+  "description" : "Query Response Status",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.76"
+}, {
+  "id" : "0209",
+  "description" : "Relational Operator",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.77"
+}, {
+  "id" : "0210",
+  "description" : "Relational Conjunction",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.78"
+}, {
+  "id" : "0211",
+  "description" : "Alternate Character Sets",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.79"
+}, {
+  "id" : "0212",
+  "description" : "Nationality",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.80"
+}, {
+  "id" : "0213",
+  "description" : "Purge Status Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.4.15"
+}, {
+  "id" : "0214",
+  "description" : "Special Program Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.4.17"
+}, {
+  "id" : "0215",
+  "description" : "Publicity Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.4.20"
+}, {
+  "id" : "0216",
+  "description" : "Patient Status Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.4.23"
+}, {
+  "id" : "0217",
+  "description" : "Visit Priority Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.4.24"
+}, {
+  "id" : "0218",
+  "description" : "Patient Charge Adjustment",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.5.25"
+}, {
+  "id" : "0219",
+  "description" : "Recurring Service Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.4.30"
+}, {
+  "id" : "0220",
+  "description" : "Living Arrangement",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.5.20"
+}, {
+  "id" : "0222",
+  "description" : "Contact Reason",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.5.46"
+}, {
+  "id" : "0223",
+  "description" : "Living Dependency",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.5.16"
+}, {
+  "id" : "0224",
+  "description" : "Transport Arranged",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.81"
+}, {
+  "id" : "0225",
+  "description" : "Escort Required",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.82"
+}, {
+  "id" : "0227",
+  "description" : "Manufacturers of Vaccines (code=MVX)",
+  "type" : "#FIXME#",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.83"
+}, {
+  "id" : "0228",
+  "description" : "Diagnosis Classification",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.2.16"
+}, {
+  "id" : "0229",
+  "description" : "DRG Payor",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.3.7"
+}, {
+  "id" : "0230",
+  "description" : "Procedure Functional Type",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.4.5"
+}, {
+  "id" : "0231",
+  "description" : "Student Status",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.5.39"
+}, {
+  "id" : "0232",
+  "description" : "Insurance Company Contact Reason",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.7.56"
+}, {
+  "id" : "0233",
+  "description" : "Non-Concur Code/Description",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.8.11"
+}, {
+  "id" : "0234",
+  "description" : "Report Timing",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.84"
+}, {
+  "id" : "0235",
+  "description" : "Report Source",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.85"
+}, {
+  "id" : "0236",
+  "description" : "Event Reported To",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.86"
+}, {
+  "id" : "0237",
+  "description" : "Event Qualification",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.87"
+}, {
+  "id" : "0238",
+  "description" : "Event Seriousness",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.88"
+}, {
+  "id" : "0239",
+  "description" : "Event Expected",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.89"
+}, {
+  "id" : "0240",
+  "description" : "Event Consequence",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.90"
+}, {
+  "id" : "0241",
+  "description" : "Patient Outcome",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.91"
+}, {
+  "id" : "0242",
+  "description" : "Primary Observer's Qualification",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.92"
+}, {
+  "id" : "0243",
+  "description" : "Identity May Be Divulged",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.93"
+}, {
+  "id" : "0244",
+  "description" : "Single Use Device",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.94"
+}, {
+  "id" : "0245",
+  "description" : "Product Problem",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.95"
+}, {
+  "id" : "0246",
+  "description" : "Product Available for Inspection",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.96"
+}, {
+  "id" : "0247",
+  "description" : "Status of Evaluation",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.97"
+}, {
+  "id" : "0248",
+  "description" : "Product Source",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.98"
+}, {
+  "id" : "0249",
+  "description" : "Generic Product",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.99"
+}, {
+  "id" : "0250",
+  "description" : "Relatedness Assessment",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.100"
+}, {
+  "id" : "0251",
+  "description" : "Action Taken in Response to the Event",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.101"
+}, {
+  "id" : "0252",
+  "description" : "Causality Observations",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.102"
+}, {
+  "id" : "0253",
+  "description" : "Indirect Exposure Mechanism",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.103"
+}, {
+  "id" : "0254",
+  "description" : "Kind of Quantity",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.104"
+}, {
+  "id" : "0255",
+  "description" : "Duration Categories",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.105"
+}, {
+  "id" : "0256",
+  "description" : "Time Delay Post Challenge",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.106"
+}, {
+  "id" : "0257",
+  "description" : "Nature of Challenge",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.107"
+}, {
+  "id" : "0258",
+  "description" : "Relationship Modifier",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.108"
+}, {
+  "id" : "0259",
+  "description" : "Modality",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.109"
+}, {
+  "id" : "0260",
+  "description" : "Patient Location Type",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.110"
+}, {
+  "id" : "0261",
+  "description" : "Location Equipment",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.111"
+}, {
+  "id" : "0262",
+  "description" : "Privacy Level",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.112"
+}, {
+  "id" : "0263",
+  "description" : "Level of Care",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.113"
+}, {
+  "id" : "0264",
+  "description" : "Location Department",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.114"
+}, {
+  "id" : "0265",
+  "description" : "Specialty Type",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.115"
+}, {
+  "id" : "0267",
+  "description" : "Days of the Week",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.116"
+}, {
+  "id" : "0268",
+  "description" : "Override",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.117"
+}, {
+  "id" : "0269",
+  "description" : "Charge On Indicator",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.118"
+}, {
+  "id" : "0270",
+  "description" : "Document Type",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.119"
+}, {
+  "id" : "0271",
+  "description" : "Document Completion Status",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.120"
+}, {
+  "id" : "0272",
+  "description" : "Document Confidentiality Status",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.121"
+}, {
+  "id" : "0273",
+  "description" : "Document Availability Status",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.122"
+}, {
+  "id" : "0275",
+  "description" : "Document Storage Status",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.123"
+}, {
+  "id" : "0276",
+  "description" : "Appointment reason codes",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "10.6.1.6"
+}, {
+  "id" : "0277",
+  "description" : "Appointment Type Codes",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "10.6.1.7"
+}, {
+  "id" : "0278",
+  "description" : "Filler status codes",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "10.6.2.24"
+}, {
+  "id" : "0279",
+  "description" : "Allow Substitution Codes",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "10.6.4.8"
+}, {
+  "id" : "0280",
+  "description" : "Referral Priority",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.124"
+}, {
+  "id" : "0281",
+  "description" : "Referral Type",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.125"
+}, {
+  "id" : "0282",
+  "description" : "Referral Disposition",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.126"
+}, {
+  "id" : "0283",
+  "description" : "Referral Status",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.127"
+}, {
+  "id" : "0284",
+  "description" : "Referral Category",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.128"
+}, {
+  "id" : "0285",
+  "description" : "Insurance Company ID Codes",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.129"
+}, {
+  "id" : "0286",
+  "description" : "Provider Role",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.130"
+}, {
+  "id" : "0287",
+  "description" : "Problem/Goal Action Code",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.131"
+}, {
+  "id" : "0288",
+  "description" : "Census Tract",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.132"
+}, {
+  "id" : "0289",
+  "description" : "County/Parish",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.133"
+}, {
+  "id" : "0291",
+  "description" : "Subtype of Referenced Data",
+  "type" : "#FIXME#",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.134"
+}, {
+  "id" : "0292",
+  "description" : "Vaccines Administered (code = CVX) (parenteral, unless oral is noted)",
+  "type" : "#FIXME#",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.135"
+}, {
+  "id" : "0293",
+  "description" : "Billing Category",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.136"
+}, {
+  "id" : "0294",
+  "description" : "Time Selection Criteria Parameter Class Codes",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.137"
+}, {
+  "id" : "0295",
+  "description" : "Handicap",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.5.35"
+}, {
+  "id" : "0296",
+  "description" : "Primary Language",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.138"
+}, {
+  "id" : "0297",
+  "description" : "CN ID Source",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.139"
+}, {
+  "id" : "0298",
+  "description" : "CP Range Type",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.140"
+}, {
+  "id" : "0299",
+  "description" : "Encoding",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.141"
+}, {
+  "id" : "0300",
+  "description" : "Namespace ID",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.142"
+}, {
+  "id" : "0301",
+  "description" : "Universal ID Type",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.143"
+}, {
+  "id" : "0302",
+  "description" : "Point of Care",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.144"
+}, {
+  "id" : "0303",
+  "description" : "Room",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.145"
+}, {
+  "id" : "0304",
+  "description" : "Bed",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.146"
+}, {
+  "id" : "0305",
+  "description" : "Person Location Type",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.147"
+}, {
+  "id" : "0306",
+  "description" : "Location Status",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.148"
+}, {
+  "id" : "0307",
+  "description" : "Building",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.149"
+}, {
+  "id" : "0308",
+  "description" : "Floor",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.150"
+}, {
+  "id" : "0309",
+  "description" : "Coverage Type",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.6.46"
+}, {
+  "id" : "0311",
+  "description" : "Job Status",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.5.33"
+}, {
+  "id" : "0312",
+  "description" : "Policy Scope",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.7.58"
+}, {
+  "id" : "0313",
+  "description" : "Policy Source",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.7.59"
+}, {
+  "id" : "0315",
+  "description" : "Living Will Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.4.42"
+}, {
+  "id" : "0316",
+  "description" : "Organ Donor Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.4.43"
+}, {
+  "id" : "0317",
+  "description" : "Annotations",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.151"
+}, {
+  "id" : "0319",
+  "description" : "Department Cost Center",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.152"
+}, {
+  "id" : "0320",
+  "description" : "Item Natural Account Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.153"
+}, {
+  "id" : "0321",
+  "description" : "Dispense Method",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.154"
+}, {
+  "id" : "0322",
+  "description" : "Completion Status",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.155"
+}, {
+  "id" : "0324",
+  "description" : "Location Characteristic ID",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.156"
+}, {
+  "id" : "0325",
+  "description" : "Location Relationship ID",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.157"
+}, {
+  "id" : "0326",
+  "description" : "Visit Indicator",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.3.50"
+}, {
+  "id" : "0327",
+  "description" : "Job Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.158"
+}, {
+  "id" : "0328",
+  "description" : "Employee Classification",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.159"
+}, {
+  "id" : "0329",
+  "description" : "Quantity Method",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.160"
+}, {
+  "id" : "0330",
+  "description" : "Marketing Basis",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.161"
+}, {
+  "id" : "0331",
+  "description" : "Facility Type",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.162"
+}, {
+  "id" : "0332",
+  "description" : "Source Type",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.163"
+}, {
+  "id" : "0333",
+  "description" : "Driver's License Issuing Authority",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.164"
+}, {
+  "id" : "0334",
+  "description" : "Disabled Person Code  \t",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.12.1"
+}, {
+  "id" : "0335",
+  "description" : "Repeat Pattern",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.165"
+}, {
+  "id" : "0336",
+  "description" : "Referral Reason",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.166"
+}, {
+  "id" : "0337",
+  "description" : "Certification Status",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.167"
+}, {
+  "id" : "0338",
+  "description" : "Practitioner ID Number Type",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.168"
+}, {
+  "id" : "0339",
+  "description" : "Advanced Beneficiary Notice Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.169"
+}, {
+  "id" : "0340",
+  "description" : "Procedure Code Modifier",
+  "type" : "#FIXME#",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.170"
+}, {
+  "id" : "0341",
+  "description" : "Guarantor Credit Rating Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.5.22"
+}, {
+  "id" : "0342",
+  "description" : "Military Recipient",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.7.10"
+}, {
+  "id" : "0343",
+  "description" : "Military Handicapped Program Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.7.64"
+}, {
+  "id" : "0344",
+  "description" : "Patient's Relationship to Insured",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.7.71"
+}, {
+  "id" : "0345",
+  "description" : "Appeal Reason",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.8.16"
+}, {
+  "id" : "0346",
+  "description" : "Certification Agency",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.8.17"
+}, {
+  "id" : "0347",
+  "description" : "State/Province",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.171"
+}, {
+  "id" : "0350",
+  "description" : "Occurrence Code",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.172"
+}, {
+  "id" : "0351",
+  "description" : "Occurrence Span",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.173"
+}, {
+  "id" : "0353",
+  "description" : "CWE statuses",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.A.13.1"
+}, {
+  "id" : "0354",
+  "description" : "Message Structure",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.175"
+}, {
+  "id" : "0355",
+  "description" : "Primary Key Value Type",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.176"
+}, {
+  "id" : "0356",
+  "description" : "Alternate Character Set Handling Scheme",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.177"
+}, {
+  "id" : "0357",
+  "description" : "Message Error Condition Codes",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.178"
+}, {
+  "id" : "0358",
+  "description" : "Practitioner Group",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "15.4.6.2"
+}, {
+  "id" : "0359",
+  "description" : "Diagnosis Priority",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.2.14"
+}, {
+  "id" : "0360",
+  "description" : "Degree/License/Certificate",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.179"
+}, {
+  "id" : "0361",
+  "description" : "Application",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.180"
+}, {
+  "id" : "0362",
+  "description" : "Facility",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.181"
+}, {
+  "id" : "0363",
+  "description" : "Assigning Authority",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.182"
+}, {
+  "id" : "0364",
+  "description" : "Comment Type",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.183"
+}, {
+  "id" : "0365",
+  "description" : "Equipment State",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.184"
+}, {
+  "id" : "0366",
+  "description" : "Local/Remote Control State",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.185"
+}, {
+  "id" : "0367",
+  "description" : "Alert Level",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.186"
+}, {
+  "id" : "0368",
+  "description" : "Remote Control Command",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.187"
+}, {
+  "id" : "0369",
+  "description" : "Specimen Role",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.188"
+}, {
+  "id" : "0370",
+  "description" : "Container Status",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.189"
+}, {
+  "id" : "0371",
+  "description" : "Additive/Preservative",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.190"
+}, {
+  "id" : "0372",
+  "description" : "Specimen Component",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.191"
+}, {
+  "id" : "0373",
+  "description" : "Treatment",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.192"
+}, {
+  "id" : "0374",
+  "description" : "System Induced Contaminants",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.193"
+}, {
+  "id" : "0375",
+  "description" : "Artificial Blood",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.194"
+}, {
+  "id" : "0376",
+  "description" : "Special Handling Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.195"
+}, {
+  "id" : "0377",
+  "description" : "Other Environmental Factors",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.196"
+}, {
+  "id" : "0378",
+  "description" : "Carrier Type",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.197"
+}, {
+  "id" : "0379",
+  "description" : "Tray Type",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.198"
+}, {
+  "id" : "0380",
+  "description" : "Separator Type",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.199"
+}, {
+  "id" : "0381",
+  "description" : "Cap Type",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.200"
+}, {
+  "id" : "0382",
+  "description" : "Drug Interference",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.201"
+}, {
+  "id" : "0383",
+  "description" : "Substance Status",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.202"
+}, {
+  "id" : "0384",
+  "description" : "Substance Type",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.203"
+}, {
+  "id" : "0385",
+  "description" : "Manufacturer Identifier",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.204"
+}, {
+  "id" : "0386",
+  "description" : "Supplier Identifier",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.205"
+}, {
+  "id" : "0387",
+  "description" : "Command Response",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.206"
+}, {
+  "id" : "0388",
+  "description" : "Processing Type",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.207"
+}, {
+  "id" : "0389",
+  "description" : "Analyte Repeat Status",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.208"
+}, {
+  "id" : "0391",
+  "description" : "Segment Group",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.209"
+}, {
+  "id" : "0392",
+  "description" : "Match Reason",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.210"
+}, {
+  "id" : "0393",
+  "description" : "Match Algorithms",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.211"
+}, {
+  "id" : "0394",
+  "description" : "Response Modality",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.212"
+}, {
+  "id" : "0395",
+  "description" : "Modify Indicator",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.213"
+}, {
+  "id" : "0396",
+  "description" : "Coding System",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.214"
+}, {
+  "id" : "0397",
+  "description" : "Sequencing",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.215"
+}, {
+  "id" : "0398",
+  "description" : "Continuation Style Code",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.216"
+}, {
+  "id" : "0399",
+  "description" : "Country Code",
+  "type" : "#FIXME#",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.316"
+}, {
+  "id" : "0401",
+  "description" : "Government Reimbursement Program",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "15.4.6.11"
+}, {
+  "id" : "0402",
+  "description" : "School Type",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "15.4.3.7"
+}, {
+  "id" : "0403",
+  "description" : "Language Ability",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "15.4.4.3"
+}, {
+  "id" : "0404",
+  "description" : "Language Proficiency",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "15.4.4.4"
+}, {
+  "id" : "0405",
+  "description" : "Organization Unit",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "15.4.5.2"
+}, {
+  "id" : "0406",
+  "description" : "Organization Unit Type",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.217"
+}, {
+  "id" : "0409",
+  "description" : "Application Change Type",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.218"
+}, {
+  "id" : "0411",
+  "description" : "Supplemental Service Information Values",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.219"
+}, {
+  "id" : "0412",
+  "description" : "Category Identifier",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.220"
+}, {
+  "id" : "0413",
+  "description" : "Consent Identifier",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.221"
+}, {
+  "id" : "0414",
+  "description" : "Units of Time",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.222"
+}, {
+  "id" : "0415",
+  "description" : "DRG Transfer Type",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.3.10"
+}, {
+  "id" : "0416",
+  "description" : "Procedure DRG Type",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.4.16"
+}, {
+  "id" : "0417",
+  "description" : "Tissue Type Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.4.17"
+}, {
+  "id" : "0418",
+  "description" : "Procedure Priority",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.4.13"
+}, {
+  "id" : "0421",
+  "description" : "Severity of Illness Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.12.2"
+}, {
+  "id" : "0422",
+  "description" : "Triage Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.12.5"
+}, {
+  "id" : "0423",
+  "description" : "Case Category Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.12.8"
+}, {
+  "id" : "0424",
+  "description" : "Gestation Category Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.12.10"
+}, {
+  "id" : "0425",
+  "description" : "Newborn Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.12.12"
+}, {
+  "id" : "0426",
+  "description" : "Blood Product Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.13.0"
+}, {
+  "id" : "0427",
+  "description" : "Risk Management Incident Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.14.0"
+}, {
+  "id" : "0428",
+  "description" : "Incident Type Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.14.2"
+}, {
+  "id" : "0429",
+  "description" : "Production Class Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.2.37"
+}, {
+  "id" : "0430",
+  "description" : "Mode of Arrival Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.4.37"
+}, {
+  "id" : "0431",
+  "description" : "Recreational Drug Use Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.4.38"
+}, {
+  "id" : "0432",
+  "description" : "Admission Level of Care Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.4.39"
+}, {
+  "id" : "0433",
+  "description" : "Precaution Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.4.40"
+}, {
+  "id" : "0434",
+  "description" : "Patient Condition Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.4.41"
+}, {
+  "id" : "0435",
+  "description" : "Advance Directive Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.4.44"
+}, {
+  "id" : "0436",
+  "description" : "Sensitivity to Causative Agent Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.7.8"
+}, {
+  "id" : "0437",
+  "description" : "Alert Device Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.7.15"
+}, {
+  "id" : "0438",
+  "description" : "Allergy Clinical Status",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.7.16"
+}, {
+  "id" : "0440",
+  "description" : "Data Types",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.223"
+}, {
+  "id" : "0441",
+  "description" : "Immunization Registry Status",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.11.15"
+}, {
+  "id" : "0442",
+  "description" : "Location Service Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.224"
+}, {
+  "id" : "0443",
+  "description" : "Provider Role",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.225"
+}, {
+  "id" : "0444",
+  "description" : "Name Assembly Order",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.226"
+}, {
+  "id" : "0445",
+  "description" : "Identity Reliability Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.2.31"
+}, {
+  "id" : "0446",
+  "description" : "Species Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.2.34"
+}, {
+  "id" : "0447",
+  "description" : "Breed Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.2.35"
+}, {
+  "id" : "0448",
+  "description" : "Name Context",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.227"
+}, {
+  "id" : "0450",
+  "description" : "Event Type",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.228"
+}, {
+  "id" : "0451",
+  "description" : "Substance Identifier",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.229"
+}, {
+  "id" : "0452",
+  "description" : "Health Care Provider Type Code",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "15.4.5.6"
+}, {
+  "id" : "0453",
+  "description" : "Health Care Provider Classification",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "15.4.5.7"
+}, {
+  "id" : "0454",
+  "description" : "Health Care Provider Area of Specialization",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "15.4.5.8"
+}, {
+  "id" : "0455",
+  "description" : "Type of Bill Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.15.0"
+}, {
+  "id" : "0456",
+  "description" : "Revenue code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.15.1"
+}, {
+  "id" : "0457",
+  "description" : "Overall Claim Disposition Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.15.2"
+}, {
+  "id" : "0458",
+  "description" : "OCE Edit Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.15.3"
+}, {
+  "id" : "0459",
+  "description" : "Reimbursement Action Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.16.3"
+}, {
+  "id" : "0460",
+  "description" : "Denial or Rejection Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.16.4"
+}, {
+  "id" : "0461",
+  "description" : "License Number",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.230"
+}, {
+  "id" : "0462",
+  "description" : "Location Cost Center",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.231"
+}, {
+  "id" : "0463",
+  "description" : "Inventory Number",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.232"
+}, {
+  "id" : "0464",
+  "description" : "Facility ID",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.233"
+}, {
+  "id" : "0465",
+  "description" : "Name/Address Representation",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.234"
+}, {
+  "id" : "0466",
+  "description" : "Ambulatory Payment Classification Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.16.6"
+}, {
+  "id" : "0467",
+  "description" : "Modifier Edit Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.16.7"
+}, {
+  "id" : "0468",
+  "description" : "Payment Adjustment Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.16.8"
+}, {
+  "id" : "0469",
+  "description" : "Packaging Status Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.16.9"
+}, {
+  "id" : "0470",
+  "description" : "Reimbursement Type Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.16.11"
+}, {
+  "id" : "0471",
+  "description" : "Query Name",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.235"
+}, {
+  "id" : "0472",
+  "description" : "TQ Conjunction ID",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.236"
+}, {
+  "id" : "0473",
+  "description" : "Formulary Status",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.237"
+}, {
+  "id" : "0474",
+  "description" : "Organization Unit Type",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "15.4.5.3"
+}, {
+  "id" : "0475",
+  "description" : "Charge Type Reason",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.238"
+}, {
+  "id" : "0476",
+  "description" : "Medically Necessary Duplicate Procedure Reason",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.239"
+}, {
+  "id" : "0477",
+  "description" : "Controlled Substance Schedule*",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.240"
+}, {
+  "id" : "0478",
+  "description" : "Formulary Status",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.241"
+}, {
+  "id" : "0479",
+  "description" : "Pharmaceutical Substances",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.242"
+}, {
+  "id" : "0480",
+  "description" : "Pharmacy Order Types",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.243"
+}, {
+  "id" : "0482",
+  "description" : "Order Type",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.244"
+}, {
+  "id" : "0483",
+  "description" : "Authorization Mode",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.245"
+}, {
+  "id" : "0484",
+  "description" : "Dispense Type",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.246"
+}, {
+  "id" : "0485",
+  "description" : "Extended Priority Codes",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.247"
+}, {
+  "id" : "0487",
+  "description" : "Specimen Type",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.248"
+}, {
+  "id" : "0488",
+  "description" : "Specimen Collection Method",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.249"
+}, {
+  "id" : "0489",
+  "description" : "Risk Codes",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.250"
+}, {
+  "id" : "0490",
+  "description" : "Specimen Reject Reason",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.251"
+}, {
+  "id" : "0491",
+  "description" : "Specimen Quality",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.252"
+}, {
+  "id" : "0492",
+  "description" : "Specimen Appropriateness",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.253"
+}, {
+  "id" : "0493",
+  "description" : "Specimen Condition",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.254"
+}, {
+  "id" : "0494",
+  "description" : "Specimen Child Role",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.255"
+}, {
+  "id" : "0495",
+  "description" : "Body Site Modifier",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.256"
+}, {
+  "id" : "0496",
+  "description" : "Consent Type",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.257"
+}, {
+  "id" : "0497",
+  "description" : "Consent Mode",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.258"
+}, {
+  "id" : "0498",
+  "description" : "Consent Status",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.259"
+}, {
+  "id" : "0499",
+  "description" : "Consent Bypass Reason",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.260"
+}, {
+  "id" : "0500",
+  "description" : "Consent Disclosure Level",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.261"
+}, {
+  "id" : "0501",
+  "description" : "Consent Non-Disclosure Reason",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.262"
+}, {
+  "id" : "0502",
+  "description" : "Non-Subject Consenter Reason",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.263"
+}, {
+  "id" : "0503",
+  "description" : "Sequence/Results Flag",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.264"
+}, {
+  "id" : "0504",
+  "description" : "Sequence Condition Code",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.265"
+}, {
+  "id" : "0505",
+  "description" : "Cyclic Entry/Exit Indicator",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.266"
+}, {
+  "id" : "0506",
+  "description" : "Service Request Relationship",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.267"
+}, {
+  "id" : "0507",
+  "description" : "Observation Result Handling",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.268"
+}, {
+  "id" : "0508",
+  "description" : "Blood Product Processing Requirements",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.269"
+}, {
+  "id" : "0509",
+  "description" : "Indication for Use",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.270"
+}, {
+  "id" : "0510",
+  "description" : "Blood Product Dispense Status",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.271"
+}, {
+  "id" : "0511",
+  "description" : "BP Observation Status Codes Interpretation",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.272"
+}, {
+  "id" : "0512",
+  "description" : "Commercial Product",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.273"
+}, {
+  "id" : "0513",
+  "description" : "Blood Product Transfusion/Disposition Status",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.274"
+}, {
+  "id" : "0514",
+  "description" : "Transfusion Adverse Reaction",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.275"
+}, {
+  "id" : "0515",
+  "description" : "Transfusion Interrupted Reason",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.276"
+}, {
+  "id" : "0516",
+  "description" : "Error Severity",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.277"
+}, {
+  "id" : "0517",
+  "description" : "Inform Person Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.278"
+}, {
+  "id" : "0518",
+  "description" : "Override Type",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.279"
+}, {
+  "id" : "0519",
+  "description" : "Override Reason",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.280"
+}, {
+  "id" : "0520",
+  "description" : "Message Waiting Priority",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.281"
+}, {
+  "id" : "0521",
+  "description" : "Override Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.282"
+}, {
+  "id" : "0523",
+  "description" : "Computation Type",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.283"
+}, {
+  "id" : "0525",
+  "description" : "Privilege",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.284"
+}, {
+  "id" : "0526",
+  "description" : "Privilege Class",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.285"
+}, {
+  "id" : "0527",
+  "description" : "Calendar Alignment",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.286"
+}, {
+  "id" : "0528",
+  "description" : "Event Related Period",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.287"
+}, {
+  "id" : "0530",
+  "description" : "Organization, Agency, Department",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.288"
+}, {
+  "id" : "0531",
+  "description" : "Institution",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.289"
+}, {
+  "id" : "0532",
+  "description" : "Expanded Yes/no Indicator",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.290"
+}, {
+  "id" : "0533",
+  "description" : "Application Error Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.291"
+}, {
+  "id" : "0534",
+  "description" : "Notify Clergy Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.4.48"
+}, {
+  "id" : "0535",
+  "description" : "Signature Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.6.49"
+}, {
+  "id" : "0536",
+  "description" : "Certificate Status",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "15.4.2.31"
+}, {
+  "id" : "0537",
+  "description" : "Institution",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "15.4.6.9"
+}, {
+  "id" : "0538",
+  "description" : "Institution Relationship Type",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "15.4.8.33"
+}, {
+  "id" : "0539",
+  "description" : "Cost Center Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "15.4.8.36"
+}, {
+  "id" : "0540",
+  "description" : "Inactive Reason Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "15.4.8.38"
+}, {
+  "id" : "0541",
+  "description" : "Specimen Type Modifier",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.292"
+}, {
+  "id" : "0542",
+  "description" : "Specimen Source Type Modifier",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.293"
+}, {
+  "id" : "0543",
+  "description" : "Specimen Collection Site",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.294"
+}, {
+  "id" : "0544",
+  "description" : "Container Condition",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.295"
+}, {
+  "id" : "0547",
+  "description" : "Jurisdictional Breadth",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "15.4.2.22"
+}, {
+  "id" : "0548",
+  "description" : "Signatory's Relationship to Subject",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.296"
+}, {
+  "id" : "0549",
+  "description" : "NDC Codes",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.1.28"
+}, {
+  "id" : "0550",
+  "description" : "Body Parts",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.297"
+}, {
+  "id" : "0552",
+  "description" : "Advanced Beneficiary Notice Override Reason",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.298"
+}, {
+  "id" : "0553",
+  "description" : "Invoice Control Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "16.4.2.3"
+}, {
+  "id" : "0554",
+  "description" : "Invoice Reason Codes",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "16.4.2.4"
+}, {
+  "id" : "0555",
+  "description" : "Invoice Type",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.299"
+}, {
+  "id" : "0556",
+  "description" : "Benefit Group",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "16.4.2.24"
+}, {
+  "id" : "0557",
+  "description" : "Payee Type",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "16.4.3.1"
+}, {
+  "id" : "0558",
+  "description" : "Payee Relationship to Invoice",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "16.4.3.2"
+}, {
+  "id" : "0559",
+  "description" : "Product/Service Status",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "16.4.6.5"
+}, {
+  "id" : "0560",
+  "description" : "Quantity Units",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "16.4.7.5"
+}, {
+  "id" : "0561",
+  "description" : "Product/Services Clarification Codes",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "16.4.6.16"
+}, {
+  "id" : "0562",
+  "description" : "Processing Consideration Codes",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "16.4.6.19"
+}, {
+  "id" : "0564",
+  "description" : "Adjustment Category Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "16.4.7.3"
+}, {
+  "id" : "0565",
+  "description" : "Provider Adjustment Reason Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "16.4.7.6"
+}, {
+  "id" : "0569",
+  "description" : "Adjustment Action",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "16.4.7.10"
+}, {
+  "id" : "0570",
+  "description" : "Payment Method Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "16.4.8.3"
+}, {
+  "id" : "0571",
+  "description" : "Invoice Processing Results Status",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "16.4.9.3"
+}, {
+  "id" : "0572",
+  "description" : "Tax status",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "16.4.2.27"
+}, {
+  "id" : "0615",
+  "description" : "User Authentication Credential Type Code",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.300"
+}, {
+  "id" : "0616",
+  "description" : "Address Expiration Reason",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.301"
+}, {
+  "id" : "0617",
+  "description" : "Address Usage",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.302"
+}, {
+  "id" : "0618",
+  "description" : "Protection Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.303"
+}, {
+  "id" : "0625",
+  "description" : "Item Status Codes",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "17.4.7.5"
+}, {
+  "id" : "0634",
+  "description" : "Item Importance Codes",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "17.4.7.13"
+}, {
+  "id" : "0642",
+  "description" : "Reorder Theory Codes",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "17.4.7.20"
+}, {
+  "id" : "0651",
+  "description" : "Labor Calculation Type",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "17.7.1.1"
+}, {
+  "id" : "0653",
+  "description" : "Date Format",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "17.7.1.2"
+}, {
+  "id" : "0657",
+  "description" : "Device Type",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "17.7.1.6"
+}, {
+  "id" : "0659",
+  "description" : "Lot Control",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "17.7.1.7"
+}, {
+  "id" : "0667",
+  "description" : "Device Data State -",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "17.7.3.3"
+}, {
+  "id" : "0669",
+  "description" : "Load Status",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "17.7.3.4"
+}, {
+  "id" : "0682",
+  "description" : "Device Status-",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "17.7.4.9"
+}, {
+  "id" : "0702",
+  "description" : "Cycle Type-",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "17.7.4.27"
+}, {
+  "id" : "0717",
+  "description" : "Access Restriction Value",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.14.2"
+}, {
+  "id" : "0719",
+  "description" : "Access Restriction Reason Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "3.4.14.3"
+}, {
+  "id" : "0725",
+  "description" : "Mood Codes",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.304"
+}, {
+  "id" : "0728",
+  "description" : "CCL Value",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.2.22"
+}, {
+  "id" : "0731",
+  "description" : "DRG Diagnosis Determination Status",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.2.24"
+}, {
+  "id" : "0734",
+  "description" : "Grouper Status",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.3.12"
+}, {
+  "id" : "0739",
+  "description" : "Status Patient",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.3.16"
+}, {
+  "id" : "0742",
+  "description" : "DRG Status Financial Calculation",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.3.19"
+}, {
+  "id" : "0749",
+  "description" : "DRG Grouping Status",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.3.25"
+}, {
+  "id" : "0755",
+  "description" : "Status Weight At Birth",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.3.30"
+}, {
+  "id" : "0757",
+  "description" : "Status Respiration Minutes",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.3.31"
+}, {
+  "id" : "0759",
+  "description" : "Status Admission",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.3.32"
+}, {
+  "id" : "0761",
+  "description" : "DRG Procedure Determination Status",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.4.20"
+}, {
+  "id" : "0763",
+  "description" : "DRG Procedure Relevance",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.4.21"
+}, {
+  "id" : "0771",
+  "description" : "Resource Type or Category",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "15.4.8.39"
+}, {
+  "id" : "0776",
+  "description" : "Item Status",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "17.4.2.2"
+}, {
+  "id" : "0778",
+  "description" : "Item Type",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "17.4.2.3"
+}, {
+  "id" : "0790",
+  "description" : "Approving Regulatory Agency",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "17.4.2.15"
+}, {
+  "id" : "0793",
+  "description" : "Ruling Act",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "17.4.2.17"
+}, {
+  "id" : "0806",
+  "description" : "Sterilization Type",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "17.4.3.0"
+}, {
+  "id" : "0809",
+  "description" : "Maintenance Cycle",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "17.4.3.2"
+}, {
+  "id" : "0811",
+  "description" : "Maintenance Type",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "17.4.3.3"
+}, {
+  "id" : "0818",
+  "description" : "Package",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "17.4.5.1"
+}, {
+  "id" : "0834",
+  "description" : "MIME Types",
+  "type" : "#FIXME#",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.305"
+}, {
+  "id" : "0836",
+  "description" : "Problem Severity",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "12.4.2.25"
+}, {
+  "id" : "0838",
+  "description" : "Problem Perspective",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "12.4.2.26"
+}, {
+  "id" : "0865",
+  "description" : "Referral Documentation Completion Status",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.306"
+}, {
+  "id" : "0868",
+  "description" : "Telecommunication Expiration Reason",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.307"
+}, {
+  "id" : "0871",
+  "description" : "Supply Risk Codes",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "17.4.2.14"
+}, {
+  "id" : "0879",
+  "description" : "Product/Service Code",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "16.4.6.6"
+}, {
+  "id" : "0880",
+  "description" : "Product/Service Code Modifier",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "16.4.6.7"
+}, {
+  "id" : "0881",
+  "description" : "Role Executing Physician",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "16.4.6.30"
+}, {
+  "id" : "0882",
+  "description" : "Medical Role Executing Physician",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "16.4.6.31"
+}, {
+  "id" : "0894",
+  "description" : "Side of body",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "16.4.6.32"
+}, {
+  "id" : "0895",
+  "description" : "Present On Admission (POA) Indicator",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "6.5.2.25"
+}, {
+  "id" : "0904",
+  "description" : "Security Check Scheme",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.308"
+}, {
+  "id" : "0905",
+  "description" : "Shipment Status",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.309"
+}, {
+  "id" : "0906",
+  "description" : "ActPriority",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.310"
+}, {
+  "id" : "0907",
+  "description" : "Confidentiality",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.311"
+}, {
+  "id" : "0908",
+  "description" : "Package Type",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.312"
+}, {
+  "id" : "0909",
+  "description" : "Patient Results Release Categorization Scheme",
+  "type" : "HL7",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.313"
+}, {
+  "id" : "0910",
+  "description" : "Acquisition Modality",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.314"
+}, {
+  "id" : "0912",
+  "description" : "Participation",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.315"
+}, {
+  "id" : "0913",
+  "description" : "Monetary Denomination Code",
+  "type" : "#FIXME#",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.C.2.317"
+}, {
+  "id" : "9999",
+  "description" : "no table for CE",
+  "type" : "USER",
+  "oid" : "UNSPECIFIED",
+  "section" : "all"
+} ]
