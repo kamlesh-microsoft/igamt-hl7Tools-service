@@ -92,6 +92,7 @@ public class HL72JSONConverter implements Runnable {
 			versionDir.mkdir();
 		}
 
+		 log.info("For version=" + hl7Version);
 		 log.info("Doing MessageType...");
 		 Helper<MessageType> hlpMessageType = new Helper<MessageType>();
 		 List<MessageType> messageTypes =
