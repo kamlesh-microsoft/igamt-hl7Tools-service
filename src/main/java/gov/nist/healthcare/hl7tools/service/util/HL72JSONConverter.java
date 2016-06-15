@@ -76,6 +76,7 @@ public class HL72JSONConverter implements Runnable {
 			mapper.addMixInAnnotations(Field.class, FieldMixIn.class);
 			mapper.addMixInAnnotations(Code.class, CodeMixIn.class);
 			mapper.addMixInAnnotations(DataElement.class, DataElementMixIn.class);
+			mapper.addMixInAnnotations(Element.class, ElementMixIn.class);
 			mapper.addMixInAnnotations(Interaction.class, InteractionMixIn.class);
 		} catch (SQLException e) {
 			log.error("", e);
@@ -176,8 +177,20 @@ public class HL72JSONConverter implements Runnable {
 		Integer groupId = null;
 		int parentId = 1;
 		int state = 0;
+		boolean inBracket = false;
 
 		for (InterimElement ie : ies) {
+			if (ie.getGroupName() == null && ie.getSegmentId() == null) {
+				continue;
+			}
+			if ("<".equals(ie.getSegmentId()) || inBracket) {
+				inBracket = true;
+				continue;
+			}
+			if (">".equals(ie.getSegmentId())) {
+				inBracket = false;
+				continue;
+			}
 			String key = assembleGroupKey(ie);
 			Group group = grpByName.get(key);
 			if (group != null) {
@@ -215,7 +228,8 @@ public class HL72JSONConverter implements Runnable {
 				}
 			}
 			ie.setPosition(position++);
-			rval.add((Element) ie);
+			Element el = (Element) ie;
+			rval.add(el);
 //			log.trace("1 ie key=" + key);
 //			log.trace("1 ie id=" + ie.getId());
 //			log.trace("1 ie parent=" + ie.getParentId());
@@ -238,7 +252,11 @@ public class HL72JSONConverter implements Runnable {
 					currentGroup = group.getName();
 				}
 				rval.add(group);
-				grpByName.put(assembleGroupKey(group), group);
+				String key = assembleGroupKey(group);
+				if(key.startsWith("DBC_")) {
+					log.debug("here");
+				}
+				grpByName.put(key, group);
 			}
 		}
 		return rval;
@@ -276,35 +294,6 @@ public class HL72JSONConverter implements Runnable {
 		}
 	}
 
-	class InterimElement extends Element {
-		String groupName;
-		String groupState;
-		String messageStucture;
-
-		public String getGroupName() {
-			return groupName;
-		}
-
-		public void setGroupName(String groupName) {
-			this.groupName = groupName;
-		}
-
-		public String getGroupState() {
-			return groupState;
-		}
-
-		public void setGroupState(String groupState) {
-			this.groupState = groupState;
-		}
-
-		public String getMessageStucture() {
-			return messageStucture;
-		}
-
-		public void setMessageStucture(String messageStucture) {
-			this.messageStucture = messageStucture;
-		}
-	}
 
 	public class GroupStacker {
 
@@ -366,13 +355,14 @@ public class HL72JSONConverter implements Runnable {
 
 	String SQL4_MESSAGE() {
 		StringBuilder bld = new StringBuilder();
-		bld.append("SELECT m.message_structure");
-		bld.append(" FROM hl7msgstructids m, hl7versions v");
-		bld.append(" WHERE m.version_id = v.version_id");
-		bld.append(" AND v.hl7_version = ");
+		bld.append("SELECT m.`message_structure`, m.`section`, e.`event_code`, e.`message_structure_snd`");
+		bld.append(" FROM hl7versions v INNER JOIN hl7msgstructids m ON v.version_id = m.version_id");
+		bld.append(" INNER JOIN hl7eventmessagetypes e ON v.`version_id` = e.`version_id`");
+		bld.append(" WHERE v.`hl7_version` = ");
 		bld.append("'");
 		bld.append(hl7Version);
 		bld.append("'");
+		bld.append(" AND m.`message_structure` = e.`message_structure_snd`");
 		bld.append(";");
 		return bld.toString();
 	}
@@ -382,6 +372,9 @@ public class HL72JSONConverter implements Runnable {
 		public Message mapRow(ResultSet rs, int rowNum) throws SQLException {
 			Message message = new Message();
 			message.setId(rs.getString("message_structure"));
+			message.setSection(rs.getString("section"));
+			message.setEvent_id(rs.getString("event_code"));
+			message.setMsg_type_id(rs.getString("message_structure_snd"));
 			return message;
 		}
 	};
@@ -396,7 +389,7 @@ public class HL72JSONConverter implements Runnable {
 		bld.append(hl7Version);
 		bld.append("'");
 		bld.append(" AND m.`version_id` = v.`version_id`");
-		bld.append(" AND (m.`seq_no` = 1 || length(m.`groupname`) > 0)");
+		bld.append(" AND (m.`seg_code` = 'MSH' || length(m.`groupname`) > 0)");
 		bld.append(" ORDER BY m.`message_structure`, m.`seq_no`");
 		bld.append(";");
 		String rval = bld.toString();
@@ -408,7 +401,7 @@ public class HL72JSONConverter implements Runnable {
 		public Group mapRow(ResultSet rs, int rowNum) throws SQLException {
 			Group grp = new Group();
 			grp.setId(++groupIncr);
-			grp.setRoot((rs.getInt("seq_no") == 1) ? true : false);
+			grp.setRoot(("MSH".equals(rs.getString("seg_code"))) ? true : false);
 			grp.setChoice((rs.getString("seg_code") == "<") ? true : false);
 			grp.setMessageId(rs.getString("message_structure"));
 			grp.setName((grp.isRoot() ? (rs.getString("message_structure") + ".ROOT") : rs.getString("groupname")));
@@ -462,7 +455,7 @@ public class HL72JSONConverter implements Runnable {
 			Field fld = new Field();
 			fld.setId(++fieldIncr);
 			fld.setSegmentId(rs.getString("seg_code"));
-			String s = "0" + Integer.toString(rs.getInt("data_item"));
+			String s = String.format("%05d", rs.getInt("data_item"));
 			fld.setDataElementId(s);
 			fld.setPosition(rs.getInt("seq_no"));
 			String s1 = rs.getString("req_opt").substring(0, 1);
@@ -570,7 +563,7 @@ public class HL72JSONConverter implements Runnable {
 	String SQL4_DATAELEMENT() {
 		StringBuilder bld = new StringBuilder();
 		bld.append(
-				"SELECT de.`data_item`, de.`description` , de.`min_length`, de.`max_length`, de.`conf_length`, de.`table_id`, de.`section`");
+				"SELECT de.`data_item`, de.`data_structure`, de.`description` , de.`min_length`, de.`max_length`, de.`conf_length`, de.`table_id`, de.`section`");
 		bld.append(" FROM hl7versions v");
 		bld.append(" INNER JOIN hl7dataelements de ON v.`version_id` = de.`version_id`");
 		bld.append(" WHERE v.`hl7_version` = ");
@@ -587,8 +580,9 @@ public class HL72JSONConverter implements Runnable {
 
 		public DataElement mapRow(ResultSet rs, int rowNum) throws SQLException {
 			DataElement de = new DataElement();
-			String s = String.format("%04d", rs.getInt("data_item"));
+			String s = String.format("%05d", rs.getInt("data_item"));
 			de.setId(s);
+			de.setDatatypeId(rs.getString("data_structure"));
 			de.setDescription(rs.getString("description"));
 			String min = rs.getString("min_length");
 			de.setMinLength(min != null && min.length() > 0 ? new Integer(min) : 0);
@@ -596,9 +590,9 @@ public class HL72JSONConverter implements Runnable {
 			de.setMaxLength(max != null && max.length() > 0 ? new Integer(max) : 0);
 			String conf = rs.getString("conf_length").replaceAll("[=#]", "");
 			String conf1 = conf.contains("..") ? conf.substring(conf.lastIndexOf(".") + 1) : conf;
-			de.setConfLength(conf1 != null && conf1.length() > 0 ? new Integer(conf1) : 0);
+			de.setConfLength(conf1 != null && conf1.length() > 0 ? new Integer(conf1) : -1);
 			String s1 = rs.getString("table_id");
-			String s2 = s1 == null ? s1 : String.format("%04d", new Integer(s1));
+			String s2 = "0".equals(s1) ? null : String.format("%04d", new Integer(s1));
 			de.setTableId(s2);
 			de.setSection(rs.getString("section"));
 			return de;
@@ -659,10 +653,10 @@ public class HL72JSONConverter implements Runnable {
 			String groupname = rs.getString("groupname");
 			el.setGroupName(groupname.trim().length() > 0 ? groupname : null);
 			String segCode = rs.getString("seg_code");
-			el.setSegmentId(segCode.contains("{") || segCode.contains("}") ? null : segCode);
+			el.setSegmentId(segCode.contains("{") || segCode.contains("}") || segCode.contains("[") || segCode.contains("]") ? null : segCode);
 			el.setGroupState(rs.getString("seg_code"));
-			el.setMin(rs.getString("optional") == "TRUE" ? 0 : 1);
-			el.setMax(rs.getString("repetitional") == "TRUE" ? "*" : "1");
+			el.setMin(rs.getBoolean("optional") == true ? 0 : 1);
+			el.setMax(rs.getBoolean("repetitional") == true ? "*" : "1");
 			el.setUsage(Usage.valueOf(rs.getString("modification")));
 			return el;
 		}

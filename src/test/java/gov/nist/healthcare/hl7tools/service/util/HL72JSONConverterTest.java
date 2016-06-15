@@ -18,6 +18,7 @@ import gov.nist.healthcare.hl7tools.service.util.mock.hl7.domain.Event;
 import gov.nist.healthcare.hl7tools.service.util.mock.hl7.domain.Field;
 import gov.nist.healthcare.hl7tools.service.util.mock.hl7.domain.Group;
 import gov.nist.healthcare.hl7tools.service.util.mock.hl7.domain.Interaction;
+import gov.nist.healthcare.hl7tools.service.util.mock.hl7.domain.Message;
 import gov.nist.healthcare.hl7tools.service.util.mock.hl7.domain.Segment;
 
 public class HL72JSONConverterTest {
@@ -35,9 +36,13 @@ public class HL72JSONConverterTest {
 		fail("Not yet implemented");
 	}
 
-//	@Test
+	@Test
 	public void testSQL4_MESSAGE() {
-		fail("Not yet implemented");
+		 String sql = sut.SQL4_MESSAGE();
+		 Helper<Message> hlpMessage = sut.new Helper<Message>();
+		 List<Message> messages = (hlpMessage.fetch(sql,
+		 sut.RM4_MESSAGE));
+		 hlpMessage.write(messages, "messages");
 	}
 
 //	@Test
@@ -104,7 +109,7 @@ public class HL72JSONConverterTest {
 		assertTrue(rs.size() > 0);
 	}
 
-	@Test
+//	@Test
 	public void testSQL4_INTERACTION() {
 		String sql = sut.SQL4_INTERACTION();
 		Helper<Interaction> hlp = sut.new Helper<Interaction>();
@@ -113,7 +118,7 @@ public class HL72JSONConverterTest {
 		assertTrue(rs.size() > 0);
 	}
 	
-	@Test
+//	@Test
 	public void testGroupStacker() {
 		GroupStacker gs = sut.new GroupStacker();
 		Group grp1 = new Group();

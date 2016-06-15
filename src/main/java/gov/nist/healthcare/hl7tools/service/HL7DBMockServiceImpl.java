@@ -11,7 +11,7 @@ import java.util.List;
 
 public class HL7DBMockServiceImpl implements HL7DBService {
 
-	private final List<String> supportedHL7Versions = Arrays.asList("2.7",
+	private final List<String> supportedHL7Versions = Arrays.asList("2.8.2", "2.8.1", "2.8", "2.7",
 			"2.6", "2.5.1", "2.5", "2.4", "2.3.1", "2.3", "2.2", "2.1");
 
 	@Override

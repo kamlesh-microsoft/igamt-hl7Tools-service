@@ -8,7 +8,7 @@ abstract class GroupMixIn {
 			@JsonProperty("is_choice") boolean isChoice,
 			@JsonProperty("message_id") String messageId
 			) {}
-	  @JsonProperty("is_root") abstract int isRoot(); // rename property
-	  @JsonProperty("is_choice") abstract int isChoice(); // rename property
-	  @JsonProperty("message_id") abstract int getMessageId(); // rename property
+	  @JsonProperty("is_root") abstract int isRoot();
+	  @JsonProperty("is_choice") abstract int isChoice();
+	  @JsonProperty("message_id") abstract int getMessageId();
 }

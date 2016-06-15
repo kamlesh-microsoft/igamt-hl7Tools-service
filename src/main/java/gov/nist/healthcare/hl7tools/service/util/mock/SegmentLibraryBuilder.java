@@ -12,8 +12,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 public class SegmentLibraryBuilder {
 	
+	static Logger log = LoggerFactory.getLogger(SegmentLibraryBuilder.class);
 	
 	public static SegmentLibrary build(CodeTableLibrary codeTableLibrary, 
 			DatatypeLibrary datatypeLibrary, 
@@ -48,6 +52,7 @@ public class SegmentLibraryBuilder {
 				f.setTruncationAllowed(EBoolean.valueOf( fd.getTruncation() ));
 				f.setUsage(gov.nist.healthcare.hl7tools.domain.Usage.valueOf(fd.getUsage().name()));
 				fields.add(f);
+				log.debug("f=" + f.getDescription()+ " f.getDatatype()=" + f.getDatatype());
 			}
 			s.setFields(fields);
 		}

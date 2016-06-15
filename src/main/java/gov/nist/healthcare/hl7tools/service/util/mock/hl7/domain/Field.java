@@ -1,5 +1,8 @@
 package gov.nist.healthcare.hl7tools.service.util.mock.hl7.domain;
 
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+import com.fasterxml.jackson.databind.ser.std.ToStringSerializer;
+
 public class Field {
 	
 	private Integer id;
@@ -7,7 +10,8 @@ public class Field {
 	private String dataElementId;
 	private int position;
 	private Usage usage;
-	private int min;
+	@JsonSerialize(using = ToStringSerializer.class)
+	public int min;
 	private String max;
 	
 	private DataElement dataElement;
@@ -22,14 +26,14 @@ public class Field {
 	}
 	
 	public Integer getMinLength() {
-		return dataElement != null ? dataElement.getMinLength() : null;
+		return dataElement != null ? dataElement.getMinLength() : -1;
 	}
 	
 	public Integer getMaxLength() {
 		return dataElement != null ? dataElement.getMaxLength() : null;
 	}
 	public Integer getConfLength() {
-		return dataElement != null ? dataElement.getConfLength() : null;
+		return dataElement != null ? dataElement.getConfLength() : -1;
 	}
 
 	public String getTableId() {
@@ -85,6 +89,7 @@ public class Field {
 	/**
 	 * @return the position
 	 */
+	@JsonSerialize(using = ToStringSerializer.class)
 	public int getPosition() {
 		return position;
 	}
@@ -158,8 +163,8 @@ public class Field {
 	@Override
 	public String toString() {
 		return String
-				.format("Field [position=%s, usage=%s, min=%s, max=%s, segmentId=%s]",
-						position, usage, min, max, segmentId);
+				.format("Field [position=%s, usage=%s, min=%s, max=%s, segmentId=%s, datatype=%s]",
+						position, usage, min, max, segmentId, getDatatype());
 	}
 
 }

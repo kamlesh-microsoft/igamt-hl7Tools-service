@@ -9,6 +9,7 @@ import gov.nist.healthcare.hl7tools.domain.Element;
 import gov.nist.healthcare.hl7tools.domain.ElementType;
 import gov.nist.healthcare.hl7tools.domain.Message;
 import gov.nist.healthcare.hl7tools.domain.MessageLibrary;
+import gov.nist.healthcare.hl7tools.domain.Segment;
 import gov.nist.healthcare.hl7tools.domain.SegmentLibrary;
 import gov.nist.healthcare.hl7tools.domain.Usage;
 
@@ -71,8 +72,11 @@ public class MessageLibraryBuilder {
 		e.setMin(ee.getMin());
 		if(ee.getSegmentId() != null) {
 			e.setType(ElementType.SEGEMENT);
-			e.setSegment(segmentLibrary.get(ee.getSegmentId()));
-			e.setName(e.getSegment().getName());
+			Segment seg  = segmentLibrary.get(ee.getSegmentId());
+			if (seg != null) {
+				e.setSegment(seg);
+				e.setName(e.getSegment().getName());
+			}
 		} else {
 			List<Element> children = new ArrayList<Element>();
 			for(gov.nist.healthcare.hl7tools.service.util.mock.hl7.domain.Element eee :  map.get(ee.getGroupId()).getChildren()) {

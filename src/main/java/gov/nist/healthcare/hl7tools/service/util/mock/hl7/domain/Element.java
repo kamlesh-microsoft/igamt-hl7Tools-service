@@ -2,6 +2,9 @@ package gov.nist.healthcare.hl7tools.service.util.mock.hl7.domain;
 
 import java.util.List;
 
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+import com.fasterxml.jackson.databind.ser.std.ToStringSerializer;
+
 public class Element {
 	
 	private Integer id;

@@ -1,5 +1,23 @@
 package gov.nist.healthcare.hl7tools.service.util.mock;
 
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import com.fasterxml.jackson.core.JsonFactory;
+import com.fasterxml.jackson.core.JsonParser;
+import com.fasterxml.jackson.core.JsonToken;
+import com.fasterxml.jackson.databind.DeserializationFeature;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.PropertyNamingStrategy;
+
 import gov.nist.healthcare.hl7tools.service.util.mock.hl7.domain.Code;
 import gov.nist.healthcare.hl7tools.service.util.mock.hl7.domain.Component;
 import gov.nist.healthcare.hl7tools.service.util.mock.hl7.domain.DataElement;
@@ -12,22 +30,9 @@ import gov.nist.healthcare.hl7tools.service.util.mock.hl7.domain.MessageType;
 import gov.nist.healthcare.hl7tools.service.util.mock.hl7.domain.Segment;
 import gov.nist.healthcare.hl7tools.service.util.mock.hl7.domain.Table;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-
-import com.fasterxml.jackson.core.JsonFactory;
-import com.fasterxml.jackson.core.JsonParser;
-import com.fasterxml.jackson.core.JsonToken;
-import com.fasterxml.jackson.databind.DeserializationFeature;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.PropertyNamingStrategy;
-
 public class HL7DBMockServiceHelper {
+	
+	static Logger log = LoggerFactory.getLogger(HL7DBMockServiceHelper.class);
 
 	private final static String TABLE_CLASS = Table.class.getName();
 	private final static String DATATYPE_CLASS = Datatype.class.getName();
@@ -150,6 +155,7 @@ public class HL7DBMockServiceHelper {
 				s.getFields().add(f);
 				f.setDataElement(dataElementMap.get(f.getDataElementId()));
 			}
+			log.debug(f.toString());
 		}
 	}
 
