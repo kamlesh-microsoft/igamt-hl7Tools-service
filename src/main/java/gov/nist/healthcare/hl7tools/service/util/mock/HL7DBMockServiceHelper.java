@@ -198,7 +198,7 @@ public class HL7DBMockServiceHelper {
 			if (e.getSegmentId() != null) {
 				segmentFilter.add(e.getSegmentId());
 			}
-			log.info("has grp=" + ((e.getGroupId() != null) ? groupMap.get(e.getGroupId().toString()) : "NA"));
+//			log.info("has grp=" + ((e.getGroupId() != null) ? groupMap.get(e.getGroupId().toString()) : "NA"));
 		}
 		return segmentFilter;
 	}

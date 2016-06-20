@@ -45,7 +45,7 @@ public class HL72JSONConverterTest {
 		 hlpMessage.write(messages, "messages");
 	}
 
-	@Test
+//	@Test
 	public void testSQL4_GROUP() {
 		String sql = sut.SQL4_GROUP();
 		Helper<Group> hlp = sut.new Helper<Group>();
@@ -91,7 +91,7 @@ public class HL72JSONConverterTest {
 		assertTrue(rs.size() > 0);
 	}
 
-//	@Test
+	@Test
 	public void testSQL4_DATAELEMENT() {
 		String sql = sut.SQL4_DATAELEMENT();
 		Helper<DataElement> hlp = sut.new Helper<DataElement>();

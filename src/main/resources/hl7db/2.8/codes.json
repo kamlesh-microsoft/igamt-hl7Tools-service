@@ -1109,6 +1109,11 @@
   "usage" : "F",
   "table_id" : "0003"
 }, {
+  "name" : "O12",
+  "description" : "RRE - Pharmacy/treatment encoded order acknowledgment",
+  "usage" : "F",
+  "table_id" : "0003"
+}, {
   "name" : "C10",
   "description" : "CSU - Patient completes the clinical trial",
   "usage" : "F",
@@ -1164,8 +1169,8 @@
   "usage" : "F",
   "table_id" : "0003"
 }, {
-  "name" : "O12",
-  "description" : "RRE - Pharmacy/treatment encoded order acknowledgment",
+  "name" : "Q26",
+  "description" : "ROR - Pharmacy/treatment order response",
   "usage" : "F",
   "table_id" : "0003"
 }, {
@@ -1224,8 +1229,8 @@
   "usage" : "F",
   "table_id" : "0003"
 }, {
-  "name" : "Q26",
-  "description" : "ROR - Pharmacy/treatment order response",
+  "name" : "U11",
+  "description" : "TCR/ACK - Automated equipment test code settings request",
   "usage" : "F",
   "table_id" : "0003"
 }, {
@@ -1281,11 +1286,6 @@
 }, {
   "name" : "A27",
   "description" : "ADT/ACK -  Cancel pending admit",
-  "usage" : "F",
-  "table_id" : "0003"
-}, {
-  "name" : "U11",
-  "description" : "TCR/ACK - Automated equipment test code settings request",
   "usage" : "F",
   "table_id" : "0003"
 }, {
@@ -1529,6 +1529,11 @@
   "usage" : "F",
   "table_id" : "0003"
 }, {
+  "name" : "A33",
+  "description" : "ADT/ACK -  Cancel patient departing - tracking",
+  "usage" : "F",
+  "table_id" : "0003"
+}, {
   "name" : "V04",
   "description" : "VXU - Unsolicited vaccination record update",
   "usage" : "F",
@@ -1569,8 +1574,8 @@
   "usage" : "F",
   "table_id" : "0003"
 }, {
-  "name" : "A33",
-  "description" : "ADT/ACK -  Cancel patient departing - tracking",
+  "name" : "K11",
+  "description" : "RSP - Segment pattern response in response to QBP^Q11",
   "usage" : "F",
   "table_id" : "0003"
 }, {
@@ -1611,11 +1616,6 @@
 }, {
   "name" : "P05",
   "description" : "BAR/ACK - Update account",
-  "usage" : "F",
-  "table_id" : "0003"
-}, {
-  "name" : "K11",
-  "description" : "RSP - Segment pattern response in response to QBP^Q11",
   "usage" : "F",
   "table_id" : "0003"
 }, {
@@ -1664,6 +1664,11 @@
   "usage" : "F",
   "table_id" : "0003"
 }, {
+  "name" : "P07",
+  "description" : "PEX - Unsolicited initial individual product experience report",
+  "usage" : "F",
+  "table_id" : "0003"
+}, {
   "name" : "K15",
   "description" : "RDY - Display response in response to QBP^Q15",
   "usage" : "F",
@@ -1704,8 +1709,8 @@
   "usage" : "F",
   "table_id" : "0003"
 }, {
-  "name" : "P07",
-  "description" : "PEX - Unsolicited initial individual product experience report",
+  "name" : "S19",
+  "description" : "SIU/ACK - Notification of modification of service/resource on appointment",
   "usage" : "F",
   "table_id" : "0003"
 }, {
@@ -1741,11 +1746,6 @@
 }, {
   "name" : "A05",
   "description" : "ADT/ACK -  Pre-admit a patient",
-  "usage" : "F",
-  "table_id" : "0003"
-}, {
-  "name" : "S19",
-  "description" : "SIU/ACK - Notification of modification of service/resource on appointment",
   "usage" : "F",
   "table_id" : "0003"
 }, {
@@ -2169,6 +2169,11 @@
   "usage" : "F",
   "table_id" : "0006"
 }, {
+  "name" : "MSU",
+  "description" : "Muslim: Sunni",
+  "usage" : "F",
+  "table_id" : "0006"
+}, {
   "name" : "HSH",
   "description" : "Hindu: Shaivites",
   "usage" : "F",
@@ -2176,11 +2181,6 @@
 }, {
   "name" : "BAP",
   "description" : "Christian: Baptist",
-  "usage" : "F",
-  "table_id" : "0006"
-}, {
-  "name" : "MSU",
-  "description" : "Muslim: Sunni",
   "usage" : "F",
   "table_id" : "0006"
 }, {
@@ -2279,13 +2279,13 @@
   "usage" : "F",
   "table_id" : "0006"
 }, {
-  "name" : "PRO",
-  "description" : "Christian: Protestant",
+  "name" : "CHS",
+  "description" : "Christian: Christian Science",
   "usage" : "F",
   "table_id" : "0006"
 }, {
-  "name" : "CHS",
-  "description" : "Christian: Christian Science",
+  "name" : "PRO",
+  "description" : "Christian: Protestant",
   "usage" : "F",
   "table_id" : "0006"
 }, {
@@ -3674,6 +3674,11 @@
   "usage" : "F",
   "table_id" : "0076"
 }, {
+  "name" : "OSM",
+  "description" : "Specimen Shipment Message",
+  "usage" : "F",
+  "table_id" : "0076"
+}, {
   "name" : "RER",
   "description" : "Pharmacy/treatment encoded order information",
   "usage" : "F",
@@ -3681,11 +3686,6 @@
 }, {
   "name" : "DER",
   "description" : "Donor Eligibility Request",
-  "usage" : "F",
-  "table_id" : "0076"
-}, {
-  "name" : "OSM",
-  "description" : "Specimen Shipment Message",
   "usage" : "F",
   "table_id" : "0076"
 }, {
@@ -4269,18 +4269,13 @@
   "usage" : "F",
   "table_id" : "0116"
 }, {
-  "name" : "SN",
-  "description" : "Send order/service number",
-  "usage" : "F",
-  "table_id" : "0119"
-}, {
   "name" : "CP",
   "description" : "Cancel process step",
   "usage" : "F",
   "table_id" : "0119"
 }, {
-  "name" : "SR",
-  "description" : "Response to send order/service status request",
+  "name" : "SN",
+  "description" : "Send order/service number",
   "usage" : "F",
   "table_id" : "0119"
 }, {
@@ -4289,8 +4284,8 @@
   "usage" : "F",
   "table_id" : "0119"
 }, {
-  "name" : "SS",
-  "description" : "Send order/service status request",
+  "name" : "SR",
+  "description" : "Response to send order/service status request",
   "usage" : "F",
   "table_id" : "0119"
 }, {
@@ -4299,8 +4294,8 @@
   "usage" : "F",
   "table_id" : "0119"
 }, {
-  "name" : "UA",
-  "description" : "Unable to accept order/service",
+  "name" : "SS",
+  "description" : "Send order/service status request",
   "usage" : "F",
   "table_id" : "0119"
 }, {
@@ -4309,13 +4304,18 @@
   "usage" : "F",
   "table_id" : "0119"
 }, {
-  "name" : "UC",
-  "description" : "Unable to cancel",
+  "name" : "UA",
+  "description" : "Unable to accept order/service",
   "usage" : "F",
   "table_id" : "0119"
 }, {
   "name" : "DF",
   "description" : "Order/service refill request denied",
+  "usage" : "F",
+  "table_id" : "0119"
+}, {
+  "name" : "UC",
+  "description" : "Unable to cancel",
   "usage" : "F",
   "table_id" : "0119"
 }, {
@@ -4369,18 +4369,13 @@
   "usage" : "F",
   "table_id" : "0119"
 }, {
-  "name" : "MC",
-  "description" : "Miscellaneous Charge - not associated with an order",
-  "usage" : "F",
-  "table_id" : "0119"
-}, {
   "name" : "UR",
   "description" : "Unable to release",
   "usage" : "F",
   "table_id" : "0119"
 }, {
-  "name" : "NA",
-  "description" : "Number assigned",
+  "name" : "MC",
+  "description" : "Miscellaneous Charge - not associated with an order",
   "usage" : "F",
   "table_id" : "0119"
 }, {
@@ -4389,8 +4384,8 @@
   "usage" : "F",
   "table_id" : "0119"
 }, {
-  "name" : "NW",
-  "description" : "New order/service",
+  "name" : "NA",
+  "description" : "Number assigned",
   "usage" : "F",
   "table_id" : "0119"
 }, {
@@ -4399,8 +4394,8 @@
   "usage" : "F",
   "table_id" : "0119"
 }, {
-  "name" : "OC",
-  "description" : "Order/service canceled",
+  "name" : "NW",
+  "description" : "New order/service",
   "usage" : "F",
   "table_id" : "0119"
 }, {
@@ -4409,13 +4404,18 @@
   "usage" : "F",
   "table_id" : "0119"
 }, {
-  "name" : "OD",
-  "description" : "Order/service discontinued",
+  "name" : "OC",
+  "description" : "Order/service canceled",
   "usage" : "F",
   "table_id" : "0119"
 }, {
   "name" : "XX",
   "description" : "unsol.\"",
+  "usage" : "F",
+  "table_id" : "0119"
+}, {
+  "name" : "OD",
+  "description" : "Order/service discontinued",
   "usage" : "F",
   "table_id" : "0119"
 }, {
@@ -4484,18 +4484,13 @@
   "usage" : "F",
   "table_id" : "0119"
 }, {
-  "name" : "RQ",
-  "description" : "Replaced as requested",
-  "usage" : "F",
-  "table_id" : "0119"
-}, {
   "name" : "AF",
   "description" : "Order/service refill request approval",
   "usage" : "F",
   "table_id" : "0119"
 }, {
-  "name" : "RR",
-  "description" : "Request received",
+  "name" : "RQ",
+  "description" : "Replaced as requested",
   "usage" : "F",
   "table_id" : "0119"
 }, {
@@ -4504,8 +4499,8 @@
   "usage" : "F",
   "table_id" : "0119"
 }, {
-  "name" : "RU",
-  "description" : "Replaced unsolicited",
+  "name" : "RR",
+  "description" : "Request received",
   "usage" : "F",
   "table_id" : "0119"
 }, {
@@ -4514,13 +4509,18 @@
   "usage" : "F",
   "table_id" : "0119"
 }, {
-  "name" : "SC",
-  "description" : "Status changed",
+  "name" : "RU",
+  "description" : "Replaced unsolicited",
   "usage" : "F",
   "table_id" : "0119"
 }, {
   "name" : "CN",
   "description" : "Combined result",
+  "usage" : "F",
+  "table_id" : "0119"
+}, {
+  "name" : "SC",
+  "description" : "Status changed",
   "usage" : "F",
   "table_id" : "0119"
 }, {
@@ -5404,18 +5404,13 @@
   "usage" : "F",
   "table_id" : "0162"
 }, {
-  "name" : "IS",
-  "description" : "Intrasynovial",
-  "usage" : "F",
-  "table_id" : "0162"
-}, {
   "name" : "AP",
   "description" : "Apply Externally",
   "usage" : "F",
   "table_id" : "0162"
 }, {
-  "name" : "IT",
-  "description" : "Intrathecal",
+  "name" : "IS",
+  "description" : "Intrasynovial",
   "usage" : "F",
   "table_id" : "0162"
 }, {
@@ -5424,8 +5419,8 @@
   "usage" : "F",
   "table_id" : "0162"
 }, {
-  "name" : "IU",
-  "description" : "Intrauterine",
+  "name" : "IT",
+  "description" : "Intrathecal",
   "usage" : "F",
   "table_id" : "0162"
 }, {
@@ -5434,8 +5429,8 @@
   "usage" : "F",
   "table_id" : "0162"
 }, {
-  "name" : "IV",
-  "description" : "Intravenous",
+  "name" : "IU",
+  "description" : "Intrauterine",
   "usage" : "F",
   "table_id" : "0162"
 }, {
@@ -5444,8 +5439,8 @@
   "usage" : "F",
   "table_id" : "0162"
 }, {
-  "name" : "MM",
-  "description" : "Mucous Membrane",
+  "name" : "IV",
+  "description" : "Intravenous",
   "usage" : "F",
   "table_id" : "0162"
 }, {
@@ -5454,8 +5449,8 @@
   "usage" : "F",
   "table_id" : "0162"
 }, {
-  "name" : "MTH",
-  "description" : "Mouth/Throat",
+  "name" : "MM",
+  "description" : "Mucous Membrane",
   "usage" : "F",
   "table_id" : "0162"
 }, {
@@ -5464,8 +5459,8 @@
   "usage" : "F",
   "table_id" : "0162"
 }, {
-  "name" : "NG",
-  "description" : "Nasogastric",
+  "name" : "MTH",
+  "description" : "Mouth/Throat",
   "usage" : "F",
   "table_id" : "0162"
 }, {
@@ -5474,8 +5469,8 @@
   "usage" : "F",
   "table_id" : "0162"
 }, {
-  "name" : "NP",
-  "description" : "Nasal Prongs*",
+  "name" : "NG",
+  "description" : "Nasogastric",
   "usage" : "F",
   "table_id" : "0162"
 }, {
@@ -5484,8 +5479,8 @@
   "usage" : "F",
   "table_id" : "0162"
 }, {
-  "name" : "NS",
-  "description" : "Nasal",
+  "name" : "NP",
+  "description" : "Nasal Prongs*",
   "usage" : "F",
   "table_id" : "0162"
 }, {
@@ -5494,8 +5489,8 @@
   "usage" : "F",
   "table_id" : "0162"
 }, {
-  "name" : "NT",
-  "description" : "Nasotrachial Tube",
+  "name" : "NS",
+  "description" : "Nasal",
   "usage" : "F",
   "table_id" : "0162"
 }, {
@@ -5504,8 +5499,8 @@
   "usage" : "F",
   "table_id" : "0162"
 }, {
-  "name" : "OP",
-  "description" : "Ophthalmic",
+  "name" : "NT",
+  "description" : "Nasotrachial Tube",
   "usage" : "F",
   "table_id" : "0162"
 }, {
@@ -5514,13 +5509,18 @@
   "usage" : "F",
   "table_id" : "0162"
 }, {
-  "name" : "OT",
-  "description" : "Otic",
+  "name" : "OP",
+  "description" : "Ophthalmic",
   "usage" : "F",
   "table_id" : "0162"
 }, {
   "name" : "ID",
   "description" : "Intradermal",
+  "usage" : "F",
+  "table_id" : "0162"
+}, {
+  "name" : "OT",
+  "description" : "Otic",
   "usage" : "F",
   "table_id" : "0162"
 }, {
@@ -5609,18 +5609,13 @@
   "usage" : "F",
   "table_id" : "0163"
 }, {
-  "name" : "PERIN",
-  "description" : "Perineal",
-  "usage" : "F",
-  "table_id" : "0163"
-}, {
   "name" : "RUAQ",
   "description" : "Right Upper Abd Quadrant",
   "usage" : "F",
   "table_id" : "0163"
 }, {
-  "name" : "RA",
-  "description" : "Right Arm",
+  "name" : "PERIN",
+  "description" : "Perineal",
   "usage" : "F",
   "table_id" : "0163"
 }, {
@@ -5631,6 +5626,11 @@
 }, {
   "name" : "RUFA",
   "description" : "Right Upper Forearm",
+  "usage" : "F",
+  "table_id" : "0163"
+}, {
+  "name" : "RA",
+  "description" : "Right Arm",
   "usage" : "F",
   "table_id" : "0163"
 }, {
@@ -6739,6 +6739,11 @@
   "usage" : "F",
   "table_id" : "0202"
 }, {
+  "name" : "HC",
+  "description" : "Health Card Number",
+  "usage" : "F",
+  "table_id" : "0203"
+}, {
   "name" : "SID",
   "description" : "Specimen ID",
   "usage" : "F",
@@ -6749,8 +6754,8 @@
   "usage" : "F",
   "table_id" : "0203"
 }, {
-  "name" : "HC",
-  "description" : "Health Card Number",
+  "name" : "IND",
+  "description" : "Indigenous/Aboriginal",
   "usage" : "F",
   "table_id" : "0203"
 }, {
@@ -6764,8 +6769,8 @@
   "usage" : "F",
   "table_id" : "0203"
 }, {
-  "name" : "IND",
-  "description" : "Indigenous/Aboriginal",
+  "name" : "JHN",
+  "description" : "Jurisdictional health number (Canada)",
   "usage" : "F",
   "table_id" : "0203"
 }, {
@@ -6779,8 +6784,8 @@
   "usage" : "F",
   "table_id" : "0203"
 }, {
-  "name" : "JHN",
-  "description" : "Jurisdictional health number (Canada)",
+  "name" : "LACSN",
+  "description" : "Laboratory Accession ID",
   "usage" : "F",
   "table_id" : "0203"
 }, {
@@ -6794,8 +6799,13 @@
   "usage" : "F",
   "table_id" : "0203"
 }, {
-  "name" : "LACSN",
-  "description" : "Laboratory Accession ID",
+  "name" : "NH",
+  "description" : "National Health Plan Identifier",
+  "usage" : "F",
+  "table_id" : "0203"
+}, {
+  "name" : "LANR",
+  "description" : "Lifelong physician number",
   "usage" : "F",
   "table_id" : "0203"
 }, {
@@ -6809,13 +6819,13 @@
   "usage" : "F",
   "table_id" : "0203"
 }, {
-  "name" : "NH",
-  "description" : "National Health Plan Identifier",
+  "name" : "NI",
+  "description" : "National unique individual identifier",
   "usage" : "F",
   "table_id" : "0203"
 }, {
-  "name" : "LANR",
-  "description" : "Lifelong physician number",
+  "name" : "LI",
+  "description" : "Labor and industries number",
   "usage" : "F",
   "table_id" : "0203"
 }, {
@@ -6829,13 +6839,13 @@
   "usage" : "F",
   "table_id" : "0203"
 }, {
-  "name" : "NI",
-  "description" : "National unique individual identifier",
+  "name" : "NII",
+  "description" : "National Insurance Organization Identifier",
   "usage" : "F",
   "table_id" : "0203"
 }, {
-  "name" : "LI",
-  "description" : "Labor and industries number",
+  "name" : "LN",
+  "description" : "License number",
   "usage" : "F",
   "table_id" : "0203"
 }, {
@@ -6849,13 +6859,13 @@
   "usage" : "F",
   "table_id" : "0203"
 }, {
-  "name" : "NII",
-  "description" : "National Insurance Organization Identifier",
+  "name" : "NIIP",
+  "description" : "National Insurance Payor Identifier (Payor)",
   "usage" : "F",
   "table_id" : "0203"
 }, {
-  "name" : "LN",
-  "description" : "License number",
+  "name" : "LR",
+  "description" : "Local Registry ID",
   "usage" : "F",
   "table_id" : "0203"
 }, {
@@ -6869,13 +6879,13 @@
   "usage" : "F",
   "table_id" : "0203"
 }, {
-  "name" : "NIIP",
-  "description" : "National Insurance Payor Identifier (Payor)",
+  "name" : "NNxxx",
+  "description" : "National Person Identifier where the xxx is the ISO table 3166 3-character (alphabetic) country code",
   "usage" : "F",
   "table_id" : "0203"
 }, {
-  "name" : "LR",
-  "description" : "Local Registry ID",
+  "name" : "MA",
+  "description" : "Patient Medicaid number",
   "usage" : "F",
   "table_id" : "0203"
 }, {
@@ -6889,26 +6899,6 @@
   "usage" : "F",
   "table_id" : "0203"
 }, {
-  "name" : "NNxxx",
-  "description" : "National Person Identifier where the xxx is the ISO table 3166 3-character (alphabetic) country code",
-  "usage" : "F",
-  "table_id" : "0203"
-}, {
-  "name" : "MA",
-  "description" : "Patient Medicaid number",
-  "usage" : "F",
-  "table_id" : "0203"
-}, {
-  "name" : "MB",
-  "description" : "Member Number",
-  "usage" : "F",
-  "table_id" : "0203"
-}, {
-  "name" : "U",
-  "description" : "Unspecified identifier",
-  "usage" : "F",
-  "table_id" : "0203"
-}, {
   "name" : "BSNR",
   "description" : "Primary physician office number",
   "usage" : "F",
@@ -6919,8 +6909,13 @@
   "usage" : "F",
   "table_id" : "0203"
 }, {
-  "name" : "MC",
-  "description" : "Patient's Medicare number",
+  "name" : "MB",
+  "description" : "Member Number",
+  "usage" : "F",
+  "table_id" : "0203"
+}, {
+  "name" : "U",
+  "description" : "Unspecified identifier",
   "usage" : "F",
   "table_id" : "0203"
 }, {
@@ -6939,8 +6934,8 @@
   "usage" : "F",
   "table_id" : "0203"
 }, {
-  "name" : "MCD",
-  "description" : "Practitioner Medicaid number",
+  "name" : "MC",
+  "description" : "Patient's Medicare number",
   "usage" : "F",
   "table_id" : "0203"
 }, {
@@ -6959,8 +6954,8 @@
   "usage" : "F",
   "table_id" : "0203"
 }, {
-  "name" : "MCN",
-  "description" : "Microchip Number",
+  "name" : "MCD",
+  "description" : "Practitioner Medicaid number",
   "usage" : "F",
   "table_id" : "0203"
 }, {
@@ -6979,8 +6974,8 @@
   "usage" : "F",
   "table_id" : "0203"
 }, {
-  "name" : "MCR",
-  "description" : "Practitioner Medicare number",
+  "name" : "MCN",
+  "description" : "Microchip Number",
   "usage" : "F",
   "table_id" : "0203"
 }, {
@@ -6999,8 +6994,8 @@
   "usage" : "F",
   "table_id" : "0203"
 }, {
-  "name" : "MCT",
-  "description" : "Marriage Certificate",
+  "name" : "MCR",
+  "description" : "Practitioner Medicare number",
   "usage" : "F",
   "table_id" : "0203"
 }, {
@@ -7019,8 +7014,8 @@
   "usage" : "F",
   "table_id" : "0203"
 }, {
-  "name" : "MD",
-  "description" : "Medical License number",
+  "name" : "MCT",
+  "description" : "Marriage Certificate",
   "usage" : "F",
   "table_id" : "0203"
 }, {
@@ -7039,8 +7034,8 @@
   "usage" : "F",
   "table_id" : "0203"
 }, {
-  "name" : "MI",
-  "description" : "Military ID number",
+  "name" : "MD",
+  "description" : "Medical License number",
   "usage" : "F",
   "table_id" : "0203"
 }, {
@@ -7059,8 +7054,8 @@
   "usage" : "F",
   "table_id" : "0203"
 }, {
-  "name" : "MR",
-  "description" : "Medical record number",
+  "name" : "MI",
+  "description" : "Military ID number",
   "usage" : "F",
   "table_id" : "0203"
 }, {
@@ -7079,8 +7074,8 @@
   "usage" : "F",
   "table_id" : "0203"
 }, {
-  "name" : "MRT",
-  "description" : "Temporary Medical Record Number",
+  "name" : "MR",
+  "description" : "Medical record number",
   "usage" : "F",
   "table_id" : "0203"
 }, {
@@ -7099,8 +7094,8 @@
   "usage" : "F",
   "table_id" : "0203"
 }, {
-  "name" : "MS",
-  "description" : "MasterCard",
+  "name" : "MRT",
+  "description" : "Temporary Medical Record Number",
   "usage" : "F",
   "table_id" : "0203"
 }, {
@@ -7111,6 +7106,11 @@
 }, {
   "name" : "PNT",
   "description" : "Temporary Living Subject Number",
+  "usage" : "F",
+  "table_id" : "0203"
+}, {
+  "name" : "MS",
+  "description" : "MasterCard",
   "usage" : "F",
   "table_id" : "0203"
 }, {
@@ -7274,11 +7274,6 @@
   "usage" : "F",
   "table_id" : "0203"
 }, {
-  "name" : "AND",
-  "description" : "Account number debitor",
-  "usage" : "F",
-  "table_id" : "0203"
-}, {
   "name" : "GN",
   "description" : "Guarantor external  identifier",
   "usage" : "F",
@@ -7286,6 +7281,11 @@
 }, {
   "name" : "RRP",
   "description" : "Railroad Retirement Provider",
+  "usage" : "F",
+  "table_id" : "0203"
+}, {
+  "name" : "AND",
+  "description" : "Account number debitor",
   "usage" : "F",
   "table_id" : "0203"
 }, {
@@ -7824,17 +7824,12 @@
   "usage" : "F",
   "table_id" : "0227"
 }, {
-  "name" : "GEO",
-  "description" : "Inc.\"",
-  "usage" : "F",
-  "table_id" : "0227"
-}, {
   "name" : "ORT",
   "description" : "Ortho-Clinical Diagnostics",
   "usage" : "F",
   "table_id" : "0227"
 }, {
-  "name" : "GRE",
+  "name" : "GEO",
   "description" : "Inc.\"",
   "usage" : "F",
   "table_id" : "0227"
@@ -7844,8 +7839,8 @@
   "usage" : "F",
   "table_id" : "0227"
 }, {
-  "name" : "IAG",
-  "description" : "Immuno International AG",
+  "name" : "GRE",
+  "description" : "Inc.\"",
   "usage" : "F",
   "table_id" : "0227"
 }, {
@@ -7854,8 +7849,8 @@
   "usage" : "F",
   "table_id" : "0227"
 }, {
-  "name" : "IM",
-  "description" : "Merieux",
+  "name" : "IAG",
+  "description" : "Immuno International AG",
   "usage" : "F",
   "table_id" : "0227"
 }, {
@@ -7864,8 +7859,8 @@
   "usage" : "F",
   "table_id" : "0227"
 }, {
-  "name" : "IUS",
-  "description" : "Inc.\"",
+  "name" : "IM",
+  "description" : "Merieux",
   "usage" : "F",
   "table_id" : "0227"
 }, {
@@ -7874,8 +7869,8 @@
   "usage" : "F",
   "table_id" : "0227"
 }, {
-  "name" : "JPN",
-  "description" : "The Research Foundation for Microbial Diseases of Osaka University",
+  "name" : "IUS",
+  "description" : "Inc.\"",
   "usage" : "F",
   "table_id" : "0227"
 }, {
@@ -7884,8 +7879,8 @@
   "usage" : "F",
   "table_id" : "0227"
 }, {
-  "name" : "KGC",
-  "description" : "Korea Green Cross Corporation",
+  "name" : "JPN",
+  "description" : "The Research Foundation for Microbial Diseases of Osaka University",
   "usage" : "F",
   "table_id" : "0227"
 }, {
@@ -7894,8 +7889,8 @@
   "usage" : "F",
   "table_id" : "0227"
 }, {
-  "name" : "LED",
-  "description" : "Lederle",
+  "name" : "KGC",
+  "description" : "Korea Green Cross Corporation",
   "usage" : "F",
   "table_id" : "0227"
 }, {
@@ -7904,8 +7899,8 @@
   "usage" : "F",
   "table_id" : "0227"
 }, {
-  "name" : "MA",
-  "description" : "Massachusetts Public Health Biologic Laboratories",
+  "name" : "LED",
+  "description" : "Lederle",
   "usage" : "F",
   "table_id" : "0227"
 }, {
@@ -7914,8 +7909,8 @@
   "usage" : "F",
   "table_id" : "0227"
 }, {
-  "name" : "MBL",
-  "description" : "Massachusetts Biologic Laboratories",
+  "name" : "MA",
+  "description" : "Massachusetts Public Health Biologic Laboratories",
   "usage" : "F",
   "table_id" : "0227"
 }, {
@@ -7924,13 +7919,18 @@
   "usage" : "F",
   "table_id" : "0227"
 }, {
-  "name" : "MED",
-  "description" : "Inc.\"",
+  "name" : "MBL",
+  "description" : "Massachusetts Biologic Laboratories",
   "usage" : "F",
   "table_id" : "0227"
 }, {
   "name" : "SOL",
   "description" : "Solvay Pharmaceuticals",
+  "usage" : "F",
+  "table_id" : "0227"
+}, {
+  "name" : "MED",
+  "description" : "Inc.\"",
   "usage" : "F",
   "table_id" : "0227"
 }, {
@@ -8674,16 +8674,6 @@
   "usage" : "F",
   "table_id" : "0254"
 }, {
-  "name" : "MOTIL",
-  "description" : "Motility",
-  "usage" : "F",
-  "table_id" : "0254"
-}, {
-  "name" : "VOL",
-  "description" : "*Volume",
-  "usage" : "F",
-  "table_id" : "0254"
-}, {
   "name" : "CONS",
   "description" : "Consistency",
   "usage" : "F",
@@ -8694,8 +8684,13 @@
   "usage" : "F",
   "table_id" : "0254"
 }, {
-  "name" : "MRAT",
-  "description" : "*Mass Rate",
+  "name" : "MOTIL",
+  "description" : "Motility",
+  "usage" : "F",
+  "table_id" : "0254"
+}, {
+  "name" : "VOL",
+  "description" : "*Volume",
   "usage" : "F",
   "table_id" : "0254"
 }, {
@@ -8714,8 +8709,8 @@
   "usage" : "F",
   "table_id" : "0254"
 }, {
-  "name" : "MRTO",
-  "description" : "*Mass Ratio",
+  "name" : "MRAT",
+  "description" : "*Mass Rate",
   "usage" : "F",
   "table_id" : "0254"
 }, {
@@ -8734,8 +8729,8 @@
   "usage" : "F",
   "table_id" : "0254"
 }, {
-  "name" : "NCNC",
-  "description" : "*Number Concentration",
+  "name" : "MRTO",
+  "description" : "*Mass Ratio",
   "usage" : "F",
   "table_id" : "0254"
 }, {
@@ -8754,8 +8749,8 @@
   "usage" : "F",
   "table_id" : "0254"
 }, {
-  "name" : "NCNT",
-  "description" : "*Number Content",
+  "name" : "NCNC",
+  "description" : "*Number Concentration",
   "usage" : "F",
   "table_id" : "0254"
 }, {
@@ -8774,8 +8769,8 @@
   "usage" : "F",
   "table_id" : "0254"
 }, {
-  "name" : "NFR",
-  "description" : "*Number Fraction",
+  "name" : "NCNT",
+  "description" : "*Number Content",
   "usage" : "F",
   "table_id" : "0254"
 }, {
@@ -8794,8 +8789,8 @@
   "usage" : "F",
   "table_id" : "0254"
 }, {
-  "name" : "NRTO",
-  "description" : "*Number Ratio",
+  "name" : "NFR",
+  "description" : "*Number Fraction",
   "usage" : "F",
   "table_id" : "0254"
 }, {
@@ -8814,8 +8809,8 @@
   "usage" : "F",
   "table_id" : "0254"
 }, {
-  "name" : "NUM",
-  "description" : "*Number",
+  "name" : "NRTO",
+  "description" : "*Number Ratio",
   "usage" : "F",
   "table_id" : "0254"
 }, {
@@ -8834,8 +8829,8 @@
   "usage" : "F",
   "table_id" : "0254"
 }, {
-  "name" : "OD",
-  "description" : "Optical density",
+  "name" : "NUM",
+  "description" : "*Number",
   "usage" : "F",
   "table_id" : "0254"
 }, {
@@ -8854,13 +8849,8 @@
   "usage" : "F",
   "table_id" : "0254"
 }, {
-  "name" : "ASPECT",
-  "description" : "Aspect",
-  "usage" : "F",
-  "table_id" : "0254"
-}, {
-  "name" : "OSMOL",
-  "description" : "*Osmolality",
+  "name" : "OD",
+  "description" : "Optical density",
   "usage" : "F",
   "table_id" : "0254"
 }, {
@@ -8874,13 +8864,13 @@
   "usage" : "F",
   "table_id" : "0254"
 }, {
-  "name" : "TMDF",
-  "description" : "*Time Difference",
+  "name" : "ASPECT",
+  "description" : "Aspect",
   "usage" : "F",
   "table_id" : "0254"
 }, {
-  "name" : "CACT",
-  "description" : "*Catalytic Activity",
+  "name" : "OSMOL",
+  "description" : "*Osmolality",
   "usage" : "F",
   "table_id" : "0254"
 }, {
@@ -8894,13 +8884,13 @@
   "usage" : "F",
   "table_id" : "0254"
 }, {
-  "name" : "TMSTP",
-  "description" : "*Time Stamp-Date and Time",
+  "name" : "TMDF",
+  "description" : "*Time Difference",
   "usage" : "F",
   "table_id" : "0254"
 }, {
-  "name" : "CCNT",
-  "description" : "*Catalytic Content",
+  "name" : "CACT",
+  "description" : "*Catalytic Activity",
   "usage" : "F",
   "table_id" : "0254"
 }, {
@@ -8914,13 +8904,13 @@
   "usage" : "F",
   "table_id" : "0254"
 }, {
-  "name" : "TRTO",
-  "description" : "*Time Ratio",
+  "name" : "TMSTP",
+  "description" : "*Time Stamp-Date and Time",
   "usage" : "F",
   "table_id" : "0254"
 }, {
-  "name" : "CCRTO",
-  "description" : "Catalytic Concentration Ratio",
+  "name" : "CCNT",
+  "description" : "*Catalytic Content",
   "usage" : "F",
   "table_id" : "0254"
 }, {
@@ -8934,13 +8924,13 @@
   "usage" : "F",
   "table_id" : "0254"
 }, {
-  "name" : "TYPE",
-  "description" : "*Type",
+  "name" : "TRTO",
+  "description" : "*Time Ratio",
   "usage" : "F",
   "table_id" : "0254"
 }, {
-  "name" : "CFR",
-  "description" : "*Catalytic Fraction",
+  "name" : "CCRTO",
+  "description" : "Catalytic Concentration Ratio",
   "usage" : "F",
   "table_id" : "0254"
 }, {
@@ -8954,13 +8944,13 @@
   "usage" : "F",
   "table_id" : "0254"
 }, {
-  "name" : "VCNT",
-  "description" : "*Volume Content",
+  "name" : "TYPE",
+  "description" : "*Type",
   "usage" : "F",
   "table_id" : "0254"
 }, {
-  "name" : "CLAS",
-  "description" : "Class",
+  "name" : "CFR",
+  "description" : "*Catalytic Fraction",
   "usage" : "F",
   "table_id" : "0254"
 }, {
@@ -8974,13 +8964,13 @@
   "usage" : "F",
   "table_id" : "0254"
 }, {
-  "name" : "VEL",
-  "description" : "*Velocity",
+  "name" : "VCNT",
+  "description" : "*Volume Content",
   "usage" : "F",
   "table_id" : "0254"
 }, {
-  "name" : "CNC",
-  "description" : "*Catalytic Concentration",
+  "name" : "CLAS",
+  "description" : "Class",
   "usage" : "F",
   "table_id" : "0254"
 }, {
@@ -8994,13 +8984,13 @@
   "usage" : "F",
   "table_id" : "0254"
 }, {
-  "name" : "VELRT",
-  "description" : "*Velocity Ratio",
+  "name" : "VEL",
+  "description" : "*Velocity",
   "usage" : "F",
   "table_id" : "0254"
 }, {
-  "name" : "CNST",
-  "description" : "*Constant",
+  "name" : "CNC",
+  "description" : "*Catalytic Concentration",
   "usage" : "F",
   "table_id" : "0254"
 }, {
@@ -9014,13 +9004,13 @@
   "usage" : "F",
   "table_id" : "0254"
 }, {
-  "name" : "VFR",
-  "description" : "*Volume Fraction",
+  "name" : "VELRT",
+  "description" : "*Velocity Ratio",
   "usage" : "F",
   "table_id" : "0254"
 }, {
-  "name" : "COEF",
-  "description" : "*Coefficient",
+  "name" : "CNST",
+  "description" : "*Constant",
   "usage" : "F",
   "table_id" : "0254"
 }, {
@@ -9034,13 +9024,13 @@
   "usage" : "F",
   "table_id" : "0254"
 }, {
-  "name" : "VISC",
-  "description" : "*Viscosity",
+  "name" : "VFR",
+  "description" : "*Volume Fraction",
   "usage" : "F",
   "table_id" : "0254"
 }, {
-  "name" : "COLOR",
-  "description" : "Color",
+  "name" : "COEF",
+  "description" : "*Coefficient",
   "usage" : "F",
   "table_id" : "0254"
 }, {
@@ -9051,6 +9041,16 @@
 }, {
   "name" : "FREQ",
   "description" : "Frequency",
+  "usage" : "F",
+  "table_id" : "0254"
+}, {
+  "name" : "VISC",
+  "description" : "*Viscosity",
+  "usage" : "F",
+  "table_id" : "0254"
+}, {
+  "name" : "COLOR",
+  "description" : "Color",
   "usage" : "F",
   "table_id" : "0254"
 }, {
@@ -9319,18 +9319,13 @@
   "usage" : "F",
   "table_id" : "0256"
 }, {
-  "name" : "1H",
-  "description" : "1 hour post challenge",
-  "usage" : "F",
-  "table_id" : "0256"
-}, {
   "name" : "8H",
   "description" : "8 hours post challenge",
   "usage" : "F",
   "table_id" : "0256"
 }, {
-  "name" : "1L",
-  "description" : "1 month (30 days) post challenge",
+  "name" : "1H",
+  "description" : "1 hour post challenge",
   "usage" : "F",
   "table_id" : "0256"
 }, {
@@ -9339,8 +9334,8 @@
   "usage" : "F",
   "table_id" : "0256"
 }, {
-  "name" : "1M",
-  "description" : "1 minute post challenge",
+  "name" : "1L",
+  "description" : "1 month (30 days) post challenge",
   "usage" : "F",
   "table_id" : "0256"
 }, {
@@ -9349,8 +9344,8 @@
   "usage" : "F",
   "table_id" : "0256"
 }, {
-  "name" : "1W",
-  "description" : "1 week",
+  "name" : "1M",
+  "description" : "1 minute post challenge",
   "usage" : "F",
   "table_id" : "0256"
 }, {
@@ -9359,8 +9354,8 @@
   "usage" : "F",
   "table_id" : "0256"
 }, {
-  "name" : "2.5H",
-  "description" : "2 1/2 hours post challenge",
+  "name" : "1W",
+  "description" : "1 week",
   "usage" : "F",
   "table_id" : "0256"
 }, {
@@ -9369,8 +9364,8 @@
   "usage" : "F",
   "table_id" : "0256"
 }, {
-  "name" : "20M",
-  "description" : "20 minutes post challenge",
+  "name" : "2.5H",
+  "description" : "2 1/2 hours post challenge",
   "usage" : "F",
   "table_id" : "0256"
 }, {
@@ -9379,8 +9374,8 @@
   "usage" : "F",
   "table_id" : "0256"
 }, {
-  "name" : "24H",
-  "description" : "24 hours post challenge",
+  "name" : "20M",
+  "description" : "20 minutes post challenge",
   "usage" : "F",
   "table_id" : "0256"
 }, {
@@ -9389,13 +9384,18 @@
   "usage" : "F",
   "table_id" : "0256"
 }, {
-  "name" : "25M",
-  "description" : "25 minutes post challenge",
+  "name" : "24H",
+  "description" : "24 hours post challenge",
   "usage" : "F",
   "table_id" : "0256"
 }, {
   "name" : "TROUGH",
   "description" : "The time post drug dose at which the lowest drug level is reached (varies with drug)",
+  "usage" : "F",
+  "table_id" : "0256"
+}, {
+  "name" : "25M",
+  "description" : "25 minutes post challenge",
   "usage" : "F",
   "table_id" : "0256"
 }, {
@@ -9609,18 +9609,13 @@
   "usage" : "F",
   "table_id" : "0259"
 }, {
-  "name" : "AS",
-  "description" : "Angioscopy",
-  "usage" : "F",
-  "table_id" : "0259"
-}, {
   "name" : "OT",
   "description" : "Other",
   "usage" : "F",
   "table_id" : "0259"
 }, {
-  "name" : "BS",
-  "description" : "Biomagnetic imaging",
+  "name" : "AS",
+  "description" : "Angioscopy",
   "usage" : "F",
   "table_id" : "0259"
 }, {
@@ -9629,13 +9624,18 @@
   "usage" : "F",
   "table_id" : "0259"
 }, {
-  "name" : "CD",
-  "description" : "Color flow Doppler",
+  "name" : "BS",
+  "description" : "Biomagnetic imaging",
   "usage" : "F",
   "table_id" : "0259"
 }, {
   "name" : "RF",
   "description" : "Radio fluoroscopy",
+  "usage" : "F",
+  "table_id" : "0259"
+}, {
+  "name" : "CD",
+  "description" : "Color flow Doppler",
   "usage" : "F",
   "table_id" : "0259"
 }, {
@@ -10434,11 +10434,6 @@
   "usage" : "F",
   "table_id" : "0291"
 }, {
-  "name" : "77",
-  "description" : "tick-borne encephalitis",
-  "usage" : "F",
-  "table_id" : "0292"
-}, {
   "name" : "26",
   "description" : "cholera",
   "usage" : "F",
@@ -10449,8 +10444,8 @@
   "usage" : "F",
   "table_id" : "0292"
 }, {
-  "name" : "78",
-  "description" : "tularemia vaccine",
+  "name" : "77",
+  "description" : "tick-borne encephalitis",
   "usage" : "F",
   "table_id" : "0292"
 }, {
@@ -10461,6 +10456,11 @@
 }, {
   "name" : "107",
   "description" : "NOS\"",
+  "usage" : "F",
+  "table_id" : "0292"
+}, {
+  "name" : "78",
+  "description" : "tularemia vaccine",
   "usage" : "F",
   "table_id" : "0292"
 }, {
@@ -10674,11 +10674,6 @@
   "usage" : "F",
   "table_id" : "0292"
 }, {
-  "name" : "118",
-  "description" : "bivalent\"",
-  "usage" : "F",
-  "table_id" : "0292"
-}, {
   "name" : "90",
   "description" : "NOS\"",
   "usage" : "F",
@@ -10694,8 +10689,8 @@
   "usage" : "F",
   "table_id" : "0292"
 }, {
-  "name" : "119",
-  "description" : "monovalent\"",
+  "name" : "118",
+  "description" : "bivalent\"",
   "usage" : "F",
   "table_id" : "0292"
 }, {
@@ -10714,8 +10709,8 @@
   "usage" : "F",
   "table_id" : "0292"
 }, {
-  "name" : "12",
-  "description" : "diphtheria antitoxin",
+  "name" : "119",
+  "description" : "monovalent\"",
   "usage" : "F",
   "table_id" : "0292"
 }, {
@@ -10734,8 +10729,8 @@
   "usage" : "F",
   "table_id" : "0292"
 }, {
-  "name" : "120",
-  "description" : "DTaP-Hib-IPV",
+  "name" : "12",
+  "description" : "diphtheria antitoxin",
   "usage" : "F",
   "table_id" : "0292"
 }, {
@@ -10759,8 +10754,8 @@
   "usage" : "F",
   "table_id" : "0292"
 }, {
-  "name" : "121",
-  "description" : "zoster",
+  "name" : "120",
+  "description" : "DTaP-Hib-IPV",
   "usage" : "F",
   "table_id" : "0292"
 }, {
@@ -10781,6 +10776,11 @@
 }, {
   "name" : "43",
   "description" : "adult4\"",
+  "usage" : "F",
+  "table_id" : "0292"
+}, {
+  "name" : "121",
+  "description" : "zoster",
   "usage" : "F",
   "table_id" : "0292"
 }, {
@@ -10994,11 +10994,6 @@
   "usage" : "F",
   "table_id" : "0292"
 }, {
-  "name" : "73",
-  "description" : "Rift Valley fever",
-  "usage" : "F",
-  "table_id" : "0292"
-}, {
   "name" : "22",
   "description" : "DTP-Hib",
   "usage" : "F",
@@ -11009,8 +11004,8 @@
   "usage" : "F",
   "table_id" : "0292"
 }, {
-  "name" : "74",
-  "description" : "tetravalent\"",
+  "name" : "73",
+  "description" : "Rift Valley fever",
   "usage" : "F",
   "table_id" : "0292"
 }, {
@@ -11024,8 +11019,8 @@
   "usage" : "F",
   "table_id" : "0292"
 }, {
-  "name" : "75",
-  "description" : "vaccinia (smallpox)",
+  "name" : "74",
+  "description" : "tetravalent\"",
   "usage" : "F",
   "table_id" : "0292"
 }, {
@@ -11039,8 +11034,8 @@
   "usage" : "F",
   "table_id" : "0292"
 }, {
-  "name" : "76",
-  "description" : "Staphylococcus bacterio lysate",
+  "name" : "75",
+  "description" : "vaccinia (smallpox)",
   "usage" : "F",
   "table_id" : "0292"
 }, {
@@ -11051,6 +11046,11 @@
 }, {
   "name" : "105",
   "description" : "vaccinia (smallpox) diluted",
+  "usage" : "F",
+  "table_id" : "0292"
+}, {
+  "name" : "76",
+  "description" : "Staphylococcus bacterio lysate",
   "usage" : "F",
   "table_id" : "0292"
 }, {
@@ -11984,16 +11984,6 @@
   "usage" : "F",
   "table_id" : "0353"
 }, {
-  "name" : "ORB_O28",
-  "description" : "O28",
-  "usage" : "F",
-  "table_id" : "0354"
-}, {
-  "name" : "CCF_I22",
-  "description" : "I22",
-  "usage" : "F",
-  "table_id" : "0354"
-}, {
   "name" : "VXU_V04",
   "description" : "V04",
   "usage" : "F",
@@ -12014,17 +12004,12 @@
   "usage" : "F",
   "table_id" : "0354"
 }, {
-  "name" : "RRG_O16",
-  "description" : "O16",
+  "name" : "ORB_O28",
+  "description" : "O28",
   "usage" : "F",
   "table_id" : "0354"
 }, {
-  "name" : "ORD_O04",
-  "description" : "O04",
-  "usage" : "F",
-  "table_id" : "0354"
-}, {
-  "name" : "CCI_I22",
+  "name" : "CCF_I22",
   "description" : "I22",
   "usage" : "F",
   "table_id" : "0354"
@@ -12044,6 +12029,31 @@
   "usage" : "F",
   "table_id" : "0354"
 }, {
+  "name" : "RRG_O16",
+  "description" : "O16",
+  "usage" : "F",
+  "table_id" : "0354"
+}, {
+  "name" : "ORD_O04",
+  "description" : "O04",
+  "usage" : "F",
+  "table_id" : "0354"
+}, {
+  "name" : "CCI_I22",
+  "description" : "I22",
+  "usage" : "F",
+  "table_id" : "0354"
+}, {
+  "name" : "PPP_PCB",
+  "description" : "PCD\"",
+  "usage" : "F",
+  "table_id" : "0354"
+}, {
+  "name" : "ESU_U01",
+  "description" : "U01",
+  "usage" : "F",
+  "table_id" : "0354"
+}, {
   "name" : "RRI_I12",
   "description" : "I13",
   "usage" : "F",
@@ -12059,13 +12069,13 @@
   "usage" : "F",
   "table_id" : "0354"
 }, {
-  "name" : "PPP_PCB",
-  "description" : "PCD\"",
+  "name" : "PPR_PC1",
+  "description" : "PC2",
   "usage" : "F",
   "table_id" : "0354"
 }, {
-  "name" : "ESU_U01",
-  "description" : "U01",
+  "name" : "INR_U06",
+  "description" : "U06",
   "usage" : "F",
   "table_id" : "0354"
 }, {
@@ -12081,31 +12091,6 @@
 }, {
   "name" : "CCQ_I19",
   "description" : "I19",
-  "usage" : "F",
-  "table_id" : "0354"
-}, {
-  "name" : "PPR_PC1",
-  "description" : "PC2",
-  "usage" : "F",
-  "table_id" : "0354"
-}, {
-  "name" : "INR_U06",
-  "description" : "U06",
-  "usage" : "F",
-  "table_id" : "0354"
-}, {
-  "name" : "RSP_E22",
-  "description" : "E22",
-  "usage" : "F",
-  "table_id" : "0354"
-}, {
-  "name" : "ORI_O24",
-  "description" : "O24",
-  "usage" : "F",
-  "table_id" : "0354"
-}, {
-  "name" : "CCR_I16",
-  "description" : "|17",
   "usage" : "F",
   "table_id" : "0354"
 }, {
@@ -12134,13 +12119,18 @@
   "usage" : "F",
   "table_id" : "0354"
 }, {
-  "name" : "RSP_K11",
-  "description" : "K11",
+  "name" : "RSP_E22",
+  "description" : "E22",
   "usage" : "F",
   "table_id" : "0354"
 }, {
-  "name" : "ORL_O22",
-  "description" : "O22",
+  "name" : "ORI_O24",
+  "description" : "O24",
+  "usage" : "F",
+  "table_id" : "0354"
+}, {
+  "name" : "CCR_I16",
+  "description" : "|17",
   "usage" : "F",
   "table_id" : "0354"
 }, {
@@ -12174,8 +12164,13 @@
   "usage" : "F",
   "table_id" : "0354"
 }, {
-  "name" : "RSP_K21",
-  "description" : "K21",
+  "name" : "RSP_K11",
+  "description" : "K11",
+  "usage" : "F",
+  "table_id" : "0354"
+}, {
+  "name" : "ORL_O22",
+  "description" : "O22",
   "usage" : "F",
   "table_id" : "0354"
 }, {
@@ -12211,6 +12206,11 @@
 }, {
   "name" : "MDM_T01",
   "description" : "T03",
+  "usage" : "F",
+  "table_id" : "0354"
+}, {
+  "name" : "RSP_K21",
+  "description" : "K21",
   "usage" : "F",
   "table_id" : "0354"
 }, {
@@ -12294,11 +12294,6 @@
   "usage" : "F",
   "table_id" : "0354"
 }, {
-  "name" : "MFN_M01",
-  "description" : "",
-  "usage" : "F",
-  "table_id" : "0354"
-}, {
   "name" : "RSP_K25",
   "description" : "K25",
   "usage" : "F",
@@ -12334,13 +12329,8 @@
   "usage" : "F",
   "table_id" : "0354"
 }, {
-  "name" : "QBP_O33",
-  "description" : "O33",
-  "usage" : "F",
-  "table_id" : "0354"
-}, {
-  "name" : "MFN_M02",
-  "description" : "M02",
+  "name" : "MFN_M01",
+  "description" : "",
   "usage" : "F",
   "table_id" : "0354"
 }, {
@@ -12374,13 +12364,13 @@
   "usage" : "F",
   "table_id" : "0354"
 }, {
-  "name" : "QBP_O34",
-  "description" : "O34",
+  "name" : "QBP_O33",
+  "description" : "O33",
   "usage" : "F",
   "table_id" : "0354"
 }, {
-  "name" : "MFN_M03",
-  "description" : "M03",
+  "name" : "MFN_M02",
+  "description" : "M02",
   "usage" : "F",
   "table_id" : "0354"
 }, {
@@ -12414,13 +12404,13 @@
   "usage" : "F",
   "table_id" : "0354"
 }, {
-  "name" : "QBP_Q11",
-  "description" : "Q11",
+  "name" : "QBP_O34",
+  "description" : "O34",
   "usage" : "F",
   "table_id" : "0354"
 }, {
-  "name" : "MFN_M04",
-  "description" : "M04",
+  "name" : "MFN_M03",
+  "description" : "M03",
   "usage" : "F",
   "table_id" : "0354"
 }, {
@@ -12454,18 +12444,13 @@
   "usage" : "F",
   "table_id" : "0354"
 }, {
-  "name" : "QBP_Q13",
-  "description" : "Q13",
+  "name" : "QBP_Q11",
+  "description" : "Q11",
   "usage" : "F",
   "table_id" : "0354"
 }, {
-  "name" : "MFN_M05",
-  "description" : "M05",
-  "usage" : "F",
-  "table_id" : "0354"
-}, {
-  "name" : "ACK",
-  "description" : "Varies",
+  "name" : "MFN_M04",
+  "description" : "M04",
   "usage" : "F",
   "table_id" : "0354"
 }, {
@@ -12499,13 +12484,18 @@
   "usage" : "F",
   "table_id" : "0354"
 }, {
-  "name" : "QBP_Q15",
-  "description" : "Q15",
+  "name" : "QBP_Q13",
+  "description" : "Q13",
   "usage" : "F",
   "table_id" : "0354"
 }, {
-  "name" : "MFN_M06",
-  "description" : "M06",
+  "name" : "MFN_M05",
+  "description" : "M05",
+  "usage" : "F",
+  "table_id" : "0354"
+}, {
+  "name" : "ACK",
+  "description" : "Varies",
   "usage" : "F",
   "table_id" : "0354"
 }, {
@@ -12544,8 +12534,13 @@
   "usage" : "F",
   "table_id" : "0354"
 }, {
-  "name" : "QBP_Q21",
-  "description" : "Q22",
+  "name" : "QBP_Q15",
+  "description" : "Q15",
+  "usage" : "F",
+  "table_id" : "0354"
+}, {
+  "name" : "MFN_M06",
+  "description" : "M06",
   "usage" : "F",
   "table_id" : "0354"
 }, {
@@ -12586,6 +12581,11 @@
 }, {
   "name" : "ADT_A44",
   "description" : "A44",
+  "usage" : "F",
+  "table_id" : "0354"
+}, {
+  "name" : "QBP_Q21",
+  "description" : "Q22",
   "usage" : "F",
   "table_id" : "0354"
 }, {
@@ -13144,11 +13144,6 @@
   "usage" : "F",
   "table_id" : "0354"
 }, {
-  "name" : "BTS_O31",
-  "description" : "O31",
-  "usage" : "F",
-  "table_id" : "0354"
-}, {
   "name" : "VXR_V03",
   "description" : "V03",
   "usage" : "F",
@@ -13171,6 +13166,11 @@
 }, {
   "name" : "ORA_R41",
   "description" : "R41",
+  "usage" : "F",
+  "table_id" : "0354"
+}, {
+  "name" : "BTS_O31",
+  "description" : "O31",
   "usage" : "F",
   "table_id" : "0354"
 }, {
@@ -13314,23 +13314,23 @@
   "usage" : "F",
   "table_id" : "0360"
 }, {
-  "name" : "EMT",
-  "description" : "Emergency Medical Technician",
-  "usage" : "F",
-  "table_id" : "0360"
-}, {
   "name" : "SEC",
   "description" : "Secretarial Certificate",
   "usage" : "F",
   "table_id" : "0360"
 }, {
-  "name" : "EMTP",
-  "description" : "Emergency Medical Technician - Paramedic",
+  "name" : "EMT",
+  "description" : "Emergency Medical Technician",
   "usage" : "F",
   "table_id" : "0360"
 }, {
   "name" : "TS",
   "description" : "Trade School Graduate",
+  "usage" : "F",
+  "table_id" : "0360"
+}, {
+  "name" : "EMTP",
+  "description" : "Emergency Medical Technician - Paramedic",
   "usage" : "F",
   "table_id" : "0360"
 }, {
@@ -13349,13 +13349,13 @@
   "usage" : "F",
   "table_id" : "0360"
 }, {
-  "name" : "MA",
-  "description" : "Master of Arts",
+  "name" : "AA",
+  "description" : "Associate of Arts",
   "usage" : "F",
   "table_id" : "0360"
 }, {
-  "name" : "AA",
-  "description" : "Associate of Arts",
+  "name" : "MA",
+  "description" : "Master of Arts",
   "usage" : "F",
   "table_id" : "0360"
 }, {
@@ -14049,18 +14049,13 @@
   "usage" : "F",
   "table_id" : "0371"
 }, {
-  "name" : "FL100",
-  "description" : "100mg\"",
-  "usage" : "F",
-  "table_id" : "0371"
-}, {
   "name" : "PHENOL",
   "description" : "Phenol",
   "usage" : "F",
   "table_id" : "0371"
 }, {
-  "name" : "HCL6",
-  "description" : "6N HCL",
+  "name" : "FL100",
+  "description" : "100mg\"",
   "usage" : "F",
   "table_id" : "0371"
 }, {
@@ -14069,8 +14064,8 @@
   "usage" : "F",
   "table_id" : "0371"
 }, {
-  "name" : "HEPA",
-  "description" : "Ammonium heparin",
+  "name" : "HCL6",
+  "description" : "6N HCL",
   "usage" : "F",
   "table_id" : "0371"
 }, {
@@ -14079,8 +14074,8 @@
   "usage" : "F",
   "table_id" : "0371"
 }, {
-  "name" : "HEPL",
-  "description" : "Lithium/Li  Heparin",
+  "name" : "HEPA",
+  "description" : "Ammonium heparin",
   "usage" : "F",
   "table_id" : "0371"
 }, {
@@ -14089,8 +14084,8 @@
   "usage" : "F",
   "table_id" : "0371"
 }, {
-  "name" : "HEPN",
-  "description" : "Sodium/Na  Heparin",
+  "name" : "HEPL",
+  "description" : "Lithium/Li  Heparin",
   "usage" : "F",
   "table_id" : "0371"
 }, {
@@ -14099,13 +14094,18 @@
   "usage" : "F",
   "table_id" : "0371"
 }, {
-  "name" : "HNO3",
-  "description" : "Nitric Acid",
+  "name" : "HEPN",
+  "description" : "Sodium/Na  Heparin",
   "usage" : "F",
   "table_id" : "0371"
 }, {
   "name" : "SST",
   "description" : "Serum Separator Tube (Polymer Gel)",
+  "usage" : "F",
+  "table_id" : "0371"
+}, {
+  "name" : "HNO3",
+  "description" : "Nitric Acid",
   "usage" : "F",
   "table_id" : "0371"
 }, {
@@ -14669,11 +14669,6 @@
   "usage" : "F",
   "table_id" : "0391"
 }, {
-  "name" : "DIET",
-  "description" : "",
-  "usage" : "F",
-  "table_id" : "0391"
-}, {
   "name" : "ORDER_DETAIL_SUPPLEMENT",
   "description" : "",
   "usage" : "F",
@@ -14689,12 +14684,7 @@
   "usage" : "F",
   "table_id" : "0391"
 }, {
-  "name" : "RESPONSE",
-  "description" : "",
-  "usage" : "F",
-  "table_id" : "0391"
-}, {
-  "name" : "DISPENSE",
+  "name" : "DIET",
   "description" : "",
   "usage" : "F",
   "table_id" : "0391"
@@ -14709,12 +14699,12 @@
   "usage" : "F",
   "table_id" : "0391"
 }, {
-  "name" : "RESULT",
+  "name" : "RESPONSE",
   "description" : "",
   "usage" : "F",
   "table_id" : "0391"
 }, {
-  "name" : "ENCODED_ORDER",
+  "name" : "DISPENSE",
   "description" : "",
   "usage" : "F",
   "table_id" : "0391"
@@ -14729,12 +14719,12 @@
   "usage" : "F",
   "table_id" : "0391"
 }, {
-  "name" : "RESULTS",
+  "name" : "RESULT",
   "description" : "",
   "usage" : "F",
   "table_id" : "0391"
 }, {
-  "name" : "ENCODING",
+  "name" : "ENCODED_ORDER",
   "description" : "",
   "usage" : "F",
   "table_id" : "0391"
@@ -14749,12 +14739,12 @@
   "usage" : "F",
   "table_id" : "0391"
 }, {
-  "name" : "RESULTS_NOTES",
+  "name" : "RESULTS",
   "description" : "",
   "usage" : "F",
   "table_id" : "0391"
 }, {
-  "name" : "EXPERIENCE",
+  "name" : "ENCODING",
   "description" : "",
   "usage" : "F",
   "table_id" : "0391"
@@ -14769,12 +14759,12 @@
   "usage" : "F",
   "table_id" : "0391"
 }, {
-  "name" : "ROW_DEFINITION",
+  "name" : "RESULTS_NOTES",
   "description" : "",
   "usage" : "F",
   "table_id" : "0391"
 }, {
-  "name" : "FINANCIAL",
+  "name" : "EXPERIENCE",
   "description" : "",
   "usage" : "F",
   "table_id" : "0391"
@@ -14789,7 +14779,12 @@
   "usage" : "F",
   "table_id" : "0391"
 }, {
-  "name" : "RX_ADMINISTRATION",
+  "name" : "ROW_DEFINITION",
+  "description" : "",
+  "usage" : "F",
+  "table_id" : "0391"
+}, {
+  "name" : "FINANCIAL",
   "description" : "",
   "usage" : "F",
   "table_id" : "0391"
@@ -14805,6 +14800,11 @@
   "table_id" : "0391"
 }, {
   "name" : "MF_TEST_CALCULATED",
+  "description" : "",
+  "usage" : "F",
+  "table_id" : "0391"
+}, {
+  "name" : "RX_ADMINISTRATION",
   "description" : "",
   "usage" : "F",
   "table_id" : "0391"
@@ -14869,11 +14869,6 @@
   "usage" : "F",
   "table_id" : "0391"
 }, {
-  "name" : "NK1_TIMING_QTY",
-  "description" : "",
-  "usage" : "F",
-  "table_id" : "0391"
-}, {
   "name" : "SPECIMEN",
   "description" : "",
   "usage" : "F",
@@ -14889,7 +14884,7 @@
   "usage" : "F",
   "table_id" : "0391"
 }, {
-  "name" : "NOTIFICATION",
+  "name" : "NK1_TIMING_QTY",
   "description" : "",
   "usage" : "F",
   "table_id" : "0391"
@@ -14914,7 +14909,7 @@
   "usage" : "F",
   "table_id" : "0391"
 }, {
-  "name" : "OBSERVATION",
+  "name" : "NOTIFICATION",
   "description" : "",
   "usage" : "F",
   "table_id" : "0391"
@@ -14939,7 +14934,7 @@
   "usage" : "F",
   "table_id" : "0391"
 }, {
-  "name" : "OBSERVATION_PRIOR",
+  "name" : "OBSERVATION",
   "description" : "",
   "usage" : "F",
   "table_id" : "0391"
@@ -14964,7 +14959,7 @@
   "usage" : "F",
   "table_id" : "0391"
 }, {
-  "name" : "OBSERVATION_REQUEST",
+  "name" : "OBSERVATION_PRIOR",
   "description" : "",
   "usage" : "F",
   "table_id" : "0391"
@@ -14989,7 +14984,7 @@
   "usage" : "F",
   "table_id" : "0391"
 }, {
-  "name" : "OMSERVATION",
+  "name" : "OBSERVATION_REQUEST",
   "description" : "",
   "usage" : "F",
   "table_id" : "0391"
@@ -15010,6 +15005,11 @@
   "table_id" : "0391"
 }, {
   "name" : "ASSOCIATED_PERSON",
+  "description" : "",
+  "usage" : "F",
+  "table_id" : "0391"
+}, {
+  "name" : "OMSERVATION",
   "description" : "",
   "usage" : "F",
   "table_id" : "0391"
@@ -15469,11 +15469,6 @@
   "usage" : "F",
   "table_id" : "0396"
 }, {
-  "name" : "GDRG2007",
-  "description" : "G-DRG German DRG Codes v2007",
-  "usage" : "F",
-  "table_id" : "0396"
-}, {
   "name" : "JC8",
   "description" : "Japanese Chemistry",
   "usage" : "F",
@@ -15499,13 +15494,8 @@
   "usage" : "F",
   "table_id" : "0396"
 }, {
-  "name" : "O3012005",
-  "description" : "OPS Germany v2005",
-  "usage" : "F",
-  "table_id" : "0396"
-}, {
-  "name" : "GDRG2008",
-  "description" : "G-DRG German DRG Codes v2008",
+  "name" : "GDRG2007",
+  "description" : "G-DRG German DRG Codes v2007",
   "usage" : "F",
   "table_id" : "0396"
 }, {
@@ -15529,13 +15519,13 @@
   "usage" : "F",
   "table_id" : "0396"
 }, {
-  "name" : "O3012006",
-  "description" : "OPS Germany v2006",
+  "name" : "O3012005",
+  "description" : "OPS Germany v2005",
   "usage" : "F",
   "table_id" : "0396"
 }, {
-  "name" : "GDRG2009",
-  "description" : "G-DRG German DRG Codes v2009",
+  "name" : "GDRG2008",
+  "description" : "G-DRG German DRG Codes v2008",
   "usage" : "F",
   "table_id" : "0396"
 }, {
@@ -15559,13 +15549,13 @@
   "usage" : "F",
   "table_id" : "0396"
 }, {
-  "name" : "OHA",
-  "description" : "Omaha System",
+  "name" : "O3012006",
+  "description" : "OPS Germany v2006",
   "usage" : "F",
   "table_id" : "0396"
 }, {
-  "name" : "GMDC2004",
-  "description" : "German Major Diagnostic Codes v2004",
+  "name" : "GDRG2009",
+  "description" : "G-DRG German DRG Codes v2009",
   "usage" : "F",
   "table_id" : "0396"
 }, {
@@ -15589,13 +15579,13 @@
   "usage" : "F",
   "table_id" : "0396"
 }, {
-  "name" : "OPS2007",
-  "description" : "OPS Germany v2007",
+  "name" : "OHA",
+  "description" : "Omaha System",
   "usage" : "F",
   "table_id" : "0396"
 }, {
-  "name" : "GMDC2005",
-  "description" : "German Major Diagnostic Codes v2005",
+  "name" : "GMDC2004",
+  "description" : "German Major Diagnostic Codes v2004",
   "usage" : "F",
   "table_id" : "0396"
 }, {
@@ -15619,13 +15609,13 @@
   "usage" : "F",
   "table_id" : "0396"
 }, {
-  "name" : "OPS2008",
-  "description" : "OPS Germany v2008",
+  "name" : "OPS2007",
+  "description" : "OPS Germany v2007",
   "usage" : "F",
   "table_id" : "0396"
 }, {
-  "name" : "GMDC2006",
-  "description" : "German Major Diagnostic Codes v2006",
+  "name" : "GMDC2005",
+  "description" : "German Major Diagnostic Codes v2005",
   "usage" : "F",
   "table_id" : "0396"
 }, {
@@ -15654,8 +15644,13 @@
   "usage" : "F",
   "table_id" : "0396"
 }, {
-  "name" : "OPS2009",
-  "description" : "OPS Germany v2009",
+  "name" : "OPS2008",
+  "description" : "OPS Germany v2008",
+  "usage" : "F",
+  "table_id" : "0396"
+}, {
+  "name" : "GMDC2006",
+  "description" : "German Major Diagnostic Codes v2006",
   "usage" : "F",
   "table_id" : "0396"
 }, {
@@ -15686,6 +15681,11 @@
 }, {
   "name" : "ACR",
   "description" : "American College of Radiology finding codes",
+  "usage" : "F",
+  "table_id" : "0396"
+}, {
+  "name" : "OPS2009",
+  "description" : "OPS Germany v2009",
   "usage" : "F",
   "table_id" : "0396"
 }, {
@@ -15759,11 +15759,6 @@
   "usage" : "F",
   "table_id" : "0396"
 }, {
-  "name" : "ALPHAID2008",
-  "description" : "German Alpha-ID v2008",
-  "usage" : "F",
-  "table_id" : "0396"
-}, {
   "name" : "PHINQUESTION",
   "description" : "CDC Public Health Information Network (PHIN) Question",
   "usage" : "F",
@@ -15789,13 +15784,8 @@
   "usage" : "F",
   "table_id" : "0396"
 }, {
-  "name" : "ISO3166_1",
-  "description" : "ISO 3166-1 Country Codes",
-  "usage" : "F",
-  "table_id" : "0396"
-}, {
-  "name" : "ALPHAID2009",
-  "description" : "German Alpha-ID v2009",
+  "name" : "ALPHAID2008",
+  "description" : "German Alpha-ID v2008",
   "usage" : "F",
   "table_id" : "0396"
 }, {
@@ -15819,13 +15809,13 @@
   "usage" : "F",
   "table_id" : "0396"
 }, {
-  "name" : "ISO3166_2",
-  "description" : "ISO 3166-2 Country subdivisions",
+  "name" : "ISO3166_1",
+  "description" : "ISO 3166-1 Country Codes",
   "usage" : "F",
   "table_id" : "0396"
 }, {
-  "name" : "ALPHAID2010",
-  "description" : "German Alpha-ID v2010",
+  "name" : "ALPHAID2009",
+  "description" : "German Alpha-ID v2009",
   "usage" : "F",
   "table_id" : "0396"
 }, {
@@ -15849,13 +15839,13 @@
   "usage" : "F",
   "table_id" : "0396"
 }, {
-  "name" : "ISO4217",
-  "description" : "ISO4217 Currency Codes",
+  "name" : "ISO3166_2",
+  "description" : "ISO 3166-2 Country subdivisions",
   "usage" : "F",
   "table_id" : "0396"
 }, {
-  "name" : "ALPHAID2011",
-  "description" : "German Alpha-ID v2011",
+  "name" : "ALPHAID2010",
+  "description" : "German Alpha-ID v2010",
   "usage" : "F",
   "table_id" : "0396"
 }, {
@@ -15879,13 +15869,13 @@
   "usage" : "F",
   "table_id" : "0396"
 }, {
-  "name" : "ISO639",
-  "description" : "ISO 639 Language",
+  "name" : "ISO4217",
+  "description" : "ISO4217 Currency Codes",
   "usage" : "F",
   "table_id" : "0396"
 }, {
-  "name" : "ANS+",
-  "description" : "HL7 set of units of measure",
+  "name" : "ALPHAID2011",
+  "description" : "German Alpha-ID v2011",
   "usage" : "F",
   "table_id" : "0396"
 }, {
@@ -15909,13 +15899,13 @@
   "usage" : "F",
   "table_id" : "0396"
 }, {
-  "name" : "ISOnnnn (deprecated)",
-  "description" : "ISO Defined Codes where nnnn is the ISO table number",
+  "name" : "ISO639",
+  "description" : "ISO 639 Language",
   "usage" : "F",
   "table_id" : "0396"
 }, {
-  "name" : "ART",
-  "description" : "WHO Adverse Reaction Terms",
+  "name" : "ANS+",
+  "description" : "HL7 set of units of measure",
   "usage" : "F",
   "table_id" : "0396"
 }, {
@@ -15939,8 +15929,13 @@
   "usage" : "F",
   "table_id" : "0396"
 }, {
-  "name" : "ITIS",
-  "description" : "Integrated Taxonomic Information System",
+  "name" : "ISOnnnn (deprecated)",
+  "description" : "ISO Defined Codes where nnnn is the ISO table number",
+  "usage" : "F",
+  "table_id" : "0396"
+}, {
+  "name" : "ART",
+  "description" : "WHO Adverse Reaction Terms",
   "usage" : "F",
   "table_id" : "0396"
 }, {
@@ -15966,6 +15961,11 @@
 }, {
   "name" : "CVX",
   "description" : "CDC Vaccine Codes",
+  "usage" : "F",
+  "table_id" : "0396"
+}, {
+  "name" : "ITIS",
+  "description" : "Integrated Taxonomic Information System",
   "usage" : "F",
   "table_id" : "0396"
 }, {
@@ -17049,11 +17049,6 @@
   "usage" : "F",
   "table_id" : "0440"
 }, {
-  "name" : "RFR",
-  "description" : "Reference range",
-  "usage" : "F",
-  "table_id" : "0440"
-}, {
   "name" : "FT",
   "description" : "Formatted text",
   "usage" : "F",
@@ -17069,8 +17064,8 @@
   "usage" : "F",
   "table_id" : "0440"
 }, {
-  "name" : "RI",
-  "description" : "Repeat interval",
+  "name" : "RFR",
+  "description" : "Reference range",
   "usage" : "F",
   "table_id" : "0440"
 }, {
@@ -17089,8 +17084,8 @@
   "usage" : "F",
   "table_id" : "0440"
 }, {
-  "name" : "RMC",
-  "description" : "Room coverage",
+  "name" : "RI",
+  "description" : "Repeat interval",
   "usage" : "F",
   "table_id" : "0440"
 }, {
@@ -17109,8 +17104,8 @@
   "usage" : "F",
   "table_id" : "0440"
 }, {
-  "name" : "RP",
-  "description" : "Reference pointer",
+  "name" : "RMC",
+  "description" : "Room coverage",
   "usage" : "F",
   "table_id" : "0440"
 }, {
@@ -17129,8 +17124,8 @@
   "usage" : "F",
   "table_id" : "0440"
 }, {
-  "name" : "RPT",
-  "description" : "Repeat pattern",
+  "name" : "RP",
+  "description" : "Reference pointer",
   "usage" : "F",
   "table_id" : "0440"
 }, {
@@ -17146,6 +17141,11 @@
 }, {
   "name" : "CE",
   "description" : "Coded element",
+  "usage" : "F",
+  "table_id" : "0440"
+}, {
+  "name" : "RPT",
+  "description" : "Repeat pattern",
   "usage" : "F",
   "table_id" : "0440"
 }, {
@@ -17414,18 +17414,13 @@
   "usage" : "F",
   "table_id" : "0440"
 }, {
-  "name" : "DR",
-  "description" : "Date/time range",
-  "usage" : "F",
-  "table_id" : "0440"
-}, {
   "name" : "PIP",
   "description" : "Practitioner institutional privileges",
   "usage" : "F",
   "table_id" : "0440"
 }, {
-  "name" : "DT",
-  "description" : "Date",
+  "name" : "DR",
+  "description" : "Date/time range",
   "usage" : "F",
   "table_id" : "0440"
 }, {
@@ -17434,8 +17429,8 @@
   "usage" : "F",
   "table_id" : "0440"
 }, {
-  "name" : "DTM",
-  "description" : "Date/time",
+  "name" : "DT",
+  "description" : "Date",
   "usage" : "F",
   "table_id" : "0440"
 }, {
@@ -17444,8 +17439,8 @@
   "usage" : "F",
   "table_id" : "0440"
 }, {
-  "name" : "DTN",
-  "description" : "Day type and number",
+  "name" : "DTM",
+  "description" : "Date/time",
   "usage" : "F",
   "table_id" : "0440"
 }, {
@@ -17454,8 +17449,8 @@
   "usage" : "F",
   "table_id" : "0440"
 }, {
-  "name" : "ED",
-  "description" : "Encapsulated data",
+  "name" : "DTN",
+  "description" : "Day type and number",
   "usage" : "F",
   "table_id" : "0440"
 }, {
@@ -17464,13 +17459,18 @@
   "usage" : "F",
   "table_id" : "0440"
 }, {
-  "name" : "EI",
-  "description" : "Entity identifier",
+  "name" : "ED",
+  "description" : "Encapsulated data",
   "usage" : "F",
   "table_id" : "0440"
 }, {
   "name" : "PRL",
   "description" : "Parent result link",
+  "usage" : "F",
+  "table_id" : "0440"
+}, {
+  "name" : "EI",
+  "description" : "Entity identifier",
   "usage" : "F",
   "table_id" : "0440"
 }, {
@@ -17759,18 +17759,13 @@
   "usage" : "F",
   "table_id" : "0458"
 }, {
-  "name" : "12",
-  "description" : "Questionable covered service",
-  "usage" : "F",
-  "table_id" : "0458"
-}, {
   "name" : "3",
   "description" : "Diagnosis and sex conflict",
   "usage" : "F",
   "table_id" : "0458"
 }, {
-  "name" : "13",
-  "description" : "Additional payment for service not provided by Medicare",
+  "name" : "12",
+  "description" : "Questionable covered service",
   "usage" : "F",
   "table_id" : "0458"
 }, {
@@ -17779,8 +17774,8 @@
   "usage" : "F",
   "table_id" : "0458"
 }, {
-  "name" : "14",
-  "description" : "Code indicates a site of service not included in OPPS",
+  "name" : "13",
+  "description" : "Additional payment for service not provided by Medicare",
   "usage" : "F",
   "table_id" : "0458"
 }, {
@@ -17789,8 +17784,8 @@
   "usage" : "F",
   "table_id" : "0458"
 }, {
-  "name" : "15",
-  "description" : "Service unit out of range for procedure",
+  "name" : "14",
+  "description" : "Code indicates a site of service not included in OPPS",
   "usage" : "F",
   "table_id" : "0458"
 }, {
@@ -17799,13 +17794,18 @@
   "usage" : "F",
   "table_id" : "0458"
 }, {
-  "name" : "16",
-  "description" : "Multiple bilateral procedures without modifier 50 (see Appendix A)",
+  "name" : "15",
+  "description" : "Service unit out of range for procedure",
   "usage" : "F",
   "table_id" : "0458"
 }, {
   "name" : "33",
   "description" : "Partial hospitalization claim spans more than 3 days with insufficient number of days having mental health services",
+  "usage" : "F",
+  "table_id" : "0458"
+}, {
+  "name" : "16",
+  "description" : "Multiple bilateral procedures without modifier 50 (see Appendix A)",
   "usage" : "F",
   "table_id" : "0458"
 }, {
@@ -18459,21 +18459,6 @@
   "usage" : "F",
   "table_id" : "0485"
 }, {
-  "name" : "TTRA",
-  "description" : "Transtracheal\"",
-  "usage" : "F",
-  "table_id" : "0487"
-}, {
-  "name" : "NGS",
-  "description" : "Naso/Gastric\"",
-  "usage" : "F",
-  "table_id" : "0487"
-}, {
-  "name" : "ETA",
-  "description" : "Endotrach\"",
-  "usage" : "F",
-  "table_id" : "0487"
-}, {
   "name" : "WWO",
   "description" : "Water (Ocean)\"",
   "usage" : "F",
@@ -18494,18 +18479,18 @@
   "usage" : "F",
   "table_id" : "0487"
 }, {
-  "name" : "TUBES",
-  "description" : "Tubes",
+  "name" : "TTRA",
+  "description" : "Transtracheal\"",
   "usage" : "F",
   "table_id" : "0487"
 }, {
-  "name" : "NODUL",
-  "description" : "Nodule(s)",
+  "name" : "NGS",
+  "description" : "Naso/Gastric\"",
   "usage" : "F",
   "table_id" : "0487"
 }, {
-  "name" : "ETTP",
-  "description" : "Endotracheal\"",
+  "name" : "ETA",
+  "description" : "Endotrach\"",
   "usage" : "F",
   "table_id" : "0487"
 }, {
@@ -18529,17 +18514,17 @@
   "usage" : "F",
   "table_id" : "0487"
 }, {
-  "name" : "TUMOR",
-  "description" : "Tumor",
+  "name" : "TUBES",
+  "description" : "Tubes",
   "usage" : "F",
   "table_id" : "0487"
 }, {
-  "name" : "NSECR",
-  "description" : "Nasal\"",
+  "name" : "NODUL",
+  "description" : "Nodule(s)",
   "usage" : "F",
   "table_id" : "0487"
 }, {
-  "name" : "ETTUB",
+  "name" : "ETTP",
   "description" : "Endotracheal\"",
   "usage" : "F",
   "table_id" : "0487"
@@ -18559,13 +18544,18 @@
   "usage" : "F",
   "table_id" : "0487"
 }, {
-  "name" : "TZANC",
-  "description" : "Tzanck\"",
+  "name" : "TUMOR",
+  "description" : "Tumor",
   "usage" : "F",
   "table_id" : "0487"
 }, {
-  "name" : "ORH",
-  "description" : "Other",
+  "name" : "NSECR",
+  "description" : "Nasal\"",
+  "usage" : "F",
+  "table_id" : "0487"
+}, {
+  "name" : "ETTUB",
+  "description" : "Endotracheal\"",
   "usage" : "F",
   "table_id" : "0487"
 }, {
@@ -18589,8 +18579,13 @@
   "usage" : "F",
   "table_id" : "0487"
 }, {
-  "name" : "UDENT",
-  "description" : "Unidentified\"",
+  "name" : "TZANC",
+  "description" : "Tzanck\"",
+  "usage" : "F",
+  "table_id" : "0487"
+}, {
+  "name" : "ORH",
+  "description" : "Other",
   "usage" : "F",
   "table_id" : "0487"
 }, {
@@ -18631,6 +18626,11 @@
 }, {
   "name" : "BRSH",
   "description" : "Brush",
+  "usage" : "F",
+  "table_id" : "0487"
+}, {
+  "name" : "UDENT",
+  "description" : "Unidentified\"",
   "usage" : "F",
   "table_id" : "0487"
 }, {
@@ -18724,11 +18724,6 @@
   "usage" : "F",
   "table_id" : "0487"
 }, {
-  "name" : "BUB",
-  "description" : "Bubo",
-  "usage" : "F",
-  "table_id" : "0487"
-}, {
   "name" : "URINB",
   "description" : "Bladder Washings\"",
   "usage" : "F",
@@ -18769,13 +18764,8 @@
   "usage" : "F",
   "table_id" : "0487"
 }, {
-  "name" : "HIC",
-  "description" : "Hickman\"",
-  "usage" : "F",
-  "table_id" : "0487"
-}, {
-  "name" : "BULLA",
-  "description" : "Bulla/Bullae",
+  "name" : "BUB",
+  "description" : "Bubo",
   "usage" : "F",
   "table_id" : "0487"
 }, {
@@ -18814,18 +18804,13 @@
   "usage" : "F",
   "table_id" : "0487"
 }, {
-  "name" : "RES",
-  "description" : "Respiratory",
+  "name" : "HIC",
+  "description" : "Hickman\"",
   "usage" : "F",
   "table_id" : "0487"
 }, {
-  "name" : "HYDC",
-  "description" : "Hydrocele\"",
-  "usage" : "F",
-  "table_id" : "0487"
-}, {
-  "name" : "BX",
-  "description" : "Biopsy",
+  "name" : "BULLA",
+  "description" : "Bulla/Bullae",
   "usage" : "F",
   "table_id" : "0487"
 }, {
@@ -18859,18 +18844,18 @@
   "usage" : "F",
   "table_id" : "0487"
 }, {
-  "name" : "SAL",
-  "description" : "Saliva",
+  "name" : "RES",
+  "description" : "Respiratory",
   "usage" : "F",
   "table_id" : "0487"
 }, {
-  "name" : "IBITE",
-  "description" : "Insect\"",
+  "name" : "HYDC",
+  "description" : "Hydrocele\"",
   "usage" : "F",
   "table_id" : "0487"
 }, {
-  "name" : "CALC",
-  "description" : "Calculus (=Stone)",
+  "name" : "BX",
+  "description" : "Biopsy",
   "usage" : "F",
   "table_id" : "0487"
 }, {
@@ -18904,18 +18889,18 @@
   "usage" : "F",
   "table_id" : "0487"
 }, {
-  "name" : "SCAR",
-  "description" : "Keloid (Scar)\"",
+  "name" : "SAL",
+  "description" : "Saliva",
   "usage" : "F",
   "table_id" : "0487"
 }, {
-  "name" : "ICYST",
-  "description" : "Inclusion\"",
+  "name" : "IBITE",
+  "description" : "Insect\"",
   "usage" : "F",
   "table_id" : "0487"
 }, {
-  "name" : "CARBU",
-  "description" : "Carbuncle",
+  "name" : "CALC",
+  "description" : "Calculus (=Stone)",
   "usage" : "F",
   "table_id" : "0487"
 }, {
@@ -18949,13 +18934,18 @@
   "usage" : "F",
   "table_id" : "0487"
 }, {
-  "name" : "SCLV",
-  "description" : "Subclavian\"",
+  "name" : "SCAR",
+  "description" : "Keloid (Scar)\"",
   "usage" : "F",
   "table_id" : "0487"
 }, {
-  "name" : "IDC",
-  "description" : "Indwelling\"",
+  "name" : "ICYST",
+  "description" : "Inclusion\"",
+  "usage" : "F",
+  "table_id" : "0487"
+}, {
+  "name" : "CARBU",
+  "description" : "Carbuncle",
   "usage" : "F",
   "table_id" : "0487"
 }, {
@@ -18999,8 +18989,13 @@
   "usage" : "F",
   "table_id" : "0487"
 }, {
-  "name" : "SCROA",
-  "description" : "Scrotal\"",
+  "name" : "SCLV",
+  "description" : "Subclavian\"",
+  "usage" : "F",
+  "table_id" : "0487"
+}, {
+  "name" : "IDC",
+  "description" : "Indwelling\"",
   "usage" : "F",
   "table_id" : "0487"
 }, {
@@ -19046,6 +19041,11 @@
 }, {
   "name" : "DEION",
   "description" : "Water  (Deionized)\"",
+  "usage" : "F",
+  "table_id" : "0487"
+}, {
+  "name" : "SCROA",
+  "description" : "Scrotal\"",
   "usage" : "F",
   "table_id" : "0487"
 }, {
@@ -19709,11 +19709,6 @@
   "usage" : "F",
   "table_id" : "0487"
 }, {
-  "name" : "EOTH",
-  "description" : "Other Substance\"",
-  "usage" : "F",
-  "table_id" : "0487"
-}, {
   "name" : "WORM",
   "description" : "Worm",
   "usage" : "F",
@@ -19744,13 +19739,8 @@
   "usage" : "F",
   "table_id" : "0487"
 }, {
-  "name" : "NGASP",
-  "description" : "Nasogastric\"",
-  "usage" : "F",
-  "table_id" : "0487"
-}, {
-  "name" : "ESOI",
-  "description" : "Soil\"",
+  "name" : "EOTH",
+  "description" : "Other Substance\"",
   "usage" : "F",
   "table_id" : "0487"
 }, {
@@ -19779,18 +19769,13 @@
   "usage" : "F",
   "table_id" : "0487"
 }, {
-  "name" : "TSTES",
-  "description" : "Testicular\"",
-  "usage" : "F",
-  "table_id" : "0487"
-}, {
-  "name" : "NGAST",
+  "name" : "NGASP",
   "description" : "Nasogastric\"",
   "usage" : "F",
   "table_id" : "0487"
 }, {
-  "name" : "ESOS",
-  "description" : "Solution (Sterile)\"",
+  "name" : "ESOI",
+  "description" : "Soil\"",
   "usage" : "F",
   "table_id" : "0487"
 }, {
@@ -19811,6 +19796,21 @@
 }, {
   "name" : "BOIL",
   "description" : "Boil",
+  "usage" : "F",
+  "table_id" : "0487"
+}, {
+  "name" : "TSTES",
+  "description" : "Testicular\"",
+  "usage" : "F",
+  "table_id" : "0487"
+}, {
+  "name" : "NGAST",
+  "description" : "Nasogastric\"",
+  "usage" : "F",
+  "table_id" : "0487"
+}, {
+  "name" : "ESOS",
+  "description" : "Solution (Sterile)\"",
   "usage" : "F",
   "table_id" : "0487"
 }, {
@@ -19884,18 +19884,13 @@
   "usage" : "F",
   "table_id" : "0488"
 }, {
-  "name" : "CVP",
-  "description" : "CVP\"",
-  "usage" : "F",
-  "table_id" : "0488"
-}, {
   "name" : "SHA",
   "description" : "Shaving",
   "usage" : "F",
   "table_id" : "0488"
 }, {
-  "name" : "EPLA",
-  "description" : "Plate\"",
+  "name" : "CVP",
+  "description" : "CVP\"",
   "usage" : "F",
   "table_id" : "0488"
 }, {
@@ -19904,8 +19899,8 @@
   "usage" : "F",
   "table_id" : "0488"
 }, {
-  "name" : "ESWA",
-  "description" : "Swab\"",
+  "name" : "EPLA",
+  "description" : "Plate\"",
   "usage" : "F",
   "table_id" : "0488"
 }, {
@@ -19914,8 +19909,8 @@
   "usage" : "F",
   "table_id" : "0488"
 }, {
-  "name" : "FNA",
-  "description" : "Fine Needle\"",
+  "name" : "ESWA",
+  "description" : "Swab\"",
   "usage" : "F",
   "table_id" : "0488"
 }, {
@@ -19924,13 +19919,18 @@
   "usage" : "F",
   "table_id" : "0488"
 }, {
-  "name" : "KOFFP",
-  "description" : "Cough\"",
+  "name" : "FNA",
+  "description" : "Fine Needle\"",
   "usage" : "F",
   "table_id" : "0488"
 }, {
   "name" : "TMCH",
   "description" : "Chalamydia\"",
+  "usage" : "F",
+  "table_id" : "0488"
+}, {
+  "name" : "KOFFP",
+  "description" : "Cough\"",
   "usage" : "F",
   "table_id" : "0488"
 }, {
@@ -20344,11 +20344,6 @@
   "usage" : "F",
   "table_id" : "0496"
 }, {
-  "name" : "031",
-  "description" : "Cataract Surgery",
-  "usage" : "F",
-  "table_id" : "0496"
-}, {
   "name" : "063",
   "description" : "Injection Slip/ Consent",
   "usage" : "F",
@@ -20356,6 +20351,16 @@
 }, {
   "name" : "1137",
   "description" : "Voiding Cystogram",
+  "usage" : "F",
+  "table_id" : "0496"
+}, {
+  "name" : "031",
+  "description" : "Cataract Surgery",
+  "usage" : "F",
+  "table_id" : "0496"
+}, {
+  "name" : "064",
+  "description" : "Intrauterine Device",
   "usage" : "F",
   "table_id" : "0496"
 }, {
@@ -20369,8 +20374,8 @@
   "usage" : "F",
   "table_id" : "0496"
 }, {
-  "name" : "064",
-  "description" : "Intrauterine Device",
+  "name" : "065",
+  "description" : "Intrauterine Device/Sterilization",
   "usage" : "F",
   "table_id" : "0496"
 }, {
@@ -20381,21 +20386,6 @@
 }, {
   "name" : "033",
   "description" : "Cholesterol Screening",
-  "usage" : "F",
-  "table_id" : "0496"
-}, {
-  "name" : "065",
-  "description" : "Intrauterine Device/Sterilization",
-  "usage" : "F",
-  "table_id" : "0496"
-}, {
-  "name" : "116",
-  "description" : "Sterilization -Federally Funded",
-  "usage" : "F",
-  "table_id" : "0496"
-}, {
-  "name" : "034",
-  "description" : "Circumcision - Newborn",
   "usage" : "F",
   "table_id" : "0496"
 }, {
@@ -20414,13 +20404,13 @@
   "usage" : "F",
   "table_id" : "0496"
 }, {
-  "name" : "117",
-  "description" : "Sterilization - Female",
+  "name" : "116",
+  "description" : "Sterilization -Federally Funded",
   "usage" : "F",
   "table_id" : "0496"
 }, {
-  "name" : "035",
-  "description" : "Colonoscopy",
+  "name" : "034",
+  "description" : "Circumcision - Newborn",
   "usage" : "F",
   "table_id" : "0496"
 }, {
@@ -20439,13 +20429,13 @@
   "usage" : "F",
   "table_id" : "0496"
 }, {
-  "name" : "118",
-  "description" : "Sterilization - Laparoscopy/Pomeroy",
+  "name" : "117",
+  "description" : "Sterilization - Female",
   "usage" : "F",
   "table_id" : "0496"
 }, {
-  "name" : "036",
-  "description" : "Contact Lenses",
+  "name" : "035",
+  "description" : "Colonoscopy",
   "usage" : "F",
   "table_id" : "0496"
 }, {
@@ -20464,8 +20454,13 @@
   "usage" : "F",
   "table_id" : "0496"
 }, {
-  "name" : "119",
-  "description" : "Sterilization - Non-Federally Funded",
+  "name" : "118",
+  "description" : "Sterilization - Laparoscopy/Pomeroy",
+  "usage" : "F",
+  "table_id" : "0496"
+}, {
+  "name" : "036",
+  "description" : "Contact Lenses",
   "usage" : "F",
   "table_id" : "0496"
 }, {
@@ -20486,6 +20481,11 @@
 }, {
   "name" : "069",
   "description" : "Iodine Administration",
+  "usage" : "F",
+  "table_id" : "0496"
+}, {
+  "name" : "119",
+  "description" : "Sterilization - Non-Federally Funded",
   "usage" : "F",
   "table_id" : "0496"
 }, {
@@ -20589,11 +20589,6 @@
   "usage" : "F",
   "table_id" : "0496"
 }, {
-  "name" : "074",
-  "description" : "Lithium Carbonate",
-  "usage" : "F",
-  "table_id" : "0496"
-}, {
   "name" : "124",
   "description" : "Transfer Certification - Physician",
   "usage" : "F",
@@ -20614,8 +20609,8 @@
   "usage" : "F",
   "table_id" : "0496"
 }, {
-  "name" : "075",
-  "description" : "Liver Biopsy",
+  "name" : "074",
+  "description" : "Lithium Carbonate",
   "usage" : "F",
   "table_id" : "0496"
 }, {
@@ -20639,8 +20634,8 @@
   "usage" : "F",
   "table_id" : "0496"
 }, {
-  "name" : "076",
-  "description" : "Lumbar Puncture",
+  "name" : "075",
+  "description" : "Liver Biopsy",
   "usage" : "F",
   "table_id" : "0496"
 }, {
@@ -20664,8 +20659,8 @@
   "usage" : "F",
   "table_id" : "0496"
 }, {
-  "name" : "077",
-  "description" : "Lymphangiogram",
+  "name" : "076",
+  "description" : "Lumbar Puncture",
   "usage" : "F",
   "table_id" : "0496"
 }, {
@@ -20689,8 +20684,8 @@
   "usage" : "F",
   "table_id" : "0496"
 }, {
-  "name" : "078",
-  "description" : "MAO Inhibitors",
+  "name" : "077",
+  "description" : "Lymphangiogram",
   "usage" : "F",
   "table_id" : "0496"
 }, {
@@ -20711,6 +20706,11 @@
 }, {
   "name" : "014",
   "description" : "Angiogram",
+  "usage" : "F",
+  "table_id" : "0496"
+}, {
+  "name" : "078",
+  "description" : "MAO Inhibitors",
   "usage" : "F",
   "table_id" : "0496"
 }, {
@@ -21979,36 +21979,6 @@
   "usage" : "F",
   "table_id" : "0548"
 }, {
-  "name" : "LYM",
-  "description" : "Lymphocytes",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "FBZYG",
-  "description" : "zygomatic\"",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "CARO",
-  "description" : "Carotid",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "SOLE",
-  "description" : "Sole",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "PALM",
-  "description" : "Palm",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "INSTL",
-  "description" : "Large\"",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
   "name" : "EAR",
   "description" : "Ear",
   "usage" : "F",
@@ -22029,38 +21999,33 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "PLEU",
-  "description" : "Pleural Fluid",
+  "name" : "LYM",
+  "description" : "Lymphocytes",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "MAC",
-  "description" : "Macrophages",
+  "name" : "SOLE",
+  "description" : "Sole",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "FEMOR",
-  "description" : "Femoral",
+  "name" : "PALM",
+  "description" : "Palm",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "CARP",
-  "description" : "Carpal",
+  "name" : "INSTL",
+  "description" : "Large\"",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "SPCOR",
-  "description" : "Spinal Cord",
+  "name" : "FBZYG",
+  "description" : "zygomatic\"",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "PANAL",
-  "description" : "Perianal/Perirectal",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "INSTS",
-  "description" : "Small\"",
+  "name" : "CARO",
+  "description" : "Carotid",
   "usage" : "F",
   "table_id" : "0550"
 }, {
@@ -22079,6 +22044,51 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
+  "name" : "PLEU",
+  "description" : "Pleural Fluid",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "MAC",
+  "description" : "Macrophages",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "SPCOR",
+  "description" : "Spinal Cord",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "PANAL",
+  "description" : "Perianal/Perirectal",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "INSTS",
+  "description" : "Small\"",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "FEMOR",
+  "description" : "Femoral",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "CARP",
+  "description" : "Carpal",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "EARBM",
+  "description" : "malleus\"",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "BLAD",
+  "description" : "Bladder",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
   "name" : "THORA",
   "description" : "Thorax/Thoracic/Thoracentesis",
   "usage" : "F",
@@ -22091,16 +22101,6 @@
 }, {
   "name" : "MALLE",
   "description" : "Malleolus",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "FEMUR",
-  "description" : "Femur",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "CAVIT",
-  "description" : "Cavity",
   "usage" : "F",
   "table_id" : "0550"
 }, {
@@ -22119,13 +22119,23 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "EARBM",
-  "description" : "malleus\"",
+  "name" : "FEMUR",
+  "description" : "Femur",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "BLAD",
-  "description" : "Bladder",
+  "name" : "CAVIT",
+  "description" : "Cavity",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "EARBS",
+  "description" : "stapes\"",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "BLD",
+  "description" : "Whole\"",
   "usage" : "F",
   "table_id" : "0550"
 }, {
@@ -22144,16 +22154,6 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "FET",
-  "description" : "Fetus",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "CBLD",
-  "description" : "Cord\"",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
   "name" : "SPLN",
   "description" : "Spleen",
   "usage" : "F",
@@ -22169,18 +22169,53 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "EARBS",
-  "description" : "stapes\"",
+  "name" : "FET",
+  "description" : "Fetus",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "BLD",
-  "description" : "Whole\"",
+  "name" : "CBLD",
+  "description" : "Cord\"",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "MRSA2",
+  "description" : "Mrsa:",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "CDM",
+  "description" : "Cardiac Muscle",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "GLUTM",
+  "description" : "Gluteus Medius",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "EARLO",
+  "description" : "Ear Lobe",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "BLDA",
+  "description" : "Arterial\"",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "COR",
+  "description" : "Cord",
   "usage" : "F",
   "table_id" : "0550"
 }, {
   "name" : "THUMB",
   "description" : "Thumb",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "ADB",
+  "description" : "Abdomen",
   "usage" : "F",
   "table_id" : "0550"
 }, {
@@ -22191,16 +22226,6 @@
 }, {
   "name" : "MAR",
   "description" : "Marrow",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "FIBU",
-  "description" : "Fibula",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "CDM",
-  "description" : "Cardiac Muscle",
   "usage" : "F",
   "table_id" : "0550"
 }, {
@@ -22219,16 +22244,6 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "EARLO",
-  "description" : "Ear Lobe",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "BLDA",
-  "description" : "Arterial\"",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
   "name" : "UTERI",
   "description" : "Uterine",
   "usage" : "F",
@@ -22239,28 +22254,58 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "MRSA2",
-  "description" : "Mrsa:",
+  "name" : "FIBU",
+  "description" : "Fibula",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "GLUTM",
-  "description" : "Gluteus Medius",
+  "name" : "RPERI",
+  "description" : "Retroperitoneal",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "COR",
-  "description" : "Cord",
+  "name" : "FING",
+  "description" : "Finger",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "ADB",
-  "description" : "Abdomen",
+  "name" : "MYO",
+  "description" : "Myocardium",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "CDUCT",
+  "description" : "Common Duct",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "GROIN",
+  "description" : "Groin",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "EC",
+  "description" : "Endocervical",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "BLDC",
+  "description" : "Capillary\"",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "CORAL",
+  "description" : "Coral",
   "usage" : "F",
   "table_id" : "0550"
 }, {
   "name" : "THYRD",
   "description" : "Thyroid",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "ADE",
+  "description" : "Adenoids",
   "usage" : "F",
   "table_id" : "0550"
 }, {
@@ -22271,16 +22316,6 @@
 }, {
   "name" : "MAST",
   "description" : "Mastoid",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "FING",
-  "description" : "Finger",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "CDUCT",
-  "description" : "Common Duct",
   "usage" : "F",
   "table_id" : "0550"
 }, {
@@ -22299,48 +22334,63 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "EC",
-  "description" : "Endocervical",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "BLDC",
-  "description" : "Capillary\"",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
   "name" : "VAGIN",
   "description" : "Vagina/Vaginal",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "RPERI",
-  "description" : "Retroperitoneal",
+  "name" : "VAL",
+  "description" : "Valve",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "MYO",
-  "description" : "Myocardium",
+  "name" : "SAC",
+  "description" : "Uterine Cul/De/Sac",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "GROIN",
-  "description" : "Groin",
+  "name" : "FINGN",
+  "description" : "Finger Nail",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "CORAL",
-  "description" : "Coral",
+  "name" : "NAIL",
+  "description" : "Nail",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "ADE",
-  "description" : "Adenoids",
+  "name" : "CECUM",
+  "description" : "Cecum/Cecal",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "GUM",
+  "description" : "Gum",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "ELBOW",
+  "description" : "Elbow",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "BLDV",
+  "description" : "Venous\"",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "CORD",
+  "description" : "Cord Blood",
   "usage" : "F",
   "table_id" : "0550"
 }, {
   "name" : "TIBIA",
   "description" : "Tibia",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "ADR",
+  "description" : "Adrenal",
   "usage" : "F",
   "table_id" : "0550"
 }, {
@@ -22351,16 +22401,6 @@
 }, {
   "name" : "MAXIL",
   "description" : "Maxilla/Maxillary",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "FINGN",
-  "description" : "Finger Nail",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "CECUM",
-  "description" : "Cecum/Cecal",
   "usage" : "F",
   "table_id" : "0550"
 }, {
@@ -22379,48 +22419,58 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "ELBOW",
-  "description" : "Elbow",
+  "name" : "VAS",
+  "description" : "Vas Deferens",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "BLDV",
-  "description" : "Venous\"",
+  "name" : "SACIL",
+  "description" : "Sacroiliac",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "VAL",
-  "description" : "Valve",
+  "name" : "FMH",
+  "description" : "Femoral Head",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "SAC",
-  "description" : "Uterine Cul/De/Sac",
+  "name" : "NAILB",
+  "description" : "Nail Bed",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "NAIL",
-  "description" : "Nail",
+  "name" : "CERVUT",
+  "description" : "Cervix/Uterus",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "GUM",
-  "description" : "Gum",
+  "name" : "GVU",
+  "description" : "Genital - Vulva",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "CORD",
-  "description" : "Cord Blood",
+  "name" : "ELBOWJ",
+  "description" : "Elbow Joint",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "ADR",
-  "description" : "Adrenal",
+  "name" : "BLOOD",
+  "description" : "Blood",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "CORN",
+  "description" : "Cornea",
   "usage" : "F",
   "table_id" : "0550"
 }, {
   "name" : "TML",
   "description" : "Temporal Lobe",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "AMN",
+  "description" : "Amniotic fluid",
   "usage" : "F",
   "table_id" : "0550"
 }, {
@@ -22431,16 +22481,6 @@
 }, {
   "name" : "MAXS",
   "description" : "Maxillary Sinus",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "FMH",
-  "description" : "Femoral Head",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "CERVUT",
-  "description" : "Cervix/Uterus",
   "usage" : "F",
   "table_id" : "0550"
 }, {
@@ -22459,48 +22499,58 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "ELBOWJ",
-  "description" : "Elbow Joint",
+  "name" : "VASTL",
+  "description" : "Vastus Lateralis",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "BLOOD",
-  "description" : "Blood",
+  "name" : "SACRA",
+  "description" : "Sacral",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "VAS",
-  "description" : "Vas Deferens",
+  "name" : "FOL",
+  "description" : "Follicle",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "SACIL",
-  "description" : "Sacroiliac",
+  "name" : "NAILF",
+  "description" : "Finger\"",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "NAILB",
-  "description" : "Nail Bed",
+  "name" : "CHE",
+  "description" : "Chest\"",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "GVU",
-  "description" : "Genital - Vulva",
+  "name" : "HAL",
+  "description" : "Hallux",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "CORN",
-  "description" : "Cornea",
+  "name" : "ENDC",
+  "description" : "Endocardium",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "AMN",
-  "description" : "Amniotic fluid",
+  "name" : "BMAR",
+  "description" : "Bone marrow",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "COS",
+  "description" : "Colostomy Stoma",
   "usage" : "F",
   "table_id" : "0550"
 }, {
   "name" : "TNL",
   "description" : "Thumbnail",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "AMS",
+  "description" : "Amniotic Sac",
   "usage" : "F",
   "table_id" : "0550"
 }, {
@@ -22511,16 +22561,6 @@
 }, {
   "name" : "MEATU",
   "description" : "Meatus",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "FOL",
-  "description" : "Follicle",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "CHE",
-  "description" : "Chest\"",
   "usage" : "F",
   "table_id" : "0550"
 }, {
@@ -22539,48 +22579,58 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "ENDC",
-  "description" : "Endocardium",
+  "name" : "VAULT",
+  "description" : "Vault",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "BMAR",
-  "description" : "Bone marrow",
+  "name" : "SACRO",
+  "description" : "Sacrococcygeal",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "VASTL",
-  "description" : "Vastus Lateralis",
+  "name" : "FOOT",
+  "description" : "Foot",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "SACRA",
-  "description" : "Sacral",
+  "name" : "NAILT",
+  "description" : "Toe\"",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "NAILF",
-  "description" : "Finger\"",
+  "name" : "CHEEK",
+  "description" : "Cheek",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "HAL",
-  "description" : "Hallux",
+  "name" : "HAND",
+  "description" : "Hand",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "COS",
-  "description" : "Colostomy Stoma",
+  "name" : "ENDM",
+  "description" : "Endometrium",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "AMS",
-  "description" : "Amniotic Sac",
+  "name" : "BON",
+  "description" : "Bone",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "CRANE",
+  "description" : "ethmoid\"",
   "usage" : "F",
   "table_id" : "0550"
 }, {
   "name" : "TOE",
   "description" : "Toe",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "ANAL",
+  "description" : "Anal",
   "usage" : "F",
   "table_id" : "0550"
 }, {
@@ -22591,16 +22641,6 @@
 }, {
   "name" : "MEC",
   "description" : "Meconium",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "FOOT",
-  "description" : "Foot",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "CHEEK",
-  "description" : "Cheek",
   "usage" : "F",
   "table_id" : "0550"
 }, {
@@ -22619,48 +22659,58 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "ENDM",
-  "description" : "Endometrium",
+  "name" : "VCSF",
+  "description" : "Ventricular CSF",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "BON",
-  "description" : "Bone",
+  "name" : "SACRU",
+  "description" : "Sacrum",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "VAULT",
-  "description" : "Vault",
+  "name" : "FOREA",
+  "description" : "Forearm",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "SACRO",
-  "description" : "Sacrococcygeal",
+  "name" : "NARES",
+  "description" : "Nares",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "NAILT",
-  "description" : "Toe\"",
+  "name" : "CHES",
+  "description" : "Chest",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "HAND",
-  "description" : "Hand",
+  "name" : "HAR",
+  "description" : "Hair",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "CRANE",
-  "description" : "ethmoid\"",
+  "name" : "EOLPH",
+  "description" : "endolpthamitis",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "ANAL",
-  "description" : "Anal",
+  "name" : "BOWEL",
+  "description" : "Bowel",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "CRANF",
+  "description" : "frontal\"",
   "usage" : "F",
   "table_id" : "0550"
 }, {
   "name" : "TOEN",
   "description" : "Toe Nail",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "ANKL",
+  "description" : "Ankle",
   "usage" : "F",
   "table_id" : "0550"
 }, {
@@ -22671,16 +22721,6 @@
 }, {
   "name" : "MEDST",
   "description" : "Mediastinum",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "FOREA",
-  "description" : "Forearm",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "CHES",
-  "description" : "Chest",
   "usage" : "F",
   "table_id" : "0550"
 }, {
@@ -22699,48 +22739,58 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "EOLPH",
-  "description" : "endolpthamitis",
+  "name" : "VCUFF",
+  "description" : "Vaginal Cuff",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "BOWEL",
-  "description" : "Bowel",
+  "name" : "SALGL",
+  "description" : "Salivary Gland",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "VCSF",
-  "description" : "Ventricular CSF",
+  "name" : "FOREH",
+  "description" : "Forehead",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "SACRU",
-  "description" : "Sacrum",
+  "name" : "NASL",
+  "description" : "Nasal",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "NARES",
-  "description" : "Nares",
+  "name" : "CHESTт╩",
+  "description" : "Chest Tube",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "HAR",
-  "description" : "Hair",
+  "name" : "HART",
+  "description" : "Heart",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "CRANF",
-  "description" : "frontal\"",
+  "name" : "EOS",
+  "description" : "Eosinophils",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "ANKL",
-  "description" : "Ankle",
+  "name" : "BOWLA",
+  "description" : "Large\"",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "CRANO",
+  "description" : "occipital\"",
   "usage" : "F",
   "table_id" : "0550"
 }, {
   "name" : "TONG",
   "description" : "Tongue",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "ANTEC",
+  "description" : "Antecubital",
   "usage" : "F",
   "table_id" : "0550"
 }, {
@@ -22751,16 +22801,6 @@
 }, {
   "name" : "MEDU",
   "description" : "Medullary",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "FOREH",
-  "description" : "Forehead",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "CHESTт╩",
-  "description" : "Chest Tube",
   "usage" : "F",
   "table_id" : "0550"
 }, {
@@ -22779,48 +22819,58 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "EOS",
-  "description" : "Eosinophils",
+  "name" : "VEIN",
+  "description" : "Vein",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "BOWLA",
-  "description" : "Large\"",
+  "name" : "SCALP",
+  "description" : "Scalp",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "VCUFF",
-  "description" : "Vaginal Cuff",
+  "name" : "FORES",
+  "description" : "Foreskin",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "SALGL",
-  "description" : "Salivary Gland",
+  "name" : "NAVEL",
+  "description" : "Navel",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "NASL",
-  "description" : "Nasal",
+  "name" : "CHIN",
+  "description" : "Chin",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "HART",
-  "description" : "Heart",
+  "name" : "HEAD",
+  "description" : "Head",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "CRANO",
-  "description" : "occipital\"",
+  "name" : "EPD",
+  "description" : "Epididymis",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "ANTEC",
-  "description" : "Antecubital",
+  "name" : "BOWSM",
+  "description" : "Small\"",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "CRANP",
+  "description" : "parietal\"",
   "usage" : "F",
   "table_id" : "0550"
 }, {
   "name" : "TONS",
   "description" : "Tonsil",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "ANTECF",
+  "description" : "Antecubital Fossa",
   "usage" : "F",
   "table_id" : "0550"
 }, {
@@ -22831,16 +22881,6 @@
 }, {
   "name" : "METAC",
   "description" : "Metacarpal",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "FORES",
-  "description" : "Foreskin",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "CHIN",
-  "description" : "Chin",
   "usage" : "F",
   "table_id" : "0550"
 }, {
@@ -22859,93 +22899,8 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "EPD",
-  "description" : "Epididymis",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "BOWSM",
-  "description" : "Small\"",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "VEIN",
-  "description" : "Vein",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "SCALP",
-  "description" : "Scalp",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "NAVEL",
-  "description" : "Navel",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "HEAD",
-  "description" : "Head",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "CRANP",
-  "description" : "parietal\"",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "ANTECF",
-  "description" : "Antecubital Fossa",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "TOOTH",
-  "description" : "Tooth",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "PTONS",
-  "description" : "Peritonsillar",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "METAT",
-  "description" : "Metatarsal",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "FOURC",
-  "description" : "Fourchette",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "CIRCU",
-  "description" : "Circumcision Site",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "SUBM",
-  "description" : "Submandibular",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "PENSH",
-  "description" : "Penile Shaft",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
   "name" : "LABIA",
   "description" : "Labia",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "EPICA",
-  "description" : "Epicardial",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "BPH",
-  "description" : "Basophils",
   "usage" : "F",
   "table_id" : "0550"
 }, {
@@ -22959,8 +22914,18 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
+  "name" : "FOURC",
+  "description" : "Fourchette",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
   "name" : "NECK",
   "description" : "Neck",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "CIRCU",
+  "description" : "Circumcision Site",
   "usage" : "F",
   "table_id" : "0550"
 }, {
@@ -22969,8 +22934,23 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
+  "name" : "EPICA",
+  "description" : "Epicardial",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "BPH",
+  "description" : "Basophils",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
   "name" : "CRANS",
   "description" : "sphenoid\"",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "TOOTH",
+  "description" : "Tooth",
   "usage" : "F",
   "table_id" : "0550"
 }, {
@@ -22979,33 +22959,23 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "TRCHE",
-  "description" : "Trachea/Tracheal",
+  "name" : "PTONS",
+  "description" : "Peritonsillar",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "PUBIC",
-  "description" : "Pubic",
+  "name" : "METAT",
+  "description" : "Metatarsal",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "MILK",
-  "description" : "Breast\"",
+  "name" : "SUBM",
+  "description" : "Submandibular",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "GB",
-  "description" : "Gall Bladder",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "CLAVI",
-  "description" : "Clavicle/Clavicular",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "SUBME",
-  "description" : "Submental",
+  "name" : "PENSH",
+  "description" : "Penile Shaft",
   "usage" : "F",
   "table_id" : "0550"
 }, {
@@ -23019,16 +22989,6 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "EPICM",
-  "description" : "Epicardium",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "BRA",
-  "description" : "Brachial",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
   "name" : "VERMI",
   "description" : "Vermis Cerebelli",
   "usage" : "F",
@@ -23039,8 +22999,18 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
+  "name" : "GB",
+  "description" : "Gall Bladder",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
   "name" : "NERVE",
   "description" : "Nerve",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "CLAVI",
+  "description" : "Clavicle/Clavicular",
   "usage" : "F",
   "table_id" : "0550"
 }, {
@@ -23049,8 +23019,23 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
+  "name" : "EPICM",
+  "description" : "Epicardium",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "BRA",
+  "description" : "Brachial",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
   "name" : "CRANT",
   "description" : "temporal\"",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "TRCHE",
+  "description" : "Trachea/Tracheal",
   "usage" : "F",
   "table_id" : "0550"
 }, {
@@ -23059,28 +23044,18 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "TSK",
-  "description" : "Tooth Socket",
+  "name" : "PUBIC",
+  "description" : "Pubic",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "PUL",
-  "description" : "Pulmonary Artery",
+  "name" : "MILK",
+  "description" : "Breast\"",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "MITRL",
-  "description" : "Mitral Valve",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "GEN",
-  "description" : "Genital",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "CLIT",
-  "description" : "Clitoris",
+  "name" : "SUBME",
+  "description" : "Submental",
   "usage" : "F",
   "table_id" : "0550"
 }, {
@@ -23099,16 +23074,6 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "EPIDU",
-  "description" : "Epidural",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "BRAIN",
-  "description" : "Brain",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
   "name" : "VERTC",
   "description" : "cervical\"",
   "usage" : "F",
@@ -23119,8 +23084,18 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
+  "name" : "GEN",
+  "description" : "Genital",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
   "name" : "NIPPL",
   "description" : "Nipple",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "CLIT",
+  "description" : "Clitoris",
   "usage" : "F",
   "table_id" : "0550"
 }, {
@@ -23129,8 +23104,23 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
+  "name" : "EPIDU",
+  "description" : "Epidural",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "BRAIN",
+  "description" : "Brain",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
   "name" : "CSF",
   "description" : "Cerebral Spinal Fluid",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "TSK",
+  "description" : "Tooth Socket",
   "usage" : "F",
   "table_id" : "0550"
 }, {
@@ -23139,28 +23129,13 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "ULNA",
-  "description" : "Ulna/Ulnar",
+  "name" : "PUL",
+  "description" : "Pulmonary Artery",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "RADI",
-  "description" : "Radial",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "MOLAR",
-  "description" : "Molar",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "GENC",
-  "description" : "Genital Cervix",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "CLITO",
-  "description" : "Clitoral",
+  "name" : "MITRL",
+  "description" : "Mitral Valve",
   "usage" : "F",
   "table_id" : "0550"
 }, {
@@ -23179,16 +23154,6 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "EPIGL",
-  "description" : "Epiglottis",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "BRO",
-  "description" : "Bronchial",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
   "name" : "VERTL",
   "description" : "lumbar\"",
   "usage" : "F",
@@ -23199,8 +23164,18 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
+  "name" : "GENC",
+  "description" : "Genital Cervix",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
   "name" : "NLACR",
   "description" : "Nasolacrimal",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "CLITO",
+  "description" : "Clitoral",
   "usage" : "F",
   "table_id" : "0550"
 }, {
@@ -23209,8 +23184,23 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
+  "name" : "EPIGL",
+  "description" : "Epiglottis",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "BRO",
+  "description" : "Bronchial",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
   "name" : "CUBIT",
   "description" : "Cubitus",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "ULNA",
+  "description" : "Ulna/Ulnar",
   "usage" : "F",
   "table_id" : "0550"
 }, {
@@ -23219,28 +23209,13 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "UMB",
-  "description" : "Umbilical Blood",
+  "name" : "RADI",
+  "description" : "Radial",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "RADIUS",
-  "description" : "Radius",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "MONSU",
-  "description" : "Mons Ureteris",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "GENL",
-  "description" : "Genital Lochia",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "CNL",
-  "description" : "Cannula",
+  "name" : "MOLAR",
+  "description" : "Molar",
   "usage" : "F",
   "table_id" : "0550"
 }, {
@@ -23259,16 +23234,6 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "ESO",
-  "description" : "Esophagus",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "BROCH",
-  "description" : "Bronchiole/Bronchiolar",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
   "name" : "VERTT",
   "description" : "thoracic\"",
   "usage" : "F",
@@ -23279,8 +23244,18 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
+  "name" : "GENL",
+  "description" : "Genital Lochia",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
   "name" : "NOS",
   "description" : "Nose (Nasal Passage)",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "CNL",
+  "description" : "Cannula",
   "usage" : "F",
   "table_id" : "0550"
 }, {
@@ -23289,8 +23264,23 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
+  "name" : "ESO",
+  "description" : "Esophagus",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "BROCH",
+  "description" : "Bronchiole/Bronchiolar",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
   "name" : "CUFF",
   "description" : "Cuff",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "UMB",
+  "description" : "Umbilical Blood",
   "usage" : "F",
   "table_id" : "0550"
 }, {
@@ -23299,28 +23289,13 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "UMBL",
-  "description" : "Umbilicus/Umbilical",
+  "name" : "RADIUS",
+  "description" : "Radius",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "RBC",
-  "description" : "Red Blood Cells",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "MONSV",
-  "description" : "Mons Veneris(Mons Pubis)",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "GL",
-  "description" : "Genital Lesion",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "COCCG",
-  "description" : "Coccygeal",
+  "name" : "MONSU",
+  "description" : "Mons Ureteris",
   "usage" : "F",
   "table_id" : "0550"
 }, {
@@ -23339,16 +23314,6 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "ESOPG",
-  "description" : "Esophageal",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "BRONC",
-  "description" : "Bronchus/Bronchial",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
   "name" : "VESCL",
   "description" : "Vesicular",
   "usage" : "F",
@@ -23359,8 +23324,18 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
+  "name" : "GL",
+  "description" : "Genital Lesion",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
   "name" : "NOSE",
   "description" : "Nose/Nose(outside)",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "COCCG",
+  "description" : "Coccygeal",
   "usage" : "F",
   "table_id" : "0550"
 }, {
@@ -23369,8 +23344,23 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
+  "name" : "ESOPG",
+  "description" : "Esophageal",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "BRONC",
+  "description" : "Bronchus/Bronchial",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
   "name" : "CULD",
   "description" : "Cul De Sac",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "UMBL",
+  "description" : "Umbilicus/Umbilical",
   "usage" : "F",
   "table_id" : "0550"
 }, {
@@ -23379,28 +23369,13 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "URET",
-  "description" : "Ureter",
+  "name" : "RBC",
+  "description" : "Red Blood Cells",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "RECTL",
-  "description" : "Rectal",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "MOU",
-  "description" : "Membrane",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "GLAND",
-  "description" : "Gland",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "COCCY",
-  "description" : "Coccyx",
+  "name" : "MONSV",
+  "description" : "Mons Veneris(Mons Pubis)",
   "usage" : "F",
   "table_id" : "0550"
 }, {
@@ -23419,16 +23394,6 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "ET",
-  "description" : "Endotracheal",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "BROW",
-  "description" : "Eyebrow",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
   "name" : "VESFLD",
   "description" : "Vesicular Fluid",
   "usage" : "F",
@@ -23439,8 +23404,18 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
+  "name" : "GLAND",
+  "description" : "Gland",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
   "name" : "NOSTR",
   "description" : "Nostril",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "COCCY",
+  "description" : "Coccyx",
   "usage" : "F",
   "table_id" : "0550"
 }, {
@@ -23449,8 +23424,23 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
+  "name" : "ET",
+  "description" : "Endotracheal",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "BROW",
+  "description" : "Eyebrow",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
   "name" : "CULDO",
   "description" : "Culdocentesis",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "URET",
+  "description" : "Ureter",
   "usage" : "F",
   "table_id" : "0550"
 }, {
@@ -23459,38 +23449,13 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "ARTE",
-  "description" : "Artery",
+  "name" : "RECTL",
+  "description" : "Rectal",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "URTH",
-  "description" : "Urethra",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "RECTU",
-  "description" : "Rectum",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "MOUTH",
-  "description" : "Mouth",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "GLANS",
-  "description" : "Glans",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "COLON",
-  "description" : "Colon",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "т╩",
-  "description" : "External Jugular",
+  "name" : "MOU",
+  "description" : "Membrane",
   "usage" : "F",
   "table_id" : "0550"
 }, {
@@ -23509,16 +23474,6 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "ETHMO",
-  "description" : "Ethmoid",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "BRST",
-  "description" : "Breast",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
   "name" : "VESI",
   "description" : "Vesicle",
   "usage" : "F",
@@ -23529,8 +23484,18 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
+  "name" : "GLANS",
+  "description" : "Glans",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
   "name" : "NP",
   "description" : "Nasopharyngeal/Nasopharynx",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "COLON",
+  "description" : "Colon",
   "usage" : "F",
   "table_id" : "0550"
 }, {
@@ -23539,48 +23504,43 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
+  "name" : "т╩",
+  "description" : "External Jugular",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "ETHMO",
+  "description" : "Ethmoid",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "BRST",
+  "description" : "Breast",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
   "name" : "CVX",
   "description" : "Cervix",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "DELT",
-  "description" : "Deltoid",
+  "name" : "URTH",
+  "description" : "Urethra",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "ASCIT",
-  "description" : "Ascites",
+  "name" : "ARTE",
+  "description" : "Artery",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "USTOM",
-  "description" : "Urinary\"",
+  "name" : "RECTU",
+  "description" : "Rectum",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "RENL",
-  "description" : "Renal",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "MP",
-  "description" : "Mons Pubis",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "GLUT",
-  "description" : "Gluteus",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "COLOS",
-  "description" : "Colostomy",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "ACET",
-  "description" : "Acetabulum",
+  "name" : "MOUTH",
+  "description" : "Mouth",
   "usage" : "F",
   "table_id" : "0550"
 }, {
@@ -23599,16 +23559,6 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "EUR",
-  "description" : "Endourethral",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "BRSTFL",
-  "description" : "Breast fluid",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
   "name" : "VESTI",
   "description" : "Vestibule(Genital)",
   "usage" : "F",
@@ -23619,8 +23569,18 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
+  "name" : "GLUT",
+  "description" : "Gluteus",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
   "name" : "NSS",
   "description" : "Nasal Septum",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "COLOS",
+  "description" : "Colostomy",
   "usage" : "F",
   "table_id" : "0550"
 }, {
@@ -23629,48 +23589,43 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "ICX",
-  "description" : "Intracervical",
+  "name" : "ACET",
+  "description" : "Acetabulum",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "DEN",
-  "description" : "Dental Gingiva",
+  "name" : "EUR",
+  "description" : "Endourethral",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "ASCT",
-  "description" : "Ascitic Fluid",
+  "name" : "BRSTFL",
+  "description" : "Breast fluid",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "UTER",
-  "description" : "Uterus",
+  "name" : "DELT",
+  "description" : "Deltoid",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "RIB",
-  "description" : "Rib",
+  "name" : "USTOM",
+  "description" : "Urinary\"",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "MPB",
-  "description" : "Meninges",
+  "name" : "ASCIT",
+  "description" : "Ascites",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "GLUTE",
-  "description" : "Gluteal",
+  "name" : "RENL",
+  "description" : "Renal",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "CONJ",
-  "description" : "Conjunctiva",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "ACHIL",
-  "description" : "Achilles",
+  "name" : "MP",
+  "description" : "Mons Pubis",
   "usage" : "F",
   "table_id" : "0550"
 }, {
@@ -23689,16 +23644,6 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "EYE",
-  "description" : "Eye",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "BRTGF",
-  "description" : "Bartholin Gland Fluid",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
   "name" : "VGV",
   "description" : "Vaginal Vault",
   "usage" : "F",
@@ -23709,28 +23654,63 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
+  "name" : "GLUTE",
+  "description" : "Gluteal",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
   "name" : "NTRAC",
   "description" : "Nasotracheal",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "OCCIP",
-  "description" : "Occipital",
+  "name" : "CONJ",
+  "description" : "Conjunctiva",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "ILC",
-  "description" : "Ileal Conduit",
+  "name" : "ICX",
+  "description" : "Intracervical",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "DENTA",
-  "description" : "Dental",
+  "name" : "ACHIL",
+  "description" : "Achilles",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "ATR",
-  "description" : "Atrium",
+  "name" : "EYE",
+  "description" : "Eye",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "BRTGF",
+  "description" : "Bartholin Gland Fluid",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "DEN",
+  "description" : "Dental Gingiva",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "UTER",
+  "description" : "Uterus",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "ASCT",
+  "description" : "Ascitic Fluid",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "RIB",
+  "description" : "Rib",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "MPB",
+  "description" : "Meninges",
   "usage" : "F",
   "table_id" : "0550"
 }, {
@@ -23749,16 +23729,6 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "EYELI",
-  "description" : "Eyelid",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "BRV",
-  "description" : "Broviac",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
   "name" : "VITR",
   "description" : "Vitreous Fluid",
   "usage" : "F",
@@ -23769,28 +23739,33 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "SHIN",
-  "description" : "Shin",
+  "name" : "OCCIP",
+  "description" : "Occipital",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "OLECR",
-  "description" : "Olecranon",
+  "name" : "ILC",
+  "description" : "Ileal Conduit",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "ILCON",
-  "description" : "Ilical Conduit",
+  "name" : "EYELI",
+  "description" : "Eyelid",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "DIAF",
-  "description" : "Dialysis Fluid",
+  "name" : "BRV",
+  "description" : "Broviac",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "AURI",
-  "description" : "Auricular",
+  "name" : "DENTA",
+  "description" : "Dental",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "ATR",
+  "description" : "Atrium",
   "usage" : "F",
   "table_id" : "0550"
 }, {
@@ -23809,6 +23784,26 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
+  "name" : "VOC",
+  "description" : "Vocal Cord",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "SHIN",
+  "description" : "Shin",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "OLECR",
+  "description" : "Olecranon",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "ILCON",
+  "description" : "Ilical Conduit",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
   "name" : "FACE",
   "description" : "Face",
   "usage" : "F",
@@ -23819,33 +23814,13 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "VOC",
-  "description" : "Vocal Cord",
+  "name" : "DIAF",
+  "description" : "Dialysis Fluid",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "VULVA",
-  "description" : "Vulva",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "SHOL",
-  "description" : "Shoulder",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "OMEN",
-  "description" : "Omentum",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "ILCR",
-  "description" : "Iliac Crest",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "DIGIT",
-  "description" : "Digit",
+  "name" : "AURI",
+  "description" : "Auricular",
   "usage" : "F",
   "table_id" : "0550"
 }, {
@@ -23869,6 +23844,26 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
+  "name" : "VULVA",
+  "description" : "Vulva",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "SHOL",
+  "description" : "Shoulder",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "OMEN",
+  "description" : "Omentum",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "ILCR",
+  "description" : "Iliac Crest",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
   "name" : "FALLT",
   "description" : "Fallopian Tube",
   "usage" : "F",
@@ -23879,23 +23874,8 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "WBC",
-  "description" : "Leukocytes",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "SHOLJ",
-  "description" : "Sholder Joint",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "ORBIT",
-  "description" : "Orbit/Orbital",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "ILE",
-  "description" : "Ileal Loop",
+  "name" : "DIGIT",
+  "description" : "Digit",
   "usage" : "F",
   "table_id" : "0550"
 }, {
@@ -23924,6 +23904,26 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
+  "name" : "WBC",
+  "description" : "Leukocytes",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "SHOLJ",
+  "description" : "Sholder Joint",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "ORBIT",
+  "description" : "Orbit/Orbital",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "ILE",
+  "description" : "Ileal Loop",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
   "name" : "FBINC",
   "description" : "inferior nasal concha\"",
   "usage" : "F",
@@ -23931,26 +23931,6 @@
 }, {
   "name" : "BURSF",
   "description" : "Bursa Fluid",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "WRIST",
-  "description" : "Wrist",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "SIGMO",
-  "description" : "Sigmoid",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "ORO",
-  "description" : "Oropharynx",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "ILEOS",
-  "description" : "Ileostomy",
   "usage" : "F",
   "table_id" : "0550"
 }, {
@@ -23979,6 +23959,26 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
+  "name" : "WRIST",
+  "description" : "Wrist",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "SIGMO",
+  "description" : "Sigmoid",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "ORO",
+  "description" : "Oropharynx",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "ILEOS",
+  "description" : "Ileostomy",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
   "name" : "FBLAC",
   "description" : "lacrimal\"",
   "usage" : "F",
@@ -23986,21 +23986,6 @@
 }, {
   "name" : "BUTT",
   "description" : "Buttocks",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "SINUS",
-  "description" : "Sinus",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "OSCOX",
-  "description" : "Os coxa (pelvic girdle)",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "ILEUM",
-  "description" : "Ileum",
   "usage" : "F",
   "table_id" : "0550"
 }, {
@@ -24029,6 +24014,21 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
+  "name" : "SINUS",
+  "description" : "Sinus",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "OSCOX",
+  "description" : "Os coxa (pelvic girdle)",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "ILEUM",
+  "description" : "Ileum",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
   "name" : "FBMAX",
   "description" : "maxilla\"",
   "usage" : "F",
@@ -24036,21 +24036,6 @@
 }, {
   "name" : "CALF",
   "description" : "Calf",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "SKENE",
-  "description" : "Skene's Gland",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "OVARY",
-  "description" : "Ovary",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "ILIAC",
-  "description" : "Iliac",
   "usage" : "F",
   "table_id" : "0550"
 }, {
@@ -24079,6 +24064,21 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
+  "name" : "SKENE",
+  "description" : "Skene's Gland",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "OVARY",
+  "description" : "Ovary",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "ILIAC",
+  "description" : "Iliac",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
   "name" : "FBNAS",
   "description" : "nasal\"",
   "usage" : "F",
@@ -24086,26 +24086,6 @@
 }, {
   "name" : "CANAL",
   "description" : "Canal",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "CANLI",
-  "description" : "Canaliculis",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "SKM",
-  "description" : "Skeletal Muscle",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "PAFL",
-  "description" : "Pancreatic Fluid",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "INASA",
-  "description" : "Intranasal",
   "usage" : "F",
   "table_id" : "0550"
 }, {
@@ -24134,33 +24114,28 @@
   "usage" : "F",
   "table_id" : "0550"
 }, {
+  "name" : "SKM",
+  "description" : "Skeletal Muscle",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "PAFL",
+  "description" : "Pancreatic Fluid",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "INASA",
+  "description" : "Intranasal",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
   "name" : "FBPAL",
   "description" : "palatine\"",
   "usage" : "F",
   "table_id" : "0550"
 }, {
-  "name" : "FBVOM",
-  "description" : "vomer\"",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "CANTH",
-  "description" : "Canthus",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "SKULL",
-  "description" : "Skull",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "PALAT",
-  "description" : "Palate",
-  "usage" : "F",
-  "table_id" : "0550"
-}, {
-  "name" : "INGUI",
-  "description" : "Inguinal",
+  "name" : "CANLI",
+  "description" : "Canaliculis",
   "usage" : "F",
   "table_id" : "0550"
 }, {
@@ -24186,6 +24161,31 @@
 }, {
   "name" : "LUNG",
   "description" : "Lung",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "SKULL",
+  "description" : "Skull",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "PALAT",
+  "description" : "Palate",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "INGUI",
+  "description" : "Inguinal",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "FBVOM",
+  "description" : "vomer\"",
+  "usage" : "F",
+  "table_id" : "0550"
+}, {
+  "name" : "CANTH",
+  "description" : "Canthus",
   "usage" : "F",
   "table_id" : "0550"
 }, {

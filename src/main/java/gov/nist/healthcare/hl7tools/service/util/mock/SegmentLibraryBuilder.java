@@ -51,6 +51,9 @@ public class SegmentLibraryBuilder {
 				f.setPosition(fd.getPosition());
 				f.setTruncationAllowed(EBoolean.valueOf( fd.getTruncation() ));
 				f.setUsage(gov.nist.healthcare.hl7tools.domain.Usage.valueOf(fd.getUsage().name()));
+				if (f.getDatatype() == null) {
+					log.info("here");
+				}
 				fields.add(f);
 				log.debug("f=" + f.getDescription()+ " f.getDatatype()=" + f.getDatatype());
 			}
