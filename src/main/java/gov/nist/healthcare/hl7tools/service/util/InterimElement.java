@@ -36,4 +36,14 @@ public class InterimElement extends Element {
 	public void setMessageStucture(String messageStucture) {
 		this.messageStucture = messageStucture;
 	}
+	
+	public String toString() {
+		StringBuilder bld = new StringBuilder();
+		bld.append(" ParentId=" + this.getParentId());
+		bld.append(" MessageStucture=" + this.getMessageStucture());
+		bld.append(" SegmentId=" + this.getSegmentId());
+		bld.append(" GroupId=" + this.getGroupId());
+		bld.append(" GroupName=" + this.getGroupName());
+		return bld.toString();
+	}
 }

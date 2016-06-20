@@ -36,7 +36,7 @@ public class HL72JSONConverterTest {
 		fail("Not yet implemented");
 	}
 
-	@Test
+//	@Test
 	public void testSQL4_MESSAGE() {
 		 String sql = sut.SQL4_MESSAGE();
 		 Helper<Message> hlpMessage = sut.new Helper<Message>();
@@ -45,7 +45,7 @@ public class HL72JSONConverterTest {
 		 hlpMessage.write(messages, "messages");
 	}
 
-//	@Test
+	@Test
 	public void testSQL4_GROUP() {
 		String sql = sut.SQL4_GROUP();
 		Helper<Group> hlp = sut.new Helper<Group>();

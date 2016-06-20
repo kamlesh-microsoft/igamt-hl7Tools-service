@@ -7,6 +7,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+import java.util.TreeSet;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -66,8 +67,7 @@ public class HL7DBMockServiceHelper {
 			while (jp.nextToken() == JsonToken.START_OBJECT) {
 				T t = mapper.readValue(jp, clazz);
 				id = getId(t);
-				// gcr added check for filter size.
-				if (filter == null || filter.size() == 0 || filter.contains(id))
+				if (filter == null || filter.contains(id))
 					result.add(t);
 			}
 			return result;
@@ -85,8 +85,7 @@ public class HL7DBMockServiceHelper {
 		String id;
 		for (T t : fullList) {
 			id = getId(t);
-			// gcr added check for filter size.
-			if (filter == null || filter.size() == 0 || filter.contains(id))
+			if (filter == null || filter.contains(id))
 				result.put(id, t);
 		}
 		updateChildren(result, version, clazz);
@@ -188,6 +187,7 @@ public class HL7DBMockServiceHelper {
 			Map<Integer, Group> groupMap, List<String> filter) throws Exception {
 		List<Element> elementList = getEntityList(version + "/elements.json",
 				Element.class, filter);
+		
 		Group g;
 		Set<String> segmentFilter = new HashSet<String>();
 		for (Element e : elementList) {
@@ -195,8 +195,10 @@ public class HL7DBMockServiceHelper {
 			if (g.getChildren() == null)
 				g.setChildren(new ArrayList<Element>());
 			g.getChildren().add(e);
-			if (e.getSegmentId() != null)
+			if (e.getSegmentId() != null) {
 				segmentFilter.add(e.getSegmentId());
+			}
+			log.info("has grp=" + ((e.getGroupId() != null) ? groupMap.get(e.getGroupId().toString()) : "NA"));
 		}
 		return segmentFilter;
 	}

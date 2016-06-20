@@ -53,10 +53,10 @@ public class HL72JSONConverter implements Runnable {
 
 	ObjectMapper mapper = new ObjectMapper();
 
-	int groupIncr;
+	int groupIncr = 1707;
 	int componentIncr;
 	int fieldIncr;
-	int elementIncr;
+	int elementIncr = 6943;
 
 	Map<String, Group> grpByMsg = new HashMap<String, Group>();
 	Map<String, Group> grpByName = new HashMap<String, Group>();
@@ -92,86 +92,96 @@ public class HL72JSONConverter implements Runnable {
 			versionDir.mkdir();
 		}
 
-		 log.info("For version=" + hl7Version);
-		 log.info("Doing MessageType...");
-		 Helper<MessageType> hlpMessageType = new Helper<MessageType>();
-		 List<MessageType> messageTypes =
-		 (hlpMessageType.fetch(SQL4_MESSAGETYPE(), RM4_MESSAGETYPE));
-		 hlpMessageType.write(messageTypes, "message_types");
-		
-		 log.info("Doing Message...");
-		 Helper<Message> hlpMessage = new Helper<Message>();
-		 List<Message> messages = (hlpMessage.fetch(SQL4_MESSAGE(),
-		 RM4_MESSAGE));
-		 hlpMessage.write(messages, "messages");
+//		 log.info("For version=" + hl7Version);
+//		 log.info("Doing MessageType...");
+//		 Helper<MessageType> hlpMessageType = new Helper<MessageType>();
+//		 List<MessageType> messageTypes =
+//		 (hlpMessageType.fetch(SQL4_MESSAGETYPE(), RM4_MESSAGETYPE));
+//		 hlpMessageType.write(messageTypes, "message_types");
+//		
+//		 log.info("Doing Message...");
+//		 Helper<Message> hlpMessage = new Helper<Message>();
+//		 List<Message> messages = (hlpMessage.fetch(SQL4_MESSAGE(),
+//		 RM4_MESSAGE));
+//		 log.info(" writing messages=" + messages.size());
+//		 hlpMessage.write(messages, "messages");
 
 		log.info("Doing Group...");
 		Helper<Group> hlpGroup = new Helper<Group>();
 		List<Group> groups = (hlpGroup.fetch(SQL4_GROUP(), RM4_GROUP));
 		List<Group> groups1 = assembleGroups(groups);
+		 log.info(" writing groups1=" + groups1.size());
 		hlpGroup.write(groups1, "groups");
-
-		 log.info("Doing Segment...");
-		 Helper<Segment> hlpSegment = new Helper<Segment>();
-		 List<Segment> segments = (hlpSegment.fetch(SQL4_SEGMENT(),
-		 RM4_SEGMENT));
-		 hlpSegment.write(segments, "segments");
-		
-		 log.info("Doing Datatype...");
-		 Helper<Datatype> hlpDatatype = new Helper<Datatype>();
-		 List<Datatype> datatypes = (hlpDatatype.fetch(SQL4_DATATYPE(),
-		 RM4_DATATYPE));
-		 hlpDatatype.write(datatypes, "datatypes");
-		
-		 log.info("Doing Component...");
-		 Helper<Component> hlpComponent = new Helper<Component>();
-		 List<Component> components = (hlpComponent.fetch(SQL4_COMPONENT(),
-		 RM4_COMPONENT));
-		 hlpComponent.write(components, "components");
-		
-		 log.info("Doing Field...");
-		 Helper<Field> hlpField = new Helper<Field>();
-		 List<Field> fields = (hlpField.fetch(SQL4_FIELD(), RM4_FIELD));
-		 hlpField.write(fields, "fields");
-		
-		 log.info("Doing Code...");
-		 Helper<Code> hlpCode = new Helper<Code>();
-		 List<Code> codes = (hlpCode.fetch(SQL4_CODE(), RM4_CODE));
-		 hlpCode.write(codes, "codes");
-		
-		 log.info("Doing DataElement...");
-		 Helper<DataElement> hlpDataElement = new Helper<DataElement>();
-		 List<DataElement> dataelements =
-		 (hlpDataElement.fetch(SQL4_DATAELEMENT(), RM4_DATAELEMENT));
-		 hlpDataElement.write(dataelements, "data_elements");
-		
-		 log.info("Doing Table...");
-		 Helper<Table> hlpTable = new Helper<Table>();
-		 List<Table> tables = (hlpTable.fetch(SQL4_TABLE(), RM4_TABLE));
-		 hlpTable.write(tables, "tables");
+//
+//		 log.info("Doing Segment...");
+//		 Helper<Segment> hlpSegment = new Helper<Segment>();
+//		 List<Segment> segments = (hlpSegment.fetch(SQL4_SEGMENT(),
+//		 RM4_SEGMENT));
+//		 log.info(" writing segments=" + segments.size());
+//		 hlpSegment.write(segments, "segments");
+//		
+//		 log.info("Doing Datatype...");
+//		 Helper<Datatype> hlpDatatype = new Helper<Datatype>();
+//		 List<Datatype> datatypes = (hlpDatatype.fetch(SQL4_DATATYPE(),
+//		 RM4_DATATYPE));
+//		 log.info(" writing datatypes=" + datatypes.size());
+//		 hlpDatatype.write(datatypes, "datatypes");
+//		
+//		 log.info("Doing Component...");
+//		 Helper<Component> hlpComponent = new Helper<Component>();
+//		 List<Component> components = (hlpComponent.fetch(SQL4_COMPONENT(),
+//		 RM4_COMPONENT));
+//		 log.info(" writing components=" + components.size());
+//		 hlpComponent.write(components, "components");
+//		
+//		 log.info("Doing Field...");
+//		 Helper<Field> hlpField = new Helper<Field>();
+//		 List<Field> fields = (hlpField.fetch(SQL4_FIELD(), RM4_FIELD));
+//		 log.info(" writing fields=" + fields.size());
+//		 hlpField.write(fields, "fields");
+//		
+//		 log.info("Doing Code...");
+//		 Helper<Code> hlpCode = new Helper<Code>();
+//		 List<Code> codes = (hlpCode.fetch(SQL4_CODE(), RM4_CODE));
+//		 hlpCode.write(codes, "codes");
+//		
+//		 log.info("Doing DataElement...");
+//		 Helper<DataElement> hlpDataElement = new Helper<DataElement>();
+//		 List<DataElement> dataelements =
+//		 (hlpDataElement.fetch(SQL4_DATAELEMENT(), RM4_DATAELEMENT));
+//		 log.info(" writing dataelements=" + dataelements.size());
+//		 hlpDataElement.write(dataelements, "data_elements");
+//		
+//		 log.info("Doing Table...");
+//		 Helper<Table> hlpTable = new Helper<Table>();
+//		 List<Table> tables = (hlpTable.fetch(SQL4_TABLE(), RM4_TABLE));
+//		 log.info(" writing tables=" + tables.size());
+//		 hlpTable.write(tables, "tables");
 
 		log.info("Doing Element...");
 		Helper<Element> hlpElement = new Helper<Element>();
 		Helper<InterimElement> hlpInterimElement = new Helper<InterimElement>();
 		List<InterimElement> interimelements = (hlpInterimElement.fetch(SQL4_ELEMENT(), RM4_ELEMENT));
 		List<Element> elements = postProcessElements(interimelements);
+		 log.info(" writing elements=" + elements.size());
 		hlpElement.write(elements, "elements");
 
-		log.info("Doing Event...");
-		Helper<Event> hlpEvent = new Helper<Event>();
-		List<Event> events = (hlpEvent.fetch(SQL4_EVENT(), RM4_EVENT));
-		hlpEvent.write(events, "events");
-
-		log.info("Doing Interaction...");
-		Helper<Interaction> hlpInteraction = new Helper<Interaction>();
-		List<Interaction> interactions = (hlpInteraction.fetch(SQL4_INTERACTION(), RM4_INTERACTION));
-		hlpInteraction.write(interactions, "interactions");
+//		log.info("Doing Event...");
+//		Helper<Event> hlpEvent = new Helper<Event>();
+//		List<Event> events = (hlpEvent.fetch(SQL4_EVENT(), RM4_EVENT));
+//		hlpEvent.write(events, "events");
+//
+//		log.info("Doing Interaction...");
+//		Helper<Interaction> hlpInteraction = new Helper<Interaction>();
+//		List<Interaction> interactions = (hlpInteraction.fetch(SQL4_INTERACTION(), RM4_INTERACTION));
+//		hlpInteraction.write(interactions, "interactions");
 
 		log.info("...Done");
 
 	}
 
 	List<Element> postProcessElements(List<InterimElement> ies) {
+
 		List<Element> rval = new ArrayList<Element>();
 		GroupStacker stk = new GroupStacker();
 		int position = 1;
@@ -179,25 +189,33 @@ public class HL72JSONConverter implements Runnable {
 		int parentId = 1;
 		int state = 0;
 		boolean inBracket = false;
+		int nullconts = 0;
+		int openconts = 0;
+		int closeconts = 0;
+		int incdecconts = 0;
 
 		for (InterimElement ie : ies) {
 			if (ie.getGroupName() == null && ie.getSegmentId() == null) {
+				nullconts++;
 				continue;
 			}
-			if ("<".equals(ie.getSegmentId()) || inBracket) {
-				inBracket = true;
-				continue;
-			}
-			if (">".equals(ie.getSegmentId())) {
+			if ("|".equals(ie.getSegmentId())) {
 				inBracket = false;
+				closeconts++;
 				continue;
 			}
+//			if ("<".equals(ie.getSegmentId()) || inBracket) {
+//				inBracket = true;
+//				openconts++;
+//				continue;
+//			}
 			String key = assembleGroupKey(ie);
 			Group group = grpByName.get(key);
 			if (group != null) {
 				int incdec = stk.waw(group);
 				state += incdec;
 				if (incdec < 0) {
+					incdecconts++;
 					continue;
 				}
 				if (state > 0) {
@@ -227,18 +245,30 @@ public class HL72JSONConverter implements Runnable {
 					}
 					ie.setParentId(parentId);
 				}
+			} else {
+				log.info("null4=" + key);
 			}
 			ie.setPosition(position++);
+			if (ie.getParentId() == null) {
+				throw new NullPointerException();
+			}
 			Element el = (Element) ie;
 			rval.add(el);
+//			log.info(String.format("%" + state + 1 * 2 + "d", state) + " p=" + group.getName() + " el=" + ie.getSegmentId() + " g=" + ie.groupName + " " + stk.stack);
+			log.info(String.format("%" + state + 1 * 2 + "d", state) + ie.toString());
 //			log.trace("1 ie key=" + key);
 //			log.trace("1 ie id=" + ie.getId());
 //			log.trace("1 ie parent=" + ie.getParentId());
 //			log.trace("1 ie segment=" + ie.getSegmentId());
 //			log.trace("1 ie group=" + ie.getGroupId());
 //			log.trace("1 ie position=" + ie.getPosition());
-			log.debug(((Element) ie).toString());
+//			log.debug(((Element) ie).toString());
 		}
+		log.info("ies=" + ies.size());
+		log.info("nullconts=" + nullconts);
+		log.info("openconts=" + openconts);
+		log.info("closeconts=" + closeconts);
+		log.info("incdecconts=" + incdecconts);
 		return rval;
 	}
 
@@ -253,18 +283,11 @@ public class HL72JSONConverter implements Runnable {
 					currentGroup = group.getName();
 				}
 				rval.add(group);
-				String key = assembleGroupKey(group);
-				if(key.startsWith("DBC_")) {
-					log.debug("here");
-				}
+				String key = group.getName();
 				grpByName.put(key, group);
 			}
 		}
 		return rval;
-	}
-
-	String assembleGroupKey(Group group) {
-		return group.getMessageId() + "." + (group.isRoot() ? "ROOT" : group.getName());
 	}
 
 	String assembleGroupKey(InterimElement ie) {
@@ -356,15 +379,25 @@ public class HL72JSONConverter implements Runnable {
 
 	String SQL4_MESSAGE() {
 		StringBuilder bld = new StringBuilder();
-		bld.append("SELECT m.`message_structure`, m.`section`, e.`event_code`, e.`message_structure_snd`");
-		bld.append(" FROM hl7versions v INNER JOIN hl7msgstructids m ON v.version_id = m.version_id");
-		bld.append(" INNER JOIN hl7eventmessagetypes e ON v.`version_id` = e.`version_id`");
-		bld.append(" WHERE v.`hl7_version` = ");
-		bld.append("'");
-		bld.append(hl7Version);
-		bld.append("'");
-		bld.append(" AND m.`message_structure` = e.`message_structure_snd`");
+		bld.append("SELECT m.`message_type`, e.`event_code`, i.`message_structure`, m.`section`");
+		bld.append(" FROM hl7versions v ");
+		bld.append(" INNER JOIN hl7messagetypes m ON v.`version_id` = m.`version_id`");
+		bld.append(" INNER JOIN hl7msgstructids i ON v.`version_id` = i.`version_id`");
+		bld.append(" INNER JOIN hl7events e ON v.`version_id` = e.`version_id`");
+		bld.append(" WHERE v.`hl7_version` = '2.8.2'");
+		bld.append(" AND concat(m.`message_type`, '_', e.`event_code`) = i.`message_structure`");
+		bld.append(" ORDER BY m.message_type");
 		bld.append(";");
+		
+//		bld.append("SELECT m.`message_structure`, m.`section`, e.`event_code`, e.`message_structure_snd`");
+//		bld.append(" FROM hl7versions v INNER JOIN hl7msgstructids m ON v.version_id = m.version_id");
+//		bld.append(" INNER JOIN hl7eventmessagetypes e ON v.`version_id` = e.`version_id`");
+//		bld.append(" WHERE v.`hl7_version` = ");
+//		bld.append("'");
+//		bld.append(hl7Version);
+//		bld.append("'");
+//		bld.append(" AND m.`message_structure` = e.`message_structure_snd`");
+		
 		return bld.toString();
 	}
 
@@ -375,7 +408,7 @@ public class HL72JSONConverter implements Runnable {
 			message.setId(rs.getString("message_structure"));
 			message.setSection(rs.getString("section"));
 			message.setEvent_id(rs.getString("event_code"));
-			message.setMsg_type_id(rs.getString("message_structure_snd"));
+			message.setMsg_type_id(rs.getString("message_type"));
 			return message;
 		}
 	};
@@ -383,7 +416,6 @@ public class HL72JSONConverter implements Runnable {
 	String SQL4_GROUP() {
 		StringBuilder bld = new StringBuilder();
 		bld.append("SELECT m.`message_structure`, m.`seq_no`, m.`groupname`, m.`seg_code`");
-		// bld.append(" FROM hl7msgstructidsegments m, hl7versions v");
 		bld.append(" FROM hl7versions v INNER JOIN hl7msgstructidsegments m ON v.version_id = m.version_id");
 		bld.append(" WHERE v.`hl7_version` = ");
 		bld.append("'");
@@ -403,9 +435,10 @@ public class HL72JSONConverter implements Runnable {
 			Group grp = new Group();
 			grp.setId(++groupIncr);
 			grp.setRoot(("MSH".equals(rs.getString("seg_code"))) ? true : false);
-			grp.setChoice((rs.getString("seg_code") == "<") ? true : false);
+			String segId = rs.getString("seg_code");
+			grp.setChoice("<".equals(segId) ? true : false);
 			grp.setMessageId(rs.getString("message_structure"));
-			grp.setName((grp.isRoot() ? (rs.getString("message_structure") + ".ROOT") : rs.getString("groupname")));
+			grp.setName((grp.isRoot() ? (rs.getString("message_structure") + ".ROOT") : rs.getString("message_structure") + "." + rs.getString("groupname")));
 			return grp;
 		}
 	};
@@ -459,8 +492,9 @@ public class HL72JSONConverter implements Runnable {
 			String s = String.format("%05d", rs.getInt("data_item"));
 			fld.setDataElementId(s);
 			fld.setPosition(rs.getInt("seq_no"));
-			String s1 = rs.getString("req_opt").substring(0, 1);
-			fld.setUsage(Usage.valueOf(s1));
+			String usage1 = rs.getString("req_opt");
+			String usage2 = usage1.length() > 0 ? usage1.substring(0, 1) : "";
+			fld.setUsage(Usage.fromValue(usage2));
 			fld.setMin(0);
 			fld.setMax("1");
 			return fld;
@@ -500,12 +534,13 @@ public class HL72JSONConverter implements Runnable {
 		// bld.append("SET @rownum = 0;");
 		bld.append(
 				"SELECT d.`data_structure`, c.`data_type_code`, c.`description`, d.`modification`, d.`min_length`, d.`max_length`, d.`conf_length`, c.`table_id`");
-		bld.append(" FROM hl7datastructurecomponents d, hl7components c, hl7versions v");
+		bld.append(" FROM hl7versions v");
+		bld.append(" INNER JOIN hl7datastructurecomponents d ON v.`version_id` = d.`version_id`");
+		bld.append(" INNER JOIN hl7components c ON v.`version_id` = c.`version_id`");
 		bld.append(" WHERE v.`hl7_version` = ");
 		bld.append("'");
 		bld.append(hl7Version);
 		bld.append("'");
-		bld.append(" AND d.`version_id` = v.`version_id`");
 		bld.append(" AND d.comp_no = c.comp_no");
 		bld.append(" ORDER BY d.data_structure");
 		bld.append(";");
@@ -522,13 +557,14 @@ public class HL72JSONConverter implements Runnable {
 			cmp.setDatatypeId(rs.getString("data_type_code"));
 			cmp.setPosition(componentIncr);
 			cmp.setDescription(rs.getString("description"));
-			cmp.setUsage(Usage.valueOf(rs.getString("modification")));
+			cmp.setUsage(Usage.fromValue(rs.getString("modification")));
 			cmp.setMinLength(rs.getInt("min_length"));
 			cmp.setMaxLength(rs.getInt("max_length"));
 			String s = rs.getString("conf_length").replaceAll("[#=]", "");
 			int confLength = (s.length() > 0) ? new Integer(s) : 0;
 			cmp.setConfLength(confLength);
-			cmp.setTableId(rs.getString("table_id"));
+			String tableId = rs.getString("table_id");
+			cmp.setTableId("0".equals(tableId) ? null : tableId);
 			return cmp;
 		}
 	};
@@ -556,7 +592,7 @@ public class HL72JSONConverter implements Runnable {
 			cd.setTableId(s);
 			cd.setName(rs.getString("table_value"));
 			cd.setDescription(rs.getString("description_as_pub"));
-			cd.setUsage(Usage.valueOf("F"));
+			cd.setUsage(Usage.fromValue("F"));
 			return cd;
 		}
 	};
@@ -652,13 +688,13 @@ public class HL72JSONConverter implements Runnable {
 			el.setId(++elementIncr);
 			el.setMessageStucture(rs.getString("message_structure"));
 			String groupname = rs.getString("groupname");
-			el.setGroupName(groupname.trim().length() > 0 ? groupname : null);
+			el.setGroupName(groupname.trim().length() > 0 ? groupname.toUpperCase() : null);
 			String segCode = rs.getString("seg_code");
-			el.setSegmentId(segCode.contains("{") || segCode.contains("}") || segCode.contains("[") || segCode.contains("]") ? null : segCode);
+			el.setSegmentId(segCode.contains("{") || segCode.contains("}") || segCode.contains("[") || segCode.contains("]") || segCode.contains("<") || segCode.contains(">") ? null : segCode);
 			el.setGroupState(rs.getString("seg_code"));
 			el.setMin(rs.getBoolean("optional") == true ? 0 : 1);
 			el.setMax(rs.getBoolean("repetitional") == true ? "*" : "1");
-			el.setUsage(Usage.valueOf(rs.getString("modification")));
+			el.setUsage(Usage.fromValue(rs.getString("modification")));
 			return el;
 		}
 	};
