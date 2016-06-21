@@ -565,17 +565,19 @@ public class HL72JSONConverter implements Runnable {
 
 	String SQL4_COMPONENT() {
 		StringBuilder bld = new StringBuilder();
-		// bld.append("SET @rownum = 0;");
 		bld.append(
-				"SELECT d.`data_structure`, c.`data_type_code`, c.`description`, d.`modification`, d.`min_length`, d.`max_length`, d.`conf_length`, c.`table_id`");
+				"SELECT dc.`data_structure`, c.`data_type_code`, c.`description`, dc.`modification`, dc.`min_length`, dc.`max_length`, dc.`conf_length`, c.`table_id`");
 		bld.append(" FROM hl7versions v");
-		bld.append(" INNER JOIN hl7datastructurecomponents d ON v.`version_id` = d.`version_id`");
+		bld.append(" INNER JOIN hl7datastructures d ON v.`version_id` = d.`version_id`");
+		bld.append(" INNER JOIN hl7datastructurecomponents dc ON v.`version_id` = dc.`version_id`");
 		bld.append(" INNER JOIN hl7components c ON v.`version_id` = c.`version_id`");
 		bld.append(" WHERE v.`hl7_version` = ");
 		bld.append("'");
 		bld.append(hl7Version);
 		bld.append("'");
-		bld.append(" AND d.comp_no = c.comp_no");
+		bld.append(" AND d.`data_structure` = dc.`data_structure`");
+		bld.append(" AND dc.comp_no = c.comp_no");
+		bld.append(" AND d.`elementary` = 'FALSE'");
 		bld.append(" ORDER BY d.data_structure");
 		bld.append(";");
 		String rval = bld.toString();

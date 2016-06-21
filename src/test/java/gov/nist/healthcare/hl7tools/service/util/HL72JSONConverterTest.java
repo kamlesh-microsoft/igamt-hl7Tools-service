@@ -55,7 +55,7 @@ public class HL72JSONConverterTest {
 		// List<Group> rs1 = sut.assembleGroups(rs);
 	}
 
-//	@Test
+	@Test
 	public void testSQL4_DATATYPE() {
 		String sql = sut.SQL4_DATATYPE();
 		Helper<Datatype> hlp = sut.new Helper<Datatype>();
@@ -91,7 +91,7 @@ public class HL72JSONConverterTest {
 		assertTrue(rs.size() > 0);
 	}
 
-	@Test
+//	@Test
 	public void testSQL4_DATAELEMENT() {
 		String sql = sut.SQL4_DATAELEMENT();
 		Helper<DataElement> hlp = sut.new Helper<DataElement>();

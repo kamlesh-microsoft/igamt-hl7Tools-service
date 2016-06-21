@@ -1769,28 +1769,6 @@
 }, {
   "id" : 159,
   "position" : 159,
-  "description" : "Date",
-  "usage" : "O",
-  "truncation" : "NA",
-  "parent_datatype_id" : "DT",
-  "datatype_id" : "DT",
-  "min_length" : 4,
-  "max_length" : 8,
-  "conf_length" : 8
-}, {
-  "id" : 160,
-  "position" : 160,
-  "description" : "Date/Time",
-  "usage" : "O",
-  "truncation" : "NA",
-  "parent_datatype_id" : "DTM",
-  "datatype_id" : "DTM",
-  "min_length" : 4,
-  "max_length" : 24,
-  "conf_length" : 8
-}, {
-  "id" : 161,
-  "position" : 161,
   "description" : "Day Type",
   "usage" : "O",
   "truncation" : "NA",
@@ -1801,8 +1779,8 @@
   "conf_length" : 0,
   "table_id" : "149"
 }, {
-  "id" : 162,
-  "position" : 162,
+  "id" : 160,
+  "position" : 160,
   "description" : "Number of Days",
   "usage" : "O",
   "truncation" : "NA",
@@ -1812,8 +1790,8 @@
   "max_length" : 0,
   "conf_length" : 3
 }, {
-  "id" : 163,
-  "position" : 163,
+  "id" : 161,
+  "position" : 161,
   "description" : "Source Application",
   "usage" : "O",
   "truncation" : "NA",
@@ -1823,8 +1801,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 164,
-  "position" : 164,
+  "id" : 162,
+  "position" : 162,
   "description" : "Type of Data",
   "usage" : "O",
   "truncation" : "NA",
@@ -1835,8 +1813,8 @@
   "conf_length" : 0,
   "table_id" : "834"
 }, {
-  "id" : 165,
-  "position" : 165,
+  "id" : 163,
+  "position" : 163,
   "description" : "Data Subtype",
   "usage" : "O",
   "truncation" : "NA",
@@ -1847,8 +1825,8 @@
   "conf_length" : 0,
   "table_id" : "291"
 }, {
-  "id" : 166,
-  "position" : 166,
+  "id" : 164,
+  "position" : 164,
   "description" : "Encoding",
   "usage" : "O",
   "truncation" : "NA",
@@ -1859,8 +1837,8 @@
   "conf_length" : 0,
   "table_id" : "299"
 }, {
-  "id" : 167,
-  "position" : 167,
+  "id" : 165,
+  "position" : 165,
   "description" : "Data",
   "usage" : "O",
   "truncation" : "NA",
@@ -1870,9 +1848,32 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
+  "id" : 166,
+  "position" : 166,
+  "description" : "Entity Identifier",
+  "usage" : "O",
+  "truncation" : "NA",
+  "parent_datatype_id" : "EI",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 0,
+  "conf_length" : 199
+}, {
+  "id" : 167,
+  "position" : 167,
+  "description" : "Namespace ID",
+  "usage" : "O",
+  "truncation" : "NA",
+  "parent_datatype_id" : "EI",
+  "datatype_id" : "IS",
+  "min_length" : 0,
+  "max_length" : 0,
+  "conf_length" : 20,
+  "table_id" : "363"
+}, {
   "id" : 168,
   "position" : 168,
-  "description" : "Entity Identifier",
+  "description" : "Universal ID",
   "usage" : "O",
   "truncation" : "NA",
   "parent_datatype_id" : "EI",
@@ -1883,29 +1884,6 @@
 }, {
   "id" : 169,
   "position" : 169,
-  "description" : "Namespace ID",
-  "usage" : "O",
-  "truncation" : "NA",
-  "parent_datatype_id" : "EI",
-  "datatype_id" : "IS",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : 20,
-  "table_id" : "363"
-}, {
-  "id" : 170,
-  "position" : 170,
-  "description" : "Universal ID",
-  "usage" : "O",
-  "truncation" : "NA",
-  "parent_datatype_id" : "EI",
-  "datatype_id" : "ST",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : 199
-}, {
-  "id" : 171,
-  "position" : 171,
   "description" : "Universal ID Type",
   "usage" : "O",
   "truncation" : "NA",
@@ -1916,8 +1894,8 @@
   "conf_length" : 0,
   "table_id" : "301"
 }, {
-  "id" : 172,
-  "position" : 172,
+  "id" : 170,
+  "position" : 170,
   "description" : "Placer Assigned Identifier",
   "usage" : "O",
   "truncation" : "NA",
@@ -1927,8 +1905,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 173,
-  "position" : 173,
+  "id" : 171,
+  "position" : 171,
   "description" : "Filler Assigned Identifier",
   "usage" : "O",
   "truncation" : "NA",
@@ -1938,8 +1916,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 174,
-  "position" : 174,
+  "id" : 172,
+  "position" : 172,
   "description" : "Segment ID",
   "usage" : "O",
   "truncation" : "NA",
@@ -1949,9 +1927,31 @@
   "max_length" : 3,
   "conf_length" : 0
 }, {
+  "id" : 173,
+  "position" : 173,
+  "description" : "Segment Sequence",
+  "usage" : "O",
+  "truncation" : "NA",
+  "parent_datatype_id" : "ERL",
+  "datatype_id" : "NM",
+  "min_length" : 0,
+  "max_length" : 0,
+  "conf_length" : 0
+}, {
+  "id" : 174,
+  "position" : 174,
+  "description" : "Field Position",
+  "usage" : "O",
+  "truncation" : "NA",
+  "parent_datatype_id" : "ERL",
+  "datatype_id" : "NM",
+  "min_length" : 0,
+  "max_length" : 0,
+  "conf_length" : 0
+}, {
   "id" : 175,
   "position" : 175,
-  "description" : "Segment Sequence",
+  "description" : "Field Repetition",
   "usage" : "O",
   "truncation" : "NA",
   "parent_datatype_id" : "ERL",
@@ -1962,7 +1962,7 @@
 }, {
   "id" : 176,
   "position" : 176,
-  "description" : "Field Position",
+  "description" : "Component Number",
   "usage" : "O",
   "truncation" : "NA",
   "parent_datatype_id" : "ERL",
@@ -1973,7 +1973,7 @@
 }, {
   "id" : 177,
   "position" : 177,
-  "description" : "Field Repetition",
+  "description" : "Sub-Component Number",
   "usage" : "O",
   "truncation" : "NA",
   "parent_datatype_id" : "ERL",
@@ -1984,28 +1984,6 @@
 }, {
   "id" : 178,
   "position" : 178,
-  "description" : "Component Number",
-  "usage" : "O",
-  "truncation" : "NA",
-  "parent_datatype_id" : "ERL",
-  "datatype_id" : "NM",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : 0
-}, {
-  "id" : 179,
-  "position" : 179,
-  "description" : "Sub-Component Number",
-  "usage" : "O",
-  "truncation" : "NA",
-  "parent_datatype_id" : "ERL",
-  "datatype_id" : "NM",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : 0
-}, {
-  "id" : 180,
-  "position" : 180,
   "description" : "Financial Class Code",
   "usage" : "O",
   "truncation" : "NA",
@@ -2016,8 +1994,8 @@
   "conf_length" : 0,
   "table_id" : "64"
 }, {
-  "id" : 181,
-  "position" : 181,
+  "id" : 179,
+  "position" : 179,
   "description" : "Effective Date",
   "usage" : "O",
   "truncation" : "NA",
@@ -2027,9 +2005,31 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
+  "id" : 180,
+  "position" : 180,
+  "description" : "Surname",
+  "usage" : "O",
+  "truncation" : "NA",
+  "parent_datatype_id" : "FN",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 0,
+  "conf_length" : 50
+}, {
+  "id" : 181,
+  "position" : 181,
+  "description" : "Own Surname Prefix",
+  "usage" : "O",
+  "truncation" : "NA",
+  "parent_datatype_id" : "FN",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 0,
+  "conf_length" : 20
+}, {
   "id" : 182,
   "position" : 182,
-  "description" : "Surname",
+  "description" : "Own Surname",
   "usage" : "O",
   "truncation" : "NA",
   "parent_datatype_id" : "FN",
@@ -2040,7 +2040,7 @@
 }, {
   "id" : 183,
   "position" : 183,
-  "description" : "Own Surname Prefix",
+  "description" : "Surname Prefix from Partner/Spouse",
   "usage" : "O",
   "truncation" : "NA",
   "parent_datatype_id" : "FN",
@@ -2051,7 +2051,7 @@
 }, {
   "id" : 184,
   "position" : 184,
-  "description" : "Own Surname",
+  "description" : "Surname from Partner/Spouse",
   "usage" : "O",
   "truncation" : "NA",
   "parent_datatype_id" : "FN",
@@ -2062,50 +2062,6 @@
 }, {
   "id" : 185,
   "position" : 185,
-  "description" : "Surname Prefix from Partner/Spouse",
-  "usage" : "O",
-  "truncation" : "NA",
-  "parent_datatype_id" : "FN",
-  "datatype_id" : "ST",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : 20
-}, {
-  "id" : 186,
-  "position" : 186,
-  "description" : "Surname from Partner/Spouse",
-  "usage" : "O",
-  "truncation" : "NA",
-  "parent_datatype_id" : "FN",
-  "datatype_id" : "ST",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : 50
-}, {
-  "id" : 187,
-  "position" : 187,
-  "description" : "Formatted Text Data",
-  "usage" : "O",
-  "truncation" : "NA",
-  "parent_datatype_id" : "FT",
-  "datatype_id" : "FT",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : 0
-}, {
-  "id" : 188,
-  "position" : 188,
-  "description" : "General Timing Specification",
-  "usage" : "O",
-  "truncation" : "NA",
-  "parent_datatype_id" : "GTS",
-  "datatype_id" : "GTS",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : 199
-}, {
-  "id" : 189,
-  "position" : 189,
   "description" : "Namespace ID",
   "usage" : "O",
   "truncation" : "NA",
@@ -2116,8 +2072,8 @@
   "conf_length" : 20,
   "table_id" : "300"
 }, {
-  "id" : 190,
-  "position" : 190,
+  "id" : 186,
+  "position" : 186,
   "description" : "Universal ID",
   "usage" : "O",
   "truncation" : "NA",
@@ -2127,8 +2083,8 @@
   "max_length" : 0,
   "conf_length" : 199
 }, {
-  "id" : 191,
-  "position" : 191,
+  "id" : 187,
+  "position" : 187,
   "description" : "Universal ID Type",
   "usage" : "O",
   "truncation" : "NA",
@@ -2139,8 +2095,8 @@
   "conf_length" : 0,
   "table_id" : "301"
 }, {
-  "id" : 192,
-  "position" : 192,
+  "id" : 188,
+  "position" : 188,
   "description" : "Certification Patient Type",
   "usage" : "O",
   "truncation" : "NA",
@@ -2151,8 +2107,8 @@
   "conf_length" : 0,
   "table_id" : "150"
 }, {
-  "id" : 193,
-  "position" : 193,
+  "id" : 189,
+  "position" : 189,
   "description" : "Certification Required",
   "usage" : "O",
   "truncation" : "NA",
@@ -2163,8 +2119,8 @@
   "conf_length" : 0,
   "table_id" : "136"
 }, {
-  "id" : 194,
-  "position" : 194,
+  "id" : 190,
+  "position" : 190,
   "description" : "Date/Time Certification Required",
   "usage" : "O",
   "truncation" : "NA",
@@ -2174,30 +2130,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 195,
-  "position" : 195,
-  "description" : "Coded Value for HL7-Defined Tables",
-  "usage" : "O",
-  "truncation" : "NA",
-  "parent_datatype_id" : "ID",
-  "datatype_id" : "ID",
-  "min_length" : 1,
-  "max_length" : 0,
-  "conf_length" : 15
-}, {
-  "id" : 196,
-  "position" : 196,
-  "description" : "Coded Value for User-Defined Tables",
-  "usage" : "O",
-  "truncation" : "NA",
-  "parent_datatype_id" : "IS",
-  "datatype_id" : "IS",
-  "min_length" : 1,
-  "max_length" : 0,
-  "conf_length" : 20
-}, {
-  "id" : 197,
-  "position" : 197,
+  "id" : 191,
+  "position" : 191,
   "description" : "Job Code",
   "usage" : "O",
   "truncation" : "NA",
@@ -2208,8 +2142,8 @@
   "conf_length" : 0,
   "table_id" : "327"
 }, {
-  "id" : 198,
-  "position" : 198,
+  "id" : 192,
+  "position" : 192,
   "description" : "Job Class",
   "usage" : "O",
   "truncation" : "NA",
@@ -2220,8 +2154,8 @@
   "conf_length" : 0,
   "table_id" : "328"
 }, {
-  "id" : 199,
-  "position" : 199,
+  "id" : 193,
+  "position" : 193,
   "description" : "Job Description Text",
   "usage" : "O",
   "truncation" : "NA",
@@ -2231,8 +2165,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 200,
-  "position" : 200,
+  "id" : 194,
+  "position" : 194,
   "description" : "Sample Y From Channel 1",
   "usage" : "O",
   "truncation" : "NA",
@@ -2242,8 +2176,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 201,
-  "position" : 201,
+  "id" : 195,
+  "position" : 195,
   "description" : "Sample Y From Channel 2",
   "usage" : "O",
   "truncation" : "NA",
@@ -2253,8 +2187,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 202,
-  "position" : 202,
+  "id" : 196,
+  "position" : 196,
   "description" : "Sample Y From Channel 3",
   "usage" : "O",
   "truncation" : "NA",
@@ -2264,8 +2198,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 203,
-  "position" : 203,
+  "id" : 197,
+  "position" : 197,
   "description" : "Sample Y From Channel 4",
   "usage" : "O",
   "truncation" : "NA",
@@ -2275,8 +2209,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 204,
-  "position" : 204,
+  "id" : 198,
+  "position" : 198,
   "description" : "Quantity",
   "usage" : "O",
   "truncation" : "NA",
@@ -2286,8 +2220,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 205,
-  "position" : 205,
+  "id" : 199,
+  "position" : 199,
   "description" : "Denomination",
   "usage" : "O",
   "truncation" : "NA",
@@ -2298,8 +2232,8 @@
   "conf_length" : 0,
   "table_id" : "913"
 }, {
-  "id" : 206,
-  "position" : 206,
+  "id" : 200,
+  "position" : 200,
   "description" : "Monetary Amount",
   "usage" : "O",
   "truncation" : "NA",
@@ -2309,8 +2243,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 207,
-  "position" : 207,
+  "id" : 201,
+  "position" : 201,
   "description" : "Charge Code",
   "usage" : "O",
   "truncation" : "NA",
@@ -2320,8 +2254,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 208,
-  "position" : 208,
+  "id" : 202,
+  "position" : 202,
   "description" : "Money or Percentage Indicator",
   "usage" : "O",
   "truncation" : "NA",
@@ -2332,8 +2266,8 @@
   "conf_length" : 0,
   "table_id" : "148"
 }, {
-  "id" : 209,
-  "position" : 209,
+  "id" : 203,
+  "position" : 203,
   "description" : "Money or Percentage Quantity",
   "usage" : "O",
   "truncation" : "NA",
@@ -2343,8 +2277,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 210,
-  "position" : 210,
+  "id" : 204,
+  "position" : 204,
   "description" : "Monetary  Denomination",
   "usage" : "O",
   "truncation" : "NA",
@@ -2355,8 +2289,8 @@
   "conf_length" : 0,
   "table_id" : "913"
 }, {
-  "id" : 211,
-  "position" : 211,
+  "id" : 205,
+  "position" : 205,
   "description" : "Message Code",
   "usage" : "O",
   "truncation" : "NA",
@@ -2367,8 +2301,8 @@
   "conf_length" : 0,
   "table_id" : "76"
 }, {
-  "id" : 212,
-  "position" : 212,
+  "id" : 206,
+  "position" : 206,
   "description" : "Trigger Event",
   "usage" : "O",
   "truncation" : "NA",
@@ -2379,8 +2313,8 @@
   "conf_length" : 0,
   "table_id" : "3"
 }, {
-  "id" : 213,
-  "position" : 213,
+  "id" : 207,
+  "position" : 207,
   "description" : "Message Structure",
   "usage" : "O",
   "truncation" : "NA",
@@ -2391,8 +2325,8 @@
   "conf_length" : 0,
   "table_id" : "354"
 }, {
-  "id" : 214,
-  "position" : 214,
+  "id" : 208,
+  "position" : 208,
   "description" : "Value1",
   "usage" : "O",
   "truncation" : "NA",
@@ -2402,8 +2336,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 215,
-  "position" : 215,
+  "id" : 209,
+  "position" : 209,
   "description" : "Value2",
   "usage" : "O",
   "truncation" : "NA",
@@ -2413,8 +2347,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 216,
-  "position" : 216,
+  "id" : 210,
+  "position" : 210,
   "description" : "Value3",
   "usage" : "O",
   "truncation" : "NA",
@@ -2424,8 +2358,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 217,
-  "position" : 217,
+  "id" : 211,
+  "position" : 211,
   "description" : "Value4",
   "usage" : "O",
   "truncation" : "NA",
@@ -2435,8 +2369,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 218,
-  "position" : 218,
+  "id" : 212,
+  "position" : 212,
   "description" : "Name",
   "usage" : "O",
   "truncation" : "NA",
@@ -2446,8 +2380,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 219,
-  "position" : 219,
+  "id" : 213,
+  "position" : 213,
   "description" : "Start Date/time",
   "usage" : "O",
   "truncation" : "NA",
@@ -2457,8 +2391,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 220,
-  "position" : 220,
+  "id" : 214,
+  "position" : 214,
   "description" : "End Date/time",
   "usage" : "O",
   "truncation" : "NA",
@@ -2468,8 +2402,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 221,
-  "position" : 221,
+  "id" : 215,
+  "position" : 215,
   "description" : "Point of Care",
   "usage" : "O",
   "truncation" : "NA",
@@ -2480,8 +2414,8 @@
   "conf_length" : 20,
   "table_id" : "302"
 }, {
-  "id" : 222,
-  "position" : 222,
+  "id" : 216,
+  "position" : 216,
   "description" : "Room",
   "usage" : "O",
   "truncation" : "NA",
@@ -2492,8 +2426,8 @@
   "conf_length" : 20,
   "table_id" : "303"
 }, {
-  "id" : 223,
-  "position" : 223,
+  "id" : 217,
+  "position" : 217,
   "description" : "Bed",
   "usage" : "O",
   "truncation" : "NA",
@@ -2504,8 +2438,8 @@
   "conf_length" : 20,
   "table_id" : "304"
 }, {
-  "id" : 224,
-  "position" : 224,
+  "id" : 218,
+  "position" : 218,
   "description" : "Facility",
   "usage" : "O",
   "truncation" : "NA",
@@ -2515,8 +2449,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 225,
-  "position" : 225,
+  "id" : 219,
+  "position" : 219,
   "description" : "Location Status",
   "usage" : "O",
   "truncation" : "NA",
@@ -2527,8 +2461,8 @@
   "conf_length" : 20,
   "table_id" : "306"
 }, {
-  "id" : 226,
-  "position" : 226,
+  "id" : 220,
+  "position" : 220,
   "description" : "Patient Location Type",
   "usage" : "O",
   "truncation" : "NA",
@@ -2539,8 +2473,8 @@
   "conf_length" : 20,
   "table_id" : "305"
 }, {
-  "id" : 227,
-  "position" : 227,
+  "id" : 221,
+  "position" : 221,
   "description" : "Building",
   "usage" : "O",
   "truncation" : "NA",
@@ -2551,8 +2485,8 @@
   "conf_length" : 20,
   "table_id" : "307"
 }, {
-  "id" : 228,
-  "position" : 228,
+  "id" : 222,
+  "position" : 222,
   "description" : "Floor",
   "usage" : "O",
   "truncation" : "NA",
@@ -2563,19 +2497,8 @@
   "conf_length" : 20,
   "table_id" : "308"
 }, {
-  "id" : 229,
-  "position" : 229,
-  "description" : "Numeric",
-  "usage" : "O",
-  "truncation" : "NA",
-  "parent_datatype_id" : "NM",
-  "datatype_id" : "NM",
-  "min_length" : 1,
-  "max_length" : 16,
-  "conf_length" : 0
-}, {
-  "id" : 230,
-  "position" : 230,
+  "id" : 223,
+  "position" : 223,
   "description" : "Low Value",
   "usage" : "O",
   "truncation" : "NA",
@@ -2585,8 +2508,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 231,
-  "position" : 231,
+  "id" : 224,
+  "position" : 224,
   "description" : "High Value",
   "usage" : "O",
   "truncation" : "NA",
@@ -2596,8 +2519,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 232,
-  "position" : 232,
+  "id" : 225,
+  "position" : 225,
   "description" : "Occurrence Code",
   "usage" : "O",
   "truncation" : "NA",
@@ -2608,8 +2531,8 @@
   "conf_length" : 0,
   "table_id" : "350"
 }, {
-  "id" : 233,
-  "position" : 233,
+  "id" : 226,
+  "position" : 226,
   "description" : "Occurrence Date",
   "usage" : "O",
   "truncation" : "NA",
@@ -2619,8 +2542,8 @@
   "max_length" : 0,
   "conf_length" : 8
 }, {
-  "id" : 234,
-  "position" : 234,
+  "id" : 227,
+  "position" : 227,
   "description" : "Original Sub-Identifier",
   "usage" : "O",
   "truncation" : "NA",
@@ -2630,8 +2553,8 @@
   "max_length" : 0,
   "conf_length" : 20
 }, {
-  "id" : 235,
-  "position" : 235,
+  "id" : 228,
+  "position" : 228,
   "description" : "Group",
   "usage" : "O",
   "truncation" : "NA",
@@ -2641,8 +2564,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 236,
-  "position" : 236,
+  "id" : 229,
+  "position" : 229,
   "description" : "Sequence",
   "usage" : "O",
   "truncation" : "NA",
@@ -2652,8 +2575,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 237,
-  "position" : 237,
+  "id" : 230,
+  "position" : 230,
   "description" : "Identifier",
   "usage" : "O",
   "truncation" : "NA",
@@ -2663,8 +2586,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 238,
-  "position" : 238,
+  "id" : 231,
+  "position" : 231,
   "description" : "Occurrence Span Code",
   "usage" : "O",
   "truncation" : "NA",
@@ -2675,8 +2598,8 @@
   "conf_length" : 0,
   "table_id" : "351"
 }, {
-  "id" : 239,
-  "position" : 239,
+  "id" : 232,
+  "position" : 232,
   "description" : "Occurrence Span Start Date",
   "usage" : "O",
   "truncation" : "NA",
@@ -2686,8 +2609,8 @@
   "max_length" : 0,
   "conf_length" : 8
 }, {
-  "id" : 240,
-  "position" : 240,
+  "id" : 233,
+  "position" : 233,
   "description" : "Occurrence Span Stop Date",
   "usage" : "O",
   "truncation" : "NA",
@@ -2697,8 +2620,8 @@
   "max_length" : 0,
   "conf_length" : 8
 }, {
-  "id" : 241,
-  "position" : 241,
+  "id" : 234,
+  "position" : 234,
   "description" : "Privilege",
   "usage" : "O",
   "truncation" : "NA",
@@ -2709,8 +2632,8 @@
   "conf_length" : 0,
   "table_id" : "525"
 }, {
-  "id" : 242,
-  "position" : 242,
+  "id" : 235,
+  "position" : 235,
   "description" : "Privilege Class",
   "usage" : "O",
   "truncation" : "NA",
@@ -2721,8 +2644,8 @@
   "conf_length" : 0,
   "table_id" : "526"
 }, {
-  "id" : 243,
-  "position" : 243,
+  "id" : 236,
+  "position" : 236,
   "description" : "Expiration Date",
   "usage" : "O",
   "truncation" : "NA",
@@ -2732,8 +2655,8 @@
   "max_length" : 0,
   "conf_length" : 8
 }, {
-  "id" : 244,
-  "position" : 244,
+  "id" : 237,
+  "position" : 237,
   "description" : "Activation Date",
   "usage" : "O",
   "truncation" : "NA",
@@ -2743,8 +2666,8 @@
   "max_length" : 0,
   "conf_length" : 8
 }, {
-  "id" : 245,
-  "position" : 245,
+  "id" : 238,
+  "position" : 238,
   "description" : "Facility",
   "usage" : "O",
   "truncation" : "NA",
@@ -2754,8 +2677,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 246,
-  "position" : 246,
+  "id" : 239,
+  "position" : 239,
   "description" : "Point of Care",
   "usage" : "O",
   "truncation" : "NA",
@@ -2766,8 +2689,8 @@
   "conf_length" : 0,
   "table_id" : "302"
 }, {
-  "id" : 247,
-  "position" : 247,
+  "id" : 240,
+  "position" : 240,
   "description" : "Room",
   "usage" : "O",
   "truncation" : "NA",
@@ -2778,8 +2701,8 @@
   "conf_length" : 0,
   "table_id" : "303"
 }, {
-  "id" : 248,
-  "position" : 248,
+  "id" : 241,
+  "position" : 241,
   "description" : "Bed",
   "usage" : "O",
   "truncation" : "NA",
@@ -2790,8 +2713,8 @@
   "conf_length" : 0,
   "table_id" : "304"
 }, {
-  "id" : 249,
-  "position" : 249,
+  "id" : 242,
+  "position" : 242,
   "description" : "Facility",
   "usage" : "O",
   "truncation" : "NA",
@@ -2801,8 +2724,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 250,
-  "position" : 250,
+  "id" : 243,
+  "position" : 243,
   "description" : "Location Status",
   "usage" : "O",
   "truncation" : "NA",
@@ -2813,8 +2736,8 @@
   "conf_length" : 20,
   "table_id" : "306"
 }, {
-  "id" : 251,
-  "position" : 251,
+  "id" : 244,
+  "position" : 244,
   "description" : "Person Location Type",
   "usage" : "O",
   "truncation" : "NA",
@@ -2825,8 +2748,8 @@
   "conf_length" : 20,
   "table_id" : "305"
 }, {
-  "id" : 252,
-  "position" : 252,
+  "id" : 245,
+  "position" : 245,
   "description" : "Building",
   "usage" : "O",
   "truncation" : "NA",
@@ -2837,8 +2760,8 @@
   "conf_length" : 0,
   "table_id" : "307"
 }, {
-  "id" : 253,
-  "position" : 253,
+  "id" : 246,
+  "position" : 246,
   "description" : "Floor",
   "usage" : "O",
   "truncation" : "NA",
@@ -2849,8 +2772,8 @@
   "conf_length" : 0,
   "table_id" : "308"
 }, {
-  "id" : 254,
-  "position" : 254,
+  "id" : 247,
+  "position" : 247,
   "description" : "Location Description",
   "usage" : "O",
   "truncation" : "NA",
@@ -2860,8 +2783,8 @@
   "max_length" : 0,
   "conf_length" : 199
 }, {
-  "id" : 255,
-  "position" : 255,
+  "id" : 248,
+  "position" : 248,
   "description" : "Comprehensive Location Identifier",
   "usage" : "O",
   "truncation" : "NA",
@@ -2871,8 +2794,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 256,
-  "position" : 256,
+  "id" : 249,
+  "position" : 249,
   "description" : "Assigning Authority for Location",
   "usage" : "O",
   "truncation" : "NA",
@@ -2883,8 +2806,8 @@
   "conf_length" : 0,
   "table_id" : "363"
 }, {
-  "id" : 257,
-  "position" : 257,
+  "id" : 250,
+  "position" : 250,
   "description" : "ID Number",
   "usage" : "O",
   "truncation" : "NA",
@@ -2894,8 +2817,8 @@
   "max_length" : 0,
   "conf_length" : 20
 }, {
-  "id" : 258,
-  "position" : 258,
+  "id" : 251,
+  "position" : 251,
   "description" : "Type of ID Number",
   "usage" : "O",
   "truncation" : "NA",
@@ -2906,8 +2829,8 @@
   "conf_length" : 0,
   "table_id" : "338"
 }, {
-  "id" : 259,
-  "position" : 259,
+  "id" : 252,
+  "position" : 252,
   "description" : "State/other Qualifying Information",
   "usage" : "O",
   "truncation" : "NA",
@@ -2917,8 +2840,8 @@
   "max_length" : 0,
   "conf_length" : 62
 }, {
-  "id" : 260,
-  "position" : 260,
+  "id" : 253,
+  "position" : 253,
   "description" : "Expiration Date",
   "usage" : "O",
   "truncation" : "NA",
@@ -2928,8 +2851,8 @@
   "max_length" : 0,
   "conf_length" : 8
 }, {
-  "id" : 261,
-  "position" : 261,
+  "id" : 254,
+  "position" : 254,
   "description" : "Person Identifier",
   "usage" : "O",
   "truncation" : "NA",
@@ -2939,8 +2862,8 @@
   "max_length" : 0,
   "conf_length" : 15
 }, {
-  "id" : 262,
-  "position" : 262,
+  "id" : 255,
+  "position" : 255,
   "description" : "Family Name",
   "usage" : "O",
   "truncation" : "NA",
@@ -2950,8 +2873,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 263,
-  "position" : 263,
+  "id" : 256,
+  "position" : 256,
   "description" : "Given Name",
   "usage" : "O",
   "truncation" : "NA",
@@ -2961,8 +2884,8 @@
   "max_length" : 0,
   "conf_length" : 30
 }, {
-  "id" : 264,
-  "position" : 264,
+  "id" : 257,
+  "position" : 257,
   "description" : "Second and Further Given Names or Initials Thereof",
   "usage" : "O",
   "truncation" : "NA",
@@ -2972,8 +2895,8 @@
   "max_length" : 0,
   "conf_length" : 30
 }, {
-  "id" : 265,
-  "position" : 265,
+  "id" : 258,
+  "position" : 258,
   "description" : "Suffix (e.g., JR or III)",
   "usage" : "O",
   "truncation" : "NA",
@@ -2983,8 +2906,8 @@
   "max_length" : 0,
   "conf_length" : 20
 }, {
-  "id" : 266,
-  "position" : 266,
+  "id" : 259,
+  "position" : 259,
   "description" : "Prefix (e.g., DR)",
   "usage" : "O",
   "truncation" : "NA",
@@ -2994,8 +2917,8 @@
   "max_length" : 0,
   "conf_length" : 20
 }, {
-  "id" : 267,
-  "position" : 267,
+  "id" : 260,
+  "position" : 260,
   "description" : "Degree (e.g., MD)",
   "usage" : "O",
   "truncation" : "NA",
@@ -3005,8 +2928,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 268,
-  "position" : 268,
+  "id" : 261,
+  "position" : 261,
   "description" : "Source Table",
   "usage" : "O",
   "truncation" : "NA",
@@ -3017,8 +2940,8 @@
   "conf_length" : 0,
   "table_id" : "297"
 }, {
-  "id" : 269,
-  "position" : 269,
+  "id" : 262,
+  "position" : 262,
   "description" : "Assigning Authority",
   "usage" : "O",
   "truncation" : "NA",
@@ -3029,8 +2952,8 @@
   "conf_length" : 0,
   "table_id" : "363"
 }, {
-  "id" : 270,
-  "position" : 270,
+  "id" : 263,
+  "position" : 263,
   "description" : "Name Type Code",
   "usage" : "O",
   "truncation" : "NA",
@@ -3041,8 +2964,8 @@
   "conf_length" : 0,
   "table_id" : "200"
 }, {
-  "id" : 271,
-  "position" : 271,
+  "id" : 264,
+  "position" : 264,
   "description" : "Identifier Check Digit",
   "usage" : "O",
   "truncation" : "NA",
@@ -3052,8 +2975,8 @@
   "max_length" : 0,
   "conf_length" : 4
 }, {
-  "id" : 272,
-  "position" : 272,
+  "id" : 265,
+  "position" : 265,
   "description" : "Check Digit Scheme",
   "usage" : "O",
   "truncation" : "NA",
@@ -3064,8 +2987,8 @@
   "conf_length" : 0,
   "table_id" : "61"
 }, {
-  "id" : 273,
-  "position" : 273,
+  "id" : 266,
+  "position" : 266,
   "description" : "Identifier Type Code",
   "usage" : "O",
   "truncation" : "NA",
@@ -3076,8 +2999,8 @@
   "conf_length" : 0,
   "table_id" : "203"
 }, {
-  "id" : 274,
-  "position" : 274,
+  "id" : 267,
+  "position" : 267,
   "description" : "Assigning Facility",
   "usage" : "O",
   "truncation" : "NA",
@@ -3087,8 +3010,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 275,
-  "position" : 275,
+  "id" : 268,
+  "position" : 268,
   "description" : "Date/Time Action Performed",
   "usage" : "O",
   "truncation" : "NA",
@@ -3098,8 +3021,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 276,
-  "position" : 276,
+  "id" : 269,
+  "position" : 269,
   "description" : "Name Representation Code",
   "usage" : "O",
   "truncation" : "NA",
@@ -3110,8 +3033,8 @@
   "conf_length" : 0,
   "table_id" : "465"
 }, {
-  "id" : 277,
-  "position" : 277,
+  "id" : 270,
+  "position" : 270,
   "description" : "Name Context",
   "usage" : "O",
   "truncation" : "NA",
@@ -3122,8 +3045,8 @@
   "conf_length" : 0,
   "table_id" : "448"
 }, {
-  "id" : 278,
-  "position" : 278,
+  "id" : 271,
+  "position" : 271,
   "description" : "Name Validity Range",
   "usage" : "O",
   "truncation" : "NA",
@@ -3133,8 +3056,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 279,
-  "position" : 279,
+  "id" : 272,
+  "position" : 272,
   "description" : "Name Assembly Order",
   "usage" : "O",
   "truncation" : "NA",
@@ -3145,8 +3068,8 @@
   "conf_length" : 0,
   "table_id" : "444"
 }, {
-  "id" : 280,
-  "position" : 280,
+  "id" : 273,
+  "position" : 273,
   "description" : "Effective Date",
   "usage" : "O",
   "truncation" : "NA",
@@ -3156,8 +3079,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 281,
-  "position" : 281,
+  "id" : 274,
+  "position" : 274,
   "description" : "Expiration Date",
   "usage" : "O",
   "truncation" : "NA",
@@ -3167,8 +3090,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 282,
-  "position" : 282,
+  "id" : 275,
+  "position" : 275,
   "description" : "Professional Suffix",
   "usage" : "O",
   "truncation" : "NA",
@@ -3178,8 +3101,8 @@
   "max_length" : 0,
   "conf_length" : 199
 }, {
-  "id" : 283,
-  "position" : 283,
+  "id" : 276,
+  "position" : 276,
   "description" : "Assigning Jurisdiction",
   "usage" : "O",
   "truncation" : "NA",
@@ -3189,8 +3112,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 284,
-  "position" : 284,
+  "id" : 277,
+  "position" : 277,
   "description" : "Assigning Agency or Department",
   "usage" : "O",
   "truncation" : "NA",
@@ -3200,8 +3123,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 285,
-  "position" : 285,
+  "id" : 278,
+  "position" : 278,
   "description" : "Security Check",
   "usage" : "O",
   "truncation" : "NA",
@@ -3211,8 +3134,8 @@
   "max_length" : 0,
   "conf_length" : 4
 }, {
-  "id" : 286,
-  "position" : 286,
+  "id" : 279,
+  "position" : 279,
   "description" : "Security Check Scheme",
   "usage" : "O",
   "truncation" : "NA",
@@ -3223,8 +3146,8 @@
   "conf_length" : 0,
   "table_id" : "904"
 }, {
-  "id" : 287,
-  "position" : 287,
+  "id" : 280,
+  "position" : 280,
   "description" : "Parent Observation Identifier",
   "usage" : "O",
   "truncation" : "NA",
@@ -3234,8 +3157,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 288,
-  "position" : 288,
+  "id" : 281,
+  "position" : 281,
   "description" : "Parent Observation Sub-identifier",
   "usage" : "O",
   "truncation" : "NA",
@@ -3245,8 +3168,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 289,
-  "position" : 289,
+  "id" : 282,
+  "position" : 282,
   "description" : "Parent Observation Value Descriptor",
   "usage" : "O",
   "truncation" : "NA",
@@ -3256,8 +3179,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 290,
-  "position" : 290,
+  "id" : 283,
+  "position" : 283,
   "description" : "Processing ID",
   "usage" : "O",
   "truncation" : "NA",
@@ -3268,8 +3191,8 @@
   "conf_length" : 0,
   "table_id" : "103"
 }, {
-  "id" : 291,
-  "position" : 291,
+  "id" : 284,
+  "position" : 284,
   "description" : "Processing Mode",
   "usage" : "O",
   "truncation" : "NA",
@@ -3280,8 +3203,8 @@
   "conf_length" : 0,
   "table_id" : "207"
 }, {
-  "id" : 292,
-  "position" : 292,
+  "id" : 285,
+  "position" : 285,
   "description" : "Policy Type",
   "usage" : "O",
   "truncation" : "NA",
@@ -3292,8 +3215,8 @@
   "conf_length" : 0,
   "table_id" : "147"
 }, {
-  "id" : 293,
-  "position" : 293,
+  "id" : 286,
+  "position" : 286,
   "description" : "Amount Class",
   "usage" : "O",
   "truncation" : "NA",
@@ -3304,8 +3227,8 @@
   "conf_length" : 0,
   "table_id" : "193"
 }, {
-  "id" : 294,
-  "position" : 294,
+  "id" : 287,
+  "position" : 287,
   "description" : "Money or Percentage Quantity",
   "usage" : "O",
   "truncation" : "NA",
@@ -3315,8 +3238,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 295,
-  "position" : 295,
+  "id" : 288,
+  "position" : 288,
   "description" : "Money or Percentage",
   "usage" : "O",
   "truncation" : "NA",
@@ -3326,8 +3249,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 296,
-  "position" : 296,
+  "id" : 289,
+  "position" : 289,
   "description" : "Segment Field Name",
   "usage" : "O",
   "truncation" : "NA",
@@ -3337,8 +3260,8 @@
   "max_length" : 12,
   "conf_length" : 0
 }, {
-  "id" : 297,
-  "position" : 297,
+  "id" : 290,
+  "position" : 290,
   "description" : "Values",
   "usage" : "O",
   "truncation" : "NA",
@@ -3348,8 +3271,8 @@
   "max_length" : 0,
   "conf_length" : 199
 }, {
-  "id" : 298,
-  "position" : 298,
+  "id" : 291,
+  "position" : 291,
   "description" : "Segment Field Name",
   "usage" : "O",
   "truncation" : "NA",
@@ -3359,8 +3282,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 299,
-  "position" : 299,
+  "id" : 292,
+  "position" : 292,
   "description" : "Relational Operator",
   "usage" : "O",
   "truncation" : "NA",
@@ -3371,8 +3294,8 @@
   "conf_length" : 0,
   "table_id" : "209"
 }, {
-  "id" : 300,
-  "position" : 300,
+  "id" : 293,
+  "position" : 293,
   "description" : "Value",
   "usage" : "O",
   "truncation" : "NA",
@@ -3382,8 +3305,8 @@
   "max_length" : 0,
   "conf_length" : 199
 }, {
-  "id" : 301,
-  "position" : 301,
+  "id" : 294,
+  "position" : 294,
   "description" : "Relational Conjunction",
   "usage" : "O",
   "truncation" : "NA",
@@ -3394,8 +3317,8 @@
   "conf_length" : 0,
   "table_id" : "210"
 }, {
-  "id" : 302,
-  "position" : 302,
+  "id" : 295,
+  "position" : 295,
   "description" : "Segment Field Name",
   "usage" : "O",
   "truncation" : "NA",
@@ -3405,8 +3328,8 @@
   "max_length" : 12,
   "conf_length" : 0
 }, {
-  "id" : 303,
-  "position" : 303,
+  "id" : 296,
+  "position" : 296,
   "description" : "HL7 Data Type",
   "usage" : "O",
   "truncation" : "NA",
@@ -3417,8 +3340,8 @@
   "conf_length" : 0,
   "table_id" : "440"
 }, {
-  "id" : 304,
-  "position" : 304,
+  "id" : 297,
+  "position" : 297,
   "description" : "Maximum Column Width",
   "usage" : "O",
   "truncation" : "NA",
@@ -3428,8 +3351,8 @@
   "max_length" : 5,
   "conf_length" : 0
 }, {
-  "id" : 305,
-  "position" : 305,
+  "id" : 298,
+  "position" : 298,
   "description" : "Numeric Range",
   "usage" : "O",
   "truncation" : "NA",
@@ -3439,8 +3362,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 306,
-  "position" : 306,
+  "id" : 299,
+  "position" : 299,
   "description" : "Administrative Sex",
   "usage" : "O",
   "truncation" : "NA",
@@ -3451,8 +3374,8 @@
   "conf_length" : 0,
   "table_id" : "1"
 }, {
-  "id" : 307,
-  "position" : 307,
+  "id" : 300,
+  "position" : 300,
   "description" : "Age Range",
   "usage" : "O",
   "truncation" : "NA",
@@ -3462,8 +3385,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 308,
-  "position" : 308,
+  "id" : 301,
+  "position" : 301,
   "description" : "Gestational Age Range",
   "usage" : "O",
   "truncation" : "NA",
@@ -3473,8 +3396,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 309,
-  "position" : 309,
+  "id" : 302,
+  "position" : 302,
   "description" : "Species",
   "usage" : "O",
   "truncation" : "NA",
@@ -3484,8 +3407,8 @@
   "max_length" : 0,
   "conf_length" : 20
 }, {
-  "id" : 310,
-  "position" : 310,
+  "id" : 303,
+  "position" : 303,
   "description" : "Race/subspecies",
   "usage" : "O",
   "truncation" : "NA",
@@ -3495,8 +3418,8 @@
   "max_length" : 0,
   "conf_length" : 20
 }, {
-  "id" : 311,
-  "position" : 311,
+  "id" : 304,
+  "position" : 304,
   "description" : "Conditions",
   "usage" : "O",
   "truncation" : "NA",
@@ -3506,8 +3429,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 312,
-  "position" : 312,
+  "id" : 305,
+  "position" : 305,
   "description" : "Repeat Pattern",
   "usage" : "O",
   "truncation" : "NA",
@@ -3518,8 +3441,8 @@
   "conf_length" : 0,
   "table_id" : "335"
 }, {
-  "id" : 313,
-  "position" : 313,
+  "id" : 306,
+  "position" : 306,
   "description" : "Explicit Time Interval",
   "usage" : "O",
   "truncation" : "NA",
@@ -3529,8 +3452,8 @@
   "max_length" : 0,
   "conf_length" : 199
 }, {
-  "id" : 314,
-  "position" : 314,
+  "id" : 307,
+  "position" : 307,
   "description" : "Room Type",
   "usage" : "O",
   "truncation" : "NA",
@@ -3541,8 +3464,8 @@
   "conf_length" : 0,
   "table_id" : "145"
 }, {
-  "id" : 315,
-  "position" : 315,
+  "id" : 308,
+  "position" : 308,
   "description" : "Amount Type",
   "usage" : "O",
   "truncation" : "NA",
@@ -3553,8 +3476,8 @@
   "conf_length" : 0,
   "table_id" : "146"
 }, {
-  "id" : 316,
-  "position" : 316,
+  "id" : 309,
+  "position" : 309,
   "description" : "Coverage Amount",
   "usage" : "O",
   "truncation" : "NA",
@@ -3564,8 +3487,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 317,
-  "position" : 317,
+  "id" : 310,
+  "position" : 310,
   "description" : "Money or Percentage",
   "usage" : "O",
   "truncation" : "NA",
@@ -3575,8 +3498,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 318,
-  "position" : 318,
+  "id" : 311,
+  "position" : 311,
   "description" : "Pointer",
   "usage" : "O",
   "truncation" : "NA",
@@ -3586,8 +3509,8 @@
   "max_length" : 0,
   "conf_length" : 999
 }, {
-  "id" : 319,
-  "position" : 319,
+  "id" : 312,
+  "position" : 312,
   "description" : "Application ID",
   "usage" : "O",
   "truncation" : "NA",
@@ -3597,8 +3520,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 320,
-  "position" : 320,
+  "id" : 313,
+  "position" : 313,
   "description" : "Type of Data",
   "usage" : "O",
   "truncation" : "NA",
@@ -3609,8 +3532,8 @@
   "conf_length" : 0,
   "table_id" : "834"
 }, {
-  "id" : 321,
-  "position" : 321,
+  "id" : 314,
+  "position" : 314,
   "description" : "Subtype",
   "usage" : "O",
   "truncation" : "NA",
@@ -3621,8 +3544,8 @@
   "conf_length" : 0,
   "table_id" : "291"
 }, {
-  "id" : 322,
-  "position" : 322,
+  "id" : 315,
+  "position" : 315,
   "description" : "Repeat Pattern Code",
   "usage" : "O",
   "truncation" : "NA",
@@ -3633,8 +3556,8 @@
   "conf_length" : 0,
   "table_id" : "335"
 }, {
-  "id" : 323,
-  "position" : 323,
+  "id" : 316,
+  "position" : 316,
   "description" : "Calendar Alignment",
   "usage" : "O",
   "truncation" : "NA",
@@ -3645,8 +3568,8 @@
   "conf_length" : 0,
   "table_id" : "527"
 }, {
-  "id" : 324,
-  "position" : 324,
+  "id" : 317,
+  "position" : 317,
   "description" : "Phase Range Begin Value",
   "usage" : "O",
   "truncation" : "NA",
@@ -3656,8 +3579,8 @@
   "max_length" : 0,
   "conf_length" : 10
 }, {
-  "id" : 325,
-  "position" : 325,
+  "id" : 318,
+  "position" : 318,
   "description" : "Phase Range End Value",
   "usage" : "O",
   "truncation" : "NA",
@@ -3667,8 +3590,8 @@
   "max_length" : 0,
   "conf_length" : 10
 }, {
-  "id" : 326,
-  "position" : 326,
+  "id" : 319,
+  "position" : 319,
   "description" : "Period Quantity",
   "usage" : "O",
   "truncation" : "NA",
@@ -3678,8 +3601,8 @@
   "max_length" : 0,
   "conf_length" : 10
 }, {
-  "id" : 327,
-  "position" : 327,
+  "id" : 320,
+  "position" : 320,
   "description" : "Period Units",
   "usage" : "O",
   "truncation" : "NA",
@@ -3689,8 +3612,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 328,
-  "position" : 328,
+  "id" : 321,
+  "position" : 321,
   "description" : "Institution Specified Time",
   "usage" : "O",
   "truncation" : "NA",
@@ -3701,8 +3624,8 @@
   "conf_length" : 0,
   "table_id" : "136"
 }, {
-  "id" : 329,
-  "position" : 329,
+  "id" : 322,
+  "position" : 322,
   "description" : "Event",
   "usage" : "O",
   "truncation" : "NA",
@@ -3713,8 +3636,8 @@
   "conf_length" : 0,
   "table_id" : "528"
 }, {
-  "id" : 330,
-  "position" : 330,
+  "id" : 323,
+  "position" : 323,
   "description" : "Event Offset Quantity",
   "usage" : "O",
   "truncation" : "NA",
@@ -3724,8 +3647,8 @@
   "max_length" : 0,
   "conf_length" : 10
 }, {
-  "id" : 331,
-  "position" : 331,
+  "id" : 324,
+  "position" : 324,
   "description" : "Event Offset Units",
   "usage" : "O",
   "truncation" : "NA",
@@ -3735,8 +3658,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 332,
-  "position" : 332,
+  "id" : 325,
+  "position" : 325,
   "description" : "General Timing Specification",
   "usage" : "O",
   "truncation" : "NA",
@@ -3746,8 +3669,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 333,
-  "position" : 333,
+  "id" : 326,
+  "position" : 326,
   "description" : "Street or Mailing Address",
   "usage" : "O",
   "truncation" : "NA",
@@ -3757,8 +3680,8 @@
   "max_length" : 0,
   "conf_length" : 120
 }, {
-  "id" : 334,
-  "position" : 334,
+  "id" : 327,
+  "position" : 327,
   "description" : "Street Name",
   "usage" : "O",
   "truncation" : "NA",
@@ -3768,8 +3691,8 @@
   "max_length" : 0,
   "conf_length" : 50
 }, {
-  "id" : 335,
-  "position" : 335,
+  "id" : 328,
+  "position" : 328,
   "description" : "Dwelling Number",
   "usage" : "O",
   "truncation" : "NA",
@@ -3779,8 +3702,8 @@
   "max_length" : 0,
   "conf_length" : 12
 }, {
-  "id" : 336,
-  "position" : 336,
+  "id" : 329,
+  "position" : 329,
   "description" : "Parameter Class",
   "usage" : "O",
   "truncation" : "NA",
@@ -3791,8 +3714,8 @@
   "conf_length" : 0,
   "table_id" : "294"
 }, {
-  "id" : 337,
-  "position" : 337,
+  "id" : 330,
+  "position" : 330,
   "description" : "Parameter Value",
   "usage" : "O",
   "truncation" : "NA",
@@ -3802,19 +3725,8 @@
   "max_length" : 0,
   "conf_length" : 20
 }, {
-  "id" : 338,
-  "position" : 338,
-  "description" : "Sequence ID",
-  "usage" : "O",
-  "truncation" : "NA",
-  "parent_datatype_id" : "SI",
-  "datatype_id" : "ID",
-  "min_length" : 1,
-  "max_length" : 4,
-  "conf_length" : 4
-}, {
-  "id" : 339,
-  "position" : 339,
+  "id" : 331,
+  "position" : 331,
   "description" : "Comparator",
   "usage" : "O",
   "truncation" : "NA",
@@ -3824,8 +3736,8 @@
   "max_length" : 2,
   "conf_length" : 0
 }, {
-  "id" : 340,
-  "position" : 340,
+  "id" : 332,
+  "position" : 332,
   "description" : "Num1",
   "usage" : "O",
   "truncation" : "NA",
@@ -3835,8 +3747,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 341,
-  "position" : 341,
+  "id" : 333,
+  "position" : 333,
   "description" : "Separator/Suffix",
   "usage" : "O",
   "truncation" : "NA",
@@ -3846,8 +3758,8 @@
   "max_length" : 1,
   "conf_length" : 0
 }, {
-  "id" : 342,
-  "position" : 342,
+  "id" : 334,
+  "position" : 334,
   "description" : "Num2",
   "usage" : "O",
   "truncation" : "NA",
@@ -3857,19 +3769,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 343,
-  "position" : 343,
-  "description" : "String of telephone number digits",
-  "usage" : "O",
-  "truncation" : "NA",
-  "parent_datatype_id" : "SNM",
-  "datatype_id" : "ST",
-  "min_length" : 1,
-  "max_length" : 0,
-  "conf_length" : 0
-}, {
-  "id" : 344,
-  "position" : 344,
+  "id" : 335,
+  "position" : 335,
   "description" : "Specialty Name",
   "usage" : "O",
   "truncation" : "NA",
@@ -3879,8 +3780,8 @@
   "max_length" : 0,
   "conf_length" : 50
 }, {
-  "id" : 345,
-  "position" : 345,
+  "id" : 336,
+  "position" : 336,
   "description" : "Governing Board",
   "usage" : "O",
   "truncation" : "NA",
@@ -3890,8 +3791,8 @@
   "max_length" : 0,
   "conf_length" : 50
 }, {
-  "id" : 346,
-  "position" : 346,
+  "id" : 337,
+  "position" : 337,
   "description" : "Eligible or Certified",
   "usage" : "O",
   "truncation" : "NA",
@@ -3902,8 +3803,8 @@
   "conf_length" : 0,
   "table_id" : "337"
 }, {
-  "id" : 347,
-  "position" : 347,
+  "id" : 338,
+  "position" : 338,
   "description" : "Date of Certification",
   "usage" : "O",
   "truncation" : "NA",
@@ -3913,8 +3814,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 348,
-  "position" : 348,
+  "id" : 339,
+  "position" : 339,
   "description" : "Sort-by Field",
   "usage" : "O",
   "truncation" : "NA",
@@ -3924,8 +3825,8 @@
   "max_length" : 12,
   "conf_length" : 0
 }, {
-  "id" : 349,
-  "position" : 349,
+  "id" : 340,
+  "position" : 340,
   "description" : "Sequencing",
   "usage" : "O",
   "truncation" : "NA",
@@ -3936,41 +3837,8 @@
   "conf_length" : 0,
   "table_id" : "397"
 }, {
-  "id" : 350,
-  "position" : 350,
-  "description" : "String Data",
-  "usage" : "O",
-  "truncation" : "NA",
-  "parent_datatype_id" : "ST",
-  "datatype_id" : "ST",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : 0
-}, {
-  "id" : 351,
-  "position" : 351,
-  "description" : "Time",
-  "usage" : "O",
-  "truncation" : "NA",
-  "parent_datatype_id" : "TM",
-  "datatype_id" : "ST",
-  "min_length" : 2,
-  "max_length" : 16,
-  "conf_length" : 13
-}, {
-  "id" : 352,
-  "position" : 352,
-  "description" : "Text Data",
-  "usage" : "O",
-  "truncation" : "NA",
-  "parent_datatype_id" : "TX",
-  "datatype_id" : "ST",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : 0
-}, {
-  "id" : 353,
-  "position" : 353,
+  "id" : 341,
+  "position" : 341,
   "description" : "Value Code",
   "usage" : "O",
   "truncation" : "NA",
@@ -3981,8 +3849,8 @@
   "conf_length" : 0,
   "table_id" : "153"
 }, {
-  "id" : 354,
-  "position" : 354,
+  "id" : 342,
+  "position" : 342,
   "description" : "Value Amount",
   "usage" : "O",
   "truncation" : "NA",
@@ -3992,8 +3860,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 355,
-  "position" : 355,
+  "id" : 343,
+  "position" : 343,
   "description" : "Non-Monetary Value Amount / Quantity",
   "usage" : "O",
   "truncation" : "NA",
@@ -4003,8 +3871,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 356,
-  "position" : 356,
+  "id" : 344,
+  "position" : 344,
   "description" : "Non-Monetary Value Amount / Units",
   "usage" : "O",
   "truncation" : "NA",
@@ -4014,8 +3882,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 357,
-  "position" : 357,
+  "id" : 345,
+  "position" : 345,
   "description" : "Start Day Range",
   "usage" : "O",
   "truncation" : "NA",
@@ -4026,8 +3894,8 @@
   "conf_length" : 0,
   "table_id" : "267"
 }, {
-  "id" : 358,
-  "position" : 358,
+  "id" : 346,
+  "position" : 346,
   "description" : "End Day Range",
   "usage" : "O",
   "truncation" : "NA",
@@ -4038,8 +3906,8 @@
   "conf_length" : 0,
   "table_id" : "267"
 }, {
-  "id" : 359,
-  "position" : 359,
+  "id" : 347,
+  "position" : 347,
   "description" : "Start Hour Range",
   "usage" : "O",
   "truncation" : "NA",
@@ -4049,8 +3917,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 360,
-  "position" : 360,
+  "id" : 348,
+  "position" : 348,
   "description" : "End Hour Range",
   "usage" : "O",
   "truncation" : "NA",
@@ -4060,8 +3928,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 361,
-  "position" : 361,
+  "id" : 349,
+  "position" : 349,
   "description" : "Version ID",
   "usage" : "O",
   "truncation" : "NA",
@@ -4072,8 +3940,8 @@
   "conf_length" : 0,
   "table_id" : "104"
 }, {
-  "id" : 362,
-  "position" : 362,
+  "id" : 350,
+  "position" : 350,
   "description" : "Internationalization Code",
   "usage" : "O",
   "truncation" : "NA",
@@ -4084,8 +3952,8 @@
   "conf_length" : 0,
   "table_id" : "399"
 }, {
-  "id" : 363,
-  "position" : 363,
+  "id" : 351,
+  "position" : 351,
   "description" : "International Version ID",
   "usage" : "O",
   "truncation" : "NA",
@@ -4095,8 +3963,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 364,
-  "position" : 364,
+  "id" : 352,
+  "position" : 352,
   "description" : "First Data Code Value",
   "usage" : "O",
   "truncation" : "NA",
@@ -4106,8 +3974,8 @@
   "max_length" : 0,
   "conf_length" : 6
 }, {
-  "id" : 365,
-  "position" : 365,
+  "id" : 353,
+  "position" : 353,
   "description" : "Last Data Code Value",
   "usage" : "O",
   "truncation" : "NA",
@@ -4117,8 +3985,8 @@
   "max_length" : 0,
   "conf_length" : 6
 }, {
-  "id" : 366,
-  "position" : 366,
+  "id" : 354,
+  "position" : 354,
   "description" : "Channel Number",
   "usage" : "O",
   "truncation" : "NA",
@@ -4128,8 +3996,8 @@
   "max_length" : 0,
   "conf_length" : 4
 }, {
-  "id" : 367,
-  "position" : 367,
+  "id" : 355,
+  "position" : 355,
   "description" : "Channel Name",
   "usage" : "O",
   "truncation" : "NA",
@@ -4139,8 +4007,8 @@
   "max_length" : 0,
   "conf_length" : 17
 }, {
-  "id" : 368,
-  "position" : 368,
+  "id" : 356,
+  "position" : 356,
   "description" : "Source One Name",
   "usage" : "O",
   "truncation" : "NA",
@@ -4150,8 +4018,8 @@
   "max_length" : 0,
   "conf_length" : 8
 }, {
-  "id" : 369,
-  "position" : 369,
+  "id" : 357,
+  "position" : 357,
   "description" : "Source Two Name",
   "usage" : "O",
   "truncation" : "NA",
@@ -4161,8 +4029,8 @@
   "max_length" : 0,
   "conf_length" : 8
 }, {
-  "id" : 370,
-  "position" : 370,
+  "id" : 358,
+  "position" : 358,
   "description" : "Street Address",
   "usage" : "O",
   "truncation" : "NA",
@@ -4172,8 +4040,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 371,
-  "position" : 371,
+  "id" : 359,
+  "position" : 359,
   "description" : "Other Designation",
   "usage" : "O",
   "truncation" : "NA",
@@ -4183,8 +4051,8 @@
   "max_length" : 0,
   "conf_length" : 120
 }, {
-  "id" : 372,
-  "position" : 372,
+  "id" : 360,
+  "position" : 360,
   "description" : "City",
   "usage" : "O",
   "truncation" : "NA",
@@ -4194,8 +4062,8 @@
   "max_length" : 0,
   "conf_length" : 50
 }, {
-  "id" : 373,
-  "position" : 373,
+  "id" : 361,
+  "position" : 361,
   "description" : "State or Province",
   "usage" : "O",
   "truncation" : "NA",
@@ -4205,8 +4073,8 @@
   "max_length" : 0,
   "conf_length" : 50
 }, {
-  "id" : 374,
-  "position" : 374,
+  "id" : 362,
+  "position" : 362,
   "description" : "Zip or Postal Code",
   "usage" : "O",
   "truncation" : "NA",
@@ -4216,8 +4084,8 @@
   "max_length" : 0,
   "conf_length" : 12
 }, {
-  "id" : 375,
-  "position" : 375,
+  "id" : 363,
+  "position" : 363,
   "description" : "Country",
   "usage" : "O",
   "truncation" : "NA",
@@ -4228,8 +4096,8 @@
   "conf_length" : 0,
   "table_id" : "399"
 }, {
-  "id" : 376,
-  "position" : 376,
+  "id" : 364,
+  "position" : 364,
   "description" : "Address Type",
   "usage" : "O",
   "truncation" : "NA",
@@ -4240,8 +4108,8 @@
   "conf_length" : 0,
   "table_id" : "190"
 }, {
-  "id" : 377,
-  "position" : 377,
+  "id" : 365,
+  "position" : 365,
   "description" : "Other Geographic Designation",
   "usage" : "O",
   "truncation" : "NA",
@@ -4251,8 +4119,8 @@
   "max_length" : 0,
   "conf_length" : 50
 }, {
-  "id" : 378,
-  "position" : 378,
+  "id" : 366,
+  "position" : 366,
   "description" : "County/Parish Code",
   "usage" : "O",
   "truncation" : "NA",
@@ -4263,8 +4131,8 @@
   "conf_length" : 0,
   "table_id" : "289"
 }, {
-  "id" : 379,
-  "position" : 379,
+  "id" : 367,
+  "position" : 367,
   "description" : "Census Tract",
   "usage" : "O",
   "truncation" : "NA",
@@ -4275,8 +4143,8 @@
   "conf_length" : 0,
   "table_id" : "288"
 }, {
-  "id" : 380,
-  "position" : 380,
+  "id" : 368,
+  "position" : 368,
   "description" : "Address Representation Code",
   "usage" : "O",
   "truncation" : "NA",
@@ -4287,8 +4155,8 @@
   "conf_length" : 0,
   "table_id" : "465"
 }, {
-  "id" : 381,
-  "position" : 381,
+  "id" : 369,
+  "position" : 369,
   "description" : "Address Validity Range",
   "usage" : "O",
   "truncation" : "NA",
@@ -4298,8 +4166,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 382,
-  "position" : 382,
+  "id" : 370,
+  "position" : 370,
   "description" : "Effective Date",
   "usage" : "O",
   "truncation" : "NA",
@@ -4309,8 +4177,8 @@
   "max_length" : 0,
   "conf_length" : 8
 }, {
-  "id" : 383,
-  "position" : 383,
+  "id" : 371,
+  "position" : 371,
   "description" : "Expiration Date",
   "usage" : "O",
   "truncation" : "NA",
@@ -4320,8 +4188,8 @@
   "max_length" : 0,
   "conf_length" : 8
 }, {
-  "id" : 384,
-  "position" : 384,
+  "id" : 372,
+  "position" : 372,
   "description" : "Expiration Reason",
   "usage" : "O",
   "truncation" : "NA",
@@ -4332,8 +4200,8 @@
   "conf_length" : 0,
   "table_id" : "616"
 }, {
-  "id" : 385,
-  "position" : 385,
+  "id" : 373,
+  "position" : 373,
   "description" : "Temporary Indicator",
   "usage" : "O",
   "truncation" : "NA",
@@ -4344,8 +4212,8 @@
   "conf_length" : 0,
   "table_id" : "136"
 }, {
-  "id" : 386,
-  "position" : 386,
+  "id" : 374,
+  "position" : 374,
   "description" : "Bad Address Indicator",
   "usage" : "O",
   "truncation" : "NA",
@@ -4356,8 +4224,8 @@
   "conf_length" : 0,
   "table_id" : "136"
 }, {
-  "id" : 387,
-  "position" : 387,
+  "id" : 375,
+  "position" : 375,
   "description" : "Address Usage",
   "usage" : "O",
   "truncation" : "NA",
@@ -4368,8 +4236,8 @@
   "conf_length" : 0,
   "table_id" : "617"
 }, {
-  "id" : 388,
-  "position" : 388,
+  "id" : 376,
+  "position" : 376,
   "description" : "Addressee",
   "usage" : "O",
   "truncation" : "NA",
@@ -4379,8 +4247,8 @@
   "max_length" : 0,
   "conf_length" : 199
 }, {
-  "id" : 389,
-  "position" : 389,
+  "id" : 377,
+  "position" : 377,
   "description" : "Comment",
   "usage" : "O",
   "truncation" : "NA",
@@ -4390,8 +4258,8 @@
   "max_length" : 0,
   "conf_length" : 199
 }, {
-  "id" : 390,
-  "position" : 390,
+  "id" : 378,
+  "position" : 378,
   "description" : "Preference Order",
   "usage" : "O",
   "truncation" : "NA",
@@ -4401,8 +4269,8 @@
   "max_length" : 0,
   "conf_length" : 2
 }, {
-  "id" : 391,
-  "position" : 391,
+  "id" : 379,
+  "position" : 379,
   "description" : "Protection Code",
   "usage" : "O",
   "truncation" : "NA",
@@ -4413,8 +4281,8 @@
   "conf_length" : 0,
   "table_id" : "618"
 }, {
-  "id" : 392,
-  "position" : 392,
+  "id" : 380,
+  "position" : 380,
   "description" : "Address Identifier",
   "usage" : "O",
   "truncation" : "NA",
@@ -4424,8 +4292,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 393,
-  "position" : 393,
+  "id" : 381,
+  "position" : 381,
   "description" : "Person Identifier",
   "usage" : "O",
   "truncation" : "NA",
@@ -4435,8 +4303,8 @@
   "max_length" : 0,
   "conf_length" : 15
 }, {
-  "id" : 394,
-  "position" : 394,
+  "id" : 382,
+  "position" : 382,
   "description" : "Family Name",
   "usage" : "O",
   "truncation" : "NA",
@@ -4446,8 +4314,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 395,
-  "position" : 395,
+  "id" : 383,
+  "position" : 383,
   "description" : "Given Name",
   "usage" : "O",
   "truncation" : "NA",
@@ -4457,8 +4325,8 @@
   "max_length" : 0,
   "conf_length" : 30
 }, {
-  "id" : 396,
-  "position" : 396,
+  "id" : 384,
+  "position" : 384,
   "description" : "Second and Further Given Names or Initials Thereof",
   "usage" : "O",
   "truncation" : "NA",
@@ -4468,8 +4336,8 @@
   "max_length" : 0,
   "conf_length" : 30
 }, {
-  "id" : 397,
-  "position" : 397,
+  "id" : 385,
+  "position" : 385,
   "description" : "Suffix (e.g., JR or III)",
   "usage" : "O",
   "truncation" : "NA",
@@ -4479,8 +4347,8 @@
   "max_length" : 0,
   "conf_length" : 20
 }, {
-  "id" : 398,
-  "position" : 398,
+  "id" : 386,
+  "position" : 386,
   "description" : "Prefix (e.g., DR)",
   "usage" : "O",
   "truncation" : "NA",
@@ -4490,8 +4358,8 @@
   "max_length" : 0,
   "conf_length" : 20
 }, {
-  "id" : 399,
-  "position" : 399,
+  "id" : 387,
+  "position" : 387,
   "description" : "Degree (e.g., MD)",
   "usage" : "O",
   "truncation" : "NA",
@@ -4501,8 +4369,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 400,
-  "position" : 400,
+  "id" : 388,
+  "position" : 388,
   "description" : "Source Table",
   "usage" : "O",
   "truncation" : "NA",
@@ -4513,8 +4381,8 @@
   "conf_length" : 0,
   "table_id" : "297"
 }, {
-  "id" : 401,
-  "position" : 401,
+  "id" : 389,
+  "position" : 389,
   "description" : "Assigning Authority",
   "usage" : "O",
   "truncation" : "NA",
@@ -4525,8 +4393,8 @@
   "conf_length" : 0,
   "table_id" : "363"
 }, {
-  "id" : 402,
-  "position" : 402,
+  "id" : 390,
+  "position" : 390,
   "description" : "Name Type Code",
   "usage" : "O",
   "truncation" : "NA",
@@ -4537,8 +4405,8 @@
   "conf_length" : 0,
   "table_id" : "200"
 }, {
-  "id" : 403,
-  "position" : 403,
+  "id" : 391,
+  "position" : 391,
   "description" : "Identifier Check Digit",
   "usage" : "O",
   "truncation" : "NA",
@@ -4548,8 +4416,8 @@
   "max_length" : 4,
   "conf_length" : 0
 }, {
-  "id" : 404,
-  "position" : 404,
+  "id" : 392,
+  "position" : 392,
   "description" : "Check Digit Scheme",
   "usage" : "O",
   "truncation" : "NA",
@@ -4560,8 +4428,8 @@
   "conf_length" : 0,
   "table_id" : "61"
 }, {
-  "id" : 405,
-  "position" : 405,
+  "id" : 393,
+  "position" : 393,
   "description" : "Identifier Type Code",
   "usage" : "O",
   "truncation" : "NA",
@@ -4572,8 +4440,8 @@
   "conf_length" : 0,
   "table_id" : "203"
 }, {
-  "id" : 406,
-  "position" : 406,
+  "id" : 394,
+  "position" : 394,
   "description" : "Assigning Facility",
   "usage" : "O",
   "truncation" : "NA",
@@ -4583,8 +4451,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 407,
-  "position" : 407,
+  "id" : 395,
+  "position" : 395,
   "description" : "Name Representation Code",
   "usage" : "O",
   "truncation" : "NA",
@@ -4595,8 +4463,8 @@
   "conf_length" : 0,
   "table_id" : "465"
 }, {
-  "id" : 408,
-  "position" : 408,
+  "id" : 396,
+  "position" : 396,
   "description" : "Name Context",
   "usage" : "O",
   "truncation" : "NA",
@@ -4607,8 +4475,8 @@
   "conf_length" : 0,
   "table_id" : "448"
 }, {
-  "id" : 409,
-  "position" : 409,
+  "id" : 397,
+  "position" : 397,
   "description" : "Name Validity Range",
   "usage" : "O",
   "truncation" : "NA",
@@ -4618,8 +4486,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 410,
-  "position" : 410,
+  "id" : 398,
+  "position" : 398,
   "description" : "Name Assembly Order",
   "usage" : "O",
   "truncation" : "NA",
@@ -4630,8 +4498,8 @@
   "conf_length" : 0,
   "table_id" : "444"
 }, {
-  "id" : 411,
-  "position" : 411,
+  "id" : 399,
+  "position" : 399,
   "description" : "Effective Date",
   "usage" : "O",
   "truncation" : "NA",
@@ -4641,8 +4509,8 @@
   "max_length" : 0,
   "conf_length" : 8
 }, {
-  "id" : 412,
-  "position" : 412,
+  "id" : 400,
+  "position" : 400,
   "description" : "Expiration Date",
   "usage" : "O",
   "truncation" : "NA",
@@ -4652,8 +4520,8 @@
   "max_length" : 0,
   "conf_length" : 8
 }, {
-  "id" : 413,
-  "position" : 413,
+  "id" : 401,
+  "position" : 401,
   "description" : "Professional Suffix",
   "usage" : "O",
   "truncation" : "NA",
@@ -4663,8 +4531,8 @@
   "max_length" : 0,
   "conf_length" : 199
 }, {
-  "id" : 414,
-  "position" : 414,
+  "id" : 402,
+  "position" : 402,
   "description" : "Assigning Jurisdiction",
   "usage" : "O",
   "truncation" : "NA",
@@ -4674,8 +4542,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 415,
-  "position" : 415,
+  "id" : 403,
+  "position" : 403,
   "description" : "Assigning Agency or Department",
   "usage" : "O",
   "truncation" : "NA",
@@ -4685,8 +4553,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 416,
-  "position" : 416,
+  "id" : 404,
+  "position" : 404,
   "description" : "Security Check",
   "usage" : "O",
   "truncation" : "NA",
@@ -4696,8 +4564,8 @@
   "max_length" : 0,
   "conf_length" : 4
 }, {
-  "id" : 417,
-  "position" : 417,
+  "id" : 405,
+  "position" : 405,
   "description" : "Security Check Scheme",
   "usage" : "O",
   "truncation" : "NA",
@@ -4708,8 +4576,8 @@
   "conf_length" : 0,
   "table_id" : "904"
 }, {
-  "id" : 418,
-  "position" : 418,
+  "id" : 406,
+  "position" : 406,
   "description" : "Organization Name",
   "usage" : "O",
   "truncation" : "NA",
@@ -4719,8 +4587,8 @@
   "max_length" : 0,
   "conf_length" : 50
 }, {
-  "id" : 419,
-  "position" : 419,
+  "id" : 407,
+  "position" : 407,
   "description" : "Organization Name Type Code",
   "usage" : "O",
   "truncation" : "NA",
@@ -4731,8 +4599,8 @@
   "conf_length" : 0,
   "table_id" : "204"
 }, {
-  "id" : 420,
-  "position" : 420,
+  "id" : 408,
+  "position" : 408,
   "description" : "ID Number",
   "usage" : "O",
   "truncation" : "NA",
@@ -4742,8 +4610,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 421,
-  "position" : 421,
+  "id" : 409,
+  "position" : 409,
   "description" : "Identifier Check Digit",
   "usage" : "O",
   "truncation" : "NA",
@@ -4753,8 +4621,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 422,
-  "position" : 422,
+  "id" : 410,
+  "position" : 410,
   "description" : "Check Digit Scheme",
   "usage" : "O",
   "truncation" : "NA",
@@ -4764,8 +4632,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 423,
-  "position" : 423,
+  "id" : 411,
+  "position" : 411,
   "description" : "Assigning Authority",
   "usage" : "O",
   "truncation" : "NA",
@@ -4776,8 +4644,8 @@
   "conf_length" : 0,
   "table_id" : "363"
 }, {
-  "id" : 424,
-  "position" : 424,
+  "id" : 412,
+  "position" : 412,
   "description" : "Identifier Type Code",
   "usage" : "O",
   "truncation" : "NA",
@@ -4788,8 +4656,8 @@
   "conf_length" : 0,
   "table_id" : "203"
 }, {
-  "id" : 425,
-  "position" : 425,
+  "id" : 413,
+  "position" : 413,
   "description" : "Assigning Facility",
   "usage" : "O",
   "truncation" : "NA",
@@ -4799,8 +4667,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 426,
-  "position" : 426,
+  "id" : 414,
+  "position" : 414,
   "description" : "Name Representation Code",
   "usage" : "O",
   "truncation" : "NA",
@@ -4811,8 +4679,8 @@
   "conf_length" : 0,
   "table_id" : "465"
 }, {
-  "id" : 427,
-  "position" : 427,
+  "id" : 415,
+  "position" : 415,
   "description" : "Organization Identifier",
   "usage" : "O",
   "truncation" : "NA",
@@ -4822,8 +4690,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 428,
-  "position" : 428,
+  "id" : 416,
+  "position" : 416,
   "description" : "Family Name",
   "usage" : "O",
   "truncation" : "NA",
@@ -4833,8 +4701,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 429,
-  "position" : 429,
+  "id" : 417,
+  "position" : 417,
   "description" : "Given Name",
   "usage" : "O",
   "truncation" : "NA",
@@ -4844,8 +4712,8 @@
   "max_length" : 0,
   "conf_length" : 30
 }, {
-  "id" : 430,
-  "position" : 430,
+  "id" : 418,
+  "position" : 418,
   "description" : "Second and Further Given Names or Initials Thereof",
   "usage" : "O",
   "truncation" : "NA",
@@ -4855,8 +4723,8 @@
   "max_length" : 0,
   "conf_length" : 30
 }, {
-  "id" : 431,
-  "position" : 431,
+  "id" : 419,
+  "position" : 419,
   "description" : "Suffix (e.g., JR or III)",
   "usage" : "O",
   "truncation" : "NA",
@@ -4866,8 +4734,8 @@
   "max_length" : 0,
   "conf_length" : 20
 }, {
-  "id" : 432,
-  "position" : 432,
+  "id" : 420,
+  "position" : 420,
   "description" : "Prefix (e.g., DR)",
   "usage" : "O",
   "truncation" : "NA",
@@ -4877,8 +4745,8 @@
   "max_length" : 0,
   "conf_length" : 20
 }, {
-  "id" : 433,
-  "position" : 433,
+  "id" : 421,
+  "position" : 421,
   "description" : "Degree (e.g., MD)",
   "usage" : "O",
   "truncation" : "NA",
@@ -4888,8 +4756,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 434,
-  "position" : 434,
+  "id" : 422,
+  "position" : 422,
   "description" : "Name Type Code",
   "usage" : "O",
   "truncation" : "NA",
@@ -4900,8 +4768,8 @@
   "conf_length" : 0,
   "table_id" : "200"
 }, {
-  "id" : 435,
-  "position" : 435,
+  "id" : 423,
+  "position" : 423,
   "description" : "Name Representation Code",
   "usage" : "O",
   "truncation" : "NA",
@@ -4912,8 +4780,8 @@
   "conf_length" : 0,
   "table_id" : "465"
 }, {
-  "id" : 436,
-  "position" : 436,
+  "id" : 424,
+  "position" : 424,
   "description" : "Name Context",
   "usage" : "O",
   "truncation" : "NA",
@@ -4924,8 +4792,8 @@
   "conf_length" : 0,
   "table_id" : "448"
 }, {
-  "id" : 437,
-  "position" : 437,
+  "id" : 425,
+  "position" : 425,
   "description" : "Name Validity Range",
   "usage" : "O",
   "truncation" : "NA",
@@ -4935,8 +4803,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 438,
-  "position" : 438,
+  "id" : 426,
+  "position" : 426,
   "description" : "Name Assembly Order",
   "usage" : "O",
   "truncation" : "NA",
@@ -4947,8 +4815,8 @@
   "conf_length" : 0,
   "table_id" : "444"
 }, {
-  "id" : 439,
-  "position" : 439,
+  "id" : 427,
+  "position" : 427,
   "description" : "Effective Date",
   "usage" : "O",
   "truncation" : "NA",
@@ -4958,8 +4826,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 440,
-  "position" : 440,
+  "id" : 428,
+  "position" : 428,
   "description" : "Expiration Date",
   "usage" : "O",
   "truncation" : "NA",
@@ -4969,8 +4837,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 441,
-  "position" : 441,
+  "id" : 429,
+  "position" : 429,
   "description" : "Professional Suffix",
   "usage" : "O",
   "truncation" : "NA",
@@ -4980,8 +4848,8 @@
   "max_length" : 0,
   "conf_length" : 199
 }, {
-  "id" : 442,
-  "position" : 442,
+  "id" : 430,
+  "position" : 430,
   "description" : "Called By",
   "usage" : "O",
   "truncation" : "NA",
@@ -4991,8 +4859,8 @@
   "max_length" : 0,
   "conf_length" : 30
 }, {
-  "id" : 443,
-  "position" : 443,
+  "id" : 431,
+  "position" : 431,
   "description" : "Telephone Number",
   "usage" : "O",
   "truncation" : "NA",
@@ -5002,8 +4870,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 444,
-  "position" : 444,
+  "id" : 432,
+  "position" : 432,
   "description" : "Telecommunication Use Code",
   "usage" : "O",
   "truncation" : "NA",
@@ -5014,8 +4882,8 @@
   "conf_length" : 0,
   "table_id" : "201"
 }, {
-  "id" : 445,
-  "position" : 445,
+  "id" : 433,
+  "position" : 433,
   "description" : "Telecommunication Equipment Type",
   "usage" : "O",
   "truncation" : "NA",
@@ -5026,8 +4894,8 @@
   "conf_length" : 0,
   "table_id" : "202"
 }, {
-  "id" : 446,
-  "position" : 446,
+  "id" : 434,
+  "position" : 434,
   "description" : "Communication Address",
   "usage" : "O",
   "truncation" : "NA",
@@ -5037,8 +4905,8 @@
   "max_length" : 0,
   "conf_length" : 199
 }, {
-  "id" : 447,
-  "position" : 447,
+  "id" : 435,
+  "position" : 435,
   "description" : "Country Code",
   "usage" : "O",
   "truncation" : "NA",
@@ -5048,8 +4916,8 @@
   "max_length" : 0,
   "conf_length" : 3
 }, {
-  "id" : 448,
-  "position" : 448,
+  "id" : 436,
+  "position" : 436,
   "description" : "Area/City Code",
   "usage" : "O",
   "truncation" : "NA",
@@ -5059,8 +4927,8 @@
   "max_length" : 0,
   "conf_length" : 3
 }, {
-  "id" : 449,
-  "position" : 449,
+  "id" : 437,
+  "position" : 437,
   "description" : "Local Number",
   "usage" : "O",
   "truncation" : "NA",
@@ -5070,8 +4938,8 @@
   "max_length" : 0,
   "conf_length" : 9
 }, {
-  "id" : 450,
-  "position" : 450,
+  "id" : 438,
+  "position" : 438,
   "description" : "Extension",
   "usage" : "O",
   "truncation" : "NA",
@@ -5081,8 +4949,8 @@
   "max_length" : 0,
   "conf_length" : 5
 }, {
-  "id" : 451,
-  "position" : 451,
+  "id" : 439,
+  "position" : 439,
   "description" : "Any Text",
   "usage" : "O",
   "truncation" : "NA",
@@ -5092,8 +4960,8 @@
   "max_length" : 0,
   "conf_length" : 199
 }, {
-  "id" : 452,
-  "position" : 452,
+  "id" : 440,
+  "position" : 440,
   "description" : "Extension Prefix",
   "usage" : "O",
   "truncation" : "NA",
@@ -5103,8 +4971,8 @@
   "max_length" : 0,
   "conf_length" : 4
 }, {
-  "id" : 453,
-  "position" : 453,
+  "id" : 441,
+  "position" : 441,
   "description" : "Speed Dial Code",
   "usage" : "O",
   "truncation" : "NA",
@@ -5114,8 +4982,8 @@
   "max_length" : 0,
   "conf_length" : 6
 }, {
-  "id" : 454,
-  "position" : 454,
+  "id" : 442,
+  "position" : 442,
   "description" : "Unformatted Telephone number",
   "usage" : "O",
   "truncation" : "NA",
@@ -5125,8 +4993,8 @@
   "max_length" : 0,
   "conf_length" : 199
 }, {
-  "id" : 455,
-  "position" : 455,
+  "id" : 443,
+  "position" : 443,
   "description" : "Effective Start Date",
   "usage" : "O",
   "truncation" : "NA",
@@ -5136,8 +5004,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 456,
-  "position" : 456,
+  "id" : 444,
+  "position" : 444,
   "description" : "Expiration Date",
   "usage" : "O",
   "truncation" : "NA",
@@ -5147,8 +5015,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 457,
-  "position" : 457,
+  "id" : 445,
+  "position" : 445,
   "description" : "Expiration Reason",
   "usage" : "O",
   "truncation" : "NA",
@@ -5159,8 +5027,8 @@
   "conf_length" : 0,
   "table_id" : "868"
 }, {
-  "id" : 458,
-  "position" : 458,
+  "id" : 446,
+  "position" : 446,
   "description" : "Protection Code",
   "usage" : "O",
   "truncation" : "NA",
@@ -5171,8 +5039,8 @@
   "conf_length" : 0,
   "table_id" : "618"
 }, {
-  "id" : 459,
-  "position" : 459,
+  "id" : 447,
+  "position" : 447,
   "description" : "Shared Telecommunication Identifier",
   "usage" : "O",
   "truncation" : "NA",
@@ -5182,8 +5050,8 @@
   "max_length" : 0,
   "conf_length" : 0
 }, {
-  "id" : 460,
-  "position" : 460,
+  "id" : 448,
+  "position" : 448,
   "description" : "Preference Order",
   "usage" : "O",
   "truncation" : "NA",
