@@ -7,13 +7,19 @@ import gov.nist.healthcare.hl7tools.domain.DatatypeLibrary;
 import gov.nist.healthcare.hl7tools.domain.EBoolean;
 import gov.nist.healthcare.hl7tools.domain.Usage;
 import gov.nist.healthcare.hl7tools.service.util.mock.util.Convertor;
+import net.sourceforge.plantuml.Log;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 public class DatatypeLibraryBuilder {
 
+	static Logger log = LoggerFactory.getLogger(DatatypeLibraryBuilder.class);
+	
 	public static DatatypeLibrary build(
 			CodeTableLibrary codeTableLibrary,
 			Map<String, gov.nist.healthcare.hl7tools.service.util.mock.hl7.domain.Datatype> map)
@@ -31,6 +37,7 @@ public class DatatypeLibraryBuilder {
 		Datatype dt = new Datatype();
 		dt.setKey(dtt.getId());
 		dt.setName(dtt.getId());
+		
 		dt.setDescription(dtt.getDescription());
 		dt.setSection(dtt.getSection());
 		return dt;
@@ -58,6 +65,9 @@ public class DatatypeLibraryBuilder {
 					c.setTruncationAllowed(EBoolean.valueOf(cc.getTruncation()));
 					c.setUsage(Usage.valueOf(cc.getUsage().name()));
 					componentList.add(c);
+					if(c.getDatatype() == null) {
+						log.info(c.toString());
+					}
 				}
 				dt.setComponents(componentList);
 			}

@@ -578,7 +578,6 @@ public class HL72JSONConverter implements Runnable {
 		bld.append(" AND d.`data_structure` = dc.`data_structure`");
 		bld.append(" AND dc.comp_no = c.comp_no");
 		bld.append(" AND d.`elementary` = 'FALSE'");
-		bld.append(" ORDER BY d.data_structure");
 		bld.append(";");
 		String rval = bld.toString();
 		return rval;
