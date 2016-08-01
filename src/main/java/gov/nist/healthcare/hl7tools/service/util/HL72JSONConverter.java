@@ -104,9 +104,11 @@ public class HL72JSONConverter implements Runnable {
 
 		log.info("Doing Message...");
 		Helper<Message> hlpMessage = new Helper<Message>();
-		List<Message> messages = (hlpMessage.fetch(SQL4_MESSAGE(), RM4_MESSAGE));
-		log.info(" writing messages=" + messages.size());
-		hlpMessage.write(messages, "messages");
+		List<Message> messages1 = (hlpMessage.fetch(SQL4_MESSAGE1(), RM4_MESSAGE));
+		List<Message> messages2 = (hlpMessage.fetch(SQL4_MESSAGE2(), RM4_MESSAGE));
+		messages1.addAll(messages2);
+		log.info(" writing messages=" + messages1.size());
+		hlpMessage.write(messages1, "messages");
 
 		log.info("Doing Group...");
 		Helper<Group> hlpGroup = new Helper<Group>();
@@ -407,33 +409,41 @@ public class HL72JSONConverter implements Runnable {
 		}
 	};
 
-	String SQL4_MESSAGE() {
+	String SQL4_MESSAGE1() {
+		StringBuilder bld = new StringBuilder();
+		bld.append("SELECT m.`message_type`, '' as event_code, i.`message_structure`, m.`section`");
+		bld.append(" FROM hl7versions v ");
+		bld.append(" INNER JOIN hl7messagetypes m ON v.`version_id` = m.`version_id`");
+		bld.append(" INNER JOIN hl7msgstructids i ON v.`version_id` = i.`version_id`");
+		bld.append(" INNER JOIN hl7events e ON v.`version_id` = e.`version_id`");
+		bld.append(" WHERE v.`hl7_version` = ");
+		bld.append("'");
+		bld.append(hl7Version);
+		bld.append("'");
+		bld.append(" AND m.`message_type` = i.`message_structure`");
+		bld.append(" LIMIT 1");
+		bld.append(";");
+
+
+		return bld.toString();
+	}
+
+	String SQL4_MESSAGE2() {
 		StringBuilder bld = new StringBuilder();
 		bld.append("SELECT m.`message_type`, e.`event_code`, i.`message_structure`, m.`section`");
 		bld.append(" FROM hl7versions v ");
 		bld.append(" INNER JOIN hl7messagetypes m ON v.`version_id` = m.`version_id`");
 		bld.append(" INNER JOIN hl7msgstructids i ON v.`version_id` = i.`version_id`");
 		bld.append(" INNER JOIN hl7events e ON v.`version_id` = e.`version_id`");
-		bld.append(" WHERE v.`hl7_version` = '2.8.2'");
+		bld.append(" WHERE v.`hl7_version` = ");
+		bld.append("'");
+		bld.append(hl7Version);
+		bld.append("'");
 		bld.append(" AND concat(m.`message_type`, '_', e.`event_code`) = i.`message_structure`");
 		bld.append(" ORDER BY m.message_type");
 		bld.append(";");
-
-		// bld.append("SELECT m.`message_structure`, m.`section`,
-		// e.`event_code`, e.`message_structure_snd`");
-		// bld.append(" FROM hl7versions v INNER JOIN hl7msgstructids m ON
-		// v.version_id = m.version_id");
-		// bld.append(" INNER JOIN hl7eventmessagetypes e ON v.`version_id` =
-		// e.`version_id`");
-		// bld.append(" WHERE v.`hl7_version` = ");
-		// bld.append("'");
-		// bld.append(hl7Version);
-		// bld.append("'");
-		// bld.append(" AND m.`message_structure` = e.`message_structure_snd`");
-
 		return bld.toString();
 	}
-
 	final RowMapper<Message> RM4_MESSAGE = new RowMapper<Message>() {
 
 		public Message mapRow(ResultSet rs, int rowNum) throws SQLException {

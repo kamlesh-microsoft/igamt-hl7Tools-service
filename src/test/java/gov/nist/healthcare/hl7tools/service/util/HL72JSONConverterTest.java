@@ -34,18 +34,20 @@ public class HL72JSONConverterTest {
 		sut = new HL72JSONConverter(hl7Version);
 	}
 
-//	@Test
+	// @Test
 	public void testSQL4_MESSAGETYPE() {
 		fail("Not yet implemented");
 	}
 
 	@Test
 	public void testSQL4_MESSAGE() {
-		 String sql = sut.SQL4_MESSAGE();
-		 Helper<Message> hlpMessage = sut.new Helper<Message>();
-		 List<Message> messages = (hlpMessage.fetch(sql,
-		 sut.RM4_MESSAGE));
-		 hlpMessage.write(messages, "messages");
+		String sql1 = sut.SQL4_MESSAGE1();
+		Helper<Message> hlpMessage = sut.new Helper<Message>();
+		List<Message> messages1 = (hlpMessage.fetch(sql1, sut.RM4_MESSAGE));
+		String sql2 = sut.SQL4_MESSAGE2();
+		List<Message> messages2 = (hlpMessage.fetch(sql2, sut.RM4_MESSAGE));
+		messages1.addAll(messages2);
+		hlpMessage.write(messages1, "messages");
 	}
 
 	@Test
@@ -120,7 +122,7 @@ public class HL72JSONConverterTest {
 		assertNotNull(rs);
 		assertTrue(rs.size() > 0);
 	}
-	
+
 	@Test
 	public void testSQL4_ELEMENT() {
 		String sql = sut.SQL4_ELEMENT();
@@ -129,7 +131,7 @@ public class HL72JSONConverterTest {
 		assertNotNull(rs);
 		assertTrue(rs.size() > 0);
 	}
-	
+
 	@Test
 	public void testSQL4_EVENT() {
 		String sql = sut.SQL4_EVENT();
@@ -147,8 +149,8 @@ public class HL72JSONConverterTest {
 		assertNotNull(rs);
 		assertTrue(rs.size() > 0);
 	}
-	
-//	@Test
+
+	// @Test
 	public void testGroupStacker() {
 		GroupStacker gs = sut.new GroupStacker();
 		Group grp1 = new Group();
@@ -162,18 +164,18 @@ public class HL72JSONConverterTest {
 		grp3.setName("Name 3");
 		Group grp4 = new Group();
 		grp4.setId(4);
-//		assertFalse(gs.waw(grp4));
-//		assertFalse(gs.waw(grp1));
-//		assertEquals(grp1.getId().intValue(), gs.getCurrGroupId());
-//		assertFalse(gs.waw(grp2));
-//		assertEquals(grp2.getId().intValue(), gs.getCurrGroupId());
-//		assertFalse(gs.waw(grp3));
-//		assertEquals(grp3.getId().intValue(), gs.getCurrGroupId());
-//		assertTrue(gs.waw(grp3));
-//		assertEquals(grp2.getId().intValue(), gs.getCurrGroupId());
-//		assertTrue(gs.waw(grp2));
-//		assertEquals(grp1.getId().intValue(), gs.getCurrGroupId());
-//		assertTrue(gs.waw(grp1));
-//		assertEquals(-1, gs.getCurrGroupId());
+		// assertFalse(gs.waw(grp4));
+		// assertFalse(gs.waw(grp1));
+		// assertEquals(grp1.getId().intValue(), gs.getCurrGroupId());
+		// assertFalse(gs.waw(grp2));
+		// assertEquals(grp2.getId().intValue(), gs.getCurrGroupId());
+		// assertFalse(gs.waw(grp3));
+		// assertEquals(grp3.getId().intValue(), gs.getCurrGroupId());
+		// assertTrue(gs.waw(grp3));
+		// assertEquals(grp2.getId().intValue(), gs.getCurrGroupId());
+		// assertTrue(gs.waw(grp2));
+		// assertEquals(grp1.getId().intValue(), gs.getCurrGroupId());
+		// assertTrue(gs.waw(grp1));
+		// assertEquals(-1, gs.getCurrGroupId());
 	}
 }

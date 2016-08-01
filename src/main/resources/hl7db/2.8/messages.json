@@ -1,4 +1,9 @@
 [ {
+  "id" : "ACK",
+  "section" : "10.4",
+  "msg_type_id" : "ACK",
+  "event_id" : ""
+}, {
   "id" : "ADT_A01",
   "section" : "3.3.1",
   "msg_type_id" : "ADT",
@@ -429,11 +434,6 @@
   "msg_type_id" : "MFN",
   "event_id" : "M17"
 }, {
-  "id" : "MFN_M18",
-  "section" : "8.10.1",
-  "msg_type_id" : "MFN",
-  "event_id" : "M18"
-}, {
   "id" : "MFN_Znn",
   "section" : "8.10.1",
   "msg_type_id" : "MFN",
@@ -550,44 +550,24 @@
   "event_id" : "O24"
 }, {
   "id" : "ORL_O22",
-  "section" : "4.4.11.1",
+  "section" : "4.4.11",
   "msg_type_id" : "ORL",
   "event_id" : "O22"
 }, {
   "id" : "ORL_O34",
-  "section" : "4.4.11.1",
+  "section" : "4.4.11",
   "msg_type_id" : "ORL",
   "event_id" : "O34"
 }, {
   "id" : "ORL_O36",
-  "section" : "4.4.11.1",
+  "section" : "4.4.11",
   "msg_type_id" : "ORL",
   "event_id" : "O36"
 }, {
   "id" : "ORL_O40",
-  "section" : "4.4.11.1",
+  "section" : "4.4.11",
   "msg_type_id" : "ORL",
   "event_id" : "O40"
-}, {
-  "id" : "ORL_O41",
-  "section" : "4.4.11.1",
-  "msg_type_id" : "ORL",
-  "event_id" : "O41"
-}, {
-  "id" : "ORL_O42",
-  "section" : "4.4.11.1",
-  "msg_type_id" : "ORL",
-  "event_id" : "O42"
-}, {
-  "id" : "ORL_O43",
-  "section" : "4.4.11.1",
-  "msg_type_id" : "ORL",
-  "event_id" : "O43"
-}, {
-  "id" : "ORL_O44",
-  "section" : "4.4.11.1",
-  "msg_type_id" : "ORL",
-  "event_id" : "O44"
 }, {
   "id" : "ORN_O08",
   "section" : "4.10.4",
