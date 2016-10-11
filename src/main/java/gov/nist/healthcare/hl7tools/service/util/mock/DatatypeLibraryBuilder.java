@@ -1,5 +1,12 @@
 package gov.nist.healthcare.hl7tools.service.util.mock;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import gov.nist.healthcare.hl7tools.domain.CodeTableLibrary;
 import gov.nist.healthcare.hl7tools.domain.Component;
 import gov.nist.healthcare.hl7tools.domain.Datatype;
@@ -7,14 +14,6 @@ import gov.nist.healthcare.hl7tools.domain.DatatypeLibrary;
 import gov.nist.healthcare.hl7tools.domain.EBoolean;
 import gov.nist.healthcare.hl7tools.domain.Usage;
 import gov.nist.healthcare.hl7tools.service.util.mock.util.Convertor;
-import net.sourceforge.plantuml.Log;
-
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 public class DatatypeLibraryBuilder {
 
@@ -55,6 +54,11 @@ public class DatatypeLibraryBuilder {
 				for (gov.nist.healthcare.hl7tools.service.util.mock.hl7.domain.Component cc : dtt
 						.getComponents()) {
 					Component c = new Component();
+//					log.info("**** getTableId=" + cc.getTableId() + " getParentDatatypeId=" +  cc.getParentDatatypeId() + " getDatatypeId=" + cc.getDatatypeId());
+//					String id = cc.getTableId();
+//					String id1 = id == null ? id : String.format("%04d", new Integer(id));
+//					log.info("**** codeTableLibrary=" + codeTableLibrary.get(id1));
+//					c.setCodeTable(codeTableLibrary.get(id1));
 					c.setCodeTable(codeTableLibrary.get(cc.getTableId()));
 					c.setConfLength(cc.getConfLength());
 					c.setDatatype(library.get(cc.getDatatypeId()));

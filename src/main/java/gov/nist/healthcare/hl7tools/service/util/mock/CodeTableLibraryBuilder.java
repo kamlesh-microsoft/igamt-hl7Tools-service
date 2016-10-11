@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import gov.nist.healthcare.hl7tools.domain.Code;
 import gov.nist.healthcare.hl7tools.domain.CodeTable;
 import gov.nist.healthcare.hl7tools.domain.CodeTableLibrary;
@@ -12,6 +15,8 @@ import gov.nist.healthcare.hl7tools.domain.Usage;
 import gov.nist.healthcare.hl7tools.service.util.mock.hl7.domain.Table;
 
 public class CodeTableLibraryBuilder {
+	
+	static Logger log = LoggerFactory.getLogger(CodeTableLibraryBuilder.class);
 	
 	public static CodeTableLibrary build(Map<String, gov.nist.healthcare.hl7tools.service.util.mock.hl7.domain.Table> map) throws Exception {
 		CodeTableLibrary library = new CodeTableLibrary();

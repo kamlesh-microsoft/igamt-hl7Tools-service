@@ -1,5 +1,6 @@
 package gov.nist.healthcare.hl7tools.service.util;
 
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
@@ -15,7 +16,6 @@ import gov.nist.healthcare.hl7tools.service.util.mock.hl7.domain.Code;
 import gov.nist.healthcare.hl7tools.service.util.mock.hl7.domain.Component;
 import gov.nist.healthcare.hl7tools.service.util.mock.hl7.domain.DataElement;
 import gov.nist.healthcare.hl7tools.service.util.mock.hl7.domain.Datatype;
-import gov.nist.healthcare.hl7tools.service.util.mock.hl7.domain.Element;
 import gov.nist.healthcare.hl7tools.service.util.mock.hl7.domain.Event;
 import gov.nist.healthcare.hl7tools.service.util.mock.hl7.domain.Field;
 import gov.nist.healthcare.hl7tools.service.util.mock.hl7.domain.Group;
@@ -34,11 +34,62 @@ public class HL72JSONConverterTest {
 		sut = new HL72JSONConverter(hl7Version);
 	}
 
-	// @Test
-	public void testSQL4_MESSAGETYPE() {
-		fail("Not yet implemented");
+	@Test
+	public void testStrips() {
+		String s = sut.stripParens("R");
+		assertEquals("R", s);
+		s = sut.stripParens("(B) R");
+		assertEquals("R", s);
+		s = sut.stripParens("(B)R");
+		assertEquals("R", s);
+		s = sut.stripParens("(B)R ");
+		assertEquals("R", s);
+		s = sut.stripParens("(B) R ");
+		assertEquals("R", s);
 	}
+	
+	@Test
+	public void testCalcCardinality4Y() {
+		Object[] objs = sut.calcCardinality("O", "Y", 0);
+		assertEquals(0, ((Integer)objs[0]).intValue());
+		assertEquals("*", ((String)objs[1]));
+		
+		objs = sut.calcCardinality("O", "Y", 2);
+		assertEquals(0, ((Integer)objs[0]).intValue());
+		assertEquals("2", ((String)objs[1]));
+	}
+	
+	@Test
+	public void testCalcCardinalityNY() {
+		Object[] objs = sut.calcCardinality("O", "", 1);
+		assertEquals(0, ((Integer)objs[0]).intValue());
+		assertEquals("*", ((String)objs[1]));
+		
+		objs = sut.calcCardinality("O", null, 1);
+		assertEquals(0, ((Integer)objs[0]).intValue());
+		assertEquals("*", ((String)objs[1]));
 
+		objs = sut.calcCardinality("B", "", 2);
+		assertEquals(0, ((Integer)objs[0]).intValue());
+		assertEquals("0", ((String)objs[1]));
+		
+		objs = sut.calcCardinality("W", "", 2);
+		assertEquals(0, ((Integer)objs[0]).intValue());
+		assertEquals("0", ((String)objs[1]));
+		
+		objs = sut.calcCardinality("X", "", 2);
+		assertEquals(0, ((Integer)objs[0]).intValue());
+		assertEquals("0", ((String)objs[1]));
+		
+		objs = sut.calcCardinality("R", "", 2);
+		assertEquals(1, ((Integer)objs[0]).intValue());
+		assertEquals("1", ((String)objs[1]));
+		
+		objs = sut.calcCardinality("C", "", 2);
+		assertEquals(1, ((Integer)objs[0]).intValue());
+		assertEquals("1", ((String)objs[1]));
+	}
+	
 	@Test
 	public void testSQL4_MESSAGE() {
 		String sql1 = sut.SQL4_MESSAGE1();

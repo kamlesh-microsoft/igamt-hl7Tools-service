@@ -63,7 +63,7 @@ public class HL72JSONConverter implements Runnable {
 
 	Map<String, Group> grpByMsg = new HashMap<String, Group>();
 	Map<String, Group> grpByName = new HashMap<String, Group>();
-	List<String> segIds =  new ArrayList<String>();
+	List<String> segIds = new ArrayList<String>();
 
 	public HL72JSONConverter(String hl7Version) {
 		try {
@@ -188,9 +188,7 @@ public class HL72JSONConverter implements Runnable {
 		List<Element> rval = new ArrayList<Element>();
 		GroupStacker stk = new GroupStacker();
 		int position = 1;
-		Integer groupId = null;
-		int parentId = 1;
-		int state = 0;
+		int state = 1;
 		int nullconts = 0;
 		int openconts = 0;
 		int closeconts = 0;
@@ -205,50 +203,47 @@ public class HL72JSONConverter implements Runnable {
 				closeconts++;
 				continue;
 			}
-			if (!segIds.contains(ie.getSegmentId())) {
-				continue;
-			}
 			String key = assembleGroupKey(ie);
 			Group group = grpByName.get(key);
-			if (group != null) {
-				int incdec = stk.waw(group, ie.getSegmentId());
-				state += incdec;
-				if (incdec < 0) {
-					incdecconts++;
-					continue;
-				}
-				if (state > 0) {
-					if (group.isRoot()) {
-						parentId = stk.getCurrGroupId();
-						ie.setParentId(parentId);
-					} else {
-						ie.setParentId(parentId);
-						groupId = parentId = stk.getCurrGroupId();
-						ie.setGroupId(groupId);
-					}
-				} else {
-					if (group.isRoot()) {
-						if (parentId != group.getId()) {
-							position = 1;
-							parentId = group.getId();
-						}
-					} else {
-						position = 1;
-						int idx = ies.indexOf(ie);
-						InterimElement next = ies.get(idx + 1);
-						String nextKey = assembleGroupKey(next);
-						Group nextGroup = grpByName.get(nextKey);
-						if (nextGroup != null) {
-							parentId = nextGroup.getId();
-						}
-					}
-					ie.setParentId(parentId);
-				}
-			} else {
+			if (group == null) {
 				log.info("null4=" + key);
 				for (String key1 : grpByName.keySet()) {
 					log.info("key1=" + key1);
 				}
+				continue;
+			}
+
+			int incdec = stk.waw(group, ie.getSegmentId(), ie.getSeqNo());
+			state += incdec;
+			if (incdec < 0) {
+				incdecconts++;
+				continue;
+			}
+			if (state > 1) {
+				if (group.isRoot()) {
+					Integer parentId = stk.getCurrGroupId();
+					ie.setParentId(parentId);
+				} else {
+					Integer parentId = stk.getPrevGroupId();
+					ie.setParentId(parentId);
+					Integer groupId = stk.getCurrGroupId();
+					ie.setGroupId(groupId);
+				}
+			} else {
+				if (group.isRoot()) {
+					Integer parentId = stk.getCurrGroupId();
+					ie.setParentId(parentId);
+				} else {
+					int idx = ies.indexOf(ie);
+					InterimElement next = ies.get(idx + 1);
+					String nextKey = assembleGroupKey(next);
+					Group nextGroup = grpByName.get(nextKey);
+					if (nextGroup != null) {
+						Integer parentId = nextGroup.getId();
+						ie.setParentId(parentId);
+					}
+				}
+				position = 1;
 			}
 			ie.setPosition(position++);
 			if (ie.getParentId() == null) {
@@ -259,17 +254,7 @@ public class HL72JSONConverter implements Runnable {
 				el.setSegmentId(null);
 			}
 			rval.add(el);
-			// log.info(String.format("%" + state + 1 * 2 + "d", state) + " p="
-			// + group.getName() + " el=" + ie.getSegmentId() + " g=" +
-			// ie.groupName + " " + stk.stack);
 			log.info(String.format("%" + state + 1 * 2 + "d", state) + ie.toString());
-			// log.trace("1 ie key=" + key);
-			// log.trace("1 ie id=" + ie.getId());
-			// log.trace("1 ie parent=" + ie.getParentId());
-			// log.trace("1 ie segment=" + ie.getSegmentId());
-			// log.trace("1 ie group=" + ie.getGroupId());
-			// log.trace("1 ie position=" + ie.getPosition());
-			// log.debug(((Element) ie).toString());
 		}
 		log.info("ies=" + ies.size());
 		log.info("nullconts=" + nullconts);
@@ -277,45 +262,46 @@ public class HL72JSONConverter implements Runnable {
 		log.info("closeconts=" + closeconts);
 		log.info("incdecconts=" + incdecconts);
 		return rval;
+
 	}
 
 	boolean isEmbraced(String segId) {
-		return segId.contains("{") || segId.contains("[") || segId.contains("<") || segId.contains("}") || segId.contains("]") || segId.contains(">");
+		return segId.contains("{") || segId.contains("[") || segId.contains("<") || segId.contains("}")
+				|| segId.contains("]") || segId.contains(">");
 	}
-	
+
 	List<Group> assembleGroups(List<Group> groups) {
-		String currentGroup = null;
+		GroupStacker stk = new GroupStacker();
 		List<Group> rval = new ArrayList<Group>();
+		boolean b = false;
 		for (Group group : groups) {
-			if (!group.getName().equals(currentGroup)) {
-				if (group.isRoot()) {
-					currentGroup = null;
-				} else {
-					currentGroup = group.getName();
-				}
+			String key = assembleGroupKey(group);
+			if (stk.waw1(group) >= 0) {
 				rval.add(group);
-				String key = group.getName();
-				grpByName.put(key, group);
 			}
+			grpByName.put(key, group);
 		}
 		return rval;
 	}
 
+	String assembleGroupKey(Group group) {
+		return group.getName() + (group.getName().contains(ROOT_GROUP_NAME) ? "" : "." + group.getSeq());
+	}
+
 	String assembleGroupKey(InterimElement ie) {
 		String groupName = ie.getGroupName();
-		if (groupName == null || groupName.trim().length() == 0) {
+		String key = ie.messageStucture;
+		if ((groupName == null || groupName.trim().length() == 0)) {
 			if (isEmbraced(ie.getSegmentId())) {
 				groupName = MISSING_GROUP_NAME;
-				// We need to get the missing group into the map set.
-				Group group = new Group();
-				group.setId(++groupIncr);
-				group.setName(groupName);
-				grpByName.put(ie.messageStucture + "." + groupName, group);
 			} else {
 				groupName = ROOT_GROUP_NAME;
 			}
+			key = ie.messageStucture + "." + groupName;
+		} else {
+			key = ie.messageStucture + "." + groupName + "." + ie.getSeqNo();
 		}
-		return ie.messageStucture + "." + groupName;
+		return key;
 	}
 
 	public static void main(String[] args) {
@@ -348,24 +334,34 @@ public class HL72JSONConverter implements Runnable {
 
 		Stack<Group> stack = new Stack<Group>();
 
-		int waw(Group group, String segId) {
+		int waw(Group group, String segId, Integer seq) {
+			if (seq == 1) {
+				stack.clear();
+				stack.push(group);
+			}
 			if (group.isRoot()) {
 				return 0;
 			}
-			if (!stack.empty() && segId.contains("}") || segId.contains("]") || segId.contains(">")) {
+			if (!stack.empty() && (segId.contains("}") || segId.contains("]") || segId.contains(">"))) {
 				stack.pop();
 				return -1;
 			} else {
 				stack.push(group);
 				return 1;
 			}
-			// if (!stack.empty() && stack.peek().equals(group)) {
-			// stack.pop();
-			// return -1;
-			// } else {
-			// stack.push(group);
-			// return 1;
-			// }
+		}
+
+		int waw1(Group group) {
+			if (group.isRoot()) {
+				return 0;
+			}
+			if (!stack.empty() && stack.peek().getName().equals(group.getName())) {
+				stack.pop();
+				return -1;
+			} else {
+				stack.push(group);
+				return 1;
+			}
 		}
 
 		Integer getCurrGroupId() {
@@ -373,6 +369,18 @@ public class HL72JSONConverter implements Runnable {
 				return 1;
 			}
 			return stack.peek().getId();
+		}
+
+		Integer getPrevGroupId() {
+			if (stack.empty()) {
+				return 1;
+			}
+			Group group = stack.peek();
+			if (stack.size() == 1) {
+				return group.getId();
+			}
+			int idx = stack.indexOf(group);
+			return stack.get(idx - 1).getId();
 		}
 
 		Group getCurrGroup() {
@@ -384,15 +392,19 @@ public class HL72JSONConverter implements Runnable {
 
 	}
 
-	String SQL4_MESSAGETYPE() {
+	public String SQL4_MESSAGETYPE() {
 		StringBuilder bld = new StringBuilder();
 		bld.append("SELECT m.message_type, m.description, m.section");
+		bld.append(System.lineSeparator());
 		bld.append(" FROM hl7messagetypes m, hl7versions v");
+		bld.append(System.lineSeparator());
 		bld.append(" WHERE m.version_id = v.version_id");
+		bld.append(System.lineSeparator());
 		bld.append(" AND v.hl7_version = ");
 		bld.append("'");
 		bld.append(hl7Version);
 		bld.append("'");
+		bld.append(System.lineSeparator());
 		bld.append(";");
 		return bld.toString();
 	}
@@ -409,41 +421,57 @@ public class HL72JSONConverter implements Runnable {
 		}
 	};
 
-	String SQL4_MESSAGE1() {
+	public String SQL4_MESSAGE1() {
 		StringBuilder bld = new StringBuilder();
 		bld.append("SELECT m.`message_type`, '' as event_code, i.`message_structure`, m.`section`");
+		bld.append(System.lineSeparator());
 		bld.append(" FROM hl7versions v ");
+		bld.append(System.lineSeparator());
 		bld.append(" INNER JOIN hl7messagetypes m ON v.`version_id` = m.`version_id`");
+		bld.append(System.lineSeparator());
 		bld.append(" INNER JOIN hl7msgstructids i ON v.`version_id` = i.`version_id`");
+		bld.append(System.lineSeparator());
 		bld.append(" INNER JOIN hl7events e ON v.`version_id` = e.`version_id`");
+		bld.append(System.lineSeparator());
 		bld.append(" WHERE v.`hl7_version` = ");
 		bld.append("'");
 		bld.append(hl7Version);
 		bld.append("'");
+		bld.append(System.lineSeparator());
 		bld.append(" AND m.`message_type` = i.`message_structure`");
+		bld.append(System.lineSeparator());
 		bld.append(" LIMIT 1");
+		bld.append(System.lineSeparator());
 		bld.append(";");
-
 
 		return bld.toString();
 	}
 
-	String SQL4_MESSAGE2() {
+	public String SQL4_MESSAGE2() {
 		StringBuilder bld = new StringBuilder();
 		bld.append("SELECT m.`message_type`, e.`event_code`, i.`message_structure`, m.`section`");
+		bld.append(System.lineSeparator());
 		bld.append(" FROM hl7versions v ");
+		bld.append(System.lineSeparator());
 		bld.append(" INNER JOIN hl7messagetypes m ON v.`version_id` = m.`version_id`");
+		bld.append(System.lineSeparator());
 		bld.append(" INNER JOIN hl7msgstructids i ON v.`version_id` = i.`version_id`");
+		bld.append(System.lineSeparator());
 		bld.append(" INNER JOIN hl7events e ON v.`version_id` = e.`version_id`");
+		bld.append(System.lineSeparator());
 		bld.append(" WHERE v.`hl7_version` = ");
 		bld.append("'");
 		bld.append(hl7Version);
 		bld.append("'");
+		bld.append(System.lineSeparator());
 		bld.append(" AND concat(m.`message_type`, '_', e.`event_code`) = i.`message_structure`");
+		bld.append(System.lineSeparator());
 		bld.append(" ORDER BY m.message_type");
+		bld.append(System.lineSeparator());
 		bld.append(";");
 		return bld.toString();
 	}
+
 	final RowMapper<Message> RM4_MESSAGE = new RowMapper<Message>() {
 
 		public Message mapRow(ResultSet rs, int rowNum) throws SQLException {
@@ -456,17 +484,23 @@ public class HL72JSONConverter implements Runnable {
 		}
 	};
 
-	String SQL4_GROUP() {
+	public String SQL4_GROUP() {
 		StringBuilder bld = new StringBuilder();
 		bld.append("SELECT m.`message_structure`, m.`seq_no`, m.`groupname`, m.`seg_code`");
-		bld.append(" FROM hl7versions v INNER JOIN hl7msgstructidsegments m ON v.version_id = m.version_id");
+		bld.append(System.lineSeparator());
+		bld.append(" FROM hl7versions v");
+		bld.append(System.lineSeparator());
+		bld.append(" INNER JOIN hl7msgstructidsegments m ON v.version_id = m.version_id");
+		bld.append(System.lineSeparator());
 		bld.append(" WHERE v.`hl7_version` = ");
 		bld.append("'");
 		bld.append(hl7Version);
 		bld.append("'");
-		bld.append(" AND m.`version_id` = v.`version_id`");
+		bld.append(System.lineSeparator());
 		bld.append(" AND (m.`seg_code` = 'MSH' || length(m.`groupname`) > 0)");
+		bld.append(System.lineSeparator());
 		bld.append(" ORDER BY m.`message_structure`, m.`seq_no`");
+		bld.append(System.lineSeparator());
 		bld.append(";");
 		String rval = bld.toString();
 		return rval;
@@ -481,22 +515,30 @@ public class HL72JSONConverter implements Runnable {
 			String segId = rs.getString("seg_code");
 			grp.setChoice("<".equals(segId) ? true : false);
 			grp.setMessageId(rs.getString("message_structure"));
+			grp.setSeq(rs.getInt("seq_no"));
 			grp.setName((grp.isRoot() ? (rs.getString("message_structure") + ".ROOT")
 					: rs.getString("message_structure") + "." + rs.getString("groupname")));
 			return grp;
 		}
 	};
 
-	String SQL4_SEGMENT() {
+	public String SQL4_SEGMENT() {
 		StringBuilder bld = new StringBuilder();
 		bld.append("SELECT s.seg_code, s.description, s.section");
-		bld.append(" FROM hl7versions v INNER JOIN hl7segments s ON v.version_id = s.version_id");
+		bld.append(System.lineSeparator());
+		bld.append(" FROM hl7versions v");
+		bld.append(System.lineSeparator());
+		bld.append(" INNER JOIN hl7segments s ON v.version_id = s.version_id");
+		bld.append(System.lineSeparator());
 		bld.append(" WHERE v.`hl7_version` = ");
 		bld.append("'");
 		bld.append(hl7Version);
 		bld.append("'");
+		bld.append(System.lineSeparator());
 		bld.append(" AND s.visible = 'TRUE'");
+		bld.append(System.lineSeparator());
 		bld.append(" ORDER BY s.seg_code");
+		bld.append(System.lineSeparator());
 		bld.append(";");
 		String rval = bld.toString();
 		return rval;
@@ -513,15 +555,20 @@ public class HL72JSONConverter implements Runnable {
 		}
 	};
 
-	String SQL4_FIELD() {
+	public String SQL4_FIELD() {
 		StringBuilder bld = new StringBuilder();
-		bld.append("SELECT s.`seg_code`, s.`data_item`, s.`req_opt`, s.`seq_no`");
-		bld.append(" FROM hl7segmentdataelements s INNER JOIN hl7versions v ON v.version_id = s.version_id");
+		bld.append("SELECT s.`seg_code`, s.`data_item`, s.`req_opt`, s.`seq_no`, s.`repetitional`, s.`repetitions`");
+		bld.append(System.lineSeparator());
+		bld.append(" FROM hl7segmentdataelements s");
+		bld.append(" INNER JOIN hl7versions v ON v.version_id = s.version_id");
+		bld.append(System.lineSeparator());
 		bld.append(" WHERE v.`hl7_version` = ");
 		bld.append("'");
 		bld.append(hl7Version);
 		bld.append("'");
+		bld.append(System.lineSeparator());
 		bld.append(" ORDER BY s.`seg_code`");
+		bld.append(System.lineSeparator());
 		bld.append(";");
 		String rval = bld.toString();
 		return rval;
@@ -537,24 +584,72 @@ public class HL72JSONConverter implements Runnable {
 			fld.setDataElementId(s);
 			fld.setPosition(rs.getInt("seq_no"));
 			String usage1 = rs.getString("req_opt");
-			String usage2 = usage1.length() > 0 ? usage1.substring(0, 1) : "";
-			fld.setUsage(Usage.fromValue(usage2));
-			fld.setMin(0);
-			fld.setMax("1");
+			String usage2 = stripParens(usage1);
+			Usage usage3 = Usage.fromValue(usage2);
+			fld.setUsage(usage3);
+			
+			// We use the fld.getUsage().name() here because Usage.fromValue(usage2) has already corrected for bad values.
+			Object[] cardinality = calcCardinality(fld.getUsage().name(), rs.getString("repetitional"), rs.getInt("repetitions"));
+			fld.setMin((Integer) cardinality[0]);
+			fld.setMax((String) cardinality[1]);
 			return fld;
 		}
 	};
 
-	String SQL4_DATATYPE() {
+	Object[] calcCardinality(String usage, String repetitional, Integer repetitions) {
+		repetitional = repetitional == null ? "" : repetitional.trim();
+		Object[] rval = new Object[2];
+		if ("Y".equals(repetitional)) {
+			if (repetitions == 0) {
+				rval[0] = new Integer(0);
+				rval[1] = "*";
+			} else {
+				rval[0] = new Integer(0);
+				rval[1] = new Integer(repetitions).toString();
+			}
+		} else {
+			if ("B".equals(usage) || "W".equals(usage) || "X".equals(usage)) {
+				rval[0] = new Integer(0);
+				rval[1] = "0";
+			} else if ("R".equals(usage) || "C".equals(usage)) {
+				rval[0] = new Integer(1);
+				rval[1] = "1";
+			}  else {
+				rval[0] = new Integer(0);
+				rval[1] = "*";
+			}
+		}
+		return rval;
+	}
+
+	String stripParens(String usage) {
+		// We're dealing with a very specific situation here.
+		// There are times when usage is set to something like (B) R in
+		// which case we strip all but the last character.
+		String rval = null;
+		if (usage.contains(")")) {
+			int pos = usage.indexOf(")");
+			rval = usage.substring(pos +1).trim();
+			return rval;
+		}
+		return usage;
+	}
+
+	public String SQL4_DATATYPE() {
 		StringBuilder bld = new StringBuilder();
 		bld.append("SELECT d.data_structure, d.`description`, d.`section`, d.`elementary`");
+		bld.append(System.lineSeparator());
 		bld.append(" FROM hl7datastructures d, hl7versions v");
+		bld.append(System.lineSeparator());
 		bld.append(" WHERE v.`hl7_version` = ");
 		bld.append("'");
 		bld.append(hl7Version);
 		bld.append("'");
+		bld.append(System.lineSeparator());
 		bld.append(" AND d.`version_id` = v.`version_id`");
+		bld.append(System.lineSeparator());
 		bld.append(" ORDER BY d.data_structure");
+		bld.append(System.lineSeparator());
 		bld.append(";");
 		String rval = bld.toString();
 		return rval;
@@ -573,21 +668,30 @@ public class HL72JSONConverter implements Runnable {
 		}
 	};
 
-	String SQL4_COMPONENT() {
+	public String SQL4_COMPONENT() {
 		StringBuilder bld = new StringBuilder();
 		bld.append(
-				"SELECT dc.`data_structure`, c.`data_type_code`, c.`description`, dc.`modification`, dc.`min_length`, dc.`max_length`, dc.`conf_length`, c.`table_id`");
+				"SELECT dc.`data_structure`, c.`data_type_code`, c.`description`, dc.`req_opt`, dc.`min_length`, dc.`max_length`, dc.`conf_length`, c.`table_id`");
+		bld.append(System.lineSeparator());
 		bld.append(" FROM hl7versions v");
+		bld.append(System.lineSeparator());
 		bld.append(" INNER JOIN hl7datastructures d ON v.`version_id` = d.`version_id`");
+		bld.append(System.lineSeparator());
 		bld.append(" INNER JOIN hl7datastructurecomponents dc ON v.`version_id` = dc.`version_id`");
+		bld.append(System.lineSeparator());
 		bld.append(" INNER JOIN hl7components c ON v.`version_id` = c.`version_id`");
+		bld.append(System.lineSeparator());
 		bld.append(" WHERE v.`hl7_version` = ");
 		bld.append("'");
 		bld.append(hl7Version);
 		bld.append("'");
+		bld.append(System.lineSeparator());
 		bld.append(" AND d.`data_structure` = dc.`data_structure`");
+		bld.append(System.lineSeparator());
 		bld.append(" AND dc.comp_no = c.comp_no");
+		bld.append(System.lineSeparator());
 		bld.append(" AND d.`elementary` = 'FALSE'");
+		bld.append(System.lineSeparator());
 		bld.append(";");
 		String rval = bld.toString();
 		return rval;
@@ -602,28 +706,35 @@ public class HL72JSONConverter implements Runnable {
 			cmp.setDatatypeId(rs.getString("data_type_code"));
 			cmp.setPosition(componentIncr);
 			cmp.setDescription(rs.getString("description"));
-			cmp.setUsage(Usage.fromValue(rs.getString("modification")));
+			cmp.setUsage(Usage.fromValue(rs.getString("req_opt")));
 			cmp.setMinLength(rs.getInt("min_length"));
 			cmp.setMaxLength(rs.getInt("max_length"));
 			String s = rs.getString("conf_length").replaceAll("[#=]", "");
 			int confLength = (s.length() > 0) ? new Integer(s) : 0;
 			cmp.setConfLength(confLength);
 			String tableId = rs.getString("table_id");
-			cmp.setTableId("0".equals(tableId) ? null : tableId);
+			String id = "0".equals(tableId) ? null : tableId;
+			String id1 = id == null ? id : String.format("%04d", new Integer(tableId));
+			cmp.setTableId(id1);
 			return cmp;
 		}
 	};
 
-	String SQL4_CODE() {
+	public String SQL4_CODE() {
 		StringBuilder bld = new StringBuilder();
 		bld.append(" SELECT distinct tv.`table_id`, tv.`table_value`, tv.`description_as_pub`");
+		bld.append(System.lineSeparator());
 		bld.append(" FROM hl7versions v");
+		bld.append(System.lineSeparator());
 		bld.append(" INNER JOIN hl7tablevalues tv ON v.`version_id` = tv.`version_id`");
+		bld.append(System.lineSeparator());
 		bld.append(" WHERE v.`hl7_version` = ");
 		bld.append("'");
 		bld.append(hl7Version);
 		bld.append("'");
+		bld.append(System.lineSeparator());
 		bld.append(" ORDER BY tv.`table_id`");
+		bld.append(System.lineSeparator());
 		bld.append(";");
 		String rval = bld.toString();
 		return rval;
@@ -642,17 +753,22 @@ public class HL72JSONConverter implements Runnable {
 		}
 	};
 
-	String SQL4_DATAELEMENT() {
+	public String SQL4_DATAELEMENT() {
 		StringBuilder bld = new StringBuilder();
 		bld.append(
 				"SELECT de.`data_item`, de.`data_structure`, de.`description` , de.`min_length`, de.`max_length`, de.`conf_length`, de.`table_id`, de.`section`");
+		bld.append(System.lineSeparator());
 		bld.append(" FROM hl7versions v");
+		bld.append(System.lineSeparator());
 		bld.append(" INNER JOIN hl7dataelements de ON v.`version_id` = de.`version_id`");
+		bld.append(System.lineSeparator());
 		bld.append(" WHERE v.`hl7_version` = ");
 		bld.append("'");
 		bld.append(hl7Version);
 		bld.append("'");
+		bld.append(System.lineSeparator());
 		bld.append(" ORDER BY de.`data_item`");
+		bld.append(System.lineSeparator());
 		bld.append(";");
 		String rval = bld.toString();
 		return rval;
@@ -681,17 +797,23 @@ public class HL72JSONConverter implements Runnable {
 		}
 	};
 
-	String SQL4_TABLE() {
+	public String SQL4_TABLE() {
 		StringBuilder bld = new StringBuilder();
 		bld.append("SELECT t.`table_id`, t.`description_as_pub`, t.`table_type`, t.`oid_codesystem`, t.`section`");
+		bld.append(System.lineSeparator());
 		bld.append(" FROM hl7versions v");
+		bld.append(System.lineSeparator());
 		bld.append(" INNER JOIN hl7tables t ON v.`version_id` = t.`version_id`");
+		bld.append(System.lineSeparator());
 		bld.append(" WHERE v.`hl7_version` = ");
 		bld.append("'");
 		bld.append(hl7Version);
 		bld.append("'");
+		bld.append(System.lineSeparator());
 		bld.append(" AND t.`table_id` > 0");
+		bld.append(System.lineSeparator());
 		bld.append(" ORDER BY t.`table_id`");
+		bld.append(System.lineSeparator());
 		bld.append(";");
 		String rval = bld.toString();
 		return rval;
@@ -702,6 +824,9 @@ public class HL72JSONConverter implements Runnable {
 		public Table mapRow(ResultSet rs, int rowNum) throws SQLException {
 			Table tab = new Table();
 			String id = rs.getString("table_id");
+			// The following two lines were originally intended to have the id of table data set be congruent
+			// with the table ids from versions 2.1 - 2.7, which had a leading zero prepended.
+			// It didn't work with version 2.7.1 - 2.8.2.  Can't say why.
 			String id1 = id == null ? id : String.format("%04d", new Integer(id));
 			tab.setId(id1);
 			tab.setDescription(rs.getString("description_as_pub"));
@@ -712,15 +837,20 @@ public class HL72JSONConverter implements Runnable {
 		}
 	};
 
-	String SQL4_ELEMENT() {
+	public String SQL4_ELEMENT() {
 		StringBuilder bld = new StringBuilder();
 		bld.append(
 				"SELECT m.`message_structure`, m.`seq_no`, m.`groupname`, m.`seg_code`, m.`modification`, m.`optional`, m.`repetitional`");
-		bld.append(" FROM hl7versions v INNER JOIN hl7msgstructidsegments m ON v.version_id = m.version_id");
+		bld.append(System.lineSeparator());
+		bld.append(" FROM hl7versions v ");
+		bld.append(System.lineSeparator());
+		bld.append(" INNER JOIN hl7msgstructidsegments m ON v.version_id = m.version_id");
+		bld.append(System.lineSeparator());
 		bld.append(" WHERE v.`hl7_version` = ");
 		bld.append("'");
 		bld.append(hl7Version);
 		bld.append("'");
+		bld.append(System.lineSeparator());
 		bld.append(";");
 		String rval = bld.toString();
 		return rval;
@@ -736,27 +866,36 @@ public class HL72JSONConverter implements Runnable {
 			el.setGroupName(groupname.trim().length() > 0 ? groupname.toUpperCase() : null);
 			String segCode = rs.getString("seg_code");
 			el.setSegmentId(segCode);
-			// el.setSegmentId(segCode.contains("{") || segCode.contains("}") ||
-			// segCode.contains("[") || segCode.contains("]") ||
-			// segCode.contains("<") || segCode.contains(">") ? null : segCode);
-			el.setGroupState(rs.getString("seg_code"));
 			el.setMin(rs.getBoolean("optional") == true ? 0 : 1);
 			el.setMax(rs.getBoolean("repetitional") == true ? "*" : "1");
-			el.setUsage(Usage.fromValue(rs.getString("modification")));
+			if (el.getMin() == 1 && "1".equals(el.getMax())) {
+				el.setUsage(Usage.R);
+			} else if (el.getMin() == 0 && "*".equals(el.getMax())) {
+				el.setUsage(Usage.O);
+			} else {
+				el.setUsage(Usage.O);
+			}
+			el.setSeqNo(rs.getInt("seq_no"));
+			log.info("el=" + el.toString());
 			return el;
 		}
 	};
 
-	String SQL4_EVENT() {
+	public String SQL4_EVENT() {
 		StringBuilder bld = new StringBuilder();
 		bld.append("SELECT e.`event_code`, e.`description`, e.`section`");
+		bld.append(System.lineSeparator());
 		bld.append(" FROM hl7versions v ");
+		bld.append(System.lineSeparator());
 		bld.append(" INNER JOIN hl7events e ON v.`version_id` = e.`version_id`");
+		bld.append(System.lineSeparator());
 		bld.append(" WHERE v.`hl7_version` = ");
 		bld.append("'");
 		bld.append(hl7Version);
 		bld.append("'");
+		bld.append(System.lineSeparator());
 		bld.append(" ORDER BY e.`event_code`");
+		bld.append(System.lineSeparator());
 		bld.append(";");
 		String rval = bld.toString();
 		return rval;
@@ -773,17 +912,23 @@ public class HL72JSONConverter implements Runnable {
 		}
 	};
 
-	String SQL4_INTERACTION() {
+	public String SQL4_INTERACTION() {
 		StringBuilder bld = new StringBuilder();
 		bld.append("SELECT e.`event_code`, e.`message_structure_snd`, e.`message_structure_return`");
+		bld.append(System.lineSeparator());
 		bld.append(" FROM hl7versions v ");
+		bld.append(System.lineSeparator());
 		bld.append(" INNER JOIN hl7eventmessagetypes e ON v.`version_id` = e.`version_id`");
+		bld.append(System.lineSeparator());
 		bld.append(" WHERE v.`hl7_version` = ");
 		bld.append("'");
 		bld.append(hl7Version);
 		bld.append("'");
+		bld.append(System.lineSeparator());
 		bld.append(" AND e.`message_structure_snd` IS NOT NULL");
+		bld.append(System.lineSeparator());
 		bld.append(" ORDER BY e.`event_code`");
+		bld.append(System.lineSeparator());
 		bld.append(";");
 
 		String rval = bld.toString();

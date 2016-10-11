@@ -13,6 +13,7 @@ public class Group {
 	private boolean isRoot;
 	private boolean isChoice;
 	private List<Element> children;
+	private Integer seq;
 	
 	/**
 	 * @return the id
@@ -87,13 +88,20 @@ public class Group {
 	public void setChildren(List<Element> children) {
 		this.children = children;
 	}
+	
+	public Integer getSeq() {
+		return seq;
+	}
+	public void setSeq(Integer seq) {
+		this.seq = seq;
+	}
 	/* (non-Javadoc)
 	 * @see java.lang.Object#toString()
 	 */
 	@Override
 	public String toString() {
 		return String.format(
-				"Group [id=%s, messageId=%s, name=%s, isRoot=%s, isChoice=%s]",
-				id, messageId, name, isRoot, isChoice);
+				"Group [id=%s, messageId=%s, name=%s, isRoot=%s, isChoice=%s, seq=%s]",
+				id, messageId, name, isRoot, isChoice, seq);
 	}
 }

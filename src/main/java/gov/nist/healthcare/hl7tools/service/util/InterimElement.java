@@ -7,8 +7,8 @@ import gov.nist.healthcare.hl7tools.service.util.mock.hl7.domain.Element;
 public class InterimElement extends Element {
 	
 	String groupName;
-	String groupState;
 	String messageStucture;
+	int seqNo;
 
 	@JsonIgnore
 	public String getGroupName() {
@@ -20,15 +20,6 @@ public class InterimElement extends Element {
 	}
 
 	@JsonIgnore
-	public String getGroupState() {
-		return groupState;
-	}
-
-	public void setGroupState(String groupState) {
-		this.groupState = groupState;
-	}
-
-	@JsonIgnore
 	public String getMessageStucture() {
 		return messageStucture;
 	}
@@ -37,6 +28,15 @@ public class InterimElement extends Element {
 		this.messageStucture = messageStucture;
 	}
 	
+	@JsonIgnore
+	public int getSeqNo() {
+		return seqNo;
+	}
+
+	public void setSeqNo(int seqNo) {
+		this.seqNo = seqNo;
+	}
+
 	public String toString() {
 		StringBuilder bld = new StringBuilder();
 		bld.append(" ParentId=" + this.getParentId());

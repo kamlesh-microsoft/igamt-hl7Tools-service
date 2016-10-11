@@ -58,7 +58,9 @@ public class MessageLibraryBuilder {
 		List<Element> topLevelGroup = new ArrayList<Element>();
 		Map<Integer, Element> gm = new HashMap<Integer, Element>();
 		// create groups map
+		log.info("group count=" + map.values().size());
 		for (gov.nist.healthcare.hl7tools.service.util.mock.hl7.domain.Group g : map.values()) {
+//			log.info("group name=" + g.getName());
 			Element e = new Element();
 			e.setName(g.getName());
 			e.setType(g.isChoice() ? ElementType.CHOICE : ElementType.GROUP);
@@ -72,11 +74,12 @@ public class MessageLibraryBuilder {
 		// update groups children
 		for (gov.nist.healthcare.hl7tools.service.util.mock.hl7.domain.Group g : map.values()) {
 			List<Element> children = new ArrayList<Element>();
-			if (g.getChildren() != null) {// Some messages in old versions don't
-											// have children
+			if (g.getChildren() != null) {
+				// Some messages in old versions don't have children
 				// log.info("o loop=" + " gid=" + g.getId() + " g.name=" +
 				// g.getName() + " size=" + g.getChildren().size());
 				for (gov.nist.healthcare.hl7tools.service.util.mock.hl7.domain.Element ee : g.getChildren()) {
+//					log.info("ee group id=" + ee.getGroupId());
 					// FIXME: Temporary hack to fix the position
 					Element tmp = updateChildren(ee, map, gm, segmentLibrary);
 					children.add(tmp);
@@ -106,14 +109,14 @@ public class MessageLibraryBuilder {
 			}
 		} else {
 			List<Element> children = new ArrayList<Element>();
-			if (map.get(ee.getGroupId()).getChildren() != null) {
-				// log.info("i loop" + " gid=" +
-				// map.get(ee.getGroupId()).getId() + " g.name=" +
-				// map.get(ee.getGroupId()).getName() + " size="+
-				// map.get(ee.getGroupId()).getChildren().size());
-			} else {
-				// log.info("no loop");
-			}
+//			if (map.get(ee.getGroupId()).getChildren() != null) {
+//				 log.info("i loop" + " gid=" +
+//				 map.get(ee.getGroupId()).getId() + " g.name=" +
+//				 map.get(ee.getGroupId()).getName() + " size="+
+//				 map.get(ee.getGroupId()).getChildren().size());
+//			} else {
+//				 log.info("no loop");
+//			}
 			for (gov.nist.healthcare.hl7tools.service.util.mock.hl7.domain.Element eee : map.get(ee.getGroupId())
 					.getChildren()) {
 				// FIXME: Temporary hack to fix the position
