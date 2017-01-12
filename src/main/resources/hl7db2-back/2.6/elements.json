@@ -1,0 +1,6041 @@
+[ {
+  "id" : 1,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 1,
+  "segment_id" : "MSH"
+}, {
+  "id" : 2,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 1,
+  "segment_id" : "SFT"
+}, {
+  "id" : 3,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 1,
+  "segment_id" : "UAC"
+}, {
+  "id" : 4,
+  "position" : 4,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 1,
+  "segment_id" : "MSA"
+}, {
+  "id" : 5,
+  "position" : 5,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 1,
+  "segment_id" : "ERR"
+}, {
+  "id" : 6,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 2,
+  "segment_id" : "MSH"
+}, {
+  "id" : 7,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 2,
+  "segment_id" : "SFT"
+}, {
+  "id" : 8,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 2,
+  "segment_id" : "UAC"
+}, {
+  "id" : 9,
+  "position" : 4,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 2,
+  "segment_id" : "MSA"
+}, {
+  "id" : 10,
+  "position" : 5,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 2,
+  "segment_id" : "ERR"
+}, {
+  "id" : 11,
+  "position" : 6,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 2,
+  "segment_id" : "QAK"
+}, {
+  "id" : 12,
+  "position" : 7,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 2,
+  "segment_id" : "QRD"
+}, {
+  "id" : 13,
+  "position" : 8,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 2,
+  "segment_id" : "QRF"
+}, {
+  "id" : 14,
+  "position" : 9,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 2,
+  "group_id" : 8
+}, {
+  "id" : 15,
+  "position" : 10,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 8,
+  "segment_id" : "EVN"
+}, {
+  "id" : 16,
+  "position" : 11,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 8,
+  "segment_id" : "PID"
+}, {
+  "id" : 17,
+  "position" : 12,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 8,
+  "segment_id" : "PD1"
+}, {
+  "id" : 18,
+  "position" : 13,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 8,
+  "segment_id" : "ARV"
+}, {
+  "id" : 19,
+  "position" : 14,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 8,
+  "segment_id" : "ROL"
+}, {
+  "id" : 20,
+  "position" : 15,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 8,
+  "segment_id" : "NK1"
+}, {
+  "id" : 21,
+  "position" : 16,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 8,
+  "segment_id" : "PV1"
+}, {
+  "id" : 22,
+  "position" : 17,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 8,
+  "segment_id" : "PV2"
+}, {
+  "id" : 23,
+  "position" : 18,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 8,
+  "segment_id" : "ARV"
+}, {
+  "id" : 24,
+  "position" : 19,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 8,
+  "segment_id" : "ROL"
+}, {
+  "id" : 25,
+  "position" : 20,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 8,
+  "segment_id" : "DB1"
+}, {
+  "id" : 26,
+  "position" : 21,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 8,
+  "segment_id" : "OBX"
+}, {
+  "id" : 27,
+  "position" : 22,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 8,
+  "segment_id" : "AL1"
+}, {
+  "id" : 28,
+  "position" : 23,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 8,
+  "segment_id" : "DG1"
+}, {
+  "id" : 29,
+  "position" : 24,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 8,
+  "segment_id" : "DRG"
+}, {
+  "id" : 30,
+  "position" : 25,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 8,
+  "group_id" : 4
+}, {
+  "id" : 31,
+  "position" : 26,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 4,
+  "segment_id" : "PR1"
+}, {
+  "id" : 32,
+  "position" : 27,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 4,
+  "segment_id" : "ROL"
+}, {
+  "id" : 34,
+  "position" : 28,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 8,
+  "segment_id" : "GT1"
+}, {
+  "id" : 35,
+  "position" : 29,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 8,
+  "group_id" : 6
+}, {
+  "id" : 36,
+  "position" : 30,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 6,
+  "segment_id" : "IN1"
+}, {
+  "id" : 37,
+  "position" : 31,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 6,
+  "segment_id" : "IN2"
+}, {
+  "id" : 38,
+  "position" : 32,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 6,
+  "segment_id" : "IN3"
+}, {
+  "id" : 39,
+  "position" : 33,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 6,
+  "segment_id" : "ROL"
+}, {
+  "id" : 41,
+  "position" : 34,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 8,
+  "segment_id" : "ACC"
+}, {
+  "id" : 42,
+  "position" : 35,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 8,
+  "segment_id" : "UB1"
+}, {
+  "id" : 43,
+  "position" : 36,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 8,
+  "segment_id" : "UB2"
+}, {
+  "id" : 45,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 2,
+  "segment_id" : "DSC"
+}, {
+  "id" : 46,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 9,
+  "segment_id" : "MSH"
+}, {
+  "id" : 47,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 9,
+  "segment_id" : "SFT"
+}, {
+  "id" : 48,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 9,
+  "segment_id" : "UAC"
+}, {
+  "id" : 49,
+  "position" : 4,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 9,
+  "segment_id" : "EVN"
+}, {
+  "id" : 50,
+  "position" : 5,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 9,
+  "segment_id" : "PID"
+}, {
+  "id" : 51,
+  "position" : 6,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 9,
+  "segment_id" : "PD1"
+}, {
+  "id" : 52,
+  "position" : 7,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 9,
+  "segment_id" : "ARV"
+}, {
+  "id" : 53,
+  "position" : 8,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 9,
+  "segment_id" : "ROL"
+}, {
+  "id" : 54,
+  "position" : 9,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 9,
+  "segment_id" : "NK1"
+}, {
+  "id" : 55,
+  "position" : 10,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 9,
+  "segment_id" : "PV1"
+}, {
+  "id" : 56,
+  "position" : 11,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 9,
+  "segment_id" : "PV2"
+}, {
+  "id" : 57,
+  "position" : 12,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 9,
+  "segment_id" : "ARV"
+}, {
+  "id" : 58,
+  "position" : 13,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 9,
+  "segment_id" : "ROL"
+}, {
+  "id" : 59,
+  "position" : 14,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 9,
+  "segment_id" : "DB1"
+}, {
+  "id" : 60,
+  "position" : 15,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 9,
+  "segment_id" : "OBX"
+}, {
+  "id" : 61,
+  "position" : 16,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 9,
+  "segment_id" : "AL1"
+}, {
+  "id" : 62,
+  "position" : 17,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 9,
+  "segment_id" : "DG1"
+}, {
+  "id" : 63,
+  "position" : 18,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 9,
+  "segment_id" : "DRG"
+}, {
+  "id" : 64,
+  "position" : 19,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 9,
+  "group_id" : 10
+}, {
+  "id" : 65,
+  "position" : 20,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 10,
+  "segment_id" : "PR1"
+}, {
+  "id" : 66,
+  "position" : 21,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 10,
+  "segment_id" : "ROL"
+}, {
+  "id" : 68,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 9,
+  "segment_id" : "GT1"
+}, {
+  "id" : 69,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 9,
+  "group_id" : 12
+}, {
+  "id" : 70,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 12,
+  "segment_id" : "IN1"
+}, {
+  "id" : 71,
+  "position" : 4,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 12,
+  "segment_id" : "IN2"
+}, {
+  "id" : 72,
+  "position" : 5,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 12,
+  "segment_id" : "IN3"
+}, {
+  "id" : 73,
+  "position" : 6,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 12,
+  "segment_id" : "ROL"
+}, {
+  "id" : 75,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 9,
+  "segment_id" : "ACC"
+}, {
+  "id" : 76,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 9,
+  "segment_id" : "UB1"
+}, {
+  "id" : 77,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 9,
+  "segment_id" : "UB2"
+}, {
+  "id" : 78,
+  "position" : 4,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 9,
+  "segment_id" : "PDA"
+}, {
+  "id" : 79,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 14,
+  "segment_id" : "MSH"
+}, {
+  "id" : 80,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 14,
+  "segment_id" : "SFT"
+}, {
+  "id" : 81,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 14,
+  "segment_id" : "UAC"
+}, {
+  "id" : 82,
+  "position" : 4,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 14,
+  "segment_id" : "EVN"
+}, {
+  "id" : 83,
+  "position" : 5,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 14,
+  "segment_id" : "PID"
+}, {
+  "id" : 84,
+  "position" : 6,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 14,
+  "segment_id" : "PD1"
+}, {
+  "id" : 85,
+  "position" : 7,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 14,
+  "segment_id" : "ARV"
+}, {
+  "id" : 86,
+  "position" : 8,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 14,
+  "segment_id" : "ROL"
+}, {
+  "id" : 87,
+  "position" : 9,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 14,
+  "segment_id" : "PV1"
+}, {
+  "id" : 88,
+  "position" : 10,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 14,
+  "segment_id" : "PV2"
+}, {
+  "id" : 89,
+  "position" : 11,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 14,
+  "segment_id" : "ARV"
+}, {
+  "id" : 90,
+  "position" : 12,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 14,
+  "segment_id" : "ROL"
+}, {
+  "id" : 91,
+  "position" : 13,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 14,
+  "segment_id" : "DB1"
+}, {
+  "id" : 92,
+  "position" : 14,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 14,
+  "segment_id" : "OBX"
+}, {
+  "id" : 93,
+  "position" : 15,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 14,
+  "segment_id" : "PDA"
+}, {
+  "id" : 94,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 15,
+  "segment_id" : "MSH"
+}, {
+  "id" : 95,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 15,
+  "segment_id" : "SFT"
+}, {
+  "id" : 96,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 15,
+  "segment_id" : "UAC"
+}, {
+  "id" : 97,
+  "position" : 4,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 15,
+  "segment_id" : "EVN"
+}, {
+  "id" : 98,
+  "position" : 5,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 15,
+  "segment_id" : "PID"
+}, {
+  "id" : 99,
+  "position" : 6,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 15,
+  "segment_id" : "PD1"
+}, {
+  "id" : 100,
+  "position" : 7,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 15,
+  "segment_id" : "ARV"
+}, {
+  "id" : 101,
+  "position" : 8,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 15,
+  "segment_id" : "ROL"
+}, {
+  "id" : 102,
+  "position" : 9,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 15,
+  "segment_id" : "NK1"
+}, {
+  "id" : 103,
+  "position" : 10,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 15,
+  "segment_id" : "PV1"
+}, {
+  "id" : 104,
+  "position" : 11,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 15,
+  "segment_id" : "PV2"
+}, {
+  "id" : 105,
+  "position" : 12,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 15,
+  "segment_id" : "ARV"
+}, {
+  "id" : 106,
+  "position" : 13,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 15,
+  "segment_id" : "ROL"
+}, {
+  "id" : 107,
+  "position" : 14,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 15,
+  "segment_id" : "DB1"
+}, {
+  "id" : 108,
+  "position" : 15,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 15,
+  "segment_id" : "AL1"
+}, {
+  "id" : 109,
+  "position" : 16,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 15,
+  "segment_id" : "DG1"
+}, {
+  "id" : 110,
+  "position" : 17,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 15,
+  "segment_id" : "DRG"
+}, {
+  "id" : 111,
+  "position" : 18,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 15,
+  "group_id" : 16
+}, {
+  "id" : 112,
+  "position" : 19,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 16,
+  "segment_id" : "PR1"
+}, {
+  "id" : 113,
+  "position" : 20,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 16,
+  "segment_id" : "ROL"
+}, {
+  "id" : 115,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 15,
+  "segment_id" : "OBX"
+}, {
+  "id" : 116,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 15,
+  "segment_id" : "GT1"
+}, {
+  "id" : 117,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 15,
+  "group_id" : 18
+}, {
+  "id" : 118,
+  "position" : 4,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 18,
+  "segment_id" : "IN1"
+}, {
+  "id" : 119,
+  "position" : 5,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 18,
+  "segment_id" : "IN2"
+}, {
+  "id" : 120,
+  "position" : 6,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 18,
+  "segment_id" : "IN3"
+}, {
+  "id" : 121,
+  "position" : 7,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 18,
+  "segment_id" : "ROL"
+}, {
+  "id" : 123,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 15,
+  "segment_id" : "ACC"
+}, {
+  "id" : 124,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 15,
+  "segment_id" : "PDA"
+}, {
+  "id" : 125,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 20,
+  "segment_id" : "MSH"
+}, {
+  "id" : 126,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 20,
+  "segment_id" : "SFT"
+}, {
+  "id" : 127,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 20,
+  "segment_id" : "UAC"
+}, {
+  "id" : 128,
+  "position" : 4,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 20,
+  "segment_id" : "EVN"
+}, {
+  "id" : 129,
+  "position" : 5,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 20,
+  "segment_id" : "PID"
+}, {
+  "id" : 130,
+  "position" : 6,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 20,
+  "segment_id" : "PD1"
+}, {
+  "id" : 131,
+  "position" : 7,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 20,
+  "segment_id" : "ARV"
+}, {
+  "id" : 132,
+  "position" : 8,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 20,
+  "segment_id" : "ROL"
+}, {
+  "id" : 133,
+  "position" : 9,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 20,
+  "segment_id" : "NK1"
+}, {
+  "id" : 134,
+  "position" : 10,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 20,
+  "segment_id" : "PV1"
+}, {
+  "id" : 135,
+  "position" : 11,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 20,
+  "segment_id" : "PV2"
+}, {
+  "id" : 136,
+  "position" : 12,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 20,
+  "segment_id" : "ARV"
+}, {
+  "id" : 137,
+  "position" : 13,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 20,
+  "segment_id" : "ROL"
+}, {
+  "id" : 138,
+  "position" : 14,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 20,
+  "segment_id" : "DB1"
+}, {
+  "id" : 139,
+  "position" : 15,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 20,
+  "segment_id" : "OBX"
+}, {
+  "id" : 140,
+  "position" : 16,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 20,
+  "segment_id" : "AL1"
+}, {
+  "id" : 141,
+  "position" : 17,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 20,
+  "segment_id" : "DG1"
+}, {
+  "id" : 142,
+  "position" : 18,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 20,
+  "segment_id" : "DRG"
+}, {
+  "id" : 143,
+  "position" : 19,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 20,
+  "group_id" : 21
+}, {
+  "id" : 144,
+  "position" : 20,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 21,
+  "segment_id" : "PR1"
+}, {
+  "id" : 145,
+  "position" : 21,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 21,
+  "segment_id" : "ROL"
+}, {
+  "id" : 147,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 20,
+  "segment_id" : "GT1"
+}, {
+  "id" : 148,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 20,
+  "group_id" : 23
+}, {
+  "id" : 149,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 23,
+  "segment_id" : "IN1"
+}, {
+  "id" : 150,
+  "position" : 4,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 23,
+  "segment_id" : "IN2"
+}, {
+  "id" : 151,
+  "position" : 5,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 23,
+  "segment_id" : "IN3"
+}, {
+  "id" : 152,
+  "position" : 6,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 23,
+  "segment_id" : "ROL"
+}, {
+  "id" : 154,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 20,
+  "segment_id" : "ACC"
+}, {
+  "id" : 155,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 20,
+  "segment_id" : "UB1"
+}, {
+  "id" : 156,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 20,
+  "segment_id" : "UB2"
+}, {
+  "id" : 157,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 25,
+  "segment_id" : "MSH"
+}, {
+  "id" : 158,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 25,
+  "segment_id" : "SFT"
+}, {
+  "id" : 159,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 25,
+  "segment_id" : "UAC"
+}, {
+  "id" : 160,
+  "position" : 4,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 25,
+  "segment_id" : "EVN"
+}, {
+  "id" : 161,
+  "position" : 5,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 25,
+  "segment_id" : "PID"
+}, {
+  "id" : 162,
+  "position" : 6,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 25,
+  "segment_id" : "PD1"
+}, {
+  "id" : 163,
+  "position" : 7,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 25,
+  "segment_id" : "ARV"
+}, {
+  "id" : 164,
+  "position" : 8,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 25,
+  "segment_id" : "ROL"
+}, {
+  "id" : 165,
+  "position" : 9,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 25,
+  "segment_id" : "MRG"
+}, {
+  "id" : 166,
+  "position" : 10,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 25,
+  "segment_id" : "NK1"
+}, {
+  "id" : 167,
+  "position" : 11,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 25,
+  "segment_id" : "PV1"
+}, {
+  "id" : 168,
+  "position" : 12,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 25,
+  "segment_id" : "PV2"
+}, {
+  "id" : 169,
+  "position" : 13,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 25,
+  "segment_id" : "ARV"
+}, {
+  "id" : 170,
+  "position" : 14,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 25,
+  "segment_id" : "ROL"
+}, {
+  "id" : 171,
+  "position" : 15,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 25,
+  "segment_id" : "DB1"
+}, {
+  "id" : 172,
+  "position" : 16,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 25,
+  "segment_id" : "OBX"
+}, {
+  "id" : 173,
+  "position" : 17,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 25,
+  "segment_id" : "AL1"
+}, {
+  "id" : 174,
+  "position" : 18,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 25,
+  "segment_id" : "DG1"
+}, {
+  "id" : 175,
+  "position" : 19,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 25,
+  "segment_id" : "DRG"
+}, {
+  "id" : 176,
+  "position" : 20,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 25,
+  "group_id" : 26
+}, {
+  "id" : 177,
+  "position" : 21,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 26,
+  "segment_id" : "PR1"
+}, {
+  "id" : 178,
+  "position" : 22,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 26,
+  "segment_id" : "ROL"
+}, {
+  "id" : 180,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 25,
+  "segment_id" : "GT1"
+}, {
+  "id" : 181,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 25,
+  "group_id" : 28
+}, {
+  "id" : 182,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 28,
+  "segment_id" : "IN1"
+}, {
+  "id" : 183,
+  "position" : 4,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 28,
+  "segment_id" : "IN2"
+}, {
+  "id" : 184,
+  "position" : 5,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 28,
+  "segment_id" : "IN3"
+}, {
+  "id" : 185,
+  "position" : 6,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 28,
+  "segment_id" : "ROL"
+}, {
+  "id" : 187,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 25,
+  "segment_id" : "ACC"
+}, {
+  "id" : 188,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 25,
+  "segment_id" : "UB1"
+}, {
+  "id" : 189,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 25,
+  "segment_id" : "UB2"
+}, {
+  "id" : 190,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 30,
+  "segment_id" : "MSH"
+}, {
+  "id" : 191,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 30,
+  "segment_id" : "SFT"
+}, {
+  "id" : 192,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 30,
+  "segment_id" : "UAC"
+}, {
+  "id" : 193,
+  "position" : 4,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 30,
+  "segment_id" : "EVN"
+}, {
+  "id" : 194,
+  "position" : 5,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 30,
+  "segment_id" : "PID"
+}, {
+  "id" : 195,
+  "position" : 6,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 30,
+  "segment_id" : "PD1"
+}, {
+  "id" : 196,
+  "position" : 7,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 30,
+  "segment_id" : "PV1"
+}, {
+  "id" : 197,
+  "position" : 8,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 30,
+  "segment_id" : "PV2"
+}, {
+  "id" : 198,
+  "position" : 9,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 30,
+  "segment_id" : "DB1"
+}, {
+  "id" : 199,
+  "position" : 10,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 30,
+  "segment_id" : "OBX"
+}, {
+  "id" : 200,
+  "position" : 11,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 30,
+  "segment_id" : "DG1"
+}, {
+  "id" : 201,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 31,
+  "segment_id" : "MSH"
+}, {
+  "id" : 202,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 31,
+  "segment_id" : "SFT"
+}, {
+  "id" : 203,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 31,
+  "segment_id" : "UAC"
+}, {
+  "id" : 204,
+  "position" : 4,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 31,
+  "segment_id" : "EVN"
+}, {
+  "id" : 205,
+  "position" : 5,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 31,
+  "segment_id" : "PID"
+}, {
+  "id" : 206,
+  "position" : 6,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 31,
+  "segment_id" : "PD1"
+}, {
+  "id" : 207,
+  "position" : 7,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 31,
+  "segment_id" : "PV1"
+}, {
+  "id" : 208,
+  "position" : 8,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 31,
+  "segment_id" : "PV2"
+}, {
+  "id" : 209,
+  "position" : 9,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 31,
+  "segment_id" : "DB1"
+}, {
+  "id" : 210,
+  "position" : 10,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 31,
+  "segment_id" : "OBX"
+}, {
+  "id" : 211,
+  "position" : 11,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 31,
+  "segment_id" : "DG1"
+}, {
+  "id" : 212,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 32,
+  "segment_id" : "MSH"
+}, {
+  "id" : 213,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 32,
+  "segment_id" : "SFT"
+}, {
+  "id" : 214,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 32,
+  "segment_id" : "UAC"
+}, {
+  "id" : 215,
+  "position" : 4,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 32,
+  "segment_id" : "EVN"
+}, {
+  "id" : 216,
+  "position" : 5,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 32,
+  "segment_id" : "PID"
+}, {
+  "id" : 217,
+  "position" : 6,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 32,
+  "segment_id" : "PD1"
+}, {
+  "id" : 218,
+  "position" : 7,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 32,
+  "segment_id" : "ARV"
+}, {
+  "id" : 219,
+  "position" : 8,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 32,
+  "segment_id" : "ROL"
+}, {
+  "id" : 220,
+  "position" : 9,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 32,
+  "segment_id" : "PV1"
+}, {
+  "id" : 221,
+  "position" : 10,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 32,
+  "segment_id" : "PV2"
+}, {
+  "id" : 222,
+  "position" : 11,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 32,
+  "segment_id" : "ARV"
+}, {
+  "id" : 223,
+  "position" : 12,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 32,
+  "segment_id" : "ROL"
+}, {
+  "id" : 224,
+  "position" : 13,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 32,
+  "segment_id" : "DB1"
+}, {
+  "id" : 225,
+  "position" : 14,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 32,
+  "segment_id" : "OBX"
+}, {
+  "id" : 226,
+  "position" : 15,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 32,
+  "segment_id" : "DG1"
+}, {
+  "id" : 227,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 33,
+  "segment_id" : "MSH"
+}, {
+  "id" : 228,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 33,
+  "segment_id" : "SFT"
+}, {
+  "id" : 229,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 33,
+  "segment_id" : "UAC"
+}, {
+  "id" : 230,
+  "position" : 4,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 33,
+  "segment_id" : "EVN"
+}, {
+  "id" : 231,
+  "position" : 5,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 33,
+  "segment_id" : "PID"
+}, {
+  "id" : 232,
+  "position" : 6,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 33,
+  "segment_id" : "PD1"
+}, {
+  "id" : 233,
+  "position" : 7,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 33,
+  "segment_id" : "ARV"
+}, {
+  "id" : 234,
+  "position" : 8,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 33,
+  "segment_id" : "ROL"
+}, {
+  "id" : 235,
+  "position" : 9,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 33,
+  "segment_id" : "NK1"
+}, {
+  "id" : 236,
+  "position" : 10,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 33,
+  "segment_id" : "PV1"
+}, {
+  "id" : 237,
+  "position" : 11,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 33,
+  "segment_id" : "PV2"
+}, {
+  "id" : 238,
+  "position" : 12,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 33,
+  "segment_id" : "ARV"
+}, {
+  "id" : 239,
+  "position" : 13,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 33,
+  "segment_id" : "ROL"
+}, {
+  "id" : 240,
+  "position" : 14,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 33,
+  "segment_id" : "DB1"
+}, {
+  "id" : 241,
+  "position" : 15,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 33,
+  "segment_id" : "OBX"
+}, {
+  "id" : 242,
+  "position" : 16,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 33,
+  "segment_id" : "AL1"
+}, {
+  "id" : 243,
+  "position" : 17,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 33,
+  "segment_id" : "DG1"
+}, {
+  "id" : 244,
+  "position" : 18,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 33,
+  "segment_id" : "DRG"
+}, {
+  "id" : 245,
+  "position" : 19,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 33,
+  "group_id" : 34
+}, {
+  "id" : 246,
+  "position" : 20,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 34,
+  "segment_id" : "PR1"
+}, {
+  "id" : 247,
+  "position" : 21,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 34,
+  "segment_id" : "ROL"
+}, {
+  "id" : 249,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 33,
+  "segment_id" : "GT1"
+}, {
+  "id" : 250,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 33,
+  "group_id" : 36
+}, {
+  "id" : 251,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 36,
+  "segment_id" : "IN1"
+}, {
+  "id" : 252,
+  "position" : 4,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 36,
+  "segment_id" : "IN2"
+}, {
+  "id" : 253,
+  "position" : 5,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 36,
+  "segment_id" : "IN3"
+}, {
+  "id" : 254,
+  "position" : 6,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 36,
+  "segment_id" : "ROL"
+}, {
+  "id" : 256,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 33,
+  "segment_id" : "ACC"
+}, {
+  "id" : 257,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 38,
+  "segment_id" : "MSH"
+}, {
+  "id" : 258,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 38,
+  "segment_id" : "SFT"
+}, {
+  "id" : 259,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 38,
+  "segment_id" : "UAC"
+}, {
+  "id" : 260,
+  "position" : 4,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 38,
+  "segment_id" : "EVN"
+}, {
+  "id" : 261,
+  "position" : 5,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 38,
+  "segment_id" : "PID"
+}, {
+  "id" : 262,
+  "position" : 6,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 38,
+  "segment_id" : "PD1"
+}, {
+  "id" : 263,
+  "position" : 7,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 38,
+  "segment_id" : "PV1"
+}, {
+  "id" : 264,
+  "position" : 8,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 38,
+  "segment_id" : "PV2"
+}, {
+  "id" : 265,
+  "position" : 9,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 38,
+  "segment_id" : "DB1"
+}, {
+  "id" : 266,
+  "position" : 10,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 38,
+  "segment_id" : "OBX"
+}, {
+  "id" : 267,
+  "position" : 11,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 38,
+  "segment_id" : "PID"
+}, {
+  "id" : 268,
+  "position" : 12,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 38,
+  "segment_id" : "PD1"
+}, {
+  "id" : 269,
+  "position" : 13,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 38,
+  "segment_id" : "PV1"
+}, {
+  "id" : 270,
+  "position" : 14,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 38,
+  "segment_id" : "PV2"
+}, {
+  "id" : 271,
+  "position" : 15,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 38,
+  "segment_id" : "DB1"
+}, {
+  "id" : 272,
+  "position" : 16,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 38,
+  "segment_id" : "OBX"
+}, {
+  "id" : 273,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 39,
+  "segment_id" : "MSH"
+}, {
+  "id" : 274,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 39,
+  "segment_id" : "SFT"
+}, {
+  "id" : 275,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 39,
+  "segment_id" : "EVN"
+}, {
+  "id" : 276,
+  "position" : 4,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 39,
+  "segment_id" : "PID"
+}, {
+  "id" : 277,
+  "position" : 5,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 39,
+  "segment_id" : "PD1"
+}, {
+  "id" : 278,
+  "position" : 6,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 39,
+  "segment_id" : "MRG"
+}, {
+  "id" : 279,
+  "position" : 7,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 39,
+  "segment_id" : "PV1"
+}, {
+  "id" : 280,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 40,
+  "segment_id" : "MSH"
+}, {
+  "id" : 281,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 40,
+  "segment_id" : "SFT"
+}, {
+  "id" : 282,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 40,
+  "segment_id" : "UAC"
+}, {
+  "id" : 283,
+  "position" : 4,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 40,
+  "segment_id" : "EVN"
+}, {
+  "id" : 284,
+  "position" : 5,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 40,
+  "segment_id" : "NPU"
+}, {
+  "id" : 285,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 41,
+  "segment_id" : "MSH"
+}, {
+  "id" : 286,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 41,
+  "segment_id" : "SFT"
+}, {
+  "id" : 287,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 41,
+  "segment_id" : "UAC"
+}, {
+  "id" : 288,
+  "position" : 4,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 41,
+  "segment_id" : "EVN"
+}, {
+  "id" : 289,
+  "position" : 5,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 41,
+  "segment_id" : "PID"
+}, {
+  "id" : 290,
+  "position" : 6,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 41,
+  "segment_id" : "PD1"
+}, {
+  "id" : 291,
+  "position" : 7,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 41,
+  "segment_id" : "PV1"
+}, {
+  "id" : 292,
+  "position" : 8,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 41,
+  "segment_id" : "PV2"
+}, {
+  "id" : 293,
+  "position" : 9,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 41,
+  "segment_id" : "DB1"
+}, {
+  "id" : 294,
+  "position" : 10,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 41,
+  "segment_id" : "OBX"
+}, {
+  "id" : 295,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 42,
+  "segment_id" : "MSH"
+}, {
+  "id" : 296,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 42,
+  "segment_id" : "SFT"
+}, {
+  "id" : 297,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 42,
+  "segment_id" : "UAC"
+}, {
+  "id" : 298,
+  "position" : 4,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 42,
+  "segment_id" : "EVN"
+}, {
+  "id" : 299,
+  "position" : 5,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 42,
+  "segment_id" : "PID"
+}, {
+  "id" : 300,
+  "position" : 6,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 42,
+  "segment_id" : "PD1"
+}, {
+  "id" : 301,
+  "position" : 7,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 42,
+  "segment_id" : "PV1"
+}, {
+  "id" : 302,
+  "position" : 8,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 42,
+  "segment_id" : "DB1"
+}, {
+  "id" : 303,
+  "position" : 9,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 42,
+  "segment_id" : "PID"
+}, {
+  "id" : 304,
+  "position" : 10,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 42,
+  "segment_id" : "PD1"
+}, {
+  "id" : 305,
+  "position" : 11,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 42,
+  "segment_id" : "PV1"
+}, {
+  "id" : 306,
+  "position" : 12,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 42,
+  "segment_id" : "DB1"
+}, {
+  "id" : 307,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 43,
+  "segment_id" : "MSH"
+}, {
+  "id" : 308,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 43,
+  "segment_id" : "SFT"
+}, {
+  "id" : 309,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 43,
+  "segment_id" : "UAC"
+}, {
+  "id" : 310,
+  "position" : 4,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 43,
+  "segment_id" : "EVN"
+}, {
+  "id" : 311,
+  "position" : 5,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 43,
+  "segment_id" : "PID"
+}, {
+  "id" : 312,
+  "position" : 6,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 43,
+  "segment_id" : "PD1"
+}, {
+  "id" : 313,
+  "position" : 7,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 43,
+  "segment_id" : "ARV"
+}, {
+  "id" : 314,
+  "position" : 8,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 43,
+  "segment_id" : "MRG"
+}, {
+  "id" : 315,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 44,
+  "segment_id" : "MSH"
+}, {
+  "id" : 316,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 44,
+  "segment_id" : "SFT"
+}, {
+  "id" : 317,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 44,
+  "segment_id" : "UAC"
+}, {
+  "id" : 318,
+  "position" : 4,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 44,
+  "segment_id" : "EVN"
+}, {
+  "id" : 319,
+  "position" : 5,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 44,
+  "segment_id" : "PID"
+}, {
+  "id" : 320,
+  "position" : 6,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 44,
+  "segment_id" : "PD1"
+}, {
+  "id" : 321,
+  "position" : 7,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 44,
+  "segment_id" : "PV1"
+}, {
+  "id" : 322,
+  "position" : 8,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 44,
+  "segment_id" : "DB1"
+}, {
+  "id" : 323,
+  "position" : 9,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 44,
+  "segment_id" : "PID"
+}, {
+  "id" : 324,
+  "position" : 10,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 44,
+  "segment_id" : "PD1"
+}, {
+  "id" : 325,
+  "position" : 11,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 44,
+  "segment_id" : "PV1"
+}, {
+  "id" : 326,
+  "position" : 12,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 44,
+  "segment_id" : "DB1"
+}, {
+  "id" : 327,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 45,
+  "segment_id" : "MSH"
+}, {
+  "id" : 328,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 45,
+  "segment_id" : "SFT"
+}, {
+  "id" : 329,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 45,
+  "segment_id" : "UAC"
+}, {
+  "id" : 330,
+  "position" : 4,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 45,
+  "segment_id" : "EVN"
+}, {
+  "id" : 331,
+  "position" : 5,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 45,
+  "segment_id" : "PID"
+}, {
+  "id" : 332,
+  "position" : 6,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 45,
+  "segment_id" : "PD1"
+}, {
+  "id" : 333,
+  "position" : 7,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 45,
+  "segment_id" : "PV1"
+}, {
+  "id" : 334,
+  "position" : 8,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 45,
+  "segment_id" : "PV2"
+}, {
+  "id" : 335,
+  "position" : 9,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 45,
+  "segment_id" : "DB1"
+}, {
+  "id" : 336,
+  "position" : 10,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 45,
+  "segment_id" : "OBX"
+}, {
+  "id" : 337,
+  "position" : 11,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 45,
+  "segment_id" : "DG1"
+}, {
+  "id" : 338,
+  "position" : 12,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 45,
+  "segment_id" : "DRG"
+}, {
+  "id" : 339,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 46,
+  "segment_id" : "MSH"
+}, {
+  "id" : 340,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 46,
+  "segment_id" : "SFT"
+}, {
+  "id" : 341,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 46,
+  "segment_id" : "UAC"
+}, {
+  "id" : 342,
+  "position" : 4,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 46,
+  "segment_id" : "EVN"
+}, {
+  "id" : 343,
+  "position" : 5,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 46,
+  "group_id" : 47
+}, {
+  "id" : 344,
+  "position" : 6,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 47,
+  "segment_id" : "PID"
+}, {
+  "id" : 345,
+  "position" : 7,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 47,
+  "segment_id" : "PD1"
+}, {
+  "id" : 346,
+  "position" : 8,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 47,
+  "segment_id" : "MRG"
+}, {
+  "id" : 347,
+  "position" : 9,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 47,
+  "segment_id" : "PV1"
+}, {
+  "id" : 349,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 49,
+  "segment_id" : "MSH"
+}, {
+  "id" : 350,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 49,
+  "segment_id" : "SFT"
+}, {
+  "id" : 351,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 49,
+  "segment_id" : "UAC"
+}, {
+  "id" : 352,
+  "position" : 4,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 49,
+  "segment_id" : "EVN"
+}, {
+  "id" : 353,
+  "position" : 5,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 49,
+  "group_id" : 50
+}, {
+  "id" : 354,
+  "position" : 6,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 50,
+  "segment_id" : "PID"
+}, {
+  "id" : 355,
+  "position" : 7,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 50,
+  "segment_id" : "PD1"
+}, {
+  "id" : 356,
+  "position" : 8,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 50,
+  "segment_id" : "ARV"
+}, {
+  "id" : 357,
+  "position" : 9,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 50,
+  "segment_id" : "MRG"
+}, {
+  "id" : 359,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 52,
+  "segment_id" : "MSH"
+}, {
+  "id" : 360,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 52,
+  "segment_id" : "SFT"
+}, {
+  "id" : 361,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 52,
+  "segment_id" : "UAC"
+}, {
+  "id" : 362,
+  "position" : 4,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 52,
+  "segment_id" : "EVN"
+}, {
+  "id" : 363,
+  "position" : 5,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 52,
+  "segment_id" : "PID"
+}, {
+  "id" : 364,
+  "position" : 6,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 52,
+  "segment_id" : "PD1"
+}, {
+  "id" : 365,
+  "position" : 7,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 52,
+  "group_id" : 53
+}, {
+  "id" : 366,
+  "position" : 8,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 53,
+  "segment_id" : "MRG"
+}, {
+  "id" : 367,
+  "position" : 9,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 53,
+  "segment_id" : "PV1"
+}, {
+  "id" : 369,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 55,
+  "segment_id" : "MSH"
+}, {
+  "id" : 370,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 55,
+  "segment_id" : "SFT"
+}, {
+  "id" : 371,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 55,
+  "segment_id" : "UAC"
+}, {
+  "id" : 372,
+  "position" : 4,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 55,
+  "segment_id" : "EVN"
+}, {
+  "id" : 373,
+  "position" : 5,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 55,
+  "segment_id" : "PID"
+}, {
+  "id" : 374,
+  "position" : 6,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 55,
+  "segment_id" : "PD1"
+}, {
+  "id" : 375,
+  "position" : 7,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 55,
+  "segment_id" : "MRG"
+}, {
+  "id" : 376,
+  "position" : 8,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 55,
+  "segment_id" : "PV1"
+}, {
+  "id" : 377,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 56,
+  "segment_id" : "MSH"
+}, {
+  "id" : 378,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 56,
+  "segment_id" : "SFT"
+}, {
+  "id" : 379,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 56,
+  "segment_id" : "UAC"
+}, {
+  "id" : 380,
+  "position" : 4,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 56,
+  "segment_id" : "EVN"
+}, {
+  "id" : 381,
+  "position" : 5,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 56,
+  "segment_id" : "PID"
+}, {
+  "id" : 382,
+  "position" : 6,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 56,
+  "segment_id" : "PD1"
+}, {
+  "id" : 383,
+  "position" : 7,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 56,
+  "segment_id" : "PV1"
+}, {
+  "id" : 384,
+  "position" : 8,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 56,
+  "segment_id" : "PV2"
+}, {
+  "id" : 385,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 57,
+  "segment_id" : "MSH"
+}, {
+  "id" : 386,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 57,
+  "segment_id" : "SFT"
+}, {
+  "id" : 387,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 57,
+  "segment_id" : "UAC"
+}, {
+  "id" : 388,
+  "position" : 4,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 57,
+  "segment_id" : "EVN"
+}, {
+  "id" : 389,
+  "position" : 5,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 57,
+  "segment_id" : "PID"
+}, {
+  "id" : 390,
+  "position" : 6,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 57,
+  "segment_id" : "PD1"
+}, {
+  "id" : 391,
+  "position" : 7,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 57,
+  "segment_id" : "ROL"
+}, {
+  "id" : 392,
+  "position" : 8,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 57,
+  "segment_id" : "PV1"
+}, {
+  "id" : 393,
+  "position" : 9,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 57,
+  "segment_id" : "PV2"
+}, {
+  "id" : 394,
+  "position" : 10,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 57,
+  "segment_id" : "ROL"
+}, {
+  "id" : 395,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 58,
+  "segment_id" : "MSH"
+}, {
+  "id" : 396,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 58,
+  "segment_id" : "SFT"
+}, {
+  "id" : 397,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 58,
+  "segment_id" : "UAC"
+}, {
+  "id" : 398,
+  "position" : 4,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 58,
+  "segment_id" : "EVN"
+}, {
+  "id" : 399,
+  "position" : 5,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 58,
+  "segment_id" : "PID"
+}, {
+  "id" : 400,
+  "position" : 6,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 58,
+  "segment_id" : "ARV"
+}, {
+  "id" : 401,
+  "position" : 7,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 58,
+  "segment_id" : "PV1"
+}, {
+  "id" : 402,
+  "position" : 8,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 58,
+  "segment_id" : "PV2"
+}, {
+  "id" : 403,
+  "position" : 9,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 58,
+  "segment_id" : "ARV"
+}, {
+  "id" : 404,
+  "position" : 10,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 58,
+  "segment_id" : "IAM"
+}, {
+  "id" : 405,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 59,
+  "segment_id" : "MSH"
+}, {
+  "id" : 406,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 59,
+  "segment_id" : "SFT"
+}, {
+  "id" : 407,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 59,
+  "segment_id" : "UAC"
+}, {
+  "id" : 408,
+  "position" : 4,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 59,
+  "segment_id" : "EVN"
+}, {
+  "id" : 409,
+  "position" : 5,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 59,
+  "segment_id" : "PID"
+}, {
+  "id" : 410,
+  "position" : 6,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 59,
+  "segment_id" : "PD1"
+}, {
+  "id" : 411,
+  "position" : 7,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 59,
+  "segment_id" : "ROL"
+}, {
+  "id" : 412,
+  "position" : 8,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 59,
+  "segment_id" : "PV1"
+}, {
+  "id" : 413,
+  "position" : 9,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 59,
+  "segment_id" : "ROL"
+}, {
+  "id" : 414,
+  "position" : 10,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 59,
+  "segment_id" : "PV2"
+}, {
+  "id" : 415,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 60,
+  "segment_id" : "MSH"
+}, {
+  "id" : 416,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 60,
+  "segment_id" : "SFT"
+}, {
+  "id" : 417,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 60,
+  "segment_id" : "UAC"
+}, {
+  "id" : 418,
+  "position" : 4,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 60,
+  "segment_id" : "EVN"
+}, {
+  "id" : 419,
+  "position" : 5,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 60,
+  "segment_id" : "PID"
+}, {
+  "id" : 420,
+  "position" : 6,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 60,
+  "segment_id" : "PD1"
+}, {
+  "id" : 421,
+  "position" : 7,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 60,
+  "segment_id" : "ROL"
+}, {
+  "id" : 422,
+  "position" : 8,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 60,
+  "group_id" : 66
+}, {
+  "id" : 423,
+  "position" : 9,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 66,
+  "segment_id" : "PV1"
+}, {
+  "id" : 424,
+  "position" : 10,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 66,
+  "segment_id" : "PV2"
+}, {
+  "id" : 425,
+  "position" : 11,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 66,
+  "segment_id" : "ROL"
+}, {
+  "id" : 426,
+  "position" : 12,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 66,
+  "segment_id" : "DB1"
+}, {
+  "id" : 427,
+  "position" : 13,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 66,
+  "segment_id" : "OBX"
+}, {
+  "id" : 428,
+  "position" : 14,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 66,
+  "segment_id" : "AL1"
+}, {
+  "id" : 429,
+  "position" : 15,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 66,
+  "segment_id" : "DG1"
+}, {
+  "id" : 430,
+  "position" : 16,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 66,
+  "segment_id" : "DRG"
+}, {
+  "id" : 431,
+  "position" : 17,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 66,
+  "group_id" : 62
+}, {
+  "id" : 432,
+  "position" : 18,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 62,
+  "segment_id" : "PR1"
+}, {
+  "id" : 433,
+  "position" : 19,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 62,
+  "segment_id" : "ROL"
+}, {
+  "id" : 435,
+  "position" : 20,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 66,
+  "segment_id" : "GT1"
+}, {
+  "id" : 436,
+  "position" : 21,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 66,
+  "segment_id" : "NK1"
+}, {
+  "id" : 437,
+  "position" : 22,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 66,
+  "group_id" : 64
+}, {
+  "id" : 438,
+  "position" : 23,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 64,
+  "segment_id" : "IN1"
+}, {
+  "id" : 439,
+  "position" : 24,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 64,
+  "segment_id" : "IN2"
+}, {
+  "id" : 440,
+  "position" : 25,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 64,
+  "segment_id" : "IN3"
+}, {
+  "id" : 441,
+  "position" : 26,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 64,
+  "segment_id" : "ROL"
+}, {
+  "id" : 443,
+  "position" : 27,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 66,
+  "segment_id" : "ACC"
+}, {
+  "id" : 444,
+  "position" : 28,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 66,
+  "segment_id" : "UB1"
+}, {
+  "id" : 445,
+  "position" : 29,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 66,
+  "segment_id" : "UB2"
+}, {
+  "id" : 447,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 67,
+  "segment_id" : "MSH"
+}, {
+  "id" : 448,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 67,
+  "segment_id" : "SFT"
+}, {
+  "id" : 449,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 67,
+  "segment_id" : "UAC"
+}, {
+  "id" : 450,
+  "position" : 4,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 67,
+  "segment_id" : "EVN"
+}, {
+  "id" : 451,
+  "position" : 5,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 67,
+  "group_id" : 68
+}, {
+  "id" : 452,
+  "position" : 6,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 68,
+  "segment_id" : "PID"
+}, {
+  "id" : 453,
+  "position" : 7,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 68,
+  "segment_id" : "PD1"
+}, {
+  "id" : 454,
+  "position" : 8,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 68,
+  "segment_id" : "PV1"
+}, {
+  "id" : 455,
+  "position" : 9,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 68,
+  "segment_id" : "DB1"
+}, {
+  "id" : 457,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 70,
+  "segment_id" : "MSH"
+}, {
+  "id" : 458,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 70,
+  "segment_id" : "SFT"
+}, {
+  "id" : 459,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 70,
+  "segment_id" : "UAC"
+}, {
+  "id" : 460,
+  "position" : 4,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 70,
+  "segment_id" : "EVN"
+}, {
+  "id" : 461,
+  "position" : 5,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 70,
+  "segment_id" : "PID"
+}, {
+  "id" : 462,
+  "position" : 6,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 70,
+  "segment_id" : "PD1"
+}, {
+  "id" : 463,
+  "position" : 7,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 70,
+  "segment_id" : "ROL"
+}, {
+  "id" : 464,
+  "position" : 8,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 70,
+  "group_id" : 76
+}, {
+  "id" : 465,
+  "position" : 9,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 76,
+  "segment_id" : "PV1"
+}, {
+  "id" : 466,
+  "position" : 10,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 76,
+  "segment_id" : "PV2"
+}, {
+  "id" : 467,
+  "position" : 11,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 76,
+  "segment_id" : "ROL"
+}, {
+  "id" : 468,
+  "position" : 12,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 76,
+  "segment_id" : "DB1"
+}, {
+  "id" : 469,
+  "position" : 13,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 76,
+  "segment_id" : "OBX"
+}, {
+  "id" : 470,
+  "position" : 14,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 76,
+  "segment_id" : "AL1"
+}, {
+  "id" : 471,
+  "position" : 15,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 76,
+  "segment_id" : "DG1"
+}, {
+  "id" : 472,
+  "position" : 16,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 76,
+  "segment_id" : "DRG"
+}, {
+  "id" : 473,
+  "position" : 17,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 76,
+  "group_id" : 72
+}, {
+  "id" : 474,
+  "position" : 18,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 72,
+  "segment_id" : "PR1"
+}, {
+  "id" : 475,
+  "position" : 19,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 72,
+  "segment_id" : "ROL"
+}, {
+  "id" : 477,
+  "position" : 20,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 76,
+  "segment_id" : "GT1"
+}, {
+  "id" : 478,
+  "position" : 21,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 76,
+  "segment_id" : "NK1"
+}, {
+  "id" : 479,
+  "position" : 22,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 76,
+  "group_id" : 74
+}, {
+  "id" : 480,
+  "position" : 23,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 74,
+  "segment_id" : "IN1"
+}, {
+  "id" : 481,
+  "position" : 24,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 74,
+  "segment_id" : "IN2"
+}, {
+  "id" : 482,
+  "position" : 25,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 74,
+  "segment_id" : "IN3"
+}, {
+  "id" : 483,
+  "position" : 26,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 74,
+  "segment_id" : "ROL"
+}, {
+  "id" : 485,
+  "position" : 27,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 76,
+  "segment_id" : "ACC"
+}, {
+  "id" : 486,
+  "position" : 28,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 76,
+  "segment_id" : "UB1"
+}, {
+  "id" : 487,
+  "position" : 29,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 76,
+  "segment_id" : "UB2"
+}, {
+  "id" : 488,
+  "position" : 30,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 76,
+  "segment_id" : "ABS"
+}, {
+  "id" : 489,
+  "position" : 31,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 76,
+  "segment_id" : "BLC"
+}, {
+  "id" : 490,
+  "position" : 32,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 76,
+  "segment_id" : "RMI"
+}, {
+  "id" : 492,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 77,
+  "segment_id" : "MSH"
+}, {
+  "id" : 493,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 77,
+  "segment_id" : "SFT"
+}, {
+  "id" : 494,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 77,
+  "segment_id" : "UAC"
+}, {
+  "id" : 495,
+  "position" : 4,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 77,
+  "segment_id" : "EVN"
+}, {
+  "id" : 496,
+  "position" : 5,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 77,
+  "group_id" : 78
+}, {
+  "id" : 497,
+  "position" : 6,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 78,
+  "segment_id" : "PID"
+}, {
+  "id" : 498,
+  "position" : 7,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 78,
+  "segment_id" : "PV1"
+}, {
+  "id" : 500,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 80,
+  "segment_id" : "MSH"
+}, {
+  "id" : 501,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 80,
+  "segment_id" : "SFT"
+}, {
+  "id" : 502,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 80,
+  "segment_id" : "UAC"
+}, {
+  "id" : 503,
+  "position" : 4,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 80,
+  "segment_id" : "EVN"
+}, {
+  "id" : 504,
+  "position" : 5,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 80,
+  "segment_id" : "PID"
+}, {
+  "id" : 505,
+  "position" : 6,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 80,
+  "segment_id" : "PV1"
+}, {
+  "id" : 506,
+  "position" : 7,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 80,
+  "segment_id" : "DG1"
+}, {
+  "id" : 507,
+  "position" : 8,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 80,
+  "segment_id" : "GP1"
+}, {
+  "id" : 508,
+  "position" : 9,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 80,
+  "group_id" : 81
+}, {
+  "id" : 509,
+  "position" : 10,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 81,
+  "segment_id" : "PR1"
+}, {
+  "id" : 510,
+  "position" : 11,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 81,
+  "segment_id" : "GP2"
+}, {
+  "id" : 512,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 83,
+  "segment_id" : "MSH"
+}, {
+  "id" : 513,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 83,
+  "segment_id" : "SFT"
+}, {
+  "id" : 514,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 83,
+  "segment_id" : "UAC"
+}, {
+  "id" : 515,
+  "position" : 4,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 83,
+  "segment_id" : "EVN"
+}, {
+  "id" : 516,
+  "position" : 5,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 83,
+  "segment_id" : "PID"
+}, {
+  "id" : 517,
+  "position" : 6,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 83,
+  "segment_id" : "PV1"
+}, {
+  "id" : 518,
+  "position" : 7,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 83,
+  "segment_id" : "DG1"
+}, {
+  "id" : 519,
+  "position" : 8,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 83,
+  "segment_id" : "DRG"
+}, {
+  "id" : 520,
+  "position" : 9,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 83,
+  "group_id" : 84
+}, {
+  "id" : 521,
+  "position" : 10,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 84,
+  "segment_id" : "PR1"
+}, {
+  "id" : 522,
+  "position" : 11,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 84,
+  "segment_id" : "ROL"
+}, {
+  "id" : 524,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 86,
+  "segment_id" : "MSH"
+}, {
+  "id" : 525,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 86,
+  "segment_id" : "SFT"
+}, {
+  "id" : 526,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 86,
+  "segment_id" : "UAC"
+}, {
+  "id" : 527,
+  "position" : 4,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 86,
+  "segment_id" : "NTE"
+}, {
+  "id" : 528,
+  "position" : 5,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 86,
+  "group_id" : 90
+}, {
+  "id" : 529,
+  "position" : 6,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 90,
+  "segment_id" : "PID"
+}, {
+  "id" : 530,
+  "position" : 7,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 90,
+  "segment_id" : "PD1"
+}, {
+  "id" : 531,
+  "position" : 8,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 90,
+  "segment_id" : "NTE"
+}, {
+  "id" : 532,
+  "position" : 9,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 90,
+  "group_id" : 88
+}, {
+  "id" : 533,
+  "position" : 10,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 88,
+  "segment_id" : "PV1"
+}, {
+  "id" : 534,
+  "position" : 11,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 88,
+  "segment_id" : "PV2"
+}, {
+  "id" : 537,
+  "position" : 12,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 88,
+  "group_id" : 96
+}, {
+  "id" : 538,
+  "position" : 13,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 96,
+  "segment_id" : "ORC"
+}, {
+  "id" : 539,
+  "position" : 14,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 96,
+  "group_id" : 92
+}, {
+  "id" : 540,
+  "position" : 15,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 92,
+  "segment_id" : "TQ1"
+}, {
+  "id" : 541,
+  "position" : 16,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 92,
+  "segment_id" : "TQ2"
+}, {
+  "id" : 543,
+  "position" : 17,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 96,
+  "segment_id" : "BPO"
+}, {
+  "id" : 544,
+  "position" : 18,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 96,
+  "segment_id" : "NTE"
+}, {
+  "id" : 545,
+  "position" : 19,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 96,
+  "group_id" : 94
+}, {
+  "id" : 546,
+  "position" : 20,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 94,
+  "segment_id" : "BPX"
+}, {
+  "id" : 547,
+  "position" : 21,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 94,
+  "segment_id" : "NTE"
+}, {
+  "id" : 550,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 97,
+  "segment_id" : "MSH"
+}, {
+  "id" : 551,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 97,
+  "segment_id" : "MSA"
+}, {
+  "id" : 552,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 97,
+  "segment_id" : "ERR"
+}, {
+  "id" : 553,
+  "position" : 4,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 97,
+  "segment_id" : "SFT"
+}, {
+  "id" : 554,
+  "position" : 5,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 97,
+  "segment_id" : "UAC"
+}, {
+  "id" : 555,
+  "position" : 6,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 97,
+  "segment_id" : "NTE"
+}, {
+  "id" : 556,
+  "position" : 7,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 97,
+  "group_id" : 105
+}, {
+  "id" : 557,
+  "position" : 8,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 105,
+  "group_id" : 104
+}, {
+  "id" : 558,
+  "position" : 9,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 104,
+  "segment_id" : "PID"
+}, {
+  "id" : 559,
+  "position" : 10,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 104,
+  "group_id" : 103
+}, {
+  "id" : 560,
+  "position" : 11,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 103,
+  "segment_id" : "ORC"
+}, {
+  "id" : 561,
+  "position" : 12,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 103,
+  "group_id" : 101
+}, {
+  "id" : 562,
+  "position" : 13,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 101,
+  "segment_id" : "TQ1"
+}, {
+  "id" : 563,
+  "position" : 14,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 101,
+  "segment_id" : "TQ2"
+}, {
+  "id" : 565,
+  "position" : 15,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 103,
+  "segment_id" : "BPO"
+}, {
+  "id" : 566,
+  "position" : 16,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 103,
+  "segment_id" : "BPX"
+}, {
+  "id" : 570,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 106,
+  "segment_id" : "MSH"
+}, {
+  "id" : 571,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 106,
+  "segment_id" : "MSA"
+}, {
+  "id" : 572,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 106,
+  "segment_id" : "ERR"
+}, {
+  "id" : 573,
+  "position" : 4,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 106,
+  "segment_id" : "SFT"
+}, {
+  "id" : 574,
+  "position" : 5,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 106,
+  "segment_id" : "UAC"
+}, {
+  "id" : 575,
+  "position" : 6,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 106,
+  "segment_id" : "NTE"
+}, {
+  "id" : 576,
+  "position" : 7,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 106,
+  "group_id" : 112
+}, {
+  "id" : 577,
+  "position" : 8,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 112,
+  "segment_id" : "PID"
+}, {
+  "id" : 578,
+  "position" : 9,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 112,
+  "group_id" : 111
+}, {
+  "id" : 579,
+  "position" : 10,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 111,
+  "segment_id" : "ORC"
+}, {
+  "id" : 580,
+  "position" : 11,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 111,
+  "group_id" : 109
+}, {
+  "id" : 581,
+  "position" : 12,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 109,
+  "segment_id" : "TQ1"
+}, {
+  "id" : 582,
+  "position" : 13,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 109,
+  "segment_id" : "TQ2"
+}, {
+  "id" : 584,
+  "position" : 14,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 111,
+  "segment_id" : "BPO"
+}, {
+  "id" : 585,
+  "position" : 15,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 111,
+  "segment_id" : "BTX"
+}, {
+  "id" : 588,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 113,
+  "segment_id" : "MSH"
+}, {
+  "id" : 589,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 113,
+  "segment_id" : "SFT"
+}, {
+  "id" : 590,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 113,
+  "segment_id" : "UAC"
+}, {
+  "id" : 591,
+  "position" : 4,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 113,
+  "segment_id" : "NTE"
+}, {
+  "id" : 592,
+  "position" : 5,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 113,
+  "group_id" : 117
+}, {
+  "id" : 593,
+  "position" : 6,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 117,
+  "segment_id" : "PID"
+}, {
+  "id" : 594,
+  "position" : 7,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 117,
+  "segment_id" : "PD1"
+}, {
+  "id" : 595,
+  "position" : 8,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 117,
+  "segment_id" : "NTE"
+}, {
+  "id" : 596,
+  "position" : 9,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 117,
+  "group_id" : 115
+}, {
+  "id" : 597,
+  "position" : 10,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 115,
+  "segment_id" : "PV1"
+}, {
+  "id" : 598,
+  "position" : 11,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 115,
+  "segment_id" : "PV2"
+}, {
+  "id" : 601,
+  "position" : 12,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 115,
+  "group_id" : 123
+}, {
+  "id" : 602,
+  "position" : 13,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 123,
+  "segment_id" : "ORC"
+}, {
+  "id" : 603,
+  "position" : 14,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 123,
+  "group_id" : 119
+}, {
+  "id" : 604,
+  "position" : 15,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 119,
+  "segment_id" : "TQ1"
+}, {
+  "id" : 605,
+  "position" : 16,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 119,
+  "segment_id" : "TQ2"
+}, {
+  "id" : 607,
+  "position" : 17,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 123,
+  "segment_id" : "BPO"
+}, {
+  "id" : 608,
+  "position" : 18,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 123,
+  "segment_id" : "NTE"
+}, {
+  "id" : 609,
+  "position" : 19,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 123,
+  "group_id" : 121
+}, {
+  "id" : 610,
+  "position" : 20,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 121,
+  "segment_id" : "BTX"
+}, {
+  "id" : 611,
+  "position" : 21,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 121,
+  "segment_id" : "NTE"
+}, {
+  "id" : 614,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 124,
+  "segment_id" : "MSH"
+}, {
+  "id" : 615,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 124,
+  "segment_id" : "SFT"
+}, {
+  "id" : 616,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 124,
+  "segment_id" : "UAC"
+}, {
+  "id" : 617,
+  "position" : 4,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 124,
+  "group_id" : 125
+}, {
+  "id" : 618,
+  "position" : 5,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 125,
+  "segment_id" : "PID"
+}, {
+  "id" : 619,
+  "position" : 6,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 125,
+  "segment_id" : "PV1"
+}, {
+  "id" : 620,
+  "position" : 7,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 125,
+  "segment_id" : "CSR"
+}, {
+  "id" : 621,
+  "position" : 8,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 125,
+  "segment_id" : "CSP"
+}, {
+  "id" : 623,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 127,
+  "segment_id" : "MSH"
+}, {
+  "id" : 624,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 127,
+  "segment_id" : "SFT"
+}, {
+  "id" : 625,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 127,
+  "segment_id" : "UAC"
+}, {
+  "id" : 626,
+  "position" : 4,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 127,
+  "group_id" : 143
+}, {
+  "id" : 627,
+  "position" : 5,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 143,
+  "segment_id" : "PID"
+}, {
+  "id" : 628,
+  "position" : 6,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 143,
+  "segment_id" : "PD1"
+}, {
+  "id" : 629,
+  "position" : 7,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 143,
+  "segment_id" : "NTE"
+}, {
+  "id" : 630,
+  "position" : 8,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 143,
+  "group_id" : 129
+}, {
+  "id" : 631,
+  "position" : 9,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 129,
+  "segment_id" : "PV1"
+}, {
+  "id" : 632,
+  "position" : 10,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 129,
+  "segment_id" : "PV2"
+}, {
+  "id" : 634,
+  "position" : 11,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 143,
+  "segment_id" : "CSR"
+}, {
+  "id" : 635,
+  "position" : 12,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 143,
+  "group_id" : 142
+}, {
+  "id" : 636,
+  "position" : 13,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 142,
+  "segment_id" : "CSP"
+}, {
+  "id" : 637,
+  "position" : 14,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 142,
+  "group_id" : 141
+}, {
+  "id" : 638,
+  "position" : 15,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 141,
+  "segment_id" : "CSS"
+}, {
+  "id" : 639,
+  "position" : 16,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 141,
+  "group_id" : 136
+}, {
+  "id" : 640,
+  "position" : 17,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 136,
+  "segment_id" : "ORC"
+}, {
+  "id" : 641,
+  "position" : 18,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 136,
+  "segment_id" : "OBR"
+}, {
+  "id" : 642,
+  "position" : 19,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 136,
+  "segment_id" : "ROL"
+}, {
+  "id" : 643,
+  "position" : 20,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 136,
+  "group_id" : 134
+}, {
+  "id" : 644,
+  "position" : 21,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 134,
+  "segment_id" : "TQ1"
+}, {
+  "id" : 645,
+  "position" : 22,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 134,
+  "segment_id" : "TQ2"
+}, {
+  "id" : 647,
+  "position" : 23,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "*",
+  "parent_id" : 136,
+  "segment_id" : "OBX"
+}, {
+  "id" : 649,
+  "position" : 24,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 136,
+  "group_id" : 140
+}, {
+  "id" : 650,
+  "position" : 25,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 140,
+  "segment_id" : "ORC"
+}, {
+  "id" : 651,
+  "position" : 26,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 140,
+  "group_id" : 138
+}, {
+  "id" : 652,
+  "position" : 27,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 138,
+  "segment_id" : "RXA"
+}, {
+  "id" : 653,
+  "position" : 28,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 138,
+  "segment_id" : "RXR"
+}, {
+  "id" : 659,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "*",
+  "parent_id" : 144,
+  "segment_id" : "MSH"
+}, {
+  "id" : 660,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 144,
+  "segment_id" : "SFT"
+}, {
+  "id" : 661,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 144,
+  "segment_id" : "UAC"
+}, {
+  "id" : 662,
+  "position" : 4,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 144,
+  "segment_id" : "EVN"
+}, {
+  "id" : 663,
+  "position" : 5,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 144,
+  "segment_id" : "PID"
+}, {
+  "id" : 664,
+  "position" : 6,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 144,
+  "segment_id" : "PD1"
+}, {
+  "id" : 665,
+  "position" : 7,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 144,
+  "segment_id" : "ROL"
+}, {
+  "id" : 666,
+  "position" : 8,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 144,
+  "segment_id" : "PV1"
+}, {
+  "id" : 667,
+  "position" : 9,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 144,
+  "segment_id" : "PV2"
+}, {
+  "id" : 668,
+  "position" : 10,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 144,
+  "segment_id" : "ROL"
+}, {
+  "id" : 669,
+  "position" : 11,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 144,
+  "segment_id" : "DB1"
+}, {
+  "id" : 670,
+  "position" : 12,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 144,
+  "group_id" : 152
+}, {
+  "id" : 671,
+  "position" : 13,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 152,
+  "segment_id" : "ORC"
+}, {
+  "id" : 672,
+  "position" : 14,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 152,
+  "group_id" : 146
+}, {
+  "id" : 673,
+  "position" : 15,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 146,
+  "segment_id" : "TQ1"
+}, {
+  "id" : 674,
+  "position" : 16,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 146,
+  "segment_id" : "TQ2"
+}, {
+  "id" : 676,
+  "position" : 17,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 146,
+  "group_id" : 148
+}, {
+  "id" : 677,
+  "position" : 18,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 148,
+  "segment_id" : "OBR"
+}, {
+  "id" : 678,
+  "position" : 19,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 148,
+  "segment_id" : "NTE"
+}, {
+  "id" : 680,
+  "position" : 20,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 148,
+  "group_id" : 150
+}, {
+  "id" : 681,
+  "position" : 21,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 150,
+  "segment_id" : "OBX"
+}, {
+  "id" : 682,
+  "position" : 22,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 150,
+  "segment_id" : "NTE"
+}, {
+  "id" : 685,
+  "position" : 23,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 150,
+  "group_id" : 164
+}, {
+  "id" : 686,
+  "position" : 24,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 164,
+  "segment_id" : "FT1"
+}, {
+  "id" : 687,
+  "position" : 25,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 164,
+  "segment_id" : "NTE"
+}, {
+  "id" : 688,
+  "position" : 26,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 164,
+  "group_id" : 154
+}, {
+  "id" : 689,
+  "position" : 27,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 154,
+  "segment_id" : "PR1"
+}, {
+  "id" : 690,
+  "position" : 28,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 154,
+  "segment_id" : "ROL"
+}, {
+  "id" : 692,
+  "position" : 29,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 154,
+  "group_id" : 163
+}, {
+  "id" : 693,
+  "position" : 30,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 163,
+  "segment_id" : "ORC"
+}, {
+  "id" : 694,
+  "position" : 31,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 163,
+  "group_id" : 157
+}, {
+  "id" : 695,
+  "position" : 32,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 157,
+  "segment_id" : "TQ1"
+}, {
+  "id" : 696,
+  "position" : 33,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 157,
+  "segment_id" : "TQ2"
+}, {
+  "id" : 698,
+  "position" : 34,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 157,
+  "group_id" : 159
+}, {
+  "id" : 699,
+  "position" : 35,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 159,
+  "segment_id" : "OBR"
+}, {
+  "id" : 700,
+  "position" : 36,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 159,
+  "segment_id" : "NTE"
+}, {
+  "id" : 702,
+  "position" : 37,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 159,
+  "group_id" : 161
+}, {
+  "id" : 703,
+  "position" : 38,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 161,
+  "segment_id" : "OBX"
+}, {
+  "id" : 704,
+  "position" : 39,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 161,
+  "segment_id" : "NTE"
+}, {
+  "id" : 708,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 144,
+  "segment_id" : "DG1"
+}, {
+  "id" : 709,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 144,
+  "segment_id" : "DRG"
+}, {
+  "id" : 710,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 144,
+  "segment_id" : "GT1"
+}, {
+  "id" : 711,
+  "position" : 4,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 144,
+  "group_id" : 165
+}, {
+  "id" : 712,
+  "position" : 5,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 165,
+  "segment_id" : "IN1"
+}, {
+  "id" : 713,
+  "position" : 6,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 165,
+  "segment_id" : "IN2"
+}, {
+  "id" : 714,
+  "position" : 7,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 165,
+  "segment_id" : "IN3"
+}, {
+  "id" : 715,
+  "position" : 8,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 165,
+  "segment_id" : "ROL"
+}, {
+  "id" : 717,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 144,
+  "segment_id" : "ACC"
+}, {
+  "id" : 718,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 167,
+  "segment_id" : "MSH"
+}, {
+  "id" : 719,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 167,
+  "segment_id" : "SFT"
+}, {
+  "id" : 720,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 167,
+  "segment_id" : "UAC"
+}, {
+  "id" : 721,
+  "position" : 4,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 167,
+  "segment_id" : "EVN"
+}, {
+  "id" : 722,
+  "position" : 5,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 167,
+  "segment_id" : "PID"
+}, {
+  "id" : 723,
+  "position" : 6,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 167,
+  "segment_id" : "PD1"
+}, {
+  "id" : 724,
+  "position" : 7,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 167,
+  "segment_id" : "ROL"
+}, {
+  "id" : 725,
+  "position" : 8,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 167,
+  "segment_id" : "PV1"
+}, {
+  "id" : 726,
+  "position" : 9,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 167,
+  "segment_id" : "PV2"
+}, {
+  "id" : 727,
+  "position" : 10,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 167,
+  "segment_id" : "ROL"
+}, {
+  "id" : 728,
+  "position" : 11,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 167,
+  "segment_id" : "DB1"
+}, {
+  "id" : 729,
+  "position" : 12,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 167,
+  "group_id" : 175
+}, {
+  "id" : 730,
+  "position" : 13,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 175,
+  "segment_id" : "ORC"
+}, {
+  "id" : 731,
+  "position" : 14,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 175,
+  "group_id" : 169
+}, {
+  "id" : 732,
+  "position" : 15,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 169,
+  "segment_id" : "TQ1"
+}, {
+  "id" : 733,
+  "position" : 16,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 169,
+  "segment_id" : "TQ2"
+}, {
+  "id" : 735,
+  "position" : 17,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 169,
+  "group_id" : 171
+}, {
+  "id" : 736,
+  "position" : 18,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 171,
+  "segment_id" : "OBR"
+}, {
+  "id" : 737,
+  "position" : 19,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 171,
+  "segment_id" : "NTE"
+}, {
+  "id" : 739,
+  "position" : 20,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 171,
+  "group_id" : 173
+}, {
+  "id" : 740,
+  "position" : 21,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 173,
+  "segment_id" : "OBX"
+}, {
+  "id" : 741,
+  "position" : 22,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 173,
+  "segment_id" : "NTE"
+}, {
+  "id" : 744,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 167,
+  "segment_id" : "DG1"
+}, {
+  "id" : 745,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 167,
+  "segment_id" : "DRG"
+}, {
+  "id" : 746,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 167,
+  "segment_id" : "GT1"
+}, {
+  "id" : 747,
+  "position" : 4,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 167,
+  "group_id" : 176
+}, {
+  "id" : 748,
+  "position" : 5,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 176,
+  "segment_id" : "IN1"
+}, {
+  "id" : 749,
+  "position" : 6,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 176,
+  "segment_id" : "IN2"
+}, {
+  "id" : 750,
+  "position" : 7,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 176,
+  "segment_id" : "IN3"
+}, {
+  "id" : 751,
+  "position" : 8,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 176,
+  "segment_id" : "ROL"
+}, {
+  "id" : 753,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 167,
+  "segment_id" : "ACC"
+}, {
+  "id" : 754,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 167,
+  "group_id" : 191
+}, {
+  "id" : 755,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 191,
+  "segment_id" : "FT1"
+}, {
+  "id" : 756,
+  "position" : 4,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 191,
+  "group_id" : 179
+}, {
+  "id" : 757,
+  "position" : 5,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 179,
+  "segment_id" : "PR1"
+}, {
+  "id" : 758,
+  "position" : 6,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 179,
+  "segment_id" : "ROL"
+}, {
+  "id" : 760,
+  "position" : 7,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 179,
+  "group_id" : 188
+}, {
+  "id" : 761,
+  "position" : 8,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 188,
+  "segment_id" : "ORC"
+}, {
+  "id" : 762,
+  "position" : 9,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 188,
+  "group_id" : 182
+}, {
+  "id" : 763,
+  "position" : 10,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 182,
+  "segment_id" : "TQ1"
+}, {
+  "id" : 764,
+  "position" : 11,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 182,
+  "segment_id" : "TQ2"
+}, {
+  "id" : 766,
+  "position" : 12,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 182,
+  "group_id" : 184
+}, {
+  "id" : 767,
+  "position" : 13,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 184,
+  "segment_id" : "OBR"
+}, {
+  "id" : 768,
+  "position" : 14,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 184,
+  "segment_id" : "NTE"
+}, {
+  "id" : 770,
+  "position" : 15,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 184,
+  "group_id" : 186
+}, {
+  "id" : 771,
+  "position" : 16,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 186,
+  "segment_id" : "OBX"
+}, {
+  "id" : 772,
+  "position" : 17,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 186,
+  "segment_id" : "NTE"
+}, {
+  "id" : 775,
+  "position" : 18,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 191,
+  "segment_id" : "DG1"
+}, {
+  "id" : 776,
+  "position" : 19,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 191,
+  "segment_id" : "DRG"
+}, {
+  "id" : 777,
+  "position" : 20,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 191,
+  "segment_id" : "GT1"
+}, {
+  "id" : 778,
+  "position" : 21,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 191,
+  "group_id" : 189
+}, {
+  "id" : 779,
+  "position" : 22,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 189,
+  "segment_id" : "IN1"
+}, {
+  "id" : 780,
+  "position" : 23,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 189,
+  "segment_id" : "IN2"
+}, {
+  "id" : 781,
+  "position" : 24,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 189,
+  "segment_id" : "IN3"
+}, {
+  "id" : 782,
+  "position" : 25,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 189,
+  "segment_id" : "ROL"
+}, {
+  "id" : 785,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 192,
+  "segment_id" : "MSH"
+}, {
+  "id" : 786,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 192,
+  "segment_id" : "MSA"
+}, {
+  "id" : 787,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 192,
+  "segment_id" : "ERR"
+}, {
+  "id" : 788,
+  "position" : 4,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 192,
+  "segment_id" : "QAK"
+}, {
+  "id" : 789,
+  "position" : 5,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 192,
+  "segment_id" : "QRD"
+}, {
+  "id" : 790,
+  "position" : 6,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 192,
+  "group_id" : 193
+}, {
+  "id" : 791,
+  "position" : 7,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 193,
+  "segment_id" : "EVN"
+}, {
+  "id" : 792,
+  "position" : 8,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 193,
+  "segment_id" : "PID"
+}, {
+  "id" : 793,
+  "position" : 9,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 193,
+  "segment_id" : "PV1"
+}, {
+  "id" : 794,
+  "position" : 10,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 193,
+  "segment_id" : "TXA"
+}, {
+  "id" : 795,
+  "position" : 11,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 193,
+  "segment_id" : "OBX"
+}, {
+  "id" : 797,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 192,
+  "segment_id" : "DSC"
+}, {
+  "id" : 798,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 195,
+  "segment_id" : "MSH"
+}, {
+  "id" : 799,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 195,
+  "segment_id" : "SFT"
+}, {
+  "id" : 800,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 195,
+  "segment_id" : "UAC"
+}, {
+  "id" : 801,
+  "position" : 4,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 195,
+  "segment_id" : "EQU"
+}, {
+  "id" : 802,
+  "position" : 5,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 195,
+  "group_id" : 199
+}, {
+  "id" : 803,
+  "position" : 6,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 199,
+  "segment_id" : "ECD"
+}, {
+  "id" : 804,
+  "position" : 7,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 199,
+  "segment_id" : "TQ1"
+}, {
+  "id" : 805,
+  "position" : 8,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 199,
+  "group_id" : 197
+}, {
+  "id" : 806,
+  "position" : 9,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 197,
+  "segment_id" : "SAC"
+}, {
+  "id" : 807,
+  "position" : 10,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 197,
+  "segment_id" : "SPM"
+}, {
+  "id" : 809,
+  "position" : 11,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 199,
+  "segment_id" : "CNS"
+}, {
+  "id" : 811,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 195,
+  "segment_id" : "ROL"
+}, {
+  "id" : 812,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 200,
+  "segment_id" : "MSH"
+}, {
+  "id" : 813,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 200,
+  "segment_id" : "SFT"
+}, {
+  "id" : 814,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 200,
+  "segment_id" : "UAC"
+}, {
+  "id" : 815,
+  "position" : 4,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 200,
+  "segment_id" : "EQU"
+}, {
+  "id" : 816,
+  "position" : 5,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 200,
+  "group_id" : 201
+}, {
+  "id" : 817,
+  "position" : 6,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 201,
+  "segment_id" : "NDS"
+}, {
+  "id" : 818,
+  "position" : 7,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 201,
+  "segment_id" : "NTE"
+}, {
+  "id" : 820,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 200,
+  "segment_id" : "ROL"
+}, {
+  "id" : 821,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 203,
+  "segment_id" : "MSH"
+}, {
+  "id" : 822,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 203,
+  "segment_id" : "SFT"
+}, {
+  "id" : 823,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 203,
+  "segment_id" : "UAC"
+}, {
+  "id" : 824,
+  "position" : 4,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 203,
+  "segment_id" : "EQU"
+}, {
+  "id" : 825,
+  "position" : 5,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 203,
+  "group_id" : 207
+}, {
+  "id" : 826,
+  "position" : 6,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 207,
+  "segment_id" : "ECD"
+}, {
+  "id" : 827,
+  "position" : 7,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 207,
+  "group_id" : 205
+}, {
+  "id" : 828,
+  "position" : 8,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 205,
+  "segment_id" : "SAC"
+}, {
+  "id" : 829,
+  "position" : 9,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 205,
+  "segment_id" : "SPM"
+}, {
+  "id" : 831,
+  "position" : 10,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 207,
+  "segment_id" : "ECR"
+}, {
+  "id" : 833,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "1",
+  "parent_id" : 203,
+  "segment_id" : "ROL"
+}, {
+  "id" : 834,
+  "position" : 1,
+  "usage" : "O",
+  "min" : 1,
+  "max" : "1",
+  "parent_id" : 208,
+  "segment_id" : "MSH"
+}, {
+  "id" : 835,
+  "position" : 2,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 208,
+  "segment_id" : "SFT"
+}, {
+  "id" : 836,
+  "position" : 3,
+  "usage" : "O",
+  "min" : 0,
+  "max" : "*",
+  "parent_id" : 208,
+  "segment_id" : "UAC"
+} ]

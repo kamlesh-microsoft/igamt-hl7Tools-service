@@ -10,7 +10,7 @@ public class Component {
 	private Usage usage;
 	private int minLength;
 	private int maxLength;
-	private int confLength;
+	private String confLength;
 	private String tableId;
 	//FIXME Handle truncation allowed 
 	private String truncation = "NA";
@@ -115,13 +115,13 @@ public class Component {
 	/**
 	 * @return the confLength
 	 */
-	public int getConfLength() {
+	public String getConfLength() {
 		return confLength;
 	}
 	/**
 	 * @param confLength the confLength to set
 	 */
-	public void setConfLength(int confLength) {
+	public void setConfLength(String confLength) {
 		this.confLength = confLength;
 	}
 	/**

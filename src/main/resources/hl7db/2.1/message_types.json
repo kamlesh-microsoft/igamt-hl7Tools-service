@@ -1,1 +1,50 @@
-[{"id":"ACK","description":"General acknowledgment message","section":"null"},{"id":"ADT","description":"ADT message","section":"null"},{"id":"ARD","description":"ANCILLARY RPT (DISPLAY)","section":"null"},{"id":"BAR","description":"Add/change billing account","section":"null"},{"id":"DFT","description":"Detail financial transactions","section":"null"},{"id":"DSR","description":"Display response","section":"null"},{"id":"MCF","description":"Delayed Acknowledgment (Retained for backward compatibility only)","section":"null"},{"id":"NUL","description":"#FIXME#","section":"null"},{"id":"OCF","description":"ORDER CONFIRMATION","section":"null"},{"id":"ORF","description":"Query for results of observation","section":"null"},{"id":"ORM","description":"Pharmacy/treatment order message","section":"null"},{"id":"ORR","description":"General order response message response to any ORM","section":"null"},{"id":"ORU","description":"Unsolicited transmission of an observation message","section":"null"},{"id":"OSQ","description":"Query response for order status","section":"null"},{"id":"QRY","description":"Query, original mode","section":"null"},{"id":"UDM","description":"Unsolicited display update message","section":"null"}]
+[ {
+  "id" : "ACK",
+  "description" : "General acknowledgment message"
+}, {
+  "id" : "ADR",
+  "description" : "ANCILLARY RPT (DISPLAY)"
+}, {
+  "id" : "ADT",
+  "description" : "ADT message"
+}, {
+  "id" : "BAR",
+  "description" : "Add/change billing account"
+}, {
+  "id" : "DFT",
+  "description" : "Detail financial transactions"
+}, {
+  "id" : "DSR",
+  "description" : "Display response"
+}, {
+  "id" : "MCF",
+  "description" : "Delayed Acknowledgment (Retained for backward compatibility only)"
+}, {
+  "id" : "NUL",
+  "description" : "No message required (for referential integrity)",
+  "section" : "0"
+}, {
+  "id" : "OCF",
+  "description" : "ORDER CONFIRMATION"
+}, {
+  "id" : "ORF",
+  "description" : "Query for results of observation"
+}, {
+  "id" : "ORM",
+  "description" : "Pharmacy/treatment order message"
+}, {
+  "id" : "ORR",
+  "description" : "General order response message response to any ORM"
+}, {
+  "id" : "ORU",
+  "description" : "Unsolicited transmission of an observation message"
+}, {
+  "id" : "OSQ",
+  "description" : "Query response for order status"
+}, {
+  "id" : "QRY",
+  "description" : "Query, original mode"
+}, {
+  "id" : "UDM",
+  "description" : "Unsolicited display update message"
+} ]

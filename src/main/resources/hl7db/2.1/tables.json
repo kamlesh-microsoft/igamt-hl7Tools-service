@@ -1,1 +1,536 @@
-[{"id":"0001","description":"SEX","type":"HL7","oid":"UNSPECIFIED","section":"null"},{"id":"0002","description":"MARITAL STATUS","type":"HL7","oid":"UNSPECIFIED","section":"null"},{"id":"0003","description":"EVENT TYPE CODE","type":"HL7","oid":"UNSPECIFIED","section":"null"},{"id":"0004","description":"PATIENT CLASS","type":"HL7 AND USER","oid":"UNSPECIFIED","section":"null"},{"id":"0005","description":"ETHNIC GROUP","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0006","description":"RELIGION","type":"HL7","oid":"UNSPECIFIED","section":"null"},{"id":"0007","description":"ADMISSION TYPE","type":"HL7 AND USER","oid":"UNSPECIFIED","section":"null"},{"id":"0008","description":"ACKNOWLEDGMENT CODE","type":"HL7","oid":"UNSPECIFIED","section":"null"},{"id":"0009","description":"AMBULATORY STATUS","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0010","description":"PHYSICIAN ID","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0011","description":"CHARGING SYSTEM","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0012","description":"STOCK LOCATION","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0013","description":"CHARGEABLE OR NON-CHARGEABLE","type":"HL7","oid":"UNSPECIFIED","section":"null"},{"id":"0014","description":"HEIGHT UNIT OF MEASURE","type":"HL7","oid":"UNSPECIFIED","section":"null"},{"id":"0015","description":"WEIGHT UNIT OF MEASURE","type":"HL7","oid":"UNSPECIFIED","section":"null"},{"id":"0016","description":"ISOLATION","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0017","description":"TRANSACTION TYPE","type":"HL7","oid":"UNSPECIFIED","section":"null"},{"id":"0018","description":"PATIENT TYPE","type":"HL7","oid":"UNSPECIFIED","section":"null"},{"id":"0019","description":"ANESTHESIA CODE","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0020","description":"UNUSED TABLE","type":"#FIXME#","oid":"UNSPECIFIED","section":"null"},{"id":"0021","description":"BAD DEBT AGENCY CODE","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0022","description":"BILLING STATUS","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0023","description":"ADMIT SOURCE","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0024","description":"FEE SCHEDULE","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0025","description":"CONFIRMATION CODE","type":"HL7","oid":"UNSPECIFIED","section":"null"},{"id":"0026","description":"ORDER EVENT TYPE","type":"HL7","oid":"UNSPECIFIED","section":"null"},{"id":"0027","description":"PRIORITY (COMPONENT 6 QTY/TIMING[735])","type":"HL7 AND USER","oid":"UNSPECIFIED","section":"null"},{"id":"0028","description":"UNUSED TABLE","type":"#FIXME#","oid":"UNSPECIFIED","section":"null"},{"id":"0029","description":"UNIT OF MEASURE","type":"HL7","oid":"UNSPECIFIED","section":"null"},{"id":"0030","description":"FREQUENCY CODE","type":"HL7 AND USER","oid":"UNSPECIFIED","section":"null"},{"id":"0031","description":"BLOOD BANK - COMPONENT TYPE","type":"HL7","oid":"UNSPECIFIED","section":"null"},{"id":"0032","description":"CHARGE/PRICE INDICATOR","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0033","description":"ROUTE","type":"HL7","oid":"UNSPECIFIED","section":"null"},{"id":"0034","description":"SITE ADMINISTERED","type":"HL7","oid":"UNSPECIFIED","section":"null"},{"id":"0035","description":"UNIT OF MEASURE FOR THE SOLUTION RATE","type":"HL7","oid":"UNSPECIFIED","section":"null"},{"id":"0036","description":"UNITS OF MEASURE - ISO528,1977","type":"HL7","oid":"UNSPECIFIED","section":"null"},{"id":"0037","description":"DRUG DOSE UNIT OF MEASURE","type":"HL7","oid":"UNSPECIFIED","section":"null"},{"id":"0038","description":"ORDER STATUS","type":"HL7","oid":"UNSPECIFIED","section":"null"},{"id":"0039","description":"UNUSED TABLE","type":"#FIXME#","oid":"UNSPECIFIED","section":"null"},{"id":"0040","description":"UNUSED TABLE","type":"#FIXME#","oid":"UNSPECIFIED","section":"null"},{"id":"0041","description":"VOLUME UNIT OF MEASURE","type":"HL7","oid":"UNSPECIFIED","section":"null"},{"id":"0042","description":"INS. COMPANY PLAN CODE","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0043","description":"CONDITION","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0044","description":"CONTRACT CODE","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0045","description":"COURTESY CODE","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0046","description":"CREDIT RATING","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0047","description":"DANGER CODE","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0048","description":"WHAT SUBJECT FILTER","type":"HL7","oid":"UNSPECIFIED","section":"5-7"},{"id":"0049","description":"DEPARTMENT CODE","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0050","description":"ACCIDENT CODE","type":"HL7","oid":"UNSPECIFIED","section":"null"},{"id":"0051","description":"DIAGNOSIS CODE","type":"HL7","oid":"UNSPECIFIED","section":"null"},{"id":"0052","description":"DIAGNOSIS TYPE","type":"HL7","oid":"UNSPECIFIED","section":"null"},{"id":"0053","description":"DIAGNOSIS CODING METHOD","type":"HL7 AND USER","oid":"UNSPECIFIED","section":"null"},{"id":"0055","description":"DRG CODE","type":"HL7","oid":"UNSPECIFIED","section":"null"},{"id":"0056","description":"DRG GROUPER REVIEW CODE","type":"HL7","oid":"UNSPECIFIED","section":"null"},{"id":"0057","description":"DRUG CODE","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0058","description":"UNUSED TABLE","type":"#FIXME#","oid":"UNSPECIFIED","section":"null"},{"id":"0059","description":"CONSENT CODE","type":"HL7","oid":"UNSPECIFIED","section":"null"},{"id":"0060","description":"ERROR CODE","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0061","description":"CHECK DIGIT SCHEME","type":"HL7","oid":"UNSPECIFIED","section":"null"},{"id":"0062","description":"EVENT REASON","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0063","description":"RELATIONSHIP","type":"HL7 AND USER","oid":"UNSPECIFIED","section":"null"},{"id":"0064","description":"FINANCIAL CLASS","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0065","description":"ACTION CODE","type":"HL7","oid":"UNSPECIFIED","section":"null"},{"id":"0066","description":"EMPLOYMENT STATUS","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0067","description":"UNUSED TABLE","type":"#FIXME#","oid":"UNSPECIFIED","section":"null"},{"id":"0068","description":"GUARANTOR TYPE","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0069","description":"HOSPITAL SERVICE","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0070","description":"SOURCE OF SPECIMEN","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0071","description":"UNUSED TABLE","type":"#FIXME#","oid":"UNSPECIFIED","section":"null"},{"id":"0072","description":"INS. PLAN ID","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0073","description":"INTEREST RATE CODE","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0074","description":"DIAGNOSTIC SERVICE SECTION ID","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0075","description":"REPORT TYPES","type":"HL7","oid":"UNSPECIFIED","section":"null"},{"id":"0076","description":"MESSAGE TYPE","type":"HL7","oid":"UNSPECIFIED","section":"null"},{"id":"0077","description":"UNUSED TABLE","type":"#FIXME#","oid":"UNSPECIFIED","section":"null"},{"id":"0078","description":"ABNORMAL FLAGS","type":"HL7","oid":"UNSPECIFIED","section":"null"},{"id":"0079","description":"LOCATION","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0080","description":"NATURE OF ABNORMAL TESTING","type":"HL7","oid":"UNSPECIFIED","section":"null"},{"id":"0081","description":"NOTICE OF ADMISSION","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0082","description":"UNUSED TABLE","type":"#FIXME#","oid":"UNSPECIFIED","section":"null"},{"id":"0083","description":"OUTLIER TYPE","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0084","description":"PERFORMED BY CODE","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0085","description":"OBSERVATION RESULT STATUS","type":"HL7","oid":"UNSPECIFIED","section":"null"},{"id":"0086","description":"INS. PLAN TYPE","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0087","description":"PRE-ADMIT TESTING","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0088","description":"PROCEDURE CODE","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0089","description":"PROCEDURE CODING METHOD","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0090","description":"PROCEDURE TYPE","type":"HL7 AND USER","oid":"UNSPECIFIED","section":"null"},{"id":"0091","description":"QUERY PRIORITY","type":"HL7","oid":"UNSPECIFIED","section":"5-6"},{"id":"0092","description":"RE-ADMISSION INDICATOR","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0093","description":"RELEASE OF INFORMATION","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0094","description":"REPORT OF ELIGIBILITY","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0095","description":"UNUSED TABLE","type":"#FIXME#","oid":"UNSPECIFIED","section":"null"},{"id":"0096","description":"FINANCIAL TRANSACTION CODE","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0097","description":"UNUSED TABLE","type":"#FIXME#","oid":"UNSPECIFIED","section":"null"},{"id":"0098","description":"TYPE OF AGREEMENT CODE","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0099","description":"VIP INDICATOR","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0100","description":"WHEN TO CHARGE","type":"HL7","oid":"UNSPECIFIED","section":"null"},{"id":"0101","description":"DISPLAY LEVEL","type":"HL7 AND USER","oid":"UNSPECIFIED","section":"null"},{"id":"0102","description":"DELAYED ACKNOWLEDGMENT TYPE","type":"HL7","oid":"UNSPECIFIED","section":"null"},{"id":"0103","description":"PROCESSING ID","type":"HL7","oid":"UNSPECIFIED","section":"2-48"},{"id":"0104","description":"VERSION CONTROL TABLE","type":"HL7","oid":"UNSPECIFIED","section":"2-48"},{"id":"0105","description":"SOURCE OF COMMENT","type":"HL7","oid":"UNSPECIFIED","section":"null"},{"id":"0106","description":"QUERY FORMAT CODE","type":"HL7","oid":"UNSPECIFIED","section":"5-6"},{"id":"0107","description":"DEFERRED RESPONSE TYPE","type":"HL7","oid":"UNSPECIFIED","section":"5-6"},{"id":"0108","description":"QUERY RESULTS LEVEL","type":"HL7","oid":"UNSPECIFIED","section":"5-8"},{"id":"0109","description":"REPORT PRIORITY","type":"HL7","oid":"UNSPECIFIED","section":"5-8"},{"id":"0110","description":"TRANSFER TO BAD DEBT CODE","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0111","description":"DELETE ACCOUNT CODE","type":"HL7 AND USER","oid":"UNSPECIFIED","section":"null"},{"id":"0112","description":"DISCHARGED DISPOSITION","type":"HL7 AND USER","oid":"UNSPECIFIED","section":"null"},{"id":"0113","description":"DISCHARGED TO LOCATION","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0114","description":"DIET TYPE","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0115","description":"SERVICING FACILITY","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0116","description":"BED STATUS","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0117","description":"ACCOUNT STATUS","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0118","description":"MAJOR DIAGNOSTIC CATEGORY","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0119","description":"ORDER CONTROL","type":"HL7","oid":"UNSPECIFIED","section":"null"},{"id":"0120","description":"APPLICATION ID","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0121","description":"RESPONSE FLAG","type":"HL7","oid":"UNSPECIFIED","section":"null"},{"id":"0122","description":"CHARGE TYPE","type":"HL7","oid":"UNSPECIFIED","section":"null"},{"id":"0123","description":"RESULT STATUS - OBR","type":"HL7","oid":"UNSPECIFIED","section":"null"},{"id":"0124","description":"TRANSPORTATION MODE","type":"HL7","oid":"UNSPECIFIED","section":"null"},{"id":"0125","description":"VALUE TYPE","type":"#FIXME#","oid":"UNSPECIFIED","section":"null"},{"id":"0126","description":"QUANTITY LIMITED REQUEST","type":"HL7 AND USER","oid":"UNSPECIFIED","section":"5-7"},{"id":"0136","description":"Y/N Indicator","type":"#FIXME#","oid":"UNSPECIFIED","section":"null"},{"id":"0145","description":"Room Type","type":"#FIXME#","oid":"UNSPECIFIED","section":"A-23"},{"id":"0171","description":"Country Code","type":"#FIXME#","oid":"UNSPECIFIED","section":"null"}]
+[ {
+  "id" : "0001",
+  "description" : "SEX",
+  "type" : "2",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0002",
+  "description" : "MARITAL STATUS",
+  "type" : "2",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0003",
+  "description" : "EVENT TYPE CODE",
+  "type" : "2",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0004",
+  "description" : "PATIENT CLASS",
+  "type" : "3",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0005",
+  "description" : "ETHNIC GROUP",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0006",
+  "description" : "RELIGION",
+  "type" : "2",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0007",
+  "description" : "ADMISSION TYPE",
+  "type" : "3",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0008",
+  "description" : "ACKNOWLEDGMENT CODE",
+  "type" : "2",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0009",
+  "description" : "AMBULATORY STATUS",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0010",
+  "description" : "PHYSICIAN ID",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0011",
+  "description" : "CHARGING SYSTEM",
+  "type" : "4",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0012",
+  "description" : "STOCK LOCATION",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0016",
+  "description" : "ISOLATION",
+  "type" : "4",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0017",
+  "description" : "TRANSACTION TYPE",
+  "type" : "2",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0018",
+  "description" : "PATIENT TYPE",
+  "type" : "2",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0019",
+  "description" : "ANESTHESIA CODE",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0020",
+  "description" : "UNUSED TABLE",
+  "type" : "4",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0021",
+  "description" : "BAD DEBT AGENCY CODE",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0022",
+  "description" : "BILLING STATUS",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0023",
+  "description" : "ADMIT SOURCE",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0024",
+  "description" : "FEE SCHEDULE",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0027",
+  "description" : "PRIORITY (COMPONENT 6 QTY/TIMING[735])",
+  "type" : "3",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0032",
+  "description" : "CHARGE/PRICE INDICATOR",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0033",
+  "description" : "ROUTE",
+  "type" : "2",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0034",
+  "description" : "SITE ADMINISTERED",
+  "type" : "2",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0036",
+  "description" : "UNITS OF MEASURE - ISO528,1977",
+  "type" : "2",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0038",
+  "description" : "ORDER STATUS",
+  "type" : "2",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0042",
+  "description" : "INS. COMPANY PLAN CODE",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0043",
+  "description" : "CONDITION",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0044",
+  "description" : "CONTRACT CODE",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0045",
+  "description" : "COURTESY CODE",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0046",
+  "description" : "CREDIT RATING",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0047",
+  "description" : "DANGER CODE",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0048",
+  "description" : "WHAT SUBJECT FILTER",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "5-7"
+}, {
+  "id" : "0049",
+  "description" : "DEPARTMENT CODE",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0050",
+  "description" : "ACCIDENT CODE",
+  "type" : "2",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0051",
+  "description" : "DIAGNOSIS CODE",
+  "type" : "2",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0052",
+  "description" : "DIAGNOSIS TYPE",
+  "type" : "2",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0053",
+  "description" : "DIAGNOSIS CODING METHOD",
+  "type" : "3",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0055",
+  "description" : "DRG CODE",
+  "type" : "2",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0056",
+  "description" : "DRG GROUPER REVIEW CODE",
+  "type" : "2",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0057",
+  "description" : "DRUG CODE",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0059",
+  "description" : "CONSENT CODE",
+  "type" : "2",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0060",
+  "description" : "ERROR CODE",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0061",
+  "description" : "CHECK DIGIT SCHEME",
+  "type" : "2",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0062",
+  "description" : "EVENT REASON",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0063",
+  "description" : "RELATIONSHIP",
+  "type" : "3",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0064",
+  "description" : "FINANCIAL CLASS",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0065",
+  "description" : "ACTION CODE",
+  "type" : "2",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0066",
+  "description" : "EMPLOYMENT STATUS",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0068",
+  "description" : "GUARANTOR TYPE",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0069",
+  "description" : "HOSPITAL SERVICE",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0070",
+  "description" : "SOURCE OF SPECIMEN",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0072",
+  "description" : "INS. PLAN ID",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0073",
+  "description" : "INTEREST RATE CODE",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0074",
+  "description" : "DIAGNOSTIC SERVICE SECTION ID",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0075",
+  "description" : "REPORT TYPES",
+  "type" : "2",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0076",
+  "description" : "MESSAGE TYPE",
+  "type" : "2",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0078",
+  "description" : "ABNORMAL FLAGS",
+  "type" : "2",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0079",
+  "description" : "LOCATION",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0080",
+  "description" : "NATURE OF ABNORMAL TESTING",
+  "type" : "2",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0081",
+  "description" : "NOTICE OF ADMISSION",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0083",
+  "description" : "OUTLIER TYPE",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0084",
+  "description" : "PERFORMED BY",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0085",
+  "description" : "OBSERVATION RESULT STATUS",
+  "type" : "2",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0086",
+  "description" : "INS. PLAN TYPE",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0087",
+  "description" : "PRE-ADMIT TESTING",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0088",
+  "description" : "PROCEDURE CODE",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0089",
+  "description" : "PROCEDURE CODING METHOD",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0090",
+  "description" : "PROCEDURE TYPE",
+  "type" : "3",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0091",
+  "description" : "QUERY PRIORITY",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "5-6"
+}, {
+  "id" : "0092",
+  "description" : "RE-ADMISSION INDICATOR",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0093",
+  "description" : "RELEASE OF INFORMATION",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0094",
+  "description" : "REPORT OF ELIGIBILITY",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0096",
+  "description" : "FINANCIAL TRANSACTION CODE",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0098",
+  "description" : "TYPE OF AGREEMENT CODE",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0099",
+  "description" : "VIP INDICATOR",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0100",
+  "description" : "WHEN TO CHARGE",
+  "type" : "2",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0101",
+  "description" : "DISPLAY LEVEL",
+  "type" : "3",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0102",
+  "description" : "DELAYED ACKNOWLEDGMENT TYPE",
+  "type" : "2",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0103",
+  "description" : "PROCESSING ID",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "2-48"
+}, {
+  "id" : "0104",
+  "description" : "VERSION CONTROL TABLE",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "2-48"
+}, {
+  "id" : "0105",
+  "description" : "SOURCE OF COMMENT",
+  "type" : "2",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0106",
+  "description" : "QUERY FORMAT CODE",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "5-6"
+}, {
+  "id" : "0107",
+  "description" : "DEFERRED RESPONSE TYPE",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "5-6"
+}, {
+  "id" : "0108",
+  "description" : "QUERY RESULTS LEVEL",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "5-8"
+}, {
+  "id" : "0109",
+  "description" : "REPORT PRIORITY",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "5-8"
+}, {
+  "id" : "0110",
+  "description" : "TRANSFER TO BAD DEBT CODE",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0111",
+  "description" : "DELETE ACCOUNT CODE",
+  "type" : "3",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0112",
+  "description" : "DISCHARGED DISPOSITION",
+  "type" : "3",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0113",
+  "description" : "DISCHARGED TO LOCATION",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0114",
+  "description" : "DIET TYPE",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0115",
+  "description" : "SERVICING FACILITY",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0116",
+  "description" : "BED STATUS",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0117",
+  "description" : "ACCOUNT STATUS",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0118",
+  "description" : "MAJOR DIAGNOSTIC CATEGORY",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0119",
+  "description" : "ORDER CONTROL",
+  "type" : "2",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0121",
+  "description" : "RESPONSE FLAG",
+  "type" : "2",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0122",
+  "description" : "CHARGE TYPE",
+  "type" : "2",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0123",
+  "description" : "RESULT STATUS - OBR",
+  "type" : "2",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0124",
+  "description" : "TRANSPORTATION MODE",
+  "type" : "2",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0125",
+  "description" : "VALUE TYPE",
+  "type" : "0",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0126",
+  "description" : "QUANTITY LIMITED REQUEST",
+  "type" : "3",
+  "oid" : "UNSPECIFIED",
+  "section" : "5-7"
+}, {
+  "id" : "0145",
+  "description" : "Room Type",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "A-23"
+}, {
+  "id" : "0171",
+  "description" : "Country Code",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+} ]

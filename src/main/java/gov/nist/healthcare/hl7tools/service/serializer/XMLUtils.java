@@ -32,9 +32,9 @@ public class XMLUtils {
 		return minLen == null || schemaVersion == ProfileSchemaVersion.V25 ? -1 : new Integer( minLen );
 	}
 	
-	public static int confLength(Element e, ProfileSchemaVersion schemaVersion) {
+	public static String confLength(Element e, ProfileSchemaVersion schemaVersion) {
 		String confLength = e.getAttributeValue("ConformanceLength");
-		return confLength == null || schemaVersion == ProfileSchemaVersion.V25 ? -1 : new Integer(confLength);
+		return confLength == null || schemaVersion == ProfileSchemaVersion.V25 ? "" :confLength;
 	}
 	
 	public static EBoolean truncation(Element e, ProfileSchemaVersion schemaVersion) {

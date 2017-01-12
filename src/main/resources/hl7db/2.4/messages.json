@@ -1,1 +1,896 @@
-[{"id":"ACK","msg_type_id":"ACK","event_id":null,"section":"all"},{"id":"ACK_N02","msg_type_id":"ACK","event_id":"N02","section":"14"},{"id":"ADR_A19","msg_type_id":"ADR","event_id":"A19","section":"3"},{"id":"ADT_A01","msg_type_id":"ADT","event_id":"A01","section":"3"},{"id":"ADT_A02","msg_type_id":"ADT","event_id":"A02","section":"3"},{"id":"ADT_A03","msg_type_id":"ADT","event_id":"A03","section":"3"},{"id":"ADT_A05","msg_type_id":"ADT","event_id":"A05","section":"3"},{"id":"ADT_A06","msg_type_id":"ADT","event_id":"A06","section":"3"},{"id":"ADT_A09","msg_type_id":"ADT","event_id":"A09","section":"3"},{"id":"ADT_A15","msg_type_id":"ADT","event_id":"A15","section":"3"},{"id":"ADT_A16","msg_type_id":"ADT","event_id":"A16","section":"3"},{"id":"ADT_A17","msg_type_id":"ADT","event_id":"A17","section":"3"},{"id":"ADT_A18","msg_type_id":"ADT","event_id":"A18","section":"3"},{"id":"ADT_A20","msg_type_id":"ADT","event_id":"A20","section":"3"},{"id":"ADT_A21","msg_type_id":"ADT","event_id":"A21","section":"3"},{"id":"ADT_A24","msg_type_id":"ADT","event_id":"A24","section":"3"},{"id":"ADT_A30","msg_type_id":"ADT","event_id":"A30","section":"3"},{"id":"ADT_A37","msg_type_id":"ADT","event_id":"A37","section":"3"},{"id":"ADT_A38","msg_type_id":"ADT","event_id":"A38","section":"3"},{"id":"ADT_A39","msg_type_id":"ADT","event_id":"A39","section":"3"},{"id":"ADT_A43","msg_type_id":"ADT","event_id":"A43","section":"3"},{"id":"ADT_A45","msg_type_id":"ADT","event_id":"A45","section":"3"},{"id":"ADT_A50","msg_type_id":"ADT","event_id":"A50","section":"3"},{"id":"ADT_A52","msg_type_id":"ADT","event_id":"A52","section":"3"},{"id":"ADT_A54","msg_type_id":"ADT","event_id":"A54","section":"3"},{"id":"ADT_A60","msg_type_id":"ADT","event_id":"A60","section":"3"},{"id":"ADT_A61","msg_type_id":"ADT","event_id":"A61","section":"3"},{"id":"BAR_P01","msg_type_id":"BAR","event_id":"P01","section":"6"},{"id":"BAR_P02","msg_type_id":"BAR","event_id":"P02","section":"6"},{"id":"BAR_P05","msg_type_id":"BAR","event_id":"P05","section":"6"},{"id":"BAR_P06","msg_type_id":"BAR","event_id":"P06","section":"6"},{"id":"BAR_P10","msg_type_id":"BAR","event_id":"P10","section":"6"},{"id":"CRM_C01","msg_type_id":"CRM","event_id":"C01","section":"7"},{"id":"CSU_C09","msg_type_id":"CSU","event_id":"C09","section":"7"},{"id":"DFT_P03","msg_type_id":"DFT","event_id":"P03","section":"6.4.3"},{"id":"DFT_P11","msg_type_id":"DFT","event_id":"P11","section":"6.4.3"},{"id":"DOC_T12","msg_type_id":"DOC","event_id":"T12","section":"9"},{"id":"DSR_P04","msg_type_id":"DSR","event_id":"P04","section":"6"},{"id":"DSR_Q01","msg_type_id":"DSR","event_id":"Q01","section":"5"},{"id":"DSR_Q03","msg_type_id":"DSR","event_id":"Q03","section":"5"},{"id":"EAC_U07","msg_type_id":"EAC","event_id":"U07","section":"13"},{"id":"EAN_U09","msg_type_id":"EAN","event_id":"U09","section":"13"},{"id":"EAR_U08","msg_type_id":"EAR","event_id":"U08","section":"13"},{"id":"EDR_R07","msg_type_id":"EDR","event_id":"R07","section":"5"},{"id":"EQQ_Q04","msg_type_id":"EQQ","event_id":"Q04","section":"5"},{"id":"ERP_R09","msg_type_id":"ERP","event_id":"R09","section":"5"},{"id":"ESR_U02","msg_type_id":"ESR","event_id":"U02","section":"13"},{"id":"ESU_U01","msg_type_id":"ESU","event_id":"U01","section":"13"},{"id":"INR_U06","msg_type_id":"INR","event_id":"U06","section":"13"},{"id":"INU_U05","msg_type_id":"INU","event_id":"U05","section":"13"},{"id":"LSU_U12","msg_type_id":"LSU","event_id":"U12","section":"13"},{"id":"MDM_T01","msg_type_id":"MDM","event_id":"T01","section":"9"},{"id":"MDM_T02","msg_type_id":"MDM","event_id":"T02","section":"9"},{"id":"MFK_M01","msg_type_id":"MFK","event_id":"M01","section":"8"},{"id":"MFN_M01","msg_type_id":"MFN","event_id":"M01","section":"8"},{"id":"MFN_M02","msg_type_id":"MFN","event_id":"M02","section":"8"},{"id":"MFN_M03","msg_type_id":"MFN","event_id":"M03","section":"8"},{"id":"MFN_M04","msg_type_id":"MFN","event_id":"M04","section":"8"},{"id":"MFN_M05","msg_type_id":"MFN","event_id":"M05","section":"8"},{"id":"MFN_M06","msg_type_id":"MFN","event_id":"M06","section":"8"},{"id":"MFN_M07","msg_type_id":"MFN","event_id":"M07","section":"8"},{"id":"MFN_M08","msg_type_id":"MFN","event_id":"M08","section":"8"},{"id":"MFN_M09","msg_type_id":"MFN","event_id":"M09","section":"8"},{"id":"MFN_M10","msg_type_id":"MFN","event_id":"M10","section":"8"},{"id":"MFN_M11","msg_type_id":"MFN","event_id":"M11","section":"8"},{"id":"MFN_M12","msg_type_id":"MFN","event_id":"M12","section":"8"},{"id":"MFQ_M01","msg_type_id":"MFQ","event_id":"M01","section":"8"},{"id":"MFR_M01","msg_type_id":"MFR","event_id":"M01","section":"8"},{"id":"NMD_N02","msg_type_id":"NMD","event_id":"N02","section":"14"},{"id":"NMQ_N01","msg_type_id":"NMQ","event_id":"N01","section":"14"},{"id":"NMR_N01","msg_type_id":"NMR","event_id":"N01","section":"14"},{"id":"NUL","msg_type_id":"NUL","event_id":null,"section":"0"},{"id":"OMD_O03","msg_type_id":"OMD","event_id":"O03","section":"4"},{"id":"OMG_O19","msg_type_id":"OMG","event_id":"O19","section":"4"},{"id":"OML_O21","msg_type_id":"OML","event_id":"O21","section":"4"},{"id":"OMN_O07","msg_type_id":"OMN","event_id":"O07","section":"4"},{"id":"OMP_O09","msg_type_id":"OMP","event_id":"O09","section":"4"},{"id":"OMS_O05","msg_type_id":"OMS","event_id":"O05","section":"4"},{"id":"ORD_O04","msg_type_id":"ORD","event_id":"O04","section":"4"},{"id":"ORF_R04","msg_type_id":"ORF","event_id":"R04","section":"7"},{"id":"ORG_O20","msg_type_id":"ORG","event_id":"O20","section":"4"},{"id":"ORL_O22","msg_type_id":"ORL","event_id":"O22","section":"4"},{"id":"ORM_O01","msg_type_id":"ORM","event_id":"O01","section":"4"},{"id":"ORN_O08","msg_type_id":"ORN","event_id":"O08","section":"4"},{"id":"ORP_O10","msg_type_id":"ORP","event_id":"O10","section":"4"},{"id":"ORR_O02","msg_type_id":"ORR","event_id":"O02","section":"4"},{"id":"ORS_O06","msg_type_id":"ORS","event_id":"O06","section":"4"},{"id":"ORU_R01","msg_type_id":"ORU","event_id":"R01","section":"7"},{"id":"OSQ_Q06","msg_type_id":"OSQ","event_id":"Q06","section":"4"},{"id":"OSR_Q06","msg_type_id":"OSR","event_id":"Q06","section":"4"},{"id":"OUL_R21","msg_type_id":"OUL","event_id":"R21","section":"7"},{"id":"PEX_P07","msg_type_id":"PEX","event_id":"P07","section":"7"},{"id":"PGL_PC6","msg_type_id":"PGL","event_id":"PC6","section":"12"},{"id":"PMU_B01","msg_type_id":"PMU","event_id":"B01","section":"15"},{"id":"PMU_B03","msg_type_id":"PMU","event_id":"B03","section":"15"},{"id":"PMU_B04","msg_type_id":"PMU","event_id":"B04","section":"15"},{"id":"PPG_PCG","msg_type_id":"PPG","event_id":"PCG","section":"12"},{"id":"PPP_PCB","msg_type_id":"PPP","event_id":"PCB","section":"12"},{"id":"PPR_PC1","msg_type_id":"PPR","event_id":"PC1","section":"12"},{"id":"PPT_PCL","msg_type_id":"PPT","event_id":"PCL","section":"12"},{"id":"PPV_PCA","msg_type_id":"PPV","event_id":"PCA","section":"12"},{"id":"PRR_PC5","msg_type_id":"PRR","event_id":"PC5","section":"12"},{"id":"PTR_PCF","msg_type_id":"PTR","event_id":"PCF","section":"12"},{"id":"QBP_K13","msg_type_id":"QBP","event_id":"K13","section":"5"},{"id":"QBP_Q11","msg_type_id":"QBP","event_id":"Q11","section":"5"},{"id":"QBP_Q13","msg_type_id":"QBP","event_id":"Q13","section":"5"},{"id":"QBP_Q15","msg_type_id":"QBP","event_id":"Q15","section":"5"},{"id":"QBP_Q21","msg_type_id":"QBP","event_id":"Q21","section":"15"},{"id":"QBP_Qnn","msg_type_id":"QBP","event_id":"Qnn","section":"5"},{"id":"QBP_Z73","msg_type_id":"QBP","event_id":"Z73","section":"4"},{"id":"QCK_Q02","msg_type_id":"QCK","event_id":"Q02","section":"5"},{"id":"QCN_J01","msg_type_id":"QCN","event_id":"J01","section":"5"},{"id":"QRY_A19","msg_type_id":"QRY","event_id":"A19","section":"3"},{"id":"QRY_P04","msg_type_id":"QRY","event_id":"P04","section":"6"},{"id":"QRY_PC4","msg_type_id":"QRY","event_id":"PC4","section":"12"},{"id":"QRY_Q01","msg_type_id":"QRY","event_id":"Q01","section":"5"},{"id":"QRY_Q02","msg_type_id":"QRY","event_id":"Q02","section":"5"},{"id":"QRY_R02","msg_type_id":"QRY","event_id":"R02","section":"7"},{"id":"QRY_T12","msg_type_id":"QRY","event_id":"T12","section":"9"},{"id":"QSB_Q16","msg_type_id":"QSB","event_id":"Q16","section":"5"},{"id":"QVR_Q17","msg_type_id":"QVR","event_id":"Q17","section":"5"},{"id":"RAR_RAR","msg_type_id":"RAR","event_id":"RAR","section":"4"},{"id":"RAS_O17","msg_type_id":"RAS","event_id":"O17","section":"4"},{"id":"RCI_I05","msg_type_id":"RCI","event_id":"I05","section":"11"},{"id":"RCL_I06","msg_type_id":"RCL","event_id":"I06","section":"11"},{"id":"RDE_O11","msg_type_id":"RDE","event_id":"O11","section":"4"},{"id":"RDR_RDR","msg_type_id":"RDR","event_id":"RDR","section":"5"},{"id":"RDS_O13","msg_type_id":"RDS","event_id":"O13","section":"4"},{"id":"RDY_K15","msg_type_id":"RDY","event_id":"K15","section":"5"},{"id":"REF_I12","msg_type_id":"REF","event_id":"I12","section":"11"},{"id":"RER_RER","msg_type_id":"RER","event_id":"RER","section":"4"},{"id":"RGR_RGR","msg_type_id":"RGR","event_id":"RGR","section":"4"},{"id":"RGV_O15","msg_type_id":"RGV","event_id":"O15","section":"4"},{"id":"ROR_ROR","msg_type_id":"ROR","event_id":"ROR","section":"4"},{"id":"RPA_I08","msg_type_id":"RPA","event_id":"I08","section":"11"},{"id":"RPI_I01","msg_type_id":"RPI","event_id":"I01","section":"11"},{"id":"RPI_I04","msg_type_id":"RPI","event_id":"I04","section":"11"},{"id":"RPL_I02","msg_type_id":"RPL","event_id":"I02","section":"11"},{"id":"RPR_I03","msg_type_id":"RPR","event_id":"I03","section":"11"},{"id":"RQA_I08","msg_type_id":"RQA","event_id":"I08","section":"11"},{"id":"RQC_I05","msg_type_id":"RQC","event_id":"I05","section":"11"},{"id":"RQI_I01","msg_type_id":"RQI","event_id":"I01","section":"11"},{"id":"RQP_I04","msg_type_id":"RQP","event_id":"I04","section":"11"},{"id":"RQQ_Q09","msg_type_id":"RQQ","event_id":"Q09","section":"5"},{"id":"RRA_O18","msg_type_id":"RRA","event_id":"O18","section":"4"},{"id":"RRD_O14","msg_type_id":"RRD","event_id":"O14","section":"4"},{"id":"RRE_O12","msg_type_id":"RRE","event_id":"O12","section":"4"},{"id":"RRG_O16","msg_type_id":"RRG","event_id":"O16","section":"4"},{"id":"RRI_I12","msg_type_id":"RRI","event_id":"I12","section":"11"},{"id":"RSP_K11","msg_type_id":"RSP","event_id":"K11","section":"5"},{"id":"RSP_K13","msg_type_id":"RSP","event_id":"K13","section":"5"},{"id":"RSP_K15","msg_type_id":"RSP","event_id":"K15","section":"5"},{"id":"RSP_K21","msg_type_id":"RSP","event_id":"K21","section":"3"},{"id":"RSP_K22","msg_type_id":"RSP","event_id":"K22","section":"3"},{"id":"RSP_K23","msg_type_id":"RSP","event_id":"K23","section":"3"},{"id":"RSP_K24","msg_type_id":"RSP","event_id":"K24","section":"3"},{"id":"RSP_K25","msg_type_id":"RSP","event_id":"K25","section":"15"},{"id":"RSP_Z82","msg_type_id":"RSP","event_id":"Z82","section":"5"},{"id":"RSP_Z86","msg_type_id":"RSP","event_id":"Z86","section":"5"},{"id":"RSP_Z88","msg_type_id":"RSP","event_id":"Z88","section":"5"},{"id":"RSP_Z90","msg_type_id":"RSP","event_id":"Z90","section":"5"},{"id":"RTB_K13","msg_type_id":"RTB","event_id":"K13","section":"5"},{"id":"RTB_Knn","msg_type_id":"RTB","event_id":"Knn","section":"5"},{"id":"RTB_Q13","msg_type_id":"RTB","event_id":"Q13","section":"5"},{"id":"RTB_Z74","msg_type_id":"RTB","event_id":"Z74","section":"4"},{"id":"SIU_S12","msg_type_id":"SIU","event_id":"S12","section":"10"},{"id":"SPQ_Q08","msg_type_id":"SPQ","event_id":"Q08","section":"5"},{"id":"SQM_S25","msg_type_id":"SQM","event_id":"S25","section":"10"},{"id":"SQR_S25","msg_type_id":"SQR","event_id":"S25","section":"10"},{"id":"SRM_S01","msg_type_id":"SRM","event_id":"S01","section":"10"},{"id":"SRR_S01","msg_type_id":"SRR","event_id":"S01","section":"10"},{"id":"SSR_U04","msg_type_id":"SSR","event_id":"U04","section":"13"},{"id":"SSU_U03","msg_type_id":"SSU","event_id":"U03","section":"13"},{"id":"SUR_P09","msg_type_id":"SUR","event_id":"P09","section":"7"},{"id":"TBR_R08","msg_type_id":"TBR","event_id":"R08","section":"5"},{"id":"TCU_U10","msg_type_id":"TCU","event_id":"U10","section":"13"},{"id":"UDM_Q05","msg_type_id":"UDM","event_id":"Q05","section":"5"},{"id":"VQQ_Q07","msg_type_id":"VQQ","event_id":"Q07","section":"5"},{"id":"VXQ_V01","msg_type_id":"VXQ","event_id":"V01","section":"4"},{"id":"VXR_V03","msg_type_id":"VXR","event_id":"V03","section":"4"},{"id":"VXU_V04","msg_type_id":"VXU","event_id":"V04","section":"4"},{"id":"VXX_V02","msg_type_id":"VXX","event_id":"V02","section":"4"}]
+[ {
+  "id" : "ACK",
+  "section" : "3",
+  "msg_type_id" : "ACK",
+  "event_id" : ""
+}, {
+  "id" : "ACK_N02",
+  "section" : "3",
+  "msg_type_id" : "ACK",
+  "event_id" : "N02"
+}, {
+  "id" : "ADR_A19",
+  "section" : "3",
+  "msg_type_id" : "ADR",
+  "event_id" : "A19"
+}, {
+  "id" : "ADT_A09",
+  "section" : "3",
+  "msg_type_id" : "ADT",
+  "event_id" : "A09"
+}, {
+  "id" : "ADT_A21",
+  "section" : "3",
+  "msg_type_id" : "ADT",
+  "event_id" : "A21"
+}, {
+  "id" : "ADT_A50",
+  "section" : "3",
+  "msg_type_id" : "ADT",
+  "event_id" : "A50"
+}, {
+  "id" : "ADT_A01",
+  "section" : "3",
+  "msg_type_id" : "ADT",
+  "event_id" : "A01"
+}, {
+  "id" : "ADT_A17",
+  "section" : "3",
+  "msg_type_id" : "ADT",
+  "event_id" : "A17"
+}, {
+  "id" : "ADT_A37",
+  "section" : "3",
+  "msg_type_id" : "ADT",
+  "event_id" : "A37"
+}, {
+  "id" : "ADT_A60",
+  "section" : "3",
+  "msg_type_id" : "ADT",
+  "event_id" : "A60"
+}, {
+  "id" : "ADT_A05",
+  "section" : "3",
+  "msg_type_id" : "ADT",
+  "event_id" : "A05"
+}, {
+  "id" : "ADT_A43",
+  "section" : "3",
+  "msg_type_id" : "ADT",
+  "event_id" : "A43"
+}, {
+  "id" : "ADT_A15",
+  "section" : "3",
+  "msg_type_id" : "ADT",
+  "event_id" : "A15"
+}, {
+  "id" : "ADT_A24",
+  "section" : "3",
+  "msg_type_id" : "ADT",
+  "event_id" : "A24"
+}, {
+  "id" : "ADT_A52",
+  "section" : "3",
+  "msg_type_id" : "ADT",
+  "event_id" : "A52"
+}, {
+  "id" : "ADT_A02",
+  "section" : "3",
+  "msg_type_id" : "ADT",
+  "event_id" : "A02"
+}, {
+  "id" : "ADT_A18",
+  "section" : "3",
+  "msg_type_id" : "ADT",
+  "event_id" : "A18"
+}, {
+  "id" : "ADT_A38",
+  "section" : "3",
+  "msg_type_id" : "ADT",
+  "event_id" : "A38"
+}, {
+  "id" : "ADT_A61",
+  "section" : "3",
+  "msg_type_id" : "ADT",
+  "event_id" : "A61"
+}, {
+  "id" : "ADT_A06",
+  "section" : "3",
+  "msg_type_id" : "ADT",
+  "event_id" : "A06"
+}, {
+  "id" : "ADT_A20",
+  "section" : "3",
+  "msg_type_id" : "ADT",
+  "event_id" : "A20"
+}, {
+  "id" : "ADT_A45",
+  "section" : "3",
+  "msg_type_id" : "ADT",
+  "event_id" : "A45"
+}, {
+  "id" : "ADT_A16",
+  "section" : "3",
+  "msg_type_id" : "ADT",
+  "event_id" : "A16"
+}, {
+  "id" : "ADT_A30",
+  "section" : "3",
+  "msg_type_id" : "ADT",
+  "event_id" : "A30"
+}, {
+  "id" : "ADT_A54",
+  "section" : "3",
+  "msg_type_id" : "ADT",
+  "event_id" : "A54"
+}, {
+  "id" : "ADT_A03",
+  "section" : "3",
+  "msg_type_id" : "ADT",
+  "event_id" : "A03"
+}, {
+  "id" : "ADT_A39",
+  "section" : "3",
+  "msg_type_id" : "ADT",
+  "event_id" : "A39"
+}, {
+  "id" : "BAR_P05",
+  "section" : "6",
+  "msg_type_id" : "BAR",
+  "event_id" : "P05"
+}, {
+  "id" : "BAR_P01",
+  "section" : "6",
+  "msg_type_id" : "BAR",
+  "event_id" : "P01"
+}, {
+  "id" : "BAR_P10",
+  "section" : "6",
+  "msg_type_id" : "BAR",
+  "event_id" : "P10"
+}, {
+  "id" : "BAR_P06",
+  "section" : "6",
+  "msg_type_id" : "BAR",
+  "event_id" : "P06"
+}, {
+  "id" : "BAR_P02",
+  "section" : "6",
+  "msg_type_id" : "BAR",
+  "event_id" : "P02"
+}, {
+  "id" : "CRM_C01",
+  "section" : "7",
+  "msg_type_id" : "CRM",
+  "event_id" : "C01"
+}, {
+  "id" : "CSU_C09",
+  "section" : "7",
+  "msg_type_id" : "CSU",
+  "event_id" : "C09"
+}, {
+  "id" : "DFT_P03",
+  "section" : "6",
+  "msg_type_id" : "DFT",
+  "event_id" : "P03"
+}, {
+  "id" : "DFT_P11",
+  "section" : "6",
+  "msg_type_id" : "DFT",
+  "event_id" : "P11"
+}, {
+  "id" : "DOC_T12",
+  "section" : "9",
+  "msg_type_id" : "DOC",
+  "event_id" : "T12"
+}, {
+  "id" : "DSR_Q03",
+  "section" : "6",
+  "msg_type_id" : "DSR",
+  "event_id" : "Q03"
+}, {
+  "id" : "DSR_P04",
+  "section" : "6",
+  "msg_type_id" : "DSR",
+  "event_id" : "P04"
+}, {
+  "id" : "DSR_Q01",
+  "section" : "6",
+  "msg_type_id" : "DSR",
+  "event_id" : "Q01"
+}, {
+  "id" : "EAC_U07",
+  "section" : "13",
+  "msg_type_id" : "EAC",
+  "event_id" : "U07"
+}, {
+  "id" : "EAN_U09",
+  "section" : "13",
+  "msg_type_id" : "EAN",
+  "event_id" : "U09"
+}, {
+  "id" : "EAR_U08",
+  "section" : "13",
+  "msg_type_id" : "EAR",
+  "event_id" : "U08"
+}, {
+  "id" : "EDR_R07",
+  "section" : "5",
+  "msg_type_id" : "EDR",
+  "event_id" : "R07"
+}, {
+  "id" : "EQQ_Q04",
+  "section" : "5",
+  "msg_type_id" : "EQQ",
+  "event_id" : "Q04"
+}, {
+  "id" : "ERP_R09",
+  "section" : "5",
+  "msg_type_id" : "ERP",
+  "event_id" : "R09"
+}, {
+  "id" : "ESR_U02",
+  "section" : "13",
+  "msg_type_id" : "ESR",
+  "event_id" : "U02"
+}, {
+  "id" : "ESU_U01",
+  "section" : "13",
+  "msg_type_id" : "ESU",
+  "event_id" : "U01"
+}, {
+  "id" : "INR_U06",
+  "section" : "13",
+  "msg_type_id" : "INR",
+  "event_id" : "U06"
+}, {
+  "id" : "INU_U05",
+  "section" : "13",
+  "msg_type_id" : "INU",
+  "event_id" : "U05"
+}, {
+  "id" : "LSU_U12",
+  "section" : "13",
+  "msg_type_id" : "LSU",
+  "event_id" : "U12"
+}, {
+  "id" : "MDM_T01",
+  "section" : "9",
+  "msg_type_id" : "MDM",
+  "event_id" : "T01"
+}, {
+  "id" : "MDM_T02",
+  "section" : "9",
+  "msg_type_id" : "MDM",
+  "event_id" : "T02"
+}, {
+  "id" : "MFK_M01",
+  "section" : "8",
+  "msg_type_id" : "MFK",
+  "event_id" : "M01"
+}, {
+  "id" : "MFN_M01",
+  "section" : "8",
+  "msg_type_id" : "MFN",
+  "event_id" : "M01"
+}, {
+  "id" : "MFN_M07",
+  "section" : "8",
+  "msg_type_id" : "MFN",
+  "event_id" : "M07"
+}, {
+  "id" : "MFN_M02",
+  "section" : "8",
+  "msg_type_id" : "MFN",
+  "event_id" : "M02"
+}, {
+  "id" : "MFN_M10",
+  "section" : "8",
+  "msg_type_id" : "MFN",
+  "event_id" : "M10"
+}, {
+  "id" : "MFN_M05",
+  "section" : "8",
+  "msg_type_id" : "MFN",
+  "event_id" : "M05"
+}, {
+  "id" : "MFN_M08",
+  "section" : "8",
+  "msg_type_id" : "MFN",
+  "event_id" : "M08"
+}, {
+  "id" : "MFN_M03",
+  "section" : "8",
+  "msg_type_id" : "MFN",
+  "event_id" : "M03"
+}, {
+  "id" : "MFN_M11",
+  "section" : "8",
+  "msg_type_id" : "MFN",
+  "event_id" : "M11"
+}, {
+  "id" : "MFN_M06",
+  "section" : "8",
+  "msg_type_id" : "MFN",
+  "event_id" : "M06"
+}, {
+  "id" : "MFN_M09",
+  "section" : "8",
+  "msg_type_id" : "MFN",
+  "event_id" : "M09"
+}, {
+  "id" : "MFN_M04",
+  "section" : "8",
+  "msg_type_id" : "MFN",
+  "event_id" : "M04"
+}, {
+  "id" : "MFN_M12",
+  "section" : "8",
+  "msg_type_id" : "MFN",
+  "event_id" : "M12"
+}, {
+  "id" : "MFQ_M01",
+  "section" : "8",
+  "msg_type_id" : "MFQ",
+  "event_id" : "M01"
+}, {
+  "id" : "MFR_M01",
+  "section" : "8",
+  "msg_type_id" : "MFR",
+  "event_id" : "M01"
+}, {
+  "id" : "NMD_N02",
+  "section" : "14",
+  "msg_type_id" : "NMD",
+  "event_id" : "N02"
+}, {
+  "id" : "NMQ_N01",
+  "section" : "14",
+  "msg_type_id" : "NMQ",
+  "event_id" : "N01"
+}, {
+  "id" : "NMR_N01",
+  "section" : "14",
+  "msg_type_id" : "NMR",
+  "event_id" : "N01"
+}, {
+  "id" : "OMD_O03",
+  "section" : "4",
+  "msg_type_id" : "OMD",
+  "event_id" : "O03"
+}, {
+  "id" : "OMG_O19",
+  "section" : "4",
+  "msg_type_id" : "OMG",
+  "event_id" : "O19"
+}, {
+  "id" : "OML_O21",
+  "section" : "4",
+  "msg_type_id" : "OML",
+  "event_id" : "O21"
+}, {
+  "id" : "OMN_O07",
+  "section" : "4",
+  "msg_type_id" : "OMN",
+  "event_id" : "O07"
+}, {
+  "id" : "OMP_O09",
+  "section" : "4",
+  "msg_type_id" : "OMP",
+  "event_id" : "O09"
+}, {
+  "id" : "OMS_O05",
+  "section" : "4",
+  "msg_type_id" : "OMS",
+  "event_id" : "O05"
+}, {
+  "id" : "ORD_O04",
+  "section" : "4",
+  "msg_type_id" : "ORD",
+  "event_id" : "O04"
+}, {
+  "id" : "ORF_R04",
+  "section" : "7",
+  "msg_type_id" : "ORF",
+  "event_id" : "R04"
+}, {
+  "id" : "ORG_O20",
+  "section" : "4",
+  "msg_type_id" : "ORG",
+  "event_id" : "O20"
+}, {
+  "id" : "ORL_O22",
+  "section" : "4",
+  "msg_type_id" : "ORL",
+  "event_id" : "O22"
+}, {
+  "id" : "ORM_O01",
+  "section" : "4",
+  "msg_type_id" : "ORM",
+  "event_id" : "O01"
+}, {
+  "id" : "ORN_O08",
+  "section" : "4",
+  "msg_type_id" : "ORN",
+  "event_id" : "O08"
+}, {
+  "id" : "ORP_O10",
+  "section" : "4",
+  "msg_type_id" : "ORP",
+  "event_id" : "O10"
+}, {
+  "id" : "ORR_O02",
+  "section" : "4",
+  "msg_type_id" : "ORR",
+  "event_id" : "O02"
+}, {
+  "id" : "ORS_O06",
+  "section" : "4",
+  "msg_type_id" : "ORS",
+  "event_id" : "O06"
+}, {
+  "id" : "ORU_R01",
+  "section" : "7",
+  "msg_type_id" : "ORU",
+  "event_id" : "R01"
+}, {
+  "id" : "OSQ_Q06",
+  "section" : "4",
+  "msg_type_id" : "OSQ",
+  "event_id" : "Q06"
+}, {
+  "id" : "OSR_Q06",
+  "section" : "4",
+  "msg_type_id" : "OSR",
+  "event_id" : "Q06"
+}, {
+  "id" : "OUL_R21",
+  "section" : "7",
+  "msg_type_id" : "OUL",
+  "event_id" : "R21"
+}, {
+  "id" : "PEX_P07",
+  "section" : "7",
+  "msg_type_id" : "PEX",
+  "event_id" : "P07"
+}, {
+  "id" : "PGL_PC6",
+  "section" : "12",
+  "msg_type_id" : "PGL",
+  "event_id" : "PC6"
+}, {
+  "id" : "PMU_B03",
+  "section" : "15",
+  "msg_type_id" : "PMU",
+  "event_id" : "B03"
+}, {
+  "id" : "PMU_B04",
+  "section" : "15",
+  "msg_type_id" : "PMU",
+  "event_id" : "B04"
+}, {
+  "id" : "PMU_B01",
+  "section" : "15",
+  "msg_type_id" : "PMU",
+  "event_id" : "B01"
+}, {
+  "id" : "PPG_PCG",
+  "section" : "12",
+  "msg_type_id" : "PPG",
+  "event_id" : "PCG"
+}, {
+  "id" : "PPP_PCB",
+  "section" : "12",
+  "msg_type_id" : "PPP",
+  "event_id" : "PCB"
+}, {
+  "id" : "PPR_PC1",
+  "section" : "12",
+  "msg_type_id" : "PPR",
+  "event_id" : "PC1"
+}, {
+  "id" : "PPT_PCL",
+  "section" : "12",
+  "msg_type_id" : "PPT",
+  "event_id" : "PCL"
+}, {
+  "id" : "PPV_PCA",
+  "section" : "12",
+  "msg_type_id" : "PPV",
+  "event_id" : "PCA"
+}, {
+  "id" : "PRR_PC5",
+  "section" : "12",
+  "msg_type_id" : "PRR",
+  "event_id" : "PC5"
+}, {
+  "id" : "PTR_PCF",
+  "section" : "12",
+  "msg_type_id" : "PTR",
+  "event_id" : "PCF"
+}, {
+  "id" : "QBP_Q13",
+  "section" : "15",
+  "msg_type_id" : "QBP",
+  "event_id" : "Q13"
+}, {
+  "id" : "QBP_Q15",
+  "section" : "15",
+  "msg_type_id" : "QBP",
+  "event_id" : "Q15"
+}, {
+  "id" : "QBP_Q21",
+  "section" : "15",
+  "msg_type_id" : "QBP",
+  "event_id" : "Q21"
+}, {
+  "id" : "QBP_Z73",
+  "section" : "15",
+  "msg_type_id" : "QBP",
+  "event_id" : "Z73"
+}, {
+  "id" : "QBP_Q11",
+  "section" : "15",
+  "msg_type_id" : "QBP",
+  "event_id" : "Q11"
+}, {
+  "id" : "QBP_K13",
+  "section" : "15",
+  "msg_type_id" : "QBP",
+  "event_id" : "K13"
+}, {
+  "id" : "QCK_Q02",
+  "section" : "5",
+  "msg_type_id" : "QCK",
+  "event_id" : "Q02"
+}, {
+  "id" : "QCN_J01",
+  "section" : "5",
+  "msg_type_id" : "QCN",
+  "event_id" : "J01"
+}, {
+  "id" : "QRY_P04",
+  "section" : "12",
+  "msg_type_id" : "QRY",
+  "event_id" : "P04"
+}, {
+  "id" : "QRY_Q01",
+  "section" : "12",
+  "msg_type_id" : "QRY",
+  "event_id" : "Q01"
+}, {
+  "id" : "QRY_T12",
+  "section" : "12",
+  "msg_type_id" : "QRY",
+  "event_id" : "T12"
+}, {
+  "id" : "QRY_A19",
+  "section" : "12",
+  "msg_type_id" : "QRY",
+  "event_id" : "A19"
+}, {
+  "id" : "QRY_R02",
+  "section" : "12",
+  "msg_type_id" : "QRY",
+  "event_id" : "R02"
+}, {
+  "id" : "QRY_PC4",
+  "section" : "12",
+  "msg_type_id" : "QRY",
+  "event_id" : "PC4"
+}, {
+  "id" : "QRY_Q02",
+  "section" : "12",
+  "msg_type_id" : "QRY",
+  "event_id" : "Q02"
+}, {
+  "id" : "QSB_Q16",
+  "section" : "5",
+  "msg_type_id" : "QSB",
+  "event_id" : "Q16"
+}, {
+  "id" : "QVR_Q17",
+  "section" : "5",
+  "msg_type_id" : "QVR",
+  "event_id" : "Q17"
+}, {
+  "id" : "RAR_RAR",
+  "section" : "4",
+  "msg_type_id" : "RAR",
+  "event_id" : "RAR"
+}, {
+  "id" : "RAS_O17",
+  "section" : "4",
+  "msg_type_id" : "RAS",
+  "event_id" : "O17"
+}, {
+  "id" : "RCI_I05",
+  "section" : "11",
+  "msg_type_id" : "RCI",
+  "event_id" : "I05"
+}, {
+  "id" : "RCL_I06",
+  "section" : "11",
+  "msg_type_id" : "RCL",
+  "event_id" : "I06"
+}, {
+  "id" : "RDE_O11",
+  "section" : "4",
+  "msg_type_id" : "RDE",
+  "event_id" : "O11"
+}, {
+  "id" : "RDR_RDR",
+  "section" : "5",
+  "msg_type_id" : "RDR",
+  "event_id" : "RDR"
+}, {
+  "id" : "RDS_O13",
+  "section" : "4",
+  "msg_type_id" : "RDS",
+  "event_id" : "O13"
+}, {
+  "id" : "RDY_K15",
+  "section" : "5",
+  "msg_type_id" : "RDY",
+  "event_id" : "K15"
+}, {
+  "id" : "REF_I12",
+  "section" : "11",
+  "msg_type_id" : "REF",
+  "event_id" : "I12"
+}, {
+  "id" : "RER_RER",
+  "section" : "4",
+  "msg_type_id" : "RER",
+  "event_id" : "RER"
+}, {
+  "id" : "RGR_RGR",
+  "section" : "4",
+  "msg_type_id" : "RGR",
+  "event_id" : "RGR"
+}, {
+  "id" : "RGV_O15",
+  "section" : "4",
+  "msg_type_id" : "RGV",
+  "event_id" : "O15"
+}, {
+  "id" : "ROR_ROR",
+  "section" : "4",
+  "msg_type_id" : "ROR",
+  "event_id" : "ROR"
+}, {
+  "id" : "RPA_I08",
+  "section" : "11",
+  "msg_type_id" : "RPA",
+  "event_id" : "I08"
+}, {
+  "id" : "RPI_I01",
+  "section" : "11",
+  "msg_type_id" : "RPI",
+  "event_id" : "I01"
+}, {
+  "id" : "RPI_I04",
+  "section" : "11",
+  "msg_type_id" : "RPI",
+  "event_id" : "I04"
+}, {
+  "id" : "RPL_I02",
+  "section" : "11",
+  "msg_type_id" : "RPL",
+  "event_id" : "I02"
+}, {
+  "id" : "RPR_I03",
+  "section" : "11",
+  "msg_type_id" : "RPR",
+  "event_id" : "I03"
+}, {
+  "id" : "RQA_I08",
+  "section" : "11",
+  "msg_type_id" : "RQA",
+  "event_id" : "I08"
+}, {
+  "id" : "RQC_I05",
+  "section" : "11",
+  "msg_type_id" : "RQC",
+  "event_id" : "I05"
+}, {
+  "id" : "RQI_I01",
+  "section" : "11",
+  "msg_type_id" : "RQI",
+  "event_id" : "I01"
+}, {
+  "id" : "RQP_I04",
+  "section" : "11",
+  "msg_type_id" : "RQP",
+  "event_id" : "I04"
+}, {
+  "id" : "RQQ_Q09",
+  "section" : "5",
+  "msg_type_id" : "RQQ",
+  "event_id" : "Q09"
+}, {
+  "id" : "RRA_O18",
+  "section" : "4",
+  "msg_type_id" : "RRA",
+  "event_id" : "O18"
+}, {
+  "id" : "RRD_O14",
+  "section" : "4",
+  "msg_type_id" : "RRD",
+  "event_id" : "O14"
+}, {
+  "id" : "RRE_O12",
+  "section" : "4",
+  "msg_type_id" : "RRE",
+  "event_id" : "O12"
+}, {
+  "id" : "RRG_O16",
+  "section" : "4",
+  "msg_type_id" : "RRG",
+  "event_id" : "O16"
+}, {
+  "id" : "RRI_I12",
+  "section" : "11",
+  "msg_type_id" : "RRI",
+  "event_id" : "I12"
+}, {
+  "id" : "RSP_K11",
+  "section" : "15",
+  "msg_type_id" : "RSP",
+  "event_id" : "K11"
+}, {
+  "id" : "RSP_K25",
+  "section" : "15",
+  "msg_type_id" : "RSP",
+  "event_id" : "K25"
+}, {
+  "id" : "RSP_K15",
+  "section" : "15",
+  "msg_type_id" : "RSP",
+  "event_id" : "K15"
+}, {
+  "id" : "RSP_Z88",
+  "section" : "15",
+  "msg_type_id" : "RSP",
+  "event_id" : "Z88"
+}, {
+  "id" : "RSP_K23",
+  "section" : "15",
+  "msg_type_id" : "RSP",
+  "event_id" : "K23"
+}, {
+  "id" : "RSP_K13",
+  "section" : "15",
+  "msg_type_id" : "RSP",
+  "event_id" : "K13"
+}, {
+  "id" : "RSP_Z82",
+  "section" : "15",
+  "msg_type_id" : "RSP",
+  "event_id" : "Z82"
+}, {
+  "id" : "RSP_K21",
+  "section" : "15",
+  "msg_type_id" : "RSP",
+  "event_id" : "K21"
+}, {
+  "id" : "RSP_Z90",
+  "section" : "15",
+  "msg_type_id" : "RSP",
+  "event_id" : "Z90"
+}, {
+  "id" : "RSP_K24",
+  "section" : "15",
+  "msg_type_id" : "RSP",
+  "event_id" : "K24"
+}, {
+  "id" : "RSP_Z86",
+  "section" : "15",
+  "msg_type_id" : "RSP",
+  "event_id" : "Z86"
+}, {
+  "id" : "RSP_K22",
+  "section" : "15",
+  "msg_type_id" : "RSP",
+  "event_id" : "K22"
+}, {
+  "id" : "RTB_Z74",
+  "section" : "5",
+  "msg_type_id" : "RTB",
+  "event_id" : "Z74"
+}, {
+  "id" : "RTB_K13",
+  "section" : "5",
+  "msg_type_id" : "RTB",
+  "event_id" : "K13"
+}, {
+  "id" : "RTB_Q13",
+  "section" : "5",
+  "msg_type_id" : "RTB",
+  "event_id" : "Q13"
+}, {
+  "id" : "SIU_S12",
+  "section" : "10",
+  "msg_type_id" : "SIU",
+  "event_id" : "S12"
+}, {
+  "id" : "SPQ_Q08",
+  "section" : "5",
+  "msg_type_id" : "SPQ",
+  "event_id" : "Q08"
+}, {
+  "id" : "SQM_S25",
+  "section" : "10",
+  "msg_type_id" : "SQM",
+  "event_id" : "S25"
+}, {
+  "id" : "SQR_S25",
+  "section" : "10",
+  "msg_type_id" : "SQR",
+  "event_id" : "S25"
+}, {
+  "id" : "SRM_S01",
+  "section" : "10",
+  "msg_type_id" : "SRM",
+  "event_id" : "S01"
+}, {
+  "id" : "SRR_S01",
+  "section" : "10",
+  "msg_type_id" : "SRR",
+  "event_id" : "S01"
+}, {
+  "id" : "SSR_U04",
+  "section" : "13",
+  "msg_type_id" : "SSR",
+  "event_id" : "U04"
+}, {
+  "id" : "SSU_U03",
+  "section" : "13",
+  "msg_type_id" : "SSU",
+  "event_id" : "U03"
+}, {
+  "id" : "SUR_P09",
+  "section" : "7",
+  "msg_type_id" : "SUR",
+  "event_id" : "P09"
+}, {
+  "id" : "TBR_R08",
+  "section" : "5",
+  "msg_type_id" : "TBR",
+  "event_id" : "R08"
+}, {
+  "id" : "TCU_U10",
+  "section" : "13",
+  "msg_type_id" : "TCU",
+  "event_id" : "U10"
+}, {
+  "id" : "UDM_Q05",
+  "section" : "5",
+  "msg_type_id" : "UDM",
+  "event_id" : "Q05"
+}, {
+  "id" : "VQQ_Q07",
+  "section" : "5",
+  "msg_type_id" : "VQQ",
+  "event_id" : "Q07"
+}, {
+  "id" : "VXQ_V01",
+  "section" : "4",
+  "msg_type_id" : "VXQ",
+  "event_id" : "V01"
+}, {
+  "id" : "VXR_V03",
+  "section" : "4",
+  "msg_type_id" : "VXR",
+  "event_id" : "V03"
+}, {
+  "id" : "VXU_V04",
+  "section" : "4",
+  "msg_type_id" : "VXU",
+  "event_id" : "V04"
+}, {
+  "id" : "VXX_V02",
+  "section" : "4",
+  "msg_type_id" : "VXX",
+  "event_id" : "V02"
+} ]

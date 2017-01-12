@@ -32,8 +32,8 @@ public class Field {
 	public Integer getMaxLength() {
 		return dataElement != null ? dataElement.getMaxLength() : null;
 	}
-	public Integer getConfLength() {
-		return dataElement != null ? dataElement.getConfLength() : -1;
+	public String getConfLength() {
+		return dataElement != null ? dataElement.getConfLength() : null;
 	}
 
 	public String getTableId() {

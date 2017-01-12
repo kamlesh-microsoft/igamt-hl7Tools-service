@@ -1,431 +1,429 @@
 [ {
   "id" : "-",
   "description" : "withdrawn",
-  "primitive" : 0,
-  "section" : null
+  "primitive" : false
 }, {
   "id" : "AD",
   "description" : "Address",
-  "primitive" : 0,
-  "section" : "2.A.1"
+  "section" : "2.A.1",
+  "primitive" : false
 }, {
   "id" : "AUI",
   "description" : "Authorization Information",
-  "primitive" : 0,
-  "section" : "2.A.2"
+  "section" : "2.A.2",
+  "primitive" : false
 }, {
   "id" : "CCD",
   "description" : "Charge Code and Date",
-  "primitive" : 0,
-  "section" : "2.A.3"
+  "section" : "2.A.3",
+  "primitive" : false
 }, {
   "id" : "CCP",
   "description" : "Channel Calibration Parameters",
-  "primitive" : 0,
-  "section" : "2.A.4"
+  "section" : "2.A.4",
+  "primitive" : false
 }, {
   "id" : "CD",
   "description" : "Channel Definition",
-  "primitive" : 0,
-  "section" : "2.A.5"
+  "section" : "2.A.5",
+  "primitive" : false
 }, {
   "id" : "CF",
   "description" : "Coded Element with Formatted Values",
-  "primitive" : 0,
-  "section" : "2.A.7"
+  "section" : "2.A.7",
+  "primitive" : false
 }, {
   "id" : "CNE",
   "description" : "Coded with No Exceptions",
-  "primitive" : 0,
-  "section" : "2.A.8"
+  "section" : "2.A.8",
+  "primitive" : false
 }, {
   "id" : "CNN",
   "description" : "Composite ID Number and Name Simplified",
-  "primitive" : 0,
-  "section" : "2.A.9"
+  "section" : "2.A.9",
+  "primitive" : false
 }, {
   "id" : "CP",
   "description" : "Composite Price",
-  "primitive" : 0,
-  "section" : "2.A.10"
+  "section" : "2.A.10",
+  "primitive" : false
 }, {
   "id" : "CQ",
   "description" : "Composite Quantity with Units",
-  "primitive" : 0,
-  "section" : "2.A.11"
+  "section" : "2.A.11",
+  "primitive" : false
 }, {
   "id" : "CSU",
   "description" : "Channel Sensitivity and Units",
-  "primitive" : 0,
-  "section" : "2.A.12"
+  "section" : "2.A.12",
+  "primitive" : false
 }, {
   "id" : "CWE",
   "description" : "Coded with Exceptions",
-  "primitive" : 0,
-  "section" : "2.A.13"
+  "section" : "2.A.13",
+  "primitive" : false
 }, {
   "id" : "CX",
   "description" : "Extended Composite ID with Check Digit",
-  "primitive" : 0,
-  "section" : "2.A.14"
+  "section" : "2.A.14",
+  "primitive" : false
 }, {
   "id" : "DDI",
   "description" : "Daily Deductible Information",
-  "primitive" : 0,
-  "section" : "2.A.15"
+  "section" : "2.A.15",
+  "primitive" : false
 }, {
   "id" : "DIN",
   "description" : "Date and Institution Name",
-  "primitive" : 0,
-  "section" : "2.A.16"
+  "section" : "2.A.16",
+  "primitive" : false
 }, {
   "id" : "DLD",
   "description" : "Discharge to Location and Date",
-  "primitive" : 0,
-  "section" : "2.A.17"
+  "section" : "2.A.17",
+  "primitive" : false
 }, {
   "id" : "DLN",
   "description" : "Driver's License Number",
-  "primitive" : 0,
-  "section" : "2.A.18"
+  "section" : "2.A.18",
+  "primitive" : false
 }, {
   "id" : "DLT",
   "description" : "Delta",
-  "primitive" : 0,
-  "section" : "2.A.19"
+  "section" : "2.A.19",
+  "primitive" : false
 }, {
   "id" : "DR",
   "description" : "Date/Time Range",
-  "primitive" : 0,
-  "section" : "2.A.20"
+  "section" : "2.A.20",
+  "primitive" : false
 }, {
   "id" : "DT",
   "description" : "Date",
-  "primitive" : 1,
-  "section" : "2.A.21"
+  "section" : "2.A.21",
+  "primitive" : true
 }, {
   "id" : "DTM",
   "description" : "Date/Time",
-  "primitive" : 1,
-  "section" : "2.A.22"
+  "section" : "2.A.22",
+  "primitive" : true
 }, {
   "id" : "DTN",
   "description" : "Day Type and Number",
-  "primitive" : 0,
-  "section" : "2.A.23"
+  "section" : "2.A.23",
+  "primitive" : false
 }, {
   "id" : "ED",
   "description" : "Encapsulated Data",
-  "primitive" : 0,
-  "section" : "2.A.24"
+  "section" : "2.A.24",
+  "primitive" : false
 }, {
   "id" : "EI",
   "description" : "Entity Identifier",
-  "primitive" : 0,
-  "section" : "2.A.25"
+  "section" : "2.A.25",
+  "primitive" : false
 }, {
   "id" : "EIP",
   "description" : "Entity Identifier Pair",
-  "primitive" : 0,
-  "section" : "2.A.26"
+  "section" : "2.A.26",
+  "primitive" : false
 }, {
   "id" : "ERL",
   "description" : "Error Location",
-  "primitive" : 0,
-  "section" : "2.A.28"
+  "section" : "2.A.28",
+  "primitive" : false
 }, {
   "id" : "FC",
   "description" : "Financial Class",
-  "primitive" : 0,
-  "section" : "2.A.29"
+  "section" : "2.A.29",
+  "primitive" : false
 }, {
   "id" : "FN",
   "description" : "Family Name",
-  "primitive" : 0,
-  "section" : "2.A.30"
+  "section" : "2.A.30",
+  "primitive" : false
 }, {
   "id" : "FT",
   "description" : "Formatted Text Data",
-  "primitive" : 1,
-  "section" : "2.A.31"
+  "section" : "2.A.31",
+  "primitive" : true
 }, {
   "id" : "GTS",
   "description" : "General Timing Specification",
-  "primitive" : 1,
-  "section" : "2.A.32"
+  "section" : "2.A.32",
+  "primitive" : true
 }, {
   "id" : "HD",
   "description" : "Hierarchic Designator",
-  "primitive" : 0,
-  "section" : "2.A.33"
+  "section" : "2.A.33",
+  "primitive" : false
 }, {
   "id" : "ICD",
   "description" : "Insurance Certification Definition",
-  "primitive" : 0,
-  "section" : "2.A.34"
+  "section" : "2.A.34",
+  "primitive" : false
 }, {
   "id" : "ID",
   "description" : "Coded Value for HL7 Defined Tables",
-  "primitive" : 1,
-  "section" : "2.A.35"
+  "section" : "2.A.35",
+  "primitive" : true
 }, {
   "id" : "IS",
   "description" : "Coded Value for User-Defined Tables",
-  "primitive" : 1,
-  "section" : "2.A.36"
+  "section" : "2.A.36",
+  "primitive" : true
 }, {
   "id" : "JCC",
   "description" : "Job Code/Class",
-  "primitive" : 0,
-  "section" : "2.A.37"
+  "section" : "2.A.37",
+  "primitive" : false
 }, {
   "id" : "LA1",
   "description" : "Location with Address Variation 1",
-  "primitive" : 0,
-  "section" : "2.A.38"
+  "section" : "2.A.38",
+  "primitive" : false
 }, {
   "id" : "LA2",
   "description" : "Location with Address Variation 2",
-  "primitive" : 0,
-  "section" : "2.A.39"
+  "section" : "2.A.39",
+  "primitive" : false
 }, {
   "id" : "MA",
   "description" : "Multiplexed Array",
-  "primitive" : 0,
-  "section" : "2.A.40"
+  "section" : "2.A.40",
+  "primitive" : false
 }, {
   "id" : "MO",
   "description" : "Money",
-  "primitive" : 0,
-  "section" : "2.A.41"
+  "section" : "2.A.41",
+  "primitive" : false
 }, {
   "id" : "MOC",
   "description" : "Money and Code",
-  "primitive" : 0,
-  "section" : "2.A.42"
+  "section" : "2.A.42",
+  "primitive" : false
 }, {
   "id" : "MOP",
   "description" : "Money or Percentage",
-  "primitive" : 0,
-  "section" : "2.A.43"
+  "section" : "2.A.43",
+  "primitive" : false
 }, {
   "id" : "MSG",
   "description" : "Message Type",
-  "primitive" : 0,
-  "section" : "2.A.44"
+  "section" : "2.A.44",
+  "primitive" : false
 }, {
   "id" : "NA",
   "description" : "Numeric Array",
-  "primitive" : 0,
-  "section" : "2.A.45"
+  "section" : "2.A.45",
+  "primitive" : false
 }, {
   "id" : "NDL",
   "description" : "Name with Date and Location",
-  "primitive" : 0,
-  "section" : "2.A.46"
+  "section" : "2.A.46",
+  "primitive" : false
 }, {
   "id" : "NM",
   "description" : "Numeric",
-  "primitive" : 1,
-  "section" : "2.A.47"
+  "section" : "2.A.47",
+  "primitive" : true
 }, {
   "id" : "NR",
   "description" : "Numeric Range",
-  "primitive" : 0,
-  "section" : "2.A.48"
+  "section" : "2.A.48",
+  "primitive" : false
 }, {
   "id" : "OCD",
   "description" : "Occurrence Code and Date",
-  "primitive" : 0,
-  "section" : "2.A.49"
+  "section" : "2.A.49",
+  "primitive" : false
 }, {
   "id" : "OSP",
   "description" : "Occurrence Span Code and Date",
-  "primitive" : 0,
-  "section" : "2.A.51"
+  "section" : "2.A.51",
+  "primitive" : false
 }, {
   "id" : "PIP",
   "description" : "Practitioner Institutional Privileges",
-  "primitive" : 0,
-  "section" : "2.A.52"
+  "section" : "2.A.52",
+  "primitive" : false
 }, {
   "id" : "PL",
   "description" : "Person Location",
-  "primitive" : 0,
-  "section" : "2.A.53"
+  "section" : "2.A.53",
+  "primitive" : false
 }, {
   "id" : "PLN",
   "description" : "Practitioner License or Other ID Number",
-  "primitive" : 0,
-  "section" : "2.A.54"
+  "section" : "2.A.54",
+  "primitive" : false
 }, {
   "id" : "PPN",
   "description" : "Performing Person Time Stamp",
-  "primitive" : 0,
-  "section" : "2.A.55"
+  "section" : "2.A.55",
+  "primitive" : false
 }, {
   "id" : "PRL",
   "description" : "Parent Result Link",
-  "primitive" : 0,
-  "section" : "2.A.56"
+  "section" : "2.A.56",
+  "primitive" : false
 }, {
   "id" : "PT",
   "description" : "Processing Type",
-  "primitive" : 0,
-  "section" : "2.A.57"
+  "section" : "2.A.57",
+  "primitive" : false
 }, {
   "id" : "PTA",
   "description" : "Policy Type and Amount",
-  "primitive" : 0,
-  "section" : "2.A.58"
+  "section" : "2.A.58",
+  "primitive" : false
 }, {
   "id" : "QIP",
   "description" : "Query Input Parameter List",
-  "primitive" : 0,
-  "section" : "2.A.59"
+  "section" : "2.A.59",
+  "primitive" : false
 }, {
   "id" : "QSC",
   "description" : "Query Selection Criteria",
-  "primitive" : 0,
-  "section" : "2.A.60"
+  "section" : "2.A.60",
+  "primitive" : false
 }, {
   "id" : "RCD",
   "description" : "Row Column Definition",
-  "primitive" : 0,
-  "section" : "2.A.61"
+  "section" : "2.A.61",
+  "primitive" : false
 }, {
   "id" : "RFR",
   "description" : "Reference Range",
-  "primitive" : 0,
-  "section" : "2.A.62"
+  "section" : "2.A.62",
+  "primitive" : false
 }, {
   "id" : "RI",
   "description" : "Repeat Interval",
-  "primitive" : 0,
-  "section" : "2.A.63"
+  "section" : "2.A.63",
+  "primitive" : false
 }, {
   "id" : "RMC",
   "description" : "Room Coverage",
-  "primitive" : 0,
-  "section" : "2.A.64"
+  "section" : "2.A.64",
+  "primitive" : false
 }, {
   "id" : "RP",
   "description" : "Reference Pointer",
-  "primitive" : 0,
-  "section" : "2.A.65"
+  "section" : "2.A.65",
+  "primitive" : false
 }, {
   "id" : "RPT",
   "description" : "Repeat Pattern",
-  "primitive" : 0,
-  "section" : "2.A.66"
+  "section" : "2.A.66",
+  "primitive" : false
 }, {
   "id" : "SAD",
   "description" : "Street Address",
-  "primitive" : 0,
-  "section" : "2.A.67"
+  "section" : "2.A.67",
+  "primitive" : false
 }, {
   "id" : "SCV",
   "description" : "Scheduling Class Value Pair",
-  "primitive" : 0,
-  "section" : "2.A.68"
+  "section" : "2.A.68",
+  "primitive" : false
 }, {
   "id" : "SI",
   "description" : "Sequence ID",
-  "primitive" : 1,
-  "section" : "2.A.69"
+  "section" : "2.A.69",
+  "primitive" : true
 }, {
   "id" : "SN",
   "description" : "Structured Numeric",
-  "primitive" : 0,
-  "section" : "2.A.70"
+  "section" : "2.A.70",
+  "primitive" : false
 }, {
   "id" : "SNM",
   "description" : "String of Telephone Number Digits",
-  "primitive" : 1,
-  "section" : "2.A.71"
+  "section" : "2.A.71",
+  "primitive" : true
 }, {
   "id" : "SPD",
   "description" : "Specialty Description",
-  "primitive" : 0,
-  "section" : "2.A.72"
+  "section" : "2.A.72",
+  "primitive" : false
 }, {
   "id" : "SRT",
   "description" : "Sort Order",
-  "primitive" : 0,
-  "section" : "2.A.74"
+  "section" : "2.A.74",
+  "primitive" : false
 }, {
   "id" : "ST",
   "description" : "String Data",
-  "primitive" : 1,
-  "section" : "2.A.75"
+  "section" : "2.A.75",
+  "primitive" : true
 }, {
   "id" : "TM",
   "description" : "Time",
-  "primitive" : 1,
-  "section" : "2.A.76"
+  "section" : "2.A.76",
+  "primitive" : true
 }, {
   "id" : "TX",
   "description" : "Text Data",
-  "primitive" : 1,
-  "section" : "2.A.79"
+  "section" : "2.A.79",
+  "primitive" : true
 }, {
   "id" : "UVC",
   "description" : "UB Value Code and Amount",
-  "primitive" : 0,
-  "section" : "2.A.80"
+  "section" : "2.A.80",
+  "primitive" : false
 }, {
-  "id" : "varies",
+  "id" : "VARIES",
   "description" : "varies",
-  "primitive" : 1,
-  "section" : null
+  "primitive" : true
 }, {
   "id" : "VH",
   "description" : "Visiting Hours",
-  "primitive" : 0,
-  "section" : "2.A.81"
+  "section" : "2.A.81",
+  "primitive" : false
 }, {
   "id" : "VID",
   "description" : "Version Identifier",
-  "primitive" : 0,
-  "section" : "2.A.82"
+  "section" : "2.A.82",
+  "primitive" : false
 }, {
   "id" : "VR",
   "description" : "Value Range",
-  "primitive" : 0,
-  "section" : "2.A.83"
+  "section" : "2.A.83",
+  "primitive" : false
 }, {
   "id" : "WVI",
   "description" : "Channel Identifier",
-  "primitive" : 0,
-  "section" : "2.A.84"
+  "section" : "2.A.84",
+  "primitive" : false
 }, {
   "id" : "WVS",
   "description" : "Waveform Source",
-  "primitive" : 0,
-  "section" : "2.A.85"
+  "section" : "2.A.85",
+  "primitive" : false
 }, {
   "id" : "XAD",
   "description" : "Extended Address",
-  "primitive" : 0,
-  "section" : "2.A.86"
+  "section" : "2.A.86",
+  "primitive" : false
 }, {
   "id" : "XCN",
   "description" : "Extended Composite ID Number and Name for Persons",
-  "primitive" : 0,
-  "section" : "2.A.87"
+  "section" : "2.A.87",
+  "primitive" : false
 }, {
   "id" : "XON",
   "description" : "Extended Composite Name and Identification Number for Organizations",
-  "primitive" : 0,
-  "section" : "2.A.88"
+  "section" : "2.A.88",
+  "primitive" : false
 }, {
   "id" : "XPN",
   "description" : "Extended Person Name",
-  "primitive" : 0,
-  "section" : "2.A.89"
+  "section" : "2.A.89",
+  "primitive" : false
 }, {
   "id" : "XTN",
   "description" : "Extended Telecommunication Number",
-  "primitive" : 0,
-  "section" : "2.A.90"
+  "section" : "2.A.90",
+  "primitive" : false
 } ]

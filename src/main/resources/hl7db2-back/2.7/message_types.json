@@ -1,0 +1,453 @@
+[ {
+  "id" : "ACK",
+  "description" : "General acknowledgment message",
+  "section" : "10.4"
+}, {
+  "id" : "ADT",
+  "description" : "ADT message",
+  "section" : "3.3.1"
+}, {
+  "id" : "BAR",
+  "description" : "Add/change billing account",
+  "section" : "6.4.1"
+}, {
+  "id" : "BPS",
+  "description" : "Blood product dispense status message",
+  "section" : "4.13.3"
+}, {
+  "id" : "BRP",
+  "description" : "Blood product dispense status acknowledgement message",
+  "section" : "4.13.4"
+}, {
+  "id" : "BRT",
+  "description" : "Blood product transfusion/disposition acknowledgement message",
+  "section" : "4.13.6"
+}, {
+  "id" : "BTS",
+  "description" : "Blood product transfusion/disposition message",
+  "section" : "4.13.5"
+}, {
+  "id" : "CCF",
+  "description" : "Collaborative Care Fetch",
+  "section" : "11.7.2"
+}, {
+  "id" : "CCI",
+  "description" : "Collaborative Care Information",
+  "section" : "11.7.2"
+}, {
+  "id" : "CCM",
+  "description" : "Collaborative Care Message",
+  "section" : "11.6.1"
+}, {
+  "id" : "CCQ",
+  "description" : "Collaborative Care Referral",
+  "section" : "11.7.1"
+}, {
+  "id" : "CCR",
+  "description" : "#FIXME#",
+  "section" : "11.6.2"
+}, {
+  "id" : "CCU",
+  "description" : "Collaborative Care Referral",
+  "section" : "11.6.6"
+}, {
+  "id" : "CQU",
+  "description" : "Collaborative Care Referral",
+  "section" : "11.7.1"
+}, {
+  "id" : "CRM",
+  "description" : "Clinical study registration message",
+  "section" : "7.7.1"
+}, {
+  "id" : "CSU",
+  "description" : "Unsolicited study data message",
+  "section" : "7.7.2"
+}, {
+  "id" : "DFT",
+  "description" : "Detail financial transactions",
+  "section" : "6.4.3"
+}, {
+  "id" : "EAC",
+  "description" : "Automated equipment command message",
+  "section" : "13.3.7"
+}, {
+  "id" : "EAN",
+  "description" : "Automated equipment notification message",
+  "section" : "13.3.9"
+}, {
+  "id" : "EAR",
+  "description" : "Automated equipment response message",
+  "section" : "13.3.8"
+}, {
+  "id" : "EHC",
+  "description" : "Health Care Invoice",
+  "section" : "16.3.1"
+}, {
+  "id" : "ESR",
+  "description" : "Automated equipment status update acknowledgment message",
+  "section" : "13.3.2"
+}, {
+  "id" : "ESU",
+  "description" : "Automated equipment status update message",
+  "section" : "13.3.1"
+}, {
+  "id" : "INR",
+  "description" : "Automated equipment inventory request message",
+  "section" : "13.3.6"
+}, {
+  "id" : "INU",
+  "description" : "Automated equipment inventory update message",
+  "section" : "13.3.5"
+}, {
+  "id" : "LSR",
+  "description" : "Automated equipment log/service request message",
+  "section" : "13.3.13"
+}, {
+  "id" : "LSU",
+  "description" : "Automated equipment log/service update message",
+  "section" : "13.3.12"
+}, {
+  "id" : "MDM",
+  "description" : "Medical document management",
+  "section" : "9.6.1"
+}, {
+  "id" : "MFK",
+  "description" : "Master files application acknowledgment",
+  "section" : "8.10.1"
+}, {
+  "id" : "MFN",
+  "description" : "Master files notification",
+  "section" : "8.10.1"
+}, {
+  "id" : "NMD",
+  "description" : "Application management data message",
+  "section" : "14.3.2"
+}, {
+  "id" : "NUL",
+  "description" : "No message required (for referential integrity)",
+  "section" : "0"
+}, {
+  "id" : "OMB",
+  "description" : "Blood product order message",
+  "section" : "4.13.1"
+}, {
+  "id" : "OMD",
+  "description" : "Dietary order",
+  "section" : "4.7.1"
+}, {
+  "id" : "OMG",
+  "description" : "General clinical order message",
+  "section" : "4.4.4"
+}, {
+  "id" : "OMI",
+  "description" : "Imaging order",
+  "section" : "4.4.14"
+}, {
+  "id" : "OML",
+  "description" : "Laboratory order message",
+  "section" : "4.4.10"
+}, {
+  "id" : "OMN",
+  "description" : "Non-stock requisition order message",
+  "section" : "4.10.3"
+}, {
+  "id" : "OMP",
+  "description" : "Pharmacy/treatment order message",
+  "section" : "4.A.3.2"
+}, {
+  "id" : "OMS",
+  "description" : "Stock requisition order message",
+  "section" : "4.10.1"
+}, {
+  "id" : "OPL",
+  "description" : "Population/Location-Based Laboratory Order Message",
+  "section" : "4.4.16"
+}, {
+  "id" : "OPR",
+  "description" : "Population/Location-Based Laboratory Order Acknowledgment Message",
+  "section" : "4.4.17"
+}, {
+  "id" : "OPU",
+  "description" : "Unsolicited Population/Location-Based Laboratory Observation Message",
+  "section" : "7.3.11"
+}, {
+  "id" : "ORA",
+  "description" : "Observation Report  Acknowledgment",
+  "section" : "7.3.7"
+}, {
+  "id" : "ORB",
+  "description" : "Blood product order acknowledgement message",
+  "section" : "4.13.2"
+}, {
+  "id" : "ORD",
+  "description" : "Dietary order acknowledgment message",
+  "section" : "4.7.2"
+}, {
+  "id" : "ORG",
+  "description" : "General clinical order acknowledgment message",
+  "section" : "4.4.5"
+}, {
+  "id" : "ORI",
+  "description" : "Imaging order acknowledgement message",
+  "section" : "4.4.15"
+}, {
+  "id" : "ORL",
+  "description" : "Laboratory acknowledgment message (unsolicited)",
+  "section" : "4.4.11"
+}, {
+  "id" : "ORN",
+  "description" : "Non-stock requisition - General order acknowledgment message",
+  "section" : "4.10.4"
+}, {
+  "id" : "ORP",
+  "description" : "Pharmacy/treatment order acknowledgment message",
+  "section" : "4.A.3.3"
+}, {
+  "id" : "ORS",
+  "description" : "Stock requisition - Order acknowledgment message",
+  "section" : "4.10.2"
+}, {
+  "id" : "ORU",
+  "description" : "Unsolicited transmission of an observation message",
+  "section" : "5.7.3.0"
+}, {
+  "id" : "OSM",
+  "description" : "Specimen Shipment Message",
+  "section" : "7.18.1"
+}, {
+  "id" : "OUL",
+  "description" : "Unsolicited laboratory observation message",
+  "section" : "7.3.10"
+}, {
+  "id" : "PEX",
+  "description" : "Product experience message",
+  "section" : "7.11.1"
+}, {
+  "id" : "PGL",
+  "description" : "Patient goal message",
+  "section" : "12.3.1"
+}, {
+  "id" : "PIN",
+  "description" : "Patient insurance information",
+  "section" : "11.3.7"
+}, {
+  "id" : "PMU",
+  "description" : "Add personnel record",
+  "section" : "15.3.1"
+}, {
+  "id" : "PPG",
+  "description" : "Patient pathway message (goal-oriented)",
+  "section" : "12.3.4"
+}, {
+  "id" : "PPP",
+  "description" : "Patient pathway message (problem-oriented)",
+  "section" : "12.3.3"
+}, {
+  "id" : "PPR",
+  "description" : "Patient problem message",
+  "section" : "12.3.2"
+}, {
+  "id" : "PPT",
+  "description" : "Patient pathway goal-oriented response",
+  "section" : "12.3.12"
+}, {
+  "id" : "PPV",
+  "description" : "Patient goal response",
+  "section" : "12.3.8"
+}, {
+  "id" : "PRR",
+  "description" : "Patient problem response",
+  "section" : "12.3.6"
+}, {
+  "id" : "PTR",
+  "description" : "Patient pathway problem-oriented response",
+  "section" : "12.3.10"
+}, {
+  "id" : "QBP",
+  "description" : "Query by parameter",
+  "section" : "15.3.7"
+}, {
+  "id" : "QCN",
+  "description" : "Cancel query",
+  "section" : "5.4.6"
+}, {
+  "id" : "QRY",
+  "description" : "Query, original mode",
+  "section" : "12.3.11"
+}, {
+  "id" : "QSB",
+  "description" : "Create subscription",
+  "section" : "5.4.4"
+}, {
+  "id" : "QSX",
+  "description" : "Cancel subscription/acknowledge message",
+  "section" : "5.4.7"
+}, {
+  "id" : "QVR",
+  "description" : "Query for previous events",
+  "section" : "5.4.5"
+}, {
+  "id" : "RAS",
+  "description" : "Pharmacy/treatment administration message",
+  "section" : "4.A.3.10"
+}, {
+  "id" : "RCI",
+  "description" : "Return clinical information",
+  "section" : "11.3.5"
+}, {
+  "id" : "RCL",
+  "description" : "Return clinical list",
+  "section" : "11.3.6"
+}, {
+  "id" : "RDE",
+  "description" : "Pharmacy/treatment encoded order message",
+  "section" : "4.A.3.12"
+}, {
+  "id" : "RDR",
+  "description" : "Pharmacy/treatment dispense information",
+  "section" : "5.9.1.0"
+}, {
+  "id" : "RDS",
+  "description" : "Pharmacy/treatment dispense message",
+  "section" : "4.A.3.6"
+}, {
+  "id" : "RDY",
+  "description" : "Display based response",
+  "section" : "5.3.2.4"
+}, {
+  "id" : "REF",
+  "description" : "Patient referral",
+  "section" : "11.5.1"
+}, {
+  "id" : "RGV",
+  "description" : "Pharmacy/treatment give message",
+  "section" : "4.A.3.8"
+}, {
+  "id" : "RPA",
+  "description" : "Return patient authorization",
+  "section" : "11.4.1"
+}, {
+  "id" : "RPI",
+  "description" : "Return patient information",
+  "section" : "11.3.1"
+}, {
+  "id" : "RPL",
+  "description" : "Return patient display list",
+  "section" : "11.3.2"
+}, {
+  "id" : "RPR",
+  "description" : "Return patient list",
+  "section" : "11.3.3"
+}, {
+  "id" : "RQA",
+  "description" : "Request patient authorization",
+  "section" : "11.4.1"
+}, {
+  "id" : "RQC",
+  "description" : "Request clinical information",
+  "section" : "11.3.5"
+}, {
+  "id" : "RQI",
+  "description" : "Request patient information",
+  "section" : "11.3.1"
+}, {
+  "id" : "RQP",
+  "description" : "Request patient demographics",
+  "section" : "11.3.4"
+}, {
+  "id" : "RRA",
+  "description" : "Pharmacy/treatment administration acknowledgment message",
+  "section" : "4.A.3.11"
+}, {
+  "id" : "RRD",
+  "description" : "Pharmacy/treatment dispense acknowledgment message",
+  "section" : "4.A.3.7"
+}, {
+  "id" : "RRE",
+  "description" : "Pharmacy/treatment encoded order acknowledgment message",
+  "section" : "4.A.3.13"
+}, {
+  "id" : "RRG",
+  "description" : "Pharmacy/treatment give acknowledgment message",
+  "section" : "4.A.3.9"
+}, {
+  "id" : "RRI",
+  "description" : "Return referral information",
+  "section" : "11.5.1"
+}, {
+  "id" : "RSP",
+  "description" : "Segment pattern response",
+  "section" : "15.3.7"
+}, {
+  "id" : "RTB",
+  "description" : "Tabular response",
+  "section" : "4.6.2"
+}, {
+  "id" : "SCN",
+  "description" : "Notification of Anti-Microbial Device Cycle Data",
+  "section" : "17.6.5"
+}, {
+  "id" : "SDN",
+  "description" : "Notification of Anti-Microbial Device Data",
+  "section" : "17.6.4"
+}, {
+  "id" : "SDR",
+  "description" : "Sterilization anti-microbial device data request",
+  "section" : "17.5.4"
+}, {
+  "id" : "SIU",
+  "description" : "Schedule information unsolicited",
+  "section" : "10.4"
+}, {
+  "id" : "SLN",
+  "description" : "Notification of New Sterilization Lot",
+  "section" : "17.6.2"
+}, {
+  "id" : "SLR",
+  "description" : "Sterilization lot request",
+  "section" : "17.5.1"
+}, {
+  "id" : "SMD",
+  "description" : "Sterilization anti-microbial device cycle data request",
+  "section" : "17.5.5"
+}, {
+  "id" : "SRM",
+  "description" : "Schedule request message",
+  "section" : "10.3"
+}, {
+  "id" : "SRR",
+  "description" : "Scheduled request response",
+  "section" : "10.3"
+}, {
+  "id" : "SSR",
+  "description" : "Specimen status request message",
+  "section" : "13.3.4"
+}, {
+  "id" : "SSU",
+  "description" : "Specimen status update message",
+  "section" : "13.3.3"
+}, {
+  "id" : "STC",
+  "description" : "Notification of Sterilization Configuration",
+  "section" : "17.6.1"
+}, {
+  "id" : "STI",
+  "description" : "Sterilization item request",
+  "section" : "17.5.3"
+}, {
+  "id" : "TCR",
+  "description" : "Automated equipment test code settings request message",
+  "section" : "13.3.11"
+}, {
+  "id" : "TCU",
+  "description" : "Automated equipment test code settings update message",
+  "section" : "13.3.10"
+}, {
+  "id" : "UDM",
+  "description" : "Unsolicited display update message",
+  "section" : "5.10.1.1"
+}, {
+  "id" : "VXU",
+  "description" : "Unsolicited vaccination record update",
+  "section" : "4.A.7.5"
+} ]

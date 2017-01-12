@@ -1,1 +1,3195 @@
-[{"id":"00002","description":"ACKNOWLEDGMENT CODE","datatype_id":"ID","min_length":"-1","max_length":"2","conf_length":"-1","table_id":"0008","section":"2-45"},{"id":"00003","description":"MESSAGE CONTROL ID","datatype_id":"ST","min_length":"-1","max_length":"20","conf_length":"-1","table_id":null,"section":"null"},{"id":"00004","description":"TEXT MESSAGE","datatype_id":"ST","min_length":"-1","max_length":"80","conf_length":"-1","table_id":null,"section":"null"},{"id":"00005","description":"FIELD SEPARATOR","datatype_id":"ST","min_length":"-1","max_length":"1","conf_length":"-1","table_id":null,"section":"2-46"},{"id":"00006","description":"SENDING APPLICATION","datatype_id":"ST","min_length":"-1","max_length":"15","conf_length":"-1","table_id":null,"section":"null"},{"id":"00008","description":"Security","datatype_id":"ST","min_length":"-1","max_length":"40","conf_length":"-1","table_id":null,"section":"null"},{"id":"00009","description":"RECEIVING APPLICATION","datatype_id":"ST","min_length":"-1","max_length":"15","conf_length":"-1","table_id":null,"section":"null"},{"id":"00010","description":"DATE/TIME OF MESSAGE","datatype_id":"TS","min_length":"-1","max_length":"19","conf_length":"-1","table_id":null,"section":"null"},{"id":"00012","description":"MESSAGE TYPE","datatype_id":"ID","min_length":"-1","max_length":"7","conf_length":"-1","table_id":"0076","section":"null"},{"id":"00013","description":"MESSAGE CONTROL ID","datatype_id":"ST","min_length":"-1","max_length":"20","conf_length":"-1","table_id":null,"section":"null"},{"id":"00014","description":"PROCESSING ID","datatype_id":"ID","min_length":"-1","max_length":"1","conf_length":"-1","table_id":"0103","section":"null"},{"id":"00015","description":"VERSION ID","datatype_id":"NM","min_length":"-1","max_length":"8","conf_length":"-1","table_id":"0104","section":"null"},{"id":"00020","description":"PATIENT ADDRESS","datatype_id":"AD","min_length":"-1","max_length":"106","conf_length":"-1","table_id":null,"section":"null"},{"id":"00026","description":"COUNTY CODE","datatype_id":"ID","min_length":"-1","max_length":"4","conf_length":"-1","table_id":null,"section":"null"},{"id":"00029","description":"EVENT TYPE CODE","datatype_id":"ID","min_length":"-1","max_length":"3","conf_length":"-1","table_id":"0003","section":"3-11"},{"id":"00030","description":"DATE/TIME OF EVENT","datatype_id":"TS","min_length":"-1","max_length":"19","conf_length":"-1","table_id":null,"section":"null"},{"id":"00032","description":"DATE/TIME PLANNED EVENT","datatype_id":"TS","min_length":"-1","max_length":"19","conf_length":"-1","table_id":null,"section":"null"},{"id":"00034","description":"PATIENT ID INTERNAL (INTERNAL ID)","datatype_id":"CK","min_length":"-1","max_length":"16","conf_length":"-1","table_id":"0061","section":"null"},{"id":"00035","description":"PATIENT ACCOUNT NUMBER","datatype_id":"CK","min_length":"-1","max_length":"20","conf_length":"-1","table_id":"0061","section":"null"},{"id":"00038","description":"ALTERNATE PATIENT ID","datatype_id":"ST","min_length":"-1","max_length":"12","conf_length":"-1","table_id":null,"section":"null"},{"id":"00041","description":"PATIENT NAME","datatype_id":"PN","min_length":"-1","max_length":"48","conf_length":"-1","table_id":null,"section":"null"},{"id":"00042","description":"SEX","datatype_id":"ID","min_length":"-1","max_length":"1","conf_length":"-1","table_id":"0001","section":"null"},{"id":"00043","description":"DATE OF BIRTH","datatype_id":"DT","min_length":"-1","max_length":"8","conf_length":"-1","table_id":null,"section":"null"},{"id":"00044","description":"ETHNIC GROUP","datatype_id":"ID","min_length":"-1","max_length":"1","conf_length":"-1","table_id":"0005","section":"null"},{"id":"00045","description":"RELIGION","datatype_id":"ID","min_length":"-1","max_length":"3","conf_length":"-1","table_id":"0006","section":"null"},{"id":"00046","description":"MARITAL STATUS","datatype_id":"ID","min_length":"-1","max_length":"1","conf_length":"-1","table_id":"0002","section":"null"},{"id":"00047","description":"NEXT OF KIN RELATIONSHIP","datatype_id":"ST","min_length":"-1","max_length":"15","conf_length":"-1","table_id":"0063","section":"null"},{"id":"00048","description":"NEXT OF KIN NAME","datatype_id":"PN","min_length":"-1","max_length":"48","conf_length":"-1","table_id":null,"section":"null"},{"id":"00049","description":"PHONE NUMBER - HOME","datatype_id":"TN","min_length":"-1","max_length":"40","conf_length":"-1","table_id":null,"section":"null"},{"id":"00050","description":"PHONE NUMBER - BUSINESS","datatype_id":"TN","min_length":"-1","max_length":"40","conf_length":"-1","table_id":null,"section":"null"},{"id":"00052","description":"PATIENT CLASS","datatype_id":"ID","min_length":"-1","max_length":"1","conf_length":"-1","table_id":"0004","section":"null"},{"id":"00053","description":"ASSIGNED PATIENT LOCATION","datatype_id":"ID","min_length":"-1","max_length":"12","conf_length":"-1","table_id":"0079","section":"null"},{"id":"00056","description":"PRIOR PATIENT LOCATION","datatype_id":"ID","min_length":"-1","max_length":"12","conf_length":"-1","table_id":"0079","section":"null"},{"id":"00057","description":"ATTENDING DOCTOR","datatype_id":"CN","min_length":"-1","max_length":"60","conf_length":"-1","table_id":"0010","section":"null"},{"id":"00059","description":"HOSPITAL SERVICE","datatype_id":"ID","min_length":"-1","max_length":"3","conf_length":"-1","table_id":"0069","section":"null"},{"id":"00060","description":"TEMPORARY LOCATION","datatype_id":"ID","min_length":"-1","max_length":"12","conf_length":"-1","table_id":"0079","section":"null"},{"id":"00063","description":"ADMIT SOURCE","datatype_id":"ID","min_length":"-1","max_length":"3","conf_length":"-1","table_id":"0023","section":"null"},{"id":"00064","description":"AMBULATORY STATUS","datatype_id":"ID","min_length":"-1","max_length":"2","conf_length":"-1","table_id":"0009","section":"null"},{"id":"00066","description":"WHEN TO CHARGE","datatype_id":"CM","min_length":"-1","max_length":"15","conf_length":"-1","table_id":"0100","section":"4-12"},{"id":"00068","description":"STOCK LOCATION","datatype_id":"ID","min_length":"-1","max_length":"2","conf_length":"-1","table_id":"0012","section":"null"},{"id":"00080","description":"ERROR CODE AND LOCATION","datatype_id":"ID","min_length":"-1","max_length":"80","conf_length":"-1","table_id":"0060","section":"2-42"},{"id":"00120","description":"SUBSTITUTE ALLOWED","datatype_id":"ID","min_length":"-1","max_length":"1","conf_length":"-1","table_id":null,"section":"null"},{"id":"00129","description":"ROUTE","datatype_id":"ST","min_length":"-1","max_length":"8","conf_length":"-1","table_id":"0033","section":"null"},{"id":"00130","description":"SITE ADMINISTERED","datatype_id":"ST","min_length":"-1","max_length":"20","conf_length":"-1","table_id":"0034","section":"null"},{"id":"00131","description":"IV SOLUTION RATE","datatype_id":"CQ","min_length":"-1","max_length":"10","conf_length":"-1","table_id":null,"section":"null"},{"id":"00133","description":"DRUG STRENGTH","datatype_id":"CQ","min_length":"-1","max_length":"14","conf_length":"-1","table_id":null,"section":"null"},{"id":"00135","description":"DRUG DOSE","datatype_id":"CM","min_length":"-1","max_length":"10","conf_length":"-1","table_id":null,"section":"null"},{"id":"00137","description":"FINAL CONCENTRATION","datatype_id":"NM","min_length":"-1","max_length":"10","conf_length":"-1","table_id":null,"section":"null"},{"id":"00138","description":"FINAL VOLUME IN ML.","datatype_id":"NM","min_length":"-1","max_length":"10","conf_length":"-1","table_id":null,"section":"null"},{"id":"00139","description":"DRUG ROLE","datatype_id":"ID","min_length":"-1","max_length":"1","conf_length":"-1","table_id":null,"section":"null"},{"id":"00153","description":"DATA LINE","datatype_id":"TX","min_length":"-1","max_length":"300","conf_length":"-1","table_id":null,"section":"null"},{"id":"00154","description":"LOGICAL BREAK POINT","datatype_id":"ST","min_length":"-1","max_length":"2","conf_length":"-1","table_id":null,"section":"null"},{"id":"00156","description":"QUERY DATE/TIME","datatype_id":"TS","min_length":"-1","max_length":"19","conf_length":"-1","table_id":null,"section":"5-6"},{"id":"00158","description":"QUERY FORMAT CODE","datatype_id":"ID","min_length":"-1","max_length":"1","conf_length":"-1","table_id":"0106","section":"null"},{"id":"00159","description":"QUERY PRIORITY","datatype_id":"ID","min_length":"-1","max_length":"1","conf_length":"-1","table_id":"0091","section":"null"},{"id":"00160","description":"QUERY ID","datatype_id":"ST","min_length":"-1","max_length":"10","conf_length":"-1","table_id":null,"section":"null"},{"id":"00161","description":"DEFERRED RESPONSE TYPE","datatype_id":"ID","min_length":"-1","max_length":"1","conf_length":"-1","table_id":"0107","section":"null"},{"id":"00162","description":"DEFERRED RESPONSE DATE/TIME","datatype_id":"TS","min_length":"-1","max_length":"19","conf_length":"-1","table_id":null,"section":"null"},{"id":"00164","description":"QUANTITY LIMITED REQUEST","datatype_id":"CQ","min_length":"-1","max_length":"5","conf_length":"-1","table_id":"0126","section":"null"},{"id":"00167","description":"CONTINUATION POINTER","datatype_id":"ST","min_length":"-1","max_length":"60","conf_length":"-1","table_id":null,"section":"null"},{"id":"00168","description":"WHO SUBJECT FILTER","datatype_id":"ST","min_length":"-1","max_length":"20","conf_length":"-1","table_id":null,"section":"null"},{"id":"00169","description":"WHAT SUBJECT FILTER","datatype_id":"ID","min_length":"-1","max_length":"3","conf_length":"-1","table_id":"0048","section":"null"},{"id":"00170","description":"WHAT DEPARTMENT DATA CODE","datatype_id":"ST","min_length":"-1","max_length":"20","conf_length":"-1","table_id":null,"section":"null"},{"id":"00171","description":"WHAT DATA CODE VALUE QUAL.","datatype_id":"ST","min_length":"-1","max_length":"20","conf_length":"-1","table_id":null,"section":"null"},{"id":"00173","description":"WHERE SUBJECT FILTER","datatype_id":"ST","min_length":"-1","max_length":"20","conf_length":"-1","table_id":null,"section":"null"},{"id":"00174","description":"WHEN DATA START DATE/TIME","datatype_id":"TS","min_length":"-1","max_length":"19","conf_length":"-1","table_id":null,"section":"null"},{"id":"00176","description":"WHEN DATA END DATE/TIME","datatype_id":"TS","min_length":"-1","max_length":"19","conf_length":"-1","table_id":null,"section":"null"},{"id":"00178","description":"WHAT USER QUALIFIER","datatype_id":"ST","min_length":"-1","max_length":"20","conf_length":"-1","table_id":null,"section":"null"},{"id":"00179","description":"OTHER QRY SUBJECT FILTER","datatype_id":"ST","min_length":"-1","max_length":"20","conf_length":"-1","table_id":null,"section":"null"},{"id":"00182","description":"ACCIDENT DATE/TIME","datatype_id":"TS","min_length":"-1","max_length":"19","conf_length":"-1","table_id":null,"section":"6-3"},{"id":"00184","description":"ACCIDENT CODE","datatype_id":"ID","min_length":"-1","max_length":"2","conf_length":"-1","table_id":"0050","section":"null"},{"id":"00185","description":"ACCIDENT LOCATION","datatype_id":"ST","min_length":"-1","max_length":"25","conf_length":"-1","table_id":null,"section":"null"},{"id":"00189","description":"ADMITTING DOCTOR","datatype_id":"CN","min_length":"-1","max_length":"60","conf_length":"-1","table_id":"0010","section":"null"},{"id":"00191","description":"PATIENT TYPE","datatype_id":"ID","min_length":"-1","max_length":"2","conf_length":"-1","table_id":"0018","section":"null"},{"id":"00193","description":"VIP INDICATOR","datatype_id":"ID","min_length":"-1","max_length":"2","conf_length":"-1","table_id":"0099","section":"null"},{"id":"00194","description":"VISIT NUMBER","datatype_id":"NM","min_length":"-1","max_length":"4","conf_length":"-1","table_id":null,"section":"null"},{"id":"00195","description":"FINANCIAL CLASS","datatype_id":"ID","min_length":"-1","max_length":"11","conf_length":"-1","table_id":"0064","section":"null"},{"id":"00199","description":"CHARGE PRICE INDICATOR","datatype_id":"ID","min_length":"-1","max_length":"2","conf_length":"-1","table_id":"0032","section":"null"},{"id":"00200","description":"CREDIT RATING","datatype_id":"ID","min_length":"-1","max_length":"2","conf_length":"-1","table_id":"0046","section":"null"},{"id":"00201","description":"CONTRACT CODE","datatype_id":"ID","min_length":"-1","max_length":"2","conf_length":"-1","table_id":"0044","section":"null"},{"id":"00202","description":"CONTRACT EFFECTIVE DATE","datatype_id":"DT","min_length":"-1","max_length":"8","conf_length":"-1","table_id":null,"section":"null"},{"id":"00203","description":"CONTRACT AMOUNT","datatype_id":"NM","min_length":"-1","max_length":"12","conf_length":"-1","table_id":null,"section":"null"},{"id":"00204","description":"CONTRACT PERIOD","datatype_id":"NM","min_length":"-1","max_length":"3","conf_length":"-1","table_id":null,"section":"null"},{"id":"00205","description":"TRANSFER TO BAD DEBT CODE","datatype_id":"ID","min_length":"-1","max_length":"1","conf_length":"-1","table_id":"0110","section":"null"},{"id":"00206","description":"BAD DEBT AGENCY CODE","datatype_id":"ST","min_length":"-1","max_length":"10","conf_length":"-1","table_id":"0021","section":"null"},{"id":"00207","description":"DELETE ACCOUNT INDICATOR","datatype_id":"ID","min_length":"-1","max_length":"1","conf_length":"-1","table_id":"0111","section":"null"},{"id":"00208","description":"DELETE ACCOUNT DATE","datatype_id":"DT","min_length":"-1","max_length":"8","conf_length":"-1","table_id":null,"section":"null"},{"id":"00218","description":"ADMISSION TYPE","datatype_id":"ID","min_length":"-1","max_length":"2","conf_length":"-1","table_id":"0007","section":"null"},{"id":"00219","description":"PRE-ADMIT NUMBER","datatype_id":"ST","min_length":"-1","max_length":"20","conf_length":"-1","table_id":null,"section":"null"},{"id":"00220","description":"PRE-ADMIT TEST INDICATOR","datatype_id":"ID","min_length":"-1","max_length":"2","conf_length":"-1","table_id":"0087","section":"null"},{"id":"00221","description":"RE-ADMISSION INDICATOR","datatype_id":"ID","min_length":"-1","max_length":"2","conf_length":"-1","table_id":"0092","section":"null"},{"id":"00225","description":"NEXT OF KIN - ADDRESS","datatype_id":"AD","min_length":"-1","max_length":"106","conf_length":"-1","table_id":null,"section":"null"},{"id":"00230","description":"NEXT OF KIN - PHONE NUMBER","datatype_id":"TN","min_length":"-1","max_length":"40","conf_length":"-1","table_id":null,"section":"null"},{"id":"00234","description":"SET ID - INSURANCE","datatype_id":"SI","min_length":"-1","max_length":"4","conf_length":"-1","table_id":null,"section":"6-10"},{"id":"00235","description":"INSURANCE COMPANY ID","datatype_id":"ST","min_length":"-1","max_length":"6","conf_length":"-1","table_id":null,"section":"null"},{"id":"00236","description":"INSURANCE COMPANY NAME","datatype_id":"ST","min_length":"-1","max_length":"45","conf_length":"-1","table_id":null,"section":"null"},{"id":"00237","description":"INSURANCE COMPANY ADDRESS","datatype_id":"AD","min_length":"-1","max_length":"106","conf_length":"-1","table_id":null,"section":"null"},{"id":"00242","description":"INSURANCE CO. CONTACT PERS","datatype_id":"PN","min_length":"-1","max_length":"48","conf_length":"-1","table_id":null,"section":"null"},{"id":"00243","description":"INSURANCE CO PHONE NUMBER","datatype_id":"TN","min_length":"-1","max_length":"40","conf_length":"-1","table_id":null,"section":"null"},{"id":"00248","description":"GROUP NUMBER","datatype_id":"ST","min_length":"-1","max_length":"12","conf_length":"-1","table_id":null,"section":"null"},{"id":"00249","description":"GROUP NAME","datatype_id":"ST","min_length":"-1","max_length":"35","conf_length":"-1","table_id":null,"section":"null"},{"id":"00250","description":"INSURED'S GROUP EMP. ID","datatype_id":"ST","min_length":"-1","max_length":"12","conf_length":"-1","table_id":null,"section":"null"},{"id":"00251","description":"INSURED'S GROUP EMP. NAME","datatype_id":"ST","min_length":"-1","max_length":"45","conf_length":"-1","table_id":null,"section":"null"},{"id":"00252","description":"PLAN EFFECTIVE DATE","datatype_id":"DT","min_length":"-1","max_length":"8","conf_length":"-1","table_id":null,"section":"null"},{"id":"00253","description":"PLAN EXPIRATION DATE","datatype_id":"DT","min_length":"-1","max_length":"8","conf_length":"-1","table_id":null,"section":"null"},{"id":"00254","description":"AUTHORIZATION INFORMATION","datatype_id":"ST","min_length":"-1","max_length":"55","conf_length":"-1","table_id":null,"section":"null"},{"id":"00260","description":"PLAN TYPE","datatype_id":"ID","min_length":"-1","max_length":"2","conf_length":"-1","table_id":"0086","section":"null"},{"id":"00261","description":"NAME OF INSURED","datatype_id":"PN","min_length":"-1","max_length":"48","conf_length":"-1","table_id":null,"section":"null"},{"id":"00262","description":"INSURED'S RELATIONSHIP TO PATIENT","datatype_id":"ID","min_length":"-1","max_length":"2","conf_length":"-1","table_id":"0063","section":"null"},{"id":"00263","description":"ASSIGNMENT OF BENEFITS","datatype_id":"ID","min_length":"-1","max_length":"2","conf_length":"-1","table_id":null,"section":"null"},{"id":"00264","description":"COORDINATION OF BENEFITS","datatype_id":"ID","min_length":"-1","max_length":"2","conf_length":"-1","table_id":null,"section":"null"},{"id":"00265","description":"COORD OF BEN. PRIORITY","datatype_id":"ST","min_length":"-1","max_length":"2","conf_length":"-1","table_id":null,"section":"null"},{"id":"00266","description":"NOTICE OF ADMISSION CODE","datatype_id":"ID","min_length":"-1","max_length":"2","conf_length":"-1","table_id":"0081","section":"null"},{"id":"00267","description":"NOTICE OF ADMISSION DATE","datatype_id":"DT","min_length":"-1","max_length":"8","conf_length":"-1","table_id":null,"section":"null"},{"id":"00268","description":"RPT OF ELIGIBILITY CODE","datatype_id":"ID","min_length":"-1","max_length":"2","conf_length":"-1","table_id":"0094","section":"null"},{"id":"00269","description":"RPT OF ELIGIBILITY DATE","datatype_id":"DT","min_length":"-1","max_length":"8","conf_length":"-1","table_id":null,"section":"null"},{"id":"00270","description":"RELEASE INFORMATION CODE","datatype_id":"ID","min_length":"-1","max_length":"2","conf_length":"-1","table_id":"0093","section":"null"},{"id":"00271","description":"PRE-ADMIT CERT. (PAC)","datatype_id":"ST","min_length":"-1","max_length":"15","conf_length":"-1","table_id":null,"section":"null"},{"id":"00272","description":"VERIFICATION DATE","datatype_id":"DT","min_length":"-1","max_length":"8","conf_length":"-1","table_id":null,"section":"null"},{"id":"00273","description":"VERIFICATION BY","datatype_id":"CM","min_length":"-1","max_length":"60","conf_length":"-1","table_id":null,"section":"null"},{"id":"00277","description":"TYPE OF AGREEMENT CODE","datatype_id":"ID","min_length":"-1","max_length":"2","conf_length":"-1","table_id":"0098","section":"null"},{"id":"00278","description":"BILLING STATUS","datatype_id":"ID","min_length":"-1","max_length":"2","conf_length":"-1","table_id":"0022","section":"null"},{"id":"00279","description":"BLOOD DEDUCTIBLE","datatype_id":"ST","min_length":"-1","max_length":"1","conf_length":"-1","table_id":null,"section":"null"},{"id":"00280","description":"LIFETIME RESERVE DAYS","datatype_id":"NM","min_length":"-1","max_length":"4","conf_length":"-1","table_id":null,"section":"null"},{"id":"00281","description":"DELAY BEFORE L. R. DAY","datatype_id":"NM","min_length":"-1","max_length":"4","conf_length":"-1","table_id":null,"section":"null"},{"id":"00282","description":"COMPANY PLAN CODE","datatype_id":"ST","min_length":"-1","max_length":"8","conf_length":"-1","table_id":"0042","section":"null"},{"id":"00283","description":"POLICY NUMBER","datatype_id":"ST","min_length":"-1","max_length":"15","conf_length":"-1","table_id":null,"section":"null"},{"id":"00284","description":"POLICY DEDUCTIBLE","datatype_id":"NM","min_length":"-1","max_length":"12","conf_length":"-1","table_id":null,"section":"null"},{"id":"00285","description":"POLICY LIMIT - AMOUNT","datatype_id":"NM","min_length":"-1","max_length":"12","conf_length":"-1","table_id":null,"section":"null"},{"id":"00286","description":"POLICY LIMIT - DAYS","datatype_id":"NM","min_length":"-1","max_length":"4","conf_length":"-1","table_id":null,"section":"null"},{"id":"00287","description":"ROOM RATE - SEMI-PRIVATE","datatype_id":"NM","min_length":"-1","max_length":"12","conf_length":"-1","table_id":null,"section":"null"},{"id":"00288","description":"ROOM RATE - PRIVATE","datatype_id":"NM","min_length":"-1","max_length":"12","conf_length":"-1","table_id":null,"section":"null"},{"id":"00293","description":"DIAGNOSIS CODE","datatype_id":"ID","min_length":"-1","max_length":"8","conf_length":"-1","table_id":"0051","section":"null"},{"id":"00294","description":"DIAGNOSIS DESCRIPTION","datatype_id":"ST","min_length":"-1","max_length":"40","conf_length":"-1","table_id":null,"section":"null"},{"id":"00295","description":"DIAGNOSIS DATE/TIME","datatype_id":"TS","min_length":"-1","max_length":"19","conf_length":"-1","table_id":null,"section":"null"},{"id":"00297","description":"DIAGNOSIS/DRG TYPE","datatype_id":"ID","min_length":"-1","max_length":"2","conf_length":"-1","table_id":"0052","section":"null"},{"id":"00298","description":"MAJOR DIAGNOSTIC CATEGORY","datatype_id":"ST","min_length":"-1","max_length":"4","conf_length":"-1","table_id":"0118","section":"null"},{"id":"00299","description":"DIAGNOSTIC RELATED GROUP","datatype_id":"ID","min_length":"-1","max_length":"4","conf_length":"-1","table_id":"0055","section":"null"},{"id":"00300","description":"OUTLIER DAYS","datatype_id":"NM","min_length":"-1","max_length":"3","conf_length":"-1","table_id":null,"section":"null"},{"id":"00304","description":"SET ID - PROCEDURE","datatype_id":"SI","min_length":"-1","max_length":"4","conf_length":"-1","table_id":null,"section":"6-15"},{"id":"00305","description":"PROCEDURE CODE","datatype_id":"ID","min_length":"-1","max_length":"10","conf_length":"-1","table_id":"0088","section":"null"},{"id":"00306","description":"PROCEDURE DESCRIPTION","datatype_id":"ST","min_length":"-1","max_length":"40","conf_length":"-1","table_id":null,"section":"null"},{"id":"00307","description":"PROCEDURE DATE/TIME","datatype_id":"TS","min_length":"-1","max_length":"19","conf_length":"-1","table_id":null,"section":"null"},{"id":"00309","description":"PROCEDURE TYPE","datatype_id":"ID","min_length":"-1","max_length":"2","conf_length":"-1","table_id":"0090","section":"null"},{"id":"00310","description":"PROCEDURE MINUTES","datatype_id":"NM","min_length":"-1","max_length":"4","conf_length":"-1","table_id":null,"section":"null"},{"id":"00311","description":"ANESTHESIOLOGIST","datatype_id":"CN","min_length":"-1","max_length":"60","conf_length":"-1","table_id":"0010","section":"null"},{"id":"00313","description":"ANESTHESIA CODE","datatype_id":"ID","min_length":"-1","max_length":"2","conf_length":"-1","table_id":"0019","section":"null"},{"id":"00314","description":"ANESTHESIA MINUTES","datatype_id":"NM","min_length":"-1","max_length":"4","conf_length":"-1","table_id":null,"section":"null"},{"id":"00315","description":"SURGEON","datatype_id":"CN","min_length":"-1","max_length":"60","conf_length":"-1","table_id":"0010","section":"null"},{"id":"00317","description":"CONSENT CODE","datatype_id":"ID","min_length":"-1","max_length":"2","conf_length":"-1","table_id":"0059","section":"null"},{"id":"00318","description":"RESIDENT CODE","datatype_id":"CN","min_length":"-1","max_length":"60","conf_length":"-1","table_id":"0010","section":"null"},{"id":"00321","description":"SET ID - GUARANTOR","datatype_id":"SI","min_length":"-1","max_length":"4","conf_length":"-1","table_id":null,"section":"6-8"},{"id":"00322","description":"GUARANTOR NUMBER","datatype_id":"ID","min_length":"-1","max_length":"20","conf_length":"-1","table_id":null,"section":"null"},{"id":"00323","description":"GUARANTOR NAME","datatype_id":"PN","min_length":"-1","max_length":"48","conf_length":"-1","table_id":null,"section":"null"},{"id":"00324","description":"GUARANTOR ADDRESS","datatype_id":"AD","min_length":"-1","max_length":"106","conf_length":"-1","table_id":null,"section":"null"},{"id":"00329","description":"GUARANTOR PH. NUM.- HOME","datatype_id":"TN","min_length":"-1","max_length":"40","conf_length":"-1","table_id":null,"section":"null"},{"id":"00330","description":"GUARANTOR PH. NUM-BUSINESS","datatype_id":"TN","min_length":"-1","max_length":"40","conf_length":"-1","table_id":null,"section":"null"},{"id":"00331","description":"GUARANTOR DATE OF BIRTH","datatype_id":"DT","min_length":"-1","max_length":"8","conf_length":"-1","table_id":null,"section":"null"},{"id":"00332","description":"GUARANTOR SEX","datatype_id":"ID","min_length":"-1","max_length":"1","conf_length":"-1","table_id":"0001","section":"null"},{"id":"00333","description":"GUARANTOR TYPE","datatype_id":"ID","min_length":"-1","max_length":"2","conf_length":"-1","table_id":"0068","section":"null"},{"id":"00334","description":"GUARANTOR RELATIONSHIP","datatype_id":"ID","min_length":"-1","max_length":"2","conf_length":"-1","table_id":"0063","section":"null"},{"id":"00335","description":"GUARANTOR SSN","datatype_id":"ST","min_length":"-1","max_length":"11","conf_length":"-1","table_id":null,"section":"null"},{"id":"00338","description":"GUARANTOR DATE - BEGIN","datatype_id":"DT","min_length":"-1","max_length":"8","conf_length":"-1","table_id":null,"section":"null"},{"id":"00339","description":"GUARANTOR DATE - END","datatype_id":"DT","min_length":"-1","max_length":"8","conf_length":"-1","table_id":null,"section":"null"},{"id":"00340","description":"GUARANTOR PRIORITY","datatype_id":"NM","min_length":"-1","max_length":"2","conf_length":"-1","table_id":null,"section":"null"},{"id":"00341","description":"GUARANTOR EMPLOYER NAME","datatype_id":"ST","min_length":"-1","max_length":"45","conf_length":"-1","table_id":null,"section":"null"},{"id":"00342","description":"GUARANTOR EMPLOYER ADDRESS","datatype_id":"AD","min_length":"-1","max_length":"106","conf_length":"-1","table_id":null,"section":"null"},{"id":"00347","description":"GUARANTOR EMPLOY PHONE #","datatype_id":"TN","min_length":"-1","max_length":"40","conf_length":"-1","table_id":null,"section":"null"},{"id":"00351","description":"TRANSACTION DATE","datatype_id":"DT","min_length":"-1","max_length":"8","conf_length":"-1","table_id":null,"section":"null"},{"id":"00352","description":"TRANSACTION POSTING DATE","datatype_id":"DT","min_length":"-1","max_length":"8","conf_length":"-1","table_id":null,"section":"null"},{"id":"00353","description":"TRANSACTION TYPE","datatype_id":"ID","min_length":"-1","max_length":"8","conf_length":"-1","table_id":"0017","section":"null"},{"id":"00354","description":"TRANSACTION CODE","datatype_id":"ID","min_length":"-1","max_length":"20","conf_length":"-1","table_id":"0096","section":"null"},{"id":"00355","description":"DEPARTMENT CODE","datatype_id":"ST","min_length":"-1","max_length":"16","conf_length":"-1","table_id":"0049","section":"null"},{"id":"00356","description":"TRANSACTION DESCRIPTION","datatype_id":"ST","min_length":"-1","max_length":"40","conf_length":"-1","table_id":null,"section":"null"},{"id":"00357","description":"TRANSACTION QUANTITY","datatype_id":"NM","min_length":"-1","max_length":"4","conf_length":"-1","table_id":null,"section":"null"},{"id":"00358","description":"TRANSACTION AMOUNT - EXTENDED","datatype_id":"NM","min_length":"-1","max_length":"12","conf_length":"-1","table_id":null,"section":"null"},{"id":"00359","description":"INSURANCE PLAN ID","datatype_id":"ID","min_length":"-1","max_length":"8","conf_length":"-1","table_id":"0072","section":"null"},{"id":"00360","description":"INSURANCE AMOUNT","datatype_id":"NM","min_length":"-1","max_length":"12","conf_length":"-1","table_id":null,"section":"null"},{"id":"00361","description":"PATIENT LOCATION","datatype_id":"ST","min_length":"-1","max_length":"12","conf_length":"-1","table_id":"0079","section":"null"},{"id":"00362","description":"FEE SCHEDULE","datatype_id":"ID","min_length":"-1","max_length":"1","conf_length":"-1","table_id":"0024","section":"null"},{"id":"00363","description":"PATIENT TYPE","datatype_id":"ID","min_length":"-1","max_length":"2","conf_length":"-1","table_id":"0018","section":"null"},{"id":"00364","description":"DIAGNOSIS CODE","datatype_id":"ID","min_length":"-1","max_length":"8","conf_length":"-1","table_id":"0051","section":"null"},{"id":"00366","description":"TRANSACTION ID","datatype_id":"ST","min_length":"-1","max_length":"12","conf_length":"-1","table_id":null,"section":"null"},{"id":"00369","description":"EVENT REASON CODE","datatype_id":"ID","min_length":"-1","max_length":"3","conf_length":"-1","table_id":"0062","section":"null"},{"id":"00373","description":"DRG APPROVAL INDICATOR","datatype_id":"ID","min_length":"-1","max_length":"2","conf_length":"-1","table_id":null,"section":"null"},{"id":"00374","description":"DRG GROUPER REVIEW CODE","datatype_id":"ID","min_length":"-1","max_length":"2","conf_length":"-1","table_id":"0056","section":"null"},{"id":"00375","description":"OUTLIER TYPE","datatype_id":"ID","min_length":"-1","max_length":"2","conf_length":"-1","table_id":"0083","section":"null"},{"id":"00376","description":"OUTLIER COST","datatype_id":"NM","min_length":"-1","max_length":"12","conf_length":"-1","table_id":null,"section":"null"},{"id":"00377","description":"PERFORMED BY CODE","datatype_id":"CN","min_length":"-1","max_length":"60","conf_length":"-1","table_id":"0084","section":"null"},{"id":"00378","description":"INSURANCE PLAN ID","datatype_id":"ID","min_length":"-1","max_length":"8","conf_length":"-1","table_id":"0072","section":"null"},{"id":"00386","description":"COURTESY CODE","datatype_id":"ID","min_length":"-1","max_length":"2","conf_length":"-1","table_id":"0045","section":"null"},{"id":"00387","description":"INTEREST CODE","datatype_id":"ID","min_length":"-1","max_length":"2","conf_length":"-1","table_id":"0073","section":"null"},{"id":"00388","description":"TRANSFER TO BAD DEBT DATE","datatype_id":"DT","min_length":"-1","max_length":"8","conf_length":"-1","table_id":null,"section":"null"},{"id":"00389","description":"BAD DEBT TRANSFER AMOUNT","datatype_id":"NM","min_length":"-1","max_length":"12","conf_length":"-1","table_id":null,"section":"null"},{"id":"00390","description":"BAD DEBT RECOVERY AMOUNT","datatype_id":"NM","min_length":"-1","max_length":"12","conf_length":"-1","table_id":null,"section":"null"},{"id":"00391","description":"GUARANTOR EMPLOYEE ID NUM","datatype_id":"ST","min_length":"-1","max_length":"20","conf_length":"-1","table_id":null,"section":"null"},{"id":"00392","description":"GUARANTOR EMPLOYMENT STATUS","datatype_id":"ID","min_length":"-1","max_length":"2","conf_length":"-1","table_id":"0066","section":"null"},{"id":"00393","description":"PROCEDURE CODING METHOD.","datatype_id":"ID","min_length":"-1","max_length":"2","conf_length":"-1","table_id":"0089","section":"null"},{"id":"00394","description":"DIAGNOSIS CODING METHOD","datatype_id":"ID","min_length":"-1","max_length":"2","conf_length":"-1","table_id":"0053","section":"null"},{"id":"00396","description":"BLOOD FURN.-PINTS OF (40)","datatype_id":"ST","min_length":"-1","max_length":"2","conf_length":"-1","table_id":null,"section":"null"},{"id":"00397","description":"BLOOD REPLACED-PINTS (41)","datatype_id":"ST","min_length":"-1","max_length":"2","conf_length":"-1","table_id":null,"section":"null"},{"id":"00398","description":"BLOOD NOT RPLCD-PINTS(42)","datatype_id":"ST","min_length":"-1","max_length":"2","conf_length":"-1","table_id":null,"section":"null"},{"id":"00399","description":"CO-INSURANCE DAYS (25)","datatype_id":"ST","min_length":"-1","max_length":"2","conf_length":"-1","table_id":null,"section":"null"},{"id":"00400","description":"CONDITION CODE","datatype_id":"ID","min_length":"-1","max_length":"2","conf_length":"-1","table_id":"0043","section":"null"},{"id":"00405","description":"COVERED DAYS - (23)","datatype_id":"ST","min_length":"-1","max_length":"3","conf_length":"-1","table_id":null,"section":"null"},{"id":"00406","description":"NON COVERED DAYS - (24)","datatype_id":"ST","min_length":"-1","max_length":"3","conf_length":"-1","table_id":null,"section":"null"},{"id":"00407","description":"VALUE AMOUNT & CODE","datatype_id":"CM","min_length":"-1","max_length":"12","conf_length":"-1","table_id":null,"section":"null"},{"id":"00424","description":"NUMBER OF GRACE DAYS (90)","datatype_id":"ST","min_length":"-1","max_length":"2","conf_length":"-1","table_id":null,"section":"null"},{"id":"00425","description":"SPEC. PROG. INDICATOR(44)","datatype_id":"ID","min_length":"-1","max_length":"2","conf_length":"-1","table_id":null,"section":"null"},{"id":"00426","description":"PSRO/UR APPROVAL IND. (87)","datatype_id":"ID","min_length":"-1","max_length":"1","conf_length":"-1","table_id":null,"section":"null"},{"id":"00427","description":"PSRO/UR APRVD STAY-FM(88)","datatype_id":"DT","min_length":"-1","max_length":"8","conf_length":"-1","table_id":null,"section":"null"},{"id":"00428","description":"PSRO/UR APRVD STAY-TO(89)","datatype_id":"DT","min_length":"-1","max_length":"8","conf_length":"-1","table_id":null,"section":"null"},{"id":"00429","description":"OCCURRENCE (28-32)","datatype_id":"ID","min_length":"-1","max_length":"20","conf_length":"-1","table_id":null,"section":"null"},{"id":"00435","description":"OCCURRENCE SPAN (33)","datatype_id":"ID","min_length":"-1","max_length":"2","conf_length":"-1","table_id":null,"section":"null"},{"id":"00446","description":"OCCURRENCE SPAN START DATE(33)","datatype_id":"DT","min_length":"-1","max_length":"8","conf_length":"-1","table_id":null,"section":"null"},{"id":"00447","description":"OCCUR. SPAN END DATE (33)","datatype_id":"DT","min_length":"-1","max_length":"8","conf_length":"-1","table_id":null,"section":"null"},{"id":"00448","description":"UB-82 LOCATOR 2","datatype_id":"ST","min_length":"-1","max_length":"30","conf_length":"-1","table_id":null,"section":"null"},{"id":"00449","description":"UB-82 LOCATOR 9","datatype_id":"ST","min_length":"-1","max_length":"7","conf_length":"-1","table_id":null,"section":"null"},{"id":"00450","description":"UB-82 LOCATOR 27","datatype_id":"ST","min_length":"-1","max_length":"8","conf_length":"-1","table_id":null,"section":"null"},{"id":"00451","description":"UB-82 LOCATOR 45","datatype_id":"ST","min_length":"-1","max_length":"17","conf_length":"-1","table_id":null,"section":"null"},{"id":"00453","description":"DRIVER'S LIC NUM - PATIENT","datatype_id":"CM","min_length":"-1","max_length":"25","conf_length":"-1","table_id":null,"section":"null"},{"id":"00457","description":"SSN NUMBER - PATIENT","datatype_id":"ST","min_length":"-1","max_length":"16","conf_length":"-1","table_id":null,"section":"null"},{"id":"00458","description":"SET ID - PATIENT VISIT","datatype_id":"SI","min_length":"-1","max_length":"4","conf_length":"-1","table_id":null,"section":"3-18"},{"id":"00459","description":"SET ID - UB82","datatype_id":"SI","min_length":"-1","max_length":"4","conf_length":"-1","table_id":null,"section":"6-17"},{"id":"00464","description":"LANGUAGE - PATIENT","datatype_id":"ST","min_length":"-1","max_length":"25","conf_length":"-1","table_id":null,"section":"null"},{"id":"00469","description":"PRESCRIPTION SEQUENCE #","datatype_id":"NM","min_length":"-1","max_length":"3","conf_length":"-1","table_id":null,"section":"null"},{"id":"00470","description":"QUANTITY DISPENSED","datatype_id":"CQ","min_length":"-1","max_length":"4","conf_length":"-1","table_id":null,"section":"null"},{"id":"00473","description":"DRUG ID","datatype_id":"CE_0057","min_length":"-1","max_length":"5","conf_length":"-1","table_id":"0057","section":"null"},{"id":"00474","description":"COMPONENT DRUG IDS","datatype_id":"ID","min_length":"-1","max_length":"5","conf_length":"-1","table_id":null,"section":"null"},{"id":"00479","description":"PRESCRIPTION TYPE","datatype_id":"ID","min_length":"-1","max_length":"2","conf_length":"-1","table_id":null,"section":"null"},{"id":"00480","description":"SUBSTITUTION STATUS","datatype_id":"ID","min_length":"-1","max_length":"1","conf_length":"-1","table_id":null,"section":"null"},{"id":"00481","description":"NUMBER OF REFILLS","datatype_id":"NM","min_length":"-1","max_length":"3","conf_length":"-1","table_id":null,"section":"null"},{"id":"00482","description":"REFILLS REMAINING","datatype_id":"NM","min_length":"-1","max_length":"3","conf_length":"-1","table_id":null,"section":"null"},{"id":"00483","description":"LAST REFILL DATE/TIME","datatype_id":"TS","min_length":"-1","max_length":"19","conf_length":"-1","table_id":null,"section":"null"},{"id":"00484","description":"PHARMACY INSTRUCTIONS","datatype_id":"TX","min_length":"-1","max_length":"80","conf_length":"-1","table_id":null,"section":"null"},{"id":"00489","description":"PATIENT INSTRUCTIONS","datatype_id":"TX","min_length":"-1","max_length":"80","conf_length":"-1","table_id":null,"section":"null"},{"id":"00503","description":"TRANSACTION BATCH ID","datatype_id":"ST","min_length":"-1","max_length":"5","conf_length":"-1","table_id":null,"section":"null"},{"id":"00506","description":"SET ID - DIAGNOSIS","datatype_id":"SI","min_length":"-1","max_length":"4","conf_length":"-1","table_id":null,"section":"6-3"},{"id":"00507","description":"SET ID - FINANCIAL TRANSACTION","datatype_id":"SI","min_length":"-1","max_length":"4","conf_length":"-1","table_id":null,"section":"6-5"},{"id":"00509","description":"ENCODING CHARACTERS","datatype_id":"ST","min_length":"-1","max_length":"4","conf_length":"-1","table_id":null,"section":"null"},{"id":"00512","description":"SENDING FACILITY","datatype_id":"ST","min_length":"-1","max_length":"20","conf_length":"-1","table_id":null,"section":"null"},{"id":"00513","description":"RECEIVING FACILITY","datatype_id":"ST","min_length":"-1","max_length":"30","conf_length":"-1","table_id":null,"section":"null"},{"id":"00520","description":"SET ID - OBSERVATION REQUEST","datatype_id":"SI","min_length":"-1","max_length":"4","conf_length":"-1","table_id":null,"section":"7-4"},{"id":"00523","description":"UNIVERSAL SERVICE IDENT.","datatype_id":"CE","min_length":"-1","max_length":"200","conf_length":"-1","table_id":null,"section":"null"},{"id":"00524","description":"PRIORITY","datatype_id":"ST","min_length":"-1","max_length":"2","conf_length":"-1","table_id":null,"section":"null"},{"id":"00529","description":"REQUESTED DATE-TIME","datatype_id":"TS","min_length":"-1","max_length":"19","conf_length":"-1","table_id":null,"section":"null"},{"id":"00530","description":"OBSERVATION DATE/TIME","datatype_id":"TS","min_length":"-1","max_length":"19","conf_length":"-1","table_id":null,"section":"null"},{"id":"00531","description":"OBSERVATION END DATE/TIME","datatype_id":"TS","min_length":"-1","max_length":"19","conf_length":"-1","table_id":null,"section":"null"},{"id":"00532","description":"COLLECTION VOLUME","datatype_id":"CQ","min_length":"-1","max_length":"20","conf_length":"-1","table_id":"0036","section":"null"},{"id":"00533","description":"COLLECTOR IDENTIFIER","datatype_id":"CN","min_length":"-1","max_length":"60","conf_length":"-1","table_id":null,"section":"null"},{"id":"00534","description":"SPECIMEN ACTION CODE","datatype_id":"ST","min_length":"-1","max_length":"1","conf_length":"-1","table_id":"0065","section":"null"},{"id":"00535","description":"DANGER CODE","datatype_id":"CM","min_length":"-1","max_length":"60","conf_length":"-1","table_id":"0047","section":"null"},{"id":"00536","description":"RELEVANT CLINICAL INFO.","datatype_id":"ST","min_length":"-1","max_length":"300","conf_length":"-1","table_id":null,"section":"null"},{"id":"00537","description":"SPECIMEN RECEIVED DATE/TIME","datatype_id":"TS","min_length":"-1","max_length":"19","conf_length":"-1","table_id":null,"section":"null"},{"id":"00538","description":"SPECIMEN SOURCE","datatype_id":"CM","min_length":"-1","max_length":"300","conf_length":"-1","table_id":"0070","section":"null"},{"id":"00539","description":"ORDERING PROVIDER","datatype_id":"CN","min_length":"-1","max_length":"60","conf_length":"-1","table_id":"0010","section":"null"},{"id":"00540","description":"ORDER CALL-BACK PHONE NUM","datatype_id":"TN","min_length":"-1","max_length":"40","conf_length":"-1","table_id":null,"section":"null"},{"id":"00541","description":"PLACERS FIELD #1","datatype_id":"ST","min_length":"-1","max_length":"60","conf_length":"-1","table_id":null,"section":"null"},{"id":"00542","description":"PLACERS FIELD #2","datatype_id":"ST","min_length":"-1","max_length":"60","conf_length":"-1","table_id":null,"section":"null"},{"id":"00543","description":"FILLERS FIELD #1","datatype_id":"ST","min_length":"-1","max_length":"60","conf_length":"-1","table_id":null,"section":"null"},{"id":"00544","description":"FILLERS FIELD #2","datatype_id":"ST","min_length":"-1","max_length":"60","conf_length":"-1","table_id":null,"section":"null"},{"id":"00546","description":"RESULTS RPT/STATUS CHNG - DATE/T","datatype_id":"TS","min_length":"-1","max_length":"19","conf_length":"-1","table_id":null,"section":"null"},{"id":"00547","description":"CHARGE TO PRACTICE","datatype_id":"CM","min_length":"-1","max_length":"40","conf_length":"-1","table_id":null,"section":"null"},{"id":"00548","description":"DIAGNOSTIC SERV SECT ID","datatype_id":"ID","min_length":"-1","max_length":"10","conf_length":"-1","table_id":"0074","section":"null"},{"id":"00550","description":"LINKED RESULTS","datatype_id":"CE","min_length":"-1","max_length":"200","conf_length":"-1","table_id":null,"section":"null"},{"id":"00551","description":"RESULT COPIES TO","datatype_id":"CN","min_length":"-1","max_length":"80","conf_length":"-1","table_id":null,"section":"null"},{"id":"00559","description":"SET ID - OBSERVATION SIMPLE","datatype_id":"SI","min_length":"-1","max_length":"4","conf_length":"-1","table_id":null,"section":"7-14"},{"id":"00560","description":"OBSERVATION IDENTIFIER","datatype_id":"CE","min_length":"-1","max_length":"80","conf_length":"-1","table_id":null,"section":"null"},{"id":"00561","description":"OBSERVATION RESULTS","datatype_id":"ST","min_length":"-1","max_length":"65","conf_length":"-1","table_id":null,"section":"null"},{"id":"00562","description":"UNITS","datatype_id":"ID","min_length":"-1","max_length":"20","conf_length":"-1","table_id":null,"section":"null"},{"id":"00563","description":"REFERENCES RANGE","datatype_id":"ST","min_length":"-1","max_length":"60","conf_length":"-1","table_id":null,"section":"null"},{"id":"00564","description":"ABNORMAL FLAGS","datatype_id":"ST","min_length":"-1","max_length":"10","conf_length":"-1","table_id":"0078","section":"null"},{"id":"00565","description":"NATURE OF ABNORMAL TEST","datatype_id":"ID","min_length":"-1","max_length":"5","conf_length":"-1","table_id":"0080","section":"null"},{"id":"00566","description":"OBSERV RESULT STATUS","datatype_id":"ID","min_length":"-1","max_length":"2","conf_length":"-1","table_id":"0085","section":"null"},{"id":"00567","description":"DATE LAST OBS NORMAL VALUES","datatype_id":"TS","min_length":"-1","max_length":"19","conf_length":"-1","table_id":null,"section":"null"},{"id":"00570","description":"SET ID - DISPLAY DATA","datatype_id":"SI","min_length":"-1","max_length":"4","conf_length":"-1","table_id":null,"section":"null"},{"id":"00571","description":"DISPLAY LEVEL","datatype_id":"SI","min_length":"-1","max_length":"4","conf_length":"-1","table_id":null,"section":"null"},{"id":"00572","description":"SET ID - PATIENT ID","datatype_id":"SI","min_length":"-1","max_length":"4","conf_length":"-1","table_id":null,"section":"3-14"},{"id":"00573","description":"SET ID - NOTES AND COMMENTS","datatype_id":"SI","min_length":"-1","max_length":"4","conf_length":"-1","table_id":null,"section":"2-49"},{"id":"00574","description":"SOURCE OF COMMENT","datatype_id":"ID","min_length":"-1","max_length":"8","conf_length":"-1","table_id":"0105","section":"null"},{"id":"00575","description":"COMMENT","datatype_id":"TX","min_length":"-1","max_length":"120","conf_length":"-1","table_id":null,"section":"null"},{"id":"00576","description":"PRIOR PATIENT ID - INTERNAL","datatype_id":"CK","min_length":"-1","max_length":"16","conf_length":"-1","table_id":"0061","section":"3-13"},{"id":"00577","description":"PRIOR ALTERNATE PATIENT ID","datatype_id":"CK","min_length":"-1","max_length":"16","conf_length":"-1","table_id":"0061","section":"null"},{"id":"00578","description":"PRIOR PATIENT ACCOUNT NUMBER","datatype_id":"CK","min_length":"-1","max_length":"20","conf_length":"-1","table_id":"0061","section":"null"},{"id":"00579","description":"REFERRING DOCTOR","datatype_id":"CN","min_length":"-1","max_length":"60","conf_length":"-1","table_id":"0010","section":"null"},{"id":"00580","description":"CONSULTING DOCTOR","datatype_id":"CN","min_length":"-1","max_length":"60","conf_length":"-1","table_id":"0010","section":"null"},{"id":"00581","description":"PATIENT ID EXTERNAL (EXTERNAL ID)","datatype_id":"CK","min_length":"-1","max_length":"16","conf_length":"-1","table_id":"0061","section":"null"},{"id":"00582","description":"MOTHER'S MAIDEN NAME","datatype_id":"ST","min_length":"-1","max_length":"30","conf_length":"-1","table_id":null,"section":"null"},{"id":"00586","description":"RESULTS COPIES TO","datatype_id":"CN","min_length":"-1","max_length":"80","conf_length":"-1","table_id":null,"section":"null"},{"id":"00588","description":"RX ORDER STATUS","datatype_id":"ID","min_length":"-1","max_length":"2","conf_length":"-1","table_id":"0038","section":"null"},{"id":"00596","description":"RX NUMBER","datatype_id":"ST","min_length":"-1","max_length":"20","conf_length":"-1","table_id":null,"section":"null"},{"id":"00597","description":"PATIENT ALIAS","datatype_id":"PN","min_length":"-1","max_length":"48","conf_length":"-1","table_id":null,"section":"null"},{"id":"00598","description":"EXPECTED SEQUENCE NUMBER","datatype_id":"NM","min_length":"-1","max_length":"15","conf_length":"-1","table_id":null,"section":"null"},{"id":"00599","description":"RESULT ID","datatype_id":"TX","min_length":"-1","max_length":"20","conf_length":"-1","table_id":null,"section":"null"},{"id":"00600","description":"R/U DATE/TIME","datatype_id":"TS","min_length":"-1","max_length":"19","conf_length":"-1","table_id":null,"section":"null"},{"id":"00601","description":"REPORT PRIORITY","datatype_id":"ID","min_length":"-1","max_length":"1","conf_length":"-1","table_id":"0109","section":"null"},{"id":"00602","description":"R/U WHO SUBJECT DEFINITION","datatype_id":"ST","min_length":"-1","max_length":"20","conf_length":"-1","table_id":null,"section":"null"},{"id":"00603","description":"R/U WHAT SUBJECT DEFINITION","datatype_id":"ID","min_length":"-1","max_length":"3","conf_length":"-1","table_id":"0048","section":"null"},{"id":"00605","description":"R/U WHAT DEPARTMENT CODE","datatype_id":"ST","min_length":"-1","max_length":"20","conf_length":"-1","table_id":null,"section":"null"},{"id":"00607","description":"R/U DISPLAY/PRINT LOCATIONS","datatype_id":"ST","min_length":"-1","max_length":"20","conf_length":"-1","table_id":null,"section":"null"},{"id":"00608","description":"R/U WHERE SUBJECT DEFINITION","datatype_id":"ST","min_length":"-1","max_length":"20","conf_length":"-1","table_id":null,"section":"null"},{"id":"00609","description":"R/U WHEN DATA START DATE/TIME","datatype_id":"TS","min_length":"-1","max_length":"19","conf_length":"-1","table_id":null,"section":"null"},{"id":"00610","description":"R/U WHEN DATA END DATE/TIME","datatype_id":"TS","min_length":"-1","max_length":"19","conf_length":"-1","table_id":null,"section":"null"},{"id":"00611","description":"R/U WHAT USER QUALIFIER","datatype_id":"ST","min_length":"-1","max_length":"20","conf_length":"-1","table_id":null,"section":"null"},{"id":"00612","description":"R/U OTHER RESULTS SUBJECT DEFINI","datatype_id":"ST","min_length":"-1","max_length":"20","conf_length":"-1","table_id":null,"section":"null"},{"id":"00613","description":"DISCHARGE DISPOSITION","datatype_id":"ID","min_length":"-1","max_length":"2","conf_length":"-1","table_id":"0112","section":"null"},{"id":"00614","description":"DISCHARGED TO LOCATION","datatype_id":"ID","min_length":"-1","max_length":"2","conf_length":"-1","table_id":"0113","section":"null"},{"id":"00615","description":"DIET TYPE","datatype_id":"ID","min_length":"-1","max_length":"2","conf_length":"-1","table_id":"0114","section":"null"},{"id":"00616","description":"SERVICING FACILITY","datatype_id":"ID","min_length":"-1","max_length":"2","conf_length":"-1","table_id":"0115","section":"null"},{"id":"00617","description":"BED STATUS","datatype_id":"ID","min_length":"-1","max_length":"1","conf_length":"-1","table_id":"0116","section":"null"},{"id":"00618","description":"INSTRUCTIONS (SIG)","datatype_id":"TX","min_length":"-1","max_length":"500","conf_length":"-1","table_id":null,"section":"null"},{"id":"00619","description":"DEA CLASS","datatype_id":"ID","min_length":"-1","max_length":"5","conf_length":"-1","table_id":null,"section":"null"},{"id":"00620","description":"ORDERING MD'S DEA NUMBER","datatype_id":"NM","min_length":"-1","max_length":"10","conf_length":"-1","table_id":null,"section":"null"},{"id":"00621","description":"PRN STATUS","datatype_id":"ID","min_length":"-1","max_length":"5","conf_length":"-1","table_id":null,"section":"null"},{"id":"00625","description":"TRANSPORTATION MODE","datatype_id":"ID","min_length":"-1","max_length":"20","conf_length":"-1","table_id":"0124","section":"null"},{"id":"00626","description":"REASON FOR STUDY","datatype_id":"CE","min_length":"-1","max_length":"300","conf_length":"-1","table_id":null,"section":"null"},{"id":"00627","description":"PRINCIPAL RESULT INTERPRETER","datatype_id":"CN","min_length":"-1","max_length":"60","conf_length":"-1","table_id":null,"section":"null"},{"id":"00628","description":"ASSISTANT RESULT INTERPRETER","datatype_id":"CN","min_length":"-1","max_length":"60","conf_length":"-1","table_id":null,"section":"null"},{"id":"00629","description":"TRANSCRIPTIONIST","datatype_id":"CN","min_length":"-1","max_length":"60","conf_length":"-1","table_id":null,"section":"null"},{"id":"00630","description":"TECHNICIAN","datatype_id":"CN","min_length":"-1","max_length":"60","conf_length":"-1","table_id":null,"section":"null"},{"id":"00632","description":"DELAYED ACKNOWLEDGMENT TYPE","datatype_id":"ID","min_length":"-1","max_length":"1","conf_length":"-1","table_id":"0102","section":"null"},{"id":"00633","description":"SEQUENCE NUMBER","datatype_id":"NM","min_length":"-1","max_length":"15","conf_length":"-1","table_id":null,"section":"null"},{"id":"00639","description":"PROBABILITY","datatype_id":"NM","min_length":"-1","max_length":"5","conf_length":"-1","table_id":null,"section":"null"},{"id":"00641","description":"ADDENDUM CONTINUATION POINTER","datatype_id":"ST","min_length":"-1","max_length":"60","conf_length":"-1","table_id":null,"section":"2-39"},{"id":"00655","description":"BATCH CREATION DATE/TIME","datatype_id":"TS","min_length":"-1","max_length":"19","conf_length":"-1","table_id":null,"section":"null"},{"id":"00656","description":"BATCH NAME/ID/TYPE","datatype_id":"ST","min_length":"-1","max_length":"20","conf_length":"-1","table_id":null,"section":"null"},{"id":"00657","description":"BATCH COMMENT","datatype_id":"ST","min_length":"-1","max_length":"80","conf_length":"-1","table_id":null,"section":"null"},{"id":"00658","description":"BATCH CONTROL ID","datatype_id":"ST","min_length":"-1","max_length":"20","conf_length":"-1","table_id":null,"section":"null"},{"id":"00659","description":"REFERENCE BATCH CONTROL ID","datatype_id":"ST","min_length":"-1","max_length":"20","conf_length":"-1","table_id":null,"section":"null"},{"id":"00660","description":"DATE/TIME OF FILE CREATION","datatype_id":"TS","min_length":"-1","max_length":"19","conf_length":"-1","table_id":null,"section":"null"},{"id":"00661","description":"FILE NAME/ID","datatype_id":"ST","min_length":"-1","max_length":"20","conf_length":"-1","table_id":null,"section":"null"},{"id":"00662","description":"FILE HEADER COMMENT","datatype_id":"ST","min_length":"-1","max_length":"80","conf_length":"-1","table_id":null,"section":"null"},{"id":"00663","description":"FILE CONTROL ID","datatype_id":"ST","min_length":"-1","max_length":"20","conf_length":"-1","table_id":null,"section":"null"},{"id":"00664","description":"BATCH MESSAGE COUNT","datatype_id":"ST","min_length":"-1","max_length":"10","conf_length":"-1","table_id":null,"section":"2-41"},{"id":"00665","description":"BATCH COMMENT","datatype_id":"ST","min_length":"-1","max_length":"80","conf_length":"-1","table_id":null,"section":"null"},{"id":"00666","description":"BATCH TOTALS","datatype_id":"CM","min_length":"-1","max_length":"100","conf_length":"-1","table_id":null,"section":"null"},{"id":"00667","description":"FILE BATCH COUNT","datatype_id":"ST","min_length":"-1","max_length":"10","conf_length":"-1","table_id":null,"section":"2-44"},{"id":"00668","description":"FILE TRAILER COMMENT","datatype_id":"ST","min_length":"-1","max_length":"80","conf_length":"-1","table_id":null,"section":"null"},{"id":"00671","description":"BED STATUS","datatype_id":"ID","min_length":"-1","max_length":"1","conf_length":"-1","table_id":"0116","section":"null"},{"id":"00676","description":"VALUE TYPE","datatype_id":"ID","min_length":"-1","max_length":"2","conf_length":"-1","table_id":"0125","section":"null"},{"id":"00685","description":"BATCH FIELD SEPARATOR","datatype_id":"ST","min_length":"-1","max_length":"1","conf_length":"-1","table_id":null,"section":"2-40"},{"id":"00686","description":"BATCH ENCODING CHARACTERS","datatype_id":"ST","min_length":"-1","max_length":"3","conf_length":"-1","table_id":null,"section":"null"},{"id":"00687","description":"BATCH SENDING APPLICATION","datatype_id":"ST","min_length":"-1","max_length":"15","conf_length":"-1","table_id":null,"section":"null"},{"id":"00688","description":"BATCH SENDING FACILITY","datatype_id":"ST","min_length":"-1","max_length":"20","conf_length":"-1","table_id":null,"section":"null"},{"id":"00689","description":"BATCH RECEIVING APPLICATION","datatype_id":"ST","min_length":"-1","max_length":"15","conf_length":"-1","table_id":null,"section":"null"},{"id":"00690","description":"BATCH RECEIVING FACILITY","datatype_id":"ST","min_length":"-1","max_length":"20","conf_length":"-1","table_id":null,"section":"null"},{"id":"00691","description":"BATCH SECURITY","datatype_id":"ST","min_length":"-1","max_length":"40","conf_length":"-1","table_id":null,"section":"null"},{"id":"00692","description":"FILE FIELD SEPARATOR","datatype_id":"ST","min_length":"-1","max_length":"1","conf_length":"-1","table_id":null,"section":"2-43"},{"id":"00693","description":"FILE ENCODING CHARACTERS","datatype_id":"ST","min_length":"-1","max_length":"4","conf_length":"-1","table_id":null,"section":"null"},{"id":"00694","description":"FILE SENDING APPLICATION","datatype_id":"ST","min_length":"-1","max_length":"15","conf_length":"-1","table_id":null,"section":"null"},{"id":"00695","description":"FILE SENDING FACILITY","datatype_id":"ST","min_length":"-1","max_length":"20","conf_length":"-1","table_id":null,"section":"null"},{"id":"00696","description":"FILE RECEIVING APPLICATION","datatype_id":"ST","min_length":"-1","max_length":"15","conf_length":"-1","table_id":null,"section":"null"},{"id":"00697","description":"FILE RECEIVING FACILITY","datatype_id":"ST","min_length":"-1","max_length":"20","conf_length":"-1","table_id":null,"section":"null"},{"id":"00698","description":"FILE SECURITY","datatype_id":"ST","min_length":"-1","max_length":"40","conf_length":"-1","table_id":null,"section":"null"},{"id":"00699","description":"CONTINUATION POINTER","datatype_id":"ST","min_length":"-1","max_length":"180","conf_length":"-1","table_id":null,"section":"null"},{"id":"00701","description":"QUERY RESULTS LEVEL","datatype_id":"ID","min_length":"-1","max_length":"1","conf_length":"-1","table_id":"0108","section":"null"},{"id":"00702","description":"R/U RESULTS LEVEL","datatype_id":"ID","min_length":"-1","max_length":"1","conf_length":"-1","table_id":"0108","section":"null"},{"id":"00703","description":"ACCOUNT STATUS","datatype_id":"ID","min_length":"-1","max_length":"2","conf_length":"-1","table_id":"0117","section":"null"},{"id":"00704","description":"PENDING LOCATION","datatype_id":"ID","min_length":"-1","max_length":"12","conf_length":"-1","table_id":"0079","section":"null"},{"id":"00705","description":"PRIOR TEMPORARY LOCATION","datatype_id":"ID","min_length":"-1","max_length":"12","conf_length":"-1","table_id":"0079","section":"null"},{"id":"00706","description":"TRANSACTION DESCRIPTION - ALT","datatype_id":"ST","min_length":"-1","max_length":"40","conf_length":"-1","table_id":null,"section":"null"},{"id":"00707","description":"GUARANTOR SPOUSE NAME","datatype_id":"PN","min_length":"-1","max_length":"48","conf_length":"-1","table_id":null,"section":"null"},{"id":"00708","description":"INSURED'S DATE OF BIRTH","datatype_id":"DT","min_length":"-1","max_length":"8","conf_length":"-1","table_id":null,"section":"null"},{"id":"00709","description":"INSURED'S ADDRESS","datatype_id":"AD","min_length":"-1","max_length":"106","conf_length":"-1","table_id":null,"section":"null"},{"id":"00710","description":"INSURED'S EMPLOYMENT STATUS","datatype_id":"ID","min_length":"-1","max_length":"1","conf_length":"-1","table_id":"0066","section":"null"},{"id":"00711","description":"INSURED'S SEX","datatype_id":"ID","min_length":"-1","max_length":"1","conf_length":"-1","table_id":"0001","section":"null"},{"id":"00712","description":"SET ID - NEXT OF KIN","datatype_id":"SI","min_length":"-1","max_length":"4","conf_length":"-1","table_id":null,"section":"3-23, 6-15"},{"id":"00713","description":"INSURED'S EMPLOYER ADDRESS","datatype_id":"AD","min_length":"-1","max_length":"106","conf_length":"-1","table_id":null,"section":"null"},{"id":"00714","description":"ORDER CONTROL","datatype_id":"ST","min_length":"-1","max_length":"2","conf_length":"-1","table_id":"0119","section":"4-4"},{"id":"00715","description":"PLACER ORDER #","datatype_id":"CM","min_length":"-1","max_length":"75","conf_length":"-1","table_id":null,"section":"null"},{"id":"00716","description":"FILLER ORDER #","datatype_id":"CM","min_length":"-1","max_length":"75","conf_length":"-1","table_id":null,"section":"null"},{"id":"00717","description":"PLACER GROUP #","datatype_id":"CM","min_length":"-1","max_length":"75","conf_length":"-1","table_id":null,"section":"null"},{"id":"00718","description":"ORDER STATUS","datatype_id":"ST","min_length":"-1","max_length":"2","conf_length":"-1","table_id":"0038","section":"null"},{"id":"00719","description":"RESPONSE FLAG","datatype_id":"ST","min_length":"-1","max_length":"1","conf_length":"-1","table_id":"0121","section":"null"},{"id":"00720","description":"TIMING/QUANTITY","datatype_id":"CM","min_length":"-1","max_length":"200","conf_length":"-1","table_id":null,"section":"null"},{"id":"00721","description":"PARENT","datatype_id":"CM","min_length":"-1","max_length":"200","conf_length":"-1","table_id":null,"section":"null"},{"id":"00722","description":"DATE/TIME OF TRANSACTION","datatype_id":"TS","min_length":"-1","max_length":"19","conf_length":"-1","table_id":null,"section":"null"},{"id":"00723","description":"ENTERED BY","datatype_id":"CN","min_length":"-1","max_length":"80","conf_length":"-1","table_id":null,"section":"null"},{"id":"00724","description":"VERIFIED BY","datatype_id":"CN","min_length":"-1","max_length":"80","conf_length":"-1","table_id":null,"section":"null"},{"id":"00725","description":"ORDERING PROVIDER","datatype_id":"CN","min_length":"-1","max_length":"80","conf_length":"-1","table_id":null,"section":"null"},{"id":"00726","description":"ENTERER'S LOCATION","datatype_id":"CM","min_length":"-1","max_length":"80","conf_length":"-1","table_id":null,"section":"null"},{"id":"00727","description":"CALL BACK PHONE NUMBER","datatype_id":"TN","min_length":"-1","max_length":"40","conf_length":"-1","table_id":null,"section":"null"},{"id":"00729","description":"CHARGE TYPE","datatype_id":"ID","min_length":"-1","max_length":"50","conf_length":"-1","table_id":"0122","section":"null"},{"id":"00730","description":"ACCOUNT ID","datatype_id":"CM","min_length":"-1","max_length":"100","conf_length":"-1","table_id":null,"section":"null"},{"id":"00731","description":"ORDER ITEM ID","datatype_id":"CE","min_length":"-1","max_length":"200","conf_length":"-1","table_id":null,"section":"4-18"},{"id":"00732","description":"PLACER ORDER #","datatype_id":"CM","min_length":"-1","max_length":"75","conf_length":"-1","table_id":null,"section":"null"},{"id":"00733","description":"FILLER ORDER #","datatype_id":"CM","min_length":"-1","max_length":"75","conf_length":"-1","table_id":null,"section":"null"},{"id":"00734","description":"RESULT STATUS","datatype_id":"ID","min_length":"-1","max_length":"1","conf_length":"-1","table_id":"0123","section":"null"},{"id":"00735","description":"QUANTITY/TIMING","datatype_id":"CM","min_length":"-1","max_length":"200","conf_length":"-1","table_id":null,"section":"null"},{"id":"00736","description":"SCHEDULED - DATE/TIME","datatype_id":"TS","min_length":"-1","max_length":"19","conf_length":"-1","table_id":null,"section":"null"},{"id":"00737","description":"PARENT ACCESSION #","datatype_id":"CM","min_length":"-1","max_length":"150","conf_length":"-1","table_id":null,"section":"null"},{"id":"00742","description":"SYSTEM DATE/TIME","datatype_id":"TS","min_length":"-1","max_length":"19","conf_length":"-1","table_id":null,"section":"null"},{"id":"00743","description":"STATISTICS AVAILABLE","datatype_id":"ID","min_length":"-1","max_length":"1","conf_length":"-1","table_id":null,"section":"null"},{"id":"00744","description":"SOURCE IDENTIFIER","datatype_id":"ST","min_length":"-1","max_length":"30","conf_length":"-1","table_id":null,"section":"null"},{"id":"00745","description":"SOURCE TYPE","datatype_id":"ID","min_length":"-1","max_length":"3","conf_length":"-1","table_id":null,"section":"null"},{"id":"00746","description":"STATISTICS START","datatype_id":"TS","min_length":"-1","max_length":"19","conf_length":"-1","table_id":null,"section":"null"},{"id":"00747","description":"STATISTICS END","datatype_id":"TS","min_length":"-1","max_length":"19","conf_length":"-1","table_id":null,"section":"null"},{"id":"00748","description":"RECEIVE CHARACTER COUNT","datatype_id":"NM","min_length":"-1","max_length":"10","conf_length":"-1","table_id":null,"section":"null"},{"id":"00749","description":"SEND CHARACTER COUNT","datatype_id":"NM","min_length":"-1","max_length":"10","conf_length":"-1","table_id":null,"section":"null"},{"id":"00750","description":"MESSAGES RECEIVED","datatype_id":"NM","min_length":"-1","max_length":"10","conf_length":"-1","table_id":null,"section":"null"},{"id":"00751","description":"MESSAGES SENT","datatype_id":"NM","min_length":"-1","max_length":"10","conf_length":"-1","table_id":null,"section":"null"},{"id":"00752","description":"CHECKSUM ERRORS RECEIVED","datatype_id":"NM","min_length":"-1","max_length":"10","conf_length":"-1","table_id":null,"section":"null"},{"id":"00753","description":"LENGTH ERRORS RECEIVED","datatype_id":"NM","min_length":"-1","max_length":"10","conf_length":"-1","table_id":null,"section":"null"},{"id":"00754","description":"OTHER ERRORS RECEIVED","datatype_id":"NM","min_length":"-1","max_length":"10","conf_length":"-1","table_id":null,"section":"null"},{"id":"00755","description":"CONNECT TIMEOUTS","datatype_id":"NM","min_length":"-1","max_length":"10","conf_length":"-1","table_id":null,"section":"null"},{"id":"00756","description":"RECEIVE TIMEOUTS","datatype_id":"NM","min_length":"-1","max_length":"10","conf_length":"-1","table_id":null,"section":"null"},{"id":"00757","description":"NETWORK ERRORS","datatype_id":"NM","min_length":"-1","max_length":"10","conf_length":"-1","table_id":null,"section":"null"},{"id":"00758","description":"NETWORK CHANGE TYPE","datatype_id":"ID","min_length":"-1","max_length":"4","conf_length":"-1","table_id":null,"section":"null"},{"id":"00759","description":"CURRENT CPU","datatype_id":"ST","min_length":"-1","max_length":"30","conf_length":"-1","table_id":null,"section":"null"},{"id":"00760","description":"CURRENT FILESERVER","datatype_id":"ST","min_length":"-1","max_length":"30","conf_length":"-1","table_id":null,"section":"null"},{"id":"00761","description":"CURRENT APPLICATION","datatype_id":"ST","min_length":"-1","max_length":"30","conf_length":"-1","table_id":null,"section":"null"},{"id":"00762","description":"CURRENT FACILITY","datatype_id":"ST","min_length":"-1","max_length":"30","conf_length":"-1","table_id":null,"section":"null"},{"id":"00763","description":"NEW CPU","datatype_id":"ST","min_length":"-1","max_length":"30","conf_length":"-1","table_id":null,"section":"null"},{"id":"00764","description":"NEW FILESERVER","datatype_id":"ST","min_length":"-1","max_length":"30","conf_length":"-1","table_id":null,"section":"null"},{"id":"00765","description":"NEW APPLICATION","datatype_id":"ST","min_length":"-1","max_length":"30","conf_length":"-1","table_id":null,"section":"null"},{"id":"00766","description":"NEW FACILITY","datatype_id":"ST","min_length":"-1","max_length":"30","conf_length":"-1","table_id":null,"section":"null"},{"id":"00768","description":"REFERENCE FILE CONTROL ID","datatype_id":"ST","min_length":"-1","max_length":"20","conf_length":"-1","table_id":null,"section":"null"},{"id":"00769","description":"OBSERVATION SUB-ID","datatype_id":"NM","min_length":"-1","max_length":"20","conf_length":"-1","table_id":null,"section":"null"},{"id":"00770","description":"UNUSED","datatype_id":"ST","min_length":"-1","max_length":"0","conf_length":"-1","table_id":null,"section":"4-14"},{"id":"00771","description":"UNUSED","datatype_id":"ST","min_length":"-1","max_length":"0","conf_length":"-1","table_id":null,"section":"null"},{"id":"00772","description":"UNUSED","datatype_id":"ST","min_length":"-1","max_length":"0","conf_length":"-1","table_id":null,"section":"null"},{"id":"00773","description":"UNUSED","datatype_id":"ST","min_length":"-1","max_length":"0","conf_length":"-1","table_id":null,"section":"null"},{"id":"00774","description":"UNUSED","datatype_id":"ST","min_length":"-1","max_length":"0","conf_length":"-1","table_id":null,"section":"null"},{"id":"00775","description":"ADMIT DATE/TIME","datatype_id":"TS","min_length":"-1","max_length":"19","conf_length":"-1","table_id":null,"section":"null"},{"id":"00776","description":"DISCHARGE DATE/TIME","datatype_id":"TS","min_length":"-1","max_length":"19","conf_length":"-1","table_id":null,"section":"null"},{"id":"00777","description":"CURRENT PATIENT BALANCE","datatype_id":"NM","min_length":"-1","max_length":"12","conf_length":"-1","table_id":null,"section":"null"},{"id":"00778","description":"TOTAL CHARGES","datatype_id":"NM","min_length":"-1","max_length":"12","conf_length":"-1","table_id":null,"section":"null"},{"id":"00779","description":"TOTAL ADJUSTMENTS","datatype_id":"NM","min_length":"-1","max_length":"12","conf_length":"-1","table_id":null,"section":"null"},{"id":"00780","description":"TOTAL PAYMENTS","datatype_id":"NM","min_length":"-1","max_length":"12","conf_length":"-1","table_id":null,"section":"null"},{"id":"00781","description":"GROUPER VERSION AND TYPE","datatype_id":"ST","min_length":"-1","max_length":"4","conf_length":"-1","table_id":null,"section":"null"},{"id":"00782","description":"TRANSACTION AMOUNT - UNIT","datatype_id":"NM","min_length":"-1","max_length":"12","conf_length":"-1","table_id":null,"section":"null"},{"id":"00783","description":"ORDERED BY CODE","datatype_id":"CN","min_length":"-1","max_length":"60","conf_length":"-1","table_id":null,"section":"null"},{"id":"00784","description":"UNIT COST","datatype_id":"NM","min_length":"-1","max_length":"12","conf_length":"-1","table_id":null,"section":"null"},{"id":"00785","description":"BED LOCATION","datatype_id":"ID","min_length":"-1","max_length":"12","conf_length":"-1","table_id":"0079","section":"3-22"}]
+[ {
+  "id" : "00002",
+  "description" : "ACKNOWLEDGMENT CODE",
+  "section" : "2-45",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 2,
+  "table_id" : "0008"
+}, {
+  "id" : "00003",
+  "description" : "MESSAGE CONTROL ID",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 20
+}, {
+  "id" : "00004",
+  "description" : "TEXT MESSAGE",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 80
+}, {
+  "id" : "00005",
+  "description" : "FIELD SEPARATOR",
+  "section" : "2-46",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 1
+}, {
+  "id" : "00006",
+  "description" : "SENDING APPLICATION",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 15
+}, {
+  "id" : "00008",
+  "description" : "Security",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 40
+}, {
+  "id" : "00009",
+  "description" : "RECEIVING APPLICATION",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 15
+}, {
+  "id" : "00010",
+  "description" : "DATE/TIME OF MESSAGE",
+  "truncation" : "NA",
+  "datatype_id" : "TS",
+  "min_length" : 0,
+  "max_length" : 19
+}, {
+  "id" : "00012",
+  "description" : "MESSAGE TYPE",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 7,
+  "table_id" : "0076"
+}, {
+  "id" : "00013",
+  "description" : "MESSAGE CONTROL ID",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 20
+}, {
+  "id" : "00014",
+  "description" : "PROCESSING ID",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 1,
+  "table_id" : "0103"
+}, {
+  "id" : "00015",
+  "description" : "VERSION ID",
+  "truncation" : "NA",
+  "datatype_id" : "NM",
+  "min_length" : 0,
+  "max_length" : 8,
+  "table_id" : "0104"
+}, {
+  "id" : "00020",
+  "description" : "PATIENT ADDRESS",
+  "truncation" : "NA",
+  "datatype_id" : "AD",
+  "min_length" : 0,
+  "max_length" : 106
+}, {
+  "id" : "00026",
+  "description" : "COUNTY CODE",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 4
+}, {
+  "id" : "00029",
+  "description" : "EVENT TYPE CODE",
+  "section" : "3-11",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 3,
+  "table_id" : "0003"
+}, {
+  "id" : "00030",
+  "description" : "DATE/TIME OF EVENT",
+  "truncation" : "NA",
+  "datatype_id" : "TS",
+  "min_length" : 0,
+  "max_length" : 19
+}, {
+  "id" : "00032",
+  "description" : "DATE/TIME PLANNED EVENT",
+  "truncation" : "NA",
+  "datatype_id" : "TS",
+  "min_length" : 0,
+  "max_length" : 19
+}, {
+  "id" : "00034",
+  "description" : "PATIENT ID INTERNAL (INTERNAL ID)",
+  "truncation" : "NA",
+  "datatype_id" : "CK",
+  "min_length" : 0,
+  "max_length" : 16,
+  "table_id" : "0061"
+}, {
+  "id" : "00035",
+  "description" : "PATIENT ACCOUNT NUMBER",
+  "truncation" : "NA",
+  "datatype_id" : "CK",
+  "min_length" : 0,
+  "max_length" : 20,
+  "table_id" : "0061"
+}, {
+  "id" : "00038",
+  "description" : "ALTERNATE PATIENT ID",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 12
+}, {
+  "id" : "00041",
+  "description" : "PATIENT NAME",
+  "truncation" : "NA",
+  "datatype_id" : "PN",
+  "min_length" : 0,
+  "max_length" : 48
+}, {
+  "id" : "00042",
+  "description" : "SEX",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 1,
+  "table_id" : "0001"
+}, {
+  "id" : "00043",
+  "description" : "DATE OF BIRTH",
+  "truncation" : "NA",
+  "datatype_id" : "DT",
+  "min_length" : 0,
+  "max_length" : 8
+}, {
+  "id" : "00044",
+  "description" : "ETHNIC GROUP",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 1,
+  "table_id" : "0005"
+}, {
+  "id" : "00045",
+  "description" : "RELIGION",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 3,
+  "table_id" : "0006"
+}, {
+  "id" : "00046",
+  "description" : "MARITAL STATUS",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 1,
+  "table_id" : "0002"
+}, {
+  "id" : "00047",
+  "description" : "NEXT OF KIN RELATIONSHIP",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 15,
+  "table_id" : "0063"
+}, {
+  "id" : "00048",
+  "description" : "NEXT OF KIN NAME",
+  "truncation" : "NA",
+  "datatype_id" : "PN",
+  "min_length" : 0,
+  "max_length" : 48
+}, {
+  "id" : "00049",
+  "description" : "PHONE NUMBER - HOME",
+  "truncation" : "NA",
+  "datatype_id" : "TN",
+  "min_length" : 0,
+  "max_length" : 40
+}, {
+  "id" : "00050",
+  "description" : "PHONE NUMBER - BUSINESS",
+  "truncation" : "NA",
+  "datatype_id" : "TN",
+  "min_length" : 0,
+  "max_length" : 40
+}, {
+  "id" : "00052",
+  "description" : "PATIENT CLASS",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 1,
+  "table_id" : "0004"
+}, {
+  "id" : "00053",
+  "description" : "ASSIGNED PATIENT LOCATION",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 12,
+  "table_id" : "0079"
+}, {
+  "id" : "00056",
+  "description" : "PRIOR PATIENT LOCATION",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 12,
+  "table_id" : "0079"
+}, {
+  "id" : "00057",
+  "description" : "ATTENDING DOCTOR",
+  "truncation" : "NA",
+  "datatype_id" : "CN",
+  "min_length" : 0,
+  "max_length" : 60,
+  "table_id" : "0010"
+}, {
+  "id" : "00059",
+  "description" : "HOSPITAL SERVICE",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 3,
+  "table_id" : "0069"
+}, {
+  "id" : "00060",
+  "description" : "TEMPORARY LOCATION",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 12,
+  "table_id" : "0079"
+}, {
+  "id" : "00063",
+  "description" : "ADMIT SOURCE",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 3,
+  "table_id" : "0023"
+}, {
+  "id" : "00064",
+  "description" : "AMBULATORY STATUS",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 2,
+  "table_id" : "0009"
+}, {
+  "id" : "00066",
+  "description" : "WHEN TO CHARGE",
+  "section" : "4-12",
+  "truncation" : "NA",
+  "datatype_id" : "CM",
+  "min_length" : 0,
+  "max_length" : 15,
+  "table_id" : "0100"
+}, {
+  "id" : "00068",
+  "description" : "STOCK LOCATION",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 2,
+  "table_id" : "0012"
+}, {
+  "id" : "00080",
+  "description" : "ERROR CODE AND LOCATION",
+  "section" : "2-42",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 80,
+  "table_id" : "0060"
+}, {
+  "id" : "00120",
+  "description" : "SUBSTITUTE ALLOWED",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 1
+}, {
+  "id" : "00129",
+  "description" : "ROUTE",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 8,
+  "table_id" : "0033"
+}, {
+  "id" : "00130",
+  "description" : "SITE ADMINISTERED",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 20,
+  "table_id" : "0034"
+}, {
+  "id" : "00131",
+  "description" : "IV SOLUTION RATE",
+  "truncation" : "NA",
+  "datatype_id" : "CQ",
+  "min_length" : 0,
+  "max_length" : 10
+}, {
+  "id" : "00133",
+  "description" : "DRUG STRENGTH",
+  "truncation" : "NA",
+  "datatype_id" : "CQ",
+  "min_length" : 0,
+  "max_length" : 14
+}, {
+  "id" : "00135",
+  "description" : "DRUG DOSE",
+  "truncation" : "NA",
+  "datatype_id" : "CM",
+  "min_length" : 0,
+  "max_length" : 10
+}, {
+  "id" : "00137",
+  "description" : "FINAL CONCENTRATION",
+  "truncation" : "NA",
+  "datatype_id" : "NM",
+  "min_length" : 0,
+  "max_length" : 10
+}, {
+  "id" : "00138",
+  "description" : "FINAL VOLUME IN ML.",
+  "truncation" : "NA",
+  "datatype_id" : "NM",
+  "min_length" : 0,
+  "max_length" : 10
+}, {
+  "id" : "00139",
+  "description" : "DRUG ROLE",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 1
+}, {
+  "id" : "00153",
+  "description" : "DATA LINE",
+  "truncation" : "NA",
+  "datatype_id" : "TX",
+  "min_length" : 0,
+  "max_length" : 300
+}, {
+  "id" : "00154",
+  "description" : "LOGICAL BREAK POINT",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 2
+}, {
+  "id" : "00156",
+  "description" : "QUERY DATE/TIME",
+  "section" : "5-6",
+  "truncation" : "NA",
+  "datatype_id" : "TS",
+  "min_length" : 0,
+  "max_length" : 19
+}, {
+  "id" : "00158",
+  "description" : "QUERY FORMAT CODE",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 1,
+  "table_id" : "0106"
+}, {
+  "id" : "00159",
+  "description" : "QUERY PRIORITY",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 1,
+  "table_id" : "0091"
+}, {
+  "id" : "00160",
+  "description" : "QUERY ID",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 10
+}, {
+  "id" : "00161",
+  "description" : "DEFERRED RESPONSE TYPE",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 1,
+  "table_id" : "0107"
+}, {
+  "id" : "00162",
+  "description" : "DEFERRED RESPONSE DATE/TIME",
+  "truncation" : "NA",
+  "datatype_id" : "TS",
+  "min_length" : 0,
+  "max_length" : 19
+}, {
+  "id" : "00164",
+  "description" : "QUANTITY LIMITED REQUEST",
+  "truncation" : "NA",
+  "datatype_id" : "CQ",
+  "min_length" : 0,
+  "max_length" : 5,
+  "table_id" : "0126"
+}, {
+  "id" : "00167",
+  "description" : "CONTINUATION POINTER",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 60
+}, {
+  "id" : "00168",
+  "description" : "WHO SUBJECT FILTER",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 20
+}, {
+  "id" : "00169",
+  "description" : "WHAT SUBJECT FILTER",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 3,
+  "table_id" : "0048"
+}, {
+  "id" : "00170",
+  "description" : "WHAT DEPARTMENT DATA CODE",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 20
+}, {
+  "id" : "00171",
+  "description" : "WHAT DATA CODE VALUE QUAL.",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 20
+}, {
+  "id" : "00173",
+  "description" : "WHERE SUBJECT FILTER",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 20
+}, {
+  "id" : "00174",
+  "description" : "WHEN DATA START DATE/TIME",
+  "truncation" : "NA",
+  "datatype_id" : "TS",
+  "min_length" : 0,
+  "max_length" : 19
+}, {
+  "id" : "00176",
+  "description" : "WHEN DATA END DATE/TIME",
+  "truncation" : "NA",
+  "datatype_id" : "TS",
+  "min_length" : 0,
+  "max_length" : 19
+}, {
+  "id" : "00178",
+  "description" : "WHAT USER QUALIFIER",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 20
+}, {
+  "id" : "00179",
+  "description" : "OTHER QRY SUBJECT FILTER",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 20
+}, {
+  "id" : "00182",
+  "description" : "ACCIDENT DATE/TIME",
+  "section" : "6-3",
+  "truncation" : "NA",
+  "datatype_id" : "TS",
+  "min_length" : 0,
+  "max_length" : 19
+}, {
+  "id" : "00184",
+  "description" : "ACCIDENT CODE",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 2,
+  "table_id" : "0050"
+}, {
+  "id" : "00185",
+  "description" : "ACCIDENT LOCATION",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 25
+}, {
+  "id" : "00189",
+  "description" : "ADMITTING DOCTOR",
+  "truncation" : "NA",
+  "datatype_id" : "CN",
+  "min_length" : 0,
+  "max_length" : 60,
+  "table_id" : "0010"
+}, {
+  "id" : "00191",
+  "description" : "PATIENT TYPE",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 2,
+  "table_id" : "0018"
+}, {
+  "id" : "00193",
+  "description" : "VIP INDICATOR",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 2,
+  "table_id" : "0099"
+}, {
+  "id" : "00194",
+  "description" : "VISIT NUMBER",
+  "truncation" : "NA",
+  "datatype_id" : "NM",
+  "min_length" : 0,
+  "max_length" : 4
+}, {
+  "id" : "00195",
+  "description" : "FINANCIAL CLASS",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 11,
+  "table_id" : "0064"
+}, {
+  "id" : "00199",
+  "description" : "CHARGE PRICE INDICATOR",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 2,
+  "table_id" : "0032"
+}, {
+  "id" : "00200",
+  "description" : "CREDIT RATING",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 2,
+  "table_id" : "0046"
+}, {
+  "id" : "00201",
+  "description" : "CONTRACT CODE",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 2,
+  "table_id" : "0044"
+}, {
+  "id" : "00202",
+  "description" : "CONTRACT EFFECTIVE DATE",
+  "truncation" : "NA",
+  "datatype_id" : "DT",
+  "min_length" : 0,
+  "max_length" : 8
+}, {
+  "id" : "00203",
+  "description" : "CONTRACT AMOUNT",
+  "truncation" : "NA",
+  "datatype_id" : "NM",
+  "min_length" : 0,
+  "max_length" : 12
+}, {
+  "id" : "00204",
+  "description" : "CONTRACT PERIOD",
+  "truncation" : "NA",
+  "datatype_id" : "NM",
+  "min_length" : 0,
+  "max_length" : 3
+}, {
+  "id" : "00205",
+  "description" : "TRANSFER TO BAD DEBT CODE",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 1,
+  "table_id" : "0110"
+}, {
+  "id" : "00206",
+  "description" : "BAD DEBT AGENCY CODE",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 10,
+  "table_id" : "0021"
+}, {
+  "id" : "00207",
+  "description" : "DELETE ACCOUNT INDICATOR",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 1,
+  "table_id" : "0111"
+}, {
+  "id" : "00208",
+  "description" : "DELETE ACCOUNT DATE",
+  "truncation" : "NA",
+  "datatype_id" : "DT",
+  "min_length" : 0,
+  "max_length" : 8
+}, {
+  "id" : "00218",
+  "description" : "ADMISSION TYPE",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 2,
+  "table_id" : "0007"
+}, {
+  "id" : "00219",
+  "description" : "PRE-ADMIT NUMBER",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 20
+}, {
+  "id" : "00220",
+  "description" : "PRE-ADMIT TEST INDICATOR",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 2,
+  "table_id" : "0087"
+}, {
+  "id" : "00221",
+  "description" : "RE-ADMISSION INDICATOR",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 2,
+  "table_id" : "0092"
+}, {
+  "id" : "00225",
+  "description" : "NEXT OF KIN - ADDRESS",
+  "truncation" : "NA",
+  "datatype_id" : "AD",
+  "min_length" : 0,
+  "max_length" : 106
+}, {
+  "id" : "00230",
+  "description" : "NEXT OF KIN - PHONE NUMBER",
+  "truncation" : "NA",
+  "datatype_id" : "TN",
+  "min_length" : 0,
+  "max_length" : 40
+}, {
+  "id" : "00234",
+  "description" : "SET ID - INSURANCE",
+  "section" : "6-10",
+  "truncation" : "NA",
+  "datatype_id" : "SI",
+  "min_length" : 0,
+  "max_length" : 4
+}, {
+  "id" : "00235",
+  "description" : "INSURANCE COMPANY ID",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 6
+}, {
+  "id" : "00236",
+  "description" : "INSURANCE COMPANY NAME",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 45
+}, {
+  "id" : "00237",
+  "description" : "INSURANCE COMPANY ADDRESS",
+  "truncation" : "NA",
+  "datatype_id" : "AD",
+  "min_length" : 0,
+  "max_length" : 106
+}, {
+  "id" : "00242",
+  "description" : "INSURANCE CO. CONTACT PERS",
+  "truncation" : "NA",
+  "datatype_id" : "PN",
+  "min_length" : 0,
+  "max_length" : 48
+}, {
+  "id" : "00243",
+  "description" : "INSURANCE CO PHONE NUMBER",
+  "truncation" : "NA",
+  "datatype_id" : "TN",
+  "min_length" : 0,
+  "max_length" : 40
+}, {
+  "id" : "00248",
+  "description" : "GROUP NUMBER",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 12
+}, {
+  "id" : "00249",
+  "description" : "GROUP NAME",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 35
+}, {
+  "id" : "00250",
+  "description" : "INSURED'S GROUP EMP. ID",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 12
+}, {
+  "id" : "00251",
+  "description" : "INSURED'S GROUP EMP. NAME",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 45
+}, {
+  "id" : "00252",
+  "description" : "PLAN EFFECTIVE DATE",
+  "truncation" : "NA",
+  "datatype_id" : "DT",
+  "min_length" : 0,
+  "max_length" : 8
+}, {
+  "id" : "00253",
+  "description" : "PLAN EXPIRATION DATE",
+  "truncation" : "NA",
+  "datatype_id" : "DT",
+  "min_length" : 0,
+  "max_length" : 8
+}, {
+  "id" : "00254",
+  "description" : "AUTHORIZATION INFORMATION",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 55
+}, {
+  "id" : "00260",
+  "description" : "PLAN TYPE",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 2,
+  "table_id" : "0086"
+}, {
+  "id" : "00261",
+  "description" : "NAME OF INSURED",
+  "truncation" : "NA",
+  "datatype_id" : "PN",
+  "min_length" : 0,
+  "max_length" : 48
+}, {
+  "id" : "00262",
+  "description" : "INSURED'S RELATIONSHIP TO PATIENT",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 2,
+  "table_id" : "0063"
+}, {
+  "id" : "00263",
+  "description" : "ASSIGNMENT OF BENEFITS",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 2
+}, {
+  "id" : "00264",
+  "description" : "COORDINATION OF BENEFITS",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 2
+}, {
+  "id" : "00265",
+  "description" : "COORD OF BEN. PRIORITY",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 2
+}, {
+  "id" : "00266",
+  "description" : "NOTICE OF ADMISSION CODE",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 2,
+  "table_id" : "0081"
+}, {
+  "id" : "00267",
+  "description" : "NOTICE OF ADMISSION DATE",
+  "truncation" : "NA",
+  "datatype_id" : "DT",
+  "min_length" : 0,
+  "max_length" : 8
+}, {
+  "id" : "00268",
+  "description" : "RPT OF ELIGIBILITY CODE",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 2,
+  "table_id" : "0094"
+}, {
+  "id" : "00269",
+  "description" : "RPT OF ELIGIBILITY DATE",
+  "truncation" : "NA",
+  "datatype_id" : "DT",
+  "min_length" : 0,
+  "max_length" : 8
+}, {
+  "id" : "00270",
+  "description" : "RELEASE INFORMATION CODE",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 2,
+  "table_id" : "0093"
+}, {
+  "id" : "00271",
+  "description" : "PRE-ADMIT CERT. (PAC)",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 15
+}, {
+  "id" : "00272",
+  "description" : "VERIFICATION DATE",
+  "truncation" : "NA",
+  "datatype_id" : "DT",
+  "min_length" : 0,
+  "max_length" : 8
+}, {
+  "id" : "00273",
+  "description" : "VERIFICATION BY",
+  "truncation" : "NA",
+  "datatype_id" : "CM",
+  "min_length" : 0,
+  "max_length" : 60
+}, {
+  "id" : "00277",
+  "description" : "TYPE OF AGREEMENT CODE",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 2,
+  "table_id" : "0098"
+}, {
+  "id" : "00278",
+  "description" : "BILLING STATUS",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 2,
+  "table_id" : "0022"
+}, {
+  "id" : "00279",
+  "description" : "BLOOD DEDUCTIBLE",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 1
+}, {
+  "id" : "00280",
+  "description" : "LIFETIME RESERVE DAYS",
+  "truncation" : "NA",
+  "datatype_id" : "NM",
+  "min_length" : 0,
+  "max_length" : 4
+}, {
+  "id" : "00281",
+  "description" : "DELAY BEFORE L. R. DAY",
+  "truncation" : "NA",
+  "datatype_id" : "NM",
+  "min_length" : 0,
+  "max_length" : 4
+}, {
+  "id" : "00282",
+  "description" : "COMPANY PLAN CODE",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 8,
+  "table_id" : "0042"
+}, {
+  "id" : "00283",
+  "description" : "POLICY NUMBER",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 15
+}, {
+  "id" : "00284",
+  "description" : "POLICY DEDUCTIBLE",
+  "truncation" : "NA",
+  "datatype_id" : "NM",
+  "min_length" : 0,
+  "max_length" : 12
+}, {
+  "id" : "00285",
+  "description" : "POLICY LIMIT - AMOUNT",
+  "truncation" : "NA",
+  "datatype_id" : "NM",
+  "min_length" : 0,
+  "max_length" : 12
+}, {
+  "id" : "00286",
+  "description" : "POLICY LIMIT - DAYS",
+  "truncation" : "NA",
+  "datatype_id" : "NM",
+  "min_length" : 0,
+  "max_length" : 4
+}, {
+  "id" : "00287",
+  "description" : "ROOM RATE - SEMI-PRIVATE",
+  "truncation" : "NA",
+  "datatype_id" : "NM",
+  "min_length" : 0,
+  "max_length" : 12
+}, {
+  "id" : "00288",
+  "description" : "ROOM RATE - PRIVATE",
+  "truncation" : "NA",
+  "datatype_id" : "NM",
+  "min_length" : 0,
+  "max_length" : 12
+}, {
+  "id" : "00293",
+  "description" : "DIAGNOSIS CODE",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 8,
+  "table_id" : "0051"
+}, {
+  "id" : "00294",
+  "description" : "DIAGNOSIS DESCRIPTION",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 40
+}, {
+  "id" : "00295",
+  "description" : "DIAGNOSIS DATE/TIME",
+  "truncation" : "NA",
+  "datatype_id" : "TS",
+  "min_length" : 0,
+  "max_length" : 19
+}, {
+  "id" : "00297",
+  "description" : "DIAGNOSIS/DRG TYPE",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 2,
+  "table_id" : "0052"
+}, {
+  "id" : "00298",
+  "description" : "MAJOR DIAGNOSTIC CATEGORY",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 4,
+  "table_id" : "0118"
+}, {
+  "id" : "00299",
+  "description" : "DIAGNOSTIC RELATED GROUP",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 4,
+  "table_id" : "0055"
+}, {
+  "id" : "00300",
+  "description" : "OUTLIER DAYS",
+  "truncation" : "NA",
+  "datatype_id" : "NM",
+  "min_length" : 0,
+  "max_length" : 3
+}, {
+  "id" : "00304",
+  "description" : "SET ID - PROCEDURE",
+  "section" : "6-15",
+  "truncation" : "NA",
+  "datatype_id" : "SI",
+  "min_length" : 0,
+  "max_length" : 4
+}, {
+  "id" : "00305",
+  "description" : "PROCEDURE CODE",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 10,
+  "table_id" : "0088"
+}, {
+  "id" : "00306",
+  "description" : "PROCEDURE DESCRIPTION",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 40
+}, {
+  "id" : "00307",
+  "description" : "PROCEDURE DATE/TIME",
+  "truncation" : "NA",
+  "datatype_id" : "TS",
+  "min_length" : 0,
+  "max_length" : 19
+}, {
+  "id" : "00309",
+  "description" : "PROCEDURE TYPE",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 2,
+  "table_id" : "0090"
+}, {
+  "id" : "00310",
+  "description" : "PROCEDURE MINUTES",
+  "truncation" : "NA",
+  "datatype_id" : "NM",
+  "min_length" : 0,
+  "max_length" : 4
+}, {
+  "id" : "00311",
+  "description" : "ANESTHESIOLOGIST",
+  "truncation" : "NA",
+  "datatype_id" : "CN",
+  "min_length" : 0,
+  "max_length" : 60,
+  "table_id" : "0010"
+}, {
+  "id" : "00313",
+  "description" : "ANESTHESIA CODE",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 2,
+  "table_id" : "0019"
+}, {
+  "id" : "00314",
+  "description" : "ANESTHESIA MINUTES",
+  "truncation" : "NA",
+  "datatype_id" : "NM",
+  "min_length" : 0,
+  "max_length" : 4
+}, {
+  "id" : "00315",
+  "description" : "SURGEON",
+  "truncation" : "NA",
+  "datatype_id" : "CN",
+  "min_length" : 0,
+  "max_length" : 60,
+  "table_id" : "0010"
+}, {
+  "id" : "00317",
+  "description" : "CONSENT CODE",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 2,
+  "table_id" : "0059"
+}, {
+  "id" : "00318",
+  "description" : "RESIDENT CODE",
+  "truncation" : "NA",
+  "datatype_id" : "CN",
+  "min_length" : 0,
+  "max_length" : 60,
+  "table_id" : "0010"
+}, {
+  "id" : "00321",
+  "description" : "SET ID - GUARANTOR",
+  "section" : "6-8",
+  "truncation" : "NA",
+  "datatype_id" : "SI",
+  "min_length" : 0,
+  "max_length" : 4
+}, {
+  "id" : "00322",
+  "description" : "GUARANTOR NUMBER",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 20
+}, {
+  "id" : "00323",
+  "description" : "GUARANTOR NAME",
+  "truncation" : "NA",
+  "datatype_id" : "PN",
+  "min_length" : 0,
+  "max_length" : 48
+}, {
+  "id" : "00324",
+  "description" : "GUARANTOR ADDRESS",
+  "truncation" : "NA",
+  "datatype_id" : "AD",
+  "min_length" : 0,
+  "max_length" : 106
+}, {
+  "id" : "00329",
+  "description" : "GUARANTOR PH. NUM.- HOME",
+  "truncation" : "NA",
+  "datatype_id" : "TN",
+  "min_length" : 0,
+  "max_length" : 40
+}, {
+  "id" : "00330",
+  "description" : "GUARANTOR PH. NUM-BUSINESS",
+  "truncation" : "NA",
+  "datatype_id" : "TN",
+  "min_length" : 0,
+  "max_length" : 40
+}, {
+  "id" : "00331",
+  "description" : "GUARANTOR DATE OF BIRTH",
+  "truncation" : "NA",
+  "datatype_id" : "DT",
+  "min_length" : 0,
+  "max_length" : 8
+}, {
+  "id" : "00332",
+  "description" : "GUARANTOR SEX",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 1,
+  "table_id" : "0001"
+}, {
+  "id" : "00333",
+  "description" : "GUARANTOR TYPE",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 2,
+  "table_id" : "0068"
+}, {
+  "id" : "00334",
+  "description" : "GUARANTOR RELATIONSHIP",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 2,
+  "table_id" : "0063"
+}, {
+  "id" : "00335",
+  "description" : "GUARANTOR SSN",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 11
+}, {
+  "id" : "00338",
+  "description" : "GUARANTOR DATE - BEGIN",
+  "truncation" : "NA",
+  "datatype_id" : "DT",
+  "min_length" : 0,
+  "max_length" : 8
+}, {
+  "id" : "00339",
+  "description" : "GUARANTOR DATE - END",
+  "truncation" : "NA",
+  "datatype_id" : "DT",
+  "min_length" : 0,
+  "max_length" : 8
+}, {
+  "id" : "00340",
+  "description" : "GUARANTOR PRIORITY",
+  "truncation" : "NA",
+  "datatype_id" : "NM",
+  "min_length" : 0,
+  "max_length" : 2
+}, {
+  "id" : "00341",
+  "description" : "GUARANTOR EMPLOYER NAME",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 45
+}, {
+  "id" : "00342",
+  "description" : "GUARANTOR EMPLOYER ADDRESS",
+  "truncation" : "NA",
+  "datatype_id" : "AD",
+  "min_length" : 0,
+  "max_length" : 106
+}, {
+  "id" : "00347",
+  "description" : "GUARANTOR EMPLOY PHONE #",
+  "truncation" : "NA",
+  "datatype_id" : "TN",
+  "min_length" : 0,
+  "max_length" : 40
+}, {
+  "id" : "00351",
+  "description" : "TRANSACTION DATE",
+  "truncation" : "NA",
+  "datatype_id" : "DT",
+  "min_length" : 0,
+  "max_length" : 8
+}, {
+  "id" : "00352",
+  "description" : "TRANSACTION POSTING DATE",
+  "truncation" : "NA",
+  "datatype_id" : "DT",
+  "min_length" : 0,
+  "max_length" : 8
+}, {
+  "id" : "00353",
+  "description" : "TRANSACTION TYPE",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 8,
+  "table_id" : "0017"
+}, {
+  "id" : "00354",
+  "description" : "TRANSACTION CODE",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 20,
+  "table_id" : "0096"
+}, {
+  "id" : "00355",
+  "description" : "DEPARTMENT CODE",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 16,
+  "table_id" : "0049"
+}, {
+  "id" : "00356",
+  "description" : "TRANSACTION DESCRIPTION",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 40
+}, {
+  "id" : "00357",
+  "description" : "TRANSACTION QUANTITY",
+  "truncation" : "NA",
+  "datatype_id" : "NM",
+  "min_length" : 0,
+  "max_length" : 4
+}, {
+  "id" : "00358",
+  "description" : "TRANSACTION AMOUNT - EXTENDED",
+  "truncation" : "NA",
+  "datatype_id" : "NM",
+  "min_length" : 0,
+  "max_length" : 12
+}, {
+  "id" : "00359",
+  "description" : "INSURANCE PLAN ID",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 8,
+  "table_id" : "0072"
+}, {
+  "id" : "00360",
+  "description" : "INSURANCE AMOUNT",
+  "truncation" : "NA",
+  "datatype_id" : "NM",
+  "min_length" : 0,
+  "max_length" : 12
+}, {
+  "id" : "00361",
+  "description" : "PATIENT LOCATION",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 12,
+  "table_id" : "0079"
+}, {
+  "id" : "00362",
+  "description" : "FEE SCHEDULE",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 1,
+  "table_id" : "0024"
+}, {
+  "id" : "00363",
+  "description" : "PATIENT TYPE",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 2,
+  "table_id" : "0018"
+}, {
+  "id" : "00364",
+  "description" : "DIAGNOSIS CODE",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 8,
+  "table_id" : "0051"
+}, {
+  "id" : "00366",
+  "description" : "TRANSACTION ID",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 12
+}, {
+  "id" : "00369",
+  "description" : "EVENT REASON CODE",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 3,
+  "table_id" : "0062"
+}, {
+  "id" : "00373",
+  "description" : "DRG APPROVAL INDICATOR",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 2
+}, {
+  "id" : "00374",
+  "description" : "DRG GROUPER REVIEW CODE",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 2,
+  "table_id" : "0056"
+}, {
+  "id" : "00375",
+  "description" : "OUTLIER TYPE",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 2,
+  "table_id" : "0083"
+}, {
+  "id" : "00376",
+  "description" : "OUTLIER COST",
+  "truncation" : "NA",
+  "datatype_id" : "NM",
+  "min_length" : 0,
+  "max_length" : 12
+}, {
+  "id" : "00377",
+  "description" : "PERFORMED BY CODE",
+  "truncation" : "NA",
+  "datatype_id" : "CN",
+  "min_length" : 0,
+  "max_length" : 60,
+  "table_id" : "0084"
+}, {
+  "id" : "00378",
+  "description" : "INSURANCE PLAN ID",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 8,
+  "table_id" : "0072"
+}, {
+  "id" : "00386",
+  "description" : "COURTESY CODE",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 2,
+  "table_id" : "0045"
+}, {
+  "id" : "00387",
+  "description" : "INTEREST CODE",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 2,
+  "table_id" : "0073"
+}, {
+  "id" : "00388",
+  "description" : "TRANSFER TO BAD DEBT DATE",
+  "truncation" : "NA",
+  "datatype_id" : "DT",
+  "min_length" : 0,
+  "max_length" : 8
+}, {
+  "id" : "00389",
+  "description" : "BAD DEBT TRANSFER AMOUNT",
+  "truncation" : "NA",
+  "datatype_id" : "NM",
+  "min_length" : 0,
+  "max_length" : 12
+}, {
+  "id" : "00390",
+  "description" : "BAD DEBT RECOVERY AMOUNT",
+  "truncation" : "NA",
+  "datatype_id" : "NM",
+  "min_length" : 0,
+  "max_length" : 12
+}, {
+  "id" : "00391",
+  "description" : "GUARANTOR EMPLOYEE ID NUM",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 20
+}, {
+  "id" : "00392",
+  "description" : "GUARANTOR EMPLOYMENT STATUS",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 2,
+  "table_id" : "0066"
+}, {
+  "id" : "00393",
+  "description" : "PROCEDURE CODING METHOD.",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 2,
+  "table_id" : "0089"
+}, {
+  "id" : "00394",
+  "description" : "DIAGNOSIS CODING METHOD",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 2,
+  "table_id" : "0053"
+}, {
+  "id" : "00396",
+  "description" : "BLOOD FURN.-PINTS OF (40)",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 2
+}, {
+  "id" : "00397",
+  "description" : "BLOOD REPLACED-PINTS (41)",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 2
+}, {
+  "id" : "00398",
+  "description" : "BLOOD NOT RPLCD-PINTS(42)",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 2
+}, {
+  "id" : "00399",
+  "description" : "CO-INSURANCE DAYS (25)",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 2
+}, {
+  "id" : "00400",
+  "description" : "CONDITION CODE",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 2,
+  "table_id" : "0043"
+}, {
+  "id" : "00405",
+  "description" : "COVERED DAYS - (23)",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 3
+}, {
+  "id" : "00406",
+  "description" : "NON COVERED DAYS - (24)",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 3
+}, {
+  "id" : "00407",
+  "description" : "VALUE AMOUNT & CODE",
+  "truncation" : "NA",
+  "datatype_id" : "CM",
+  "min_length" : 0,
+  "max_length" : 12
+}, {
+  "id" : "00424",
+  "description" : "NUMBER OF GRACE DAYS (90)",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 2
+}, {
+  "id" : "00425",
+  "description" : "SPEC. PROG. INDICATOR(44)",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 2
+}, {
+  "id" : "00426",
+  "description" : "PSRO/UR APPROVAL IND. (87)",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 1
+}, {
+  "id" : "00427",
+  "description" : "PSRO/UR APRVD STAY-FM(88)",
+  "truncation" : "NA",
+  "datatype_id" : "DT",
+  "min_length" : 0,
+  "max_length" : 8
+}, {
+  "id" : "00428",
+  "description" : "PSRO/UR APRVD STAY-TO(89)",
+  "truncation" : "NA",
+  "datatype_id" : "DT",
+  "min_length" : 0,
+  "max_length" : 8
+}, {
+  "id" : "00429",
+  "description" : "OCCURRENCE (28-32)",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 20
+}, {
+  "id" : "00435",
+  "description" : "OCCURRENCE SPAN (33)",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 2
+}, {
+  "id" : "00446",
+  "description" : "OCCURRENCE SPAN START DATE(33)",
+  "truncation" : "NA",
+  "datatype_id" : "DT",
+  "min_length" : 0,
+  "max_length" : 8
+}, {
+  "id" : "00447",
+  "description" : "OCCUR. SPAN END DATE (33)",
+  "truncation" : "NA",
+  "datatype_id" : "DT",
+  "min_length" : 0,
+  "max_length" : 8
+}, {
+  "id" : "00448",
+  "description" : "UB-82 LOCATOR 2",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 30
+}, {
+  "id" : "00449",
+  "description" : "UB-82 LOCATOR 9",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 7
+}, {
+  "id" : "00450",
+  "description" : "UB-82 LOCATOR 27",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 8
+}, {
+  "id" : "00451",
+  "description" : "UB-82 LOCATOR 45",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 17
+}, {
+  "id" : "00453",
+  "description" : "DRIVER'S LIC NUM - PATIENT",
+  "truncation" : "NA",
+  "datatype_id" : "CM",
+  "min_length" : 0,
+  "max_length" : 25
+}, {
+  "id" : "00457",
+  "description" : "SSN NUMBER - PATIENT",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 16
+}, {
+  "id" : "00458",
+  "description" : "SET ID - PATIENT VISIT",
+  "section" : "3-18",
+  "truncation" : "NA",
+  "datatype_id" : "SI",
+  "min_length" : 0,
+  "max_length" : 4
+}, {
+  "id" : "00459",
+  "description" : "SET ID - UB82",
+  "section" : "6-17",
+  "truncation" : "NA",
+  "datatype_id" : "SI",
+  "min_length" : 0,
+  "max_length" : 4
+}, {
+  "id" : "00464",
+  "description" : "LANGUAGE - PATIENT",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 25
+}, {
+  "id" : "00469",
+  "description" : "PRESCRIPTION SEQUENCE #",
+  "truncation" : "NA",
+  "datatype_id" : "NM",
+  "min_length" : 0,
+  "max_length" : 3
+}, {
+  "id" : "00470",
+  "description" : "QUANTITY DISPENSED",
+  "truncation" : "NA",
+  "datatype_id" : "CQ",
+  "min_length" : 0,
+  "max_length" : 4
+}, {
+  "id" : "00473",
+  "description" : "DRUG ID",
+  "truncation" : "NA",
+  "datatype_id" : "CE_0057",
+  "min_length" : 0,
+  "max_length" : 5,
+  "table_id" : "0057"
+}, {
+  "id" : "00474",
+  "description" : "COMPONENT DRUG IDS",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 5
+}, {
+  "id" : "00479",
+  "description" : "PRESCRIPTION TYPE",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 2
+}, {
+  "id" : "00480",
+  "description" : "SUBSTITUTION STATUS",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 1
+}, {
+  "id" : "00481",
+  "description" : "NUMBER OF REFILLS",
+  "truncation" : "NA",
+  "datatype_id" : "NM",
+  "min_length" : 0,
+  "max_length" : 3
+}, {
+  "id" : "00482",
+  "description" : "REFILLS REMAINING",
+  "truncation" : "NA",
+  "datatype_id" : "NM",
+  "min_length" : 0,
+  "max_length" : 3
+}, {
+  "id" : "00483",
+  "description" : "LAST REFILL DATE/TIME",
+  "truncation" : "NA",
+  "datatype_id" : "TS",
+  "min_length" : 0,
+  "max_length" : 19
+}, {
+  "id" : "00484",
+  "description" : "PHARMACY INSTRUCTIONS",
+  "truncation" : "NA",
+  "datatype_id" : "TX",
+  "min_length" : 0,
+  "max_length" : 80
+}, {
+  "id" : "00489",
+  "description" : "PATIENT INSTRUCTIONS",
+  "truncation" : "NA",
+  "datatype_id" : "TX",
+  "min_length" : 0,
+  "max_length" : 80
+}, {
+  "id" : "00503",
+  "description" : "TRANSACTION BATCH ID",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 5
+}, {
+  "id" : "00506",
+  "description" : "SET ID - DIAGNOSIS",
+  "section" : "6-3",
+  "truncation" : "NA",
+  "datatype_id" : "SI",
+  "min_length" : 0,
+  "max_length" : 4
+}, {
+  "id" : "00507",
+  "description" : "SET ID - FINANCIAL TRANSACTION",
+  "section" : "6-5",
+  "truncation" : "NA",
+  "datatype_id" : "SI",
+  "min_length" : 0,
+  "max_length" : 4
+}, {
+  "id" : "00509",
+  "description" : "ENCODING CHARACTERS",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 4
+}, {
+  "id" : "00512",
+  "description" : "SENDING FACILITY",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 20
+}, {
+  "id" : "00513",
+  "description" : "RECEIVING FACILITY",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 30
+}, {
+  "id" : "00520",
+  "description" : "SET ID - OBSERVATION REQUEST",
+  "section" : "7-4",
+  "truncation" : "NA",
+  "datatype_id" : "SI",
+  "min_length" : 0,
+  "max_length" : 4
+}, {
+  "id" : "00523",
+  "description" : "UNIVERSAL SERVICE IDENT.",
+  "truncation" : "NA",
+  "datatype_id" : "CE",
+  "min_length" : 0,
+  "max_length" : 200
+}, {
+  "id" : "00524",
+  "description" : "PRIORITY",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 2
+}, {
+  "id" : "00529",
+  "description" : "REQUESTED DATE-TIME",
+  "truncation" : "NA",
+  "datatype_id" : "TS",
+  "min_length" : 0,
+  "max_length" : 19
+}, {
+  "id" : "00530",
+  "description" : "OBSERVATION DATE/TIME",
+  "truncation" : "NA",
+  "datatype_id" : "TS",
+  "min_length" : 0,
+  "max_length" : 19
+}, {
+  "id" : "00531",
+  "description" : "OBSERVATION END DATE/TIME",
+  "truncation" : "NA",
+  "datatype_id" : "TS",
+  "min_length" : 0,
+  "max_length" : 19
+}, {
+  "id" : "00532",
+  "description" : "COLLECTION VOLUME",
+  "truncation" : "NA",
+  "datatype_id" : "CQ",
+  "min_length" : 0,
+  "max_length" : 20,
+  "table_id" : "0036"
+}, {
+  "id" : "00533",
+  "description" : "COLLECTOR IDENTIFIER",
+  "truncation" : "NA",
+  "datatype_id" : "CN",
+  "min_length" : 0,
+  "max_length" : 60
+}, {
+  "id" : "00534",
+  "description" : "SPECIMEN ACTION CODE",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 1,
+  "table_id" : "0065"
+}, {
+  "id" : "00535",
+  "description" : "DANGER CODE",
+  "truncation" : "NA",
+  "datatype_id" : "CM",
+  "min_length" : 0,
+  "max_length" : 60,
+  "table_id" : "0047"
+}, {
+  "id" : "00536",
+  "description" : "RELEVANT CLINICAL INFO.",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 300
+}, {
+  "id" : "00537",
+  "description" : "SPECIMEN RECEIVED DATE/TIME",
+  "truncation" : "NA",
+  "datatype_id" : "TS",
+  "min_length" : 0,
+  "max_length" : 19
+}, {
+  "id" : "00538",
+  "description" : "SPECIMEN SOURCE",
+  "truncation" : "NA",
+  "datatype_id" : "CM",
+  "min_length" : 0,
+  "max_length" : 300,
+  "table_id" : "0070"
+}, {
+  "id" : "00539",
+  "description" : "ORDERING PROVIDER",
+  "truncation" : "NA",
+  "datatype_id" : "CN",
+  "min_length" : 0,
+  "max_length" : 60,
+  "table_id" : "0010"
+}, {
+  "id" : "00540",
+  "description" : "ORDER CALL-BACK PHONE NUM",
+  "truncation" : "NA",
+  "datatype_id" : "TN",
+  "min_length" : 0,
+  "max_length" : 40
+}, {
+  "id" : "00541",
+  "description" : "PLACERS FIELD #1",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 60
+}, {
+  "id" : "00542",
+  "description" : "PLACERS FIELD #2",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 60
+}, {
+  "id" : "00543",
+  "description" : "FILLERS FIELD #1",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 60
+}, {
+  "id" : "00544",
+  "description" : "FILLERS FIELD #2",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 60
+}, {
+  "id" : "00546",
+  "description" : "RESULTS RPT/STATUS CHNG - DATE/T",
+  "truncation" : "NA",
+  "datatype_id" : "TS",
+  "min_length" : 0,
+  "max_length" : 19
+}, {
+  "id" : "00547",
+  "description" : "CHARGE TO PRACTICE",
+  "truncation" : "NA",
+  "datatype_id" : "CM",
+  "min_length" : 0,
+  "max_length" : 40
+}, {
+  "id" : "00548",
+  "description" : "DIAGNOSTIC SERV SECT ID",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 10,
+  "table_id" : "0074"
+}, {
+  "id" : "00550",
+  "description" : "LINKED RESULTS",
+  "truncation" : "NA",
+  "datatype_id" : "CE",
+  "min_length" : 0,
+  "max_length" : 200
+}, {
+  "id" : "00551",
+  "description" : "RESULT COPIES TO",
+  "truncation" : "NA",
+  "datatype_id" : "CN",
+  "min_length" : 0,
+  "max_length" : 80
+}, {
+  "id" : "00559",
+  "description" : "SET ID - OBSERVATION SIMPLE",
+  "section" : "7-14",
+  "truncation" : "NA",
+  "datatype_id" : "SI",
+  "min_length" : 0,
+  "max_length" : 4
+}, {
+  "id" : "00560",
+  "description" : "OBSERVATION IDENTIFIER",
+  "truncation" : "NA",
+  "datatype_id" : "CE",
+  "min_length" : 0,
+  "max_length" : 80
+}, {
+  "id" : "00561",
+  "description" : "OBSERVATION RESULTS",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 65
+}, {
+  "id" : "00562",
+  "description" : "UNITS",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 20
+}, {
+  "id" : "00563",
+  "description" : "REFERENCES RANGE",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 60
+}, {
+  "id" : "00564",
+  "description" : "ABNORMAL FLAGS",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 10,
+  "table_id" : "0078"
+}, {
+  "id" : "00565",
+  "description" : "NATURE OF ABNORMAL TEST",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 5,
+  "table_id" : "0080"
+}, {
+  "id" : "00566",
+  "description" : "OBSERV RESULT STATUS",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 2,
+  "table_id" : "0085"
+}, {
+  "id" : "00567",
+  "description" : "DATE LAST OBS NORMAL VALUES",
+  "truncation" : "NA",
+  "datatype_id" : "TS",
+  "min_length" : 0,
+  "max_length" : 19
+}, {
+  "id" : "00570",
+  "description" : "SET ID - DISPLAY DATA",
+  "truncation" : "NA",
+  "datatype_id" : "SI",
+  "min_length" : 0,
+  "max_length" : 4
+}, {
+  "id" : "00571",
+  "description" : "DISPLAY LEVEL",
+  "truncation" : "NA",
+  "datatype_id" : "SI",
+  "min_length" : 0,
+  "max_length" : 4
+}, {
+  "id" : "00572",
+  "description" : "SET ID - PATIENT ID",
+  "section" : "3-14",
+  "truncation" : "NA",
+  "datatype_id" : "SI",
+  "min_length" : 0,
+  "max_length" : 4
+}, {
+  "id" : "00573",
+  "description" : "SET ID - NOTES AND COMMENTS",
+  "section" : "2-49",
+  "truncation" : "NA",
+  "datatype_id" : "SI",
+  "min_length" : 0,
+  "max_length" : 4
+}, {
+  "id" : "00574",
+  "description" : "SOURCE OF COMMENT",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 8,
+  "table_id" : "0105"
+}, {
+  "id" : "00575",
+  "description" : "COMMENT",
+  "truncation" : "NA",
+  "datatype_id" : "TX",
+  "min_length" : 0,
+  "max_length" : 120
+}, {
+  "id" : "00576",
+  "description" : "PRIOR PATIENT ID - INTERNAL",
+  "section" : "3-13",
+  "truncation" : "NA",
+  "datatype_id" : "CK",
+  "min_length" : 0,
+  "max_length" : 16,
+  "table_id" : "0061"
+}, {
+  "id" : "00577",
+  "description" : "PRIOR ALTERNATE PATIENT ID",
+  "truncation" : "NA",
+  "datatype_id" : "CK",
+  "min_length" : 0,
+  "max_length" : 16,
+  "table_id" : "0061"
+}, {
+  "id" : "00578",
+  "description" : "PRIOR PATIENT ACCOUNT NUMBER",
+  "truncation" : "NA",
+  "datatype_id" : "CK",
+  "min_length" : 0,
+  "max_length" : 20,
+  "table_id" : "0061"
+}, {
+  "id" : "00579",
+  "description" : "REFERRING DOCTOR",
+  "truncation" : "NA",
+  "datatype_id" : "CN",
+  "min_length" : 0,
+  "max_length" : 60,
+  "table_id" : "0010"
+}, {
+  "id" : "00580",
+  "description" : "CONSULTING DOCTOR",
+  "truncation" : "NA",
+  "datatype_id" : "CN",
+  "min_length" : 0,
+  "max_length" : 60,
+  "table_id" : "0010"
+}, {
+  "id" : "00581",
+  "description" : "PATIENT ID EXTERNAL (EXTERNAL ID)",
+  "truncation" : "NA",
+  "datatype_id" : "CK",
+  "min_length" : 0,
+  "max_length" : 16,
+  "table_id" : "0061"
+}, {
+  "id" : "00582",
+  "description" : "MOTHER'S MAIDEN NAME",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 30
+}, {
+  "id" : "00586",
+  "description" : "RESULTS COPIES TO",
+  "truncation" : "NA",
+  "datatype_id" : "CN",
+  "min_length" : 0,
+  "max_length" : 80
+}, {
+  "id" : "00588",
+  "description" : "RX ORDER STATUS",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 2,
+  "table_id" : "0038"
+}, {
+  "id" : "00596",
+  "description" : "RX NUMBER",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 20
+}, {
+  "id" : "00597",
+  "description" : "PATIENT ALIAS",
+  "truncation" : "NA",
+  "datatype_id" : "PN",
+  "min_length" : 0,
+  "max_length" : 48
+}, {
+  "id" : "00598",
+  "description" : "EXPECTED SEQUENCE NUMBER",
+  "truncation" : "NA",
+  "datatype_id" : "NM",
+  "min_length" : 0,
+  "max_length" : 15
+}, {
+  "id" : "00599",
+  "description" : "RESULT ID",
+  "truncation" : "NA",
+  "datatype_id" : "TX",
+  "min_length" : 0,
+  "max_length" : 20
+}, {
+  "id" : "00600",
+  "description" : "R/U DATE/TIME",
+  "truncation" : "NA",
+  "datatype_id" : "TS",
+  "min_length" : 0,
+  "max_length" : 19
+}, {
+  "id" : "00601",
+  "description" : "REPORT PRIORITY",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 1,
+  "table_id" : "0109"
+}, {
+  "id" : "00602",
+  "description" : "R/U WHO SUBJECT DEFINITION",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 20
+}, {
+  "id" : "00603",
+  "description" : "R/U WHAT SUBJECT DEFINITION",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 3,
+  "table_id" : "0048"
+}, {
+  "id" : "00605",
+  "description" : "R/U WHAT DEPARTMENT CODE",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 20
+}, {
+  "id" : "00607",
+  "description" : "R/U DISPLAY/PRINT LOCATIONS",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 20
+}, {
+  "id" : "00608",
+  "description" : "R/U WHERE SUBJECT DEFINITION",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 20
+}, {
+  "id" : "00609",
+  "description" : "R/U WHEN DATA START DATE/TIME",
+  "truncation" : "NA",
+  "datatype_id" : "TS",
+  "min_length" : 0,
+  "max_length" : 19
+}, {
+  "id" : "00610",
+  "description" : "R/U WHEN DATA END DATE/TIME",
+  "truncation" : "NA",
+  "datatype_id" : "TS",
+  "min_length" : 0,
+  "max_length" : 19
+}, {
+  "id" : "00611",
+  "description" : "R/U WHAT USER QUALIFIER",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 20
+}, {
+  "id" : "00612",
+  "description" : "R/U OTHER RESULTS SUBJECT DEFINI",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 20
+}, {
+  "id" : "00613",
+  "description" : "DISCHARGE DISPOSITION",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 2,
+  "table_id" : "0112"
+}, {
+  "id" : "00614",
+  "description" : "DISCHARGED TO LOCATION",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 2,
+  "table_id" : "0113"
+}, {
+  "id" : "00615",
+  "description" : "DIET TYPE",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 2,
+  "table_id" : "0114"
+}, {
+  "id" : "00616",
+  "description" : "SERVICING FACILITY",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 2,
+  "table_id" : "0115"
+}, {
+  "id" : "00617",
+  "description" : "BED STATUS",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 1,
+  "table_id" : "0116"
+}, {
+  "id" : "00618",
+  "description" : "INSTRUCTIONS (SIG)",
+  "truncation" : "NA",
+  "datatype_id" : "TX",
+  "min_length" : 0,
+  "max_length" : 500
+}, {
+  "id" : "00619",
+  "description" : "DEA CLASS",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 5
+}, {
+  "id" : "00620",
+  "description" : "ORDERING MD'S DEA NUMBER",
+  "truncation" : "NA",
+  "datatype_id" : "NM",
+  "min_length" : 0,
+  "max_length" : 10
+}, {
+  "id" : "00621",
+  "description" : "PRN STATUS",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 5
+}, {
+  "id" : "00625",
+  "description" : "TRANSPORTATION MODE",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 20,
+  "table_id" : "0124"
+}, {
+  "id" : "00626",
+  "description" : "REASON FOR STUDY",
+  "truncation" : "NA",
+  "datatype_id" : "CE",
+  "min_length" : 0,
+  "max_length" : 300
+}, {
+  "id" : "00627",
+  "description" : "PRINCIPAL RESULT INTERPRETER",
+  "truncation" : "NA",
+  "datatype_id" : "CN",
+  "min_length" : 0,
+  "max_length" : 60
+}, {
+  "id" : "00628",
+  "description" : "ASSISTANT RESULT INTERPRETER",
+  "truncation" : "NA",
+  "datatype_id" : "CN",
+  "min_length" : 0,
+  "max_length" : 60
+}, {
+  "id" : "00629",
+  "description" : "TRANSCRIPTIONIST",
+  "truncation" : "NA",
+  "datatype_id" : "CN",
+  "min_length" : 0,
+  "max_length" : 60
+}, {
+  "id" : "00630",
+  "description" : "TECHNICIAN",
+  "truncation" : "NA",
+  "datatype_id" : "CN",
+  "min_length" : 0,
+  "max_length" : 60
+}, {
+  "id" : "00632",
+  "description" : "DELAYED ACKNOWLEDGMENT TYPE",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 1,
+  "table_id" : "0102"
+}, {
+  "id" : "00633",
+  "description" : "SEQUENCE NUMBER",
+  "truncation" : "NA",
+  "datatype_id" : "NM",
+  "min_length" : 0,
+  "max_length" : 15
+}, {
+  "id" : "00639",
+  "description" : "PROBABILITY",
+  "truncation" : "NA",
+  "datatype_id" : "NM",
+  "min_length" : 0,
+  "max_length" : 5
+}, {
+  "id" : "00641",
+  "description" : "ADDENDUM CONTINUATION POINTER",
+  "section" : "2-39",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 60
+}, {
+  "id" : "00655",
+  "description" : "BATCH CREATION DATE/TIME",
+  "truncation" : "NA",
+  "datatype_id" : "TS",
+  "min_length" : 0,
+  "max_length" : 19
+}, {
+  "id" : "00656",
+  "description" : "BATCH NAME/ID/TYPE",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 20
+}, {
+  "id" : "00657",
+  "description" : "BATCH COMMENT",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 80
+}, {
+  "id" : "00658",
+  "description" : "BATCH CONTROL ID",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 20
+}, {
+  "id" : "00659",
+  "description" : "REFERENCE BATCH CONTROL ID",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 20
+}, {
+  "id" : "00660",
+  "description" : "DATE/TIME OF FILE CREATION",
+  "truncation" : "NA",
+  "datatype_id" : "TS",
+  "min_length" : 0,
+  "max_length" : 19
+}, {
+  "id" : "00661",
+  "description" : "FILE NAME/ID",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 20
+}, {
+  "id" : "00662",
+  "description" : "FILE HEADER COMMENT",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 80
+}, {
+  "id" : "00663",
+  "description" : "FILE CONTROL ID",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 20
+}, {
+  "id" : "00664",
+  "description" : "BATCH MESSAGE COUNT",
+  "section" : "2-41",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 10
+}, {
+  "id" : "00665",
+  "description" : "BATCH COMMENT",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 80
+}, {
+  "id" : "00666",
+  "description" : "BATCH TOTALS",
+  "truncation" : "NA",
+  "datatype_id" : "CM",
+  "min_length" : 0,
+  "max_length" : 100
+}, {
+  "id" : "00667",
+  "description" : "FILE BATCH COUNT",
+  "section" : "2-44",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 10
+}, {
+  "id" : "00668",
+  "description" : "FILE TRAILER COMMENT",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 80
+}, {
+  "id" : "00671",
+  "description" : "BED STATUS",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 1,
+  "table_id" : "0116"
+}, {
+  "id" : "00676",
+  "description" : "VALUE TYPE",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 2,
+  "table_id" : "0125"
+}, {
+  "id" : "00685",
+  "description" : "BATCH FIELD SEPARATOR",
+  "section" : "2-40",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 1
+}, {
+  "id" : "00686",
+  "description" : "BATCH ENCODING CHARACTERS",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 3
+}, {
+  "id" : "00687",
+  "description" : "BATCH SENDING APPLICATION",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 15
+}, {
+  "id" : "00688",
+  "description" : "BATCH SENDING FACILITY",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 20
+}, {
+  "id" : "00689",
+  "description" : "BATCH RECEIVING APPLICATION",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 15
+}, {
+  "id" : "00690",
+  "description" : "BATCH RECEIVING FACILITY",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 20
+}, {
+  "id" : "00691",
+  "description" : "BATCH SECURITY",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 40
+}, {
+  "id" : "00692",
+  "description" : "FILE FIELD SEPARATOR",
+  "section" : "2-43",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 1
+}, {
+  "id" : "00693",
+  "description" : "FILE ENCODING CHARACTERS",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 4
+}, {
+  "id" : "00694",
+  "description" : "FILE SENDING APPLICATION",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 15
+}, {
+  "id" : "00695",
+  "description" : "FILE SENDING FACILITY",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 20
+}, {
+  "id" : "00696",
+  "description" : "FILE RECEIVING APPLICATION",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 15
+}, {
+  "id" : "00697",
+  "description" : "FILE RECEIVING FACILITY",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 20
+}, {
+  "id" : "00698",
+  "description" : "FILE SECURITY",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 40
+}, {
+  "id" : "00699",
+  "description" : "CONTINUATION POINTER",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 180
+}, {
+  "id" : "00701",
+  "description" : "QUERY RESULTS LEVEL",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 1,
+  "table_id" : "0108"
+}, {
+  "id" : "00702",
+  "description" : "R/U RESULTS LEVEL",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 1,
+  "table_id" : "0108"
+}, {
+  "id" : "00703",
+  "description" : "ACCOUNT STATUS",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 2,
+  "table_id" : "0117"
+}, {
+  "id" : "00704",
+  "description" : "PENDING LOCATION",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 12,
+  "table_id" : "0079"
+}, {
+  "id" : "00705",
+  "description" : "PRIOR TEMPORARY LOCATION",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 12,
+  "table_id" : "0079"
+}, {
+  "id" : "00706",
+  "description" : "TRANSACTION DESCRIPTION - ALT",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 40
+}, {
+  "id" : "00707",
+  "description" : "GUARANTOR SPOUSE NAME",
+  "truncation" : "NA",
+  "datatype_id" : "PN",
+  "min_length" : 0,
+  "max_length" : 48
+}, {
+  "id" : "00708",
+  "description" : "INSURED'S DATE OF BIRTH",
+  "truncation" : "NA",
+  "datatype_id" : "DT",
+  "min_length" : 0,
+  "max_length" : 8
+}, {
+  "id" : "00709",
+  "description" : "INSURED'S ADDRESS",
+  "truncation" : "NA",
+  "datatype_id" : "AD",
+  "min_length" : 0,
+  "max_length" : 106
+}, {
+  "id" : "00710",
+  "description" : "INSURED'S EMPLOYMENT STATUS",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 1,
+  "table_id" : "0066"
+}, {
+  "id" : "00711",
+  "description" : "INSURED'S SEX",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 1,
+  "table_id" : "0001"
+}, {
+  "id" : "00712",
+  "description" : "SET ID - NEXT OF KIN",
+  "section" : "3-23, 6-15",
+  "truncation" : "NA",
+  "datatype_id" : "SI",
+  "min_length" : 0,
+  "max_length" : 4
+}, {
+  "id" : "00713",
+  "description" : "INSURED'S EMPLOYER ADDRESS",
+  "truncation" : "NA",
+  "datatype_id" : "AD",
+  "min_length" : 0,
+  "max_length" : 106
+}, {
+  "id" : "00714",
+  "description" : "ORDER CONTROL",
+  "section" : "4-4",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 2,
+  "table_id" : "0119"
+}, {
+  "id" : "00715",
+  "description" : "PLACER ORDER #",
+  "truncation" : "NA",
+  "datatype_id" : "CM",
+  "min_length" : 0,
+  "max_length" : 75
+}, {
+  "id" : "00716",
+  "description" : "FILLER ORDER #",
+  "truncation" : "NA",
+  "datatype_id" : "CM",
+  "min_length" : 0,
+  "max_length" : 75
+}, {
+  "id" : "00717",
+  "description" : "PLACER GROUP #",
+  "truncation" : "NA",
+  "datatype_id" : "CM",
+  "min_length" : 0,
+  "max_length" : 75
+}, {
+  "id" : "00718",
+  "description" : "ORDER STATUS",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 2,
+  "table_id" : "0038"
+}, {
+  "id" : "00719",
+  "description" : "RESPONSE FLAG",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 1,
+  "table_id" : "0121"
+}, {
+  "id" : "00720",
+  "description" : "TIMING/QUANTITY",
+  "truncation" : "NA",
+  "datatype_id" : "CM",
+  "min_length" : 0,
+  "max_length" : 200
+}, {
+  "id" : "00721",
+  "description" : "PARENT",
+  "truncation" : "NA",
+  "datatype_id" : "CM",
+  "min_length" : 0,
+  "max_length" : 200
+}, {
+  "id" : "00722",
+  "description" : "DATE/TIME OF TRANSACTION",
+  "truncation" : "NA",
+  "datatype_id" : "TS",
+  "min_length" : 0,
+  "max_length" : 19
+}, {
+  "id" : "00723",
+  "description" : "ENTERED BY",
+  "truncation" : "NA",
+  "datatype_id" : "CN",
+  "min_length" : 0,
+  "max_length" : 80
+}, {
+  "id" : "00724",
+  "description" : "VERIFIED BY",
+  "truncation" : "NA",
+  "datatype_id" : "CN",
+  "min_length" : 0,
+  "max_length" : 80
+}, {
+  "id" : "00725",
+  "description" : "ORDERING PROVIDER",
+  "truncation" : "NA",
+  "datatype_id" : "CN",
+  "min_length" : 0,
+  "max_length" : 80
+}, {
+  "id" : "00726",
+  "description" : "ENTERER'S LOCATION",
+  "truncation" : "NA",
+  "datatype_id" : "CM",
+  "min_length" : 0,
+  "max_length" : 80
+}, {
+  "id" : "00727",
+  "description" : "CALL BACK PHONE NUMBER",
+  "truncation" : "NA",
+  "datatype_id" : "TN",
+  "min_length" : 0,
+  "max_length" : 40
+}, {
+  "id" : "00729",
+  "description" : "CHARGE TYPE",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 50,
+  "table_id" : "0122"
+}, {
+  "id" : "00730",
+  "description" : "ACCOUNT ID",
+  "truncation" : "NA",
+  "datatype_id" : "CM",
+  "min_length" : 0,
+  "max_length" : 100
+}, {
+  "id" : "00731",
+  "description" : "ORDER ITEM ID",
+  "section" : "4-18",
+  "truncation" : "NA",
+  "datatype_id" : "CE",
+  "min_length" : 0,
+  "max_length" : 200
+}, {
+  "id" : "00732",
+  "description" : "PLACER ORDER #",
+  "truncation" : "NA",
+  "datatype_id" : "CM",
+  "min_length" : 0,
+  "max_length" : 75
+}, {
+  "id" : "00733",
+  "description" : "FILLER ORDER #",
+  "truncation" : "NA",
+  "datatype_id" : "CM",
+  "min_length" : 0,
+  "max_length" : 75
+}, {
+  "id" : "00734",
+  "description" : "RESULT STATUS",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 1,
+  "table_id" : "0123"
+}, {
+  "id" : "00735",
+  "description" : "QUANTITY/TIMING",
+  "truncation" : "NA",
+  "datatype_id" : "CM",
+  "min_length" : 0,
+  "max_length" : 200
+}, {
+  "id" : "00736",
+  "description" : "SCHEDULED - DATE/TIME",
+  "truncation" : "NA",
+  "datatype_id" : "TS",
+  "min_length" : 0,
+  "max_length" : 19
+}, {
+  "id" : "00737",
+  "description" : "PARENT ACCESSION #",
+  "truncation" : "NA",
+  "datatype_id" : "CM",
+  "min_length" : 0,
+  "max_length" : 150
+}, {
+  "id" : "00742",
+  "description" : "SYSTEM DATE/TIME",
+  "truncation" : "NA",
+  "datatype_id" : "TS",
+  "min_length" : 0,
+  "max_length" : 19
+}, {
+  "id" : "00743",
+  "description" : "STATISTICS AVAILABLE",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 1
+}, {
+  "id" : "00744",
+  "description" : "SOURCE IDENTIFIER",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 30
+}, {
+  "id" : "00745",
+  "description" : "SOURCE TYPE",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 3
+}, {
+  "id" : "00746",
+  "description" : "STATISTICS START",
+  "truncation" : "NA",
+  "datatype_id" : "TS",
+  "min_length" : 0,
+  "max_length" : 19
+}, {
+  "id" : "00747",
+  "description" : "STATISTICS END",
+  "truncation" : "NA",
+  "datatype_id" : "TS",
+  "min_length" : 0,
+  "max_length" : 19
+}, {
+  "id" : "00748",
+  "description" : "RECEIVE CHARACTER COUNT",
+  "truncation" : "NA",
+  "datatype_id" : "NM",
+  "min_length" : 0,
+  "max_length" : 10
+}, {
+  "id" : "00749",
+  "description" : "SEND CHARACTER COUNT",
+  "truncation" : "NA",
+  "datatype_id" : "NM",
+  "min_length" : 0,
+  "max_length" : 10
+}, {
+  "id" : "00750",
+  "description" : "MESSAGES RECEIVED",
+  "truncation" : "NA",
+  "datatype_id" : "NM",
+  "min_length" : 0,
+  "max_length" : 10
+}, {
+  "id" : "00751",
+  "description" : "MESSAGES SENT",
+  "truncation" : "NA",
+  "datatype_id" : "NM",
+  "min_length" : 0,
+  "max_length" : 10
+}, {
+  "id" : "00752",
+  "description" : "CHECKSUM ERRORS RECEIVED",
+  "truncation" : "NA",
+  "datatype_id" : "NM",
+  "min_length" : 0,
+  "max_length" : 10
+}, {
+  "id" : "00753",
+  "description" : "LENGTH ERRORS RECEIVED",
+  "truncation" : "NA",
+  "datatype_id" : "NM",
+  "min_length" : 0,
+  "max_length" : 10
+}, {
+  "id" : "00754",
+  "description" : "OTHER ERRORS RECEIVED",
+  "truncation" : "NA",
+  "datatype_id" : "NM",
+  "min_length" : 0,
+  "max_length" : 10
+}, {
+  "id" : "00755",
+  "description" : "CONNECT TIMEOUTS",
+  "truncation" : "NA",
+  "datatype_id" : "NM",
+  "min_length" : 0,
+  "max_length" : 10
+}, {
+  "id" : "00756",
+  "description" : "RECEIVE TIMEOUTS",
+  "truncation" : "NA",
+  "datatype_id" : "NM",
+  "min_length" : 0,
+  "max_length" : 10
+}, {
+  "id" : "00757",
+  "description" : "NETWORK ERRORS",
+  "truncation" : "NA",
+  "datatype_id" : "NM",
+  "min_length" : 0,
+  "max_length" : 10
+}, {
+  "id" : "00758",
+  "description" : "NETWORK CHANGE TYPE",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 4
+}, {
+  "id" : "00759",
+  "description" : "CURRENT CPU",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 30
+}, {
+  "id" : "00760",
+  "description" : "CURRENT FILESERVER",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 30
+}, {
+  "id" : "00761",
+  "description" : "CURRENT APPLICATION",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 30
+}, {
+  "id" : "00762",
+  "description" : "CURRENT FACILITY",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 30
+}, {
+  "id" : "00763",
+  "description" : "NEW CPU",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 30
+}, {
+  "id" : "00764",
+  "description" : "NEW FILESERVER",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 30
+}, {
+  "id" : "00765",
+  "description" : "NEW APPLICATION",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 30
+}, {
+  "id" : "00766",
+  "description" : "NEW FACILITY",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 30
+}, {
+  "id" : "00768",
+  "description" : "REFERENCE FILE CONTROL ID",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 20
+}, {
+  "id" : "00769",
+  "description" : "OBSERVATION SUB-ID",
+  "truncation" : "NA",
+  "datatype_id" : "NM",
+  "min_length" : 0,
+  "max_length" : 20
+}, {
+  "id" : "00770",
+  "description" : "UNUSED",
+  "section" : "4-14",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 0
+}, {
+  "id" : "00771",
+  "description" : "UNUSED",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 0
+}, {
+  "id" : "00772",
+  "description" : "UNUSED",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 0
+}, {
+  "id" : "00773",
+  "description" : "UNUSED",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 0
+}, {
+  "id" : "00774",
+  "description" : "UNUSED",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 0
+}, {
+  "id" : "00775",
+  "description" : "ADMIT DATE/TIME",
+  "truncation" : "NA",
+  "datatype_id" : "TS",
+  "min_length" : 0,
+  "max_length" : 19
+}, {
+  "id" : "00776",
+  "description" : "DISCHARGE DATE/TIME",
+  "truncation" : "NA",
+  "datatype_id" : "TS",
+  "min_length" : 0,
+  "max_length" : 19
+}, {
+  "id" : "00777",
+  "description" : "CURRENT PATIENT BALANCE",
+  "truncation" : "NA",
+  "datatype_id" : "NM",
+  "min_length" : 0,
+  "max_length" : 12
+}, {
+  "id" : "00778",
+  "description" : "TOTAL CHARGES",
+  "truncation" : "NA",
+  "datatype_id" : "NM",
+  "min_length" : 0,
+  "max_length" : 12
+}, {
+  "id" : "00779",
+  "description" : "TOTAL ADJUSTMENTS",
+  "truncation" : "NA",
+  "datatype_id" : "NM",
+  "min_length" : 0,
+  "max_length" : 12
+}, {
+  "id" : "00780",
+  "description" : "TOTAL PAYMENTS",
+  "truncation" : "NA",
+  "datatype_id" : "NM",
+  "min_length" : 0,
+  "max_length" : 12
+}, {
+  "id" : "00781",
+  "description" : "GROUPER VERSION AND TYPE",
+  "truncation" : "NA",
+  "datatype_id" : "ST",
+  "min_length" : 0,
+  "max_length" : 4
+}, {
+  "id" : "00782",
+  "description" : "TRANSACTION AMOUNT - UNIT",
+  "truncation" : "NA",
+  "datatype_id" : "NM",
+  "min_length" : 0,
+  "max_length" : 12
+}, {
+  "id" : "00783",
+  "description" : "ORDERED BY CODE",
+  "truncation" : "NA",
+  "datatype_id" : "CN",
+  "min_length" : 0,
+  "max_length" : 60
+}, {
+  "id" : "00784",
+  "description" : "UNIT COST",
+  "truncation" : "NA",
+  "datatype_id" : "NM",
+  "min_length" : 0,
+  "max_length" : 12
+}, {
+  "id" : "00785",
+  "description" : "BED LOCATION",
+  "section" : "3-22",
+  "truncation" : "NA",
+  "datatype_id" : "ID",
+  "min_length" : 0,
+  "max_length" : 12,
+  "table_id" : "0079"
+} ]

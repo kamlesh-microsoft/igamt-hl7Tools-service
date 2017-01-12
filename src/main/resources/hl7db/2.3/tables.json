@@ -1,1 +1,1673 @@
-[{"id":"0001","description":"Sex","type":"USER","oid":"UNSPECIFIED","section":"PID-8, NK1"},{"id":"0002","description":"Marital Status","type":"USER","oid":"UNSPECIFIED","section":"PID-16, NK"},{"id":"0003","description":"Event Type","type":"HL7","oid":"UNSPECIFIED","section":"MSH-9^2"},{"id":"0004","description":"Patient Class","type":"USER","oid":"UNSPECIFIED","section":"PV1-2"},{"id":"0005","description":"Race","type":"USER","oid":"UNSPECIFIED","section":"PID-10, NK"},{"id":"0006","description":"Religion","type":"USER","oid":"UNSPECIFIED","section":"PID-17, NK"},{"id":"0007","description":"Admission Type","type":"USER","oid":"UNSPECIFIED","section":"PV1-2"},{"id":"0008","description":"Acknowledgement Code","type":"HL7","oid":"UNSPECIFIED","section":"MSA-1"},{"id":"0009","description":"Ambulatory Status","type":"USER","oid":"UNSPECIFIED","section":"PV1-15, NK"},{"id":"0010","description":"Physician ID","type":"USER","oid":"UNSPECIFIED","section":"various XC"},{"id":"0017","description":"Transaction Type","type":"USER","oid":"UNSPECIFIED","section":"FT1-6"},{"id":"0018","description":"Patient Type","type":"USER","oid":"UNSPECIFIED","section":"PV1-18, FT"},{"id":"0019","description":"Anesthesia Code","type":"USER","oid":"UNSPECIFIED","section":"PR1-9"},{"id":"0021","description":"Bad Dept Agency Code","type":"USER","oid":"UNSPECIFIED","section":"PV1-31"},{"id":"0022","description":"Billing Status","type":"USER","oid":"UNSPECIFIED","section":"IN1-32"},{"id":"0023","description":"Admit Source","type":"USER","oid":"UNSPECIFIED","section":"PV1-14"},{"id":"0024","description":"Fee Schedule","type":"USER","oid":"UNSPECIFIED","section":"FT1-17"},{"id":"0027","description":"Priority","type":"HL7","oid":"UNSPECIFIED","section":"OM4-13"},{"id":"0032","description":"Charge/Price Indicator","type":"USER","oid":"UNSPECIFIED","section":"PV1-21"},{"id":"0033","description":"#FIXME#","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0038","description":"Order Status","type":"HL7","oid":"UNSPECIFIED","section":"ORC-5"},{"id":"0042","description":"Company Plan Code","type":"USER","oid":"UNSPECIFIED","section":"IN1-35"},{"id":"0043","description":"Condition Code","type":"USER","oid":"UNSPECIFIED","section":"UB1-7, UB2"},{"id":"0044","description":"Contract Code","type":"USER","oid":"UNSPECIFIED","section":"PV1-24"},{"id":"0045","description":"Courtesy Code","type":"USER","oid":"UNSPECIFIED","section":"PV1-22"},{"id":"0046","description":"Credit Rating","type":"USER","oid":"UNSPECIFIED","section":"PV1-23"},{"id":"0048","description":"What Subject Filter","type":"HL7","oid":"UNSPECIFIED","section":"QRD-9, URD"},{"id":"0049","description":"Department Code","type":"USER","oid":"UNSPECIFIED","section":"FT1-13"},{"id":"0050","description":"Accident Code","type":"USER","oid":"UNSPECIFIED","section":"ACC-2"},{"id":"0051","description":"Diagnosis Code","type":"USER","oid":"UNSPECIFIED","section":"FT1-19"},{"id":"0052","description":"Diagnosis Type","type":"USER","oid":"UNSPECIFIED","section":"DG1-6"},{"id":"0053","description":"Diagnosis Coding Methed","type":"USER GROUP","oid":"UNSPECIFIED","section":"6-9"},{"id":"0055","description":"DRG Code","type":"USER","oid":"UNSPECIFIED","section":"DG1-8, DRG"},{"id":"0056","description":"DRG Grouper Review Code","type":"USER","oid":"UNSPECIFIED","section":"DG1-10, DR"},{"id":"0059","description":"Consent Code","type":"USER","oid":"UNSPECIFIED","section":"PR1-13"},{"id":"0060","description":"???","type":"USER GROUP","oid":"UNSPECIFIED","section":"2-76"},{"id":"0061","description":"Check Digit Scheme","type":"HL7","oid":"UNSPECIFIED","section":"CK data ty"},{"id":"0062","description":"Event Reason","type":"USER","oid":"UNSPECIFIED","section":"EVN-4"},{"id":"0063","description":"Relationship","type":"USER","oid":"UNSPECIFIED","section":"NK1-3, NK1"},{"id":"0064","description":"Financial Class","type":"USER","oid":"UNSPECIFIED","section":"PV1-20"},{"id":"0065","description":"Specimen Action Code","type":"HL7","oid":"UNSPECIFIED","section":"OBR-11"},{"id":"0066","description":"Employment Status","type":"USER","oid":"UNSPECIFIED","section":"GT1-20, IN"},{"id":"0068","description":"Guarantor Relationship","type":"USER","oid":"UNSPECIFIED","section":"GT1-11"},{"id":"0069","description":"Hospital Service","type":"USER","oid":"UNSPECIFIED","section":"PV1-10"},{"id":"0070","description":"Specimen Source Codes","type":"HL7","oid":"UNSPECIFIED","section":"OBR-15"},{"id":"0072","description":"Insurance Plan ID","type":"USER","oid":"UNSPECIFIED","section":"FT1-14, IN"},{"id":"0073","description":"Interest Rate Code","type":"USER","oid":"UNSPECIFIED","section":"PV1-28"},{"id":"0074","description":"Diagnostic Service Section ID","type":"HL7","oid":"UNSPECIFIED","section":"OBR-24"},{"id":"0076","description":"Message Type","type":"HL7","oid":"UNSPECIFIED","section":"MSH-9^1"},{"id":"0078","description":"Abnormal Flags","type":"HL7","oid":"UNSPECIFIED","section":"OBX-8"},{"id":"0079","description":"Location","type":"USER","oid":"UNSPECIFIED","section":"NPU-1"},{"id":"0080","description":"Nature of Abnormal Testing","type":"HL7","oid":"UNSPECIFIED","section":"OBX-10"},{"id":"0083","description":"Outlier Type","type":"USER","oid":"UNSPECIFIED","section":"DG1-11, DR"},{"id":"0084","description":"Performed By","type":"USER","oid":"UNSPECIFIED","section":"FT1-20"},{"id":"0085","description":"Observation Result Status Codes Interpretation","type":"HL7","oid":"UNSPECIFIED","section":"OBX-11"},{"id":"0086","description":"Plan ID","type":"USER","oid":"UNSPECIFIED","section":"IN1-15"},{"id":"0087","description":"Pre-admit Test Indicator","type":"USER","oid":"UNSPECIFIED","section":"PV1-12"},{"id":"0088","description":"Procedure Code","type":"USER","oid":"UNSPECIFIED","section":"PR1-3"},{"id":"0089","description":"Procedure Coding Method","type":"USER","oid":"UNSPECIFIED","section":"PR1-2"},{"id":"0091","description":"Query Priority","type":"HL7","oid":"UNSPECIFIED","section":"QRD-3"},{"id":"0092","description":"Re-admission Indicator","type":"USER","oid":"UNSPECIFIED","section":"PV1-13"},{"id":"0093","description":"Release Information","type":"USER","oid":"UNSPECIFIED","section":"IN1-27"},{"id":"0098","description":"Type of Agreement","type":"USER","oid":"UNSPECIFIED","section":"IN1-31"},{"id":"0099","description":"VIP Indicator","type":"USER","oid":"UNSPECIFIED","section":"PV1-16"},{"id":"0100","description":"When to Charge","type":"HL7","oid":"UNSPECIFIED","section":"BLG-1"},{"id":"0102","description":"Delayed Acknowledgement Type","type":"HL7","oid":"UNSPECIFIED","section":"MSA-5"},{"id":"0103","description":"Processing ID","type":"HL7","oid":"UNSPECIFIED","section":"MSH-11^1"},{"id":"0104","description":"Version ID","type":"HL7","oid":"UNSPECIFIED","section":"MSH-12"},{"id":"0105","description":"Source of Comment","type":"HL7","oid":"UNSPECIFIED","section":"NTE-2"},{"id":"0106","description":"Query/Response Format Code","type":"HL7","oid":"UNSPECIFIED","section":"QRD-2, EQL"},{"id":"0107","description":"Deferred Response Type","type":"HL7","oid":"UNSPECIFIED","section":"QRD-5"},{"id":"0108","description":"Query Results Level","type":"HL7","oid":"UNSPECIFIED","section":"QRD-12, UR"},{"id":"0109","description":"Report Priority","type":"HL7","oid":"UNSPECIFIED","section":"URD-2"},{"id":"0110","description":"Transfer to Bad Debt Code","type":"USER","oid":"UNSPECIFIED","section":"PV1-29"},{"id":"0111","description":"Delete Account Code","type":"USER","oid":"UNSPECIFIED","section":"PV1-34"},{"id":"0112","description":"Discharged Disposition","type":"USER","oid":"UNSPECIFIED","section":"PV1-36, PV"},{"id":"0113","description":"Discharged to Location","type":"USER","oid":"UNSPECIFIED","section":"PV1-37"},{"id":"0114","description":"Diet Type","type":"USER","oid":"UNSPECIFIED","section":"PV1-38"},{"id":"0115","description":"Servicing Facility","type":"USER","oid":"UNSPECIFIED","section":"PV1-39"},{"id":"0116","description":"Bed Status","type":"USER","oid":"UNSPECIFIED","section":"PV1-40, NP"},{"id":"0117","description":"Account Status","type":"USER","oid":"UNSPECIFIED","section":"PV1-41"},{"id":"0118","description":"Major Diagnostic Category","type":"USER","oid":"UNSPECIFIED","section":"DG1-7"},{"id":"0119","description":"Order Control Code","type":"HL7","oid":"UNSPECIFIED","section":"ORC-1"},{"id":"0121","description":"Response Flag","type":"HL7","oid":"UNSPECIFIED","section":"ORC-6"},{"id":"0122","description":"Charge Type","type":"HL7","oid":"UNSPECIFIED","section":"BLG-2"},{"id":"0123","description":"Result Status","type":"HL7","oid":"UNSPECIFIED","section":"OBR-25"},{"id":"0124","description":"Transportation Mode","type":"HL7","oid":"UNSPECIFIED","section":"OBR-30"},{"id":"0125","description":"Value Type","type":"HL7","oid":"UNSPECIFIED","section":"OBX-2, OM1"},{"id":"0126","description":"Quantity Limited Request","type":"HL7","oid":"UNSPECIFIED","section":"QRD-7"},{"id":"0127","description":"Allergy Type","type":"USER","oid":"UNSPECIFIED","section":"AL1-2"},{"id":"0128","description":"Allergy Severity","type":"USER","oid":"UNSPECIFIED","section":"AL1-4"},{"id":"0129","description":"Accommodation Code","type":"USER","oid":"UNSPECIFIED","section":"PV2-2"},{"id":"0130","description":"Visit User Code","type":"USER","oid":"UNSPECIFIED","section":"PV2-7"},{"id":"0131","description":"Contact Role","type":"USER","oid":"UNSPECIFIED","section":"NK1-7, CTD"},{"id":"0132","description":"Transaction Code","type":"USER","oid":"UNSPECIFIED","section":"FT1-7, CDM"},{"id":"0133","description":"Procedure Practitioner Identifier Code Type","type":"USER","oid":"UNSPECIFIED","section":"PR1-12"},{"id":"0135","description":"Assignment of Benefits","type":"USER","oid":"UNSPECIFIED","section":"IN1-20"},{"id":"0136","description":"Yes/No Indicator","type":"HL7","oid":"UNSPECIFIED","section":"null"},{"id":"0137","description":"Mail Claim Party","type":"USER","oid":"UNSPECIFIED","section":"IN2-5"},{"id":"0139","description":"Employer Information Data","type":"USER","oid":"UNSPECIFIED","section":"IN2-4"},{"id":"0140","description":"Champus Service","type":"USER","oid":"UNSPECIFIED","section":"IN2-14"},{"id":"0141","description":"Champus Rank/Grade","type":"USER","oid":"UNSPECIFIED","section":"IN2-15"},{"id":"0142","description":"Champus Status","type":"USER","oid":"UNSPECIFIED","section":"IN2-16"},{"id":"0143","description":"Non-covered Insurance Code","type":"USER","oid":"UNSPECIFIED","section":"IN2-24"},{"id":"0144","description":"Eligibility Source","type":"USER","oid":"UNSPECIFIED","section":"IN2-27"},{"id":"0145","description":"Room Type","type":"USER","oid":"UNSPECIFIED","section":"IN2-28^1"},{"id":"0146","description":"Amount Type","type":"USER","oid":"UNSPECIFIED","section":"IN2-28^2"},{"id":"0147","description":"Policy Type","type":"USER","oid":"UNSPECIFIED","section":"IN2-29^1"},{"id":"0148","description":"Penalty Type","type":"USER","oid":"UNSPECIFIED","section":"IN3-5"},{"id":"0149","description":"Insurance Company Contact Reason","type":"USER","oid":"UNSPECIFIED","section":"IN3-11"},{"id":"0150","description":"Pre-certification Patient Type","type":"USER","oid":"UNSPECIFIED","section":"IN3-20"},{"id":"0151","description":"Second Opinion Status","type":"USER","oid":"UNSPECIFIED","section":"IN3-23"},{"id":"0152","description":"Second Opinion Documentation Received","type":"USER","oid":"UNSPECIFIED","section":"IN3-24"},{"id":"0153","description":"Value Code","type":"USER","oid":"UNSPECIFIED","section":"UB1-10"},{"id":"0155","description":"Accept/Application Acknowledgement Conditions","type":"HL7","oid":"UNSPECIFIED","section":"MSH-15, MS"},{"id":"0156","description":"Which Date/Time Qualifier","type":"HL7","oid":"UNSPECIFIED","section":"QRF-6, URS"},{"id":"0157","description":"Which Date/Time Status Qualifier","type":"HL7","oid":"UNSPECIFIED","section":"QRF-7, URS"},{"id":"0158","description":"Date/Time Selection Qualifier","type":"HL7","oid":"UNSPECIFIED","section":"QRF-8, URS"},{"id":"0159","description":"Diet Type","type":"HL7","oid":"UNSPECIFIED","section":"ODS-1"},{"id":"0160","description":"Tray Type","type":"HL7","oid":"UNSPECIFIED","section":"ODT-1"},{"id":"0161","description":"Allow Substitution","type":"HL7","oid":"UNSPECIFIED","section":"RXO-9"},{"id":"0162","description":"Route of Administration","type":"HL7","oid":"UNSPECIFIED","section":"RXR-1"},{"id":"0163","description":"Administrative Site","type":"HL7","oid":"UNSPECIFIED","section":"RXR-2"},{"id":"0164","description":"Adminstration Device","type":"HL7","oid":"UNSPECIFIED","section":"RXR-3"},{"id":"0165","description":"Administration Method","type":"HL7","oid":"UNSPECIFIED","section":"RXR-4"},{"id":"0166","description":"RX Component Type","type":"HL7","oid":"UNSPECIFIED","section":"RXC-1"},{"id":"0167","description":"Substitution Status","type":"HL7","oid":"UNSPECIFIED","section":"RXE-9, RXD"},{"id":"0168","description":"Processing Priority","type":"HL7","oid":"UNSPECIFIED","section":"OM1-25"},{"id":"0169","description":"Reporting Priority","type":"HL7","oid":"UNSPECIFIED","section":"OM1-26"},{"id":"0170","description":"Derived Specimen","type":"HL7","oid":"UNSPECIFIED","section":"OM4-2"},{"id":"0171","description":"Country Code","type":"USER","oid":"UNSPECIFIED","section":"PID-26, NK"},{"id":"0172","description":"Veterans Military Status","type":"USER","oid":"UNSPECIFIED","section":"PID-27"},{"id":"0173","description":"Coordination of Benefits","type":"USER","oid":"UNSPECIFIED","section":"IN1-21"},{"id":"0174","description":"Nature of Test/Observation","type":"HL7","oid":"UNSPECIFIED","section":"OM1-18"},{"id":"0175","description":"Master File Identifier Code","type":"HL7","oid":"UNSPECIFIED","section":"MFI-1"},{"id":"0176","description":"Master File Application Identifier","type":"USER","oid":"UNSPECIFIED","section":"MFI-2"},{"id":"0177","description":"Confidentiality code","type":"USER","oid":"UNSPECIFIED","section":"OM1-30"},{"id":"0178","description":"File Level Event Code","type":"HL7","oid":"UNSPECIFIED","section":"MFI-3"},{"id":"0179","description":"Response Level","type":"HL7","oid":"UNSPECIFIED","section":"MFI-6"},{"id":"0180","description":"Record Level Event Code","type":"HL7","oid":"UNSPECIFIED","section":"MFE-1, MFA"},{"id":"0181","description":"MFN Record Level Error Return","type":"USER","oid":"UNSPECIFIED","section":"MFA-4"},{"id":"0182","description":"Staff Type","type":"USER","oid":"UNSPECIFIED","section":"STF-4"},{"id":"0183","description":"Active/Inactive","type":"HL7","oid":"UNSPECIFIED","section":"STF-7, CDM"},{"id":"0184","description":"Department","type":"USER","oid":"UNSPECIFIED","section":"STF-8"},{"id":"0185","description":"Preferred Method of Contact","type":"HL7","oid":"UNSPECIFIED","section":"STF-16, PR"},{"id":"0186","description":"Practioner Category","type":"USER","oid":"UNSPECIFIED","section":"PRA-4"},{"id":"0187","description":"Provider Billing","type":"HL7","oid":"UNSPECIFIED","section":"PRA-4"},{"id":"0188","description":"Operator ID","type":"USER","oid":"UNSPECIFIED","section":"EVN-5"},{"id":"0189","description":"Ethnic Group","type":"USER","oid":"UNSPECIFIED","section":"PID-22, NK"},{"id":"0190","description":"Address Type","type":"HL7","oid":"UNSPECIFIED","section":"AD data ty"},{"id":"0191","description":"Main type of referenced Data","type":"USER GROUP","oid":"UNSPECIFIED","section":"9-10"},{"id":"0192","description":"Visit ID Type","type":"USER","oid":"UNSPECIFIED","section":"PV1-50"},{"id":"0193","description":"Amount Class","type":"USER","oid":"UNSPECIFIED","section":"IN2-29^2"},{"id":"0200","description":"Name Type","type":"HL7","oid":"UNSPECIFIED","section":"XPN data t"},{"id":"0201","description":"Telecommunication Use Code","type":"HL7","oid":"UNSPECIFIED","section":"XTN data t"},{"id":"0202","description":"Telecommunication Equipment Type","type":"HL7","oid":"UNSPECIFIED","section":"XTN data t"},{"id":"0203","description":"Identifier Type","type":"USER","oid":"UNSPECIFIED","section":"CK data ty"},{"id":"0204","description":"Organizational Name Type","type":"USER","oid":"UNSPECIFIED","section":"XON data t"},{"id":"0205","description":"Price Type","type":"HL7","oid":"UNSPECIFIED","section":"CP data ty"},{"id":"0206","description":"Segment Action Code","type":"HL7","oid":"UNSPECIFIED","section":"IN2-31, IN"},{"id":"0207","description":"Processing Mode","type":"HL7","oid":"UNSPECIFIED","section":"MSH-11^2"},{"id":"0208","description":"Query Response Status","type":"USER","oid":"UNSPECIFIED","section":"QAK-2"},{"id":"0209","description":"Relational Operator","type":"HL7","oid":"UNSPECIFIED","section":"VTQ-5"},{"id":"0210","description":"Relational Conjunction","type":"HL7","oid":"UNSPECIFIED","section":"VTQ-5"},{"id":"0211","description":"Alternate Character Sets","type":"HL7","oid":"UNSPECIFIED","section":"MSH-18"},{"id":"0212","description":"Nationality","type":"USER","oid":"UNSPECIFIED","section":"PID-28, NK"},{"id":"0213","description":"Purge Status","type":"USER","oid":"UNSPECIFIED","section":"PV2-16"},{"id":"0214","description":"Special Program Codes","type":"USER","oid":"UNSPECIFIED","section":"PV2-18"},{"id":"0215","description":"Publicity Code","type":"USER","oid":"UNSPECIFIED","section":"PV2-21, NK"},{"id":"0216","description":"Patient Status","type":"USER","oid":"UNSPECIFIED","section":"PV2-24"},{"id":"0217","description":"Visit Priority","type":"USER","oid":"UNSPECIFIED","section":"PV2-25"},{"id":"0218","description":"Charge Adjustment","type":"USER","oid":"UNSPECIFIED","section":"PV2-30, GT"},{"id":"0219","description":"Recurring Service","type":"USER","oid":"UNSPECIFIED","section":"PV2-31"},{"id":"0220","description":"Living Arrangements","type":"USER","oid":"UNSPECIFIED","section":"NK1-21, PD"},{"id":"0221","description":"Student Indicator","type":"USER","oid":"UNSPECIFIED","section":"NK1-24"},{"id":"0222","description":"Contact Reason","type":"USER","oid":"UNSPECIFIED","section":"NK1-29, GT"},{"id":"0223","description":"Living Dependency","type":"USER","oid":"UNSPECIFIED","section":"NK1-17, PD"},{"id":"0224","description":"Transport Arranged","type":"HL7","oid":"UNSPECIFIED","section":"OBR-41"},{"id":"0225","description":"Escort Required","type":"HL7","oid":"UNSPECIFIED","section":"OBR-42"},{"id":"0227","description":"Manufacturers of Vaccines","type":"HL7","oid":"UNSPECIFIED","section":"RXA-17"},{"id":"0228","description":"Diagnosis Classification","type":"USER","oid":"UNSPECIFIED","section":"DG1-19"},{"id":"0229","description":"Outlier Type","type":"USER","oid":"UNSPECIFIED","section":"DG1-11, DR"},{"id":"0230","description":"Procedure Functional Type","type":"USER","oid":"UNSPECIFIED","section":"PR1-6"},{"id":"0231","description":"Student Status","type":"USER","oid":"UNSPECIFIED","section":"GT1-42, IN"},{"id":"0232","description":"Insurance Company Contact Reason","type":"USER","oid":"UNSPECIFIED","section":"IN2-59"},{"id":"0233","description":"Non-concur Code/Description","type":"USER","oid":"UNSPECIFIED","section":"IN3-12"},{"id":"0234","description":"Report Timing","type":"HL7","oid":"UNSPECIFIED","section":"PES-11"},{"id":"0235","description":"Report Source","type":"HL7","oid":"UNSPECIFIED","section":"PES-12"},{"id":"0236","description":"Reported To","type":"HL7","oid":"UNSPECIFIED","section":"PES-13"},{"id":"0237","description":"Event Qualification","type":"HL7","oid":"UNSPECIFIED","section":"PEO-8"},{"id":"0238","description":"Event Seriousness","type":"HL7","oid":"UNSPECIFIED","section":"PEO-9"},{"id":"0239","description":"Event Expected","type":"HL7","oid":"UNSPECIFIED","section":"PEO-10"},{"id":"0240","description":"Event Consequence","type":"HL7","oid":"UNSPECIFIED","section":"PEO-11"},{"id":"0241","description":"Patient Outcome","type":"HL7","oid":"UNSPECIFIED","section":"PEO-12"},{"id":"0242","description":"Primary Observer's Qualification","type":"HL7","oid":"UNSPECIFIED","section":"PEO-22, PC"},{"id":"0243","description":"Identity may be Divulged","type":"HL7","oid":"UNSPECIFIED","section":"PEO-25"},{"id":"0244","description":"Single Use Device","type":"USER","oid":"UNSPECIFIED","section":"PCR-9"},{"id":"0245","description":"Product Problem","type":"USER","oid":"UNSPECIFIED","section":"PCR-11"},{"id":"0246","description":"Product Available for Inspection","type":"USER","oid":"UNSPECIFIED","section":"PCR-13"},{"id":"0247","description":"Start of Evaluation","type":"HL7","oid":"UNSPECIFIED","section":"PCR-15"},{"id":"0248","description":"Product Source","type":"HL7","oid":"UNSPECIFIED","section":"PCR-17"},{"id":"0249","description":"Generic Product","type":"USER","oid":"UNSPECIFIED","section":"PCR-2"},{"id":"0250","description":"Relatedness Assessment","type":"HL7","oid":"UNSPECIFIED","section":"PCR-20"},{"id":"0251","description":"Action Taken in Response to the Event","type":"HL7","oid":"UNSPECIFIED","section":"PCR-21"},{"id":"0252","description":"Causality Observations","type":"HL7","oid":"UNSPECIFIED","section":"PCR-22"},{"id":"0253","description":"Indirect Exposure Mechanism","type":"HL7","oid":"UNSPECIFIED","section":"PCR-23"},{"id":"0254","description":"Kind of Quantity","type":"HL7","oid":"UNSPECIFIED","section":"OM1-42"},{"id":"0255","description":"Duration Categories","type":"HL7","oid":"UNSPECIFIED","section":"OM1-43"},{"id":"0256","description":"Time Delay Post Challenge","type":"HL7","oid":"UNSPECIFIED","section":"OM1-44"},{"id":"0257","description":"Nature of Challenge","type":"HL7","oid":"UNSPECIFIED","section":"OM1-44"},{"id":"0258","description":"Relationship Modifier","type":"HL7","oid":"UNSPECIFIED","section":"OM1-45"},{"id":"0259","description":"Modality","type":"USER","oid":"UNSPECIFIED","section":"OM1-47"},{"id":"0260","description":"Patient Location Type","type":"USER","oid":"UNSPECIFIED","section":"LOC-3"},{"id":"0261","description":"Location Equipment","type":"USER","oid":"UNSPECIFIED","section":"LOC-11"},{"id":"0262","description":"Privacy Level","type":"USER","oid":"UNSPECIFIED","section":"LOC-13"},{"id":"0263","description":"Level of Care","type":"USER","oid":"UNSPECIFIED","section":"LOC-14"},{"id":"0264","description":"Location Department","type":"USER","oid":"UNSPECIFIED","section":"LDP-2, LCC"},{"id":"0265","description":"Specialty Type","type":"USER","oid":"UNSPECIFIED","section":"LDP-4"},{"id":"0266","description":"Gender Indicator","type":"USER","oid":"UNSPECIFIED","section":"LDP-13"},{"id":"0267","description":"Days of the Week","type":"HL7","oid":"UNSPECIFIED","section":"LDP-14"},{"id":"0268","description":"Override","type":"USER","oid":"UNSPECIFIED","section":"CDM-5, PRC"},{"id":"0269","description":"Charge on Indicator","type":"USER","oid":"UNSPECIFIED","section":"PRC-18"},{"id":"0270","description":"Report Type Code","type":"USER","oid":"UNSPECIFIED","section":"TXA-2"},{"id":"0271","description":"Document Completion Status","type":"HL7","oid":"UNSPECIFIED","section":"TXA-17"},{"id":"0272","description":"Document Confidentiality Status","type":"HL7","oid":"UNSPECIFIED","section":"TXA-18"},{"id":"0273","description":"Document Availability Status","type":"HL7","oid":"UNSPECIFIED","section":"TXA-19"},{"id":"0274","description":"Document Modification Status","type":"HL7","oid":"UNSPECIFIED","section":"TXA-20"},{"id":"0275","description":"Document Storage Status","type":"HL7","oid":"UNSPECIFIED","section":"TXA-21"},{"id":"0276","description":"Appointment Reason Codes","type":"USER","oid":"UNSPECIFIED","section":"ARQ-7, SCH"},{"id":"0277","description":"Appointment Type Codes","type":"USER","oid":"UNSPECIFIED","section":"ARQ-8, SCH"},{"id":"0278","description":"Filler Status Codes","type":"USER","oid":"UNSPECIFIED","section":"SCH-22, AI"},{"id":"0279","description":"Allow Substitution Codes","type":"USER","oid":"UNSPECIFIED","section":"AIS-7, AIG"},{"id":"0280","description":"Referral Priority","type":"USER","oid":"UNSPECIFIED","section":"RF1-2"},{"id":"0281","description":"Referral Type","type":"USER","oid":"UNSPECIFIED","section":"RF1-3"},{"id":"0282","description":"Referral Disposition","type":"USER","oid":"UNSPECIFIED","section":"RF1-4"},{"id":"0283","description":"Referral Status","type":"USER","oid":"UNSPECIFIED","section":"RF1-1"},{"id":"0284","description":"Referral Category","type":"USER","oid":"UNSPECIFIED","section":"RF1-5"},{"id":"0285","description":"Insurance Company ID Codes","type":"USER","oid":"UNSPECIFIED","section":"11"},{"id":"0286","description":"Provider Role","type":"USER","oid":"UNSPECIFIED","section":"PRD-1"},{"id":"0287","description":"Action Code","type":"HL7","oid":"UNSPECIFIED","section":"GOL-1, PRB"},{"id":"0288","description":"Census Tract","type":"USER","oid":"UNSPECIFIED","section":"XAD data t"},{"id":"0289","description":"County/parish","type":"USER","oid":"UNSPECIFIED","section":"XAD data t"},{"id":"0290","description":"MIME base64 encoding Characters","type":"HL7","oid":"UNSPECIFIED","section":"ED data ty"},{"id":"0291","description":"Subtype of Referenced Data","type":"HL7","oid":"UNSPECIFIED","section":"RP data ty"},{"id":"0292","description":"Vaccines Administered","type":"HL7","oid":"UNSPECIFIED","section":"RXA-5"},{"id":"0293","description":"Billing Category","type":"USER","oid":"UNSPECIFIED","section":"PRC-15"},{"id":"0294","description":"Time Selection Criteria Parameter Class Codes","type":"USER","oid":"UNSPECIFIED","section":"APR-1"},{"id":"0295","description":"Handicap","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0296","description":"Language","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0297","description":"CN ID source","type":"#FIXME#","oid":"UNSPECIFIED","section":"2.8.27.8"},{"id":"0298","description":"Range Type","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0299","description":"Encoding","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0300","description":"Namespace ID","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0301","description":"Universal ID type","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0302","description":"Point Of Care","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0303","description":"Room","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0304","description":"Bed","type":"USER","oid":"UNSPECIFIED","section":"2-27"},{"id":"0305","description":"Person Location Type","type":"USER","oid":"UNSPECIFIED","section":"2-27"},{"id":"0306","description":"Location Status","type":"USER","oid":"UNSPECIFIED","section":"2-27"},{"id":"0307","description":"Building","type":"USER","oid":"UNSPECIFIED","section":"2-27"},{"id":"0308","description":"Floor","type":"USER","oid":"UNSPECIFIED","section":"2-27"},{"id":"0309","description":"Coverage Type","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0310","description":"Handicap","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0311","description":"Job Status","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0312","description":"Policy Scope","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0313","description":"Policy Source","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0314","description":"Document Change Reason","type":"HL7","oid":"UNSPECIFIED","section":"null"},{"id":"0315","description":"Living Will","type":"HL7","oid":"UNSPECIFIED","section":"null"},{"id":"0316","description":"Organ Donor","type":"HL7","oid":"UNSPECIFIED","section":"null"},{"id":"0317","description":"Annotations","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0318","description":"Confirmation Provided By","type":"HL7","oid":"UNSPECIFIED","section":"null"},{"id":"0319","description":"Department Cost Center","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0320","description":"Item Natural Account Code","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0321","description":"Dispense Method","type":"HL7","oid":"UNSPECIFIED","section":"null"},{"id":"0322","description":"Completion Status","type":"HL7","oid":"UNSPECIFIED","section":"null"},{"id":"0323","description":"Action Code","type":"HL7","oid":"UNSPECIFIED","section":"null"},{"id":"0324","description":"Location Characteristic ID","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0325","description":"Location Relationship ID","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0326","description":"Visit Indicator","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0327","description":"Job Class","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0328","description":"Employee Classification","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0329","description":"Quantity Method","type":"HL7","oid":"UNSPECIFIED","section":"null"},{"id":"0330","description":"Marketing Basis","type":"HL7","oid":"UNSPECIFIED","section":"null"},{"id":"0331","description":"Facility Type","type":"HL7","oid":"UNSPECIFIED","section":"null"},{"id":"0332","description":"Network Source Type","type":"HL7","oid":"UNSPECIFIED","section":"null"},{"id":"0333","description":"Driver\u00b4s License Issuing Authority","type":"#FIXME#","oid":"UNSPECIFIED","section":"2.8.11.2"},{"id":"0334","description":"Disabled Person","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"0335","description":"Repeat Pattern","type":"USER","oid":"UNSPECIFIED","section":"2-33"},{"id":"0336","description":"Referral Reason","type":"USER","oid":"UNSPECIFIED","section":"11-16"},{"id":"0337","description":"Certification Status","type":"HL7","oid":"UNSPECIFIED","section":"null"},{"id":"0338","description":"Practitioner ID number type","type":"USER","oid":"UNSPECIFIED","section":"null"},{"id":"4000","description":"Name Representation","type":"USER GROUP","oid":"UNSPECIFIED","section":"2.8.48.8"}]
+[ {
+  "id" : "0001",
+  "description" : "Sex",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "PID-8, NK1"
+}, {
+  "id" : "0002",
+  "description" : "Marital Status",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "PID-16, NK"
+}, {
+  "id" : "0003",
+  "description" : "Event Type",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "MSH-9^2"
+}, {
+  "id" : "0004",
+  "description" : "Patient Class",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "PV1-2"
+}, {
+  "id" : "0005",
+  "description" : "Race",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "PID-10, NK"
+}, {
+  "id" : "0006",
+  "description" : "Religion",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "PID-17, NK"
+}, {
+  "id" : "0007",
+  "description" : "Admission Type",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "PV1-2"
+}, {
+  "id" : "0008",
+  "description" : "Acknowledgement Code",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "MSA-1"
+}, {
+  "id" : "0009",
+  "description" : "Ambulatory Status",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "PV1-15, NK"
+}, {
+  "id" : "0010",
+  "description" : "Physician ID",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "various XC"
+}, {
+  "id" : "0017",
+  "description" : "Transaction Type",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "FT1-6"
+}, {
+  "id" : "0018",
+  "description" : "Patient Type",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "PV1-18, FT"
+}, {
+  "id" : "0019",
+  "description" : "Anesthesia Code",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "PR1-9"
+}, {
+  "id" : "0021",
+  "description" : "Bad Dept Agency Code",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "PV1-31"
+}, {
+  "id" : "0022",
+  "description" : "Billing Status",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "IN1-32"
+}, {
+  "id" : "0023",
+  "description" : "Admit Source",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "PV1-14"
+}, {
+  "id" : "0024",
+  "description" : "Fee Schedule",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "FT1-17"
+}, {
+  "id" : "0027",
+  "description" : "Priority",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "OM4-13"
+}, {
+  "id" : "0032",
+  "description" : "Charge/Price Indicator",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "PV1-21"
+}, {
+  "id" : "0038",
+  "description" : "Order Status",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "ORC-5"
+}, {
+  "id" : "0042",
+  "description" : "Company Plan Code",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "IN1-35"
+}, {
+  "id" : "0043",
+  "description" : "Condition Code",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "UB1-7, UB2"
+}, {
+  "id" : "0044",
+  "description" : "Contract Code",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "PV1-24"
+}, {
+  "id" : "0045",
+  "description" : "Courtesy Code",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "PV1-22"
+}, {
+  "id" : "0046",
+  "description" : "Credit Rating",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "PV1-23"
+}, {
+  "id" : "0048",
+  "description" : "What Subject Filter",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "QRD-9, URD"
+}, {
+  "id" : "0049",
+  "description" : "Department Code",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "FT1-13"
+}, {
+  "id" : "0050",
+  "description" : "Accident Code",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "ACC-2"
+}, {
+  "id" : "0051",
+  "description" : "Diagnosis Code",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "FT1-19"
+}, {
+  "id" : "0052",
+  "description" : "Diagnosis Type",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "DG1-6"
+}, {
+  "id" : "0053",
+  "description" : "Diagnosis Coding Methed",
+  "type" : "6",
+  "oid" : "UNSPECIFIED",
+  "section" : "6-9"
+}, {
+  "id" : "0055",
+  "description" : "DRG Code",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "DG1-8, DRG"
+}, {
+  "id" : "0056",
+  "description" : "DRG Grouper Review Code",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "DG1-10, DR"
+}, {
+  "id" : "0059",
+  "description" : "Consent Code",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "PR1-13"
+}, {
+  "id" : "0061",
+  "description" : "Check Digit Scheme",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "CK data ty"
+}, {
+  "id" : "0062",
+  "description" : "Event Reason",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "EVN-4"
+}, {
+  "id" : "0063",
+  "description" : "Relationship",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "NK1-3, NK1"
+}, {
+  "id" : "0064",
+  "description" : "Financial Class",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "PV1-20"
+}, {
+  "id" : "0065",
+  "description" : "Specimen Action Code",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "OBR-11"
+}, {
+  "id" : "0066",
+  "description" : "Employment Status",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "GT1-20, IN"
+}, {
+  "id" : "0068",
+  "description" : "Guarantor Relationship",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "GT1-11"
+}, {
+  "id" : "0069",
+  "description" : "Hospital Service",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "PV1-10"
+}, {
+  "id" : "0070",
+  "description" : "Specimen Source Codes",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "OBR-15"
+}, {
+  "id" : "0072",
+  "description" : "Insurance Plan ID",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "FT1-14, IN"
+}, {
+  "id" : "0073",
+  "description" : "Interest Rate Code",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "PV1-28"
+}, {
+  "id" : "0074",
+  "description" : "Diagnostic Service Section ID",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "OBR-24"
+}, {
+  "id" : "0076",
+  "description" : "Message Type",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "MSH-9^1"
+}, {
+  "id" : "0078",
+  "description" : "Abnormal Flags",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "OBX-8"
+}, {
+  "id" : "0079",
+  "description" : "Location",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "NPU-1"
+}, {
+  "id" : "0080",
+  "description" : "Nature of Abnormal Testing",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "OBX-10"
+}, {
+  "id" : "0083",
+  "description" : "Outlier Type",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "DG1-11, DR"
+}, {
+  "id" : "0084",
+  "description" : "Performed By",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "FT1-20"
+}, {
+  "id" : "0085",
+  "description" : "Observation Result Status Codes Interpretation",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "OBX-11"
+}, {
+  "id" : "0086",
+  "description" : "Plan ID",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "IN1-15"
+}, {
+  "id" : "0087",
+  "description" : "Pre-admit Test Indicator",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "PV1-12"
+}, {
+  "id" : "0088",
+  "description" : "Procedure Code",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "PR1-3"
+}, {
+  "id" : "0089",
+  "description" : "Procedure Coding Method",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "PR1-2"
+}, {
+  "id" : "0091",
+  "description" : "Query Priority",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "QRD-3"
+}, {
+  "id" : "0092",
+  "description" : "Re-admission Indicator",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "PV1-13"
+}, {
+  "id" : "0093",
+  "description" : "Release Information",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "IN1-27"
+}, {
+  "id" : "0098",
+  "description" : "Type of Agreement",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "IN1-31"
+}, {
+  "id" : "0099",
+  "description" : "VIP Indicator",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "PV1-16"
+}, {
+  "id" : "0100",
+  "description" : "When to Charge",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "BLG-1"
+}, {
+  "id" : "0102",
+  "description" : "Delayed Acknowledgement Type",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "MSA-5"
+}, {
+  "id" : "0103",
+  "description" : "Processing ID",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "MSH-11^1"
+}, {
+  "id" : "0104",
+  "description" : "Version ID",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "MSH-12"
+}, {
+  "id" : "0105",
+  "description" : "Source of Comment",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "NTE-2"
+}, {
+  "id" : "0106",
+  "description" : "Query/Response Format Code",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "QRD-2, EQL"
+}, {
+  "id" : "0107",
+  "description" : "Deferred Response Type",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "QRD-5"
+}, {
+  "id" : "0108",
+  "description" : "Query Results Level",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "QRD-12, UR"
+}, {
+  "id" : "0109",
+  "description" : "Report Priority",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "URD-2"
+}, {
+  "id" : "0110",
+  "description" : "Transfer to Bad Debt Code",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "PV1-29"
+}, {
+  "id" : "0111",
+  "description" : "Delete Account Code",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "PV1-34"
+}, {
+  "id" : "0112",
+  "description" : "Discharged Disposition",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "PV1-36, PV"
+}, {
+  "id" : "0113",
+  "description" : "Discharged to Location",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "PV1-37"
+}, {
+  "id" : "0114",
+  "description" : "Diet Type",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "PV1-38"
+}, {
+  "id" : "0115",
+  "description" : "Servicing Facility",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "PV1-39"
+}, {
+  "id" : "0116",
+  "description" : "Bed Status",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "PV1-40, NP"
+}, {
+  "id" : "0117",
+  "description" : "Account Status",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "PV1-41"
+}, {
+  "id" : "0118",
+  "description" : "Major Diagnostic Category",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "DG1-7"
+}, {
+  "id" : "0119",
+  "description" : "Order Control Code",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "ORC-1"
+}, {
+  "id" : "0121",
+  "description" : "Response Flag",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "ORC-6"
+}, {
+  "id" : "0122",
+  "description" : "Charge Type",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "BLG-2"
+}, {
+  "id" : "0123",
+  "description" : "Result Status",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "OBR-25"
+}, {
+  "id" : "0124",
+  "description" : "Transportation Mode",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "OBR-30"
+}, {
+  "id" : "0125",
+  "description" : "Value Type",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "OBX-2, OM1"
+}, {
+  "id" : "0126",
+  "description" : "Quantity Limited Request",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "QRD-7"
+}, {
+  "id" : "0127",
+  "description" : "Allergy Type",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "AL1-2"
+}, {
+  "id" : "0128",
+  "description" : "Allergy Severity",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "AL1-4"
+}, {
+  "id" : "0129",
+  "description" : "Accommodation Code",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "PV2-2"
+}, {
+  "id" : "0130",
+  "description" : "Visit User Code",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "PV2-7"
+}, {
+  "id" : "0131",
+  "description" : "Contact Role",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "NK1-7, CTD"
+}, {
+  "id" : "0132",
+  "description" : "Transaction Code",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "FT1-7, CDM"
+}, {
+  "id" : "0133",
+  "description" : "Procedure Practitioner Identifier Code Type",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "PR1-12"
+}, {
+  "id" : "0135",
+  "description" : "Assignment of Benefits",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "IN1-20"
+}, {
+  "id" : "0136",
+  "description" : "Yes/No Indicator",
+  "type" : "2",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0137",
+  "description" : "Mail Claim Party",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "IN2-5"
+}, {
+  "id" : "0139",
+  "description" : "Employer Information Data",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "IN2-4"
+}, {
+  "id" : "0140",
+  "description" : "Champus Service",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "IN2-14"
+}, {
+  "id" : "0141",
+  "description" : "Champus Rank/Grade",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "IN2-15"
+}, {
+  "id" : "0142",
+  "description" : "Champus Status",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "IN2-16"
+}, {
+  "id" : "0143",
+  "description" : "Non-covered Insurance Code",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "IN2-24"
+}, {
+  "id" : "0144",
+  "description" : "Eligibility Source",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "IN2-27"
+}, {
+  "id" : "0145",
+  "description" : "Room Type",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "IN2-28^1"
+}, {
+  "id" : "0146",
+  "description" : "Amount Type",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "IN2-28^2"
+}, {
+  "id" : "0147",
+  "description" : "Policy Type",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "IN2-29^1"
+}, {
+  "id" : "0148",
+  "description" : "Penalty Type",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "IN3-5"
+}, {
+  "id" : "0149",
+  "description" : "Day Type",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "IN3-11"
+}, {
+  "id" : "0150",
+  "description" : "Pre-certification Patient Type",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "IN3-20"
+}, {
+  "id" : "0151",
+  "description" : "Second Opinion Status",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "IN3-23"
+}, {
+  "id" : "0152",
+  "description" : "Second Opinion Documentation Received",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "IN3-24"
+}, {
+  "id" : "0153",
+  "description" : "Value Code",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "UB1-10"
+}, {
+  "id" : "0155",
+  "description" : "Accept/Application Acknowledgement Conditions",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "MSH-15, MS"
+}, {
+  "id" : "0156",
+  "description" : "Which Date/Time Qualifier",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "QRF-6, URS"
+}, {
+  "id" : "0157",
+  "description" : "Which Date/Time Status Qualifier",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "QRF-7, URS"
+}, {
+  "id" : "0158",
+  "description" : "Date/Time Selection Qualifier",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "QRF-8, URS"
+}, {
+  "id" : "0159",
+  "description" : "Diet Type",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "ODS-1"
+}, {
+  "id" : "0160",
+  "description" : "Tray Type",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "ODT-1"
+}, {
+  "id" : "0161",
+  "description" : "Allow Substitution",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "RXO-9"
+}, {
+  "id" : "0162",
+  "description" : "Route of Administration",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "RXR-1"
+}, {
+  "id" : "0163",
+  "description" : "Administrative Site",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "RXR-2"
+}, {
+  "id" : "0164",
+  "description" : "Adminstration Device",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "RXR-3"
+}, {
+  "id" : "0165",
+  "description" : "Administration Method",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "RXR-4"
+}, {
+  "id" : "0166",
+  "description" : "RX Component Type",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "RXC-1"
+}, {
+  "id" : "0167",
+  "description" : "Substitution Status",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "RXE-9, RXD"
+}, {
+  "id" : "0168",
+  "description" : "Processing Priority",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "OM1-25"
+}, {
+  "id" : "0169",
+  "description" : "Reporting Priority",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "OM1-26"
+}, {
+  "id" : "0170",
+  "description" : "Derived Specimen",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "OM4-2"
+}, {
+  "id" : "0171",
+  "description" : "Country Code",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "PID-26, NK"
+}, {
+  "id" : "0172",
+  "description" : "Veterans Military Status",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "PID-27"
+}, {
+  "id" : "0173",
+  "description" : "Coordination of Benefits",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "IN1-21"
+}, {
+  "id" : "0174",
+  "description" : "Nature of Test/Observation",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "OM1-18"
+}, {
+  "id" : "0175",
+  "description" : "Master File Identifier Code",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "MFI-1"
+}, {
+  "id" : "0176",
+  "description" : "Master File Application Identifier",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "MFI-2"
+}, {
+  "id" : "0177",
+  "description" : "Confidentiality code",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "OM1-30"
+}, {
+  "id" : "0178",
+  "description" : "File Level Event Code",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "MFI-3"
+}, {
+  "id" : "0179",
+  "description" : "Response Level",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "MFI-6"
+}, {
+  "id" : "0180",
+  "description" : "Record Level Event Code",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "MFE-1, MFA"
+}, {
+  "id" : "0181",
+  "description" : "MFN Record Level Error Return",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "MFA-4"
+}, {
+  "id" : "0182",
+  "description" : "Staff Type",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "STF-4"
+}, {
+  "id" : "0183",
+  "description" : "Active/Inactive",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "STF-7, CDM"
+}, {
+  "id" : "0184",
+  "description" : "Department",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "STF-8"
+}, {
+  "id" : "0185",
+  "description" : "Preferred Method of Contact",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "STF-16, PR"
+}, {
+  "id" : "0186",
+  "description" : "Practioner Category",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "PRA-4"
+}, {
+  "id" : "0187",
+  "description" : "Provider Billing",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "PRA-4"
+}, {
+  "id" : "0188",
+  "description" : "Operator ID",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "EVN-5"
+}, {
+  "id" : "0189",
+  "description" : "Ethnic Group",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "PID-22, NK"
+}, {
+  "id" : "0190",
+  "description" : "Address Type",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "AD data ty"
+}, {
+  "id" : "0191",
+  "description" : "Main type of referenced Data",
+  "type" : "6",
+  "oid" : "UNSPECIFIED",
+  "section" : "9-10"
+}, {
+  "id" : "0192",
+  "description" : "Visit ID Type",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "PV1-50"
+}, {
+  "id" : "0193",
+  "description" : "Amount Class",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "IN2-29^2"
+}, {
+  "id" : "0200",
+  "description" : "Name Type",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "XPN data t"
+}, {
+  "id" : "0201",
+  "description" : "Telecommunication Use Code",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "XTN data t"
+}, {
+  "id" : "0202",
+  "description" : "Telecommunication Equipment Type",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "XTN data t"
+}, {
+  "id" : "0203",
+  "description" : "Identifier Type",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "CK data ty"
+}, {
+  "id" : "0204",
+  "description" : "Organizational Name Type",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "XON data t"
+}, {
+  "id" : "0205",
+  "description" : "Price Type",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "CP data ty"
+}, {
+  "id" : "0206",
+  "description" : "Segment Action Code",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "IN2-31, IN"
+}, {
+  "id" : "0207",
+  "description" : "Processing Mode",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "MSH-11^2"
+}, {
+  "id" : "0208",
+  "description" : "Query Response Status",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "QAK-2"
+}, {
+  "id" : "0209",
+  "description" : "Relational Operator",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "VTQ-5"
+}, {
+  "id" : "0210",
+  "description" : "Relational Conjunction",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "VTQ-5"
+}, {
+  "id" : "0211",
+  "description" : "Alternate Character Sets",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "MSH-18"
+}, {
+  "id" : "0212",
+  "description" : "Nationality",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "PID-28, NK"
+}, {
+  "id" : "0213",
+  "description" : "Purge Status",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "PV2-16"
+}, {
+  "id" : "0214",
+  "description" : "Special Program Codes",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "PV2-18"
+}, {
+  "id" : "0215",
+  "description" : "Publicity Code",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "PV2-21, NK"
+}, {
+  "id" : "0216",
+  "description" : "Patient Status",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "PV2-24"
+}, {
+  "id" : "0217",
+  "description" : "Visit Priority",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "PV2-25"
+}, {
+  "id" : "0218",
+  "description" : "Charge Adjustment",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "PV2-30, GT"
+}, {
+  "id" : "0219",
+  "description" : "Recurring Service",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "PV2-31"
+}, {
+  "id" : "0220",
+  "description" : "Living Arrangements",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "NK1-21, PD"
+}, {
+  "id" : "0222",
+  "description" : "Contact Reason",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "NK1-29, GT"
+}, {
+  "id" : "0223",
+  "description" : "Living Dependency",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "NK1-17, PD"
+}, {
+  "id" : "0224",
+  "description" : "Transport Arranged",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "OBR-41"
+}, {
+  "id" : "0225",
+  "description" : "Escort Required",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "OBR-42"
+}, {
+  "id" : "0227",
+  "description" : "Manufacturers of Vaccines",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "RXA-17"
+}, {
+  "id" : "0228",
+  "description" : "Diagnosis Classification",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "DG1-19"
+}, {
+  "id" : "0229",
+  "description" : "Outlier Type",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "DG1-11, DR"
+}, {
+  "id" : "0230",
+  "description" : "Procedure Functional Type",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "PR1-6"
+}, {
+  "id" : "0231",
+  "description" : "Student Status",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "GT1-42, IN"
+}, {
+  "id" : "0232",
+  "description" : "Insurance Company Contact Reason",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "IN2-59"
+}, {
+  "id" : "0233",
+  "description" : "Non-concur Code/Description",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "IN3-12"
+}, {
+  "id" : "0234",
+  "description" : "Report Timing",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "PES-11"
+}, {
+  "id" : "0235",
+  "description" : "Report Source",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "PES-12"
+}, {
+  "id" : "0236",
+  "description" : "Reported To",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "PES-13"
+}, {
+  "id" : "0237",
+  "description" : "Event Qualification",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "PEO-8"
+}, {
+  "id" : "0238",
+  "description" : "Event Seriousness",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "PEO-9"
+}, {
+  "id" : "0239",
+  "description" : "Event Expected",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "PEO-10"
+}, {
+  "id" : "0240",
+  "description" : "Event Consequence",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "PEO-11"
+}, {
+  "id" : "0241",
+  "description" : "Patient Outcome",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "PEO-12"
+}, {
+  "id" : "0242",
+  "description" : "Primary Observer's Qualification",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "PEO-22, PC"
+}, {
+  "id" : "0243",
+  "description" : "Identity may be Divulged",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "PEO-25"
+}, {
+  "id" : "0244",
+  "description" : "Single Use Device",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "PCR-9"
+}, {
+  "id" : "0245",
+  "description" : "Product Problem",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "PCR-11"
+}, {
+  "id" : "0246",
+  "description" : "Product Available for Inspection",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "PCR-13"
+}, {
+  "id" : "0247",
+  "description" : "Start of Evaluation",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "PCR-15"
+}, {
+  "id" : "0248",
+  "description" : "Product Source",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "PCR-17"
+}, {
+  "id" : "0249",
+  "description" : "Generic Product",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "PCR-2"
+}, {
+  "id" : "0250",
+  "description" : "Relatedness Assessment",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "PCR-20"
+}, {
+  "id" : "0251",
+  "description" : "Action Taken in Response to the Event",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "PCR-21"
+}, {
+  "id" : "0252",
+  "description" : "Causality Observations",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "PCR-22"
+}, {
+  "id" : "0253",
+  "description" : "Indirect Exposure Mechanism",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "PCR-23"
+}, {
+  "id" : "0254",
+  "description" : "Kind of Quantity",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "OM1-42"
+}, {
+  "id" : "0255",
+  "description" : "Duration Categories",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "OM1-43"
+}, {
+  "id" : "0256",
+  "description" : "Time Delay Post Challenge",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "OM1-44"
+}, {
+  "id" : "0257",
+  "description" : "Nature of Challenge",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "OM1-44"
+}, {
+  "id" : "0258",
+  "description" : "Relationship Modifier",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "OM1-45"
+}, {
+  "id" : "0259",
+  "description" : "Modality",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "OM1-47"
+}, {
+  "id" : "0260",
+  "description" : "Patient Location Type",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "LOC-3"
+}, {
+  "id" : "0261",
+  "description" : "Location Equipment",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "LOC-11"
+}, {
+  "id" : "0262",
+  "description" : "Privacy Level",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "LOC-13"
+}, {
+  "id" : "0263",
+  "description" : "Level of Care",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "LOC-14"
+}, {
+  "id" : "0264",
+  "description" : "Location Department",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "LDP-2, LCC"
+}, {
+  "id" : "0265",
+  "description" : "Specialty Type",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "LDP-4"
+}, {
+  "id" : "0267",
+  "description" : "Days of the Week",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "LDP-14"
+}, {
+  "id" : "0268",
+  "description" : "Override",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "CDM-5, PRC"
+}, {
+  "id" : "0269",
+  "description" : "Charge on Indicator",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "PRC-18"
+}, {
+  "id" : "0270",
+  "description" : "Report Type Code",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "TXA-2"
+}, {
+  "id" : "0271",
+  "description" : "Document Completion Status",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "TXA-17"
+}, {
+  "id" : "0272",
+  "description" : "Document Confidentiality Status",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "TXA-18"
+}, {
+  "id" : "0273",
+  "description" : "Document Availability Status",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "TXA-19"
+}, {
+  "id" : "0275",
+  "description" : "Document Storage Status",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "TXA-21"
+}, {
+  "id" : "0276",
+  "description" : "Appointment Reason Codes",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "ARQ-7, SCH"
+}, {
+  "id" : "0277",
+  "description" : "Appointment Type Codes",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "ARQ-8, SCH"
+}, {
+  "id" : "0278",
+  "description" : "Filler Status Codes",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "SCH-22, AI"
+}, {
+  "id" : "0279",
+  "description" : "Allow Substitution Codes",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "AIS-7, AIG"
+}, {
+  "id" : "0280",
+  "description" : "Referral Priority",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "RF1-2"
+}, {
+  "id" : "0281",
+  "description" : "Referral Type",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "RF1-3"
+}, {
+  "id" : "0282",
+  "description" : "Referral Disposition",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "RF1-4"
+}, {
+  "id" : "0283",
+  "description" : "Referral Status",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "RF1-1"
+}, {
+  "id" : "0284",
+  "description" : "Referral Category",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "RF1-5"
+}, {
+  "id" : "0285",
+  "description" : "Insurance Company ID Codes",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "11"
+}, {
+  "id" : "0286",
+  "description" : "Provider Role",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "PRD-1"
+}, {
+  "id" : "0287",
+  "description" : "Action Code",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "GOL-1, PRB"
+}, {
+  "id" : "0288",
+  "description" : "Census Tract",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "XAD data t"
+}, {
+  "id" : "0289",
+  "description" : "County/parish",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "XAD data t"
+}, {
+  "id" : "0290",
+  "description" : "MIME base64 encoding Characters",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.8.14.4"
+}, {
+  "id" : "0291",
+  "description" : "Subtype of Referenced Data",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "RP data ty"
+}, {
+  "id" : "0292",
+  "description" : "Vaccines Administered",
+  "type" : "2",
+  "oid" : "UNSPECIFIED",
+  "section" : "RXA-5"
+}, {
+  "id" : "0293",
+  "description" : "Billing Category",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "PRC-15"
+}, {
+  "id" : "0294",
+  "description" : "Time Selection Criteria Parameter Class Codes",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "APR-1"
+}, {
+  "id" : "0295",
+  "description" : "Handicap",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0296",
+  "description" : "Language",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0297",
+  "description" : "CN ID source",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.8.27.8"
+}, {
+  "id" : "0298",
+  "description" : "Range Type",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0299",
+  "description" : "Encoding",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0300",
+  "description" : "Namespace ID",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0301",
+  "description" : "Universal ID type",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0302",
+  "description" : "Point Of Care",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0303",
+  "description" : "Room",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0304",
+  "description" : "Bed",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "2-27"
+}, {
+  "id" : "0305",
+  "description" : "Person Location Type",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "2-27"
+}, {
+  "id" : "0306",
+  "description" : "Location Status",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "2-27"
+}, {
+  "id" : "0307",
+  "description" : "Building",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "2-27"
+}, {
+  "id" : "0308",
+  "description" : "Floor",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "2-27"
+}, {
+  "id" : "0309",
+  "description" : "Coverage Type",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0311",
+  "description" : "Job Status",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0312",
+  "description" : "Policy Scope",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0313",
+  "description" : "Policy Source",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0315",
+  "description" : "Living Will",
+  "type" : "2",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0316",
+  "description" : "Organ Donor",
+  "type" : "2",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0317",
+  "description" : "Annotations",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0319",
+  "description" : "Department Cost Center",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0320",
+  "description" : "Item Natural Account Code",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0321",
+  "description" : "Dispense Method",
+  "type" : "2",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0322",
+  "description" : "Completion Status",
+  "type" : "2",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0323",
+  "description" : "Action Code",
+  "type" : "2",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0324",
+  "description" : "Location Characteristic ID",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0325",
+  "description" : "Location Relationship ID",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0326",
+  "description" : "Visit Indicator",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0327",
+  "description" : "Job Class",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0328",
+  "description" : "Employee Classification",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0329",
+  "description" : "Quantity Method",
+  "type" : "2",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0330",
+  "description" : "Marketing Basis",
+  "type" : "2",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0331",
+  "description" : "Facility Type",
+  "type" : "2",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0332",
+  "description" : "Network Source Type",
+  "type" : "2",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0333",
+  "description" : "Driver´s License Issuing Authority",
+  "type" : "0",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.8.11.2"
+}, {
+  "id" : "0334",
+  "description" : "Disabled Person",
+  "type" : "1",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0335",
+  "description" : "Repeat Pattern",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "2-33"
+}, {
+  "id" : "0336",
+  "description" : "Referral Reason",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "11-16"
+}, {
+  "id" : "0337",
+  "description" : "Certification Status",
+  "type" : "2",
+  "oid" : "UNSPECIFIED"
+}, {
+  "id" : "0338",
+  "description" : "Practitioner ID number type",
+  "type" : "1",
+  "oid" : "UNSPECIFIED",
+  "section" : "8.6.3.6"
+}, {
+  "id" : "4000",
+  "description" : "Name Representation",
+  "type" : "6",
+  "oid" : "UNSPECIFIED",
+  "section" : "2.8.48.8"
+} ]

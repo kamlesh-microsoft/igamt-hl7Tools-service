@@ -1,1 +1,250 @@
-[{"id":"ACC","description":"ACCIDENT","section":"6.4.8"},{"id":"ADD","description":"ADDENDUM","section":"2.10.10"},{"id":"AL1","description":"PATIENT ALLERGY INFORMATION","section":"3.3.6"},{"id":"BHS","description":"BATCH HEADER","section":"2.10.13"},{"id":"BLG","description":"BILLING","section":"4.3.2"},{"id":"BTS","description":"BATCH TRAILER","section":"2.10.14"},{"id":"DG1","description":"DIAGNOSIS","section":"6.4.2"},{"id":"DSC","description":"CONTINUATION POINTER","section":"2.10.8"},{"id":"DSP","description":"DISPLAY DATA","section":"2.10.9"},{"id":"ERR","description":"ERROR","section":"2.10.3"},{"id":"EVN","description":"EVENT TYPE","section":"3.3.1"},{"id":"FHS","description":"FILE HEADER","section":"2.10.11"},{"id":"FT1","description":"FINANCIAL TRANSACTION","section":"6.4.1"},{"id":"FTS","description":"FILE TRAILER","section":"2.10.12"},{"id":"GT1","description":"GUARANTOR","section":"6.4.4"},{"id":"IN1","description":"INSURANCE","section":"6.4.5"},{"id":"IN2","description":"INSURANCE ADDITIONAL INFO","section":"6.4.6"},{"id":"IN3","description":"INSURANCE ADDITIONAL INFO-CERTIFICATION","section":"6.4.7"},{"id":"MFA","description":"MASTER FILE ACKNOWLEDGEMENT","section":"8.4.3"},{"id":"MFE","description":"MASTER FILE ENTRY","section":"8.4.2"},{"id":"MFI","description":"MASTER FILE IDENTIFICATION","section":"8.4.1"},{"id":"MRG","description":"MERGE PATIENT INFORMATION","section":"3.3.8"},{"id":"MSA","description":"MESSAGE ACKNOWLEDGMENT","section":"2.10.2"},{"id":"MSH","description":"MESSAGE HEADER","section":"2.10.1"},{"id":"NCK","description":"System Clock","section":"null"},{"id":"NK1","description":"NEXT OF KIN","section":"3.3.5"},{"id":"NPU","description":"BED STATUS UPDATE","section":"3.3.7"},{"id":"NSC","description":"STATUS CHANGE","section":"null"},{"id":"NST","description":"Statistics","section":"null"},{"id":"NTE","description":"NOTES AND COMMENTS","section":"2.10.15"},{"id":"OBR","description":"OBSERVATION REQUEST","section":"7.3.1"},{"id":"OBX","description":"OBSERVATION RESULT","section":"7.3.2"},{"id":"ODS","description":"DIETARY ORDERS, SUPPLEMENTS, and PREFERENCES","section":"4.6.1"},{"id":"ODT","description":"DIET TRAY INSTRUCTION","section":"4.6.2"},{"id":"OM1","description":"GENERAL - fields that apply to most observations","section":"7.6.4"},{"id":"OM2","description":"NUMERIC OBSERVATION","section":"7.6.5"},{"id":"OM3","description":"CATEGORICAL TEST/OBSERVATION","section":"7.6.6"},{"id":"OM4","description":"OBSERVATION that require specimens","section":"7.6.7"},{"id":"OM5","description":"OBSERVATION BATTERIES","section":"7.6.8"},{"id":"OM6","description":"OBSERVATIONS that are calculated from other obersvations","section":"7.6.9"},{"id":"ORC","description":"COMMOM ORDER","section":"4.3.1"},{"id":"PID","description":"PATIENT IDENTIFICATION","section":"3.3.2"},{"id":"PR1","description":"PROCEDURES","section":"6.4.3"},{"id":"PRA","description":"practitioner detail","section":"9.1.2"},{"id":"PV1","description":"PATIENT VISIT","section":"3.3.3"},{"id":"PV2","description":"PATIENT VISIT - additional information","section":"3.3.4"},{"id":"QRD","description":"QUERY DEFINITION","section":"2.10.4"},{"id":"QRF","description":"QUERY FILTER","section":"2.10.5"},{"id":"RQ1","description":"REQUISITION DETAIL-!","section":"4.7.2"},{"id":"RQD","description":"REQUISITION DETAIL","section":"4.7.1"},{"id":"RXA","description":"PHARMACY AADMINISTRATION","section":"4.8.14"},{"id":"RXC","description":"PHARMACY COMPONENT ORDER","section":"4.8.4"},{"id":"RXD","description":"PHARMACY DISPENSE","section":"4.8.10"},{"id":"RXE","description":"PHARMACY ENCODED ORDER","section":"4.8.7"},{"id":"RXG","description":"PHARMACY GIVE","section":"4.8.12"},{"id":"RXO","description":"PHARMACY PRESCRIPTION ORDER","section":"4.8.2"},{"id":"RXR","description":"PHARMACY ROUTE","section":"4.8.3"},{"id":"STF","description":"staff identification segment","section":"9.1.1"},{"id":"UB1","description":"UB82 DATA","section":"6.4.9"},{"id":"UB2","description":"UB92 DATA","section":"6.4.10"},{"id":"URD","description":"RESULTS/UPDATE DEFINITION","section":"2.10.6"},{"id":"URS","description":"UNSOLICITED SELECTION","section":"2.10.7"},{"id":"Zxx","description":"any Z segment","section":"8.4"}]
+[ {
+  "id" : "ACC",
+  "description" : "ACCIDENT",
+  "section" : "6.4.8"
+}, {
+  "id" : "ADD",
+  "description" : "ADDENDUM",
+  "section" : "2.10.10"
+}, {
+  "id" : "AL1",
+  "description" : "PATIENT ALLERGY INFORMATION",
+  "section" : "3.3.6"
+}, {
+  "id" : "BHS",
+  "description" : "BATCH HEADER",
+  "section" : "2.10.13"
+}, {
+  "id" : "BLG",
+  "description" : "BILLING",
+  "section" : "4.3.2"
+}, {
+  "id" : "BTS",
+  "description" : "BATCH TRAILER",
+  "section" : "2.10.14"
+}, {
+  "id" : "DG1",
+  "description" : "DIAGNOSIS",
+  "section" : "6.4.2"
+}, {
+  "id" : "DSC",
+  "description" : "CONTINUATION POINTER",
+  "section" : "2.10.8"
+}, {
+  "id" : "DSP",
+  "description" : "DISPLAY DATA",
+  "section" : "2.10.9"
+}, {
+  "id" : "ERR",
+  "description" : "ERROR",
+  "section" : "2.10.3"
+}, {
+  "id" : "EVN",
+  "description" : "EVENT TYPE",
+  "section" : "3.3.1"
+}, {
+  "id" : "FHS",
+  "description" : "FILE HEADER",
+  "section" : "2.10.11"
+}, {
+  "id" : "FT1",
+  "description" : "FINANCIAL TRANSACTION",
+  "section" : "6.4.1"
+}, {
+  "id" : "FTS",
+  "description" : "FILE TRAILER",
+  "section" : "2.10.12"
+}, {
+  "id" : "GT1",
+  "description" : "GUARANTOR",
+  "section" : "6.4.4"
+}, {
+  "id" : "IN1",
+  "description" : "INSURANCE",
+  "section" : "6.4.5"
+}, {
+  "id" : "IN2",
+  "description" : "INSURANCE ADDITIONAL INFO",
+  "section" : "6.4.6"
+}, {
+  "id" : "IN3",
+  "description" : "INSURANCE ADDITIONAL INFO-CERTIFICATION",
+  "section" : "6.4.7"
+}, {
+  "id" : "MFA",
+  "description" : "MASTER FILE ACKNOWLEDGEMENT",
+  "section" : "8.4.3"
+}, {
+  "id" : "MFE",
+  "description" : "MASTER FILE ENTRY",
+  "section" : "8.4.2"
+}, {
+  "id" : "MFI",
+  "description" : "MASTER FILE IDENTIFICATION",
+  "section" : "8.4.1"
+}, {
+  "id" : "MRG",
+  "description" : "MERGE PATIENT INFORMATION",
+  "section" : "3.3.8"
+}, {
+  "id" : "MSA",
+  "description" : "MESSAGE ACKNOWLEDGMENT",
+  "section" : "2.10.2"
+}, {
+  "id" : "MSH",
+  "description" : "MESSAGE HEADER",
+  "section" : "2.10.1"
+}, {
+  "id" : "NCK",
+  "description" : "System Clock"
+}, {
+  "id" : "NK1",
+  "description" : "NEXT OF KIN",
+  "section" : "3.3.5"
+}, {
+  "id" : "NPU",
+  "description" : "BED STATUS UPDATE",
+  "section" : "3.3.7"
+}, {
+  "id" : "NSC",
+  "description" : "STATUS CHANGE"
+}, {
+  "id" : "NST",
+  "description" : "Statistics"
+}, {
+  "id" : "NTE",
+  "description" : "NOTES AND COMMENTS",
+  "section" : "2.10.15"
+}, {
+  "id" : "OBR",
+  "description" : "OBSERVATION REQUEST",
+  "section" : "7.3.1"
+}, {
+  "id" : "OBX",
+  "description" : "OBSERVATION RESULT",
+  "section" : "7.3.2"
+}, {
+  "id" : "ODS",
+  "description" : "DIETARY ORDERS, SUPPLEMENTS, and PREFERENCES",
+  "section" : "4.6.1"
+}, {
+  "id" : "ODT",
+  "description" : "DIET TRAY INSTRUCTION",
+  "section" : "4.6.2"
+}, {
+  "id" : "OM1",
+  "description" : "GENERAL - fields that apply to most observations",
+  "section" : "7.6.4"
+}, {
+  "id" : "OM2",
+  "description" : "NUMERIC OBSERVATION",
+  "section" : "7.6.5"
+}, {
+  "id" : "OM3",
+  "description" : "CATEGORICAL TEST/OBSERVATION",
+  "section" : "7.6.6"
+}, {
+  "id" : "OM4",
+  "description" : "OBSERVATION that require specimens",
+  "section" : "7.6.7"
+}, {
+  "id" : "OM5",
+  "description" : "OBSERVATION BATTERIES",
+  "section" : "7.6.8"
+}, {
+  "id" : "OM6",
+  "description" : "OBSERVATIONS that are calculated from other obersvations",
+  "section" : "7.6.9"
+}, {
+  "id" : "ORC",
+  "description" : "COMMOM ORDER",
+  "section" : "4.3.1"
+}, {
+  "id" : "PID",
+  "description" : "PATIENT IDENTIFICATION",
+  "section" : "3.3.2"
+}, {
+  "id" : "PR1",
+  "description" : "PROCEDURES",
+  "section" : "6.4.3"
+}, {
+  "id" : "PRA",
+  "description" : "practitioner detail",
+  "section" : "9.1.2"
+}, {
+  "id" : "PV1",
+  "description" : "PATIENT VISIT",
+  "section" : "3.3.3"
+}, {
+  "id" : "PV2",
+  "description" : "PATIENT VISIT - additional information",
+  "section" : "3.3.4"
+}, {
+  "id" : "QRD",
+  "description" : "QUERY DEFINITION",
+  "section" : "2.10.4"
+}, {
+  "id" : "QRF",
+  "description" : "QUERY FILTER",
+  "section" : "2.10.5"
+}, {
+  "id" : "RQ1",
+  "description" : "REQUISITION DETAIL-!",
+  "section" : "4.7.2"
+}, {
+  "id" : "RQD",
+  "description" : "REQUISITION DETAIL",
+  "section" : "4.7.1"
+}, {
+  "id" : "RXA",
+  "description" : "PHARMACY AADMINISTRATION",
+  "section" : "4.8.14"
+}, {
+  "id" : "RXC",
+  "description" : "PHARMACY COMPONENT ORDER",
+  "section" : "4.8.4"
+}, {
+  "id" : "RXD",
+  "description" : "PHARMACY DISPENSE",
+  "section" : "4.8.10"
+}, {
+  "id" : "RXE",
+  "description" : "PHARMACY ENCODED ORDER",
+  "section" : "4.8.7"
+}, {
+  "id" : "RXG",
+  "description" : "PHARMACY GIVE",
+  "section" : "4.8.12"
+}, {
+  "id" : "RXO",
+  "description" : "PHARMACY PRESCRIPTION ORDER",
+  "section" : "4.8.2"
+}, {
+  "id" : "RXR",
+  "description" : "PHARMACY ROUTE",
+  "section" : "4.8.3"
+}, {
+  "id" : "STF",
+  "description" : "staff identification segment",
+  "section" : "9.1.1"
+}, {
+  "id" : "UB1",
+  "description" : "UB82 DATA",
+  "section" : "6.4.9"
+}, {
+  "id" : "UB2",
+  "description" : "UB92 DATA",
+  "section" : "6.4.10"
+}, {
+  "id" : "URD",
+  "description" : "RESULTS/UPDATE DEFINITION",
+  "section" : "2.10.6"
+}, {
+  "id" : "URS",
+  "description" : "UNSOLICITED SELECTION",
+  "section" : "2.10.7"
+}, {
+  "id" : "Zxx",
+  "description" : "any Z segment",
+  "section" : "8.4"
+} ]

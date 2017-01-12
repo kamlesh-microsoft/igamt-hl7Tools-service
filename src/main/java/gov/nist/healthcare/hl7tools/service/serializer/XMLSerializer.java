@@ -270,7 +270,7 @@ public class XMLSerializer {
     }
 
     private void handleLengthAttributes(Element tmp, int minLength,
-            String maxLength, int confLength, EBoolean truncation,
+            String maxLength, String confLength, EBoolean truncation,
             ProfileSchemaVersion schemaVersion) {
         if (schemaVersion == ProfileSchemaVersion.V25)
             // [changed by Harold]to fix previous generated profiles that have
@@ -284,7 +284,7 @@ public class XMLSerializer {
             // empty max length
             tmp.addAttribute(new Attribute("MaxLength", maxLength != null
                     && !"".equals(maxLength) ? maxLength : "*"));
-            if (confLength != -1)
+            if (confLength != null)
                 tmp.addAttribute(new Attribute("ConformanceLength", confLength
                         + ""));
             if (truncation != EBoolean.NA)

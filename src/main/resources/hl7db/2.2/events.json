@@ -1,1 +1,225 @@
-[{"id":"A01","description":"Admit a Patient","section":"3.2.1"},{"id":"A02","description":"Transfer a patient","section":"3.2.2"},{"id":"A03","description":"Discharge a patient","section":"3.2.3"},{"id":"A04","description":"Register a Patient","section":"3.2.4"},{"id":"A05","description":"Pre-admit a Patient","section":"3.2.5"},{"id":"A06","description":"Transfer an Outpatient to Inpatient","section":"3.2.6"},{"id":"A07","description":"Transfer an Inpatient to Outpatient","section":"3.2.7"},{"id":"A08","description":"Update Patient Information","section":"3.2.8"},{"id":"A09","description":"Patient Departing","section":"3.2.9"},{"id":"A10","description":"Patient Arriving","section":"3.2.10"},{"id":"A11","description":"Cancel Admit","section":"3.2.11"},{"id":"A12","description":"Cancel Transfer","section":"3.2.12"},{"id":"A13","description":"Cancel Discharge","section":"3.2.13"},{"id":"A14","description":"Pending Admit","section":"3.2.14"},{"id":"A15","description":"Pending Transfer","section":"3.2.15"},{"id":"A16","description":"Pending Discharge","section":"3.2.16"},{"id":"A17","description":"Swap Patients","section":"3.2.17"},{"id":"A18","description":"Merge Patient Information","section":"3.2.18"},{"id":"A19","description":"Patient Query","section":"3.2.19"},{"id":"A20","description":"Bed Status Update","section":"3.2.20"},{"id":"A21","description":"A Patient Goes On A \"Leave Of Absence\"","section":"3.2.21"},{"id":"A22","description":"A Patient Returns From A \"Leave Of Absence\"","section":"3.2.22"},{"id":"A23","description":"Delete a Patient Record","section":"3.2.23"},{"id":"A24","description":"Link Patient Information","section":"3.2.24"},{"id":"A25","description":"Cancel Pending Discharge","section":"3.2.25"},{"id":"A26","description":"Cancel Pending Transfer","section":"3.2.26"},{"id":"A27","description":"Cancel Pending Admit","section":"3.2.27"},{"id":"A28","description":"Add person information","section":"3.2.28"},{"id":"A29","description":"Delete person information","section":"3.2.29"},{"id":"A30","description":"Merge Patient information","section":"3.2.30"},{"id":"A31","description":"Update person information","section":"3.2.31"},{"id":"A32","description":"Cancel patient arriving","section":"3.2.32"},{"id":"A33","description":"Cancel patient departing","section":"3.2.33"},{"id":"A34","description":"Merge patient information - patient ID only","section":"3.2.34"},{"id":"A35","description":"Merge patient information - account number only","section":"3.2.35"},{"id":"A36","description":"Merge patient information - pat ID and account number","section":"3.2.36"},{"id":"A37","description":"unlink patient information","section":"3.2.37"},{"id":"M01","description":"Master files change not otherwise specified (for backwards comp.)","section":"8-2"},{"id":"M02","description":"Master files change - Staff Practitioneer","section":"8-2"},{"id":"M03","description":"Master files change - Test/Observation","section":"8-2"},{"id":"N01","description":"Network Management Data","section":"C-1"},{"id":"N02","description":"Network Management Query","section":"C-2"},{"id":"O01","description":"Order Message","section":"4-2"},{"id":"O02","description":"Response Message","section":"4-3"},{"id":"P01","description":"Add and Update Patient Accounts","section":"6.3.1"},{"id":"P02","description":"Purge Patient Accounts","section":"6.3.2"},{"id":"P03","description":"Post Detail Financial Transactions","section":"6.3.3"},{"id":"P04","description":"Generate bills and A/R statements","section":"6.3.4"},{"id":"Q01","description":"A Query is made for immediate Display Response","section":"2.8.6.1"},{"id":"Q02","description":"A Query is Sent for Deferred Response","section":"2.8.6.2.1"},{"id":"Q03","description":"Deferred Response to A Query","section":"2.8.6.2.2"},{"id":"Q05","description":"Unsolicited Display Update Message","section":"2.7.2"},{"id":"R01","description":"Unsolicited Transmission Of Requested Information","section":"7-13"},{"id":"R02","description":"Query for results of observation","section":"7-14"},{"id":"R03","description":"Display-oriented results, query/unsol. update","section":"7-13"},{"id":"R04","description":"Response to query; transmission of requested observation","section":"7-14"}]
+[ {
+  "id" : "A01",
+  "description" : "Admit a Patient",
+  "section" : "3.2.1"
+}, {
+  "id" : "A02",
+  "description" : "Transfer a patient",
+  "section" : "3.2.2"
+}, {
+  "id" : "A03",
+  "description" : "Discharge a patient",
+  "section" : "3.2.3"
+}, {
+  "id" : "A04",
+  "description" : "Register a Patient",
+  "section" : "3.2.4"
+}, {
+  "id" : "A05",
+  "description" : "Pre-admit a Patient",
+  "section" : "3.2.5"
+}, {
+  "id" : "A06",
+  "description" : "Transfer an Outpatient to Inpatient",
+  "section" : "3.2.6"
+}, {
+  "id" : "A07",
+  "description" : "Transfer an Inpatient to Outpatient",
+  "section" : "3.2.7"
+}, {
+  "id" : "A08",
+  "description" : "Update Patient Information",
+  "section" : "3.2.8"
+}, {
+  "id" : "A09",
+  "description" : "Patient Departing",
+  "section" : "3.2.9"
+}, {
+  "id" : "A10",
+  "description" : "Patient Arriving",
+  "section" : "3.2.10"
+}, {
+  "id" : "A11",
+  "description" : "Cancel Admit",
+  "section" : "3.2.11"
+}, {
+  "id" : "A12",
+  "description" : "Cancel Transfer",
+  "section" : "3.2.12"
+}, {
+  "id" : "A13",
+  "description" : "Cancel Discharge",
+  "section" : "3.2.13"
+}, {
+  "id" : "A14",
+  "description" : "Pending Admit",
+  "section" : "3.2.14"
+}, {
+  "id" : "A15",
+  "description" : "Pending Transfer",
+  "section" : "3.2.15"
+}, {
+  "id" : "A16",
+  "description" : "Pending Discharge",
+  "section" : "3.2.16"
+}, {
+  "id" : "A17",
+  "description" : "Swap Patients",
+  "section" : "3.2.17"
+}, {
+  "id" : "A18",
+  "description" : "Merge Patient Information",
+  "section" : "3.2.18"
+}, {
+  "id" : "A19",
+  "description" : "Patient Query",
+  "section" : "3.2.19"
+}, {
+  "id" : "A20",
+  "description" : "Bed Status Update",
+  "section" : "3.2.20"
+}, {
+  "id" : "A21",
+  "description" : "A Patient Goes On A \"Leave Of Absence\"",
+  "section" : "3.2.21"
+}, {
+  "id" : "A22",
+  "description" : "A Patient Returns From A \"Leave Of Absence\"",
+  "section" : "3.2.22"
+}, {
+  "id" : "A23",
+  "description" : "Delete a Patient Record",
+  "section" : "3.2.23"
+}, {
+  "id" : "A24",
+  "description" : "Link Patient Information",
+  "section" : "3.2.24"
+}, {
+  "id" : "A25",
+  "description" : "Cancel Pending Discharge",
+  "section" : "3.2.25"
+}, {
+  "id" : "A26",
+  "description" : "Cancel Pending Transfer",
+  "section" : "3.2.26"
+}, {
+  "id" : "A27",
+  "description" : "Cancel Pending Admit",
+  "section" : "3.2.27"
+}, {
+  "id" : "A28",
+  "description" : "Add person information",
+  "section" : "3.2.28"
+}, {
+  "id" : "A29",
+  "description" : "Delete person information",
+  "section" : "3.2.29"
+}, {
+  "id" : "A30",
+  "description" : "Merge Patient information",
+  "section" : "3.2.30"
+}, {
+  "id" : "A31",
+  "description" : "Update person information",
+  "section" : "3.2.31"
+}, {
+  "id" : "A32",
+  "description" : "Cancel patient arriving",
+  "section" : "3.2.32"
+}, {
+  "id" : "A33",
+  "description" : "Cancel patient departing",
+  "section" : "3.2.33"
+}, {
+  "id" : "A34",
+  "description" : "Merge patient information - patient ID only",
+  "section" : "3.2.34"
+}, {
+  "id" : "A35",
+  "description" : "Merge patient information - account number only",
+  "section" : "3.2.35"
+}, {
+  "id" : "A36",
+  "description" : "Merge patient information - pat ID and account number",
+  "section" : "3.2.36"
+}, {
+  "id" : "A37",
+  "description" : "unlink patient information",
+  "section" : "3.2.37"
+}, {
+  "id" : "M01",
+  "description" : "Master files change not otherwise specified (for backwards comp.)",
+  "section" : "8-2"
+}, {
+  "id" : "M02",
+  "description" : "Master files change - Staff Practitioneer",
+  "section" : "8-2"
+}, {
+  "id" : "M03",
+  "description" : "Master files change - Test/Observation",
+  "section" : "8-2"
+}, {
+  "id" : "N01",
+  "description" : "Network Management Data",
+  "section" : "C-1"
+}, {
+  "id" : "N02",
+  "description" : "Network Management Query",
+  "section" : "C-2"
+}, {
+  "id" : "O01",
+  "description" : "Order Message",
+  "section" : "4-2"
+}, {
+  "id" : "O02",
+  "description" : "Response Message",
+  "section" : "4-3"
+}, {
+  "id" : "P01",
+  "description" : "Add and Update Patient Accounts",
+  "section" : "6.3.1"
+}, {
+  "id" : "P02",
+  "description" : "Purge Patient Accounts",
+  "section" : "6.3.2"
+}, {
+  "id" : "P03",
+  "description" : "Post Detail Financial Transactions",
+  "section" : "6.3.3"
+}, {
+  "id" : "P04",
+  "description" : "Generate bills and A/R statements",
+  "section" : "6.3.4"
+}, {
+  "id" : "Q01",
+  "description" : "A Query is made for immediate Display Response",
+  "section" : "2.8.6.1"
+}, {
+  "id" : "Q02",
+  "description" : "A Query is Sent for Deferred Response",
+  "section" : "2.8.6.2.1"
+}, {
+  "id" : "Q03",
+  "description" : "Deferred Response to A Query",
+  "section" : "2.8.6.2.2"
+}, {
+  "id" : "Q05",
+  "description" : "Unsolicited Display Update Message",
+  "section" : "2.7.2"
+}, {
+  "id" : "R01",
+  "description" : "Unsolicited Transmission Of Requested Information",
+  "section" : "7-13"
+}, {
+  "id" : "R02",
+  "description" : "Query for results of observation",
+  "section" : "7-14"
+}, {
+  "id" : "R03",
+  "description" : "Display-oriented results, query/unsol. update",
+  "section" : "7-13"
+}, {
+  "id" : "R04",
+  "description" : "Response to query; transmission of requested observation",
+  "section" : "7-14"
+} ]

@@ -1,1 +1,1771 @@
-[{"table_id":"0001","name":"F","description":"Female","usage":"O"},{"table_id":"0001","name":"M","description":"Male","usage":"O"},{"table_id":"0001","name":"O","description":"Other","usage":"O"},{"table_id":"0001","name":"U","description":"Unknown","usage":"O"},{"table_id":"0002","name":"A","description":"Separated","usage":"O"},{"table_id":"0002","name":"D","description":"Divorced","usage":"O"},{"table_id":"0002","name":"M","description":"Married","usage":"O"},{"table_id":"0002","name":"S","description":"Single","usage":"O"},{"table_id":"0002","name":"W","description":"Widowed","usage":"O"},{"table_id":"0003","name":"A01","description":"Admit a patient","usage":"O"},{"table_id":"0003","name":"A02","description":"Transfer a Patient","usage":"O"},{"table_id":"0003","name":"A03","description":"Discharge a Patient","usage":"O"},{"table_id":"0003","name":"A04","description":"Register a Patient","usage":"O"},{"table_id":"0003","name":"A05","description":"Pre-admit a Patient","usage":"O"},{"table_id":"0003","name":"A06","description":"Transfer an outpatient to inpatient","usage":"O"},{"table_id":"0003","name":"A07","description":"Transfer an Inpatient to Outpatient","usage":"O"},{"table_id":"0003","name":"A08","description":"Update patient information","usage":"O"},{"table_id":"0003","name":"A09","description":"Patient departing","usage":"O"},{"table_id":"0003","name":"A10","description":"Patient arriving","usage":"O"},{"table_id":"0003","name":"A11","description":"Cancel admit","usage":"O"},{"table_id":"0003","name":"A12","description":"Cancel transfer","usage":"O"},{"table_id":"0003","name":"A13","description":"Cancel discharge","usage":"O"},{"table_id":"0003","name":"A14","description":"Pending admit","usage":"O"},{"table_id":"0003","name":"A15","description":"Pending transfer","usage":"O"},{"table_id":"0003","name":"A16","description":"Pending discharge","usage":"O"},{"table_id":"0003","name":"A17","description":"Swap Patients","usage":"O"},{"table_id":"0003","name":"A18","description":"Merge patient information","usage":"O"},{"table_id":"0003","name":"A20","description":"Bed status updates","usage":"O"},{"table_id":"0003","name":"A21","description":"Leave of Absence - Out (leaving)","usage":"O"},{"table_id":"0003","name":"A22","description":"Leave of Absence - In (returning)","usage":"O"},{"table_id":"0003","name":"A23","description":"Delete a Patient Record","usage":"O"},{"table_id":"0003","name":"A24","description":"Link Patient Records","usage":"O"},{"table_id":"0003","name":"O02","description":"Order response","usage":"O"},{"table_id":"0003","name":"P01","description":"Add and update patient account","usage":"O"},{"table_id":"0003","name":"P03","description":"Post detail financial transaction","usage":"O"},{"table_id":"0003","name":"P04","description":"Generate bills and A/R statements","usage":"O"},{"table_id":"0003","name":"Q02","description":"Deferred Access","usage":"O"},{"table_id":"0003","name":"R01","description":"Unsolicited transmission of requested Observ.","usage":"O"},{"table_id":"0003","name":"R03","description":"Display oriented results, query/unsol. update","usage":"O"},{"table_id":"0004","name":"E","description":"Emergency","usage":"O"},{"table_id":"0004","name":"I","description":"Inpatient","usage":"O"},{"table_id":"0004","name":"O","description":"Outpatient","usage":"O"},{"table_id":"0004","name":"P","description":"Preadmit","usage":"O"},{"table_id":"0005","name":"B","description":"Black","usage":"O"},{"table_id":"0005","name":"C","description":"Caucasian","usage":"O"},{"table_id":"0005","name":"H","description":"Hispanic","usage":"O"},{"table_id":"0005","name":"R","description":"Oriental","usage":"O"},{"table_id":"0006","name":"A","description":"Atheist","usage":"O"},{"table_id":"0006","name":"B","description":"Baptist","usage":"O"},{"table_id":"0006","name":"C","description":"Catholic","usage":"O"},{"table_id":"0006","name":"E","description":"Episcopalian","usage":"O"},{"table_id":"0006","name":"J","description":"Judaism","usage":"O"},{"table_id":"0006","name":"L","description":"Lutheran","usage":"O"},{"table_id":"0006","name":"M","description":"Church of Latter Day Saints (Mormon)","usage":"O"},{"table_id":"0006","name":"N","description":"Hindu","usage":"O"},{"table_id":"0006","name":"P","description":"Protestant","usage":"O"},{"table_id":"0007","name":"A","description":"Accident","usage":"O"},{"table_id":"0007","name":"E","description":"Emergency","usage":"O"},{"table_id":"0007","name":"L","description":"Labor and Delivery","usage":"O"},{"table_id":"0007","name":"R","description":"Routine","usage":"O"},{"table_id":"0008","name":"AA","description":"Application Accept","usage":"O"},{"table_id":"0008","name":"AR","description":"Application Reject","usage":"O"},{"table_id":"0009","name":"A0","description":"No functional limitations","usage":"O"},{"table_id":"0009","name":"A2","description":"Wheelchair/stretcher bound","usage":"O"},{"table_id":"0009","name":"A3","description":"Comatose; non-responsive","usage":"O"},{"table_id":"0009","name":"A4","description":"Disoriented","usage":"O"},{"table_id":"0009","name":"A5","description":"Vision impaired","usage":"O"},{"table_id":"0009","name":"A7","description":"Speech impaired","usage":"O"},{"table_id":"0009","name":"A8","description":"Non-English Speaking","usage":"O"},{"table_id":"0009","name":"A9","description":"Functional level unknown","usage":"O"},{"table_id":"0009","name":"B2","description":"Special Equipment (tunes, IV's, Catheters)","usage":"O"},{"table_id":"0009","name":"B3","description":"Amputee","usage":"O"},{"table_id":"0009","name":"B4","description":"Mastectomy","usage":"O"},{"table_id":"0009","name":"B5","description":"Paraplegic","usage":"O"},{"table_id":"0009","name":"B6","description":"Pregnant","usage":"O"},{"table_id":"0011","name":"R","description":"System that received and processed the order","usage":"O"},{"table_id":"0011","name":"S","description":"System that sent the order","usage":"O"},{"table_id":"0012","name":"FL","description":"Filled from floor stock","usage":"O"},{"table_id":"0016","name":"0","description":"Antibiotic Resistance Precautions","usage":"O"},{"table_id":"0016","name":"1","description":"Blood and Needle Precautions","usage":"O"},{"table_id":"0016","name":"3","description":"Neutropenic Precautions","usage":"O"},{"table_id":"0016","name":"5","description":"Respiratory Isolation","usage":"O"},{"table_id":"0016","name":"6","description":"Secretion/Excretion Precautions","usage":"O"},{"table_id":"0016","name":"8","description":"Wound and skin Precautions","usage":"O"},{"table_id":"0016","name":"9","description":"Precautions","usage":"O"},{"table_id":"0017","name":"1","description":"Zwischenrechnung","usage":"F"},{"table_id":"0017","name":"2","description":"Schlu\u00dfrechnung","usage":"F"},{"table_id":"0017","name":"3","description":"Nachtragsrechnung","usage":"F"},{"table_id":"0017","name":"4","description":"Gutschrift","usage":"F"},{"table_id":"0017","name":"5","description":"Stornierung","usage":"F"},{"table_id":"0017","name":"6","description":"Zahlungserinnerung","usage":"F"},{"table_id":"0017","name":"7","description":"1. Mahnung","usage":"F"},{"table_id":"0017","name":"8","description":"2. Mahnung","usage":"F"},{"table_id":"0020","name":"2","description":"Moderate Manifestation","usage":"O"},{"table_id":"0020","name":"3","description":"Major Manifestation","usage":"O"},{"table_id":"0027","name":"A","description":"ASAP. Fill after STAT orders.","usage":"O"},{"table_id":"0027","name":"S","description":"Stat. Required immediately.","usage":"O"},{"table_id":"0027","name":"T","description":"Timed collection","usage":"O"},{"table_id":"0033","name":"AP","description":"Apply externally","usage":"O"},{"table_id":"0033","name":"CH","description":"Chew","usage":"O"},{"table_id":"0033","name":"DU","description":"Dust","usage":"O"},{"table_id":"0033","name":"EA","description":"Ear","usage":"O"},{"table_id":"0033","name":"EY","description":"Eye","usage":"O"},{"table_id":"0033","name":"IA","description":"Intro-arterial","usage":"O"},{"table_id":"0033","name":"ID","description":"Intra-dermal","usage":"O"},{"table_id":"0033","name":"IF","description":"Infiltrate","usage":"O"},{"table_id":"0033","name":"IH","description":"Inhalation","usage":"O"},{"table_id":"0033","name":"IM","description":"Intra-muscular","usage":"O"},{"table_id":"0033","name":"IN","description":"Intra-nasal","usage":"O"},{"table_id":"0033","name":"IR","description":"Irrigate","usage":"O"},{"table_id":"0033","name":"IS","description":"Inserted","usage":"O"},{"table_id":"0033","name":"IT","description":"Intrathecal","usage":"O"},{"table_id":"0033","name":"IV","description":"Intravenous","usage":"O"},{"table_id":"0033","name":"NB","description":"Nebulized","usage":"O"},{"table_id":"0033","name":"NG","description":"Nathogasic","usage":"O"},{"table_id":"0033","name":"PA","description":"Peri-anally","usage":"O"},{"table_id":"0033","name":"PT","description":"Paint","usage":"O"},{"table_id":"0033","name":"PU","description":"IV push","usage":"O"},{"table_id":"0033","name":"RC","description":"Rectally","usage":"O"},{"table_id":"0033","name":"SH","description":"Shampoo","usage":"O"},{"table_id":"0033","name":"SL","description":"Sublingual","usage":"O"},{"table_id":"0033","name":"SO","description":"Soak","usage":"O"},{"table_id":"0033","name":"SS","description":"IV soluset","usage":"O"},{"table_id":"0033","name":"TP","description":"Topically","usage":"O"},{"table_id":"0033","name":"WA","description":"Wash","usage":"O"},{"table_id":"0033","name":"WI","description":"Wipe","usage":"O"},{"table_id":"0034","name":"B","description":"Buttock","usage":"O"},{"table_id":"0034","name":"L","description":"Left arm","usage":"O"},{"table_id":"0036","name":"BT","description":"Bottle","usage":"O"},{"table_id":"0036","name":"EA","description":"Each","usage":"O"},{"table_id":"0036","name":"GM","description":"Grams","usage":"O"},{"table_id":"0036","name":"KG","description":"Kilograms","usage":"O"},{"table_id":"0036","name":"MEQ","description":"Milliequivalent","usage":"O"},{"table_id":"0036","name":"MG","description":"Milligrams","usage":"O"},{"table_id":"0036","name":"OZ","description":"Ounces","usage":"O"},{"table_id":"0036","name":"SC","description":"Square centimeters","usage":"O"},{"table_id":"0036","name":"TB","description":"Tablet","usage":"O"},{"table_id":"0036","name":"VL","description":"Vial","usage":"O"},{"table_id":"0038","name":"CA","description":"Order was canceled","usage":"O"},{"table_id":"0038","name":"CM","description":"Order is completed","usage":"O"},{"table_id":"0038","name":"DC","description":"Order was discontinued","usage":"O"},{"table_id":"0038","name":"ER","description":"Error, order not found","usage":"O"},{"table_id":"0038","name":"HD","description":"Order is on hold","usage":"O"},{"table_id":"0038","name":"IP","description":"In process, unspecified","usage":"O"},{"table_id":"0038","name":"SC","description":"In process, scheduled","usage":"O"},{"table_id":"0048","name":"ADV","description":"Advice/Diagnosis","usage":"O"},{"table_id":"0048","name":"ANU","description":"Nursing Unit Look up","usage":"O"},{"table_id":"0048","name":"APN","description":"Patient name look up","usage":"O"},{"table_id":"0048","name":"CAN","description":"Cancel. Used to cancel a query","usage":"O"},{"table_id":"0048","name":"DEM","description":"Demographics","usage":"O"},{"table_id":"0048","name":"MRI","description":"Most recent inpatient","usage":"O"},{"table_id":"0048","name":"MRO","description":"Most recent outpatient","usage":"O"},{"table_id":"0048","name":"OTH","description":"Other","usage":"O"},{"table_id":"0048","name":"PRO","description":"Procedure","usage":"O"},{"table_id":"0048","name":"RES","description":"Result","usage":"O"},{"table_id":"0048","name":"STA","description":"Status","usage":"O"},{"table_id":"0052","name":"H1","description":"Einweisungsdiagnose","usage":"F"},{"table_id":"0052","name":"H2","description":"Aufnahmediagnose","usage":"F"},{"table_id":"0052","name":"H3","description":"Verlegungsdiagnose","usage":"F"},{"table_id":"0052","name":"H4","description":"Entlassungsdiagnose","usage":"F"},{"table_id":"0052","name":"H5","description":"Arbeitsunf\u00e4higkeitsdiagnose","usage":"F"},{"table_id":"0052","name":"H6","description":"Leiden","usage":"F"},{"table_id":"0052","name":"N1","description":"Nebeneinweisungsdiagnose","usage":"F"},{"table_id":"0052","name":"N2","description":"Nebenaufnahmediagnose","usage":"F"},{"table_id":"0052","name":"N3","description":"Nebenverlegungsdiagnose","usage":"F"},{"table_id":"0052","name":"N4","description":"Nebenentlassungsdiagnose","usage":"F"},{"table_id":"0052","name":"N5","description":"Nebenarbeitsunf\u00e4higkeitsdiagnose","usage":"F"},{"table_id":"0052","name":"N6","description":"Nebenleiden","usage":"F"},{"table_id":"0053","name":"I9","description":"ICD9","usage":"O"},{"table_id":"0061","name":"M11","description":"Mod 11 check digit scheme","usage":"O"},{"table_id":"0062","name":"01","description":"Patient Request","usage":"O"},{"table_id":"0062","name":"02","description":"Physician Order","usage":"O"},{"table_id":"0065","name":"A","description":"Add ordered tests to the existing specimen","usage":"O"},{"table_id":"0065","name":"C","description":"Cancel order for battery or tests named","usage":"O"},{"table_id":"0065","name":"G","description":"Generated order","usage":"O"},{"table_id":"0065","name":"L","description":"Lab to obtain specimen from patient.","usage":"O"},{"table_id":"0065","name":"O","description":"Specimen obtained by service other than Lab","usage":"O"},{"table_id":"0065","name":"P","description":"Pending specimen-Order sent prior to delivery","usage":"O"},{"table_id":"0065","name":"S","description":"Schedule the tests specified below","usage":"O"},{"table_id":"0070","name":"BLD","description":"Blood","usage":"O"},{"table_id":"0070","name":"BON","description":"Bone","usage":"O"},{"table_id":"0070","name":"BRN","description":"Burn","usage":"O"},{"table_id":"0070","name":"CNJT","description":"Conjunctiva","usage":"O"},{"table_id":"0070","name":"CSF","description":"Cerebral-Spinal Fluid","usage":"O"},{"table_id":"0070","name":"CVX","description":"Cervix","usage":"O"},{"table_id":"0070","name":"EAR","description":"Ear","usage":"O"},{"table_id":"0070","name":"FIB","description":"Fibroblood","usage":"O"},{"table_id":"0070","name":"HAR","description":"Hair","usage":"O"},{"table_id":"0070","name":"MN","description":"Amniotic Fluid","usage":"O"},{"table_id":"0070","name":"NOS","description":"Nose","usage":"O"},{"table_id":"0070","name":"OTH","description":"Other","usage":"O"},{"table_id":"0070","name":"PLAS","description":"Plasma","usage":"O"},{"table_id":"0070","name":"PRT","description":"Peritoneal Fluid","usage":"O"},{"table_id":"0070","name":"RBC","description":"Erythrocytes","usage":"O"},{"table_id":"0070","name":"SAL","description":"Saliva","usage":"O"},{"table_id":"0070","name":"SEM","description":"Seminal Fluid","usage":"O"},{"table_id":"0070","name":"SER","description":"Serum","usage":"O"},{"table_id":"0070","name":"SKN","description":"Skin","usage":"O"},{"table_id":"0070","name":"SNV","description":"Synovial Fluid","usage":"O"},{"table_id":"0070","name":"STL","description":"Stool","usage":"O"},{"table_id":"0070","name":"SWT","description":"Sweat","usage":"O"},{"table_id":"0070","name":"THRT","description":"Throat","usage":"O"},{"table_id":"0070","name":"TIS","description":"Tissue","usage":"O"},{"table_id":"0070","name":"UMB","description":"Umbilical Blood","usage":"O"},{"table_id":"0070","name":"UR","description":"Urine","usage":"O"},{"table_id":"0070","name":"URTH","description":"Urethra","usage":"O"},{"table_id":"0070","name":"WBC","description":"Leukocytes","usage":"O"},{"table_id":"0070","name":"WND","description":"Wound","usage":"O"},{"table_id":"0074","name":"BG","description":"Blood Gases","usage":"O"},{"table_id":"0074","name":"CH","description":"Chemistry","usage":"O"},{"table_id":"0074","name":"CP","description":"Cytopathology","usage":"O"},{"table_id":"0074","name":"CT","description":"CAT scan","usage":"O"},{"table_id":"0074","name":"CUS","description":"Cardiac Ultrasound","usage":"O"},{"table_id":"0074","name":"EC","description":"Electrocardiac (e.g., EKG, EEC, Holter)","usage":"O"},{"table_id":"0074","name":"HM","description":"Hematology","usage":"O"},{"table_id":"0074","name":"IMM","description":"Immunology","usage":"O"},{"table_id":"0074","name":"MB","description":"Microbiology","usage":"O"},{"table_id":"0074","name":"MCB","description":"Mycobacteriology","usage":"O"},{"table_id":"0074","name":"MYC","description":"Mycology","usage":"O"},{"table_id":"0074","name":"NMR","description":"Nuclear magnetic resonance","usage":"O"},{"table_id":"0074","name":"NMS","description":"Nuclear medicine scan","usage":"O"},{"table_id":"0074","name":"NRS","description":"Nursing service measures","usage":"O"},{"table_id":"0074","name":"OT","description":"Occupational Therapy","usage":"O"},{"table_id":"0074","name":"OTH","description":"Other","usage":"O"},{"table_id":"0074","name":"OUS","description":"OB Ultrasound","usage":"O"},{"table_id":"0074","name":"PHR","description":"Pharmacy","usage":"O"},{"table_id":"0074","name":"PT","description":"Physical Therapy","usage":"O"},{"table_id":"0074","name":"RC","description":"Respiratory Care","usage":"O"},{"table_id":"0074","name":"RT","description":"Radiation Therapy","usage":"O"},{"table_id":"0074","name":"RUS","description":"Radiology ultrasound","usage":"O"},{"table_id":"0074","name":"SP","description":"Surgical Pathology","usage":"O"},{"table_id":"0074","name":"SR","description":"Serology","usage":"O"},{"table_id":"0074","name":"TX","description":"Toxicology","usage":"O"},{"table_id":"0074","name":"VUS","description":"Vascular Ultrasound","usage":"O"},{"table_id":"0074","name":"XRC","description":"Cineradiography","usage":"O"},{"table_id":"0076","name":"ACK","description":"General Acknowledgment       CNT       II","usage":"O"},{"table_id":"0076","name":"ARD","description":"Ancillary RPT (display)      ANR       VII","usage":"O"},{"table_id":"0076","name":"BAR","description":"Add/change billing account   BLN       VI","usage":"O"},{"table_id":"0076","name":"DSR","description":"Display response             QRY       V","usage":"O"},{"table_id":"0076","name":"MCF","description":"Delayed acknowledgment       CNT       II","usage":"O"},{"table_id":"0076","name":"ORF","description":"Observ. Result/record resp.  ANR       VII","usage":"O"},{"table_id":"0076","name":"ORM","description":"Order                        ORD       IV","usage":"O"},{"table_id":"0076","name":"ORR","description":"Order response message       ORD       IV","usage":"O"},{"table_id":"0076","name":"ORU","description":"Observ. result/unsolicited   ANR       VII","usage":"O"},{"table_id":"0076","name":"OSQ","description":"Order status query           ORD       IV","usage":"O"},{"table_id":"0076","name":"UDM","description":"Unsolicited display          QRY       V","usage":"O"},{"table_id":"0078","name":"<","description":"Below absolute low-off instrument scale","usage":"O"},{"table_id":"0078","name":"A","description":"Abnormal (applies to non-numeric results)","usage":"O"},{"table_id":"0078","name":"AA","description":"Very abnormal","usage":"O"},{"table_id":"0078","name":"D","description":"Significant change down","usage":"O"},{"table_id":"0078","name":"H","description":"Above high normal","usage":"O"},{"table_id":"0078","name":"HH","description":"Above upper panic limits","usage":"O"},{"table_id":"0078","name":"I","description":"Interval","usage":"O"},{"table_id":"0078","name":"LL","description":"Below lower panic limits","usage":"O"},{"table_id":"0078","name":"MS","description":"Moderately sensitive","usage":"O"},{"table_id":"0078","name":"null","description":"No range defined,or normal ranges don't apply","usage":"O"},{"table_id":"0078","name":"R","description":"Resists","usage":"O"},{"table_id":"0078","name":"S","description":"Sensitive","usage":"O"},{"table_id":"0078","name":"U","description":"Significant change up","usage":"O"},{"table_id":"0078","name":"VS","description":"Very sensitive","usage":"O"},{"table_id":"0080","name":"A","description":"An aged based population","usage":"O"},{"table_id":"0080","name":"N","description":"None - generic normal range","usage":"O"},{"table_id":"0080","name":"R","description":"A race based population","usage":"O"},{"table_id":"0080","name":"S","description":"A sexed based population","usage":"O"},{"table_id":"0085","name":"D","description":"Delete previously transmitted observation","usage":"O"},{"table_id":"0085","name":"F","description":"Complete/final results (entered and verified)","usage":"O"},{"table_id":"0085","name":"I","description":"Specimen in lab--results pending","usage":"O"},{"table_id":"0085","name":"R","description":"Results entered - not verified","usage":"O"},{"table_id":"0085","name":"S","description":"Partial results","usage":"O"},{"table_id":"0091","name":"D","description":"Deferred","usage":"O"},{"table_id":"0091","name":"I","description":"Immediate","usage":"O"},{"table_id":"0100","name":"D","description":"On discharge","usage":"O"},{"table_id":"0100","name":"O","description":"On receipt of order","usage":"O"},{"table_id":"0100","name":"R","description":"At time service is completed","usage":"O"},{"table_id":"0100","name":"S","description":"At time service is started","usage":"O"},{"table_id":"0102","name":"D","description":"Message Received, stored for later processing","usage":"O"},{"table_id":"0103","name":"D","description":"Debugging","usage":"O"},{"table_id":"0103","name":"P","description":"Production","usage":"O"},{"table_id":"0103","name":"T","description":"Training","usage":"O"},{"table_id":"0104","name":"2.0","description":"Release 2.0  September 1988","usage":"O"},{"table_id":"0104","name":"2.0D","description":"Demo    2.0  October 1988","usage":"O"},{"table_id":"0104","name":"2.1","description":"Release 2.1  March 1990","usage":"O"},{"table_id":"0105","name":"L","description":"Ancillary department is source of comment","usage":"O"},{"table_id":"0105","name":"P","description":"Orderer is source of comment","usage":"O"},{"table_id":"0106","name":"R","description":"Response in Record-oriented format","usage":"O"},{"table_id":"0107","name":"L","description":"Later than the DATE/TIME specified","usage":"O"},{"table_id":"0108","name":"O","description":"Order plus order status","usage":"O"},{"table_id":"0108","name":"S","description":"Status only","usage":"O"},{"table_id":"0108","name":"T","description":"Full Results","usage":"O"},{"table_id":"0109","name":"R","description":"Routine","usage":"O"},{"table_id":"0109","name":"S","description":"Stat","usage":"O"},{"table_id":"0116","name":"C","description":"Closed","usage":"O"},{"table_id":"0116","name":"H","description":"Housekeeping","usage":"O"},{"table_id":"0116","name":"O","description":"Occupied","usage":"O"},{"table_id":"0119","name":"CA","description":"Cancel order request       T            A","usage":"O"},{"table_id":"0119","name":"CH","description":"Child order                   F         E,F","usage":"O"},{"table_id":"0119","name":"CN","description":"Combined result               F         J","usage":"O"},{"table_id":"0119","name":"DC","description":"Discontinue order request  T            A","usage":"O"},{"table_id":"0119","name":"DE","description":"Data errors                T  F","usage":"O"},{"table_id":"0119","name":"DR","description":"Discontinued as request       F","usage":"O"},{"table_id":"0119","name":"HD","description":"Hold order request         T","usage":"O"},{"table_id":"0119","name":"HR","description":"On hold as requested          F         E","usage":"O"},{"table_id":"0119","name":"NA","description":"Number assigned            T","usage":"O"},{"table_id":"0119","name":"NW","description":"New order                  T","usage":"O"},{"table_id":"0119","name":"OD","description":"Order discontinued            F","usage":"O"},{"table_id":"0119","name":"OK","description":"Order accepted & OK           F","usage":"O"},{"table_id":"0119","name":"OR","description":"Released as requested         F         E","usage":"O"},{"table_id":"0119","name":"PA","description":"Parent order                  F         F","usage":"O"},{"table_id":"0119","name":"RE","description":"Observations to follow     T  F         D,E","usage":"O"},{"table_id":"0119","name":"RO","description":"Replacement order          T  F","usage":"O"},{"table_id":"0119","name":"RP","description":"Order replace request      T            C","usage":"O"},{"table_id":"0119","name":"RR","description":"Request received           T  F         G","usage":"O"},{"table_id":"0119","name":"RU","description":"Replacement unsolicited       F         C","usage":"O"},{"table_id":"0119","name":"SN","description":"Send filler number            F         I","usage":"O"},{"table_id":"0119","name":"SS","description":"Send order status          T","usage":"O"},{"table_id":"0119","name":"UD","description":"Unable to Discontinue         F","usage":"O"},{"table_id":"0119","name":"UH","description":"Unable to put on hold         F","usage":"O"},{"table_id":"0119","name":"UR","description":"Unable to release             F","usage":"O"},{"table_id":"0119","name":"UX","description":"Unable to change              F","usage":"O"},{"table_id":"0119","name":"XR","description":"Changed as requested          F","usage":"O"},{"table_id":"0119","name":"XX","description":"Order changed, unsol.         F","usage":"O"},{"table_id":"0121","name":"E","description":"Report exceptions only.","usage":"O"},{"table_id":"0121","name":"F","description":"Same as D, plus confirmations explicitly.","usage":"O"},{"table_id":"0121","name":"N","description":"Only the MSA segment is returned.","usage":"O"},{"table_id":"0122","name":"CH","description":"Charge","usage":"O"},{"table_id":"0122","name":"CO","description":"Contract","usage":"O"},{"table_id":"0122","name":"CR","description":"Credit","usage":"O"},{"table_id":"0122","name":"DP","description":"Department","usage":"O"},{"table_id":"0122","name":"GR","description":"Grant","usage":"O"},{"table_id":"0122","name":"NC","description":"No Charge","usage":"O"},{"table_id":"0122","name":"PC","description":"Professional","usage":"O"},{"table_id":"0122","name":"RS","description":"Research","usage":"O"},{"table_id":"0123","name":"C","description":"Correction of previously transmitted results","usage":"O"},{"table_id":"0123","name":"F","description":"Final results - results stored & verified","usage":"O"},{"table_id":"0123","name":"I","description":"Specimen in lab, not yet processed.","usage":"O"},{"table_id":"0123","name":"P","description":"Preliminary results","usage":"O"},{"table_id":"0123","name":"R","description":"Results stored - not yet verified","usage":"O"},{"table_id":"0123","name":"S","description":"Procedure scheduled, not done","usage":"O"},{"table_id":"0123","name":"Y","description":"No order on record for this test","usage":"O"},{"table_id":"0123","name":"Z","description":"No record of this patient","usage":"O"},{"table_id":"0124","name":"PORT","description":"The examining device goes to Patient's Loc.","usage":"O"},{"table_id":"0124","name":"WALK","description":"Patient walks to diagnostic service","usage":"O"},{"table_id":"0124","name":"WHLC","description":"Wheelchair","usage":"O"},{"table_id":"0125","name":"AD","description":"Address","usage":"O"},{"table_id":"0125","name":"CK","description":"Composite ID with check digit","usage":"O"},{"table_id":"0125","name":"FT","description":"Formatted Text","usage":"O"},{"table_id":"0125","name":"PN","description":"Person name","usage":"O"},{"table_id":"0125","name":"ST","description":"String data. Used to transmit numerics.","usage":"O"},{"table_id":"0125","name":"TM","description":"Time","usage":"O"},{"table_id":"0125","name":"TS","description":"Time stamp","usage":"O"},{"table_id":"0125","name":"TX","description":"Text","usage":"O"},{"table_id":"0126","name":"CH","description":"Characters","usage":"O"},{"table_id":"0126","name":"LI","description":"Lines","usage":"O"},{"table_id":"0126","name":"PG","description":"Pages","usage":"O"},{"table_id":"0126","name":"ZO","description":"Locally defined","usage":"O"},{"table_id":"0171","name":"D","description":"Deutschland","usage":"O"}]
+[ {
+  "name" : "F",
+  "description" : "Female",
+  "usage" : "F",
+  "table_id" : "0001"
+}, {
+  "name" : "U",
+  "description" : "Unknown",
+  "usage" : "F",
+  "table_id" : "0001"
+}, {
+  "name" : "M",
+  "description" : "Male",
+  "usage" : "F",
+  "table_id" : "0001"
+}, {
+  "name" : "O",
+  "description" : "Other",
+  "usage" : "F",
+  "table_id" : "0001"
+}, {
+  "name" : "D",
+  "description" : "Divorced",
+  "usage" : "F",
+  "table_id" : "0002"
+}, {
+  "name" : "W",
+  "description" : "Widowed",
+  "usage" : "F",
+  "table_id" : "0002"
+}, {
+  "name" : "M",
+  "description" : "Married",
+  "usage" : "F",
+  "table_id" : "0002"
+}, {
+  "name" : "A",
+  "description" : "Separated",
+  "usage" : "F",
+  "table_id" : "0002"
+}, {
+  "name" : "S",
+  "description" : "Single",
+  "usage" : "F",
+  "table_id" : "0002"
+}, {
+  "name" : "A05",
+  "description" : "Pre-admit a Patient",
+  "usage" : "F",
+  "table_id" : "0003"
+}, {
+  "name" : "A13",
+  "description" : "Cancel discharge",
+  "usage" : "F",
+  "table_id" : "0003"
+}, {
+  "name" : "A21",
+  "description" : "Leave of Absence - Out (leaving)",
+  "usage" : "F",
+  "table_id" : "0003"
+}, {
+  "name" : "P03",
+  "description" : "Post detail financial transaction",
+  "usage" : "F",
+  "table_id" : "0003"
+}, {
+  "name" : "A08",
+  "description" : "Update patient information",
+  "usage" : "F",
+  "table_id" : "0003"
+}, {
+  "name" : "A16",
+  "description" : "Pending discharge",
+  "usage" : "F",
+  "table_id" : "0003"
+}, {
+  "name" : "A24",
+  "description" : "Link Patient Records",
+  "usage" : "F",
+  "table_id" : "0003"
+}, {
+  "name" : "Q02",
+  "description" : "Deferred Access",
+  "usage" : "F",
+  "table_id" : "0003"
+}, {
+  "name" : "A03",
+  "description" : "Discharge a Patient",
+  "usage" : "F",
+  "table_id" : "0003"
+}, {
+  "name" : "A11",
+  "description" : "Cancel admit",
+  "usage" : "F",
+  "table_id" : "0003"
+}, {
+  "name" : "A19",
+  "description" : "Patient query",
+  "usage" : "F",
+  "table_id" : "0003"
+}, {
+  "name" : "P01",
+  "description" : "Add and update patient account",
+  "usage" : "F",
+  "table_id" : "0003"
+}, {
+  "name" : "A06",
+  "description" : "Transfer an outpatient to inpatient",
+  "usage" : "F",
+  "table_id" : "0003"
+}, {
+  "name" : "A14",
+  "description" : "Pending admit",
+  "usage" : "F",
+  "table_id" : "0003"
+}, {
+  "name" : "A22",
+  "description" : "Leave of Absence - In (returning)",
+  "usage" : "F",
+  "table_id" : "0003"
+}, {
+  "name" : "P04",
+  "description" : "Generate bills and A/R statements",
+  "usage" : "F",
+  "table_id" : "0003"
+}, {
+  "name" : "A01",
+  "description" : "Admit a patient",
+  "usage" : "F",
+  "table_id" : "0003"
+}, {
+  "name" : "A09",
+  "description" : "Patient departing",
+  "usage" : "F",
+  "table_id" : "0003"
+}, {
+  "name" : "A17",
+  "description" : "Swap Patients",
+  "usage" : "F",
+  "table_id" : "0003"
+}, {
+  "name" : "O01",
+  "description" : "Order message",
+  "usage" : "F",
+  "table_id" : "0003"
+}, {
+  "name" : "R01",
+  "description" : "Unsolicited transmission of requested Observ.",
+  "usage" : "F",
+  "table_id" : "0003"
+}, {
+  "name" : "A04",
+  "description" : "Register a Patient",
+  "usage" : "F",
+  "table_id" : "0003"
+}, {
+  "name" : "A12",
+  "description" : "Cancel transfer",
+  "usage" : "F",
+  "table_id" : "0003"
+}, {
+  "name" : "A20",
+  "description" : "Bed status updates",
+  "usage" : "F",
+  "table_id" : "0003"
+}, {
+  "name" : "P02",
+  "description" : "Purge Patient Accounts",
+  "usage" : "F",
+  "table_id" : "0003"
+}, {
+  "name" : "A07",
+  "description" : "Transfer an Inpatient to Outpatient",
+  "usage" : "F",
+  "table_id" : "0003"
+}, {
+  "name" : "A15",
+  "description" : "Pending transfer",
+  "usage" : "F",
+  "table_id" : "0003"
+}, {
+  "name" : "A23",
+  "description" : "Delete a Patient Record",
+  "usage" : "F",
+  "table_id" : "0003"
+}, {
+  "name" : "Q01",
+  "description" : "Immediate access",
+  "usage" : "F",
+  "table_id" : "0003"
+}, {
+  "name" : "A02",
+  "description" : "Transfer a Patient",
+  "usage" : "F",
+  "table_id" : "0003"
+}, {
+  "name" : "A10",
+  "description" : "Patient arriving",
+  "usage" : "F",
+  "table_id" : "0003"
+}, {
+  "name" : "A18",
+  "description" : "Merge patient information",
+  "usage" : "F",
+  "table_id" : "0003"
+}, {
+  "name" : "O02",
+  "description" : "Order response",
+  "usage" : "F",
+  "table_id" : "0003"
+}, {
+  "name" : "R03",
+  "description" : "Display oriented results, query/unsol. update",
+  "usage" : "F",
+  "table_id" : "0003"
+}, {
+  "name" : "O",
+  "description" : "Outpatient",
+  "usage" : "F",
+  "table_id" : "0004"
+}, {
+  "name" : "E",
+  "description" : "Emergency",
+  "usage" : "F",
+  "table_id" : "0004"
+}, {
+  "name" : "P",
+  "description" : "Preadmit",
+  "usage" : "F",
+  "table_id" : "0004"
+}, {
+  "name" : "I",
+  "description" : "Inpatient",
+  "usage" : "F",
+  "table_id" : "0004"
+}, {
+  "name" : "C",
+  "description" : "Caucasian",
+  "usage" : "F",
+  "table_id" : "0005"
+}, {
+  "name" : "H",
+  "description" : "Hispanic",
+  "usage" : "F",
+  "table_id" : "0005"
+}, {
+  "name" : "B",
+  "description" : "Black",
+  "usage" : "F",
+  "table_id" : "0005"
+}, {
+  "name" : "R",
+  "description" : "Oriental",
+  "usage" : "F",
+  "table_id" : "0005"
+}, {
+  "name" : "C",
+  "description" : "Catholic",
+  "usage" : "F",
+  "table_id" : "0006"
+}, {
+  "name" : "L",
+  "description" : "Lutheran",
+  "usage" : "F",
+  "table_id" : "0006"
+}, {
+  "name" : "P",
+  "description" : "Protestant",
+  "usage" : "F",
+  "table_id" : "0006"
+}, {
+  "name" : "A",
+  "description" : "Atheist",
+  "usage" : "F",
+  "table_id" : "0006"
+}, {
+  "name" : "E",
+  "description" : "Episcopalian",
+  "usage" : "F",
+  "table_id" : "0006"
+}, {
+  "name" : "M",
+  "description" : "Church of Latter Day Saints (Mormon)",
+  "usage" : "F",
+  "table_id" : "0006"
+}, {
+  "name" : "B",
+  "description" : "Baptist",
+  "usage" : "F",
+  "table_id" : "0006"
+}, {
+  "name" : "J",
+  "description" : "Judaism",
+  "usage" : "F",
+  "table_id" : "0006"
+}, {
+  "name" : "N",
+  "description" : "Hindu",
+  "usage" : "F",
+  "table_id" : "0006"
+}, {
+  "name" : "E",
+  "description" : "Emergency",
+  "usage" : "F",
+  "table_id" : "0007"
+}, {
+  "name" : "L",
+  "description" : "Labor and Delivery",
+  "usage" : "F",
+  "table_id" : "0007"
+}, {
+  "name" : "A",
+  "description" : "Accident",
+  "usage" : "F",
+  "table_id" : "0007"
+}, {
+  "name" : "R",
+  "description" : "Routine",
+  "usage" : "F",
+  "table_id" : "0007"
+}, {
+  "name" : "AA",
+  "description" : "Application Accept",
+  "usage" : "F",
+  "table_id" : "0008"
+}, {
+  "name" : "AE",
+  "description" : "Application Error",
+  "usage" : "F",
+  "table_id" : "0008"
+}, {
+  "name" : "AR",
+  "description" : "Application Reject",
+  "usage" : "F",
+  "table_id" : "0008"
+}, {
+  "name" : "A2",
+  "description" : "Wheelchair/stretcher bound",
+  "usage" : "F",
+  "table_id" : "0009"
+}, {
+  "name" : "B1",
+  "description" : "Oxygen Therapy",
+  "usage" : "F",
+  "table_id" : "0009"
+}, {
+  "name" : "A5",
+  "description" : "Vision impaired",
+  "usage" : "F",
+  "table_id" : "0009"
+}, {
+  "name" : "B4",
+  "description" : "Mastectomy",
+  "usage" : "F",
+  "table_id" : "0009"
+}, {
+  "name" : "A0",
+  "description" : "No functional limitations",
+  "usage" : "F",
+  "table_id" : "0009"
+}, {
+  "name" : "A8",
+  "description" : "Non-English Speaking",
+  "usage" : "F",
+  "table_id" : "0009"
+}, {
+  "name" : "A3",
+  "description" : "Comatose; non-responsive",
+  "usage" : "F",
+  "table_id" : "0009"
+}, {
+  "name" : "B2",
+  "description" : "Special Equipment (tunes, IV's, Catheters)",
+  "usage" : "F",
+  "table_id" : "0009"
+}, {
+  "name" : "A6",
+  "description" : "Hearing impaired",
+  "usage" : "F",
+  "table_id" : "0009"
+}, {
+  "name" : "B5",
+  "description" : "Paraplegic",
+  "usage" : "F",
+  "table_id" : "0009"
+}, {
+  "name" : "A1",
+  "description" : "Ambulates with assistive device",
+  "usage" : "F",
+  "table_id" : "0009"
+}, {
+  "name" : "A9",
+  "description" : "Functional level unknown",
+  "usage" : "F",
+  "table_id" : "0009"
+}, {
+  "name" : "A4",
+  "description" : "Disoriented",
+  "usage" : "F",
+  "table_id" : "0009"
+}, {
+  "name" : "B3",
+  "description" : "Amputee",
+  "usage" : "F",
+  "table_id" : "0009"
+}, {
+  "name" : "A7",
+  "description" : "Speech impaired",
+  "usage" : "F",
+  "table_id" : "0009"
+}, {
+  "name" : "B6",
+  "description" : "Pregnant",
+  "usage" : "F",
+  "table_id" : "0009"
+}, {
+  "name" : "R",
+  "description" : "System that received and processed the order",
+  "usage" : "F",
+  "table_id" : "0011"
+}, {
+  "name" : "S",
+  "description" : "System that sent the order",
+  "usage" : "F",
+  "table_id" : "0011"
+}, {
+  "name" : "AN",
+  "description" : "Filled from ancillary department stock",
+  "usage" : "F",
+  "table_id" : "0012"
+}, {
+  "name" : "FL",
+  "description" : "Filled from floor stock",
+  "usage" : "F",
+  "table_id" : "0012"
+}, {
+  "name" : "6",
+  "description" : "Secretion/Excretion Precautions",
+  "usage" : "F",
+  "table_id" : "0016"
+}, {
+  "name" : "1",
+  "description" : "Blood and Needle Precautions",
+  "usage" : "F",
+  "table_id" : "0016"
+}, {
+  "name" : "9",
+  "description" : "Precautions",
+  "usage" : "F",
+  "table_id" : "0016"
+}, {
+  "name" : "4",
+  "description" : "Pregnant Women Precautions",
+  "usage" : "F",
+  "table_id" : "0016"
+}, {
+  "name" : "7",
+  "description" : "Strict Isolation",
+  "usage" : "F",
+  "table_id" : "0016"
+}, {
+  "name" : "2",
+  "description" : "Enteric Precautions",
+  "usage" : "F",
+  "table_id" : "0016"
+}, {
+  "name" : "5",
+  "description" : "Respiratory Isolation",
+  "usage" : "F",
+  "table_id" : "0016"
+}, {
+  "name" : "0",
+  "description" : "Antibiotic Resistance Precautions",
+  "usage" : "F",
+  "table_id" : "0016"
+}, {
+  "name" : "8",
+  "description" : "Wound and skin Precautions",
+  "usage" : "F",
+  "table_id" : "0016"
+}, {
+  "name" : "3",
+  "description" : "Neutropenic Precautions",
+  "usage" : "F",
+  "table_id" : "0016"
+}, {
+  "name" : "3",
+  "description" : "Major Manifestation",
+  "usage" : "F",
+  "table_id" : "0020"
+}, {
+  "name" : "1",
+  "description" : "Asymptomatic Manifestation",
+  "usage" : "F",
+  "table_id" : "0020"
+}, {
+  "name" : "4",
+  "description" : "Catastrophic Manifestation",
+  "usage" : "F",
+  "table_id" : "0020"
+}, {
+  "name" : "2",
+  "description" : "Moderate Manifestation",
+  "usage" : "F",
+  "table_id" : "0020"
+}, {
+  "name" : "A",
+  "description" : "ASAP. Fill after STAT orders.",
+  "usage" : "F",
+  "table_id" : "0027"
+}, {
+  "name" : "S",
+  "description" : "Stat. Required immediately.",
+  "usage" : "F",
+  "table_id" : "0027"
+}, {
+  "name" : "T",
+  "description" : "Timed collection",
+  "usage" : "F",
+  "table_id" : "0027"
+}, {
+  "name" : "IA",
+  "description" : "Intro-arterial",
+  "usage" : "F",
+  "table_id" : "0033"
+}, {
+  "name" : "IT",
+  "description" : "Intrathecal",
+  "usage" : "F",
+  "table_id" : "0033"
+}, {
+  "name" : "SH",
+  "description" : "Shampoo",
+  "usage" : "F",
+  "table_id" : "0033"
+}, {
+  "name" : "AP",
+  "description" : "Apply externally",
+  "usage" : "F",
+  "table_id" : "0033"
+}, {
+  "name" : "IH",
+  "description" : "Inhalation",
+  "usage" : "F",
+  "table_id" : "0033"
+}, {
+  "name" : "NG",
+  "description" : "Nathogasic",
+  "usage" : "F",
+  "table_id" : "0033"
+}, {
+  "name" : "SS",
+  "description" : "IV soluset",
+  "usage" : "F",
+  "table_id" : "0033"
+}, {
+  "name" : "EA",
+  "description" : "Ear",
+  "usage" : "F",
+  "table_id" : "0033"
+}, {
+  "name" : "IR",
+  "description" : "Irrigate",
+  "usage" : "F",
+  "table_id" : "0033"
+}, {
+  "name" : "PU",
+  "description" : "IV push",
+  "usage" : "F",
+  "table_id" : "0033"
+}, {
+  "name" : "WI",
+  "description" : "Wipe",
+  "usage" : "F",
+  "table_id" : "0033"
+}, {
+  "name" : "ID",
+  "description" : "Intra-dermal",
+  "usage" : "F",
+  "table_id" : "0033"
+}, {
+  "name" : "IV",
+  "description" : "Intravenous",
+  "usage" : "F",
+  "table_id" : "0033"
+}, {
+  "name" : "SL",
+  "description" : "Sublingual",
+  "usage" : "F",
+  "table_id" : "0033"
+}, {
+  "name" : "CH",
+  "description" : "Chew",
+  "usage" : "F",
+  "table_id" : "0033"
+}, {
+  "name" : "IM",
+  "description" : "Intra-muscular",
+  "usage" : "F",
+  "table_id" : "0033"
+}, {
+  "name" : "PA",
+  "description" : "Peri-anally",
+  "usage" : "F",
+  "table_id" : "0033"
+}, {
+  "name" : "TP",
+  "description" : "Topically",
+  "usage" : "F",
+  "table_id" : "0033"
+}, {
+  "name" : "EY",
+  "description" : "Eye",
+  "usage" : "F",
+  "table_id" : "0033"
+}, {
+  "name" : "IS",
+  "description" : "Inserted",
+  "usage" : "F",
+  "table_id" : "0033"
+}, {
+  "name" : "RC",
+  "description" : "Rectally",
+  "usage" : "F",
+  "table_id" : "0033"
+}, {
+  "name" : "IF",
+  "description" : "Infiltrate",
+  "usage" : "F",
+  "table_id" : "0033"
+}, {
+  "name" : "NB",
+  "description" : "Nebulized",
+  "usage" : "F",
+  "table_id" : "0033"
+}, {
+  "name" : "SO",
+  "description" : "Soak",
+  "usage" : "F",
+  "table_id" : "0033"
+}, {
+  "name" : "DU",
+  "description" : "Dust",
+  "usage" : "F",
+  "table_id" : "0033"
+}, {
+  "name" : "IN",
+  "description" : "Intra-nasal",
+  "usage" : "F",
+  "table_id" : "0033"
+}, {
+  "name" : "PT",
+  "description" : "Paint",
+  "usage" : "F",
+  "table_id" : "0033"
+}, {
+  "name" : "WA",
+  "description" : "Wash",
+  "usage" : "F",
+  "table_id" : "0033"
+}, {
+  "name" : "L",
+  "description" : "Left arm",
+  "usage" : "F",
+  "table_id" : "0034"
+}, {
+  "name" : "B",
+  "description" : "Buttock",
+  "usage" : "F",
+  "table_id" : "0034"
+}, {
+  "name" : "SC",
+  "description" : "Square centimeters",
+  "usage" : "F",
+  "table_id" : "0036"
+}, {
+  "name" : "GM",
+  "description" : "Grams",
+  "usage" : "F",
+  "table_id" : "0036"
+}, {
+  "name" : "MG",
+  "description" : "Milligrams",
+  "usage" : "F",
+  "table_id" : "0036"
+}, {
+  "name" : "BT",
+  "description" : "Bottle",
+  "usage" : "F",
+  "table_id" : "0036"
+}, {
+  "name" : "TB",
+  "description" : "Tablet",
+  "usage" : "F",
+  "table_id" : "0036"
+}, {
+  "name" : "KG",
+  "description" : "Kilograms",
+  "usage" : "F",
+  "table_id" : "0036"
+}, {
+  "name" : "OZ",
+  "description" : "Ounces",
+  "usage" : "F",
+  "table_id" : "0036"
+}, {
+  "name" : "EA",
+  "description" : "Each",
+  "usage" : "F",
+  "table_id" : "0036"
+}, {
+  "name" : "VL",
+  "description" : "Vial",
+  "usage" : "F",
+  "table_id" : "0036"
+}, {
+  "name" : "MEQ",
+  "description" : "Milliequivalent",
+  "usage" : "F",
+  "table_id" : "0036"
+}, {
+  "name" : "ER",
+  "description" : "Error, order not found",
+  "usage" : "F",
+  "table_id" : "0038"
+}, {
+  "name" : "CA",
+  "description" : "Order was canceled",
+  "usage" : "F",
+  "table_id" : "0038"
+}, {
+  "name" : "SC",
+  "description" : "In process, scheduled",
+  "usage" : "F",
+  "table_id" : "0038"
+}, {
+  "name" : "HD",
+  "description" : "Order is on hold",
+  "usage" : "F",
+  "table_id" : "0038"
+}, {
+  "name" : "CM",
+  "description" : "Order is completed",
+  "usage" : "F",
+  "table_id" : "0038"
+}, {
+  "name" : "IP",
+  "description" : "In process, unspecified",
+  "usage" : "F",
+  "table_id" : "0038"
+}, {
+  "name" : "DC",
+  "description" : "Order was discontinued",
+  "usage" : "F",
+  "table_id" : "0038"
+}, {
+  "name" : "ANU",
+  "description" : "Nursing Unit Look up",
+  "usage" : "F",
+  "table_id" : "0048"
+}, {
+  "name" : "RES",
+  "description" : "Result",
+  "usage" : "F",
+  "table_id" : "0048"
+}, {
+  "name" : "DEM",
+  "description" : "Demographics",
+  "usage" : "F",
+  "table_id" : "0048"
+}, {
+  "name" : "OTH",
+  "description" : "Other",
+  "usage" : "F",
+  "table_id" : "0048"
+}, {
+  "name" : "APN",
+  "description" : "Patient name look up",
+  "usage" : "F",
+  "table_id" : "0048"
+}, {
+  "name" : "STA",
+  "description" : "Status",
+  "usage" : "F",
+  "table_id" : "0048"
+}, {
+  "name" : "MRI",
+  "description" : "Most recent inpatient",
+  "usage" : "F",
+  "table_id" : "0048"
+}, {
+  "name" : "ADV",
+  "description" : "Advice/Diagnosis",
+  "usage" : "F",
+  "table_id" : "0048"
+}, {
+  "name" : "PRO",
+  "description" : "Procedure",
+  "usage" : "F",
+  "table_id" : "0048"
+}, {
+  "name" : "CAN",
+  "description" : "Cancel. Used to cancel a query",
+  "usage" : "F",
+  "table_id" : "0048"
+}, {
+  "name" : "MRO",
+  "description" : "Most recent outpatient",
+  "usage" : "F",
+  "table_id" : "0048"
+}, {
+  "name" : "I9",
+  "description" : "ICD9",
+  "usage" : "F",
+  "table_id" : "0053"
+}, {
+  "name" : "M11",
+  "description" : "Mod 11 check digit scheme",
+  "usage" : "F",
+  "table_id" : "0061"
+}, {
+  "name" : "01",
+  "description" : "Patient Request",
+  "usage" : "F",
+  "table_id" : "0062"
+}, {
+  "name" : "02",
+  "description" : "Physician Order",
+  "usage" : "F",
+  "table_id" : "0062"
+}, {
+  "name" : "G",
+  "description" : "Generated order",
+  "usage" : "F",
+  "table_id" : "0065"
+}, {
+  "name" : "P",
+  "description" : "Pending specimen-Order sent prior to delivery",
+  "usage" : "F",
+  "table_id" : "0065"
+}, {
+  "name" : "A",
+  "description" : "Add ordered tests to the existing specimen",
+  "usage" : "F",
+  "table_id" : "0065"
+}, {
+  "name" : "L",
+  "description" : "Lab to obtain specimen from patient.",
+  "usage" : "F",
+  "table_id" : "0065"
+}, {
+  "name" : "S",
+  "description" : "Schedule the tests specified below",
+  "usage" : "F",
+  "table_id" : "0065"
+}, {
+  "name" : "C",
+  "description" : "Cancel order for battery or tests named",
+  "usage" : "F",
+  "table_id" : "0065"
+}, {
+  "name" : "O",
+  "description" : "Specimen obtained by service other than Lab",
+  "usage" : "F",
+  "table_id" : "0065"
+}, {
+  "name" : "CNJT",
+  "description" : "Conjunctiva",
+  "usage" : "F",
+  "table_id" : "0070"
+}, {
+  "name" : "OTH",
+  "description" : "Other",
+  "usage" : "F",
+  "table_id" : "0070"
+}, {
+  "name" : "SNV",
+  "description" : "Synovial Fluid",
+  "usage" : "F",
+  "table_id" : "0070"
+}, {
+  "name" : "WBC",
+  "description" : "Leukocytes",
+  "usage" : "F",
+  "table_id" : "0070"
+}, {
+  "name" : "EAR",
+  "description" : "Ear",
+  "usage" : "F",
+  "table_id" : "0070"
+}, {
+  "name" : "RBC",
+  "description" : "Erythrocytes",
+  "usage" : "F",
+  "table_id" : "0070"
+}, {
+  "name" : "THRT",
+  "description" : "Throat",
+  "usage" : "F",
+  "table_id" : "0070"
+}, {
+  "name" : "BON",
+  "description" : "Bone",
+  "usage" : "F",
+  "table_id" : "0070"
+}, {
+  "name" : "MN",
+  "description" : "Amniotic Fluid",
+  "usage" : "F",
+  "table_id" : "0070"
+}, {
+  "name" : "SER",
+  "description" : "Serum",
+  "usage" : "F",
+  "table_id" : "0070"
+}, {
+  "name" : "UR",
+  "description" : "Urine",
+  "usage" : "F",
+  "table_id" : "0070"
+}, {
+  "name" : "CSF",
+  "description" : "Cerebral spinal fluid",
+  "usage" : "F",
+  "table_id" : "0070"
+}, {
+  "name" : "PLAS",
+  "description" : "Plasma",
+  "usage" : "F",
+  "table_id" : "0070"
+}, {
+  "name" : "STL",
+  "description" : "Stool",
+  "usage" : "F",
+  "table_id" : "0070"
+}, {
+  "name" : "WND",
+  "description" : "Wound",
+  "usage" : "F",
+  "table_id" : "0070"
+}, {
+  "name" : "FIB",
+  "description" : "Fibroblood",
+  "usage" : "F",
+  "table_id" : "0070"
+}, {
+  "name" : "SAL",
+  "description" : "Saliva",
+  "usage" : "F",
+  "table_id" : "0070"
+}, {
+  "name" : "TIS",
+  "description" : "Tissue",
+  "usage" : "F",
+  "table_id" : "0070"
+}, {
+  "name" : "BRN",
+  "description" : "Burn",
+  "usage" : "F",
+  "table_id" : "0070"
+}, {
+  "name" : "NOS",
+  "description" : "Nose",
+  "usage" : "F",
+  "table_id" : "0070"
+}, {
+  "name" : "SKN",
+  "description" : "Skin",
+  "usage" : "F",
+  "table_id" : "0070"
+}, {
+  "name" : "URTH",
+  "description" : "Urethra",
+  "usage" : "F",
+  "table_id" : "0070"
+}, {
+  "name" : "CVX",
+  "description" : "Cervix",
+  "usage" : "F",
+  "table_id" : "0070"
+}, {
+  "name" : "PRT",
+  "description" : "Peritoneal Fluid",
+  "usage" : "F",
+  "table_id" : "0070"
+}, {
+  "name" : "SWT",
+  "description" : "Sweat",
+  "usage" : "F",
+  "table_id" : "0070"
+}, {
+  "name" : "BLD",
+  "description" : "Blood",
+  "usage" : "F",
+  "table_id" : "0070"
+}, {
+  "name" : "HAR",
+  "description" : "Hair",
+  "usage" : "F",
+  "table_id" : "0070"
+}, {
+  "name" : "SEM",
+  "description" : "Seminal Fluid",
+  "usage" : "F",
+  "table_id" : "0070"
+}, {
+  "name" : "UMB",
+  "description" : "Umbilical Blood",
+  "usage" : "F",
+  "table_id" : "0070"
+}, {
+  "name" : "OT",
+  "description" : "Occupational Therapy",
+  "usage" : "F",
+  "table_id" : "0074"
+}, {
+  "name" : "SP",
+  "description" : "Surgical Pathology",
+  "usage" : "F",
+  "table_id" : "0074"
+}, {
+  "name" : "HM",
+  "description" : "Hematology",
+  "usage" : "F",
+  "table_id" : "0074"
+}, {
+  "name" : "PHR",
+  "description" : "Pharmacy",
+  "usage" : "F",
+  "table_id" : "0074"
+}, {
+  "name" : "VUS",
+  "description" : "Vascular Ultrasound",
+  "usage" : "F",
+  "table_id" : "0074"
+}, {
+  "name" : "CH",
+  "description" : "Chemistry",
+  "usage" : "F",
+  "table_id" : "0074"
+}, {
+  "name" : "MCB",
+  "description" : "Mycobacteriology",
+  "usage" : "F",
+  "table_id" : "0074"
+}, {
+  "name" : "NMS",
+  "description" : "Nuclear medicine scan",
+  "usage" : "F",
+  "table_id" : "0074"
+}, {
+  "name" : "RT",
+  "description" : "Radiation Therapy",
+  "usage" : "F",
+  "table_id" : "0074"
+}, {
+  "name" : "CUS",
+  "description" : "Cardiac Ultrasound",
+  "usage" : "F",
+  "table_id" : "0074"
+}, {
+  "name" : "OTH",
+  "description" : "Other",
+  "usage" : "F",
+  "table_id" : "0074"
+}, {
+  "name" : "SR",
+  "description" : "Serology",
+  "usage" : "F",
+  "table_id" : "0074"
+}, {
+  "name" : "IMM",
+  "description" : "Immunology",
+  "usage" : "F",
+  "table_id" : "0074"
+}, {
+  "name" : "PT",
+  "description" : "Physical Therapy",
+  "usage" : "F",
+  "table_id" : "0074"
+}, {
+  "name" : "XRC",
+  "description" : "Cineradiography",
+  "usage" : "F",
+  "table_id" : "0074"
+}, {
+  "name" : "CP",
+  "description" : "Cytopathology",
+  "usage" : "F",
+  "table_id" : "0074"
+}, {
+  "name" : "MYC",
+  "description" : "Mycology",
+  "usage" : "F",
+  "table_id" : "0074"
+}, {
+  "name" : "NRS",
+  "description" : "Nursing service measures",
+  "usage" : "F",
+  "table_id" : "0074"
+}, {
+  "name" : "RUS",
+  "description" : "Radiology ultrasound",
+  "usage" : "F",
+  "table_id" : "0074"
+}, {
+  "name" : "EC",
+  "description" : "Electrocardiac (e.g., EKG, EEC, Holter)",
+  "usage" : "F",
+  "table_id" : "0074"
+}, {
+  "name" : "OUS",
+  "description" : "OB Ultrasound",
+  "usage" : "F",
+  "table_id" : "0074"
+}, {
+  "name" : "TX",
+  "description" : "Toxicology",
+  "usage" : "F",
+  "table_id" : "0074"
+}, {
+  "name" : "BG",
+  "description" : "Blood gases",
+  "usage" : "F",
+  "table_id" : "0074"
+}, {
+  "name" : "MB",
+  "description" : "Microbiology",
+  "usage" : "F",
+  "table_id" : "0074"
+}, {
+  "name" : "RC",
+  "description" : "Respiratory Care",
+  "usage" : "F",
+  "table_id" : "0074"
+}, {
+  "name" : "CT",
+  "description" : "CAT scan",
+  "usage" : "F",
+  "table_id" : "0074"
+}, {
+  "name" : "NMR",
+  "description" : "Nuclear magnetic resonance",
+  "usage" : "F",
+  "table_id" : "0074"
+}, {
+  "name" : "DSR",
+  "description" : "Display response             QRY       V",
+  "usage" : "F",
+  "table_id" : "0076"
+}, {
+  "name" : "ORM",
+  "description" : "Order                        ORD       IV",
+  "usage" : "F",
+  "table_id" : "0076"
+}, {
+  "name" : "ARD",
+  "description" : "Ancillary RPT (display)      ANR       VII",
+  "usage" : "F",
+  "table_id" : "0076"
+}, {
+  "name" : "OSQ",
+  "description" : "Order status query           ORD       IV",
+  "usage" : "F",
+  "table_id" : "0076"
+}, {
+  "name" : "MCF",
+  "description" : "Delayed acknowledgment       CNT       II",
+  "usage" : "F",
+  "table_id" : "0076"
+}, {
+  "name" : "ORR",
+  "description" : "Order response message       ORD       IV",
+  "usage" : "F",
+  "table_id" : "0076"
+}, {
+  "name" : "BAR",
+  "description" : "Add/change billing account   BLN       VI",
+  "usage" : "F",
+  "table_id" : "0076"
+}, {
+  "name" : "UDM",
+  "description" : "Unsolicited display          QRY       V",
+  "usage" : "F",
+  "table_id" : "0076"
+}, {
+  "name" : "ORF",
+  "description" : "Observ. Result/record resp.  ANR       VII",
+  "usage" : "F",
+  "table_id" : "0076"
+}, {
+  "name" : "ACK",
+  "description" : "General Acknowledgment       CNT       II",
+  "usage" : "F",
+  "table_id" : "0076"
+}, {
+  "name" : "ORU",
+  "description" : "Observ. result/unsolicited   ANR       VII",
+  "usage" : "F",
+  "table_id" : "0076"
+}, {
+  "name" : "<",
+  "description" : "Below absolute low-off instrument scale",
+  "usage" : "F",
+  "table_id" : "0078"
+}, {
+  "name" : "MS",
+  "description" : "Moderately sensitive",
+  "usage" : "F",
+  "table_id" : "0078"
+}, {
+  "name" : "D",
+  "description" : "Significant change down",
+  "usage" : "F",
+  "table_id" : "0078"
+}, {
+  "name" : "S",
+  "description" : "Sensitive",
+  "usage" : "F",
+  "table_id" : "0078"
+}, {
+  "name" : "I",
+  "description" : "Interval",
+  "usage" : "F",
+  "table_id" : "0078"
+}, {
+  "name" : "A",
+  "description" : "Abnormal (applies to non-numeric results)",
+  "usage" : "F",
+  "table_id" : "0078"
+}, {
+  "name" : "null",
+  "description" : "No range defined,or normal ranges don't apply",
+  "usage" : "F",
+  "table_id" : "0078"
+}, {
+  "name" : "H",
+  "description" : "Above high normal",
+  "usage" : "F",
+  "table_id" : "0078"
+}, {
+  "name" : "U",
+  "description" : "Significant change up",
+  "usage" : "F",
+  "table_id" : "0078"
+}, {
+  "name" : "LL",
+  "description" : "Below lower panic limits",
+  "usage" : "F",
+  "table_id" : "0078"
+}, {
+  "name" : "AA",
+  "description" : "Very abnormal",
+  "usage" : "F",
+  "table_id" : "0078"
+}, {
+  "name" : "R",
+  "description" : "Resists",
+  "usage" : "F",
+  "table_id" : "0078"
+}, {
+  "name" : "HH",
+  "description" : "Above upper panic limits",
+  "usage" : "F",
+  "table_id" : "0078"
+}, {
+  "name" : "VS",
+  "description" : "Very sensitive",
+  "usage" : "F",
+  "table_id" : "0078"
+}, {
+  "name" : "R",
+  "description" : "A race based population",
+  "usage" : "F",
+  "table_id" : "0080"
+}, {
+  "name" : "A",
+  "description" : "An aged based population",
+  "usage" : "F",
+  "table_id" : "0080"
+}, {
+  "name" : "S",
+  "description" : "A sexed based population",
+  "usage" : "F",
+  "table_id" : "0080"
+}, {
+  "name" : "N",
+  "description" : "None - generic normal range",
+  "usage" : "F",
+  "table_id" : "0080"
+}, {
+  "name" : "F",
+  "description" : "Complete/final results (entered and verified)",
+  "usage" : "F",
+  "table_id" : "0085"
+}, {
+  "name" : "S",
+  "description" : "Partial results",
+  "usage" : "F",
+  "table_id" : "0085"
+}, {
+  "name" : "I",
+  "description" : "Specimen in lab--results pending",
+  "usage" : "F",
+  "table_id" : "0085"
+}, {
+  "name" : "D",
+  "description" : "Delete previously transmitted observation",
+  "usage" : "F",
+  "table_id" : "0085"
+}, {
+  "name" : "R",
+  "description" : "Results entered - not verified",
+  "usage" : "F",
+  "table_id" : "0085"
+}, {
+  "name" : "I",
+  "description" : "Immediate",
+  "usage" : "F",
+  "table_id" : "0091"
+}, {
+  "name" : "D",
+  "description" : "Deferred",
+  "usage" : "F",
+  "table_id" : "0091"
+}, {
+  "name" : "R",
+  "description" : "Readmission",
+  "usage" : "F",
+  "table_id" : "0092"
+}, {
+  "name" : "O",
+  "description" : "On receipt of order",
+  "usage" : "F",
+  "table_id" : "0100"
+}, {
+  "name" : "T",
+  "description" : "At a designated date / time",
+  "usage" : "F",
+  "table_id" : "0100"
+}, {
+  "name" : "R",
+  "description" : "At time service is completed",
+  "usage" : "F",
+  "table_id" : "0100"
+}, {
+  "name" : "D",
+  "description" : "On discharge",
+  "usage" : "F",
+  "table_id" : "0100"
+}, {
+  "name" : "S",
+  "description" : "At time service is started",
+  "usage" : "F",
+  "table_id" : "0100"
+}, {
+  "name" : "D",
+  "description" : "Message Received, stored for later processing",
+  "usage" : "F",
+  "table_id" : "0102"
+}, {
+  "name" : "D",
+  "description" : "Debugging",
+  "usage" : "F",
+  "table_id" : "0103"
+}, {
+  "name" : "P",
+  "description" : "Production",
+  "usage" : "F",
+  "table_id" : "0103"
+}, {
+  "name" : "T",
+  "description" : "Training",
+  "usage" : "F",
+  "table_id" : "0103"
+}, {
+  "name" : "2.0",
+  "description" : "Release 2.0  September 1988",
+  "usage" : "F",
+  "table_id" : "0104"
+}, {
+  "name" : "2.0D",
+  "description" : "Demo    2.0  October 1988",
+  "usage" : "F",
+  "table_id" : "0104"
+}, {
+  "name" : "2.1",
+  "description" : "Release 2.1  March 1990",
+  "usage" : "F",
+  "table_id" : "0104"
+}, {
+  "name" : "L",
+  "description" : "Ancillary department is source of comment",
+  "usage" : "F",
+  "table_id" : "0105"
+}, {
+  "name" : "P",
+  "description" : "Orderer is source of comment",
+  "usage" : "F",
+  "table_id" : "0105"
+}, {
+  "name" : "R",
+  "description" : "Response in Record-oriented format",
+  "usage" : "F",
+  "table_id" : "0106"
+}, {
+  "name" : "L",
+  "description" : "Later than the DATE/TIME specified",
+  "usage" : "F",
+  "table_id" : "0107"
+}, {
+  "name" : "S",
+  "description" : "Status only",
+  "usage" : "F",
+  "table_id" : "0108"
+}, {
+  "name" : "T",
+  "description" : "Full Results",
+  "usage" : "F",
+  "table_id" : "0108"
+}, {
+  "name" : "O",
+  "description" : "Order plus order status",
+  "usage" : "F",
+  "table_id" : "0108"
+}, {
+  "name" : "S",
+  "description" : "Stat",
+  "usage" : "F",
+  "table_id" : "0109"
+}, {
+  "name" : "R",
+  "description" : "Routine",
+  "usage" : "F",
+  "table_id" : "0109"
+}, {
+  "name" : "H",
+  "description" : "Housekeeping",
+  "usage" : "F",
+  "table_id" : "0116"
+}, {
+  "name" : "O",
+  "description" : "Occupied",
+  "usage" : "F",
+  "table_id" : "0116"
+}, {
+  "name" : "C",
+  "description" : "Closed",
+  "usage" : "F",
+  "table_id" : "0116"
+}, {
+  "name" : "U",
+  "description" : "Unoccupied",
+  "usage" : "F",
+  "table_id" : "0116"
+}, {
+  "name" : "RP",
+  "description" : "Order replace request",
+  "usage" : "F",
+  "table_id" : "0119"
+}, {
+  "name" : "UX",
+  "description" : "Unable to change",
+  "usage" : "F",
+  "table_id" : "0119"
+}, {
+  "name" : "NA",
+  "description" : "Number assigned            T",
+  "usage" : "F",
+  "table_id" : "0119"
+}, {
+  "name" : "CA",
+  "description" : "Cancel order request",
+  "usage" : "F",
+  "table_id" : "0119"
+}, {
+  "name" : "SN",
+  "description" : "Send filler number            F         I",
+  "usage" : "F",
+  "table_id" : "0119"
+}, {
+  "name" : "DC",
+  "description" : "Discontinue order request",
+  "usage" : "F",
+  "table_id" : "0119"
+}, {
+  "name" : "OK",
+  "description" : "Order accepted and OK",
+  "usage" : "F",
+  "table_id" : "0119"
+}, {
+  "name" : "RE",
+  "description" : "Observations to follow",
+  "usage" : "F",
+  "table_id" : "0119"
+}, {
+  "name" : "UH",
+  "description" : "Unable to put on hold",
+  "usage" : "F",
+  "table_id" : "0119"
+}, {
+  "name" : "HD",
+  "description" : "Hold order request",
+  "usage" : "F",
+  "table_id" : "0119"
+}, {
+  "name" : "RR",
+  "description" : "Request received",
+  "usage" : "F",
+  "table_id" : "0119"
+}, {
+  "name" : "XR",
+  "description" : "Changed as requested",
+  "usage" : "F",
+  "table_id" : "0119"
+}, {
+  "name" : "NW",
+  "description" : "New order                  T",
+  "usage" : "F",
+  "table_id" : "0119"
+}, {
+  "name" : "OR",
+  "description" : "Released as requested",
+  "usage" : "F",
+  "table_id" : "0119"
+}, {
+  "name" : "CH",
+  "description" : "Child order",
+  "usage" : "F",
+  "table_id" : "0119"
+}, {
+  "name" : "SS",
+  "description" : "Send order status request",
+  "usage" : "F",
+  "table_id" : "0119"
+}, {
+  "name" : "DE",
+  "description" : "Data Errors",
+  "usage" : "F",
+  "table_id" : "0119"
+}, {
+  "name" : "RO",
+  "description" : "Replacement order",
+  "usage" : "F",
+  "table_id" : "0119"
+}, {
+  "name" : "UR",
+  "description" : "Unable to release",
+  "usage" : "F",
+  "table_id" : "0119"
+}, {
+  "name" : "HR",
+  "description" : "On hold as requested",
+  "usage" : "F",
+  "table_id" : "0119"
+}, {
+  "name" : "RU",
+  "description" : "Replaced unsolicited",
+  "usage" : "F",
+  "table_id" : "0119"
+}, {
+  "name" : "XX",
+  "description" : "Order changed, unsolicited",
+  "usage" : "F",
+  "table_id" : "0119"
+}, {
+  "name" : "OD",
+  "description" : "Order discontinued",
+  "usage" : "F",
+  "table_id" : "0119"
+}, {
+  "name" : "PA",
+  "description" : "Parent order",
+  "usage" : "F",
+  "table_id" : "0119"
+}, {
+  "name" : "CN",
+  "description" : "Combined result",
+  "usage" : "F",
+  "table_id" : "0119"
+}, {
+  "name" : "UD",
+  "description" : "Unable to discontinue",
+  "usage" : "F",
+  "table_id" : "0119"
+}, {
+  "name" : "DR",
+  "description" : "Discontinued as requested",
+  "usage" : "F",
+  "table_id" : "0119"
+}, {
+  "name" : "D",
+  "description" : "Same as R, also other associated segments.",
+  "usage" : "F",
+  "table_id" : "0121"
+}, {
+  "name" : "N",
+  "description" : "Only the MSA segment is returned.",
+  "usage" : "F",
+  "table_id" : "0121"
+}, {
+  "name" : "E",
+  "description" : "Report exceptions only.",
+  "usage" : "F",
+  "table_id" : "0121"
+}, {
+  "name" : "R",
+  "description" : "Same as E, also Replacement & Parent─child",
+  "usage" : "F",
+  "table_id" : "0121"
+}, {
+  "name" : "F",
+  "description" : "Same as D, plus confirmations explicitly.",
+  "usage" : "F",
+  "table_id" : "0121"
+}, {
+  "name" : "CH",
+  "description" : "Charge",
+  "usage" : "F",
+  "table_id" : "0122"
+}, {
+  "name" : "DP",
+  "description" : "Department",
+  "usage" : "F",
+  "table_id" : "0122"
+}, {
+  "name" : "PC",
+  "description" : "Professional",
+  "usage" : "F",
+  "table_id" : "0122"
+}, {
+  "name" : "CO",
+  "description" : "Contract",
+  "usage" : "F",
+  "table_id" : "0122"
+}, {
+  "name" : "GR",
+  "description" : "Grant",
+  "usage" : "F",
+  "table_id" : "0122"
+}, {
+  "name" : "RS",
+  "description" : "Research",
+  "usage" : "F",
+  "table_id" : "0122"
+}, {
+  "name" : "CR",
+  "description" : "Credit",
+  "usage" : "F",
+  "table_id" : "0122"
+}, {
+  "name" : "NC",
+  "description" : "No Charge",
+  "usage" : "F",
+  "table_id" : "0122"
+}, {
+  "name" : "C",
+  "description" : "Correction of previously transmitted results",
+  "usage" : "F",
+  "table_id" : "0123"
+}, {
+  "name" : "P",
+  "description" : "Preliminary results",
+  "usage" : "F",
+  "table_id" : "0123"
+}, {
+  "name" : "Y",
+  "description" : "No order on record for this test",
+  "usage" : "F",
+  "table_id" : "0123"
+}, {
+  "name" : "F",
+  "description" : "Final results - results stored & verified",
+  "usage" : "F",
+  "table_id" : "0123"
+}, {
+  "name" : "R",
+  "description" : "Results stored - not yet verified",
+  "usage" : "F",
+  "table_id" : "0123"
+}, {
+  "name" : "Z",
+  "description" : "No record of this patient",
+  "usage" : "F",
+  "table_id" : "0123"
+}, {
+  "name" : "I",
+  "description" : "Specimen in lab, not yet processed.",
+  "usage" : "F",
+  "table_id" : "0123"
+}, {
+  "name" : "S",
+  "description" : "Procedure scheduled, not done",
+  "usage" : "F",
+  "table_id" : "0123"
+}, {
+  "name" : "PORT",
+  "description" : "The examining device goes to Patient's Loc.",
+  "usage" : "F",
+  "table_id" : "0124"
+}, {
+  "name" : "WALK",
+  "description" : "Patient walks to diagnostic service",
+  "usage" : "F",
+  "table_id" : "0124"
+}, {
+  "name" : "WHLC",
+  "description" : "Wheelchair",
+  "usage" : "F",
+  "table_id" : "0124"
+}, {
+  "name" : "TM",
+  "description" : "Time",
+  "usage" : "F",
+  "table_id" : "0125"
+}, {
+  "name" : "AD",
+  "description" : "Address",
+  "usage" : "F",
+  "table_id" : "0125"
+}, {
+  "name" : "PN",
+  "description" : "Person name",
+  "usage" : "F",
+  "table_id" : "0125"
+}, {
+  "name" : "TS",
+  "description" : "Time stamp",
+  "usage" : "F",
+  "table_id" : "0125"
+}, {
+  "name" : "CK",
+  "description" : "Composite ID with check digit",
+  "usage" : "F",
+  "table_id" : "0125"
+}, {
+  "name" : "ST",
+  "description" : "String data. Used to transmit numerics.",
+  "usage" : "F",
+  "table_id" : "0125"
+}, {
+  "name" : "TX",
+  "description" : "Text",
+  "usage" : "F",
+  "table_id" : "0125"
+}, {
+  "name" : "FT",
+  "description" : "Formatted Text",
+  "usage" : "F",
+  "table_id" : "0125"
+}, {
+  "name" : "CH",
+  "description" : "Characters",
+  "usage" : "F",
+  "table_id" : "0126"
+}, {
+  "name" : "ZO",
+  "description" : "Locally defined",
+  "usage" : "F",
+  "table_id" : "0126"
+}, {
+  "name" : "LI",
+  "description" : "Lines",
+  "usage" : "F",
+  "table_id" : "0126"
+}, {
+  "name" : "PG",
+  "description" : "Pages",
+  "usage" : "F",
+  "table_id" : "0126"
+} ]

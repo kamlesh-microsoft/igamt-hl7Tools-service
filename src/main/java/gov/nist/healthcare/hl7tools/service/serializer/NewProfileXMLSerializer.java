@@ -16,6 +16,7 @@ import gov.nist.healthcare.hl7tools.domain.SegmentLibrary;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
+import java.util.regex.Pattern;
 
 import nu.xom.Attribute;
 import nu.xom.Element;
@@ -262,13 +263,16 @@ public class NewProfileXMLSerializer {
 		return e;
 	}
 	
-	private String genConfLen(int clen, EBoolean b) {
-		String t = clen != -1 ? clen + "" : "";
-		if( b == EBoolean.YES && clen != -1 )
+	private String genConfLen(String clen, EBoolean b) {
+	   if(!clen.contains(Pattern.quote("#")) && !clen.contains(Pattern.quote("="))){
+		String t = clen != null ? clen: "";
+		if( b == EBoolean.YES && clen != null)
 			return t + "#";
-		else 	if( b == EBoolean.YES && clen != -1 )
+		else 	if( b == EBoolean.NO && clen != null )
 			return t + "=";
 		return t;
+	   }
+	   return clen;
 	}
 
 }
