@@ -1891,7 +1891,7 @@
 }, {
   "id" : 190,
   "position" : "14",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -1901,7 +1901,7 @@
 }, {
   "id" : 191,
   "position" : "9",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -1911,7 +1911,7 @@
 }, {
   "id" : 192,
   "position" : "4",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -1931,7 +1931,7 @@
 }, {
   "id" : 194,
   "position" : "10",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -1961,7 +1961,7 @@
 }, {
   "id" : 197,
   "position" : "11",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -2001,7 +2001,7 @@
 }, {
   "id" : 201,
   "position" : "12",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -2011,7 +2011,7 @@
 }, {
   "id" : 202,
   "position" : "7",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -2041,7 +2041,7 @@
 }, {
   "id" : 205,
   "position" : "13",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -2051,7 +2051,7 @@
 }, {
   "id" : 206,
   "position" : "8",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -2361,7 +2361,7 @@
 }, {
   "id" : 237,
   "position" : "1",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -2761,7 +2761,7 @@
 }, {
   "id" : 277,
   "position" : "8",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -2811,7 +2811,7 @@
 }, {
   "id" : 282,
   "position" : "9",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -3660,26 +3660,6 @@
   "data_element_id" : "00120"
 }, {
   "id" : 367,
-  "position" : "13",
-  "usage" : "O",
-  "min" : "0",
-  "max" : "1",
-  "minLength" : -1,
-  "truncation" : "NA",
-  "segment_id" : "IN1",
-  "data_element_id" : "00438"
-}, {
-  "id" : 368,
-  "position" : "29",
-  "usage" : "O",
-  "min" : "0",
-  "max" : "1",
-  "minLength" : -1,
-  "truncation" : "NA",
-  "segment_id" : "IN1",
-  "data_element_id" : "00454"
-}, {
-  "id" : 369,
   "position" : "45",
   "usage" : "O",
   "min" : "0",
@@ -3689,7 +3669,37 @@
   "segment_id" : "IN1",
   "data_element_id" : "00470"
 }, {
+  "id" : 368,
+  "position" : "13",
+  "usage" : "O",
+  "min" : "0",
+  "max" : "1",
+  "minLength" : -1,
+  "truncation" : "NA",
+  "segment_id" : "IN1",
+  "data_element_id" : "00438"
+}, {
+  "id" : 369,
+  "position" : "29",
+  "usage" : "O",
+  "min" : "0",
+  "max" : "1",
+  "minLength" : -1,
+  "truncation" : "NA",
+  "segment_id" : "IN1",
+  "data_element_id" : "00454"
+}, {
   "id" : 370,
+  "position" : "40",
+  "usage" : "O",
+  "min" : "0",
+  "max" : "1",
+  "minLength" : -1,
+  "truncation" : "NA",
+  "segment_id" : "IN1",
+  "data_element_id" : "00465"
+}, {
+  "id" : 371,
   "position" : "8",
   "usage" : "O",
   "min" : "0",
@@ -3699,7 +3709,7 @@
   "segment_id" : "IN1",
   "data_element_id" : "00433"
 }, {
-  "id" : 371,
+  "id" : 372,
   "position" : "24",
   "usage" : "O",
   "min" : "0",
@@ -3708,16 +3718,6 @@
   "truncation" : "NA",
   "segment_id" : "IN1",
   "data_element_id" : "00449"
-}, {
-  "id" : 372,
-  "position" : "40",
-  "usage" : "B",
-  "min" : "0",
-  "max" : "1",
-  "minLength" : -1,
-  "truncation" : "NA",
-  "segment_id" : "IN1",
-  "data_element_id" : "00465"
 }, {
   "id" : 373,
   "position" : "3",
@@ -3750,26 +3750,6 @@
   "data_element_id" : "00460"
 }, {
   "id" : 376,
-  "position" : "14",
-  "usage" : "O",
-  "min" : "0",
-  "max" : "1",
-  "minLength" : -1,
-  "truncation" : "NA",
-  "segment_id" : "IN1",
-  "data_element_id" : "00439"
-}, {
-  "id" : 377,
-  "position" : "30",
-  "usage" : "O",
-  "min" : "0",
-  "max" : "*",
-  "minLength" : -1,
-  "truncation" : "NA",
-  "segment_id" : "IN1",
-  "data_element_id" : "00455"
-}, {
-  "id" : 378,
   "position" : "46",
   "usage" : "O",
   "min" : "0",
@@ -3779,7 +3759,37 @@
   "segment_id" : "IN1",
   "data_element_id" : "00471"
 }, {
+  "id" : 377,
+  "position" : "14",
+  "usage" : "O",
+  "min" : "0",
+  "max" : "1",
+  "minLength" : -1,
+  "truncation" : "NA",
+  "segment_id" : "IN1",
+  "data_element_id" : "00439"
+}, {
+  "id" : 378,
+  "position" : "30",
+  "usage" : "O",
+  "min" : "0",
+  "max" : "*",
+  "minLength" : -1,
+  "truncation" : "NA",
+  "segment_id" : "IN1",
+  "data_element_id" : "00455"
+}, {
   "id" : 379,
+  "position" : "41",
+  "usage" : "O",
+  "min" : "0",
+  "max" : "1",
+  "minLength" : -1,
+  "truncation" : "NA",
+  "segment_id" : "IN1",
+  "data_element_id" : "00466"
+}, {
+  "id" : 380,
   "position" : "9",
   "usage" : "O",
   "min" : "0",
@@ -3789,7 +3799,7 @@
   "segment_id" : "IN1",
   "data_element_id" : "00434"
 }, {
-  "id" : 380,
+  "id" : 381,
   "position" : "25",
   "usage" : "O",
   "min" : "0",
@@ -3798,16 +3808,6 @@
   "truncation" : "NA",
   "segment_id" : "IN1",
   "data_element_id" : "00450"
-}, {
-  "id" : 381,
-  "position" : "41",
-  "usage" : "B",
-  "min" : "0",
-  "max" : "1",
-  "minLength" : -1,
-  "truncation" : "NA",
-  "segment_id" : "IN1",
-  "data_element_id" : "00466"
 }, {
   "id" : 382,
   "position" : "4",
@@ -3840,26 +3840,6 @@
   "data_element_id" : "00461"
 }, {
   "id" : 385,
-  "position" : "15",
-  "usage" : "O",
-  "min" : "0",
-  "max" : "1",
-  "minLength" : -1,
-  "truncation" : "NA",
-  "segment_id" : "IN1",
-  "data_element_id" : "00440"
-}, {
-  "id" : 386,
-  "position" : "31",
-  "usage" : "O",
-  "min" : "0",
-  "max" : "1",
-  "minLength" : -1,
-  "truncation" : "NA",
-  "segment_id" : "IN1",
-  "data_element_id" : "00456"
-}, {
-  "id" : 387,
   "position" : "47",
   "usage" : "O",
   "min" : "0",
@@ -3869,7 +3849,37 @@
   "segment_id" : "IN1",
   "data_element_id" : "01227"
 }, {
+  "id" : 386,
+  "position" : "15",
+  "usage" : "O",
+  "min" : "0",
+  "max" : "1",
+  "minLength" : -1,
+  "truncation" : "NA",
+  "segment_id" : "IN1",
+  "data_element_id" : "00440"
+}, {
+  "id" : 387,
+  "position" : "31",
+  "usage" : "O",
+  "min" : "0",
+  "max" : "1",
+  "minLength" : -1,
+  "truncation" : "NA",
+  "segment_id" : "IN1",
+  "data_element_id" : "00456"
+}, {
   "id" : 388,
+  "position" : "42",
+  "usage" : "O",
+  "min" : "0",
+  "max" : "1",
+  "minLength" : -1,
+  "truncation" : "NA",
+  "segment_id" : "IN1",
+  "data_element_id" : "00467"
+}, {
+  "id" : 389,
   "position" : "10",
   "usage" : "O",
   "min" : "0",
@@ -3879,7 +3889,7 @@
   "segment_id" : "IN1",
   "data_element_id" : "00435"
 }, {
-  "id" : 389,
+  "id" : 390,
   "position" : "26",
   "usage" : "O",
   "min" : "0",
@@ -3888,16 +3898,6 @@
   "truncation" : "NA",
   "segment_id" : "IN1",
   "data_element_id" : "00451"
-}, {
-  "id" : 390,
-  "position" : "42",
-  "usage" : "O",
-  "min" : "0",
-  "max" : "1",
-  "minLength" : -1,
-  "truncation" : "NA",
-  "segment_id" : "IN1",
-  "data_element_id" : "00467"
 }, {
   "id" : 391,
   "position" : "5",
@@ -3930,26 +3930,6 @@
   "data_element_id" : "00462"
 }, {
   "id" : 394,
-  "position" : "16",
-  "usage" : "O",
-  "min" : "0",
-  "max" : "*",
-  "minLength" : -1,
-  "truncation" : "NA",
-  "segment_id" : "IN1",
-  "data_element_id" : "00441"
-}, {
-  "id" : 395,
-  "position" : "32",
-  "usage" : "O",
-  "min" : "0",
-  "max" : "1",
-  "minLength" : -1,
-  "truncation" : "NA",
-  "segment_id" : "IN1",
-  "data_element_id" : "00457"
-}, {
-  "id" : 396,
   "position" : "48",
   "usage" : "O",
   "min" : "0",
@@ -3959,7 +3939,37 @@
   "segment_id" : "IN1",
   "data_element_id" : "00753"
 }, {
+  "id" : 395,
+  "position" : "16",
+  "usage" : "O",
+  "min" : "0",
+  "max" : "*",
+  "minLength" : -1,
+  "truncation" : "NA",
+  "segment_id" : "IN1",
+  "data_element_id" : "00441"
+}, {
+  "id" : 396,
+  "position" : "32",
+  "usage" : "O",
+  "min" : "0",
+  "max" : "1",
+  "minLength" : -1,
+  "truncation" : "NA",
+  "segment_id" : "IN1",
+  "data_element_id" : "00457"
+}, {
   "id" : 397,
+  "position" : "43",
+  "usage" : "O",
+  "min" : "0",
+  "max" : "1",
+  "minLength" : -1,
+  "truncation" : "NA",
+  "segment_id" : "IN1",
+  "data_element_id" : "00468"
+}, {
+  "id" : 398,
   "position" : "11",
   "usage" : "O",
   "min" : "0",
@@ -3969,7 +3979,7 @@
   "segment_id" : "IN1",
   "data_element_id" : "00436"
 }, {
-  "id" : 398,
+  "id" : 399,
   "position" : "27",
   "usage" : "O",
   "min" : "0",
@@ -3978,16 +3988,6 @@
   "truncation" : "NA",
   "segment_id" : "IN1",
   "data_element_id" : "00452"
-}, {
-  "id" : 399,
-  "position" : "43",
-  "usage" : "O",
-  "min" : "0",
-  "max" : "1",
-  "minLength" : -1,
-  "truncation" : "NA",
-  "segment_id" : "IN1",
-  "data_element_id" : "00468"
 }, {
   "id" : 400,
   "position" : "6",
@@ -4011,7 +4011,7 @@
 }, {
   "id" : 402,
   "position" : "38",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -4020,36 +4020,6 @@
   "data_element_id" : "00463"
 }, {
   "id" : 403,
-  "position" : "1",
-  "usage" : "R",
-  "min" : "1",
-  "max" : "1",
-  "minLength" : -1,
-  "truncation" : "NA",
-  "segment_id" : "IN1",
-  "data_element_id" : "00426"
-}, {
-  "id" : 404,
-  "position" : "17",
-  "usage" : "O",
-  "min" : "0",
-  "max" : "1",
-  "minLength" : -1,
-  "truncation" : "NA",
-  "segment_id" : "IN1",
-  "data_element_id" : "00442"
-}, {
-  "id" : 405,
-  "position" : "33",
-  "usage" : "O",
-  "min" : "0",
-  "max" : "1",
-  "minLength" : -1,
-  "truncation" : "NA",
-  "segment_id" : "IN1",
-  "data_element_id" : "00458"
-}, {
-  "id" : 406,
   "position" : "49",
   "usage" : "O",
   "min" : "0",
@@ -4059,7 +4029,47 @@
   "segment_id" : "IN1",
   "data_element_id" : "01230"
 }, {
+  "id" : 404,
+  "position" : "1",
+  "usage" : "R",
+  "min" : "1",
+  "max" : "1",
+  "minLength" : -1,
+  "truncation" : "NA",
+  "segment_id" : "IN1",
+  "data_element_id" : "00426"
+}, {
+  "id" : 405,
+  "position" : "17",
+  "usage" : "O",
+  "min" : "0",
+  "max" : "1",
+  "minLength" : -1,
+  "truncation" : "NA",
+  "segment_id" : "IN1",
+  "data_element_id" : "00442"
+}, {
+  "id" : 406,
+  "position" : "33",
+  "usage" : "O",
+  "min" : "0",
+  "max" : "1",
+  "minLength" : -1,
+  "truncation" : "NA",
+  "segment_id" : "IN1",
+  "data_element_id" : "00458"
+}, {
   "id" : 407,
+  "position" : "44",
+  "usage" : "O",
+  "min" : "0",
+  "max" : "*",
+  "minLength" : -1,
+  "truncation" : "NA",
+  "segment_id" : "IN1",
+  "data_element_id" : "00469"
+}, {
+  "id" : 408,
   "position" : "12",
   "usage" : "O",
   "min" : "0",
@@ -4069,7 +4079,7 @@
   "segment_id" : "IN1",
   "data_element_id" : "00437"
 }, {
-  "id" : 408,
+  "id" : 409,
   "position" : "28",
   "usage" : "O",
   "min" : "0",
@@ -4078,16 +4088,6 @@
   "truncation" : "NA",
   "segment_id" : "IN1",
   "data_element_id" : "00453"
-}, {
-  "id" : 409,
-  "position" : "44",
-  "usage" : "O",
-  "min" : "0",
-  "max" : "*",
-  "minLength" : -1,
-  "truncation" : "NA",
-  "segment_id" : "IN1",
-  "data_element_id" : "00469"
 }, {
   "id" : 410,
   "position" : "7",
@@ -5741,7 +5741,7 @@
 }, {
   "id" : 575,
   "position" : "5",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -9341,7 +9341,7 @@
 }, {
   "id" : 935,
   "position" : "12",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -9381,7 +9381,7 @@
 }, {
   "id" : 939,
   "position" : "2",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -9451,7 +9451,7 @@
 }, {
   "id" : 946,
   "position" : "19",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -9501,7 +9501,7 @@
 }, {
   "id" : 951,
   "position" : "4",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "*",
   "minLength" : -1,
@@ -9591,7 +9591,7 @@
 }, {
   "id" : 960,
   "position" : "8",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "*",
   "minLength" : -1,
@@ -9631,7 +9631,7 @@
 }, {
   "id" : 964,
   "position" : "4",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -9681,7 +9681,7 @@
 }, {
   "id" : 969,
   "position" : "11",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "*",
   "minLength" : -1,
@@ -9711,7 +9711,7 @@
 }, {
   "id" : 972,
   "position" : "12",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "*",
   "minLength" : -1,
@@ -10591,7 +10591,7 @@
 }, {
   "id" : 1060,
   "position" : "40",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -13960,16 +13960,6 @@
   "data_element_id" : "00921"
 }, {
   "id" : 1397,
-  "position" : "19",
-  "usage" : "O",
-  "min" : "0",
-  "max" : "1",
-  "minLength" : -1,
-  "truncation" : "NA",
-  "segment_id" : "TXA",
-  "data_element_id" : "00930"
-}, {
-  "id" : 1398,
   "position" : "3",
   "usage" : "C",
   "min" : "0",
@@ -13978,6 +13968,16 @@
   "truncation" : "NA",
   "segment_id" : "TXA",
   "data_element_id" : "00916"
+}, {
+  "id" : 1398,
+  "position" : "19",
+  "usage" : "O",
+  "min" : "0",
+  "max" : "1",
+  "minLength" : -1,
+  "truncation" : "NA",
+  "segment_id" : "TXA",
+  "data_element_id" : "00930"
 }, {
   "id" : 1399,
   "position" : "14",
@@ -14000,16 +14000,6 @@
   "data_element_id" : "00922"
 }, {
   "id" : 1401,
-  "position" : "20",
-  "usage" : "O",
-  "min" : "0",
-  "max" : "1",
-  "minLength" : -1,
-  "truncation" : "NA",
-  "segment_id" : "TXA",
-  "data_element_id" : "00932"
-}, {
-  "id" : 1402,
   "position" : "4",
   "usage" : "O",
   "min" : "0",
@@ -14018,6 +14008,16 @@
   "truncation" : "NA",
   "segment_id" : "TXA",
   "data_element_id" : "00917"
+}, {
+  "id" : 1402,
+  "position" : "20",
+  "usage" : "O",
+  "min" : "0",
+  "max" : "1",
+  "minLength" : -1,
+  "truncation" : "NA",
+  "segment_id" : "TXA",
+  "data_element_id" : "00932"
 }, {
   "id" : 1403,
   "position" : "15",
@@ -14040,16 +14040,6 @@
   "data_element_id" : "00923"
 }, {
   "id" : 1405,
-  "position" : "21",
-  "usage" : "C",
-  "min" : "0",
-  "max" : "1",
-  "minLength" : -1,
-  "truncation" : "NA",
-  "segment_id" : "TXA",
-  "data_element_id" : "00933"
-}, {
-  "id" : 1406,
   "position" : "5",
   "usage" : "C",
   "min" : "0",
@@ -14058,6 +14048,16 @@
   "truncation" : "NA",
   "segment_id" : "TXA",
   "data_element_id" : "00918"
+}, {
+  "id" : 1406,
+  "position" : "21",
+  "usage" : "C",
+  "min" : "0",
+  "max" : "1",
+  "minLength" : -1,
+  "truncation" : "NA",
+  "segment_id" : "TXA",
+  "data_element_id" : "00933"
 }, {
   "id" : 1407,
   "position" : "16",
@@ -14080,16 +14080,6 @@
   "data_element_id" : "00924"
 }, {
   "id" : 1409,
-  "position" : "22",
-  "usage" : "C",
-  "min" : "0",
-  "max" : "*",
-  "minLength" : -1,
-  "truncation" : "NA",
-  "segment_id" : "TXA",
-  "data_element_id" : "00934"
-}, {
-  "id" : 1410,
   "position" : "6",
   "usage" : "O",
   "min" : "0",
@@ -14099,17 +14089,17 @@
   "segment_id" : "TXA",
   "data_element_id" : "00919"
 }, {
-  "id" : 1411,
-  "position" : "17",
-  "usage" : "R",
-  "min" : "1",
-  "max" : "1",
+  "id" : 1410,
+  "position" : "22",
+  "usage" : "C",
+  "min" : "0",
+  "max" : "*",
   "minLength" : -1,
   "truncation" : "NA",
   "segment_id" : "TXA",
-  "data_element_id" : "00928"
+  "data_element_id" : "00934"
 }, {
-  "id" : 1412,
+  "id" : 1411,
   "position" : "1",
   "usage" : "R",
   "min" : "1",
@@ -14118,6 +14108,16 @@
   "truncation" : "NA",
   "segment_id" : "TXA",
   "data_element_id" : "00914"
+}, {
+  "id" : 1412,
+  "position" : "17",
+  "usage" : "R",
+  "min" : "1",
+  "max" : "1",
+  "minLength" : -1,
+  "truncation" : "NA",
+  "segment_id" : "TXA",
+  "data_element_id" : "00928"
 }, {
   "id" : 1413,
   "position" : "12",
@@ -14130,16 +14130,6 @@
   "data_element_id" : "00925"
 }, {
   "id" : 1414,
-  "position" : "23",
-  "usage" : "O",
-  "min" : "0",
-  "max" : "*",
-  "minLength" : -1,
-  "truncation" : "NA",
-  "segment_id" : "TXA",
-  "data_element_id" : "00935"
-}, {
-  "id" : 1415,
   "position" : "7",
   "usage" : "C",
   "min" : "0",
@@ -14149,17 +14139,17 @@
   "segment_id" : "TXA",
   "data_element_id" : "00920"
 }, {
-  "id" : 1416,
-  "position" : "18",
+  "id" : 1415,
+  "position" : "23",
   "usage" : "O",
   "min" : "0",
-  "max" : "1",
+  "max" : "*",
   "minLength" : -1,
   "truncation" : "NA",
   "segment_id" : "TXA",
-  "data_element_id" : "00929"
+  "data_element_id" : "00935"
 }, {
-  "id" : 1417,
+  "id" : 1416,
   "position" : "2",
   "usage" : "R",
   "min" : "1",
@@ -14168,6 +14158,16 @@
   "truncation" : "NA",
   "segment_id" : "TXA",
   "data_element_id" : "00915"
+}, {
+  "id" : 1417,
+  "position" : "18",
+  "usage" : "O",
+  "min" : "0",
+  "max" : "1",
+  "minLength" : -1,
+  "truncation" : "NA",
+  "segment_id" : "TXA",
+  "data_element_id" : "00929"
 }, {
   "id" : 1418,
   "position" : "13",
@@ -14231,7 +14231,7 @@
 }, {
   "id" : 1424,
   "position" : "2",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,

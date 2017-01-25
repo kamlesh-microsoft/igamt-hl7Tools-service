@@ -752,6 +752,7 @@ public class HL72JSONConverter implements Runnable {
       cmp.setId(++componentIncr);
       cmp.setParentDatatypeId(rs.getString("data_structure"));
       cmp.setDatatypeId(rs.getString("data_type_code"));
+      fixComponentDatatype(cmp);
       cmp.setPosition(componentIncr);
       cmp.setDescription(rs.getString("description"));
       cmp.setUsage(Usage.fromValue(rs.getString("req_opt")));
@@ -768,6 +769,26 @@ public class HL72JSONConverter implements Runnable {
       return cmp;
     }
   };
+
+  /**
+   * We could write code to detect when the 5 level nesting occurs. Assuming it is only for the case
+   * of a field with component that has a DT of DR and then a TS (which contains a DTM), we could
+   * just substitute DTM for TS.
+   * 
+   * @param datatype
+   * @param component
+   */
+  private void fixComponentDatatype(Component component) {
+    String oldDatatypeId = component.getDatatypeId();
+    String parentDatatypeId = component.getParentDatatypeId();
+    if ("TS".equals(oldDatatypeId)
+        && ("DR".equals(parentDatatypeId) || "DT".equals(parentDatatypeId))) {
+      log.info("Found component with datatype = " + oldDatatypeId + ", belonging to datatype ="
+          + parentDatatypeId);
+      component.setDatatypeId("DTM");
+    }
+  }
+
 
   public String SQL4_CODE() {
     StringBuilder bld = new StringBuilder();

@@ -151,7 +151,7 @@
 }, {
   "id" : 16,
   "position" : "4",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -821,7 +821,7 @@
 }, {
   "id" : 83,
   "position" : "6",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -2150,16 +2150,6 @@
   "data_element_id" : "00987"
 }, {
   "id" : 216,
-  "position" : "20",
-  "usage" : "O",
-  "min" : "0",
-  "max" : "1",
-  "minLength" : -1,
-  "truncation" : "NA",
-  "segment_id" : "CER",
-  "data_element_id" : "01873"
-}, {
-  "id" : 217,
   "position" : "4",
   "usage" : "O",
   "min" : "0",
@@ -2168,6 +2158,16 @@
   "truncation" : "NA",
   "segment_id" : "CER",
   "data_element_id" : "01859"
+}, {
+  "id" : 217,
+  "position" : "20",
+  "usage" : "O",
+  "min" : "0",
+  "max" : "1",
+  "minLength" : -1,
+  "truncation" : "NA",
+  "segment_id" : "CER",
+  "data_element_id" : "01873"
 }, {
   "id" : 218,
   "position" : "15",
@@ -2210,16 +2210,6 @@
   "data_element_id" : "01879"
 }, {
   "id" : 222,
-  "position" : "21",
-  "usage" : "O",
-  "min" : "0",
-  "max" : "1",
-  "minLength" : -1,
-  "truncation" : "NA",
-  "segment_id" : "CER",
-  "data_element_id" : "01874"
-}, {
-  "id" : 223,
   "position" : "5",
   "usage" : "O",
   "min" : "0",
@@ -2228,6 +2218,16 @@
   "truncation" : "NA",
   "segment_id" : "CER",
   "data_element_id" : "01860"
+}, {
+  "id" : 223,
+  "position" : "21",
+  "usage" : "O",
+  "min" : "0",
+  "max" : "1",
+  "minLength" : -1,
+  "truncation" : "NA",
+  "segment_id" : "CER",
+  "data_element_id" : "01874"
 }, {
   "id" : 224,
   "position" : "16",
@@ -2260,16 +2260,6 @@
   "data_element_id" : "01880"
 }, {
   "id" : 227,
-  "position" : "22",
-  "usage" : "O",
-  "min" : "0",
-  "max" : "*",
-  "minLength" : -1,
-  "truncation" : "NA",
-  "segment_id" : "CER",
-  "data_element_id" : "01895"
-}, {
-  "id" : 228,
   "position" : "6",
   "usage" : "O",
   "min" : "0",
@@ -2279,17 +2269,17 @@
   "segment_id" : "CER",
   "data_element_id" : "01861"
 }, {
-  "id" : 229,
-  "position" : "17",
+  "id" : 228,
+  "position" : "22",
   "usage" : "O",
   "min" : "0",
-  "max" : "1",
+  "max" : "*",
   "minLength" : -1,
   "truncation" : "NA",
   "segment_id" : "CER",
-  "data_element_id" : "01871"
+  "data_element_id" : "01895"
 }, {
-  "id" : 230,
+  "id" : 229,
   "position" : "1",
   "usage" : "R",
   "min" : "1",
@@ -2298,6 +2288,16 @@
   "truncation" : "NA",
   "segment_id" : "CER",
   "data_element_id" : "01856"
+}, {
+  "id" : 230,
+  "position" : "17",
+  "usage" : "O",
+  "min" : "0",
+  "max" : "1",
+  "minLength" : -1,
+  "truncation" : "NA",
+  "segment_id" : "CER",
+  "data_element_id" : "01871"
 }, {
   "id" : 231,
   "position" : "12",
@@ -2320,16 +2320,6 @@
   "data_element_id" : "01881"
 }, {
   "id" : 233,
-  "position" : "23",
-  "usage" : "O",
-  "min" : "0",
-  "max" : "1",
-  "minLength" : -1,
-  "truncation" : "NA",
-  "segment_id" : "CER",
-  "data_element_id" : "01876"
-}, {
-  "id" : 234,
   "position" : "7",
   "usage" : "O",
   "min" : "0",
@@ -2339,17 +2329,17 @@
   "segment_id" : "CER",
   "data_element_id" : "01862"
 }, {
-  "id" : 235,
-  "position" : "18",
+  "id" : 234,
+  "position" : "23",
   "usage" : "O",
   "min" : "0",
-  "max" : "*",
+  "max" : "1",
   "minLength" : -1,
   "truncation" : "NA",
   "segment_id" : "CER",
-  "data_element_id" : "01872"
+  "data_element_id" : "01876"
 }, {
-  "id" : 236,
+  "id" : 235,
   "position" : "2",
   "usage" : "O",
   "min" : "0",
@@ -2358,6 +2348,16 @@
   "truncation" : "NA",
   "segment_id" : "CER",
   "data_element_id" : "01857"
+}, {
+  "id" : 236,
+  "position" : "18",
+  "usage" : "O",
+  "min" : "0",
+  "max" : "*",
+  "minLength" : -1,
+  "truncation" : "NA",
+  "segment_id" : "CER",
+  "data_element_id" : "01872"
 }, {
   "id" : 237,
   "position" : "13",
@@ -2380,16 +2380,6 @@
   "data_element_id" : "01882"
 }, {
   "id" : 239,
-  "position" : "24",
-  "usage" : "O",
-  "min" : "0",
-  "max" : "1",
-  "minLength" : -1,
-  "truncation" : "NA",
-  "segment_id" : "CER",
-  "data_element_id" : "01877"
-}, {
-  "id" : 240,
   "position" : "8",
   "usage" : "O",
   "min" : "0",
@@ -2399,17 +2389,17 @@
   "segment_id" : "CER",
   "data_element_id" : "01863"
 }, {
-  "id" : 241,
-  "position" : "19",
+  "id" : 240,
+  "position" : "24",
   "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
   "truncation" : "NA",
   "segment_id" : "CER",
-  "data_element_id" : "01875"
+  "data_element_id" : "01877"
 }, {
-  "id" : 242,
+  "id" : 241,
   "position" : "3",
   "usage" : "O",
   "min" : "0",
@@ -2418,6 +2408,16 @@
   "truncation" : "NA",
   "segment_id" : "CER",
   "data_element_id" : "01858"
+}, {
+  "id" : 242,
+  "position" : "19",
+  "usage" : "O",
+  "min" : "0",
+  "max" : "1",
+  "minLength" : -1,
+  "truncation" : "NA",
+  "segment_id" : "CER",
+  "data_element_id" : "01875"
 }, {
   "id" : 243,
   "position" : "14",
@@ -2440,16 +2440,6 @@
   "data_element_id" : "01883"
 }, {
   "id" : 245,
-  "position" : "25",
-  "usage" : "O",
-  "min" : "0",
-  "max" : "1",
-  "minLength" : -1,
-  "truncation" : "NA",
-  "segment_id" : "CER",
-  "data_element_id" : "01878"
-}, {
-  "id" : 246,
   "position" : "9",
   "usage" : "O",
   "min" : "0",
@@ -2458,6 +2448,16 @@
   "truncation" : "NA",
   "segment_id" : "CER",
   "data_element_id" : "01864"
+}, {
+  "id" : 246,
+  "position" : "25",
+  "usage" : "O",
+  "min" : "0",
+  "max" : "1",
+  "minLength" : -1,
+  "truncation" : "NA",
+  "segment_id" : "CER",
+  "data_element_id" : "01878"
 }, {
   "id" : 247,
   "position" : "5",
@@ -3361,7 +3361,7 @@
 }, {
   "id" : 337,
   "position" : "11",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -3401,7 +3401,7 @@
 }, {
   "id" : 341,
   "position" : "12",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -3411,7 +3411,7 @@
 }, {
   "id" : 342,
   "position" : "7",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -3441,7 +3441,7 @@
 }, {
   "id" : 345,
   "position" : "13",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -3451,7 +3451,7 @@
 }, {
   "id" : 346,
   "position" : "8",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -3481,7 +3481,7 @@
 }, {
   "id" : 349,
   "position" : "14",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -3491,7 +3491,7 @@
 }, {
   "id" : 350,
   "position" : "9",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -3501,7 +3501,7 @@
 }, {
   "id" : 351,
   "position" : "4",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -3531,7 +3531,7 @@
 }, {
   "id" : 354,
   "position" : "10",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -3751,7 +3751,7 @@
 }, {
   "id" : 376,
   "position" : "4",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -4181,7 +4181,7 @@
 }, {
   "id" : 419,
   "position" : "1",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "*",
   "minLength" : -1,
@@ -4221,7 +4221,7 @@
 }, {
   "id" : 423,
   "position" : "1",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -4581,7 +4581,7 @@
 }, {
   "id" : 459,
   "position" : "8",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -4641,7 +4641,7 @@
 }, {
   "id" : 465,
   "position" : "9",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -6261,7 +6261,7 @@
 }, {
   "id" : 627,
   "position" : "40",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -6361,7 +6361,7 @@
 }, {
   "id" : 637,
   "position" : "41",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -6591,7 +6591,7 @@
 }, {
   "id" : 660,
   "position" : "38",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -7751,7 +7751,7 @@
 }, {
   "id" : 776,
   "position" : "14",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -8571,7 +8571,7 @@
 }, {
   "id" : 858,
   "position" : "4",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -8621,7 +8621,7 @@
 }, {
   "id" : 863,
   "position" : "2",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "*",
   "minLength" : -1,
@@ -8641,7 +8641,7 @@
 }, {
   "id" : 865,
   "position" : "3",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -8661,7 +8661,7 @@
 }, {
   "id" : 867,
   "position" : "5",
-  "usage" : "W",
+  "usage" : "X",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -8671,7 +8671,7 @@
 }, {
   "id" : 868,
   "position" : "6",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -9801,7 +9801,7 @@
 }, {
   "id" : 981,
   "position" : "14",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -9891,7 +9891,7 @@
 }, {
   "id" : 990,
   "position" : "15",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -9951,7 +9951,7 @@
 }, {
   "id" : 996,
   "position" : "5",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -10021,7 +10021,7 @@
 }, {
   "id" : 1003,
   "position" : "27",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "*",
   "minLength" : -1,
@@ -10041,7 +10041,7 @@
 }, {
   "id" : 1005,
   "position" : "6",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -11661,7 +11661,7 @@
 }, {
   "id" : 1167,
   "position" : "7",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "*",
   "minLength" : -1,
@@ -12281,7 +12281,7 @@
 }, {
   "id" : 1229,
   "position" : "4",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "*",
   "minLength" : -1,
@@ -13171,7 +13171,7 @@
 }, {
   "id" : 1318,
   "position" : "12",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -13181,7 +13181,7 @@
 }, {
   "id" : 1319,
   "position" : "28",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -13221,7 +13221,7 @@
 }, {
   "id" : 1323,
   "position" : "2",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -13301,7 +13301,7 @@
 }, {
   "id" : 1331,
   "position" : "19",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -13341,7 +13341,7 @@
 }, {
   "id" : 1335,
   "position" : "9",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "*",
   "minLength" : -1,
@@ -13361,7 +13361,7 @@
 }, {
   "id" : 1337,
   "position" : "4",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "*",
   "minLength" : -1,
@@ -13371,7 +13371,7 @@
 }, {
   "id" : 1338,
   "position" : "20",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -13471,7 +13471,7 @@
 }, {
   "id" : 1348,
   "position" : "4",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -13531,7 +13531,7 @@
 }, {
   "id" : 1354,
   "position" : "11",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "*",
   "minLength" : -1,
@@ -13571,7 +13571,7 @@
 }, {
   "id" : 1358,
   "position" : "12",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "*",
   "minLength" : -1,
@@ -13621,7 +13621,7 @@
 }, {
   "id" : 1363,
   "position" : "8",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "*",
   "minLength" : -1,
@@ -13681,7 +13681,7 @@
 }, {
   "id" : 1369,
   "position" : "6",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "*",
   "minLength" : -1,
@@ -14691,7 +14691,7 @@
 }, {
   "id" : 1470,
   "position" : "40",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -14771,7 +14771,7 @@
 }, {
   "id" : 1478,
   "position" : "9",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "*",
   "minLength" : -1,
@@ -14831,7 +14831,7 @@
 }, {
   "id" : 1484,
   "position" : "52",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "*",
   "minLength" : -1,
@@ -15781,7 +15781,7 @@
 }, {
   "id" : 1579,
   "position" : "2",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -15801,7 +15801,7 @@
 }, {
   "id" : 1581,
   "position" : "3",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -17221,7 +17221,7 @@
 }, {
   "id" : 1723,
   "position" : "8",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -17521,7 +17521,7 @@
 }, {
   "id" : 1753,
   "position" : "1",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -17691,7 +17691,7 @@
 }, {
   "id" : 1770,
   "position" : "3",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -18641,7 +18641,7 @@
 }, {
   "id" : 1865,
   "position" : "9",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -18691,7 +18691,7 @@
 }, {
   "id" : 1870,
   "position" : "10",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -18741,7 +18741,7 @@
 }, {
   "id" : 1875,
   "position" : "11",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "*",
   "minLength" : -1,
@@ -19721,7 +19721,7 @@
 }, {
   "id" : 1973,
   "position" : "3",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -20371,7 +20371,7 @@
 }, {
   "id" : 2038,
   "position" : "23",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -20381,7 +20381,7 @@
 }, {
   "id" : 2039,
   "position" : "2",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -20471,7 +20471,7 @@
 }, {
   "id" : 2048,
   "position" : "20",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -20511,7 +20511,7 @@
 }, {
   "id" : 2052,
   "position" : "21",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,
@@ -20551,7 +20551,7 @@
 }, {
   "id" : 2056,
   "position" : "22",
-  "usage" : "B",
+  "usage" : "O",
   "min" : "0",
   "max" : "1",
   "minLength" : -1,

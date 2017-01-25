@@ -11,7 +11,9 @@ public enum Usage {
   public static Usage fromValue(String v) {
     try {
       Usage usage = !"".equals(v) && v != null ? valueOf(v) : Usage.C;
-      if (usage.equals(Usage.B) || usage.equals(Usage.W)) {
+      if (usage.equals(Usage.B)) {
+        usage = Usage.O;
+      } else if (usage.equals(Usage.W)) {
         usage = Usage.X;
       }
       return usage;
