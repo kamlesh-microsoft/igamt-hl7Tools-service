@@ -22,6 +22,7 @@ import org.springframework.jdbc.datasource.SimpleDriverDataSource;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import gov.nist.healthcare.hl7tools.domain.CodeUsage;
 import gov.nist.healthcare.hl7tools.service.util.mock.hl7.domain.Code;
 import gov.nist.healthcare.hl7tools.service.util.mock.hl7.domain.Component;
 import gov.nist.healthcare.hl7tools.service.util.mock.hl7.domain.DataElement;
@@ -68,6 +69,7 @@ public class HL72JSONConverter implements Runnable {
 
   public HL72JSONConverter(String hl7Version) {
     try {
+
       SimpleDriverDataSource dataSource = new SimpleDriverDataSource();
       dataSource.setDriver(new com.mysql.jdbc.Driver());
       dataSource.setUrl("jdbc:mysql://localhost/mdb");
@@ -597,9 +599,7 @@ public class HL72JSONConverter implements Runnable {
       fld.setPosition(rs.getInt("seq_no"));
       String usage1 = rs.getString("req_opt");
       String usage2 = stripParens(usage1);
-      Usage usage3 = Usage.fromValue(usage2);
-      fld.setUsage(usage3);
-
+      fixUsage(fld, Usage.fromValue(usage2));
       // We use the fld.getUsage().name() here because Usage.fromValue(usage2) has already corrected
       // for bad values.
       Object[] cardinality = calcCardinality(fld.getUsage().name(), rs.getString("repetitional"),
@@ -752,10 +752,10 @@ public class HL72JSONConverter implements Runnable {
       cmp.setId(++componentIncr);
       cmp.setParentDatatypeId(rs.getString("data_structure"));
       cmp.setDatatypeId(rs.getString("data_type_code"));
-      fixComponentDatatype(cmp);
       cmp.setPosition(componentIncr);
       cmp.setDescription(rs.getString("description"));
-      cmp.setUsage(Usage.fromValue(rs.getString("req_opt")));
+      // fixComponentDatatype(cmp);
+      fixUsage(cmp, Usage.fromValue(rs.getString("req_opt")));
       cmp.setMinLength(rs.getInt("min_length"));
       cmp.setMaxLength(rs.getInt("max_length"));
       // String s = rs.getString("conf_length").replaceAll("[#=]", "");
@@ -770,23 +770,68 @@ public class HL72JSONConverter implements Runnable {
     }
   };
 
-  /**
-   * We could write code to detect when the 5 level nesting occurs. Assuming it is only for the case
-   * of a field with component that has a DT of DR and then a TS (which contains a DTM), we could
-   * just substitute DTM for TS.
-   * 
-   * @param datatype
-   * @param component
-   */
-  private void fixComponentDatatype(Component component) {
-    String oldDatatypeId = component.getDatatypeId();
-    String parentDatatypeId = component.getParentDatatypeId();
-    if ("TS".equals(oldDatatypeId)
-        && ("DR".equals(parentDatatypeId) || "DT".equals(parentDatatypeId))) {
-      log.info("Found component with datatype = " + oldDatatypeId + ", belonging to datatype ="
-          + parentDatatypeId);
-      component.setDatatypeId("DTM");
+  // private String getStartTableTag() {
+  // return "<table><thead><tr><th>Type</th><th>Path</th><th>Old Value</th><th>New
+  // Value</th></tr><thead><tbody>";
+  // }
+  //
+  // private String getEndTableTag() {
+  // return "</tbody></table>";
+  // }
+
+
+
+  // /**
+  // * We could write code to detect when the 5 level nesting occurs. Assuming it is only for the
+  // case
+  // * of a field with component that has a DT of DR and then a TS (which contains a DTM), we could
+  // * just substitute DTM for TS.
+  // *
+  // * @param datatype
+  // * @param component
+  // */
+  // private void fixComponentDatatype(Component component) {
+  // String oldDatatypeId = component.getDatatypeId();
+  // String parentDatatypeId = component.getParentDatatypeId();
+  // if ("TS".equals(oldDatatypeId)
+  // && ("DR".equals(parentDatatypeId) || "DT".equals(parentDatatypeId))) {
+  // log.info("Found component with datatype = " + oldDatatypeId + ", belonging to datatype ="
+  // + parentDatatypeId);
+  // component.setDatatypeId("DTM");
+  // DecisionUtil.writeDatatypeDecision("<tr><td>Component</td><td>" + parentDatatypeId + "-"
+  // + component.getPosition() + "</td><td>" + oldDatatypeId + "</td><td> "
+  // + component.getDatatypeId() + "</td></tr>", this.hl7Version);
+  // }
+  // }
+
+  private void fixUsage(Component component, Usage usage) {
+    Usage newUsage = getFixedUsage(usage);
+    component.setUsage(newUsage);
+    // if (!newUsage.equals(usage)) {
+    // DecisionUtil.writeUsageDecision("<tr><td>Component</td><td>" +
+    // component.getParentDatatypeId()
+    // + "-" + component.getPosition() + "</td><td>" + usage + "</td><td>" + newUsage
+    // + "</td></tr>", this.hl7Version);
+    // }
+  }
+
+  private void fixUsage(Field field, Usage usage) {
+    Usage newUsage = getFixedUsage(usage);
+    field.setUsage(newUsage);
+    // if (!newUsage.equals(usage)) {
+    // DecisionUtil.writeUsageDecision("<tr><td>Field</td><td>" + field.getSegmentId() + "-"
+    // + field.getPosition() + "</td><td>" + usage + "</td><td>" + newUsage + "</td></tr>",
+    // this.hl7Version);
+    // }
+  }
+
+  private Usage getFixedUsage(Usage usage) {
+    if (usage.equals(Usage.B)) {
+      usage = Usage.O;
+    } else if (usage.equals(Usage.W)) {
+      usage = Usage.X;
     }
+    return usage;
   }
 
 
@@ -820,7 +865,7 @@ public class HL72JSONConverter implements Runnable {
           cd.setTableId(s);
           cd.setName(rs.getString("table_value"));
           cd.setDescription(rs.getString("description_as_pub"));
-          cd.setUsage(Usage.fromValue("F"));
+          cd.setUsage(CodeUsage.P);
           return cd;
         }
       };
@@ -1030,4 +1075,7 @@ public class HL72JSONConverter implements Runnable {
       return it;
     }
   };
+
+
+
 }
