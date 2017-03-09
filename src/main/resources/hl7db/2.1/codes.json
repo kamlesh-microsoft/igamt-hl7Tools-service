@@ -44,11 +44,6 @@
   "usage" : "P",
   "table_id" : "0002"
 }, {
-  "name" : "A05",
-  "description" : "Pre-admit a Patient",
-  "usage" : "P",
-  "table_id" : "0003"
-}, {
   "name" : "A13",
   "description" : "Cancel discharge",
   "usage" : "P",
@@ -64,8 +59,8 @@
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "A08",
-  "description" : "Update patient information",
+  "name" : "A05",
+  "description" : "Pre-admit a Patient",
   "usage" : "P",
   "table_id" : "0003"
 }, {
@@ -84,8 +79,8 @@
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "A03",
-  "description" : "Discharge a Patient",
+  "name" : "A08",
+  "description" : "Update patient information",
   "usage" : "P",
   "table_id" : "0003"
 }, {
@@ -104,8 +99,8 @@
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "A06",
-  "description" : "Transfer an outpatient to inpatient",
+  "name" : "A03",
+  "description" : "Discharge a Patient",
   "usage" : "P",
   "table_id" : "0003"
 }, {
@@ -124,8 +119,8 @@
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "A01",
-  "description" : "Admit a patient",
+  "name" : "A06",
+  "description" : "Transfer an outpatient to inpatient",
   "usage" : "P",
   "table_id" : "0003"
 }, {
@@ -149,8 +144,8 @@
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "A04",
-  "description" : "Register a Patient",
+  "name" : "A01",
+  "description" : "Admit a patient",
   "usage" : "P",
   "table_id" : "0003"
 }, {
@@ -169,8 +164,8 @@
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "A07",
-  "description" : "Transfer an Inpatient to Outpatient",
+  "name" : "A04",
+  "description" : "Register a Patient",
   "usage" : "P",
   "table_id" : "0003"
 }, {
@@ -189,8 +184,8 @@
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "A02",
-  "description" : "Transfer a Patient",
+  "name" : "A07",
+  "description" : "Transfer an Inpatient to Outpatient",
   "usage" : "P",
   "table_id" : "0003"
 }, {
@@ -211,6 +206,11 @@
 }, {
   "name" : "R03",
   "description" : "Display oriented results, query/unsol. update",
+  "usage" : "P",
+  "table_id" : "0003"
+}, {
+  "name" : "A02",
+  "description" : "Transfer a Patient",
   "usage" : "P",
   "table_id" : "0003"
 }, {
@@ -354,13 +354,13 @@
   "usage" : "P",
   "table_id" : "0009"
 }, {
-  "name" : "A8",
-  "description" : "Non-English Speaking",
+  "name" : "A0",
+  "description" : "No functional limitations",
   "usage" : "P",
   "table_id" : "0009"
 }, {
-  "name" : "A0",
-  "description" : "No functional limitations",
+  "name" : "A8",
+  "description" : "Non-English Speaking",
   "usage" : "P",
   "table_id" : "0009"
 }, {
@@ -384,13 +384,13 @@
   "usage" : "P",
   "table_id" : "0009"
 }, {
-  "name" : "A9",
-  "description" : "Functional level unknown",
+  "name" : "A1",
+  "description" : "Ambulates with assistive device",
   "usage" : "P",
   "table_id" : "0009"
 }, {
-  "name" : "A1",
-  "description" : "Ambulates with assistive device",
+  "name" : "A9",
+  "description" : "Functional level unknown",
   "usage" : "P",
   "table_id" : "0009"
 }, {
@@ -439,13 +439,13 @@
   "usage" : "P",
   "table_id" : "0016"
 }, {
-  "name" : "1",
-  "description" : "Blood and Needle Precautions",
+  "name" : "9",
+  "description" : "Precautions",
   "usage" : "P",
   "table_id" : "0016"
 }, {
-  "name" : "9",
-  "description" : "Precautions",
+  "name" : "1",
+  "description" : "Blood and Needle Precautions",
   "usage" : "P",
   "table_id" : "0016"
 }, {
@@ -469,13 +469,13 @@
   "usage" : "P",
   "table_id" : "0016"
 }, {
-  "name" : "0",
-  "description" : "Antibiotic Resistance Precautions",
+  "name" : "8",
+  "description" : "Wound and skin Precautions",
   "usage" : "P",
   "table_id" : "0016"
 }, {
-  "name" : "8",
-  "description" : "Wound and skin Precautions",
+  "name" : "0",
+  "description" : "Antibiotic Resistance Precautions",
   "usage" : "P",
   "table_id" : "0016"
 }, {
@@ -734,18 +734,13 @@
   "usage" : "P",
   "table_id" : "0038"
 }, {
-  "name" : "CM",
-  "description" : "Order is completed",
-  "usage" : "P",
-  "table_id" : "0038"
-}, {
   "name" : "HD",
   "description" : "Order is on hold",
   "usage" : "P",
   "table_id" : "0038"
 }, {
-  "name" : "DC",
-  "description" : "Order was discontinued",
+  "name" : "CM",
+  "description" : "Order is completed",
   "usage" : "P",
   "table_id" : "0038"
 }, {
@@ -754,13 +749,18 @@
   "usage" : "P",
   "table_id" : "0038"
 }, {
-  "name" : "RES",
-  "description" : "Result",
+  "name" : "DC",
+  "description" : "Order was discontinued",
   "usage" : "P",
-  "table_id" : "0048"
+  "table_id" : "0038"
 }, {
   "name" : "ANU",
   "description" : "Nursing Unit Look up",
+  "usage" : "P",
+  "table_id" : "0048"
+}, {
+  "name" : "RES",
+  "description" : "Result",
   "usage" : "P",
   "table_id" : "0048"
 }, {
@@ -774,13 +774,13 @@
   "usage" : "P",
   "table_id" : "0048"
 }, {
-  "name" : "STA",
-  "description" : "Status",
+  "name" : "APN",
+  "description" : "Patient name look up",
   "usage" : "P",
   "table_id" : "0048"
 }, {
-  "name" : "APN",
-  "description" : "Patient name look up",
+  "name" : "STA",
+  "description" : "Status",
   "usage" : "P",
   "table_id" : "0048"
 }, {
@@ -789,13 +789,13 @@
   "usage" : "P",
   "table_id" : "0048"
 }, {
-  "name" : "PRO",
-  "description" : "Procedure",
+  "name" : "ADV",
+  "description" : "Advice/Diagnosis",
   "usage" : "P",
   "table_id" : "0048"
 }, {
-  "name" : "ADV",
-  "description" : "Advice/Diagnosis",
+  "name" : "PRO",
+  "description" : "Procedure",
   "usage" : "P",
   "table_id" : "0048"
 }, {
@@ -864,6 +864,16 @@
   "usage" : "P",
   "table_id" : "0065"
 }, {
+  "name" : "SNV",
+  "description" : "Synovial Fluid",
+  "usage" : "P",
+  "table_id" : "0070"
+}, {
+  "name" : "WBC",
+  "description" : "Leukocytes",
+  "usage" : "P",
+  "table_id" : "0070"
+}, {
   "name" : "CNJT",
   "description" : "Conjunctiva",
   "usage" : "P",
@@ -874,13 +884,8 @@
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "SNV",
-  "description" : "Synovial Fluid",
-  "usage" : "P",
-  "table_id" : "0070"
-}, {
-  "name" : "WBC",
-  "description" : "Leukocytes",
+  "name" : "THRT",
+  "description" : "Throat",
   "usage" : "P",
   "table_id" : "0070"
 }, {
@@ -894,8 +899,13 @@
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "THRT",
-  "description" : "Throat",
+  "name" : "SER",
+  "description" : "Serum",
+  "usage" : "P",
+  "table_id" : "0070"
+}, {
+  "name" : "UR",
+  "description" : "Urine",
   "usage" : "P",
   "table_id" : "0070"
 }, {
@@ -909,13 +919,13 @@
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "SER",
-  "description" : "Serum",
+  "name" : "STL",
+  "description" : "Stool",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "UR",
-  "description" : "Urine",
+  "name" : "WND",
+  "description" : "Wound",
   "usage" : "P",
   "table_id" : "0070"
 }, {
@@ -929,13 +939,8 @@
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "STL",
-  "description" : "Stool",
-  "usage" : "P",
-  "table_id" : "0070"
-}, {
-  "name" : "WND",
-  "description" : "Wound",
+  "name" : "TIS",
+  "description" : "Tissue",
   "usage" : "P",
   "table_id" : "0070"
 }, {
@@ -949,8 +954,13 @@
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "TIS",
-  "description" : "Tissue",
+  "name" : "SKN",
+  "description" : "Skin",
+  "usage" : "P",
+  "table_id" : "0070"
+}, {
+  "name" : "URTH",
+  "description" : "Urethra",
   "usage" : "P",
   "table_id" : "0070"
 }, {
@@ -964,13 +974,8 @@
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "SKN",
-  "description" : "Skin",
-  "usage" : "P",
-  "table_id" : "0070"
-}, {
-  "name" : "URTH",
-  "description" : "Urethra",
+  "name" : "SWT",
+  "description" : "Sweat",
   "usage" : "P",
   "table_id" : "0070"
 }, {
@@ -984,8 +989,8 @@
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "SWT",
-  "description" : "Sweat",
+  "name" : "UMB",
+  "description" : "Umbilical Blood",
   "usage" : "P",
   "table_id" : "0070"
 }, {
@@ -1001,11 +1006,6 @@
 }, {
   "name" : "SEM",
   "description" : "Seminal Fluid",
-  "usage" : "P",
-  "table_id" : "0070"
-}, {
-  "name" : "UMB",
-  "description" : "Umbilical Blood",
   "usage" : "P",
   "table_id" : "0070"
 }, {
@@ -1189,13 +1189,13 @@
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "ORU",
-  "description" : "Observ. result/unsolicited   ANR       VII",
+  "name" : "ACK",
+  "description" : "General Acknowledgment       CNT       II",
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "ACK",
-  "description" : "General Acknowledgment       CNT       II",
+  "name" : "ORU",
+  "description" : "Observ. result/unsolicited   ANR       VII",
   "usage" : "P",
   "table_id" : "0076"
 }, {
@@ -1469,13 +1469,13 @@
   "usage" : "P",
   "table_id" : "0119"
 }, {
-  "name" : "DC",
-  "description" : "Discontinue order request",
+  "name" : "CA",
+  "description" : "Cancel order request",
   "usage" : "P",
   "table_id" : "0119"
 }, {
-  "name" : "CA",
-  "description" : "Cancel order request",
+  "name" : "DC",
+  "description" : "Discontinue order request",
   "usage" : "P",
   "table_id" : "0119"
 }, {
@@ -1519,8 +1519,8 @@
   "usage" : "P",
   "table_id" : "0119"
 }, {
-  "name" : "DE",
-  "description" : "Data Errors",
+  "name" : "SS",
+  "description" : "Send order status request",
   "usage" : "P",
   "table_id" : "0119"
 }, {
@@ -1529,13 +1529,13 @@
   "usage" : "P",
   "table_id" : "0119"
 }, {
-  "name" : "OR",
-  "description" : "Released as requested",
+  "name" : "DE",
+  "description" : "Data Errors",
   "usage" : "P",
   "table_id" : "0119"
 }, {
-  "name" : "SS",
-  "description" : "Send order status request",
+  "name" : "OR",
+  "description" : "Released as requested",
   "usage" : "P",
   "table_id" : "0119"
 }, {
@@ -1569,8 +1569,8 @@
   "usage" : "P",
   "table_id" : "0119"
 }, {
-  "name" : "DR",
-  "description" : "Discontinued as requested",
+  "name" : "UD",
+  "description" : "Unable to discontinue",
   "usage" : "P",
   "table_id" : "0119"
 }, {
@@ -1579,13 +1579,13 @@
   "usage" : "P",
   "table_id" : "0119"
 }, {
-  "name" : "PA",
-  "description" : "Parent order",
+  "name" : "DR",
+  "description" : "Discontinued as requested",
   "usage" : "P",
   "table_id" : "0119"
 }, {
-  "name" : "UD",
-  "description" : "Unable to discontinue",
+  "name" : "PA",
+  "description" : "Parent order",
   "usage" : "P",
   "table_id" : "0119"
 }, {
