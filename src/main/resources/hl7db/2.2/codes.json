@@ -44,21 +44,6 @@
   "usage" : "P",
   "table_id" : "0002"
 }, {
-  "name" : "R03",
-  "description" : "Display-oriented results (query / unsolicited update)",
-  "usage" : "P",
-  "table_id" : "0003"
-}, {
-  "name" : "A05",
-  "description" : "Pre-admit a Patient",
-  "usage" : "P",
-  "table_id" : "0003"
-}, {
-  "name" : "A13",
-  "description" : "Cancel discharge",
-  "usage" : "P",
-  "table_id" : "0003"
-}, {
   "name" : "A21",
   "description" : "Leave of absence - out (leaving)",
   "usage" : "P",
@@ -79,8 +64,18 @@
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "A08",
-  "description" : "Update patient information",
+  "name" : "R03",
+  "description" : "Display-oriented results (query / unsolicited update)",
+  "usage" : "P",
+  "table_id" : "0003"
+}, {
+  "name" : "A05",
+  "description" : "Pre-admit a Patient",
+  "usage" : "P",
+  "table_id" : "0003"
+}, {
+  "name" : "A13",
+  "description" : "Cancel discharge",
   "usage" : "P",
   "table_id" : "0003"
 }, {
@@ -109,18 +104,8 @@
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "R01",
-  "description" : "Unsolicited transmission of requested observation",
-  "usage" : "P",
-  "table_id" : "0003"
-}, {
-  "name" : "A03",
-  "description" : "Discharge a patient",
-  "usage" : "P",
-  "table_id" : "0003"
-}, {
-  "name" : "A11",
-  "description" : "Cancel admit",
+  "name" : "A08",
+  "description" : "Update patient information",
   "usage" : "P",
   "table_id" : "0003"
 }, {
@@ -144,13 +129,18 @@
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "R04",
-  "description" : "Response to query / transmission of requested observation",
+  "name" : "R01",
+  "description" : "Unsolicited transmission of requested observation",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "A06",
-  "description" : "Transfer an outpatient to inpatient",
+  "name" : "A03",
+  "description" : "Discharge a patient",
+  "usage" : "P",
+  "table_id" : "0003"
+}, {
+  "name" : "A11",
+  "description" : "Cancel admit",
   "usage" : "P",
   "table_id" : "0003"
 }, {
@@ -179,18 +169,13 @@
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "Q03",
-  "description" : "Deferred response to query",
+  "name" : "R04",
+  "description" : "Response to query / transmission of requested observation",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "A01",
-  "description" : "Admit a patient",
-  "usage" : "P",
-  "table_id" : "0003"
-}, {
-  "name" : "A09",
-  "description" : "Patient departing",
+  "name" : "A06",
+  "description" : "Transfer an outpatient to inpatient",
   "usage" : "P",
   "table_id" : "0003"
 }, {
@@ -214,18 +199,18 @@
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "R02",
-  "description" : "Query for results of observation",
+  "name" : "Q03",
+  "description" : "Deferred response to query",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "A04",
-  "description" : "Register a patient",
+  "name" : "A01",
+  "description" : "Admit a patient",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "A12",
-  "description" : "Cancel transfer",
+  "name" : "A09",
+  "description" : "Patient departing",
   "usage" : "P",
   "table_id" : "0003"
 }, {
@@ -249,8 +234,18 @@
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "A07",
-  "description" : "Transfer an inpatient to outpatient",
+  "name" : "R02",
+  "description" : "Query for results of observation",
+  "usage" : "P",
+  "table_id" : "0003"
+}, {
+  "name" : "A04",
+  "description" : "Register a patient",
+  "usage" : "P",
+  "table_id" : "0003"
+}, {
+  "name" : "A12",
+  "description" : "Cancel transfer",
   "usage" : "P",
   "table_id" : "0003"
 }, {
@@ -279,18 +274,8 @@
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "Q05",
-  "description" : "Unsolicited display update",
-  "usage" : "P",
-  "table_id" : "0003"
-}, {
-  "name" : "A02",
-  "description" : "Transfer a patient",
-  "usage" : "P",
-  "table_id" : "0003"
-}, {
-  "name" : "A10",
-  "description" : "Patient arriving",
+  "name" : "A07",
+  "description" : "Transfer an inpatient to outpatient",
   "usage" : "P",
   "table_id" : "0003"
 }, {
@@ -311,6 +296,21 @@
 }, {
   "name" : "O02",
   "description" : "Order response",
+  "usage" : "P",
+  "table_id" : "0003"
+}, {
+  "name" : "Q05",
+  "description" : "Unsolicited display update",
+  "usage" : "P",
+  "table_id" : "0003"
+}, {
+  "name" : "A02",
+  "description" : "Transfer a patient",
+  "usage" : "P",
+  "table_id" : "0003"
+}, {
+  "name" : "A10",
+  "description" : "Patient arriving",
   "usage" : "P",
   "table_id" : "0003"
 }, {
@@ -694,11 +694,6 @@
   "usage" : "P",
   "table_id" : "0038"
 }, {
-  "name" : "RER",
-  "description" : "Pharmacy encoded order information",
-  "usage" : "P",
-  "table_id" : "0048"
-}, {
   "name" : "APA",
   "description" : "Account number query, return matching visit",
   "usage" : "P",
@@ -709,13 +704,8 @@
   "usage" : "P",
   "table_id" : "0048"
 }, {
-  "name" : "ORD",
-  "description" : "Order",
-  "usage" : "P",
-  "table_id" : "0048"
-}, {
-  "name" : "ROR",
-  "description" : "Pharmacy prescription information",
+  "name" : "RER",
+  "description" : "Pharmacy encoded order information",
   "usage" : "P",
   "table_id" : "0048"
 }, {
@@ -729,8 +719,13 @@
   "usage" : "P",
   "table_id" : "0048"
 }, {
-  "name" : "RAR",
-  "description" : "Pharmacy administration information",
+  "name" : "ORD",
+  "description" : "Order",
+  "usage" : "P",
+  "table_id" : "0048"
+}, {
+  "name" : "ROR",
+  "description" : "Pharmacy prescription information",
   "usage" : "P",
   "table_id" : "0048"
 }, {
@@ -744,8 +739,8 @@
   "usage" : "P",
   "table_id" : "0048"
 }, {
-  "name" : "RES",
-  "description" : "Result",
+  "name" : "RAR",
+  "description" : "Pharmacy administration information",
   "usage" : "P",
   "table_id" : "0048"
 }, {
@@ -759,13 +754,8 @@
   "usage" : "P",
   "table_id" : "0048"
 }, {
-  "name" : "OTH",
-  "description" : "Other",
-  "usage" : "P",
-  "table_id" : "0048"
-}, {
-  "name" : "STA",
-  "description" : "Status",
+  "name" : "RES",
+  "description" : "Result",
   "usage" : "P",
   "table_id" : "0048"
 }, {
@@ -779,8 +769,13 @@
   "usage" : "P",
   "table_id" : "0048"
 }, {
-  "name" : "RDR",
-  "description" : "Pharmacy dispense information",
+  "name" : "OTH",
+  "description" : "Other",
+  "usage" : "P",
+  "table_id" : "0048"
+}, {
+  "name" : "STA",
+  "description" : "Status",
   "usage" : "P",
   "table_id" : "0048"
 }, {
@@ -794,8 +789,8 @@
   "usage" : "P",
   "table_id" : "0048"
 }, {
-  "name" : "RGR",
-  "description" : "Pharmacy give information",
+  "name" : "RDR",
+  "description" : "Pharmacy dispense information",
   "usage" : "P",
   "table_id" : "0048"
 }, {
@@ -809,8 +804,8 @@
   "usage" : "P",
   "table_id" : "0048"
 }, {
-  "name" : "PRO",
-  "description" : "Procedure",
+  "name" : "RGR",
+  "description" : "Pharmacy give information",
   "usage" : "P",
   "table_id" : "0048"
 }, {
@@ -821,6 +816,11 @@
 }, {
   "name" : "MFQ",
   "description" : "Master file query",
+  "usage" : "P",
+  "table_id" : "0048"
+}, {
+  "name" : "PRO",
+  "description" : "Procedure",
   "usage" : "P",
   "table_id" : "0048"
 }, {
@@ -889,16 +889,6 @@
   "usage" : "P",
   "table_id" : "0065"
 }, {
-  "name" : "ORH",
-  "description" : "Other",
-  "usage" : "P",
-  "table_id" : "0070"
-}, {
-  "name" : "PUS",
-  "description" : "Pus",
-  "usage" : "P",
-  "table_id" : "0070"
-}, {
   "name" : "SPRM",
   "description" : "Spermatozoa",
   "usage" : "P",
@@ -949,13 +939,13 @@
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "PLB",
-  "description" : "Plasma bag",
+  "name" : "ORH",
+  "description" : "Other",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "SEM",
-  "description" : "Seminal fluid",
+  "name" : "PUS",
+  "description" : "Pus",
   "usage" : "P",
   "table_id" : "0070"
 }, {
@@ -1014,18 +1004,13 @@
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "NAIL",
-  "description" : "Nail",
+  "name" : "PLB",
+  "description" : "Plasma bag",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "PMN",
-  "description" : "Polymorphonuclear neutrophils",
-  "usage" : "P",
-  "table_id" : "0070"
-}, {
-  "name" : "SKN",
-  "description" : "Skin",
+  "name" : "SEM",
+  "description" : "Seminal fluid",
   "usage" : "P",
   "table_id" : "0070"
 }, {
@@ -1079,13 +1064,18 @@
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "PER",
-  "description" : "Peritoneum",
+  "name" : "NAIL",
+  "description" : "Nail",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "RBC",
-  "description" : "Erythrocytes",
+  "name" : "PMN",
+  "description" : "Polymorphonuclear neutrophils",
+  "usage" : "P",
+  "table_id" : "0070"
+}, {
+  "name" : "SKN",
+  "description" : "Skin",
   "usage" : "P",
   "table_id" : "0070"
 }, {
@@ -1139,13 +1129,13 @@
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "PLC",
-  "description" : "Placenta",
+  "name" : "PER",
+  "description" : "Peritoneum",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "SER",
-  "description" : "Serum",
+  "name" : "RBC",
+  "description" : "Erythrocytes",
   "usage" : "P",
   "table_id" : "0070"
 }, {
@@ -1204,18 +1194,13 @@
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "NOS",
-  "description" : "Nose (nasal passage)",
+  "name" : "PLC",
+  "description" : "Placenta",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "PRT",
-  "description" : "Peritoneal fluid / ascites",
-  "usage" : "P",
-  "table_id" : "0070"
-}, {
-  "name" : "SNV",
-  "description" : "Synovial fluid (Joint fluid)",
+  "name" : "SER",
+  "description" : "Serum",
   "usage" : "P",
   "table_id" : "0070"
 }, {
@@ -1264,13 +1249,18 @@
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "PLAS",
-  "description" : "Plasma",
+  "name" : "NOS",
+  "description" : "Nose (nasal passage)",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "SAL",
-  "description" : "Saliva",
+  "name" : "PRT",
+  "description" : "Peritoneal fluid / ascites",
+  "usage" : "P",
+  "table_id" : "0070"
+}, {
+  "name" : "SNV",
+  "description" : "Synovial fluid (Joint fluid)",
   "usage" : "P",
   "table_id" : "0070"
 }, {
@@ -1329,13 +1319,13 @@
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "PLR",
-  "description" : "Pleural fluid (thoracentesis fld)",
+  "name" : "PLAS",
+  "description" : "Plasma",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "SKM",
-  "description" : "Skeletal muscle",
+  "name" : "SAL",
+  "description" : "Saliva",
   "usage" : "P",
   "table_id" : "0070"
 }, {
@@ -1394,10 +1384,15 @@
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "RUS",
-  "description" : "Radiology ultrasound",
+  "name" : "PLR",
+  "description" : "Pleural fluid (thoracentesis fld)",
   "usage" : "P",
-  "table_id" : "0074"
+  "table_id" : "0070"
+}, {
+  "name" : "SKM",
+  "description" : "Skeletal muscle",
+  "usage" : "P",
+  "table_id" : "0070"
 }, {
   "name" : "BG",
   "description" : "Blood gases",
@@ -1414,8 +1409,8 @@
   "usage" : "P",
   "table_id" : "0074"
 }, {
-  "name" : "SR",
-  "description" : "Serology",
+  "name" : "RUS",
+  "description" : "Radiology ultrasound",
   "usage" : "P",
   "table_id" : "0074"
 }, {
@@ -1439,8 +1434,8 @@
   "usage" : "P",
   "table_id" : "0074"
 }, {
-  "name" : "VUS",
-  "description" : "Vascular Ultrasound",
+  "name" : "SR",
+  "description" : "Serology",
   "usage" : "P",
   "table_id" : "0074"
 }, {
@@ -1459,8 +1454,8 @@
   "usage" : "P",
   "table_id" : "0074"
 }, {
-  "name" : "RX",
-  "description" : "Radiograph",
+  "name" : "VUS",
+  "description" : "Vascular Ultrasound",
   "usage" : "P",
   "table_id" : "0074"
 }, {
@@ -1479,8 +1474,8 @@
   "usage" : "P",
   "table_id" : "0074"
 }, {
-  "name" : "TX",
-  "description" : "Toxicology",
+  "name" : "RX",
+  "description" : "Radiograph",
   "usage" : "P",
   "table_id" : "0074"
 }, {
@@ -1504,13 +1499,8 @@
   "usage" : "P",
   "table_id" : "0074"
 }, {
-  "name" : "RT",
-  "description" : "Radiation therapy",
-  "usage" : "P",
-  "table_id" : "0074"
-}, {
-  "name" : "XRC",
-  "description" : "Cineradiograph",
+  "name" : "TX",
+  "description" : "Toxicology",
   "usage" : "P",
   "table_id" : "0074"
 }, {
@@ -1529,8 +1519,13 @@
   "usage" : "P",
   "table_id" : "0074"
 }, {
-  "name" : "SP",
-  "description" : "Surgical Pathology",
+  "name" : "RT",
+  "description" : "Radiation therapy",
+  "usage" : "P",
+  "table_id" : "0074"
+}, {
+  "name" : "XRC",
+  "description" : "Cineradiograph",
   "usage" : "P",
   "table_id" : "0074"
 }, {
@@ -1549,8 +1544,8 @@
   "usage" : "P",
   "table_id" : "0074"
 }, {
-  "name" : "VR",
-  "description" : "Virology",
+  "name" : "SP",
+  "description" : "Surgical Pathology",
   "usage" : "P",
   "table_id" : "0074"
 }, {
@@ -1574,10 +1569,10 @@
   "usage" : "P",
   "table_id" : "0074"
 }, {
-  "name" : "ACK",
-  "description" : "General acknowledgement message",
+  "name" : "VR",
+  "description" : "Virology",
   "usage" : "P",
-  "table_id" : "0076"
+  "table_id" : "0074"
 }, {
   "name" : "MFD",
   "description" : "Master files delayed application acknowledgement",
@@ -1599,8 +1594,8 @@
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "ARD",
-  "description" : "Ancillary report (display)",
+  "name" : "ACK",
+  "description" : "General acknowledgement message",
   "usage" : "P",
   "table_id" : "0076"
 }, {
@@ -1619,8 +1614,8 @@
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "DSR",
-  "description" : "Display response",
+  "name" : "ARD",
+  "description" : "Ancillary report (display)",
   "usage" : "P",
   "table_id" : "0076"
 }, {
@@ -1639,8 +1634,8 @@
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "ADR",
-  "description" : "ADT response",
+  "name" : "DSR",
+  "description" : "Display response",
   "usage" : "P",
   "table_id" : "0076"
 }, {
@@ -1664,8 +1659,8 @@
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "BAR",
-  "description" : "Add / change billing account",
+  "name" : "ADR",
+  "description" : "ADT response",
   "usage" : "P",
   "table_id" : "0076"
 }, {
@@ -1684,8 +1679,8 @@
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "MCF",
-  "description" : "Delayed acknowledgement",
+  "name" : "BAR",
+  "description" : "Add / change billing account",
   "usage" : "P",
   "table_id" : "0076"
 }, {
@@ -1704,8 +1699,8 @@
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "ADT",
-  "description" : "ADT message",
+  "name" : "MCF",
+  "description" : "Delayed acknowledgement",
   "usage" : "P",
   "table_id" : "0076"
 }, {
@@ -1729,8 +1724,8 @@
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "DFT",
-  "description" : "Detail financial transaction",
+  "name" : "ADT",
+  "description" : "ADT message",
   "usage" : "P",
   "table_id" : "0076"
 }, {
@@ -1746,6 +1741,11 @@
 }, {
   "name" : "ROR",
   "description" : "Pharmacy prescription order response",
+  "usage" : "P",
+  "table_id" : "0076"
+}, {
+  "name" : "DFT",
+  "description" : "Detail financial transaction",
   "usage" : "P",
   "table_id" : "0076"
 }, {
@@ -2234,11 +2234,6 @@
   "usage" : "P",
   "table_id" : "0119"
 }, {
-  "name" : "XX",
-  "description" : "Order changed, unsolicited",
-  "usage" : "P",
-  "table_id" : "0119"
-}, {
   "name" : "CH",
   "description" : "Child order",
   "usage" : "P",
@@ -2256,6 +2251,11 @@
 }, {
   "name" : "UC",
   "description" : "Unable to cancel",
+  "usage" : "P",
+  "table_id" : "0119"
+}, {
+  "name" : "XX",
+  "description" : "Order changed, unsolicited",
   "usage" : "P",
   "table_id" : "0119"
 }, {
@@ -2349,13 +2349,13 @@
   "usage" : "P",
   "table_id" : "0122"
 }, {
-  "name" : "C",
-  "description" : "Correction to results",
+  "name" : "Y",
+  "description" : "No order on record for this test.  (Used only on queries)",
   "usage" : "P",
   "table_id" : "0123"
 }, {
-  "name" : "Y",
-  "description" : "No order on record for this test.  (Used only on queries)",
+  "name" : "C",
+  "description" : "Correction to results",
   "usage" : "P",
   "table_id" : "0123"
 }, {
@@ -2369,13 +2369,13 @@
   "usage" : "P",
   "table_id" : "0123"
 }, {
-  "name" : "F",
-  "description" : "Final results - results stored & verified",
+  "name" : "Z",
+  "description" : "No record of this patient. (Used only on queries)",
   "usage" : "P",
   "table_id" : "0123"
 }, {
-  "name" : "Z",
-  "description" : "No record of this patient. (Used only on queries)",
+  "name" : "F",
+  "description" : "Final results - results stored & verified",
   "usage" : "P",
   "table_id" : "0123"
 }, {
@@ -2984,6 +2984,16 @@
   "usage" : "P",
   "table_id" : "0161"
 }, {
+  "name" : "VG",
+  "description" : "Vaginal",
+  "usage" : "P",
+  "table_id" : "0162"
+}, {
+  "name" : "GU",
+  "description" : "Magenspülung",
+  "usage" : "P",
+  "table_id" : "0162"
+}, {
   "name" : "IP",
   "description" : "Intraperitoneal",
   "usage" : "P",
@@ -2994,13 +3004,8 @@
   "usage" : "P",
   "table_id" : "0162"
 }, {
-  "name" : "VG",
-  "description" : "Vaginal",
-  "usage" : "P",
-  "table_id" : "0162"
-}, {
-  "name" : "GU",
-  "description" : "Magenspülung",
+  "name" : "ID",
+  "description" : "Intradermal",
   "usage" : "P",
   "table_id" : "0162"
 }, {
@@ -3014,8 +3019,13 @@
   "usage" : "P",
   "table_id" : "0162"
 }, {
-  "name" : "ID",
-  "description" : "Intradermal",
+  "name" : "TP",
+  "description" : "Topical",
+  "usage" : "P",
+  "table_id" : "0162"
+}, {
+  "name" : "DT",
+  "description" : "Dental",
   "usage" : "P",
   "table_id" : "0162"
 }, {
@@ -3029,13 +3039,8 @@
   "usage" : "P",
   "table_id" : "0162"
 }, {
-  "name" : "TP",
-  "description" : "Topical",
-  "usage" : "P",
-  "table_id" : "0162"
-}, {
-  "name" : "DT",
-  "description" : "Dental",
+  "name" : "IA",
+  "description" : "Intra-arterial",
   "usage" : "P",
   "table_id" : "0162"
 }, {
@@ -3049,8 +3054,13 @@
   "usage" : "P",
   "table_id" : "0162"
 }, {
-  "name" : "IA",
-  "description" : "Intra-arterial",
+  "name" : "AP",
+  "description" : "Apply Externally",
+  "usage" : "P",
+  "table_id" : "0162"
+}, {
+  "name" : "IH",
+  "description" : "Inhalation",
   "usage" : "P",
   "table_id" : "0162"
 }, {
@@ -3064,13 +3074,13 @@
   "usage" : "P",
   "table_id" : "0162"
 }, {
-  "name" : "AP",
-  "description" : "Apply Externally",
+  "name" : "UR",
+  "description" : "Urethral",
   "usage" : "P",
   "table_id" : "0162"
 }, {
-  "name" : "IH",
-  "description" : "Inhalation",
+  "name" : "GTT",
+  "description" : "Gastronomy Tube",
   "usage" : "P",
   "table_id" : "0162"
 }, {
@@ -3084,13 +3094,8 @@
   "usage" : "P",
   "table_id" : "0162"
 }, {
-  "name" : "UR",
-  "description" : "Urethral",
-  "usage" : "P",
-  "table_id" : "0162"
-}, {
-  "name" : "GTT",
-  "description" : "Gastronomy Tube",
+  "name" : "IC",
+  "description" : "Intracardiac",
   "usage" : "P",
   "table_id" : "0162"
 }, {
@@ -3104,8 +3109,8 @@
   "usage" : "P",
   "table_id" : "0162"
 }, {
-  "name" : "IC",
-  "description" : "Intracardiac",
+  "name" : "B",
+  "description" : "Buccal",
   "usage" : "P",
   "table_id" : "0162"
 }, {
@@ -3121,11 +3126,6 @@
 }, {
   "name" : "TL",
   "description" : "Translingual",
-  "usage" : "P",
-  "table_id" : "0162"
-}, {
-  "name" : "B",
-  "description" : "Buccal",
   "usage" : "P",
   "table_id" : "0162"
 }, {
@@ -3424,13 +3424,13 @@
   "usage" : "P",
   "table_id" : "0164"
 }, {
-  "name" : "PCA",
-  "description" : "PCA Pump",
+  "name" : "AP",
+  "description" : "Applicator",
   "usage" : "P",
   "table_id" : "0164"
 }, {
-  "name" : "AP",
-  "description" : "Applicator",
+  "name" : "PCA",
+  "description" : "PCA Pump",
   "usage" : "P",
   "table_id" : "0164"
 }, {
@@ -3454,23 +3454,23 @@
   "usage" : "P",
   "table_id" : "0165"
 }, {
-  "name" : "IF",
-  "description" : "Inflitrate",
-  "usage" : "P",
-  "table_id" : "0165"
-}, {
   "name" : "SH",
   "description" : "Shampoo",
   "usage" : "P",
   "table_id" : "0165"
 }, {
-  "name" : "IVP",
-  "description" : "IV Push",
+  "name" : "IF",
+  "description" : "Inflitrate",
   "usage" : "P",
   "table_id" : "0165"
 }, {
   "name" : "WI",
   "description" : "Wipe",
+  "usage" : "P",
+  "table_id" : "0165"
+}, {
+  "name" : "IVP",
+  "description" : "IV Push",
   "usage" : "P",
   "table_id" : "0165"
 }, {
@@ -3484,13 +3484,13 @@
   "usage" : "P",
   "table_id" : "0165"
 }, {
-  "name" : "IR",
-  "description" : "Irrigate",
+  "name" : "SO",
+  "description" : "Soak",
   "usage" : "P",
   "table_id" : "0165"
 }, {
-  "name" : "SO",
-  "description" : "Soak",
+  "name" : "IR",
+  "description" : "Irrigate",
   "usage" : "P",
   "table_id" : "0165"
 }, {
@@ -3499,23 +3499,23 @@
   "usage" : "P",
   "table_id" : "0165"
 }, {
-  "name" : "DU",
-  "description" : "Dust",
-  "usage" : "P",
-  "table_id" : "0165"
-}, {
   "name" : "PT",
   "description" : "Pain",
   "usage" : "P",
   "table_id" : "0165"
 }, {
-  "name" : "IS",
-  "description" : "Insert",
+  "name" : "DU",
+  "description" : "Dust",
   "usage" : "P",
   "table_id" : "0165"
 }, {
   "name" : "WA",
   "description" : "Wash",
+  "usage" : "P",
+  "table_id" : "0165"
+}, {
+  "name" : "IS",
+  "description" : "Insert",
   "usage" : "P",
   "table_id" : "0165"
 }, {

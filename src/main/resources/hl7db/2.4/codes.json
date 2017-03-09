@@ -109,6 +109,66 @@
   "usage" : "P",
   "table_id" : "0002"
 }, {
+  "name" : "U03",
+  "description" : "SSU/ACK - Specimen status update",
+  "usage" : "P",
+  "table_id" : "0003"
+}, {
+  "name" : "B06",
+  "description" : "PMU/ACK - Terminate practicing person",
+  "usage" : "P",
+  "table_id" : "0003"
+}, {
+  "name" : "PCL",
+  "description" : "PPT - PC/ pathway (goal-oriented) query response",
+  "usage" : "P",
+  "table_id" : "0003"
+}, {
+  "name" : "U11",
+  "description" : "TCR/ACK - Automated equipment test code settings request",
+  "usage" : "P",
+  "table_id" : "0003"
+}, {
+  "name" : "C08",
+  "description" : "CRM - Patient has gone off phase of clinical trial",
+  "usage" : "P",
+  "table_id" : "0003"
+}, {
+  "name" : "Q08",
+  "description" : "SPQ - Stored procedure request",
+  "usage" : "P",
+  "table_id" : "0003"
+}, {
+  "name" : "W01",
+  "description" : "ORU - Waveform result, unsolicited transmission of requested information",
+  "usage" : "P",
+  "table_id" : "0003"
+}, {
+  "name" : "I04",
+  "description" : "RQD/RPI - Request for patient demographic data",
+  "usage" : "P",
+  "table_id" : "0003"
+}, {
+  "name" : "Q25",
+  "description" : "QBP - Personnel Information by Segment Query",
+  "usage" : "P",
+  "table_id" : "0003"
+}, {
+  "name" : "A08",
+  "description" : "ADT/ACK -  Update patient information",
+  "usage" : "P",
+  "table_id" : "0003"
+}, {
+  "name" : "I12",
+  "description" : "REF/RRI - Patient referral",
+  "usage" : "P",
+  "table_id" : "0003"
+}, {
+  "name" : "R08",
+  "description" : "TBR - tabular data response",
+  "usage" : "P",
+  "table_id" : "0003"
+}, {
   "name" : "A16",
   "description" : "ADT/ACK -  Pending discharge",
   "usage" : "P",
@@ -204,63 +264,63 @@
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "U03",
-  "description" : "SSU/ACK - Specimen status update",
+  "name" : "B01",
+  "description" : "PMU/ACK - Add personnel record",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "B06",
-  "description" : "PMU/ACK - Terminate practicing person",
+  "name" : "PCF",
+  "description" : "PTR - PC/ pathway (problem-oriented) query response",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "PCL",
-  "description" : "PPT - PC/ pathway (goal-oriented) query response",
+  "name" : "U06",
+  "description" : "INR/ACK - Automated equipment inventory request",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "U11",
-  "description" : "TCR/ACK - Automated equipment test code settings request",
+  "name" : "C03",
+  "description" : "CRM - Correct/update registration information",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "C08",
-  "description" : "CRM - Patient has gone off phase of clinical trial",
+  "name" : "Q03",
+  "description" : "DSR/ACK - Deferred response to a query",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "Q08",
-  "description" : "SPQ - Stored procedure request",
+  "name" : "V01",
+  "description" : "VXQ - Query for vaccination record",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "W01",
-  "description" : "ORU - Waveform result, unsolicited transmission of requested information",
+  "name" : "C11",
+  "description" : "CSU - Patient completes a phase of the clinical trial",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "I04",
-  "description" : "RQD/RPI - Request for patient demographic data",
+  "name" : "Q17",
+  "description" : "QVR - Query for previous events",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "Q25",
-  "description" : "QBP - Personnel Information by Segment Query",
+  "name" : "A03",
+  "description" : "ADT/ACK -  Discharge/end visit",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "A08",
-  "description" : "ADT/ACK -  Update patient information",
+  "name" : "I07",
+  "description" : "PIN/ACK - Unsolicited insurance information",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "I12",
-  "description" : "REF/RRI - Patient referral",
+  "name" : "R03",
+  "description" : "QRY/DSR Display-oriented results, query/unsol. update (for backward compatibility only) (Replaced by Q05)",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "R08",
-  "description" : "TBR - tabular data response",
+  "name" : "A11",
+  "description" : "ADT/ACK -  Cancel admit/visit notification",
   "usage" : "P",
   "table_id" : "0003"
 }, {
@@ -364,63 +424,68 @@
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "B01",
-  "description" : "PMU/ACK - Add personnel record",
+  "name" : "U01",
+  "description" : "ESU/ACK - Automated equipment status update",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "PCF",
-  "description" : "PTR - PC/ pathway (problem-oriented) query response",
+  "name" : "B04",
+  "description" : "PMU/ACK - Active practicing person",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "U06",
-  "description" : "INR/ACK - Automated equipment inventory request",
+  "name" : "PCJ",
+  "description" : "PPG - PC/ pathway (goal-oriented) delete",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "C03",
-  "description" : "CRM - Correct/update registration information",
+  "name" : "U09",
+  "description" : "EAN/ACK - Automated equipment notification",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "Q03",
-  "description" : "DSR/ACK - Deferred response to a query",
+  "name" : "C06",
+  "description" : "CRM - Cancel patient entering a phase (clerical mistake)",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "V01",
-  "description" : "VXQ - Query for vaccination record",
+  "name" : "Q06",
+  "description" : "OSQ/OSR - Query for order status",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "C11",
-  "description" : "CSU - Patient completes a phase of the clinical trial",
+  "name" : "V04",
+  "description" : "VXU - Unsolicited vaccination record update",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "Q17",
-  "description" : "QVR - Query for previous events",
+  "name" : "I02",
+  "description" : "RQI/RPL - Request/receipt of patient selection display list",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "A03",
-  "description" : "ADT/ACK -  Discharge/end visit",
+  "name" : "Q23",
+  "description" : "QBP - Get corresponding identifiers",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "I07",
-  "description" : "PIN/ACK - Unsolicited insurance information",
+  "name" : "A06",
+  "description" : "ADT/ACK -  Change an outpatient to an inpatient",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "R03",
-  "description" : "QRY/DSR Display-oriented results, query/unsol. update (for backward compatibility only) (Replaced by Q05)",
+  "name" : "I10",
+  "description" : "RQA/RPA - Request for resubmission of an authorization",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "A11",
-  "description" : "ADT/ACK -  Cancel admit/visit notification",
+  "name" : "R06",
+  "description" : "UDM - unsolicited update/display results (See Q05)",
+  "usage" : "P",
+  "table_id" : "0003"
+}, {
+  "name" : "A14",
+  "description" : "ADT/ACK -  Pending admit",
   "usage" : "P",
   "table_id" : "0003"
 }, {
@@ -514,68 +579,73 @@
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "U01",
-  "description" : "ESU/ACK - Automated equipment status update",
+  "name" : "PCD",
+  "description" : "PPP - PC/ pathway (problem-oriented) delete",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "B04",
-  "description" : "PMU/ACK - Active practicing person",
+  "name" : "U04",
+  "description" : "SSR/ACK - specimen status request",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "PCJ",
-  "description" : "PPG - PC/ pathway (goal-oriented) delete",
+  "name" : "C01",
+  "description" : "CRM - Register a patient on a clinical trial",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "U09",
-  "description" : "EAN/ACK - Automated equipment notification",
+  "name" : "Q01",
+  "description" : "QRY/DSR - Query sent for immediate response",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "C06",
-  "description" : "CRM - Cancel patient entering a phase (clerical mistake)",
+  "name" : "U12",
+  "description" : "LSU/ACK - Automated equipment log/service update",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "Q06",
-  "description" : "OSQ/OSR - Query for order status",
+  "name" : "C09",
+  "description" : "CSU - Automated time intervals for reporting, like monthly",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "V04",
-  "description" : "VXU - Unsolicited vaccination record update",
+  "name" : "Q09",
+  "description" : "RQQ - event replay query",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "I02",
-  "description" : "RQI/RPL - Request/receipt of patient selection display list",
+  "name" : "A01",
+  "description" : "ADT/ACK - Admit/visit notification",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "Q23",
-  "description" : "QBP - Get corresponding identifiers",
+  "name" : "W02",
+  "description" : "QRF - Waveform result, response to query",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "A06",
-  "description" : "ADT/ACK -  Change an outpatient to an inpatient",
+  "name" : "I05",
+  "description" : "RQC/RCI - Request for patient clinical information",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "I10",
-  "description" : "RQA/RPA - Request for resubmission of an authorization",
+  "name" : "R01",
+  "description" : "ORU/ACK - Unsolicited transmission of an observation message",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "R06",
-  "description" : "UDM - unsolicited update/display results (See Q05)",
+  "name" : "A09",
+  "description" : "ADT/ACK -  Patient departing - tracking",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "A14",
-  "description" : "ADT/ACK -  Pending admit",
+  "name" : "I13",
+  "description" : "REF/RRI - Modify patient referral",
+  "usage" : "P",
+  "table_id" : "0003"
+}, {
+  "name" : "R09",
+  "description" : "ERP - event replay response",
   "usage" : "P",
   "table_id" : "0003"
 }, {
@@ -669,73 +739,63 @@
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "PCD",
-  "description" : "PPP - PC/ pathway (problem-oriented) delete",
+  "name" : "B02",
+  "description" : "PMU/ACK - Update personnel record",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "U04",
-  "description" : "SSR/ACK - specimen status request",
+  "name" : "PCG",
+  "description" : "PPG - PC/ pathway (goal-oriented) add",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "C01",
-  "description" : "CRM - Register a patient on a clinical trial",
+  "name" : "U07",
+  "description" : "EAC/ACK - Automated equipment command",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "Q01",
-  "description" : "QRY/DSR - Query sent for immediate response",
+  "name" : "C04",
+  "description" : "CRM - Patient has gone off a clinical trial",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "U12",
-  "description" : "LSU/ACK - Automated equipment log/service update",
+  "name" : "Q04",
+  "description" : "EQQ - Embedded query language query",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "C09",
-  "description" : "CSU - Automated time intervals for reporting, like monthly",
+  "name" : "V02",
+  "description" : "VXX - Response to vaccination query returning multiple PID matches",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "Q09",
-  "description" : "RQQ - event replay query",
+  "name" : "C12",
+  "description" : "CSU - Update/correction of patient order/result information",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "A01",
-  "description" : "ADT/ACK - Admit/visit notification",
+  "name" : "Q21",
+  "description" : "QBP - Get person demographics",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "W02",
-  "description" : "QRF - Waveform result, response to query",
+  "name" : "A04",
+  "description" : "ADT/ACK -  Register a patient",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "I05",
-  "description" : "RQC/RCI - Request for patient clinical information",
+  "name" : "I08",
+  "description" : "RQA/RPA - Request for treatment authorization information",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "R01",
-  "description" : "ORU/ACK - Unsolicited transmission of an observation message",
+  "name" : "R04",
+  "description" : "ORF - Response to query; transmission of requested observation",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "A09",
-  "description" : "ADT/ACK -  Patient departing - tracking",
-  "usage" : "P",
-  "table_id" : "0003"
-}, {
-  "name" : "I13",
-  "description" : "REF/RRI - Modify patient referral",
-  "usage" : "P",
-  "table_id" : "0003"
-}, {
-  "name" : "R09",
-  "description" : "ERP - event replay response",
+  "name" : "A12",
+  "description" : "ADT/ACK -  Cancel transfer",
   "usage" : "P",
   "table_id" : "0003"
 }, {
@@ -839,63 +899,68 @@
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "B02",
-  "description" : "PMU/ACK - Update personnel record",
+  "name" : "U02",
+  "description" : "ESR/ACK - Automated equipment status request",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "PCG",
-  "description" : "PPG - PC/ pathway (goal-oriented) add",
+  "name" : "B05",
+  "description" : "PMU/ACK - Deactivate practicing person",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "U07",
-  "description" : "EAC/ACK - Automated equipment command",
+  "name" : "PCK",
+  "description" : "QRY - PC/ pathway (goal-oriented) query",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "C04",
-  "description" : "CRM - Patient has gone off a clinical trial",
+  "name" : "U10",
+  "description" : "TCU/ACK - Automated equipment test code settings update",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "Q04",
-  "description" : "EQQ - Embedded query language query",
+  "name" : "C07",
+  "description" : "CRM - Correct/update phase information",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "V02",
-  "description" : "VXX - Response to vaccination query returning multiple PID matches",
+  "name" : "Q07",
+  "description" : "VQQ - Virtual table query",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "C12",
-  "description" : "CSU - Update/correction of patient order/result information",
+  "name" : "Varies",
+  "description" : "MFQ/MFR - Master files query (use event same as asking for e.g., M05 - location)",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "Q21",
-  "description" : "QBP - Get person demographics",
+  "name" : "I03",
+  "description" : "RQI/RPR - Request/receipt of patient selection list",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "A04",
-  "description" : "ADT/ACK -  Register a patient",
+  "name" : "Q24",
+  "description" : "QBP - Allocate identifiers",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "I08",
-  "description" : "RQA/RPA - Request for treatment authorization information",
+  "name" : "A07",
+  "description" : "ADT/ACK -  Change an inpatient to an outpatient",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "R04",
-  "description" : "ORF - Response to query; transmission of requested observation",
+  "name" : "I11",
+  "description" : "RQA/RPA - Request for cancellation of an authorization",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "A12",
-  "description" : "ADT/ACK -  Cancel transfer",
+  "name" : "R07",
+  "description" : "EDR - enhanced display response",
+  "usage" : "P",
+  "table_id" : "0003"
+}, {
+  "name" : "A15",
+  "description" : "ADT/ACK -  Pending transfer",
   "usage" : "P",
   "table_id" : "0003"
 }, {
@@ -989,68 +1054,63 @@
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "U02",
-  "description" : "ESR/ACK - Automated equipment status request",
+  "name" : "PCE",
+  "description" : "QRY - PC/ pathway (problem-oriented) query",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "B05",
-  "description" : "PMU/ACK - Deactivate practicing person",
+  "name" : "U05",
+  "description" : "INU/ACK  - Automated equipment inventory update",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "PCK",
-  "description" : "QRY - PC/ pathway (goal-oriented) query",
+  "name" : "C02",
+  "description" : "CRM - Cancel a patient registration on clinical trial (for clerical mistakes only)",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "U10",
-  "description" : "TCU/ACK - Automated equipment test code settings update",
+  "name" : "Q02",
+  "description" : "QRY/QCK - Query sent for deferred response",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "C07",
-  "description" : "CRM - Correct/update phase information",
+  "name" : "U13",
+  "description" : "LSR/ACK - Automated equipment log/service request",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "Q07",
-  "description" : "VQQ - Virtual table query",
+  "name" : "C10",
+  "description" : "CSU - Patient completes the clinical trial",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "Varies",
-  "description" : "MFQ/MFR - Master files query (use event same as asking for e.g., M05 - location)",
+  "name" : "Q16",
+  "description" : "QSB - Create subscription",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "I03",
-  "description" : "RQI/RPR - Request/receipt of patient selection list",
+  "name" : "A02",
+  "description" : "ADT/ACK - Transfer a patient",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "Q24",
-  "description" : "QBP - Allocate identifiers",
+  "name" : "I06",
+  "description" : "RQC/RCL - Request/receipt of clinical data listing",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "A07",
-  "description" : "ADT/ACK -  Change an inpatient to an outpatient",
+  "name" : "R02",
+  "description" : "QRY - Query for results of observation",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "I11",
-  "description" : "RQA/RPA - Request for cancellation of an authorization",
+  "name" : "A10",
+  "description" : "ADT/ACK -  Patient arriving - tracking",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "R07",
-  "description" : "EDR - enhanced display response",
-  "usage" : "P",
-  "table_id" : "0003"
-}, {
-  "name" : "A15",
-  "description" : "ADT/ACK -  Pending transfer",
+  "name" : "I14",
+  "description" : "REF/RRI - Cancel patient referral",
   "usage" : "P",
   "table_id" : "0003"
 }, {
@@ -1149,63 +1209,68 @@
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "PCE",
-  "description" : "QRY - PC/ pathway (problem-oriented) query",
+  "name" : "T12",
+  "description" : "QRY/DOC - Document query",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "U05",
-  "description" : "INU/ACK  - Automated equipment inventory update",
+  "name" : "B03",
+  "description" : "PMU/ACK - Delete personnel re cord",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "C02",
-  "description" : "CRM - Cancel a patient registration on clinical trial (for clerical mistakes only)",
+  "name" : "PCH",
+  "description" : "PPG - PC/ pathway (goal-oriented) update",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "Q02",
-  "description" : "QRY/QCK - Query sent for deferred response",
+  "name" : "U08",
+  "description" : "EAR/ACK - Automated equipment response",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "U13",
-  "description" : "LSR/ACK - Automated equipment log/service request",
+  "name" : "C05",
+  "description" : "CRM - Patient enters phase of clinical trial",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "C10",
-  "description" : "CSU - Patient completes the clinical trial",
+  "name" : "Q05",
+  "description" : "UDM/ACK - Unsolicited display update message",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "Q16",
-  "description" : "QSB - Create subscription",
+  "name" : "V03",
+  "description" : "VXR - Vaccination record response",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "A02",
-  "description" : "ADT/ACK - Transfer a patient",
+  "name" : "I01",
+  "description" : "RQI/RPI - Request for insurance information",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "I06",
-  "description" : "RQC/RCL - Request/receipt of clinical data listing",
+  "name" : "Q22",
+  "description" : "QBP - Find candidates",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "R02",
-  "description" : "QRY - Query for results of observation",
+  "name" : "A05",
+  "description" : "ADT/ACK -  Pre-admit a patient",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "A10",
-  "description" : "ADT/ACK -  Patient arriving - tracking",
+  "name" : "I09",
+  "description" : "RQA/RPA - Request for modification to an authorization",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "I14",
-  "description" : "REF/RRI - Cancel patient referral",
+  "name" : "R05",
+  "description" : "QRY/DSR - query for display results (See Q01)",
+  "usage" : "P",
+  "table_id" : "0003"
+}, {
+  "name" : "A13",
+  "description" : "ADT/ACK -  Cancel discharge/end visit",
   "usage" : "P",
   "table_id" : "0003"
 }, {
@@ -1304,71 +1369,6 @@
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "T12",
-  "description" : "QRY/DOC - Document query",
-  "usage" : "P",
-  "table_id" : "0003"
-}, {
-  "name" : "B03",
-  "description" : "PMU/ACK - Delete personnel re cord",
-  "usage" : "P",
-  "table_id" : "0003"
-}, {
-  "name" : "PCH",
-  "description" : "PPG - PC/ pathway (goal-oriented) update",
-  "usage" : "P",
-  "table_id" : "0003"
-}, {
-  "name" : "U08",
-  "description" : "EAR/ACK - Automated equipment response",
-  "usage" : "P",
-  "table_id" : "0003"
-}, {
-  "name" : "C05",
-  "description" : "CRM - Patient enters phase of clinical trial",
-  "usage" : "P",
-  "table_id" : "0003"
-}, {
-  "name" : "Q05",
-  "description" : "UDM/ACK - Unsolicited display update message",
-  "usage" : "P",
-  "table_id" : "0003"
-}, {
-  "name" : "V03",
-  "description" : "VXR - Vaccination record response",
-  "usage" : "P",
-  "table_id" : "0003"
-}, {
-  "name" : "I01",
-  "description" : "RQI/RPI - Request for insurance information",
-  "usage" : "P",
-  "table_id" : "0003"
-}, {
-  "name" : "Q22",
-  "description" : "QBP - Find candidates",
-  "usage" : "P",
-  "table_id" : "0003"
-}, {
-  "name" : "A05",
-  "description" : "ADT/ACK -  Pre-admit a patient",
-  "usage" : "P",
-  "table_id" : "0003"
-}, {
-  "name" : "I09",
-  "description" : "RQA/RPA - Request for modification to an authorization",
-  "usage" : "P",
-  "table_id" : "0003"
-}, {
-  "name" : "R05",
-  "description" : "QRY/DSR - query for display results (See Q01)",
-  "usage" : "P",
-  "table_id" : "0003"
-}, {
-  "name" : "A13",
-  "description" : "ADT/ACK -  Cancel discharge/end visit",
-  "usage" : "P",
-  "table_id" : "0003"
-}, {
   "name" : "P",
   "description" : "Preadmit",
   "usage" : "P",
@@ -1444,6 +1444,26 @@
   "usage" : "P",
   "table_id" : "0005"
 }, {
+  "name" : "JOR",
+  "description" : "Jewish: Orthodox",
+  "usage" : "P",
+  "table_id" : "0006"
+}, {
+  "name" : "MEN",
+  "description" : "Christian: Mennonite",
+  "usage" : "P",
+  "table_id" : "0006"
+}, {
+  "name" : "NAZ",
+  "description" : "Christian: Church of the Nazarene",
+  "usage" : "P",
+  "table_id" : "0006"
+}, {
+  "name" : "PRO",
+  "description" : "Christian: Protestant",
+  "usage" : "P",
+  "table_id" : "0006"
+}, {
   "name" : "SOU",
   "description" : "Christian: Southern Baptist",
   "usage" : "P",
@@ -1474,23 +1494,23 @@
   "usage" : "P",
   "table_id" : "0006"
 }, {
-  "name" : "JOR",
-  "description" : "Jewish: Orthodox",
+  "name" : "JRF",
+  "description" : "Jewish: Reform",
   "usage" : "P",
   "table_id" : "0006"
 }, {
-  "name" : "MEN",
-  "description" : "Christian: Mennonite",
+  "name" : "MOS",
+  "description" : "Muslim",
   "usage" : "P",
   "table_id" : "0006"
 }, {
-  "name" : "NAZ",
-  "description" : "Christian: Church of the Nazarene",
+  "name" : "ORT",
+  "description" : "Christian: Orthodox",
   "usage" : "P",
   "table_id" : "0006"
 }, {
-  "name" : "PRO",
-  "description" : "Christian: Protestant",
+  "name" : "REO",
+  "description" : "Christian: Reorganized Church of Jesus Christ-LDS",
   "usage" : "P",
   "table_id" : "0006"
 }, {
@@ -1529,23 +1549,23 @@
   "usage" : "P",
   "table_id" : "0006"
 }, {
-  "name" : "JRF",
-  "description" : "Jewish: Reform",
+  "name" : "JCO",
+  "description" : "Jewish: Conservative",
   "usage" : "P",
   "table_id" : "0006"
 }, {
-  "name" : "MOS",
-  "description" : "Muslim",
+  "name" : "LMS",
+  "description" : "Christian: Lutheran Missouri Synod",
   "usage" : "P",
   "table_id" : "0006"
 }, {
-  "name" : "ORT",
-  "description" : "Christian: Orthodox",
+  "name" : "MSU",
+  "description" : "Muslim: Sunni",
   "usage" : "P",
   "table_id" : "0006"
 }, {
-  "name" : "REO",
-  "description" : "Christian: Reorganized Church of Jesus Christ-LDS",
+  "name" : "PRC",
+  "description" : "Christian: Other Protestant",
   "usage" : "P",
   "table_id" : "0006"
 }, {
@@ -1579,23 +1599,23 @@
   "usage" : "P",
   "table_id" : "0006"
 }, {
-  "name" : "JCO",
-  "description" : "Jewish: Conservative",
+  "name" : "JOT",
+  "description" : "Jewish: Other",
   "usage" : "P",
   "table_id" : "0006"
 }, {
-  "name" : "LMS",
-  "description" : "Christian: Lutheran Missouri Synod",
+  "name" : "MET",
+  "description" : "Christian: Methodist",
   "usage" : "P",
   "table_id" : "0006"
 }, {
-  "name" : "MSU",
-  "description" : "Muslim: Sunni",
+  "name" : "NOE",
+  "description" : "Nonreligious",
   "usage" : "P",
   "table_id" : "0006"
 }, {
-  "name" : "PRC",
-  "description" : "Christian: Other Protestant",
+  "name" : "QUA",
+  "description" : "Christian: Friends",
   "usage" : "P",
   "table_id" : "0006"
 }, {
@@ -1629,23 +1649,23 @@
   "usage" : "P",
   "table_id" : "0006"
 }, {
-  "name" : "JOT",
-  "description" : "Jewish: Other",
+  "name" : "JRN",
+  "description" : "Jewish: Renewal",
   "usage" : "P",
   "table_id" : "0006"
 }, {
-  "name" : "MET",
-  "description" : "Christian: Methodist",
+  "name" : "MOT",
+  "description" : "Muslim: Other",
   "usage" : "P",
   "table_id" : "0006"
 }, {
-  "name" : "NOE",
-  "description" : "Nonreligious",
+  "name" : "OTH",
+  "description" : "Other",
   "usage" : "P",
   "table_id" : "0006"
 }, {
-  "name" : "QUA",
-  "description" : "Christian: Friends",
+  "name" : "SAA",
+  "description" : "Christian: Salvation Army",
   "usage" : "P",
   "table_id" : "0006"
 }, {
@@ -1684,23 +1704,23 @@
   "usage" : "P",
   "table_id" : "0006"
 }, {
-  "name" : "JRN",
-  "description" : "Jewish: Renewal",
+  "name" : "JEW",
+  "description" : "Jewish",
   "usage" : "P",
   "table_id" : "0006"
 }, {
-  "name" : "MOT",
-  "description" : "Muslim: Other",
+  "name" : "LUT",
+  "description" : "Christian: Lutheran",
   "usage" : "P",
   "table_id" : "0006"
 }, {
-  "name" : "OTH",
-  "description" : "Other",
+  "name" : "NAM",
+  "description" : "Native American",
   "usage" : "P",
   "table_id" : "0006"
 }, {
-  "name" : "SAA",
-  "description" : "Christian: Salvation Army",
+  "name" : "PRE",
+  "description" : "Christian: Presbyterian",
   "usage" : "P",
   "table_id" : "0006"
 }, {
@@ -1734,23 +1754,23 @@
   "usage" : "P",
   "table_id" : "0006"
 }, {
-  "name" : "JEW",
-  "description" : "Jewish",
+  "name" : "JRC",
+  "description" : "Jewish: Reconstructionist",
   "usage" : "P",
   "table_id" : "0006"
 }, {
-  "name" : "LUT",
-  "description" : "Christian: Lutheran",
+  "name" : "MOM",
+  "description" : "Christian: Latter-day Saints",
   "usage" : "P",
   "table_id" : "0006"
 }, {
-  "name" : "NAM",
-  "description" : "Native American",
+  "name" : "NRL",
+  "description" : "New Religionist",
   "usage" : "P",
   "table_id" : "0006"
 }, {
-  "name" : "PRE",
-  "description" : "Christian: Presbyterian",
+  "name" : "REC",
+  "description" : "Christian: Reformed Church",
   "usage" : "P",
   "table_id" : "0006"
 }, {
@@ -1784,23 +1804,28 @@
   "usage" : "P",
   "table_id" : "0006"
 }, {
-  "name" : "JRC",
-  "description" : "Jewish: Reconstructionist",
+  "name" : "JAI",
+  "description" : "Jain",
   "usage" : "P",
   "table_id" : "0006"
 }, {
-  "name" : "MOM",
-  "description" : "Christian: Latter-day Saints",
+  "name" : "JWN",
+  "description" : "Christian: Jehovah's Witness",
   "usage" : "P",
   "table_id" : "0006"
 }, {
-  "name" : "NRL",
-  "description" : "New Religionist",
+  "name" : "MSH",
+  "description" : "Muslim: Shiite",
   "usage" : "P",
   "table_id" : "0006"
 }, {
-  "name" : "REC",
-  "description" : "Christian: Reformed Church",
+  "name" : "PEN",
+  "description" : "Christian: Pentecostal",
+  "usage" : "P",
+  "table_id" : "0006"
+}, {
+  "name" : "SEV",
+  "description" : "Christian: Seventh Day Adventist",
   "usage" : "P",
   "table_id" : "0006"
 }, {
@@ -1831,31 +1856,6 @@
 }, {
   "name" : "EVC",
   "description" : "Christian: Evangelical Church",
-  "usage" : "P",
-  "table_id" : "0006"
-}, {
-  "name" : "JAI",
-  "description" : "Jain",
-  "usage" : "P",
-  "table_id" : "0006"
-}, {
-  "name" : "JWN",
-  "description" : "Christian: Jehovah's Witness",
-  "usage" : "P",
-  "table_id" : "0006"
-}, {
-  "name" : "MSH",
-  "description" : "Muslim: Shiite",
-  "usage" : "P",
-  "table_id" : "0006"
-}, {
-  "name" : "PEN",
-  "description" : "Christian: Pentecostal",
-  "usage" : "P",
-  "table_id" : "0006"
-}, {
-  "name" : "SEV",
-  "description" : "Christian: Seventh Day Adventist",
   "usage" : "P",
   "table_id" : "0006"
 }, {
@@ -2144,6 +2144,16 @@
   "usage" : "P",
   "table_id" : "0038"
 }, {
+  "name" : "73",
+  "description" : "Self-care training",
+  "usage" : "P",
+  "table_id" : "0043"
+}, {
+  "name" : "07",
+  "description" : "Treatment of non-terminal condition for hospice patient",
+  "usage" : "P",
+  "table_id" : "0043"
+}, {
   "name" : "18",
   "description" : "Maiden name retained",
   "usage" : "P",
@@ -2164,13 +2174,13 @@
   "usage" : "P",
   "table_id" : "0043"
 }, {
-  "name" : "73",
-  "description" : "Self-care training",
+  "name" : "76",
+  "description" : "Back-up in facility dialysis",
   "usage" : "P",
   "table_id" : "0043"
 }, {
-  "name" : "07",
-  "description" : "Treatment of non-terminal condition for hospice patient",
+  "name" : "02",
+  "description" : "Condition is employment related",
   "usage" : "P",
   "table_id" : "0043"
 }, {
@@ -2204,13 +2214,13 @@
   "usage" : "P",
   "table_id" : "0043"
 }, {
-  "name" : "76",
-  "description" : "Back-up in facility dialysis",
+  "name" : "79",
+  "description" : "Corf services provided off-site",
   "usage" : "P",
   "table_id" : "0043"
 }, {
-  "name" : "02",
-  "description" : "Condition is employment related",
+  "name" : "05",
+  "description" : "Lien has been filed",
   "usage" : "P",
   "table_id" : "0043"
 }, {
@@ -2239,13 +2249,13 @@
   "usage" : "P",
   "table_id" : "0043"
 }, {
-  "name" : "79",
-  "description" : "Corf services provided off-site",
+  "name" : "74",
+  "description" : "Home",
   "usage" : "P",
   "table_id" : "0043"
 }, {
-  "name" : "05",
-  "description" : "Lien has been filed",
+  "name" : "08",
+  "description" : "Beneficiary would not provide information concerning other insurance coverage",
   "usage" : "P",
   "table_id" : "0043"
 }, {
@@ -2269,13 +2279,13 @@
   "usage" : "P",
   "table_id" : "0043"
 }, {
-  "name" : "74",
-  "description" : "Home",
+  "name" : "77",
+  "description" : "Provider accepts or is obligated/required due to a contractual arrangement or law to accept payment by a primary payer as payment in full",
   "usage" : "P",
   "table_id" : "0043"
 }, {
-  "name" : "08",
-  "description" : "Beneficiary would not provide information concerning other insurance coverage",
+  "name" : "03",
+  "description" : "Patient covered by insurance not reflected here",
   "usage" : "P",
   "table_id" : "0043"
 }, {
@@ -2309,13 +2319,13 @@
   "usage" : "P",
   "table_id" : "0043"
 }, {
-  "name" : "77",
-  "description" : "Provider accepts or is obligated/required due to a contractual arrangement or law to accept payment by a primary payer as payment in full",
+  "name" : "80",
+  "description" : "Pregnant",
   "usage" : "P",
   "table_id" : "0043"
 }, {
-  "name" : "03",
-  "description" : "Patient covered by insurance not reflected here",
+  "name" : "06",
+  "description" : "ESRD patient in first 18 months of entitlement covered by employer group health insurance",
   "usage" : "P",
   "table_id" : "0043"
 }, {
@@ -2344,13 +2354,13 @@
   "usage" : "P",
   "table_id" : "0043"
 }, {
-  "name" : "80",
-  "description" : "Pregnant",
+  "name" : "75",
+  "description" : "Home - 100% reimbursement",
   "usage" : "P",
   "table_id" : "0043"
 }, {
-  "name" : "06",
-  "description" : "ESRD patient in first 18 months of entitlement covered by employer group health insurance",
+  "name" : "01",
+  "description" : "Military service related",
   "usage" : "P",
   "table_id" : "0043"
 }, {
@@ -2379,13 +2389,13 @@
   "usage" : "P",
   "table_id" : "0043"
 }, {
-  "name" : "75",
-  "description" : "Home - 100% reimbursement",
+  "name" : "78",
+  "description" : "New coverage not implemented by HMO",
   "usage" : "P",
   "table_id" : "0043"
 }, {
-  "name" : "01",
-  "description" : "Military service related",
+  "name" : "04",
+  "description" : "HMO enrollee",
   "usage" : "P",
   "table_id" : "0043"
 }, {
@@ -2419,21 +2429,6 @@
   "usage" : "P",
   "table_id" : "0043"
 }, {
-  "name" : "78",
-  "description" : "New coverage not implemented by HMO",
-  "usage" : "P",
-  "table_id" : "0043"
-}, {
-  "name" : "04",
-  "description" : "HMO enrollee",
-  "usage" : "P",
-  "table_id" : "0043"
-}, {
-  "name" : "SSA",
-  "description" : "Time slots available for a single appointment",
-  "usage" : "P",
-  "table_id" : "0048"
-}, {
   "name" : "ADV",
   "description" : "Advice/diagnosis",
   "usage" : "P",
@@ -2454,13 +2449,8 @@
   "usage" : "P",
   "table_id" : "0048"
 }, {
-  "name" : "SAL",
-  "description" : "All schedule related information, including open slots, booked slots, blocked slots",
-  "usage" : "P",
-  "table_id" : "0048"
-}, {
-  "name" : "VXI",
-  "description" : "Vaccine Information",
+  "name" : "SSA",
+  "description" : "Time slots available for a single appointment",
   "usage" : "P",
   "table_id" : "0048"
 }, {
@@ -2479,8 +2469,13 @@
   "usage" : "P",
   "table_id" : "0048"
 }, {
-  "name" : "SOF",
-  "description" : "First open slot on the identified schedule after the start date/time",
+  "name" : "SAL",
+  "description" : "All schedule related information, including open slots, booked slots, blocked slots",
+  "usage" : "P",
+  "table_id" : "0048"
+}, {
+  "name" : "VXI",
+  "description" : "Vaccine Information",
   "usage" : "P",
   "table_id" : "0048"
 }, {
@@ -2499,13 +2494,8 @@
   "usage" : "P",
   "table_id" : "0048"
 }, {
-  "name" : "RGR",
-  "description" : "Pharmacy give information",
-  "usage" : "P",
-  "table_id" : "0048"
-}, {
-  "name" : "SSR",
-  "description" : "Time slots available for a recurring appointment",
+  "name" : "SOF",
+  "description" : "First open slot on the identified schedule after the start date/time",
   "usage" : "P",
   "table_id" : "0048"
 }, {
@@ -2524,13 +2514,13 @@
   "usage" : "P",
   "table_id" : "0048"
 }, {
-  "name" : "SBK",
-  "description" : "Booked slots on the identified schedule",
+  "name" : "RGR",
+  "description" : "Pharmacy give information",
   "usage" : "P",
   "table_id" : "0048"
 }, {
-  "name" : "XID",
-  "description" : "Get cross-referenced identifiers",
+  "name" : "SSR",
+  "description" : "Time slots available for a recurring appointment",
   "usage" : "P",
   "table_id" : "0048"
 }, {
@@ -2549,8 +2539,13 @@
   "usage" : "P",
   "table_id" : "0048"
 }, {
-  "name" : "SOP",
-  "description" : "Open slots on the identified schedule",
+  "name" : "SBK",
+  "description" : "Booked slots on the identified schedule",
+  "usage" : "P",
+  "table_id" : "0048"
+}, {
+  "name" : "XID",
+  "description" : "Get cross-referenced identifiers",
   "usage" : "P",
   "table_id" : "0048"
 }, {
@@ -2569,13 +2564,8 @@
   "usage" : "P",
   "table_id" : "0048"
 }, {
-  "name" : "ROR",
-  "description" : "Pharmacy prescription information",
-  "usage" : "P",
-  "table_id" : "0048"
-}, {
-  "name" : "STA",
-  "description" : "Status",
+  "name" : "SOP",
+  "description" : "Open slots on the identified schedule",
   "usage" : "P",
   "table_id" : "0048"
 }, {
@@ -2594,8 +2584,13 @@
   "usage" : "P",
   "table_id" : "0048"
 }, {
-  "name" : "SBL",
-  "description" : "Blocked slots on the identified schedule",
+  "name" : "ROR",
+  "description" : "Pharmacy prescription information",
+  "usage" : "P",
+  "table_id" : "0048"
+}, {
+  "name" : "STA",
+  "description" : "Status",
   "usage" : "P",
   "table_id" : "0048"
 }, {
@@ -2611,6 +2606,11 @@
 }, {
   "name" : "RAR",
   "description" : "Pharmacy administration information",
+  "usage" : "P",
+  "table_id" : "0048"
+}, {
+  "name" : "SBL",
+  "description" : "Blocked slots on the identified schedule",
   "usage" : "P",
   "table_id" : "0048"
 }, {
@@ -2664,6 +2664,11 @@
   "usage" : "P",
   "table_id" : "0062"
 }, {
+  "name" : "SEL",
+  "description" : "Self",
+  "usage" : "P",
+  "table_id" : "0063"
+}, {
   "name" : "BRO",
   "description" : "Brother",
   "usage" : "P",
@@ -2679,8 +2684,8 @@
   "usage" : "P",
   "table_id" : "0063"
 }, {
-  "name" : "SEL",
-  "description" : "Self",
+  "name" : "SPO",
+  "description" : "Spouse",
   "usage" : "P",
   "table_id" : "0063"
 }, {
@@ -2699,8 +2704,13 @@
   "usage" : "P",
   "table_id" : "0063"
 }, {
-  "name" : "SPO",
-  "description" : "Spouse",
+  "name" : "PAR",
+  "description" : "Parent",
+  "usage" : "P",
+  "table_id" : "0063"
+}, {
+  "name" : "WRD",
+  "description" : "Ward of court",
   "usage" : "P",
   "table_id" : "0063"
 }, {
@@ -2714,13 +2724,8 @@
   "usage" : "P",
   "table_id" : "0063"
 }, {
-  "name" : "PAR",
-  "description" : "Parent",
-  "usage" : "P",
-  "table_id" : "0063"
-}, {
-  "name" : "WRD",
-  "description" : "Ward of court",
+  "name" : "SIB",
+  "description" : "Sibling",
   "usage" : "P",
   "table_id" : "0063"
 }, {
@@ -2739,8 +2744,13 @@
   "usage" : "P",
   "table_id" : "0063"
 }, {
-  "name" : "SIB",
-  "description" : "Sibling",
+  "name" : "OTH",
+  "description" : "Other",
+  "usage" : "P",
+  "table_id" : "0063"
+}, {
+  "name" : "TRA",
+  "description" : "Trainer",
   "usage" : "P",
   "table_id" : "0063"
 }, {
@@ -2754,13 +2764,8 @@
   "usage" : "P",
   "table_id" : "0063"
 }, {
-  "name" : "OTH",
-  "description" : "Other",
-  "usage" : "P",
-  "table_id" : "0063"
-}, {
-  "name" : "TRA",
-  "description" : "Trainer",
+  "name" : "SCH",
+  "description" : "Stepchild",
   "usage" : "P",
   "table_id" : "0063"
 }, {
@@ -2779,8 +2784,8 @@
   "usage" : "P",
   "table_id" : "0063"
 }, {
-  "name" : "SCH",
-  "description" : "Stepchild",
+  "name" : "SIS",
+  "description" : "Sister",
   "usage" : "P",
   "table_id" : "0063"
 }, {
@@ -2799,8 +2804,13 @@
   "usage" : "P",
   "table_id" : "0063"
 }, {
-  "name" : "SIS",
-  "description" : "Sister",
+  "name" : "OWN",
+  "description" : "Owner",
+  "usage" : "P",
+  "table_id" : "0063"
+}, {
+  "name" : "UNK",
+  "description" : "Unknown",
   "usage" : "P",
   "table_id" : "0063"
 }, {
@@ -2811,16 +2821,6 @@
 }, {
   "name" : "GRD",
   "description" : "Guardian",
-  "usage" : "P",
-  "table_id" : "0063"
-}, {
-  "name" : "OWN",
-  "description" : "Owner",
-  "usage" : "P",
-  "table_id" : "0063"
-}, {
-  "name" : "UNK",
-  "description" : "Unknown",
   "usage" : "P",
   "table_id" : "0063"
 }, {
@@ -2934,13 +2934,13 @@
   "usage" : "P",
   "table_id" : "0069"
 }, {
-  "name" : "SUR",
-  "description" : "Surgical Service",
+  "name" : "CAR",
+  "description" : "Cardiac Service",
   "usage" : "P",
   "table_id" : "0069"
 }, {
-  "name" : "CAR",
-  "description" : "Cardiac Service",
+  "name" : "SUR",
+  "description" : "Surgical Service",
   "usage" : "P",
   "table_id" : "0069"
 }, {
@@ -2953,6 +2953,36 @@
   "description" : "Urology Service",
   "usage" : "P",
   "table_id" : "0069"
+}, {
+  "name" : "URNS",
+  "description" : "Urine sediment",
+  "usage" : "P",
+  "table_id" : "0070"
+}, {
+  "name" : "FIB",
+  "description" : "Fibroblasts",
+  "usage" : "P",
+  "table_id" : "0070"
+}, {
+  "name" : "WICK",
+  "description" : "Wick",
+  "usage" : "P",
+  "table_id" : "0070"
+}, {
+  "name" : "GENL",
+  "description" : "Genital lochia",
+  "usage" : "P",
+  "table_id" : "0070"
+}, {
+  "name" : "LN",
+  "description" : "Line",
+  "usage" : "P",
+  "table_id" : "0070"
+}, {
+  "name" : "MILK",
+  "description" : "Breast milk",
+  "usage" : "P",
+  "table_id" : "0070"
 }, {
   "name" : "PLB",
   "description" : "Plasma bag",
@@ -3004,33 +3034,38 @@
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "URNS",
-  "description" : "Urine sediment",
+  "name" : "ENDM",
+  "description" : "Endometrium",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "FIB",
-  "description" : "Fibroblasts",
+  "name" : "USUB",
+  "description" : "Unknown substance",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "WICK",
-  "description" : "Wick",
+  "name" : "FLU",
+  "description" : "Body fluid, unsp",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "GENL",
-  "description" : "Genital lochia",
+  "name" : "WNDD",
+  "description" : "Wound drainage",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "LN",
-  "description" : "Line",
+  "name" : "IHG",
+  "description" : "Inhaled Gas",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "MILK",
-  "description" : "Breast milk",
+  "name" : "LYM",
+  "description" : "Lymphocytes",
+  "usage" : "P",
+  "table_id" : "0070"
+}, {
+  "name" : "NOS",
+  "description" : "Nose (nasal passage)",
   "usage" : "P",
   "table_id" : "0070"
 }, {
@@ -3079,38 +3114,28 @@
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "ENDM",
-  "description" : "Endometrium",
+  "name" : "EXHLD",
+  "description" : "Exhaled gas (=breath)",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "USUB",
-  "description" : "Unknown substance",
+  "name" : "WAT",
+  "description" : "Water",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "FLU",
-  "description" : "Body fluid, unsp",
+  "name" : "GEN",
+  "description" : "Genital",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "WNDD",
-  "description" : "Wound drainage",
+  "name" : "LAM",
+  "description" : "Lamella",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "IHG",
-  "description" : "Inhaled Gas",
-  "usage" : "P",
-  "table_id" : "0070"
-}, {
-  "name" : "LYM",
-  "description" : "Lymphocytes",
-  "usage" : "P",
-  "table_id" : "0070"
-}, {
-  "name" : "NOS",
-  "description" : "Nose (nasal passage)",
+  "name" : "MBLD",
+  "description" : "Menstrual blood",
   "usage" : "P",
   "table_id" : "0070"
 }, {
@@ -3169,28 +3194,33 @@
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "EXHLD",
-  "description" : "Exhaled gas (=breath)",
+  "name" : "URT",
+  "description" : "Urine catheter",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "WAT",
-  "description" : "Water",
+  "name" : "FIST",
+  "description" : "Fistula",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "GEN",
-  "description" : "Genital",
+  "name" : "WND",
+  "description" : "Wound",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "LAM",
-  "description" : "Lamella",
+  "name" : "GENV",
+  "description" : "Genital vaginal",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "MBLD",
-  "description" : "Menstrual blood",
+  "name" : "LNA",
+  "description" : "Line arterial",
+  "usage" : "P",
+  "table_id" : "0070"
+}, {
+  "name" : "MLK",
+  "description" : "Milk",
   "usage" : "P",
   "table_id" : "0070"
 }, {
@@ -3244,33 +3274,33 @@
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "URT",
-  "description" : "Urine catheter",
+  "name" : "EOS",
+  "description" : "Eosinophils",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "FIST",
-  "description" : "Fistula",
+  "name" : "VITF",
+  "description" : "Vitreous Fluid",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "WND",
-  "description" : "Wound",
+  "name" : "GAS",
+  "description" : "Gas",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "GENV",
-  "description" : "Genital vaginal",
+  "name" : "WNDE",
+  "description" : "Wound exudate",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "LNA",
-  "description" : "Line arterial",
+  "name" : "ISLT",
+  "description" : "Isolate",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "MLK",
-  "description" : "Milk",
+  "name" : "MAC",
+  "description" : "Macrophages",
   "usage" : "P",
   "table_id" : "0070"
 }, {
@@ -3324,33 +3354,33 @@
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "EOS",
-  "description" : "Eosinophils",
+  "name" : "URC",
+  "description" : "Urine clean catch",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "VITF",
-  "description" : "Vitreous Fluid",
+  "name" : "EYE",
+  "description" : "Eye",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "GAS",
-  "description" : "Gas",
+  "name" : "WBC",
+  "description" : "Leukocytes",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "WNDE",
-  "description" : "Wound exudate",
+  "name" : "GENC",
+  "description" : "Genital cervix",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "ISLT",
-  "description" : "Isolate",
+  "name" : "LIQ",
+  "description" : "Liquid NOS",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "MAC",
-  "description" : "Macrophages",
+  "name" : "MEC",
+  "description" : "Meconium",
   "usage" : "P",
   "table_id" : "0070"
 }, {
@@ -3404,33 +3434,33 @@
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "URC",
-  "description" : "Urine clean catch",
+  "name" : "URTH",
+  "description" : "Urethra",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "EYE",
-  "description" : "Eye",
+  "name" : "FLT",
+  "description" : "Filter",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "WBC",
-  "description" : "Leukocytes",
+  "name" : "WNDA",
+  "description" : "Wound abscess",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "GENC",
-  "description" : "Genital cervix",
+  "name" : "HAR",
+  "description" : "Hair",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "LIQ",
-  "description" : "Liquid NOS",
+  "name" : "LNV",
+  "description" : "Line venous",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "MEC",
-  "description" : "Meconium",
+  "name" : "NAIL",
+  "description" : "Nail",
   "usage" : "P",
   "table_id" : "0070"
 }, {
@@ -3484,33 +3514,33 @@
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "URTH",
-  "description" : "Urethra",
+  "name" : "EXG",
+  "description" : "Exhaled gas (=breath)",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "FLT",
-  "description" : "Filter",
+  "name" : "VOM",
+  "description" : "Vomitus",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "WNDA",
-  "description" : "Wound abscess",
+  "name" : "GAST",
+  "description" : "Gastric fluid/contents",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "HAR",
-  "description" : "Hair",
+  "name" : "XXX",
+  "description" : "To be specified in another part of the message",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "LNV",
-  "description" : "Line venous",
+  "name" : "IT",
+  "description" : "Intubation tube",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "NAIL",
-  "description" : "Nail",
+  "name" : "MAR",
+  "description" : "Marrow",
   "usage" : "P",
   "table_id" : "0070"
 }, {
@@ -3564,35 +3594,15 @@
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "EXG",
-  "description" : "Exhaled gas (=breath)",
+  "name" : "BLB",
+  "description" : "Blood Bank",
   "usage" : "P",
-  "table_id" : "0070"
+  "table_id" : "0074"
 }, {
-  "name" : "VOM",
-  "description" : "Vomitus",
+  "name" : "HM",
+  "description" : "Hematology",
   "usage" : "P",
-  "table_id" : "0070"
-}, {
-  "name" : "GAST",
-  "description" : "Gastric fluid/contents",
-  "usage" : "P",
-  "table_id" : "0070"
-}, {
-  "name" : "XXX",
-  "description" : "To be specified in another part of the message",
-  "usage" : "P",
-  "table_id" : "0070"
-}, {
-  "name" : "IT",
-  "description" : "Intubation tube",
-  "usage" : "P",
-  "table_id" : "0070"
-}, {
-  "name" : "MAR",
-  "description" : "Marrow",
-  "usage" : "P",
-  "table_id" : "0070"
+  "table_id" : "0074"
 }, {
   "name" : "OSL",
   "description" : "Outside Lab",
@@ -3609,13 +3619,13 @@
   "usage" : "P",
   "table_id" : "0074"
 }, {
-  "name" : "BLB",
-  "description" : "Blood Bank",
+  "name" : "CT",
+  "description" : "CAT Scan",
   "usage" : "P",
   "table_id" : "0074"
 }, {
-  "name" : "HM",
-  "description" : "Hematology",
+  "name" : "IMM",
+  "description" : "Immunology",
   "usage" : "P",
   "table_id" : "0074"
 }, {
@@ -3639,13 +3649,13 @@
   "usage" : "P",
   "table_id" : "0074"
 }, {
-  "name" : "CT",
-  "description" : "CAT Scan",
+  "name" : "AU",
+  "description" : "Audiology",
   "usage" : "P",
   "table_id" : "0074"
 }, {
-  "name" : "IMM",
-  "description" : "Immunology",
+  "name" : "EC",
+  "description" : "Electrocardiac (e.g., EKG,  EEC, Holter)",
   "usage" : "P",
   "table_id" : "0074"
 }, {
@@ -3664,13 +3674,13 @@
   "usage" : "P",
   "table_id" : "0074"
 }, {
-  "name" : "AU",
-  "description" : "Audiology",
+  "name" : "CH",
+  "description" : "Chemistry",
   "usage" : "P",
   "table_id" : "0074"
 }, {
-  "name" : "EC",
-  "description" : "Electrocardiac (e.g., EKG,  EEC, Holter)",
+  "name" : "ICU",
+  "description" : "Bedside ICU Monitoring",
   "usage" : "P",
   "table_id" : "0074"
 }, {
@@ -3689,13 +3699,13 @@
   "usage" : "P",
   "table_id" : "0074"
 }, {
-  "name" : "CH",
-  "description" : "Chemistry",
+  "name" : "CTH",
+  "description" : "Cardiac Catheterization",
   "usage" : "P",
   "table_id" : "0074"
 }, {
-  "name" : "ICU",
-  "description" : "Bedside ICU Monitoring",
+  "name" : "LAB",
+  "description" : "Laboratory",
   "usage" : "P",
   "table_id" : "0074"
 }, {
@@ -3719,13 +3729,13 @@
   "usage" : "P",
   "table_id" : "0074"
 }, {
-  "name" : "CTH",
-  "description" : "Cardiac Catheterization",
+  "name" : "BG",
+  "description" : "Blood Gases",
   "usage" : "P",
   "table_id" : "0074"
 }, {
-  "name" : "LAB",
-  "description" : "Laboratory",
+  "name" : "EN",
+  "description" : "Electroneuro (EEG, EMG,EP,PSG)",
   "usage" : "P",
   "table_id" : "0074"
 }, {
@@ -3744,13 +3754,13 @@
   "usage" : "P",
   "table_id" : "0074"
 }, {
-  "name" : "BG",
-  "description" : "Blood Gases",
+  "name" : "CP",
+  "description" : "Cytopathology",
   "usage" : "P",
   "table_id" : "0074"
 }, {
-  "name" : "EN",
-  "description" : "Electroneuro (EEG, EMG,EP,PSG)",
+  "name" : "IMG",
+  "description" : "Diagnostic Imaging",
   "usage" : "P",
   "table_id" : "0074"
 }, {
@@ -3769,13 +3779,13 @@
   "usage" : "P",
   "table_id" : "0074"
 }, {
-  "name" : "CP",
-  "description" : "Cytopathology",
+  "name" : "CUS",
+  "description" : "Cardiac Ultrasound",
   "usage" : "P",
   "table_id" : "0074"
 }, {
-  "name" : "IMG",
-  "description" : "Diagnostic Imaging",
+  "name" : "MB",
+  "description" : "Microbiology",
   "usage" : "P",
   "table_id" : "0074"
 }, {
@@ -3799,15 +3809,40 @@
   "usage" : "P",
   "table_id" : "0074"
 }, {
-  "name" : "CUS",
-  "description" : "Cardiac Ultrasound",
+  "name" : "INU",
+  "description" : "Automated equipment inventory update message",
   "usage" : "P",
-  "table_id" : "0074"
+  "table_id" : "0076"
 }, {
-  "name" : "MB",
-  "description" : "Microbiology",
+  "name" : "SPQ",
+  "description" : "Stored procedure request",
   "usage" : "P",
-  "table_id" : "0074"
+  "table_id" : "0076"
+}, {
+  "name" : "MFQ",
+  "description" : "Master files query",
+  "usage" : "P",
+  "table_id" : "0076"
+}, {
+  "name" : "TBR",
+  "description" : "Tabular data response",
+  "usage" : "P",
+  "table_id" : "0076"
+}, {
+  "name" : "OMN",
+  "description" : "Non-stock requisition order message",
+  "usage" : "P",
+  "table_id" : "0076"
+}, {
+  "name" : "VXX",
+  "description" : "Response for vaccination query with multiple PID matches",
+  "usage" : "P",
+  "table_id" : "0076"
+}, {
+  "name" : "ORN",
+  "description" : "Non-stock requisition - General order acknowledgment message",
+  "usage" : "P",
+  "table_id" : "0076"
 }, {
   "name" : "PEX",
   "description" : "Product experience message",
@@ -3849,76 +3884,6 @@
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "INU",
-  "description" : "Automated equipment inventory update message",
-  "usage" : "P",
-  "table_id" : "0076"
-}, {
-  "name" : "SPQ",
-  "description" : "Stored procedure request",
-  "usage" : "P",
-  "table_id" : "0076"
-}, {
-  "name" : "MFQ",
-  "description" : "Master files query",
-  "usage" : "P",
-  "table_id" : "0076"
-}, {
-  "name" : "TBR",
-  "description" : "Tabular data response",
-  "usage" : "P",
-  "table_id" : "0076"
-}, {
-  "name" : "OMN",
-  "description" : "Non-stock requisition order message",
-  "usage" : "P",
-  "table_id" : "0076"
-}, {
-  "name" : "VXX",
-  "description" : "Response for vaccination query with multiple PID matches",
-  "usage" : "P",
-  "table_id" : "0076"
-}, {
-  "name" : "ORN",
-  "description" : "Non-stock requisition - General order acknowledgment message",
-  "usage" : "P",
-  "table_id" : "0076"
-}, {
-  "name" : "PMU",
-  "description" : "Add personnel record",
-  "usage" : "P",
-  "table_id" : "0076"
-}, {
-  "name" : "QBP",
-  "description" : "Query by parameter",
-  "usage" : "P",
-  "table_id" : "0076"
-}, {
-  "name" : "RAS",
-  "description" : "Pharmacy/treatment administration message",
-  "usage" : "P",
-  "table_id" : "0076"
-}, {
-  "name" : "RER",
-  "description" : "Pharmacy/treatment encoded order information",
-  "usage" : "P",
-  "table_id" : "0076"
-}, {
-  "name" : "CSU",
-  "description" : "Unsolicited study data message",
-  "usage" : "P",
-  "table_id" : "0076"
-}, {
-  "name" : "RQA",
-  "description" : "Request patient authorization",
-  "usage" : "P",
-  "table_id" : "0076"
-}, {
-  "name" : "EQQ",
-  "description" : "Embedded query language query",
-  "usage" : "P",
-  "table_id" : "0076"
-}, {
   "name" : "RRG",
   "description" : "Pharmacy/treatment give acknowledgment message",
   "usage" : "P",
@@ -3954,38 +3919,38 @@
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "PPR",
-  "description" : "Patient problem message",
+  "name" : "PMU",
+  "description" : "Add personnel record",
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "QRY",
-  "description" : "Query, original mode",
+  "name" : "QBP",
+  "description" : "Query by parameter",
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "RDE",
-  "description" : "Pharmacy/treatment encoded order message",
+  "name" : "RAS",
+  "description" : "Pharmacy/treatment administration message",
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "ACK",
-  "description" : "General acknowledgment message",
+  "name" : "RER",
+  "description" : "Pharmacy/treatment encoded order information",
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "ROR",
-  "description" : "Pharmacy/treatment order response",
+  "name" : "CSU",
+  "description" : "Unsolicited study data message",
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "DSR",
-  "description" : "Display response",
+  "name" : "RQA",
+  "description" : "Request patient authorization",
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "RQP",
-  "description" : "Request patient demographics",
+  "name" : "EQQ",
+  "description" : "Embedded query language query",
   "usage" : "P",
   "table_id" : "0076"
 }, {
@@ -4029,6 +3994,71 @@
   "usage" : "P",
   "table_id" : "0076"
 }, {
+  "name" : "PPR",
+  "description" : "Patient problem message",
+  "usage" : "P",
+  "table_id" : "0076"
+}, {
+  "name" : "QRY",
+  "description" : "Query, original mode",
+  "usage" : "P",
+  "table_id" : "0076"
+}, {
+  "name" : "RDE",
+  "description" : "Pharmacy/treatment encoded order message",
+  "usage" : "P",
+  "table_id" : "0076"
+}, {
+  "name" : "ACK",
+  "description" : "General acknowledgment message",
+  "usage" : "P",
+  "table_id" : "0076"
+}, {
+  "name" : "ROR",
+  "description" : "Pharmacy/treatment order response",
+  "usage" : "P",
+  "table_id" : "0076"
+}, {
+  "name" : "DSR",
+  "description" : "Display response",
+  "usage" : "P",
+  "table_id" : "0076"
+}, {
+  "name" : "RQP",
+  "description" : "Request patient demographics",
+  "usage" : "P",
+  "table_id" : "0076"
+}, {
+  "name" : "LSR",
+  "description" : "Automated equipment log/service request message",
+  "usage" : "P",
+  "table_id" : "0076"
+}, {
+  "name" : "SQM",
+  "description" : "Schedule query message",
+  "usage" : "P",
+  "table_id" : "0076"
+}, {
+  "name" : "MFR",
+  "description" : "Master files response",
+  "usage" : "P",
+  "table_id" : "0076"
+}, {
+  "name" : "TCR",
+  "description" : "Automated equipment test code settings request message",
+  "usage" : "P",
+  "table_id" : "0076"
+}, {
+  "name" : "OMP",
+  "description" : "Pharmacy/treatment order message",
+  "usage" : "P",
+  "table_id" : "0076"
+}, {
+  "name" : "ORP",
+  "description" : "Pharmacy/treatment order acknowledgement message",
+  "usage" : "P",
+  "table_id" : "0076"
+}, {
   "name" : "PGL",
   "description" : "Patient goal message",
   "usage" : "P",
@@ -4069,33 +4099,38 @@
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "LSR",
-  "description" : "Automated equipment log/service request message",
+  "name" : "RRI",
+  "description" : "Return referral information",
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "SQM",
-  "description" : "Schedule query message",
+  "name" : "MDM",
+  "description" : "Medical document management",
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "MFR",
-  "description" : "Master files response",
+  "name" : "SRR",
+  "description" : "Scheduled request response",
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "TCR",
-  "description" : "Automated equipment test code settings request message",
+  "name" : "NMR",
+  "description" : "Application management response message",
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "OMP",
-  "description" : "Pharmacy/treatment order message",
+  "name" : "VQQ",
+  "description" : "Virtual table query",
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "ORP",
-  "description" : "Pharmacy/treatment order acknowledgement message",
+  "name" : "ORF",
+  "description" : "Query for results of observation",
+  "usage" : "P",
+  "table_id" : "0076"
+}, {
+  "name" : "ORU",
+  "description" : "Unsolicited transmission of an observation message",
   "usage" : "P",
   "table_id" : "0076"
 }, {
@@ -4134,38 +4169,38 @@
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "RRI",
-  "description" : "Return referral information",
+  "name" : "INR",
+  "description" : "Automated equipment inventory request message",
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "MDM",
-  "description" : "Medical document management",
+  "name" : "SIU",
+  "description" : "Schedule information unsolicited",
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "SRR",
-  "description" : "Scheduled request response",
+  "name" : "MFN",
+  "description" : "Master files notification",
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "NMR",
-  "description" : "Application management response message",
+  "name" : "SUR",
+  "description" : "Summary product experience report",
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "VQQ",
-  "description" : "Virtual table query",
+  "name" : "OML",
+  "description" : "Laboratory order message",
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "ORF",
-  "description" : "Query for results of observation",
+  "name" : "VXU",
+  "description" : "Unsolicited vaccination record update",
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "ORU",
-  "description" : "Unsolicited transmission of an observation message",
+  "name" : "ORM",
+  "description" : "Pharmacy/treatment order message",
   "usage" : "P",
   "table_id" : "0076"
 }, {
@@ -4209,38 +4244,38 @@
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "INR",
-  "description" : "Automated equipment inventory request message",
+  "name" : "RRE",
+  "description" : "Pharmacy/treatment encoded order acknowledgment message",
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "SIU",
-  "description" : "Schedule information unsolicited",
+  "name" : "LSU",
+  "description" : "Automated equipment log/service update message",
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "MFN",
-  "description" : "Master files notification",
+  "name" : "SQR",
+  "description" : "Schedule query response",
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "SUR",
-  "description" : "Summary product experience report",
+  "name" : "NMD",
+  "description" : "Application management data message",
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "OML",
-  "description" : "Laboratory order message",
+  "name" : "TCU",
+  "description" : "Automated equipment test code settings update message",
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "VXU",
-  "description" : "Unsolicited vaccination record update",
+  "name" : "OMS",
+  "description" : "Stock requisition order message",
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "ORM",
-  "description" : "Pharmacy/treatment order message",
+  "name" : "ORR",
+  "description" : "General order response message response to any ORM",
   "usage" : "P",
   "table_id" : "0076"
 }, {
@@ -4279,38 +4314,38 @@
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "RRE",
-  "description" : "Pharmacy/treatment encoded order acknowledgment message",
+  "name" : "RSP",
+  "description" : "Segment pattern response",
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "LSU",
-  "description" : "Automated equipment log/service update message",
+  "name" : "MFD",
+  "description" : "Master files delayed application acknowledgment",
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "SQR",
-  "description" : "Schedule query response",
+  "name" : "SSR",
+  "description" : "Specimen status request message",
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "NMD",
-  "description" : "Application management data message",
+  "name" : "OMD",
+  "description" : "Dietary order",
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "TCU",
-  "description" : "Automated equipment test code settings update message",
+  "name" : "VXQ",
+  "description" : "Query for vaccination record",
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "OMS",
-  "description" : "Stock requisition order message",
+  "name" : "ORG",
+  "description" : "General clinical order acknowledgement message",
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "ORR",
-  "description" : "General order response message response to any ORM",
+  "name" : "OSQ",
+  "description" : "Query response for order status",
   "usage" : "P",
   "table_id" : "0076"
 }, {
@@ -4349,41 +4384,6 @@
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "RSP",
-  "description" : "Segment pattern response",
-  "usage" : "P",
-  "table_id" : "0076"
-}, {
-  "name" : "MFD",
-  "description" : "Master files delayed application acknowledgment",
-  "usage" : "P",
-  "table_id" : "0076"
-}, {
-  "name" : "SSR",
-  "description" : "Specimen status request message",
-  "usage" : "P",
-  "table_id" : "0076"
-}, {
-  "name" : "OMD",
-  "description" : "Dietary order",
-  "usage" : "P",
-  "table_id" : "0076"
-}, {
-  "name" : "VXQ",
-  "description" : "Query for vaccination record",
-  "usage" : "P",
-  "table_id" : "0076"
-}, {
-  "name" : "ORG",
-  "description" : "General clinical order acknowledgement message",
-  "usage" : "P",
-  "table_id" : "0076"
-}, {
-  "name" : "OSQ",
-  "description" : "Query response for order status",
-  "usage" : "P",
-  "table_id" : "0076"
-}, {
   "name" : "LL",
   "description" : "Below lower panic limits",
   "usage" : "P",
@@ -4391,6 +4391,11 @@
 }, {
   "name" : "W",
   "description" : "Worse--use when direction not relevant",
+  "usage" : "P",
+  "table_id" : "0078"
+}, {
+  "name" : "A",
+  "description" : "Abnormal (applies to non-numeric results)",
   "usage" : "P",
   "table_id" : "0078"
 }, {
@@ -4404,11 +4409,6 @@
   "usage" : "P",
   "table_id" : "0078"
 }, {
-  "name" : "A",
-  "description" : "Abnormal (applies to non-numeric results)",
-  "usage" : "P",
-  "table_id" : "0078"
-}, {
   "name" : "I",
   "description" : "Intermediate*",
   "usage" : "P",
@@ -4419,13 +4419,18 @@
   "usage" : "P",
   "table_id" : "0078"
 }, {
+  "name" : "<",
+  "description" : "Below absolute low-off instrument scale",
+  "usage" : "P",
+  "table_id" : "0078"
+}, {
   "name" : "MS",
   "description" : "Moderately susceptible*",
   "usage" : "P",
   "table_id" : "0078"
 }, {
-  "name" : "<",
-  "description" : "Below absolute low-off instrument scale",
+  "name" : "AA",
+  "description" : "Very abnormal (applies to non-numeric units, analogous to panic limits for numeric units)",
   "usage" : "P",
   "table_id" : "0078"
 }, {
@@ -4439,11 +4444,6 @@
   "usage" : "P",
   "table_id" : "0078"
 }, {
-  "name" : "AA",
-  "description" : "Very abnormal (applies to non-numeric units, analogous to panic limits for numeric units)",
-  "usage" : "P",
-  "table_id" : "0078"
-}, {
   "name" : "L",
   "description" : "Below low normal",
   "usage" : "P",
@@ -4454,13 +4454,18 @@
   "usage" : "P",
   "table_id" : "0078"
 }, {
+  "name" : ">",
+  "description" : "Above absolute high-off instrument scale",
+  "usage" : "P",
+  "table_id" : "0078"
+}, {
   "name" : "N",
   "description" : "Normal (applies to non-numeric results)",
   "usage" : "P",
   "table_id" : "0078"
 }, {
-  "name" : ">",
-  "description" : "Above absolute high-off instrument scale",
+  "name" : "B",
+  "description" : "Better--use when direction not relevant",
   "usage" : "P",
   "table_id" : "0078"
 }, {
@@ -4471,11 +4476,6 @@
 }, {
   "name" : "S",
   "description" : "Susceptible*",
-  "usage" : "P",
-  "table_id" : "0078"
-}, {
-  "name" : "B",
-  "description" : "Better--use when direction not relevant",
   "usage" : "P",
   "table_id" : "0078"
 }, {
@@ -4554,13 +4554,13 @@
   "usage" : "P",
   "table_id" : "0085"
 }, {
-  "name" : "X",
-  "description" : "Results cannot be obtained for this observation",
+  "name" : "I",
+  "description" : "Specimen in lab; results pending",
   "usage" : "P",
   "table_id" : "0085"
 }, {
-  "name" : "I",
-  "description" : "Specimen in lab; results pending",
+  "name" : "X",
+  "description" : "Results cannot be obtained for this observation",
   "usage" : "P",
   "table_id" : "0085"
 }, {
@@ -4884,16 +4884,6 @@
   "usage" : "P",
   "table_id" : "0116"
 }, {
-  "name" : "NW",
-  "description" : "New order/service",
-  "usage" : "P",
-  "table_id" : "0119"
-}, {
-  "name" : "PA",
-  "description" : "Parent order/service",
-  "usage" : "P",
-  "table_id" : "0119"
-}, {
   "name" : "RR",
   "description" : "Request received",
   "usage" : "P",
@@ -4914,13 +4904,13 @@
   "usage" : "P",
   "table_id" : "0119"
 }, {
-  "name" : "OE",
-  "description" : "Order/service released",
+  "name" : "NW",
+  "description" : "New order/service",
   "usage" : "P",
   "table_id" : "0119"
 }, {
-  "name" : "RF",
-  "description" : "Refill order/service request",
+  "name" : "PA",
+  "description" : "Parent order/service",
   "usage" : "P",
   "table_id" : "0119"
 }, {
@@ -4944,13 +4934,13 @@
   "usage" : "P",
   "table_id" : "0119"
 }, {
-  "name" : "LI",
-  "description" : "Link order/service to patient care problem or goal",
+  "name" : "OE",
+  "description" : "Order/service released",
   "usage" : "P",
   "table_id" : "0119"
 }, {
-  "name" : "OK",
-  "description" : "Order/service accepted & OK",
+  "name" : "RF",
+  "description" : "Refill order/service request",
   "usage" : "P",
   "table_id" : "0119"
 }, {
@@ -4974,13 +4964,13 @@
   "usage" : "P",
   "table_id" : "0119"
 }, {
-  "name" : "OC",
-  "description" : "Order/service canceled",
+  "name" : "LI",
+  "description" : "Link order/service to patient care problem or goal",
   "usage" : "P",
   "table_id" : "0119"
 }, {
-  "name" : "PR",
-  "description" : "Previous Results with new order/service",
+  "name" : "OK",
+  "description" : "Order/service accepted & OK",
   "usage" : "P",
   "table_id" : "0119"
 }, {
@@ -5004,13 +4994,13 @@
   "usage" : "P",
   "table_id" : "0119"
 }, {
-  "name" : "OF",
-  "description" : "Order/service refilled as requested",
+  "name" : "OC",
+  "description" : "Order/service canceled",
   "usage" : "P",
   "table_id" : "0119"
 }, {
-  "name" : "RL",
-  "description" : "Release previous hold",
+  "name" : "PR",
+  "description" : "Previous Results with new order/service",
   "usage" : "P",
   "table_id" : "0119"
 }, {
@@ -5034,13 +5024,13 @@
   "usage" : "P",
   "table_id" : "0119"
 }, {
-  "name" : "NA",
-  "description" : "Number assigned",
+  "name" : "OF",
+  "description" : "Order/service refilled as requested",
   "usage" : "P",
   "table_id" : "0119"
 }, {
-  "name" : "OR",
-  "description" : "Released as requested",
+  "name" : "RL",
+  "description" : "Release previous hold",
   "usage" : "P",
   "table_id" : "0119"
 }, {
@@ -5064,13 +5054,13 @@
   "usage" : "P",
   "table_id" : "0119"
 }, {
-  "name" : "OD",
-  "description" : "Order/service discontinued",
+  "name" : "NA",
+  "description" : "Number assigned",
   "usage" : "P",
   "table_id" : "0119"
 }, {
-  "name" : "RE",
-  "description" : "Observations/Performed Service to follow",
+  "name" : "OR",
+  "description" : "Released as requested",
   "usage" : "P",
   "table_id" : "0119"
 }, {
@@ -5094,8 +5084,13 @@
   "usage" : "P",
   "table_id" : "0119"
 }, {
-  "name" : "OH",
-  "description" : "Order/service held",
+  "name" : "OD",
+  "description" : "Order/service discontinued",
+  "usage" : "P",
+  "table_id" : "0119"
+}, {
+  "name" : "RE",
+  "description" : "Observations/Performed Service to follow",
   "usage" : "P",
   "table_id" : "0119"
 }, {
@@ -5121,6 +5116,11 @@
 }, {
   "name" : "HR",
   "description" : "On hold as requested",
+  "usage" : "P",
+  "table_id" : "0119"
+}, {
+  "name" : "OH",
+  "description" : "Order/service held",
   "usage" : "P",
   "table_id" : "0119"
 }, {
@@ -5264,6 +5264,11 @@
   "usage" : "P",
   "table_id" : "0124"
 }, {
+  "name" : "CP",
+  "description" : "Composite Price",
+  "usage" : "P",
+  "table_id" : "0125"
+}, {
   "name" : "RP",
   "description" : "Reference Pointer",
   "usage" : "P",
@@ -5271,21 +5276,6 @@
 }, {
   "name" : "XCN",
   "description" : "Extended Composite Name And Number For Persons",
-  "usage" : "P",
-  "table_id" : "0125"
-}, {
-  "name" : "CP",
-  "description" : "Composite Price",
-  "usage" : "P",
-  "table_id" : "0125"
-}, {
-  "name" : "TM",
-  "description" : "Time",
-  "usage" : "P",
-  "table_id" : "0125"
-}, {
-  "name" : "XTN",
-  "description" : "Extended Telecommunications Number",
   "usage" : "P",
   "table_id" : "0125"
 }, {
@@ -5299,6 +5289,21 @@
   "usage" : "P",
   "table_id" : "0125"
 }, {
+  "name" : "TM",
+  "description" : "Time",
+  "usage" : "P",
+  "table_id" : "0125"
+}, {
+  "name" : "XTN",
+  "description" : "Extended Telecommunications Number",
+  "usage" : "P",
+  "table_id" : "0125"
+}, {
+  "name" : "CK",
+  "description" : "Composite ID With Check Digit",
+  "usage" : "P",
+  "table_id" : "0125"
+}, {
   "name" : "NM",
   "description" : "Numeric",
   "usage" : "P",
@@ -5309,8 +5314,8 @@
   "usage" : "P",
   "table_id" : "0125"
 }, {
-  "name" : "CK",
-  "description" : "Composite ID With Check Digit",
+  "name" : "CX",
+  "description" : "Extended Composite ID With Check Digit",
   "usage" : "P",
   "table_id" : "0125"
 }, {
@@ -5324,8 +5329,13 @@
   "usage" : "P",
   "table_id" : "0125"
 }, {
-  "name" : "CX",
-  "description" : "Extended Composite ID With Check Digit",
+  "name" : "CE",
+  "description" : "Coded Entry",
+  "usage" : "P",
+  "table_id" : "0125"
+}, {
+  "name" : "FT",
+  "description" : "Formatted Text (Display)",
   "usage" : "P",
   "table_id" : "0125"
 }, {
@@ -5334,13 +5344,8 @@
   "usage" : "P",
   "table_id" : "0125"
 }, {
-  "name" : "CE",
-  "description" : "Coded Entry",
-  "usage" : "P",
-  "table_id" : "0125"
-}, {
-  "name" : "FT",
-  "description" : "Formatted Text (Display)",
+  "name" : "CN",
+  "description" : "Composite ID And Name",
   "usage" : "P",
   "table_id" : "0125"
 }, {
@@ -5354,8 +5359,8 @@
   "usage" : "P",
   "table_id" : "0125"
 }, {
-  "name" : "CN",
-  "description" : "Composite ID And Name",
+  "name" : "DT",
+  "description" : "Date",
   "usage" : "P",
   "table_id" : "0125"
 }, {
@@ -5369,8 +5374,8 @@
   "usage" : "P",
   "table_id" : "0125"
 }, {
-  "name" : "DT",
-  "description" : "Date",
+  "name" : "CF",
+  "description" : "Coded Element With Formatted Values",
   "usage" : "P",
   "table_id" : "0125"
 }, {
@@ -5381,11 +5386,6 @@
 }, {
   "name" : "TS",
   "description" : "Time Stamp (Date & Time)",
-  "usage" : "P",
-  "table_id" : "0125"
-}, {
-  "name" : "CF",
-  "description" : "Coded Element With Formatted Values",
   "usage" : "P",
   "table_id" : "0125"
 }, {
@@ -5834,6 +5834,11 @@
   "usage" : "P",
   "table_id" : "0150"
 }, {
+  "name" : "05",
+  "description" : "Professional component included in charges and also billed separate to carrier",
+  "usage" : "P",
+  "table_id" : "0153"
+}, {
   "name" : "17",
   "description" : "Payer code",
   "usage" : "P",
@@ -5841,11 +5846,6 @@
 }, {
   "name" : "38",
   "description" : "Blood deductible pints",
-  "usage" : "P",
-  "table_id" : "0153"
-}, {
-  "name" : "05",
-  "description" : "Professional component included in charges and also billed separate to carrier",
   "usage" : "P",
   "table_id" : "0153"
 }, {
@@ -5869,6 +5869,11 @@
   "usage" : "P",
   "table_id" : "0153"
 }, {
+  "name" : "09",
+  "description" : "Medicare co-insurance amount in the first calendar year",
+  "usage" : "P",
+  "table_id" : "0153"
+}, {
   "name" : "12",
   "description" : "Working aged beneficiary/spouse with employer group health plan",
   "usage" : "P",
@@ -5881,11 +5886,6 @@
 }, {
   "name" : "41",
   "description" : "Black lung",
-  "usage" : "P",
-  "table_id" : "0153"
-}, {
-  "name" : "09",
-  "description" : "Medicare co-insurance amount in the first calendar year",
   "usage" : "P",
   "table_id" : "0153"
 }, {
@@ -5909,6 +5909,11 @@
   "usage" : "P",
   "table_id" : "0153"
 }, {
+  "name" : "02",
+  "description" : "Hospital has no semi-private rooms",
+  "usage" : "P",
+  "table_id" : "0153"
+}, {
   "name" : "15",
   "description" : "Worker's Compensation",
   "usage" : "P",
@@ -5916,11 +5921,6 @@
 }, {
   "name" : "31",
   "description" : "Patient liability amount",
-  "usage" : "P",
-  "table_id" : "0153"
-}, {
-  "name" : "02",
-  "description" : "Hospital has no semi-private rooms",
   "usage" : "P",
   "table_id" : "0153"
 }, {
@@ -5949,6 +5949,11 @@
   "usage" : "P",
   "table_id" : "0153"
 }, {
+  "name" : "06",
+  "description" : "Medicare blood deductible",
+  "usage" : "P",
+  "table_id" : "0153"
+}, {
   "name" : "21",
   "description" : "Catastrophic",
   "usage" : "P",
@@ -5956,11 +5961,6 @@
 }, {
   "name" : "39",
   "description" : "Pints of blood replaced",
-  "usage" : "P",
-  "table_id" : "0153"
-}, {
-  "name" : "06",
-  "description" : "Medicare blood deductible",
   "usage" : "P",
   "table_id" : "0153"
 }, {
@@ -5984,6 +5984,11 @@
   "usage" : "P",
   "table_id" : "0153"
 }, {
+  "name" : "10",
+  "description" : "Lifetime reserve amount in the second calendar year",
+  "usage" : "P",
+  "table_id" : "0153"
+}, {
   "name" : "13",
   "description" : "ESRD beneficiary in a Medicare coordination period with an employer group health plan",
   "usage" : "P",
@@ -5996,11 +6001,6 @@
 }, {
   "name" : "42",
   "description" : "VA",
-  "usage" : "P",
-  "table_id" : "0153"
-}, {
-  "name" : "10",
-  "description" : "Lifetime reserve amount in the second calendar year",
   "usage" : "P",
   "table_id" : "0153"
 }, {
@@ -6024,6 +6024,16 @@
   "usage" : "P",
   "table_id" : "0153"
 }, {
+  "name" : "X4",
+  "description" : "Supplemental coverage",
+  "usage" : "P",
+  "table_id" : "0153"
+}, {
+  "name" : "04",
+  "description" : "Inpatient professional component charges which are combined billed",
+  "usage" : "P",
+  "table_id" : "0153"
+}, {
   "name" : "16",
   "description" : "PHS, or other federal agency",
   "usage" : "P",
@@ -6031,11 +6041,6 @@
 }, {
   "name" : "37",
   "description" : "Pints of blood furnished",
-  "usage" : "P",
-  "table_id" : "0153"
-}, {
-  "name" : "04",
-  "description" : "Inpatient professional component charges which are combined billed",
   "usage" : "P",
   "table_id" : "0153"
 }, {
@@ -6059,8 +6064,8 @@
   "usage" : "P",
   "table_id" : "0153"
 }, {
-  "name" : "X4",
-  "description" : "Supplemental coverage",
+  "name" : "08",
+  "description" : "Medicare life time reserve amount in the first calendar year",
   "usage" : "P",
   "table_id" : "0153"
 }, {
@@ -6071,11 +6076,6 @@
 }, {
   "name" : "40",
   "description" : "New coverage not implemented by HMO (for inpatient service only)",
-  "usage" : "P",
-  "table_id" : "0153"
-}, {
-  "name" : "08",
-  "description" : "Medicare life time reserve amount in the first calendar year",
   "usage" : "P",
   "table_id" : "0153"
 }, {
@@ -6099,6 +6099,16 @@
   "usage" : "P",
   "table_id" : "0153"
 }, {
+  "name" : "01",
+  "description" : "Most common semi-private rate",
+  "usage" : "P",
+  "table_id" : "0153"
+}, {
+  "name" : "11",
+  "description" : "Co-insurance amount in the second calendar year",
+  "usage" : "P",
+  "table_id" : "0153"
+}, {
   "name" : "14",
   "description" : "No Fault including auto/other",
   "usage" : "P",
@@ -6109,18 +6119,8 @@
   "usage" : "P",
   "table_id" : "0153"
 }, {
-  "name" : "01",
-  "description" : "Most common semi-private rate",
-  "usage" : "P",
-  "table_id" : "0153"
-}, {
   "name" : "43",
   "description" : "Disabled beneficiary under age 64 with LGHP",
-  "usage" : "P",
-  "table_id" : "0153"
-}, {
-  "name" : "11",
-  "description" : "Co-insurance amount in the second calendar year",
   "usage" : "P",
   "table_id" : "0153"
 }, {
@@ -6329,6 +6329,11 @@
   "usage" : "P",
   "table_id" : "0162"
 }, {
+  "name" : "VG",
+  "description" : "Vaginal",
+  "usage" : "P",
+  "table_id" : "0162"
+}, {
   "name" : "ET",
   "description" : "Endotrachial Tube",
   "usage" : "P",
@@ -6351,11 +6356,6 @@
 }, {
   "name" : "SC",
   "description" : "Subcutaneous",
-  "usage" : "P",
-  "table_id" : "0162"
-}, {
-  "name" : "VG",
-  "description" : "Vaginal",
   "usage" : "P",
   "table_id" : "0162"
 }, {
@@ -6414,6 +6414,11 @@
   "usage" : "P",
   "table_id" : "0162"
 }, {
+  "name" : "VM",
+  "description" : "Ventimask",
+  "usage" : "P",
+  "table_id" : "0162"
+}, {
   "name" : "GTT",
   "description" : "Gastrostomy Tube",
   "usage" : "P",
@@ -6436,11 +6441,6 @@
 }, {
   "name" : "SD",
   "description" : "Soaked Dressing",
-  "usage" : "P",
-  "table_id" : "0162"
-}, {
-  "name" : "VM",
-  "description" : "Ventimask",
   "usage" : "P",
   "table_id" : "0162"
 }, {
@@ -6504,6 +6504,11 @@
   "usage" : "P",
   "table_id" : "0162"
 }, {
+  "name" : "WND",
+  "description" : "Wound",
+  "usage" : "P",
+  "table_id" : "0162"
+}, {
   "name" : "GU",
   "description" : "GU Irrigant",
   "usage" : "P",
@@ -6529,10 +6534,10 @@
   "usage" : "P",
   "table_id" : "0162"
 }, {
-  "name" : "WND",
-  "description" : "Wound",
+  "name" : "BU",
+  "description" : "Buttock",
   "usage" : "P",
-  "table_id" : "0162"
+  "table_id" : "0163"
 }, {
   "name" : "LF",
   "description" : "Left Foot",
@@ -6564,8 +6569,8 @@
   "usage" : "P",
   "table_id" : "0163"
 }, {
-  "name" : "BU",
-  "description" : "Buttock",
+  "name" : "LAC",
+  "description" : "Left Anterior Chest",
   "usage" : "P",
   "table_id" : "0163"
 }, {
@@ -6599,8 +6604,8 @@
   "usage" : "P",
   "table_id" : "0163"
 }, {
-  "name" : "LAC",
-  "description" : "Left Anterior Chest",
+  "name" : "BE",
+  "description" : "Bilateral Ears",
   "usage" : "P",
   "table_id" : "0163"
 }, {
@@ -6634,8 +6639,8 @@
   "usage" : "P",
   "table_id" : "0163"
 }, {
-  "name" : "BE",
-  "description" : "Bilateral Ears",
+  "name" : "CT",
+  "description" : "Chest Tube",
   "usage" : "P",
   "table_id" : "0163"
 }, {
@@ -6664,8 +6669,8 @@
   "usage" : "P",
   "table_id" : "0163"
 }, {
-  "name" : "CT",
-  "description" : "Chest Tube",
+  "name" : "LACF",
+  "description" : "Left Antecubital Fossa",
   "usage" : "P",
   "table_id" : "0163"
 }, {
@@ -6699,8 +6704,8 @@
   "usage" : "P",
   "table_id" : "0163"
 }, {
-  "name" : "LACF",
-  "description" : "Left Antecubital Fossa",
+  "name" : "BN",
+  "description" : "Bilateral Nares",
   "usage" : "P",
   "table_id" : "0163"
 }, {
@@ -6734,8 +6739,8 @@
   "usage" : "P",
   "table_id" : "0163"
 }, {
-  "name" : "BN",
-  "description" : "Bilateral Nares",
+  "name" : "LA",
+  "description" : "Left Arm",
   "usage" : "P",
   "table_id" : "0163"
 }, {
@@ -6764,8 +6769,8 @@
   "usage" : "P",
   "table_id" : "0163"
 }, {
-  "name" : "LA",
-  "description" : "Left Arm",
+  "name" : "LD",
+  "description" : "Left Deltoid",
   "usage" : "P",
   "table_id" : "0163"
 }, {
@@ -6796,11 +6801,6 @@
 }, {
   "name" : "RUAQ",
   "description" : "Right Upper Abd Quadrant",
-  "usage" : "P",
-  "table_id" : "0163"
-}, {
-  "name" : "LD",
-  "description" : "Left Deltoid",
   "usage" : "P",
   "table_id" : "0163"
 }, {
@@ -6849,18 +6849,13 @@
   "usage" : "P",
   "table_id" : "0164"
 }, {
-  "name" : "IVP",
-  "description" : "IV Push",
-  "usage" : "P",
-  "table_id" : "0165"
-}, {
   "name" : "WI",
   "description" : "Wipe",
   "usage" : "P",
   "table_id" : "0165"
 }, {
-  "name" : "DI",
-  "description" : "Dissolve",
+  "name" : "IVP",
+  "description" : "IV Push",
   "usage" : "P",
   "table_id" : "0165"
 }, {
@@ -6869,8 +6864,8 @@
   "usage" : "P",
   "table_id" : "0165"
 }, {
-  "name" : "IR",
-  "description" : "Irrigate",
+  "name" : "DI",
+  "description" : "Dissolve",
   "usage" : "P",
   "table_id" : "0165"
 }, {
@@ -6879,13 +6874,13 @@
   "usage" : "P",
   "table_id" : "0165"
 }, {
-  "name" : "IVPB",
-  "description" : "IV Piggyback",
+  "name" : "IR",
+  "description" : "Irrigate",
   "usage" : "P",
   "table_id" : "0165"
 }, {
-  "name" : "DU",
-  "description" : "Dust",
+  "name" : "IVPB",
+  "description" : "IV Piggyback",
   "usage" : "P",
   "table_id" : "0165"
 }, {
@@ -6894,8 +6889,8 @@
   "usage" : "P",
   "table_id" : "0165"
 }, {
-  "name" : "IS",
-  "description" : "Insert",
+  "name" : "DU",
+  "description" : "Dust",
   "usage" : "P",
   "table_id" : "0165"
 }, {
@@ -6904,8 +6899,8 @@
   "usage" : "P",
   "table_id" : "0165"
 }, {
-  "name" : "CH",
-  "description" : "Chew",
+  "name" : "IS",
+  "description" : "Insert",
   "usage" : "P",
   "table_id" : "0165"
 }, {
@@ -6914,13 +6909,18 @@
   "usage" : "P",
   "table_id" : "0165"
 }, {
-  "name" : "IF",
-  "description" : "Infiltrate",
+  "name" : "CH",
+  "description" : "Chew",
   "usage" : "P",
   "table_id" : "0165"
 }, {
   "name" : "SH",
   "description" : "Shampoo",
+  "usage" : "P",
+  "table_id" : "0165"
+}, {
+  "name" : "IF",
+  "description" : "Infiltrate",
   "usage" : "P",
   "table_id" : "0165"
 }, {
@@ -6939,13 +6939,13 @@
   "usage" : "P",
   "table_id" : "0167"
 }, {
-  "name" : "G",
-  "description" : "A generic substitution was dispensed.",
+  "name" : "0",
+  "description" : "No product selection indicated",
   "usage" : "P",
   "table_id" : "0167"
 }, {
-  "name" : "0",
-  "description" : "No product selection indicated",
+  "name" : "G",
+  "description" : "A generic substitution was dispensed.",
   "usage" : "P",
   "table_id" : "0167"
 }, {
@@ -6959,13 +6959,13 @@
   "usage" : "P",
   "table_id" : "0167"
 }, {
-  "name" : "N",
-  "description" : "No substitute was dispensed.  This is equivalent to the default (null) value.",
+  "name" : "1",
+  "description" : "Substitution not allowed by prescriber",
   "usage" : "P",
   "table_id" : "0167"
 }, {
-  "name" : "1",
-  "description" : "Substitution not allowed by prescriber",
+  "name" : "N",
+  "description" : "No substitute was dispensed.  This is equivalent to the default (null) value.",
   "usage" : "P",
   "table_id" : "0167"
 }, {
@@ -7609,6 +7609,11 @@
   "usage" : "P",
   "table_id" : "0202"
 }, {
+  "name" : "DS",
+  "description" : "Discover Card",
+  "usage" : "P",
+  "table_id" : "0203"
+}, {
   "name" : "LN",
   "description" : "License number",
   "usage" : "P",
@@ -7634,8 +7639,8 @@
   "usage" : "P",
   "table_id" : "0203"
 }, {
-  "name" : "DS",
-  "description" : "Discover Card",
+  "name" : "FI",
+  "description" : "Facility ID",
   "usage" : "P",
   "table_id" : "0203"
 }, {
@@ -7664,8 +7669,13 @@
   "usage" : "P",
   "table_id" : "0203"
 }, {
-  "name" : "FI",
-  "description" : "Facility ID",
+  "name" : "DN",
+  "description" : "Doctor number",
+  "usage" : "P",
+  "table_id" : "0203"
+}, {
+  "name" : "HC",
+  "description" : "Health Card Number",
   "usage" : "P",
   "table_id" : "0203"
 }, {
@@ -7684,13 +7694,8 @@
   "usage" : "P",
   "table_id" : "0203"
 }, {
-  "name" : "DN",
-  "description" : "Doctor number",
-  "usage" : "P",
-  "table_id" : "0203"
-}, {
-  "name" : "HC",
-  "description" : "Health Card Number",
+  "name" : "EI",
+  "description" : "Employee number",
   "usage" : "P",
   "table_id" : "0203"
 }, {
@@ -7719,8 +7724,8 @@
   "usage" : "P",
   "table_id" : "0203"
 }, {
-  "name" : "EI",
-  "description" : "Employee number",
+  "name" : "GI",
+  "description" : "Guarantor internal identifier",
   "usage" : "P",
   "table_id" : "0203"
 }, {
@@ -7749,8 +7754,13 @@
   "usage" : "P",
   "table_id" : "0203"
 }, {
-  "name" : "GI",
-  "description" : "Guarantor internal identifier",
+  "name" : "DR",
+  "description" : "Donor Registration Number",
+  "usage" : "P",
+  "table_id" : "0203"
+}, {
+  "name" : "JHN",
+  "description" : "Jurisdictional health number (Canada)",
   "usage" : "P",
   "table_id" : "0203"
 }, {
@@ -7774,13 +7784,8 @@
   "usage" : "P",
   "table_id" : "0203"
 }, {
-  "name" : "DR",
-  "description" : "Donor Registration Number",
-  "usage" : "P",
-  "table_id" : "0203"
-}, {
-  "name" : "JHN",
-  "description" : "Jurisdictional health number (Canada)",
+  "name" : "EN",
+  "description" : "Employer number",
   "usage" : "P",
   "table_id" : "0203"
 }, {
@@ -7809,8 +7814,13 @@
   "usage" : "P",
   "table_id" : "0203"
 }, {
-  "name" : "EN",
-  "description" : "Employer number",
+  "name" : "DL",
+  "description" : "Driver's license number",
+  "usage" : "P",
+  "table_id" : "0203"
+}, {
+  "name" : "GN",
+  "description" : "Guarantor external  identifier",
   "usage" : "P",
   "table_id" : "0203"
 }, {
@@ -7826,16 +7836,6 @@
 }, {
   "name" : "SS",
   "description" : "Social Security number",
-  "usage" : "P",
-  "table_id" : "0203"
-}, {
-  "name" : "DL",
-  "description" : "Driver's license number",
-  "usage" : "P",
-  "table_id" : "0203"
-}, {
-  "name" : "GN",
-  "description" : "Guarantor external  identifier",
   "usage" : "P",
   "table_id" : "0203"
 }, {
@@ -8003,13 +8003,13 @@
   "usage" : "P",
   "table_id" : "0210"
 }, {
-  "name" : "8859/3",
-  "description" : "The printable characters from the ISO 8859/3 Character set",
+  "name" : "ISO IR14",
+  "description" : "Code for Information Exchange (one byte)(JIS X 0201-1976).  Note that the code contains a space, i.e. \"ISO IR14\".",
   "usage" : "P",
   "table_id" : "0211"
 }, {
-  "name" : "ISO IR14",
-  "description" : "Code for Information Exchange (one byte)(JIS X 0201-1976).  Note that the code contains a space, i.e. \"ISO IR14\".",
+  "name" : "8859/3",
+  "description" : "The printable characters from the ISO 8859/3 Character set",
   "usage" : "P",
   "table_id" : "0211"
 }, {
@@ -8023,13 +8023,13 @@
   "usage" : "P",
   "table_id" : "0211"
 }, {
-  "name" : "8859/1",
-  "description" : "The printable characters from the ISO 8859/1 Character set",
+  "name" : "8859/9",
+  "description" : "The printable characters from the ISO 8859/9 Character set",
   "usage" : "P",
   "table_id" : "0211"
 }, {
-  "name" : "8859/9",
-  "description" : "The printable characters from the ISO 8859/9 Character set",
+  "name" : "8859/1",
+  "description" : "The printable characters from the ISO 8859/1 Character set",
   "usage" : "P",
   "table_id" : "0211"
 }, {
@@ -8048,13 +8048,13 @@
   "usage" : "P",
   "table_id" : "0211"
 }, {
-  "name" : "8859/2",
-  "description" : "The printable characters from the ISO 8859/2 Character set",
+  "name" : "ASCII",
+  "description" : "The printable 7-bit ASCII character set. (This is the default if this field is omitted)",
   "usage" : "P",
   "table_id" : "0211"
 }, {
-  "name" : "ASCII",
-  "description" : "The printable 7-bit ASCII character set. (This is the default if this field is omitted)",
+  "name" : "8859/2",
+  "description" : "The printable characters from the ISO 8859/2 Character set",
   "usage" : "P",
   "table_id" : "0211"
 }, {
@@ -8793,13 +8793,13 @@
   "usage" : "P",
   "table_id" : "0242"
 }, {
-  "name" : "R",
-  "description" : "Pharmacist",
+  "name" : "M",
+  "description" : "Mid-level professional (nurse, nurse practitioner, physician's assistant)",
   "usage" : "P",
   "table_id" : "0242"
 }, {
-  "name" : "M",
-  "description" : "Mid-level professional (nurse, nurse practitioner, physician's assistant)",
+  "name" : "R",
+  "description" : "Pharmacist",
   "usage" : "P",
   "table_id" : "0242"
 }, {
@@ -9113,6 +9113,11 @@
   "usage" : "P",
   "table_id" : "0254"
 }, {
+  "name" : "ELRES",
+  "description" : "Electrical Resistance",
+  "usage" : "P",
+  "table_id" : "0254"
+}, {
   "name" : "FORCE",
   "description" : "Mechanical force",
   "usage" : "P",
@@ -9178,11 +9183,6 @@
   "usage" : "P",
   "table_id" : "0254"
 }, {
-  "name" : "ELRES",
-  "description" : "Electrical Resistance",
-  "usage" : "P",
-  "table_id" : "0254"
-}, {
   "name" : "ENTCAT",
   "description" : "*Entitic Catalytic Activity",
   "usage" : "P",
@@ -9243,6 +9243,11 @@
   "usage" : "P",
   "table_id" : "0254"
 }, {
+  "name" : "ELPOT",
+  "description" : "Electrical Potential (Voltage)",
+  "usage" : "P",
+  "table_id" : "0254"
+}, {
   "name" : "ENTVOL",
   "description" : "*Entitic Volume",
   "usage" : "P",
@@ -9298,8 +9303,8 @@
   "usage" : "P",
   "table_id" : "0254"
 }, {
-  "name" : "ELPOT",
-  "description" : "Electrical Potential (Voltage)",
+  "name" : "ENGR",
+  "description" : "Energy",
   "usage" : "P",
   "table_id" : "0254"
 }, {
@@ -9368,11 +9373,6 @@
   "usage" : "P",
   "table_id" : "0254"
 }, {
-  "name" : "ENGR",
-  "description" : "Energy",
-  "usage" : "P",
-  "table_id" : "0254"
-}, {
   "name" : "ENTNUM",
   "description" : "*Entitic Number",
   "usage" : "P",
@@ -9430,6 +9430,11 @@
 }, {
   "name" : "DIFF",
   "description" : "*Difference",
+  "usage" : "P",
+  "table_id" : "0254"
+}, {
+  "name" : "ELRAT",
+  "description" : "Electrical current (amperage)",
   "usage" : "P",
   "table_id" : "0254"
 }, {
@@ -9493,8 +9498,13 @@
   "usage" : "P",
   "table_id" : "0254"
 }, {
-  "name" : "ELRAT",
-  "description" : "Electrical current (amperage)",
+  "name" : "VOL",
+  "description" : "*Volume",
+  "usage" : "P",
+  "table_id" : "0254"
+}, {
+  "name" : "ENT",
+  "description" : "*Entitic",
   "usage" : "P",
   "table_id" : "0254"
 }, {
@@ -9553,15 +9563,10 @@
   "usage" : "P",
   "table_id" : "0254"
 }, {
-  "name" : "VOL",
-  "description" : "*Volume",
+  "name" : "5D",
+  "description" : "5 days",
   "usage" : "P",
-  "table_id" : "0254"
-}, {
-  "name" : "ENT",
-  "description" : "*Entitic",
-  "usage" : "P",
-  "table_id" : "0254"
+  "table_id" : "0255"
 }, {
   "name" : "1L",
   "description" : "1 months (30 days)",
@@ -9570,11 +9575,6 @@
 }, {
   "name" : "30M",
   "description" : "30 minutes",
-  "usage" : "P",
-  "table_id" : "0255"
-}, {
-  "name" : "5D",
-  "description" : "5 days",
   "usage" : "P",
   "table_id" : "0255"
 }, {
@@ -9593,6 +9593,11 @@
   "usage" : "P",
   "table_id" : "0255"
 }, {
+  "name" : "4H",
+  "description" : "4 hours",
+  "usage" : "P",
+  "table_id" : "0255"
+}, {
   "name" : "PT",
   "description" : "To identify measures at a point in time.  This is a synonym for \"spot\" or \"random\" as applied to urine measurements.",
   "usage" : "P",
@@ -9608,8 +9613,8 @@
   "usage" : "P",
   "table_id" : "0255"
 }, {
-  "name" : "4H",
-  "description" : "4 hours",
+  "name" : "5H",
+  "description" : "5 hours",
   "usage" : "P",
   "table_id" : "0255"
 }, {
@@ -9620,11 +9625,6 @@
 }, {
   "name" : "3D",
   "description" : "3 days",
-  "usage" : "P",
-  "table_id" : "0255"
-}, {
-  "name" : "5H",
-  "description" : "5 hours",
   "usage" : "P",
   "table_id" : "0255"
 }, {
@@ -9643,6 +9643,11 @@
   "usage" : "P",
   "table_id" : "0255"
 }, {
+  "name" : "4W",
+  "description" : "4 weeks",
+  "usage" : "P",
+  "table_id" : "0255"
+}, {
   "name" : "1H",
   "description" : "1 hour",
   "usage" : "P",
@@ -9653,8 +9658,8 @@
   "usage" : "P",
   "table_id" : "0255"
 }, {
-  "name" : "4W",
-  "description" : "4 weeks",
+  "name" : "6D",
+  "description" : "6 days",
   "usage" : "P",
   "table_id" : "0255"
 }, {
@@ -9665,11 +9670,6 @@
 }, {
   "name" : "3H",
   "description" : "3 hours",
-  "usage" : "P",
-  "table_id" : "0255"
-}, {
-  "name" : "6D",
-  "description" : "6 days",
   "usage" : "P",
   "table_id" : "0255"
 }, {
@@ -9963,6 +9963,11 @@
   "usage" : "P",
   "table_id" : "0259"
 }, {
+  "name" : "MS",
+  "description" : "Magnetic resonance spectroscopy",
+  "usage" : "P",
+  "table_id" : "0259"
+}, {
   "name" : "XA",
   "description" : "X-ray Angiography",
   "usage" : "P",
@@ -9978,8 +9983,8 @@
   "usage" : "P",
   "table_id" : "0259"
 }, {
-  "name" : "MS",
-  "description" : "Magnetic resonance spectroscopy",
+  "name" : "PT",
+  "description" : "Positron emission tomography (PET)",
   "usage" : "P",
   "table_id" : "0259"
 }, {
@@ -9990,11 +9995,6 @@
 }, {
   "name" : "FA",
   "description" : "Fluorescein angiography",
-  "usage" : "P",
-  "table_id" : "0259"
-}, {
-  "name" : "PT",
-  "description" : "Positron emission tomography (PET)",
   "usage" : "P",
   "table_id" : "0259"
 }, {
@@ -10013,6 +10013,11 @@
   "usage" : "P",
   "table_id" : "0259"
 }, {
+  "name" : "NM",
+  "description" : "Nuclear Medicine (radioisotope study)",
+  "usage" : "P",
+  "table_id" : "0259"
+}, {
   "name" : "CD",
   "description" : "Color flow Doppler",
   "usage" : "P",
@@ -10020,11 +10025,6 @@
 }, {
   "name" : "EC",
   "description" : "Echocardiography",
-  "usage" : "P",
-  "table_id" : "0259"
-}, {
-  "name" : "NM",
-  "description" : "Nuclear Medicine (radioisotope study)",
   "usage" : "P",
   "table_id" : "0259"
 }, {
@@ -10043,6 +10043,11 @@
   "usage" : "P",
   "table_id" : "0259"
 }, {
+  "name" : "MA",
+  "description" : "Magnetic resonance angiography",
+  "usage" : "P",
+  "table_id" : "0259"
+}, {
   "name" : "US",
   "description" : "Ultrasound",
   "usage" : "P",
@@ -10058,8 +10063,8 @@
   "usage" : "P",
   "table_id" : "0259"
 }, {
-  "name" : "MA",
-  "description" : "Magnetic resonance angiography",
+  "name" : "OT",
+  "description" : "Other",
   "usage" : "P",
   "table_id" : "0259"
 }, {
@@ -10070,11 +10075,6 @@
 }, {
   "name" : "ES",
   "description" : "Endoscopy",
-  "usage" : "P",
-  "table_id" : "0259"
-}, {
-  "name" : "OT",
-  "description" : "Other",
   "usage" : "P",
   "table_id" : "0259"
 }, {
@@ -10223,18 +10223,13 @@
   "usage" : "P",
   "table_id" : "0263"
 }, {
-  "name" : "PIN",
-  "description" : "Pediatric/neonatal intensive care",
-  "usage" : "P",
-  "table_id" : "0265"
-}, {
   "name" : "EMR",
   "description" : "Emergency",
   "usage" : "P",
   "table_id" : "0265"
 }, {
-  "name" : "PSI",
-  "description" : "Psychiatric intensive care",
+  "name" : "PIN",
+  "description" : "Pediatric/neonatal intensive care",
   "usage" : "P",
   "table_id" : "0265"
 }, {
@@ -10253,13 +10248,8 @@
   "usage" : "P",
   "table_id" : "0265"
 }, {
-  "name" : "PED",
-  "description" : "Pediatrics",
-  "usage" : "P",
-  "table_id" : "0265"
-}, {
-  "name" : "SUR",
-  "description" : "Surgery",
+  "name" : "PSI",
+  "description" : "Psychiatric intensive care",
   "usage" : "P",
   "table_id" : "0265"
 }, {
@@ -10268,8 +10258,13 @@
   "usage" : "P",
   "table_id" : "0265"
 }, {
-  "name" : "PPS",
-  "description" : "Pediatric psychiatric",
+  "name" : "PED",
+  "description" : "Pediatrics",
+  "usage" : "P",
+  "table_id" : "0265"
+}, {
+  "name" : "SUR",
+  "description" : "Surgery",
   "usage" : "P",
   "table_id" : "0265"
 }, {
@@ -10283,8 +10278,8 @@
   "usage" : "P",
   "table_id" : "0265"
 }, {
-  "name" : "PSY",
-  "description" : "Psychiatric",
+  "name" : "PPS",
+  "description" : "Pediatric psychiatric",
   "usage" : "P",
   "table_id" : "0265"
 }, {
@@ -10303,13 +10298,8 @@
   "usage" : "P",
   "table_id" : "0265"
 }, {
-  "name" : "PHY",
-  "description" : "General/family practice",
-  "usage" : "P",
-  "table_id" : "0265"
-}, {
-  "name" : "WIC",
-  "description" : "Walk-in clinic",
+  "name" : "PSY",
+  "description" : "Psychiatric",
   "usage" : "P",
   "table_id" : "0265"
 }, {
@@ -10318,8 +10308,13 @@
   "usage" : "P",
   "table_id" : "0265"
 }, {
-  "name" : "PRE",
-  "description" : "Pediatric rehabilitation",
+  "name" : "PHY",
+  "description" : "General/family practice",
+  "usage" : "P",
+  "table_id" : "0265"
+}, {
+  "name" : "WIC",
+  "description" : "Walk-in clinic",
   "usage" : "P",
   "table_id" : "0265"
 }, {
@@ -10333,8 +10328,8 @@
   "usage" : "P",
   "table_id" : "0265"
 }, {
-  "name" : "REH",
-  "description" : "Rehabilitation",
+  "name" : "PRE",
+  "description" : "Pediatric rehabilitation",
   "usage" : "P",
   "table_id" : "0265"
 }, {
@@ -10350,6 +10345,11 @@
 }, {
   "name" : "OTH",
   "description" : "Other specialty",
+  "usage" : "P",
+  "table_id" : "0265"
+}, {
+  "name" : "REH",
+  "description" : "Rehabilitation",
   "usage" : "P",
   "table_id" : "0265"
 }, {
@@ -10843,16 +10843,6 @@
   "usage" : "P",
   "table_id" : "0287"
 }, {
-  "name" : "52",
-  "description" : "0",
-  "usage" : "P",
-  "table_id" : "0290"
-}, {
-  "name" : "6",
-  "description" : "G",
-  "usage" : "P",
-  "table_id" : "0290"
-}, {
   "name" : "13",
   "description" : "N",
   "usage" : "P",
@@ -10878,18 +10868,13 @@
   "usage" : "P",
   "table_id" : "0290"
 }, {
-  "name" : "48",
-  "description" : "w",
+  "name" : "52",
+  "description" : "0",
   "usage" : "P",
   "table_id" : "0290"
 }, {
-  "name" : "55",
-  "description" : "3",
-  "usage" : "P",
-  "table_id" : "0290"
-}, {
-  "name" : "62",
-  "description" : "+",
+  "name" : "6",
+  "description" : "G",
   "usage" : "P",
   "table_id" : "0290"
 }, {
@@ -10923,13 +10908,18 @@
   "usage" : "P",
   "table_id" : "0290"
 }, {
-  "name" : "50",
-  "description" : "y",
+  "name" : "48",
+  "description" : "w",
   "usage" : "P",
   "table_id" : "0290"
 }, {
-  "name" : "58",
-  "description" : "6",
+  "name" : "55",
+  "description" : "3",
+  "usage" : "P",
+  "table_id" : "0290"
+}, {
+  "name" : "62",
+  "description" : "+",
   "usage" : "P",
   "table_id" : "0290"
 }, {
@@ -10963,18 +10953,13 @@
   "usage" : "P",
   "table_id" : "0290"
 }, {
-  "name" : "46",
-  "description" : "u",
+  "name" : "50",
+  "description" : "y",
   "usage" : "P",
   "table_id" : "0290"
 }, {
-  "name" : "53",
-  "description" : "1",
-  "usage" : "P",
-  "table_id" : "0290"
-}, {
-  "name" : "60",
-  "description" : "8",
+  "name" : "58",
+  "description" : "6",
   "usage" : "P",
   "table_id" : "0290"
 }, {
@@ -10998,13 +10983,18 @@
   "usage" : "P",
   "table_id" : "0290"
 }, {
-  "name" : "49",
-  "description" : "x",
+  "name" : "46",
+  "description" : "u",
   "usage" : "P",
   "table_id" : "0290"
 }, {
-  "name" : "56",
-  "description" : "4",
+  "name" : "53",
+  "description" : "1",
+  "usage" : "P",
+  "table_id" : "0290"
+}, {
+  "name" : "60",
+  "description" : "8",
   "usage" : "P",
   "table_id" : "0290"
 }, {
@@ -11043,13 +11033,13 @@
   "usage" : "P",
   "table_id" : "0290"
 }, {
-  "name" : "51",
-  "description" : "z",
+  "name" : "49",
+  "description" : "x",
   "usage" : "P",
   "table_id" : "0290"
 }, {
-  "name" : "59",
-  "description" : "7",
+  "name" : "56",
+  "description" : "4",
   "usage" : "P",
   "table_id" : "0290"
 }, {
@@ -11083,18 +11073,13 @@
   "usage" : "P",
   "table_id" : "0290"
 }, {
-  "name" : "47",
-  "description" : "v",
+  "name" : "51",
+  "description" : "z",
   "usage" : "P",
   "table_id" : "0290"
 }, {
-  "name" : "54",
-  "description" : "2",
-  "usage" : "P",
-  "table_id" : "0290"
-}, {
-  "name" : "61",
-  "description" : "9",
+  "name" : "59",
+  "description" : "7",
   "usage" : "P",
   "table_id" : "0290"
 }, {
@@ -11123,13 +11108,18 @@
   "usage" : "P",
   "table_id" : "0290"
 }, {
-  "name" : "5",
-  "description" : "F",
+  "name" : "47",
+  "description" : "v",
   "usage" : "P",
   "table_id" : "0290"
 }, {
-  "name" : "57",
-  "description" : "5",
+  "name" : "54",
+  "description" : "2",
+  "usage" : "P",
+  "table_id" : "0290"
+}, {
+  "name" : "61",
+  "description" : "9",
   "usage" : "P",
   "table_id" : "0290"
 }, {
@@ -11165,6 +11155,16 @@
 }, {
   "name" : "42",
   "description" : "q",
+  "usage" : "P",
+  "table_id" : "0290"
+}, {
+  "name" : "5",
+  "description" : "F",
+  "usage" : "P",
+  "table_id" : "0290"
+}, {
+  "name" : "57",
+  "description" : "5",
   "usage" : "P",
   "table_id" : "0290"
 }, {
@@ -11243,16 +11243,6 @@
   "usage" : "P",
   "table_id" : "0291"
 }, {
-  "name" : "40",
-  "description" : "rabies vaccine, for intradermal injection",
-  "usage" : "P",
-  "table_id" : "0292"
-}, {
-  "name" : "48",
-  "description" : "Haemophilus influenzae type b vaccine, PRP-T conjugate",
-  "usage" : "P",
-  "table_id" : "0292"
-}, {
   "name" : "56",
   "description" : "dengue fever vaccine",
   "usage" : "P",
@@ -11308,13 +11298,13 @@
   "usage" : "P",
   "table_id" : "0292"
 }, {
-  "name" : "43",
-  "description" : "hepatitis B vaccine, adult dosage",
+  "name" : "40",
+  "description" : "rabies vaccine, for intradermal injection",
   "usage" : "P",
   "table_id" : "0292"
 }, {
-  "name" : "51",
-  "description" : "Haemophilus influenzae type b conjugate and Hepatitis B vaccine",
+  "name" : "48",
+  "description" : "Haemophilus influenzae type b vaccine, PRP-T conjugate",
   "usage" : "P",
   "table_id" : "0292"
 }, {
@@ -11373,18 +11363,13 @@
   "usage" : "P",
   "table_id" : "0292"
 }, {
-  "name" : "38",
-  "description" : "rubella and mumps virus vaccine",
+  "name" : "43",
+  "description" : "hepatitis B vaccine, adult dosage",
   "usage" : "P",
   "table_id" : "0292"
 }, {
-  "name" : "46",
-  "description" : "Haemophilus influenzae type b vaccine, PRP-D conjugate",
-  "usage" : "P",
-  "table_id" : "0292"
-}, {
-  "name" : "54",
-  "description" : "adenovirus vaccine, type 4, live, oral",
+  "name" : "51",
+  "description" : "Haemophilus influenzae type b conjugate and Hepatitis B vaccine",
   "usage" : "P",
   "table_id" : "0292"
 }, {
@@ -11433,13 +11418,18 @@
   "usage" : "P",
   "table_id" : "0292"
 }, {
-  "name" : "41",
-  "description" : "typhoid vaccine, parenteral, other than acetone-killed, dried",
+  "name" : "38",
+  "description" : "rubella and mumps virus vaccine",
   "usage" : "P",
   "table_id" : "0292"
 }, {
-  "name" : "49",
-  "description" : "Haemophilus influenzae type b vaccine, PRP-OMP conjugate",
+  "name" : "46",
+  "description" : "Haemophilus influenzae type b vaccine, PRP-D conjugate",
+  "usage" : "P",
+  "table_id" : "0292"
+}, {
+  "name" : "54",
+  "description" : "adenovirus vaccine, type 4, live, oral",
   "usage" : "P",
   "table_id" : "0292"
 }, {
@@ -11498,13 +11488,13 @@
   "usage" : "P",
   "table_id" : "0292"
 }, {
-  "name" : "44",
-  "description" : "hepatitis B vaccine, dialysis patient dosage",
+  "name" : "41",
+  "description" : "typhoid vaccine, parenteral, other than acetone-killed, dried",
   "usage" : "P",
   "table_id" : "0292"
 }, {
-  "name" : "52",
-  "description" : "hepatitis A vaccine, adult dosage",
+  "name" : "49",
+  "description" : "Haemophilus influenzae type b vaccine, PRP-OMP conjugate",
   "usage" : "P",
   "table_id" : "0292"
 }, {
@@ -11563,18 +11553,13 @@
   "usage" : "P",
   "table_id" : "0292"
 }, {
-  "name" : "39",
-  "description" : "Japanese encephalitis vaccine",
+  "name" : "44",
+  "description" : "hepatitis B vaccine, dialysis patient dosage",
   "usage" : "P",
   "table_id" : "0292"
 }, {
-  "name" : "47",
-  "description" : "Haemophilus influenzae type b vaccine, HbOC conjugate",
-  "usage" : "P",
-  "table_id" : "0292"
-}, {
-  "name" : "55",
-  "description" : "adenovirus vaccine, type 7, live, oral",
+  "name" : "52",
+  "description" : "hepatitis A vaccine, adult dosage",
   "usage" : "P",
   "table_id" : "0292"
 }, {
@@ -11628,13 +11613,18 @@
   "usage" : "P",
   "table_id" : "0292"
 }, {
-  "name" : "42",
-  "description" : "hepatitis B vaccine, adolescent/high risk infant dosage",
+  "name" : "39",
+  "description" : "Japanese encephalitis vaccine",
   "usage" : "P",
   "table_id" : "0292"
 }, {
-  "name" : "50",
-  "description" : "DTaP-Haemophilus influenzae type b conjugate vaccine",
+  "name" : "47",
+  "description" : "Haemophilus influenzae type b vaccine, HbOC conjugate",
+  "usage" : "P",
+  "table_id" : "0292"
+}, {
+  "name" : "55",
+  "description" : "adenovirus vaccine, type 7, live, oral",
   "usage" : "P",
   "table_id" : "0292"
 }, {
@@ -11693,18 +11683,13 @@
   "usage" : "P",
   "table_id" : "0292"
 }, {
-  "name" : "37",
-  "description" : "yellow fever vaccine",
+  "name" : "42",
+  "description" : "hepatitis B vaccine, adolescent/high risk infant dosage",
   "usage" : "P",
   "table_id" : "0292"
 }, {
-  "name" : "45",
-  "description" : "hepatitis B vaccine, NOS",
-  "usage" : "P",
-  "table_id" : "0292"
-}, {
-  "name" : "53",
-  "description" : "typhoid vaccine, parenteral, acetone-killed, dried (U.S. military)",
+  "name" : "50",
+  "description" : "DTaP-Haemophilus influenzae type b conjugate vaccine",
   "usage" : "P",
   "table_id" : "0292"
 }, {
@@ -11750,6 +11735,21 @@
 }, {
   "name" : "29",
   "description" : "cytomegalovirus immune globulin, intravenous",
+  "usage" : "P",
+  "table_id" : "0292"
+}, {
+  "name" : "37",
+  "description" : "yellow fever vaccine",
+  "usage" : "P",
+  "table_id" : "0292"
+}, {
+  "name" : "45",
+  "description" : "hepatitis B vaccine, NOS",
+  "usage" : "P",
+  "table_id" : "0292"
+}, {
+  "name" : "53",
+  "description" : "typhoid vaccine, parenteral, acetone-killed, dried (U.S. military)",
   "usage" : "P",
   "table_id" : "0292"
 }, {
@@ -12555,6 +12555,11 @@
   "usage" : "P",
   "table_id" : "0344"
 }, {
+  "name" : "03",
+  "description" : "Natural child/insured financial responsibility",
+  "usage" : "P",
+  "table_id" : "0344"
+}, {
   "name" : "11",
   "description" : "Organ donor",
   "usage" : "P",
@@ -12562,11 +12567,6 @@
 }, {
   "name" : "19",
   "description" : "Grandparent",
-  "usage" : "P",
-  "table_id" : "0344"
-}, {
-  "name" : "03",
-  "description" : "Natural child/insured financial responsibility",
   "usage" : "P",
   "table_id" : "0344"
 }, {
@@ -12580,6 +12580,11 @@
   "usage" : "P",
   "table_id" : "0344"
 }, {
+  "name" : "01",
+  "description" : "Patient is insured",
+  "usage" : "P",
+  "table_id" : "0344"
+}, {
   "name" : "09",
   "description" : "Unknown",
   "usage" : "P",
@@ -12587,11 +12592,6 @@
 }, {
   "name" : "17",
   "description" : "Minor dependent of a minor dependent",
-  "usage" : "P",
-  "table_id" : "0344"
-}, {
-  "name" : "01",
-  "description" : "Patient is insured",
   "usage" : "P",
   "table_id" : "0344"
 }, {
@@ -12615,6 +12615,11 @@
   "usage" : "P",
   "table_id" : "0344"
 }, {
+  "name" : "02",
+  "description" : "Spouse",
+  "usage" : "P",
+  "table_id" : "0344"
+}, {
   "name" : "10",
   "description" : "Handicapped dependent",
   "usage" : "P",
@@ -12622,11 +12627,6 @@
 }, {
   "name" : "18",
   "description" : "Parent",
-  "usage" : "P",
-  "table_id" : "0344"
-}, {
-  "name" : "02",
-  "description" : "Spouse",
   "usage" : "P",
   "table_id" : "0344"
 }, {
@@ -12695,16 +12695,6 @@
   "usage" : "P",
   "table_id" : "0349"
 }, {
-  "name" : "78",
-  "description" : "Occurrence span codes and dates",
-  "usage" : "P",
-  "table_id" : "0350"
-}, {
-  "name" : "86",
-  "description" : "Occurrence span codes and dates",
-  "usage" : "P",
-  "table_id" : "0350"
-}, {
   "name" : "94",
   "description" : "Occurrence span codes and dates",
   "usage" : "P",
@@ -12745,17 +12735,12 @@
   "usage" : "P",
   "table_id" : "0350"
 }, {
-  "name" : "73",
+  "name" : "78",
   "description" : "Occurrence span codes and dates",
   "usage" : "P",
   "table_id" : "0350"
 }, {
-  "name" : "81",
-  "description" : "Occurrence span codes and dates",
-  "usage" : "P",
-  "table_id" : "0350"
-}, {
-  "name" : "89",
+  "name" : "86",
   "description" : "Occurrence span codes and dates",
   "usage" : "P",
   "table_id" : "0350"
@@ -12790,12 +12775,17 @@
   "usage" : "P",
   "table_id" : "0350"
 }, {
-  "name" : "76",
+  "name" : "73",
   "description" : "Occurrence span codes and dates",
   "usage" : "P",
   "table_id" : "0350"
 }, {
-  "name" : "84",
+  "name" : "81",
+  "description" : "Occurrence span codes and dates",
+  "usage" : "P",
+  "table_id" : "0350"
+}, {
+  "name" : "89",
   "description" : "Occurrence span codes and dates",
   "usage" : "P",
   "table_id" : "0350"
@@ -12840,12 +12830,12 @@
   "usage" : "P",
   "table_id" : "0350"
 }, {
-  "name" : "79",
+  "name" : "76",
   "description" : "Occurrence span codes and dates",
   "usage" : "P",
   "table_id" : "0350"
 }, {
-  "name" : "87",
+  "name" : "84",
   "description" : "Occurrence span codes and dates",
   "usage" : "P",
   "table_id" : "0350"
@@ -12885,17 +12875,12 @@
   "usage" : "P",
   "table_id" : "0350"
 }, {
-  "name" : "74",
+  "name" : "79",
   "description" : "Occurrence span codes and dates",
   "usage" : "P",
   "table_id" : "0350"
 }, {
-  "name" : "82",
-  "description" : "Occurrence span codes and dates",
-  "usage" : "P",
-  "table_id" : "0350"
-}, {
-  "name" : "90",
+  "name" : "87",
   "description" : "Occurrence span codes and dates",
   "usage" : "P",
   "table_id" : "0350"
@@ -12935,12 +12920,17 @@
   "usage" : "P",
   "table_id" : "0350"
 }, {
-  "name" : "77",
+  "name" : "74",
   "description" : "Occurrence span codes and dates",
   "usage" : "P",
   "table_id" : "0350"
 }, {
-  "name" : "85",
+  "name" : "82",
+  "description" : "Occurrence span codes and dates",
+  "usage" : "P",
+  "table_id" : "0350"
+}, {
+  "name" : "90",
   "description" : "Occurrence span codes and dates",
   "usage" : "P",
   "table_id" : "0350"
@@ -12985,12 +12975,12 @@
   "usage" : "P",
   "table_id" : "0350"
 }, {
-  "name" : "80",
+  "name" : "77",
   "description" : "Occurrence span codes and dates",
   "usage" : "P",
   "table_id" : "0350"
 }, {
-  "name" : "88",
+  "name" : "85",
   "description" : "Occurrence span codes and dates",
   "usage" : "P",
   "table_id" : "0350"
@@ -13030,17 +13020,12 @@
   "usage" : "P",
   "table_id" : "0350"
 }, {
-  "name" : "75",
+  "name" : "80",
   "description" : "Occurrence span codes and dates",
   "usage" : "P",
   "table_id" : "0350"
 }, {
-  "name" : "83",
-  "description" : "Occurrence span codes and dates",
-  "usage" : "P",
-  "table_id" : "0350"
-}, {
-  "name" : "91",
+  "name" : "88",
   "description" : "Occurrence span codes and dates",
   "usage" : "P",
   "table_id" : "0350"
@@ -13077,6 +13062,21 @@
 }, {
   "name" : "50",
   "description" : "Date lien released",
+  "usage" : "P",
+  "table_id" : "0350"
+}, {
+  "name" : "75",
+  "description" : "Occurrence span codes and dates",
+  "usage" : "P",
+  "table_id" : "0350"
+}, {
+  "name" : "83",
+  "description" : "Occurrence span codes and dates",
+  "usage" : "P",
+  "table_id" : "0350"
+}, {
+  "name" : "91",
+  "description" : "Occurrence span codes and dates",
   "usage" : "P",
   "table_id" : "0350"
 }, {
@@ -13160,26 +13160,6 @@
   "usage" : "P",
   "table_id" : "0353"
 }, {
-  "name" : "QCK_Q02",
-  "description" : "Q02",
-  "usage" : "P",
-  "table_id" : "0354"
-}, {
-  "name" : "DOC_T12",
-  "description" : "T12",
-  "usage" : "P",
-  "table_id" : "0354"
-}, {
-  "name" : "QSB_Q16",
-  "description" : "Q16",
-  "usage" : "P",
-  "table_id" : "0354"
-}, {
-  "name" : "EQQ_Q04",
-  "description" : "Q04",
-  "usage" : "P",
-  "table_id" : "0354"
-}, {
   "name" : "RDS_O13",
   "description" : "O13",
   "usage" : "P",
@@ -13260,28 +13240,23 @@
   "usage" : "P",
   "table_id" : "0354"
 }, {
-  "name" : "BAR_P06",
-  "description" : "P06",
+  "name" : "QCK_Q02",
+  "description" : "Q02",
   "usage" : "P",
   "table_id" : "0354"
 }, {
-  "name" : "QRY_PC4",
-  "description" : "PC4, PC9, PCE, PCK",
+  "name" : "DOC_T12",
+  "description" : "T12",
   "usage" : "P",
   "table_id" : "0354"
 }, {
-  "name" : "DSR_Q03",
-  "description" : "Q03",
+  "name" : "QSB_Q16",
+  "description" : "Q16",
   "usage" : "P",
   "table_id" : "0354"
 }, {
-  "name" : "RAS_O17",
-  "description" : "O17",
-  "usage" : "P",
-  "table_id" : "0354"
-}, {
-  "name" : "ESU_U01",
-  "description" : "U01",
+  "name" : "EQQ_Q04",
+  "description" : "Q04",
   "usage" : "P",
   "table_id" : "0354"
 }, {
@@ -13370,28 +13345,28 @@
   "usage" : "P",
   "table_id" : "0354"
 }, {
-  "name" : "QBP_Q15",
-  "description" : "Q15",
+  "name" : "BAR_P06",
+  "description" : "P06",
   "usage" : "P",
   "table_id" : "0354"
 }, {
-  "name" : "CSU_C09",
-  "description" : "C09, C10, C11, C12",
+  "name" : "QRY_PC4",
+  "description" : "PC4, PC9, PCE, PCK",
   "usage" : "P",
   "table_id" : "0354"
 }, {
-  "name" : "QRY_R02",
-  "description" : "R02",
+  "name" : "DSR_Q03",
+  "description" : "Q03",
   "usage" : "P",
   "table_id" : "0354"
 }, {
-  "name" : "EAR_U08",
-  "description" : "U08",
+  "name" : "RAS_O17",
+  "description" : "O17",
   "usage" : "P",
   "table_id" : "0354"
 }, {
-  "name" : "RDE_O11",
-  "description" : "O11",
+  "name" : "ESU_U01",
+  "description" : "U01",
   "usage" : "P",
   "table_id" : "0354"
 }, {
@@ -13470,23 +13445,28 @@
   "usage" : "P",
   "table_id" : "0354"
 }, {
-  "name" : "QCN_J01",
-  "description" : "J01, J02",
+  "name" : "QBP_Q15",
+  "description" : "Q15",
   "usage" : "P",
   "table_id" : "0354"
 }, {
-  "name" : "DSR_P04",
-  "description" : "P04",
+  "name" : "CSU_C09",
+  "description" : "C09, C10, C11, C12",
   "usage" : "P",
   "table_id" : "0354"
 }, {
-  "name" : "QVR_Q17",
-  "description" : "Q17",
+  "name" : "QRY_R02",
+  "description" : "R02",
   "usage" : "P",
   "table_id" : "0354"
 }, {
-  "name" : "ERP_R09",
-  "description" : "R09",
+  "name" : "EAR_U08",
+  "description" : "U08",
+  "usage" : "P",
+  "table_id" : "0354"
+}, {
+  "name" : "RDE_O11",
+  "description" : "O11",
   "usage" : "P",
   "table_id" : "0354"
 }, {
@@ -13575,28 +13555,23 @@
   "usage" : "P",
   "table_id" : "0354"
 }, {
-  "name" : "BAR_P10",
-  "description" : "P10",
+  "name" : "QCN_J01",
+  "description" : "J01, J02",
   "usage" : "P",
   "table_id" : "0354"
 }, {
-  "name" : "QRY_Q01",
-  "description" : "Q01",
+  "name" : "DSR_P04",
+  "description" : "P04",
   "usage" : "P",
   "table_id" : "0354"
 }, {
-  "name" : "EAC_U07",
-  "description" : "U07",
+  "name" : "QVR_Q17",
+  "description" : "Q17",
   "usage" : "P",
   "table_id" : "0354"
 }, {
-  "name" : "RCI_I05",
-  "description" : "I05",
-  "usage" : "P",
-  "table_id" : "0354"
-}, {
-  "name" : "INR_U06",
-  "description" : "U06",
+  "name" : "ERP_R09",
+  "description" : "R09",
   "usage" : "P",
   "table_id" : "0354"
 }, {
@@ -13685,28 +13660,28 @@
   "usage" : "P",
   "table_id" : "0354"
 }, {
-  "name" : "QBP_Q21",
-  "description" : "Q21, Q22, Q23, Q24, Q25",
+  "name" : "BAR_P10",
+  "description" : "P10",
   "usage" : "P",
   "table_id" : "0354"
 }, {
-  "name" : "DFT_P03",
-  "description" : "P03",
+  "name" : "QRY_Q01",
+  "description" : "Q01",
   "usage" : "P",
   "table_id" : "0354"
 }, {
-  "name" : "QRY_T12",
-  "description" : "T12",
+  "name" : "EAC_U07",
+  "description" : "U07",
   "usage" : "P",
   "table_id" : "0354"
 }, {
-  "name" : "EDR_R07",
-  "description" : "R07",
+  "name" : "RCI_I05",
+  "description" : "I05",
   "usage" : "P",
   "table_id" : "0354"
 }, {
-  "name" : "RDR_RDR",
-  "description" : "RDR",
+  "name" : "INR_U06",
+  "description" : "U06",
   "usage" : "P",
   "table_id" : "0354"
 }, {
@@ -13785,28 +13760,28 @@
   "usage" : "P",
   "table_id" : "0354"
 }, {
-  "name" : "BAR_P05",
-  "description" : "P05",
+  "name" : "QBP_Q21",
+  "description" : "Q21, Q22, Q23, Q24, Q25",
   "usage" : "P",
   "table_id" : "0354"
 }, {
-  "name" : "QRY_A19",
-  "description" : "A19",
+  "name" : "DFT_P03",
+  "description" : "P03",
   "usage" : "P",
   "table_id" : "0354"
 }, {
-  "name" : "DSR_Q01",
-  "description" : "Q01",
+  "name" : "QRY_T12",
+  "description" : "T12",
   "usage" : "P",
   "table_id" : "0354"
 }, {
-  "name" : "RAR_RAR",
-  "description" : "RAR",
+  "name" : "EDR_R07",
+  "description" : "R07",
   "usage" : "P",
   "table_id" : "0354"
 }, {
-  "name" : "ESR_U02",
-  "description" : "U02",
+  "name" : "RDR_RDR",
+  "description" : "RDR",
   "usage" : "P",
   "table_id" : "0354"
 }, {
@@ -13890,23 +13865,28 @@
   "usage" : "P",
   "table_id" : "0354"
 }, {
-  "name" : "CRM_C01",
-  "description" : "C01, C02, C03, C04, C05, C06, C07, C08",
+  "name" : "BAR_P05",
+  "description" : "P05",
   "usage" : "P",
   "table_id" : "0354"
 }, {
-  "name" : "QRY_Q02",
-  "description" : "Q02",
+  "name" : "QRY_A19",
+  "description" : "A19",
   "usage" : "P",
   "table_id" : "0354"
 }, {
-  "name" : "EAN_U09",
-  "description" : "U09",
+  "name" : "DSR_Q01",
+  "description" : "Q01",
   "usage" : "P",
   "table_id" : "0354"
 }, {
-  "name" : "RCL_I06",
-  "description" : "I06",
+  "name" : "RAR_RAR",
+  "description" : "RAR",
+  "usage" : "P",
+  "table_id" : "0354"
+}, {
+  "name" : "ESR_U02",
+  "description" : "U02",
   "usage" : "P",
   "table_id" : "0354"
 }, {
@@ -14000,6 +13980,26 @@
   "usage" : "P",
   "table_id" : "0354"
 }, {
+  "name" : "CRM_C01",
+  "description" : "C01, C02, C03, C04, C05, C06, C07, C08",
+  "usage" : "P",
+  "table_id" : "0354"
+}, {
+  "name" : "QRY_Q02",
+  "description" : "Q02",
+  "usage" : "P",
+  "table_id" : "0354"
+}, {
+  "name" : "EAN_U09",
+  "description" : "U09",
+  "usage" : "P",
+  "table_id" : "0354"
+}, {
+  "name" : "RCL_I06",
+  "description" : "I06",
+  "usage" : "P",
+  "table_id" : "0354"
+}, {
   "name" : "CE",
   "description" : "Coded element",
   "usage" : "P",
@@ -14025,18 +14025,13 @@
   "usage" : "P",
   "table_id" : "0356"
 }, {
-  "name" : "203",
-  "description" : "Unsupported version id",
-  "usage" : "P",
-  "table_id" : "0357"
-}, {
   "name" : "0",
   "description" : "Message accepted",
   "usage" : "P",
   "table_id" : "0357"
 }, {
-  "name" : "206",
-  "description" : "Application record locked",
+  "name" : "203",
+  "description" : "Unsupported version id",
   "usage" : "P",
   "table_id" : "0357"
 }, {
@@ -14045,13 +14040,13 @@
   "usage" : "P",
   "table_id" : "0357"
 }, {
-  "name" : "201",
-  "description" : "Unsupported event code",
+  "name" : "206",
+  "description" : "Application record locked",
   "usage" : "P",
   "table_id" : "0357"
 }, {
-  "name" : "204",
-  "description" : "Unknown key identifier",
+  "name" : "201",
+  "description" : "Unsupported event code",
   "usage" : "P",
   "table_id" : "0357"
 }, {
@@ -14060,8 +14055,8 @@
   "usage" : "P",
   "table_id" : "0357"
 }, {
-  "name" : "207",
-  "description" : "Application internal error",
+  "name" : "204",
+  "description" : "Unknown key identifier",
   "usage" : "P",
   "table_id" : "0357"
 }, {
@@ -14070,18 +14065,23 @@
   "usage" : "P",
   "table_id" : "0357"
 }, {
+  "name" : "207",
+  "description" : "Application internal error",
+  "usage" : "P",
+  "table_id" : "0357"
+}, {
   "name" : "202",
   "description" : "Unsupported processing id",
   "usage" : "P",
   "table_id" : "0357"
 }, {
-  "name" : "205",
-  "description" : "Duplicate key identifier",
+  "name" : "101",
+  "description" : "Required field missing",
   "usage" : "P",
   "table_id" : "0357"
 }, {
-  "name" : "101",
-  "description" : "Required field missing",
+  "name" : "205",
+  "description" : "Duplicate key identifier",
   "usage" : "P",
   "table_id" : "0357"
 }, {
@@ -14105,11 +14105,6 @@
   "usage" : "P",
   "table_id" : "0359"
 }, {
-  "name" : "AA",
-  "description" : "Associate of Arts",
-  "usage" : "P",
-  "table_id" : "0360"
-}, {
   "name" : "BFA",
   "description" : "Bachelor of Fine Arts",
   "usage" : "P",
@@ -14130,8 +14125,8 @@
   "usage" : "P",
   "table_id" : "0360"
 }, {
-  "name" : "AE",
-  "description" : "Associate of Engineering",
+  "name" : "AA",
+  "description" : "Associate of Arts",
   "usage" : "P",
   "table_id" : "0360"
 }, {
@@ -14155,8 +14150,8 @@
   "usage" : "P",
   "table_id" : "0360"
 }, {
-  "name" : "BBA",
-  "description" : "Bachelor of Business Administration",
+  "name" : "AE",
+  "description" : "Associate of Engineering",
   "usage" : "P",
   "table_id" : "0360"
 }, {
@@ -14180,8 +14175,8 @@
   "usage" : "P",
   "table_id" : "0360"
 }, {
-  "name" : "AAS",
-  "description" : "Associate of Applied Science",
+  "name" : "BBA",
+  "description" : "Bachelor of Business Administration",
   "usage" : "P",
   "table_id" : "0360"
 }, {
@@ -14205,8 +14200,8 @@
   "usage" : "P",
   "table_id" : "0360"
 }, {
-  "name" : "AS",
-  "description" : "Associate of Science",
+  "name" : "AAS",
+  "description" : "Associate of Applied Science",
   "usage" : "P",
   "table_id" : "0360"
 }, {
@@ -14230,8 +14225,8 @@
   "usage" : "P",
   "table_id" : "0360"
 }, {
-  "name" : "BE",
-  "description" : "Bachelor or Engineering",
+  "name" : "AS",
+  "description" : "Associate of Science",
   "usage" : "P",
   "table_id" : "0360"
 }, {
@@ -14255,8 +14250,8 @@
   "usage" : "P",
   "table_id" : "0360"
 }, {
-  "name" : "ABA",
-  "description" : "Associate of Business Administration",
+  "name" : "BE",
+  "description" : "Bachelor or Engineering",
   "usage" : "P",
   "table_id" : "0360"
 }, {
@@ -14280,8 +14275,8 @@
   "usage" : "P",
   "table_id" : "0360"
 }, {
-  "name" : "BA",
-  "description" : "Bachelor of Arts",
+  "name" : "ABA",
+  "description" : "Associate of Business Administration",
   "usage" : "P",
   "table_id" : "0360"
 }, {
@@ -14302,6 +14297,11 @@
 }, {
   "name" : "PHS",
   "description" : "Doctor of Science",
+  "usage" : "P",
+  "table_id" : "0360"
+}, {
+  "name" : "BA",
+  "description" : "Bachelor of Arts",
   "usage" : "P",
   "table_id" : "0360"
 }, {
@@ -14585,11 +14585,6 @@
   "usage" : "P",
   "table_id" : "0368"
 }, {
-  "name" : "AB",
-  "description" : "Abort",
-  "usage" : "P",
-  "table_id" : "0368"
-}, {
   "name" : "LC",
   "description" : "Local Control Request",
   "usage" : "P",
@@ -14597,6 +14592,11 @@
 }, {
   "name" : "TT",
   "description" : "Transport To",
+  "usage" : "P",
+  "table_id" : "0368"
+}, {
+  "name" : "AB",
+  "description" : "Abort",
   "usage" : "P",
   "table_id" : "0368"
 }, {
@@ -14675,13 +14675,13 @@
   "usage" : "P",
   "table_id" : "0370"
 }, {
-  "name" : "EDTN",
-  "description" : "Sodium/Na EDTA",
+  "name" : "C32",
+  "description" : "3.2%  Citrate",
   "usage" : "P",
   "table_id" : "0371"
 }, {
-  "name" : "C32",
-  "description" : "3.2%  Citrate",
+  "name" : "EDTN",
+  "description" : "Sodium/Na EDTA",
   "usage" : "P",
   "table_id" : "0371"
 }, {
@@ -14690,13 +14690,13 @@
   "usage" : "P",
   "table_id" : "0371"
 }, {
-  "name" : "HCL6",
-  "description" : "6N HCL",
+  "name" : "C38",
+  "description" : "3.8% Citrate",
   "usage" : "P",
   "table_id" : "0371"
 }, {
-  "name" : "C38",
-  "description" : "3.8% Citrate",
+  "name" : "HCL6",
+  "description" : "6N HCL",
   "usage" : "P",
   "table_id" : "0371"
 }, {
@@ -14705,13 +14705,13 @@
   "usage" : "P",
   "table_id" : "0371"
 }, {
-  "name" : "HEPL",
-  "description" : "Lithium/Li  Heparin",
+  "name" : "EDTK",
+  "description" : "Potassium/K EDTA",
   "usage" : "P",
   "table_id" : "0371"
 }, {
-  "name" : "EDTK",
-  "description" : "Potassium/K EDTA",
+  "name" : "HEPL",
+  "description" : "Lithium/Li  Heparin",
   "usage" : "P",
   "table_id" : "0371"
 }, {
@@ -14855,13 +14855,13 @@
   "usage" : "P",
   "table_id" : "0383"
 }, {
-  "name" : "CW",
-  "description" : "Calibration Warning",
+  "name" : "QE",
+  "description" : "QC Error",
   "usage" : "P",
   "table_id" : "0383"
 }, {
-  "name" : "QE",
-  "description" : "QC Error",
+  "name" : "CW",
+  "description" : "Calibration Warning",
   "usage" : "P",
   "table_id" : "0383"
 }, {
@@ -14875,13 +14875,13 @@
   "usage" : "P",
   "table_id" : "0383"
 }, {
-  "name" : "EE",
-  "description" : "Expired Error",
+  "name" : "QW",
+  "description" : "QC Warning",
   "usage" : "P",
   "table_id" : "0383"
 }, {
-  "name" : "QW",
-  "description" : "QC Warning",
+  "name" : "EE",
+  "description" : "Expired Error",
   "usage" : "P",
   "table_id" : "0383"
 }, {
@@ -14890,13 +14890,13 @@
   "usage" : "P",
   "table_id" : "0383"
 }, {
-  "name" : "CE",
-  "description" : "Calibration Error",
+  "name" : "OW",
+  "description" : "Other Warning",
   "usage" : "P",
   "table_id" : "0383"
 }, {
-  "name" : "OW",
-  "description" : "Other Warning",
+  "name" : "CE",
+  "description" : "Calibration Error",
   "usage" : "P",
   "table_id" : "0383"
 }, {
@@ -15112,11 +15112,6 @@
   "usage" : "P",
   "table_id" : "0395"
 }, {
-  "name" : "ENZC",
-  "description" : "Enzyme Codes",
-  "usage" : "P",
-  "table_id" : "0396"
-}, {
   "name" : "HL7nnnn",
   "description" : "HL7 Defined Codes where nnnn is the HL7 table number",
   "usage" : "P",
@@ -15132,13 +15127,13 @@
   "usage" : "P",
   "table_id" : "0396"
 }, {
-  "name" : "MVX",
-  "description" : "CDC Vaccine Manufacturer Codes",
+  "name" : "SNT",
+  "description" : "SNOMED topology codes (anatomic sites)",
   "usage" : "P",
   "table_id" : "0396"
 }, {
-  "name" : "SNT",
-  "description" : "SNOMED topology codes (anatomic sites)",
+  "name" : "MVX",
+  "description" : "CDC Vaccine Manufacturer Codes",
   "usage" : "P",
   "table_id" : "0396"
 }, {
@@ -15162,13 +15157,8 @@
   "usage" : "P",
   "table_id" : "0396"
 }, {
-  "name" : "DQL",
-  "description" : "DICOM Query Label",
-  "usage" : "P",
-  "table_id" : "0396"
-}, {
-  "name" : "FDK",
-  "description" : "FDA K10",
+  "name" : "ENZC",
+  "description" : "Enzyme Codes",
   "usage" : "P",
   "table_id" : "0396"
 }, {
@@ -15182,23 +15172,23 @@
   "usage" : "P",
   "table_id" : "0396"
 }, {
-  "name" : "MDDX",
-  "description" : "Medispan Diagnostic Codes",
-  "usage" : "P",
-  "table_id" : "0396"
-}, {
   "name" : "POS",
   "description" : "POS Codes",
   "usage" : "P",
   "table_id" : "0396"
 }, {
-  "name" : "NIC",
-  "description" : "Nursing Interventions Classification",
+  "name" : "MDDX",
+  "description" : "Medispan Diagnostic Codes",
   "usage" : "P",
   "table_id" : "0396"
 }, {
   "name" : "UML",
   "description" : "Unified Medical Language",
+  "usage" : "P",
+  "table_id" : "0396"
+}, {
+  "name" : "NIC",
+  "description" : "Nursing Interventions Classification",
   "usage" : "P",
   "table_id" : "0396"
 }, {
@@ -15212,8 +15202,13 @@
   "usage" : "P",
   "table_id" : "0396"
 }, {
-  "name" : "E6",
-  "description" : "Euclides Lab method codes",
+  "name" : "DQL",
+  "description" : "DICOM Query Label",
+  "usage" : "P",
+  "table_id" : "0396"
+}, {
+  "name" : "FDK",
+  "description" : "FDA K10",
   "usage" : "P",
   "table_id" : "0396"
 }, {
@@ -15232,13 +15227,13 @@
   "usage" : "P",
   "table_id" : "0396"
 }, {
-  "name" : "MEDX",
-  "description" : "Medical Economics Diagnostic Codes",
+  "name" : "SNM",
+  "description" : "Systemized Nomenclature of Medicine (SNOMED)",
   "usage" : "P",
   "table_id" : "0396"
 }, {
-  "name" : "SNM",
-  "description" : "Systemized Nomenclature of Medicine (SNOMED)",
+  "name" : "MEDX",
+  "description" : "Medical Economics Diagnostic Codes",
   "usage" : "P",
   "table_id" : "0396"
 }, {
@@ -15257,8 +15252,8 @@
   "usage" : "P",
   "table_id" : "0396"
 }, {
-  "name" : "FDDC",
-  "description" : "First DataBank Drug Codes",
+  "name" : "E6",
+  "description" : "Euclides Lab method codes",
   "usage" : "P",
   "table_id" : "0396"
 }, {
@@ -15277,13 +15272,13 @@
   "usage" : "P",
   "table_id" : "0396"
 }, {
-  "name" : "NDA",
-  "description" : "NANDA",
+  "name" : "UC",
+  "description" : "UCDS",
   "usage" : "P",
   "table_id" : "0396"
 }, {
-  "name" : "UC",
-  "description" : "UCDS",
+  "name" : "NDA",
+  "description" : "NANDA",
   "usage" : "P",
   "table_id" : "0396"
 }, {
@@ -15307,13 +15302,8 @@
   "usage" : "P",
   "table_id" : "0396"
 }, {
-  "name" : "E",
-  "description" : "EUCLIDES",
-  "usage" : "P",
-  "table_id" : "0396"
-}, {
-  "name" : "HB",
-  "description" : "HIBCC",
+  "name" : "FDDC",
+  "description" : "First DataBank Drug Codes",
   "usage" : "P",
   "table_id" : "0396"
 }, {
@@ -15327,23 +15317,23 @@
   "usage" : "P",
   "table_id" : "0396"
 }, {
-  "name" : "MEDC",
-  "description" : "Medical Economics Drug Codes",
-  "usage" : "P",
-  "table_id" : "0396"
-}, {
   "name" : "RC",
   "description" : "Read Classification",
   "usage" : "P",
   "table_id" : "0396"
 }, {
-  "name" : "NPI",
-  "description" : "National Provider Identifier",
+  "name" : "MEDC",
+  "description" : "Medical Economics Drug Codes",
   "usage" : "P",
   "table_id" : "0396"
 }, {
   "name" : "UPC",
   "description" : "Universal Product Code",
+  "usage" : "P",
+  "table_id" : "0396"
+}, {
+  "name" : "NPI",
+  "description" : "National Provider Identifier",
   "usage" : "P",
   "table_id" : "0396"
 }, {
@@ -15357,8 +15347,13 @@
   "usage" : "P",
   "table_id" : "0396"
 }, {
-  "name" : "E7",
-  "description" : "Euclides Lab equipment codes",
+  "name" : "E",
+  "description" : "EUCLIDES",
+  "usage" : "P",
+  "table_id" : "0396"
+}, {
+  "name" : "HB",
+  "description" : "HIBCC",
   "usage" : "P",
   "table_id" : "0396"
 }, {
@@ -15377,13 +15372,13 @@
   "usage" : "P",
   "table_id" : "0396"
 }, {
-  "name" : "MGPI",
-  "description" : "Medispan GPI",
+  "name" : "SNM3",
+  "description" : "SNOMED International",
   "usage" : "P",
   "table_id" : "0396"
 }, {
-  "name" : "SNM3",
-  "description" : "SNOMED International",
+  "name" : "MGPI",
+  "description" : "Medispan GPI",
   "usage" : "P",
   "table_id" : "0396"
 }, {
@@ -15407,13 +15402,8 @@
   "usage" : "P",
   "table_id" : "0396"
 }, {
-  "name" : "DCM",
-  "description" : "DICOM modality codes",
-  "usage" : "P",
-  "table_id" : "0396"
-}, {
-  "name" : "FDDX",
-  "description" : "First DataBank Diagnostic Codes",
+  "name" : "E7",
+  "description" : "Euclides Lab equipment codes",
   "usage" : "P",
   "table_id" : "0396"
 }, {
@@ -15432,13 +15422,13 @@
   "usage" : "P",
   "table_id" : "0396"
 }, {
-  "name" : "NDC",
-  "description" : "National drug codes",
+  "name" : "UMD",
+  "description" : "MDNS",
   "usage" : "P",
   "table_id" : "0396"
 }, {
-  "name" : "UMD",
-  "description" : "MDNS",
+  "name" : "NDC",
+  "description" : "National drug codes",
   "usage" : "P",
   "table_id" : "0396"
 }, {
@@ -15452,8 +15442,13 @@
   "usage" : "P",
   "table_id" : "0396"
 }, {
-  "name" : "E5",
-  "description" : "Euclides  quantity codes",
+  "name" : "DCM",
+  "description" : "DICOM modality codes",
+  "usage" : "P",
+  "table_id" : "0396"
+}, {
+  "name" : "FDDX",
+  "description" : "First DataBank Diagnostic Codes",
   "usage" : "P",
   "table_id" : "0396"
 }, {
@@ -15472,23 +15467,23 @@
   "usage" : "P",
   "table_id" : "0396"
 }, {
-  "name" : "MEDR",
-  "description" : "Medical Dictionary for Drug Regulatory Affairs (MEDDRA)",
-  "usage" : "P",
-  "table_id" : "0396"
-}, {
   "name" : "SDM",
   "description" : "SNOMED- DICOM Microglossary",
   "usage" : "P",
   "table_id" : "0396"
 }, {
-  "name" : "OHA",
-  "description" : "Omaha System",
+  "name" : "MEDR",
+  "description" : "Medical Dictionary for Drug Regulatory Affairs (MEDDRA)",
   "usage" : "P",
   "table_id" : "0396"
 }, {
   "name" : "UPIN",
   "description" : "UPIN",
+  "usage" : "P",
+  "table_id" : "0396"
+}, {
+  "name" : "OHA",
+  "description" : "Omaha System",
   "usage" : "P",
   "table_id" : "0396"
 }, {
@@ -15499,6 +15494,11 @@
 }, {
   "name" : "CLP",
   "description" : "CLIP",
+  "usage" : "P",
+  "table_id" : "0396"
+}, {
+  "name" : "E5",
+  "description" : "Euclides  quantity codes",
   "usage" : "P",
   "table_id" : "0396"
 }, {
@@ -15536,51 +15536,6 @@
   "description" : "Fragmentation",
   "usage" : "P",
   "table_id" : "0398"
-}, {
-  "name" : "AUT",
-  "description" : "AUSTRIA",
-  "usage" : "P",
-  "table_id" : "0399"
-}, {
-  "name" : "HRV",
-  "description" : "CROATIA",
-  "usage" : "P",
-  "table_id" : "0399"
-}, {
-  "name" : "PNG",
-  "description" : "PAPUA NEW GUINEA",
-  "usage" : "P",
-  "table_id" : "0399"
-}, {
-  "name" : "BHR",
-  "description" : "BAHRAIN",
-  "usage" : "P",
-  "table_id" : "0399"
-}, {
-  "name" : "IRQ",
-  "description" : "IRAQ",
-  "usage" : "P",
-  "table_id" : "0399"
-}, {
-  "name" : "REU",
-  "description" : "REUNION",
-  "usage" : "P",
-  "table_id" : "0399"
-}, {
-  "name" : "BRB",
-  "description" : "BARBADOS",
-  "usage" : "P",
-  "table_id" : "0399"
-}, {
-  "name" : "KEN",
-  "description" : "KENYA",
-  "usage" : "P",
-  "table_id" : "0399"
-}, {
-  "name" : "SGS",
-  "description" : "SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS",
-  "usage" : "P",
-  "table_id" : "0399"
 }, {
   "name" : "CHE",
   "description" : "SWITZERLAND",
@@ -15682,53 +15637,48 @@
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "GUM",
-  "description" : "GUAM",
+  "name" : "AUT",
+  "description" : "AUSTRIA",
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "PAN",
-  "description" : "PANAMA",
+  "name" : "HRV",
+  "description" : "CROATIA",
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "BEL",
-  "description" : "BELGIUM",
+  "name" : "PNG",
+  "description" : "PAPUA NEW GUINEA",
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "IDN",
-  "description" : "INDONESIA",
+  "name" : "BHR",
+  "description" : "BAHRAIN",
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "PRK",
-  "description" : "KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF",
+  "name" : "IRQ",
+  "description" : "IRAQ",
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "BLR",
-  "description" : "BELARUS",
+  "name" : "REU",
+  "description" : "REUNION",
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "ITA",
-  "description" : "ITALY",
+  "name" : "BRB",
+  "description" : "BARBADOS",
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "RWA",
-  "description" : "RWANDA",
+  "name" : "KEN",
+  "description" : "KENYA",
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "BVT",
-  "description" : "BOUVET ISLAND",
-  "usage" : "P",
-  "table_id" : "0399"
-}, {
-  "name" : "KIR",
-  "description" : "KIRIBATI",
+  "name" : "SGS",
+  "description" : "SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS",
   "usage" : "P",
   "table_id" : "0399"
 }, {
@@ -15837,48 +15787,53 @@
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "HMD",
-  "description" : "HEARD ISLAND AND MCDONALD ISLANDS",
+  "name" : "GUM",
+  "description" : "GUAM",
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "PHL",
-  "description" : "PHILIPPINES",
+  "name" : "PAN",
+  "description" : "PANAMA",
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "BGD",
-  "description" : "BANGLADESH",
+  "name" : "BEL",
+  "description" : "BELGIUM",
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "IRL",
-  "description" : "IRELAND",
+  "name" : "IDN",
+  "description" : "INDONESIA",
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "PYF",
-  "description" : "FRENCH POLYNESIA",
+  "name" : "PRK",
+  "description" : "KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF",
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "BOL",
-  "description" : "BOLIVIA",
+  "name" : "BLR",
+  "description" : "BELARUS",
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "JPN",
-  "description" : "JAPAN",
+  "name" : "ITA",
+  "description" : "ITALY",
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "SEN",
-  "description" : "SENEGAL",
+  "name" : "RWA",
+  "description" : "RWANDA",
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "CAN",
-  "description" : "CANADA",
+  "name" : "BVT",
+  "description" : "BOUVET ISLAND",
+  "usage" : "P",
+  "table_id" : "0399"
+}, {
+  "name" : "KIR",
+  "description" : "KIRIBATI",
   "usage" : "P",
   "table_id" : "0399"
 }, {
@@ -15982,48 +15937,48 @@
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "AZE",
-  "description" : "AZERBAIJAN",
+  "name" : "HMD",
+  "description" : "HEARD ISLAND AND MCDONALD ISLANDS",
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "HTI",
-  "description" : "HAITI",
+  "name" : "PHL",
+  "description" : "PHILIPPINES",
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "POL",
-  "description" : "POLAND",
+  "name" : "BGD",
+  "description" : "BANGLADESH",
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "BHS",
-  "description" : "BAHAMAS",
+  "name" : "IRL",
+  "description" : "IRELAND",
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "ISL",
-  "description" : "ICELAND",
+  "name" : "PYF",
+  "description" : "FRENCH POLYNESIA",
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "ROM",
-  "description" : "ROMANIA",
+  "name" : "BOL",
+  "description" : "BOLIVIA",
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "BRN",
-  "description" : "BRUNEI DARUSSALAM",
+  "name" : "JPN",
+  "description" : "JAPAN",
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "KGZ",
-  "description" : "KYRGYZSTAN",
+  "name" : "SEN",
+  "description" : "SENEGAL",
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "SHN",
-  "description" : "SAINT HELENA",
+  "name" : "CAN",
+  "description" : "CANADA",
   "usage" : "P",
   "table_id" : "0399"
 }, {
@@ -16132,48 +16087,48 @@
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "GUY",
-  "description" : "GUYANA",
+  "name" : "AZE",
+  "description" : "AZERBAIJAN",
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "PCN",
-  "description" : "PITCAIRN",
+  "name" : "HTI",
+  "description" : "HAITI",
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "BEN",
-  "description" : "BENIN",
+  "name" : "POL",
+  "description" : "POLAND",
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "IND",
-  "description" : "INDIA",
+  "name" : "BHS",
+  "description" : "BAHAMAS",
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "PRT",
-  "description" : "PORTUGAL",
+  "name" : "ISL",
+  "description" : "ICELAND",
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "BLZ",
-  "description" : "BELIZE",
+  "name" : "ROM",
+  "description" : "ROMANIA",
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "JAM",
-  "description" : "JAMAICA",
+  "name" : "BRN",
+  "description" : "BRUNEI DARUSSALAM",
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "SAU",
-  "description" : "SAUDI ARABIA",
+  "name" : "KGZ",
+  "description" : "KYRGYZSTAN",
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "BWA",
-  "description" : "BOTSWANA",
+  "name" : "SHN",
+  "description" : "SAINT HELENA",
   "usage" : "P",
   "table_id" : "0399"
 }, {
@@ -16282,48 +16237,48 @@
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "HND",
-  "description" : "HONDURAS",
+  "name" : "GUY",
+  "description" : "GUYANA",
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "PLW",
-  "description" : "PALAU",
+  "name" : "PCN",
+  "description" : "PITCAIRN",
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "BGR",
-  "description" : "BULGARIA",
+  "name" : "BEN",
+  "description" : "BENIN",
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "IRN",
-  "description" : "IRAN, ISLAMIC REPUBLIC OF",
+  "name" : "IND",
+  "description" : "INDIA",
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "QAT",
-  "description" : "QATAR",
+  "name" : "PRT",
+  "description" : "PORTUGAL",
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "BRA",
-  "description" : "BRAZIL",
+  "name" : "BLZ",
+  "description" : "BELIZE",
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "KAZ",
-  "description" : "KAZAKSTAN",
+  "name" : "JAM",
+  "description" : "JAMAICA",
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "SGP",
-  "description" : "SINGAPORE",
+  "name" : "SAU",
+  "description" : "SAUDI ARABIA",
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "CCK",
-  "description" : "COCOS (KEELING) ISLANDS",
+  "name" : "BWA",
+  "description" : "BOTSWANA",
   "usage" : "P",
   "table_id" : "0399"
 }, {
@@ -16427,48 +16382,48 @@
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "BDI",
-  "description" : "BURUNDI",
+  "name" : "HND",
+  "description" : "HONDURAS",
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "HUN",
-  "description" : "HUNGARY",
+  "name" : "PLW",
+  "description" : "PALAU",
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "PRI",
-  "description" : "PUERTO RICO",
+  "name" : "BGR",
+  "description" : "BULGARIA",
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "BIH",
-  "description" : "BOSNIA AND HERZEGOVINA",
+  "name" : "IRN",
+  "description" : "IRAN, ISLAMIC REPUBLIC OF",
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "ISR",
-  "description" : "ISRAEL",
+  "name" : "QAT",
+  "description" : "QATAR",
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "RUS",
-  "description" : "RUSSIAN FEDERATION",
+  "name" : "BRA",
+  "description" : "BRAZIL",
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "BTN",
-  "description" : "BHUTAN",
+  "name" : "KAZ",
+  "description" : "KAZAKSTAN",
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "KHM",
-  "description" : "CAMBODIA",
+  "name" : "SGP",
+  "description" : "SINGAPORE",
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "SJM",
-  "description" : "SVALBARD AND JAN MAYEN",
+  "name" : "CCK",
+  "description" : "COCOS (KEELING) ISLANDS",
   "usage" : "P",
   "table_id" : "0399"
 }, {
@@ -16577,48 +16532,48 @@
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "HKG",
-  "description" : "HONG KONG",
+  "name" : "BDI",
+  "description" : "BURUNDI",
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "PER",
-  "description" : "PERU",
+  "name" : "HUN",
+  "description" : "HUNGARY",
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "BFA",
-  "description" : "BURKINA FASO",
+  "name" : "PRI",
+  "description" : "PUERTO RICO",
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "IOT",
-  "description" : "BRITISH INDIAN OCEAN TERRITORY",
+  "name" : "BIH",
+  "description" : "BOSNIA AND HERZEGOVINA",
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "PRY",
-  "description" : "PARAGUAY",
+  "name" : "ISR",
+  "description" : "ISRAEL",
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "BMU",
-  "description" : "BERMUDA",
+  "name" : "RUS",
+  "description" : "RUSSIAN FEDERATION",
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "JOR",
-  "description" : "JORDAN",
+  "name" : "BTN",
+  "description" : "BHUTAN",
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "SDN",
-  "description" : "SUDAN",
+  "name" : "KHM",
+  "description" : "CAMBODIA",
   "usage" : "P",
   "table_id" : "0399"
 }, {
-  "name" : "CAF",
-  "description" : "CENTRAL AFRICAN REPUBLIC",
+  "name" : "SJM",
+  "description" : "SVALBARD AND JAN MAYEN",
   "usage" : "P",
   "table_id" : "0399"
 }, {
@@ -16724,6 +16679,51 @@
 }, {
   "name" : "ATA",
   "description" : "ANTARCTICA",
+  "usage" : "P",
+  "table_id" : "0399"
+}, {
+  "name" : "HKG",
+  "description" : "HONG KONG",
+  "usage" : "P",
+  "table_id" : "0399"
+}, {
+  "name" : "PER",
+  "description" : "PERU",
+  "usage" : "P",
+  "table_id" : "0399"
+}, {
+  "name" : "BFA",
+  "description" : "BURKINA FASO",
+  "usage" : "P",
+  "table_id" : "0399"
+}, {
+  "name" : "IOT",
+  "description" : "BRITISH INDIAN OCEAN TERRITORY",
+  "usage" : "P",
+  "table_id" : "0399"
+}, {
+  "name" : "PRY",
+  "description" : "PARAGUAY",
+  "usage" : "P",
+  "table_id" : "0399"
+}, {
+  "name" : "BMU",
+  "description" : "BERMUDA",
+  "usage" : "P",
+  "table_id" : "0399"
+}, {
+  "name" : "JOR",
+  "description" : "JORDAN",
+  "usage" : "P",
+  "table_id" : "0399"
+}, {
+  "name" : "SDN",
+  "description" : "SUDAN",
+  "usage" : "P",
+  "table_id" : "0399"
+}, {
+  "name" : "CAF",
+  "description" : "CENTRAL AFRICAN REPUBLIC",
   "usage" : "P",
   "table_id" : "0399"
 }, {
@@ -17256,13 +17256,13 @@
   "usage" : "P",
   "table_id" : "0426"
 }, {
-  "name" : "CRYO",
-  "description" : "Cryoprecipitated AHF",
+  "name" : "PLT",
+  "description" : "Platelet Concentrate",
   "usage" : "P",
   "table_id" : "0426"
 }, {
-  "name" : "PLT",
-  "description" : "Platelet Concentrate",
+  "name" : "CRYO",
+  "description" : "Cryoprecipitated AHF",
   "usage" : "P",
   "table_id" : "0426"
 }, {
@@ -17286,13 +17286,13 @@
   "usage" : "P",
   "table_id" : "0426"
 }, {
-  "name" : "CRYOP",
-  "description" : "Pooled Cryopecipitate",
+  "name" : "PLTNEO",
+  "description" : "Reduced Volume Platelets",
   "usage" : "P",
   "table_id" : "0426"
 }, {
-  "name" : "PLTNEO",
-  "description" : "Reduced Volume Platelets",
+  "name" : "CRYOP",
+  "description" : "Pooled Cryopecipitate",
   "usage" : "P",
   "table_id" : "0426"
 }, {
@@ -17691,21 +17691,6 @@
   "usage" : "P",
   "table_id" : "0438"
 }, {
-  "name" : "QSC",
-  "description" : "Query selection criteria",
-  "usage" : "P",
-  "table_id" : "0440"
-}, {
-  "name" : "SRT",
-  "description" : "Sort order",
-  "usage" : "P",
-  "table_id" : "0440"
-}, {
-  "name" : "VID",
-  "description" : "Version identifier",
-  "usage" : "P",
-  "table_id" : "0440"
-}, {
   "name" : "CD",
   "description" : "Channel definition",
   "usage" : "P",
@@ -17726,18 +17711,18 @@
   "usage" : "P",
   "table_id" : "0440"
 }, {
-  "name" : "RP",
-  "description" : "Reference pointer",
+  "name" : "QSC",
+  "description" : "Query selection criteria",
   "usage" : "P",
   "table_id" : "0440"
 }, {
-  "name" : "TN",
-  "description" : "Telephone number",
+  "name" : "SRT",
+  "description" : "Sort order",
   "usage" : "P",
   "table_id" : "0440"
 }, {
-  "name" : "XON",
-  "description" : "Extended composite name and ID number for organizations",
+  "name" : "VID",
+  "description" : "Version identifier",
   "usage" : "P",
   "table_id" : "0440"
 }, {
@@ -17761,13 +17746,18 @@
   "usage" : "P",
   "table_id" : "0440"
 }, {
-  "name" : "SI",
-  "description" : "Sequence ID",
+  "name" : "RP",
+  "description" : "Reference pointer",
   "usage" : "P",
   "table_id" : "0440"
 }, {
-  "name" : "TX",
-  "description" : "Text data",
+  "name" : "TN",
+  "description" : "Telephone number",
+  "usage" : "P",
+  "table_id" : "0440"
+}, {
+  "name" : "XON",
+  "description" : "Extended composite name and ID number for organizations",
   "usage" : "P",
   "table_id" : "0440"
 }, {
@@ -17791,18 +17781,13 @@
   "usage" : "P",
   "table_id" : "0440"
 }, {
-  "name" : "RCD",
-  "description" : "Row column definition",
+  "name" : "SI",
+  "description" : "Sequence ID",
   "usage" : "P",
   "table_id" : "0440"
 }, {
-  "name" : "ST",
-  "description" : "String",
-  "usage" : "P",
-  "table_id" : "0440"
-}, {
-  "name" : "XAD",
-  "description" : "Extended address",
+  "name" : "TX",
+  "description" : "Text data",
   "usage" : "P",
   "table_id" : "0440"
 }, {
@@ -17826,18 +17811,18 @@
   "usage" : "P",
   "table_id" : "0440"
 }, {
-  "name" : "SAD",
-  "description" : "Street Address",
+  "name" : "RCD",
+  "description" : "Row column definition",
   "usage" : "P",
   "table_id" : "0440"
 }, {
-  "name" : "TQ",
-  "description" : "Timing/quantity",
+  "name" : "ST",
+  "description" : "String",
   "usage" : "P",
   "table_id" : "0440"
 }, {
-  "name" : "XPN",
-  "description" : "Extended person name",
+  "name" : "XAD",
+  "description" : "Extended address",
   "usage" : "P",
   "table_id" : "0440"
 }, {
@@ -17861,13 +17846,18 @@
   "usage" : "P",
   "table_id" : "0440"
 }, {
-  "name" : "SN",
-  "description" : "Structured numeric",
+  "name" : "SAD",
+  "description" : "Street Address",
   "usage" : "P",
   "table_id" : "0440"
 }, {
-  "name" : "VH",
-  "description" : "Visiting hours",
+  "name" : "TQ",
+  "description" : "Timing/quantity",
+  "usage" : "P",
+  "table_id" : "0440"
+}, {
+  "name" : "XPN",
+  "description" : "Extended person name",
   "usage" : "P",
   "table_id" : "0440"
 }, {
@@ -17896,18 +17886,13 @@
   "usage" : "P",
   "table_id" : "0440"
 }, {
-  "name" : "RI",
-  "description" : "Repeat interval",
+  "name" : "SN",
+  "description" : "Structured numeric",
   "usage" : "P",
   "table_id" : "0440"
 }, {
-  "name" : "TM",
-  "description" : "Time",
-  "usage" : "P",
-  "table_id" : "0440"
-}, {
-  "name" : "XCN",
-  "description" : "Extended composite ID number and name",
+  "name" : "VH",
+  "description" : "Visiting hours",
   "usage" : "P",
   "table_id" : "0440"
 }, {
@@ -17931,18 +17916,18 @@
   "usage" : "P",
   "table_id" : "0440"
 }, {
-  "name" : "SCV",
-  "description" : "Scheduling class value pair",
+  "name" : "RI",
+  "description" : "Repeat interval",
   "usage" : "P",
   "table_id" : "0440"
 }, {
-  "name" : "TS",
-  "description" : "Time stamp",
+  "name" : "TM",
+  "description" : "Time",
   "usage" : "P",
   "table_id" : "0440"
 }, {
-  "name" : "XTN",
-  "description" : "Extended telecommunications number",
+  "name" : "XCN",
+  "description" : "Extended composite ID number and name",
   "usage" : "P",
   "table_id" : "0440"
 }, {
@@ -17963,6 +17948,21 @@
 }, {
   "name" : "PPN",
   "description" : "Performing person time stamp",
+  "usage" : "P",
+  "table_id" : "0440"
+}, {
+  "name" : "SCV",
+  "description" : "Scheduling class value pair",
+  "usage" : "P",
+  "table_id" : "0440"
+}, {
+  "name" : "TS",
+  "description" : "Time stamp",
+  "usage" : "P",
+  "table_id" : "0440"
+}, {
+  "name" : "XTN",
+  "description" : "Extended telecommunications number",
   "usage" : "P",
   "table_id" : "0440"
 }, {
@@ -18189,6 +18189,16 @@
   "usage" : "P",
   "table_id" : "0457"
 }, {
+  "name" : "7",
+  "description" : "Procedure and age conflict",
+  "usage" : "P",
+  "table_id" : "0458"
+}, {
+  "name" : "13",
+  "description" : "Additional payment for service not provided by Medicare",
+  "usage" : "P",
+  "table_id" : "0458"
+}, {
   "name" : "20",
   "description" : "Component of a comprehensive procedure that is not allowed even if appropriate modifier present",
   "usage" : "P",
@@ -18204,13 +18214,17 @@
   "usage" : "P",
   "table_id" : "0458"
 }, {
-  "name" : "7",
-  "description" : "Procedure and age conflict",
+  "name" : "40",
+  "description" : "Component of a comprehensive procedure that would be allowed if appropriate modifier were present",
   "usage" : "P",
   "table_id" : "0458"
 }, {
-  "name" : "13",
-  "description" : "Additional payment for service not provided by Medicare",
+  "name" : "...",
+  "usage" : "P",
+  "table_id" : "0458"
+}, {
+  "name" : "16",
+  "description" : "Multiple bilateral procedures without modifier 50 (see Appendix A)",
   "usage" : "P",
   "table_id" : "0458"
 }, {
@@ -18229,17 +18243,13 @@
   "usage" : "P",
   "table_id" : "0458"
 }, {
-  "name" : "40",
-  "description" : "Component of a comprehensive procedure that would be allowed if appropriate modifier were present",
+  "name" : "5",
+  "description" : "E-code as reason for visit",
   "usage" : "P",
   "table_id" : "0458"
 }, {
-  "name" : "...",
-  "usage" : "P",
-  "table_id" : "0458"
-}, {
-  "name" : "16",
-  "description" : "Multiple bilateral procedures without modifier 50 (see Appendix A)",
+  "name" : "11",
+  "description" : "Non-covered service submitted for FI review (condition code 20 from header information on claim)",
   "usage" : "P",
   "table_id" : "0458"
 }, {
@@ -18258,13 +18268,13 @@
   "usage" : "P",
   "table_id" : "0458"
 }, {
-  "name" : "5",
-  "description" : "E-code as reason for visit",
+  "name" : "8",
+  "description" : "Procedure and sex conflict",
   "usage" : "P",
   "table_id" : "0458"
 }, {
-  "name" : "11",
-  "description" : "Non-covered service submitted for FI review (condition code 20 from header information on claim)",
+  "name" : "14",
+  "description" : "Code indicates a site of service not included in OPPS",
   "usage" : "P",
   "table_id" : "0458"
 }, {
@@ -18283,13 +18293,13 @@
   "usage" : "P",
   "table_id" : "0458"
 }, {
-  "name" : "8",
-  "description" : "Procedure and sex conflict",
+  "name" : "41",
+  "description" : "Invalid revenue code",
   "usage" : "P",
   "table_id" : "0458"
 }, {
-  "name" : "14",
-  "description" : "Code indicates a site of service not included in OPPS",
+  "name" : "1",
+  "description" : "Invalid diagnosis code",
   "usage" : "P",
   "table_id" : "0458"
 }, {
@@ -18313,13 +18323,13 @@
   "usage" : "P",
   "table_id" : "0458"
 }, {
-  "name" : "41",
-  "description" : "Invalid revenue code",
+  "name" : "6",
+  "description" : "Invalid procedure code",
   "usage" : "P",
   "table_id" : "0458"
 }, {
-  "name" : "1",
-  "description" : "Invalid diagnosis code",
+  "name" : "12",
+  "description" : "Questionable covered service",
   "usage" : "P",
   "table_id" : "0458"
 }, {
@@ -18338,13 +18348,13 @@
   "usage" : "P",
   "table_id" : "0458"
 }, {
-  "name" : "6",
-  "description" : "Invalid procedure code",
+  "name" : "9",
+  "description" : "Nov-covered service",
   "usage" : "P",
   "table_id" : "0458"
 }, {
-  "name" : "12",
-  "description" : "Questionable covered service",
+  "name" : "15",
+  "description" : "Service unit out of range for procedure",
   "usage" : "P",
   "table_id" : "0458"
 }, {
@@ -18363,13 +18373,18 @@
   "usage" : "P",
   "table_id" : "0458"
 }, {
-  "name" : "9",
-  "description" : "Nov-covered service",
+  "name" : "4",
+  "description" : "Medicare secondary payer alert",
   "usage" : "P",
   "table_id" : "0458"
 }, {
-  "name" : "15",
-  "description" : "Service unit out of range for procedure",
+  "name" : "42",
+  "description" : "Multiple medical visits on same day with same revenue code without condition code G0 (see Appendix B)",
+  "usage" : "P",
+  "table_id" : "0458"
+}, {
+  "name" : "10",
+  "description" : "Non-covered  service submitted for verification of denial (condition code 21 from header information on claim)",
   "usage" : "P",
   "table_id" : "0458"
 }, {
@@ -18385,21 +18400,6 @@
 }, {
   "name" : "32",
   "description" : "Partial hospitalization claim spans 3 or less days with in-sufficient services, or ECT or significant procedure on at least one of the days",
-  "usage" : "P",
-  "table_id" : "0458"
-}, {
-  "name" : "4",
-  "description" : "Medicare secondary payer alert",
-  "usage" : "P",
-  "table_id" : "0458"
-}, {
-  "name" : "42",
-  "description" : "Multiple medical visits on same day with same revenue code without condition code G0 (see Appendix B)",
-  "usage" : "P",
-  "table_id" : "0458"
-}, {
-  "name" : "10",
-  "description" : "Non-covered  service submitted for verification of denial (condition code 21 from header information on claim)",
   "usage" : "P",
   "table_id" : "0458"
 }, {

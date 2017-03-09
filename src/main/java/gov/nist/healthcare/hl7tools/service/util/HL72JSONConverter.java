@@ -718,7 +718,7 @@ public class HL72JSONConverter implements Runnable {
   public String SQL4_COMPONENT() {
     StringBuilder bld = new StringBuilder();
     bld.append(
-        "SELECT dc.`data_structure`, c.`data_type_code`, c.`description`, dc.`req_opt`, dc.`min_length`, dc.`max_length`, dc.`conf_length`, c.`table_id`");
+        "SELECT dc.`data_structure`, c.`data_type_code`, c.`description`, dc.`req_opt`, dc.`min_length`, dc.`max_length`, dc.`conf_length`, c.`table_id`, dc.`seq_no`");
     bld.append(System.lineSeparator());
     bld.append(" FROM hl7versions v");
     bld.append(System.lineSeparator());
@@ -752,7 +752,9 @@ public class HL72JSONConverter implements Runnable {
       cmp.setId(++componentIncr);
       cmp.setParentDatatypeId(rs.getString("data_structure"));
       cmp.setDatatypeId(rs.getString("data_type_code"));
-      cmp.setPosition(componentIncr);
+      cmp.setPosition(rs.getInt("seq_no"));
+      System.out.println(rs.getString("data_structure") + "." + cmp.getPosition() + "="
+          + cmp.getDescription() + ", DT=" + rs.getString("data_type_code"));
       cmp.setDescription(rs.getString("description"));
       // fixComponentDatatype(cmp);
       fixUsage(cmp, Usage.fromValue(rs.getString("req_opt")));
@@ -993,20 +995,27 @@ public class HL72JSONConverter implements Runnable {
           groupname != null && groupname.trim().length() > 0 ? groupname.toUpperCase() : null);
       String segCode = rs.getString("seg_code");
       el.setSegmentId(segCode);
-      el.setMin(rs.getBoolean("optional") == true ? 0 : 1);
-      el.setMax(rs.getBoolean("repetitional") == true ? "*" : "1");
-      if (el.getMin() == 1 && "1".equals(el.getMax())) {
-        el.setUsage(Usage.R);
-      } else if (el.getMin() == 0 && "*".equals(el.getMax())) {
+      el.setMin(isGroupOptional(segCode) || rs.getBoolean("optional") == true ? 0 : 1);
+      el.setMax(isGroupRepetional(segCode) || rs.getBoolean("repetitional") == true ? "*" : "1");
+      if (el.getMin() == 0) {
         el.setUsage(Usage.O);
       } else {
-        el.setUsage(Usage.O);
+        el.setUsage(Usage.R);
       }
       el.setSeqNo(rs.getInt("seq_no"));
       log.info("el=" + el.toString());
       return el;
     }
   };
+
+  private boolean isGroupOptional(String segCode) {
+    return segCode.contains("[") || segCode.contains("]");
+  }
+
+  private boolean isGroupRepetional(String segCode) {
+    return segCode.contains("{") || segCode.contains("}");
+  }
+
 
   public String SQL4_EVENT() {
     StringBuilder bld = new StringBuilder();

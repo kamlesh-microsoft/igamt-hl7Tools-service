@@ -354,13 +354,13 @@
   "usage" : "P",
   "table_id" : "0009"
 }, {
-  "name" : "A0",
-  "description" : "No functional limitations",
+  "name" : "A8",
+  "description" : "Non-English Speaking",
   "usage" : "P",
   "table_id" : "0009"
 }, {
-  "name" : "A8",
-  "description" : "Non-English Speaking",
+  "name" : "A0",
+  "description" : "No functional limitations",
   "usage" : "P",
   "table_id" : "0009"
 }, {
@@ -384,13 +384,13 @@
   "usage" : "P",
   "table_id" : "0009"
 }, {
-  "name" : "A1",
-  "description" : "Ambulates with assistive device",
+  "name" : "A9",
+  "description" : "Functional level unknown",
   "usage" : "P",
   "table_id" : "0009"
 }, {
-  "name" : "A9",
-  "description" : "Functional level unknown",
+  "name" : "A1",
+  "description" : "Ambulates with assistive device",
   "usage" : "P",
   "table_id" : "0009"
 }, {
@@ -734,18 +734,13 @@
   "usage" : "P",
   "table_id" : "0038"
 }, {
-  "name" : "HD",
-  "description" : "Order is on hold",
-  "usage" : "P",
-  "table_id" : "0038"
-}, {
   "name" : "CM",
   "description" : "Order is completed",
   "usage" : "P",
   "table_id" : "0038"
 }, {
-  "name" : "IP",
-  "description" : "In process, unspecified",
+  "name" : "HD",
+  "description" : "Order is on hold",
   "usage" : "P",
   "table_id" : "0038"
 }, {
@@ -754,13 +749,18 @@
   "usage" : "P",
   "table_id" : "0038"
 }, {
-  "name" : "ANU",
-  "description" : "Nursing Unit Look up",
+  "name" : "IP",
+  "description" : "In process, unspecified",
   "usage" : "P",
-  "table_id" : "0048"
+  "table_id" : "0038"
 }, {
   "name" : "RES",
   "description" : "Result",
+  "usage" : "P",
+  "table_id" : "0048"
+}, {
+  "name" : "ANU",
+  "description" : "Nursing Unit Look up",
   "usage" : "P",
   "table_id" : "0048"
 }, {
@@ -774,13 +774,13 @@
   "usage" : "P",
   "table_id" : "0048"
 }, {
-  "name" : "APN",
-  "description" : "Patient name look up",
+  "name" : "STA",
+  "description" : "Status",
   "usage" : "P",
   "table_id" : "0048"
 }, {
-  "name" : "STA",
-  "description" : "Status",
+  "name" : "APN",
+  "description" : "Patient name look up",
   "usage" : "P",
   "table_id" : "0048"
 }, {
@@ -789,13 +789,13 @@
   "usage" : "P",
   "table_id" : "0048"
 }, {
-  "name" : "ADV",
-  "description" : "Advice/Diagnosis",
+  "name" : "PRO",
+  "description" : "Procedure",
   "usage" : "P",
   "table_id" : "0048"
 }, {
-  "name" : "PRO",
-  "description" : "Procedure",
+  "name" : "ADV",
+  "description" : "Advice/Diagnosis",
   "usage" : "P",
   "table_id" : "0048"
 }, {
@@ -1009,11 +1009,6 @@
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "SP",
-  "description" : "Surgical Pathology",
-  "usage" : "P",
-  "table_id" : "0074"
-}, {
   "name" : "HM",
   "description" : "Hematology",
   "usage" : "P",
@@ -1024,8 +1019,8 @@
   "usage" : "P",
   "table_id" : "0074"
 }, {
-  "name" : "VUS",
-  "description" : "Vascular Ultrasound",
+  "name" : "SP",
+  "description" : "Surgical Pathology",
   "usage" : "P",
   "table_id" : "0074"
 }, {
@@ -1044,8 +1039,8 @@
   "usage" : "P",
   "table_id" : "0074"
 }, {
-  "name" : "RT",
-  "description" : "Radiation Therapy",
+  "name" : "VUS",
+  "description" : "Vascular Ultrasound",
   "usage" : "P",
   "table_id" : "0074"
 }, {
@@ -1059,8 +1054,8 @@
   "usage" : "P",
   "table_id" : "0074"
 }, {
-  "name" : "SR",
-  "description" : "Serology",
+  "name" : "RT",
+  "description" : "Radiation Therapy",
   "usage" : "P",
   "table_id" : "0074"
 }, {
@@ -1074,13 +1069,8 @@
   "usage" : "P",
   "table_id" : "0074"
 }, {
-  "name" : "PT",
-  "description" : "Physical Therapy",
-  "usage" : "P",
-  "table_id" : "0074"
-}, {
-  "name" : "XRC",
-  "description" : "Cineradiography",
+  "name" : "SR",
+  "description" : "Serology",
   "usage" : "P",
   "table_id" : "0074"
 }, {
@@ -1094,8 +1084,13 @@
   "usage" : "P",
   "table_id" : "0074"
 }, {
-  "name" : "RUS",
-  "description" : "Radiology ultrasound",
+  "name" : "PT",
+  "description" : "Physical Therapy",
+  "usage" : "P",
+  "table_id" : "0074"
+}, {
+  "name" : "XRC",
+  "description" : "Cineradiography",
   "usage" : "P",
   "table_id" : "0074"
 }, {
@@ -1109,8 +1104,8 @@
   "usage" : "P",
   "table_id" : "0074"
 }, {
-  "name" : "TX",
-  "description" : "Toxicology",
+  "name" : "RUS",
+  "description" : "Radiology ultrasound",
   "usage" : "P",
   "table_id" : "0074"
 }, {
@@ -1129,8 +1124,8 @@
   "usage" : "P",
   "table_id" : "0074"
 }, {
-  "name" : "RC",
-  "description" : "Respiratory Care",
+  "name" : "TX",
+  "description" : "Toxicology",
   "usage" : "P",
   "table_id" : "0074"
 }, {
@@ -1141,6 +1136,11 @@
 }, {
   "name" : "NMR",
   "description" : "Nuclear magnetic resonance",
+  "usage" : "P",
+  "table_id" : "0074"
+}, {
+  "name" : "RC",
+  "description" : "Respiratory Care",
   "usage" : "P",
   "table_id" : "0074"
 }, {
@@ -1189,13 +1189,13 @@
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "ACK",
-  "description" : "General Acknowledgment       CNT       II",
+  "name" : "ORU",
+  "description" : "Observ. result/unsolicited   ANR       VII",
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "ORU",
-  "description" : "Observ. result/unsolicited   ANR       VII",
+  "name" : "ACK",
+  "description" : "General Acknowledgment       CNT       II",
   "usage" : "P",
   "table_id" : "0076"
 }, {
@@ -1454,6 +1454,11 @@
   "usage" : "P",
   "table_id" : "0116"
 }, {
+  "name" : "UX",
+  "description" : "Unable to change",
+  "usage" : "P",
+  "table_id" : "0119"
+}, {
   "name" : "NA",
   "description" : "Number assigned            T",
   "usage" : "P",
@@ -1464,8 +1469,13 @@
   "usage" : "P",
   "table_id" : "0119"
 }, {
-  "name" : "UX",
-  "description" : "Unable to change",
+  "name" : "DC",
+  "description" : "Discontinue order request",
+  "usage" : "P",
+  "table_id" : "0119"
+}, {
+  "name" : "CA",
+  "description" : "Cancel order request",
   "usage" : "P",
   "table_id" : "0119"
 }, {
@@ -1479,13 +1489,8 @@
   "usage" : "P",
   "table_id" : "0119"
 }, {
-  "name" : "CA",
-  "description" : "Cancel order request",
-  "usage" : "P",
-  "table_id" : "0119"
-}, {
-  "name" : "DC",
-  "description" : "Discontinue order request",
+  "name" : "UH",
+  "description" : "Unable to put on hold",
   "usage" : "P",
   "table_id" : "0119"
 }, {
@@ -1499,8 +1504,8 @@
   "usage" : "P",
   "table_id" : "0119"
 }, {
-  "name" : "UH",
-  "description" : "Unable to put on hold",
+  "name" : "XR",
+  "description" : "Changed as requested",
   "usage" : "P",
   "table_id" : "0119"
 }, {
@@ -1514,8 +1519,13 @@
   "usage" : "P",
   "table_id" : "0119"
 }, {
-  "name" : "XR",
-  "description" : "Changed as requested",
+  "name" : "DE",
+  "description" : "Data Errors",
+  "usage" : "P",
+  "table_id" : "0119"
+}, {
+  "name" : "CH",
+  "description" : "Child order",
   "usage" : "P",
   "table_id" : "0119"
 }, {
@@ -1529,13 +1539,8 @@
   "usage" : "P",
   "table_id" : "0119"
 }, {
-  "name" : "CH",
-  "description" : "Child order",
-  "usage" : "P",
-  "table_id" : "0119"
-}, {
-  "name" : "DE",
-  "description" : "Data Errors",
+  "name" : "UR",
+  "description" : "Unable to release",
   "usage" : "P",
   "table_id" : "0119"
 }, {
@@ -1549,8 +1554,8 @@
   "usage" : "P",
   "table_id" : "0119"
 }, {
-  "name" : "UR",
-  "description" : "Unable to release",
+  "name" : "XX",
+  "description" : "Order changed, unsolicited",
   "usage" : "P",
   "table_id" : "0119"
 }, {
@@ -1564,13 +1569,13 @@
   "usage" : "P",
   "table_id" : "0119"
 }, {
-  "name" : "XX",
-  "description" : "Order changed, unsolicited",
+  "name" : "DR",
+  "description" : "Discontinued as requested",
   "usage" : "P",
   "table_id" : "0119"
 }, {
-  "name" : "DR",
-  "description" : "Discontinued as requested",
+  "name" : "CN",
+  "description" : "Combined result",
   "usage" : "P",
   "table_id" : "0119"
 }, {
@@ -1581,11 +1586,6 @@
 }, {
   "name" : "UD",
   "description" : "Unable to discontinue",
-  "usage" : "P",
-  "table_id" : "0119"
-}, {
-  "name" : "CN",
-  "description" : "Combined result",
   "usage" : "P",
   "table_id" : "0119"
 }, {
