@@ -44,11 +44,6 @@
   "usage" : "P",
   "table_id" : "0002"
 }, {
-  "name" : "A13",
-  "description" : "Cancel discharge",
-  "usage" : "P",
-  "table_id" : "0003"
-}, {
   "name" : "A21",
   "description" : "Leave of Absence - Out (leaving)",
   "usage" : "P",
@@ -64,8 +59,8 @@
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "A16",
-  "description" : "Pending discharge",
+  "name" : "A13",
+  "description" : "Cancel discharge",
   "usage" : "P",
   "table_id" : "0003"
 }, {
@@ -84,13 +79,8 @@
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "A11",
-  "description" : "Cancel admit",
-  "usage" : "P",
-  "table_id" : "0003"
-}, {
-  "name" : "A19",
-  "description" : "Patient query",
+  "name" : "A16",
+  "description" : "Pending discharge",
   "usage" : "P",
   "table_id" : "0003"
 }, {
@@ -104,8 +94,13 @@
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "A14",
-  "description" : "Pending admit",
+  "name" : "A11",
+  "description" : "Cancel admit",
+  "usage" : "P",
+  "table_id" : "0003"
+}, {
+  "name" : "A19",
+  "description" : "Patient query",
   "usage" : "P",
   "table_id" : "0003"
 }, {
@@ -124,13 +119,8 @@
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "A09",
-  "description" : "Patient departing",
-  "usage" : "P",
-  "table_id" : "0003"
-}, {
-  "name" : "A17",
-  "description" : "Swap Patients",
+  "name" : "A14",
+  "description" : "Pending admit",
   "usage" : "P",
   "table_id" : "0003"
 }, {
@@ -149,13 +139,13 @@
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "A12",
-  "description" : "Cancel transfer",
+  "name" : "A09",
+  "description" : "Patient departing",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "A20",
-  "description" : "Bed status updates",
+  "name" : "A17",
+  "description" : "Swap Patients",
   "usage" : "P",
   "table_id" : "0003"
 }, {
@@ -169,8 +159,13 @@
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "A15",
-  "description" : "Pending transfer",
+  "name" : "A12",
+  "description" : "Cancel transfer",
+  "usage" : "P",
+  "table_id" : "0003"
+}, {
+  "name" : "A20",
+  "description" : "Bed status updates",
   "usage" : "P",
   "table_id" : "0003"
 }, {
@@ -189,13 +184,8 @@
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "A10",
-  "description" : "Patient arriving",
-  "usage" : "P",
-  "table_id" : "0003"
-}, {
-  "name" : "A18",
-  "description" : "Merge patient information",
+  "name" : "A15",
+  "description" : "Pending transfer",
   "usage" : "P",
   "table_id" : "0003"
 }, {
@@ -211,6 +201,16 @@
 }, {
   "name" : "A02",
   "description" : "Transfer a Patient",
+  "usage" : "P",
+  "table_id" : "0003"
+}, {
+  "name" : "A10",
+  "description" : "Patient arriving",
+  "usage" : "P",
+  "table_id" : "0003"
+}, {
+  "name" : "A18",
+  "description" : "Merge patient information",
   "usage" : "P",
   "table_id" : "0003"
 }, {
@@ -439,13 +439,13 @@
   "usage" : "P",
   "table_id" : "0016"
 }, {
-  "name" : "9",
-  "description" : "Precautions",
+  "name" : "1",
+  "description" : "Blood and Needle Precautions",
   "usage" : "P",
   "table_id" : "0016"
 }, {
-  "name" : "1",
-  "description" : "Blood and Needle Precautions",
+  "name" : "9",
+  "description" : "Precautions",
   "usage" : "P",
   "table_id" : "0016"
 }, {
@@ -469,13 +469,13 @@
   "usage" : "P",
   "table_id" : "0016"
 }, {
-  "name" : "8",
-  "description" : "Wound and skin Precautions",
+  "name" : "0",
+  "description" : "Antibiotic Resistance Precautions",
   "usage" : "P",
   "table_id" : "0016"
 }, {
-  "name" : "0",
-  "description" : "Antibiotic Resistance Precautions",
+  "name" : "8",
+  "description" : "Wound and skin Precautions",
   "usage" : "P",
   "table_id" : "0016"
 }, {
@@ -534,11 +534,6 @@
   "usage" : "P",
   "table_id" : "0033"
 }, {
-  "name" : "AP",
-  "description" : "Apply externally",
-  "usage" : "P",
-  "table_id" : "0033"
-}, {
   "name" : "IH",
   "description" : "Inhalation",
   "usage" : "P",
@@ -551,6 +546,11 @@
 }, {
   "name" : "SS",
   "description" : "IV soluset",
+  "usage" : "P",
+  "table_id" : "0033"
+}, {
+  "name" : "AP",
+  "description" : "Apply externally",
   "usage" : "P",
   "table_id" : "0033"
 }, {
@@ -864,16 +864,6 @@
   "usage" : "P",
   "table_id" : "0065"
 }, {
-  "name" : "SNV",
-  "description" : "Synovial Fluid",
-  "usage" : "P",
-  "table_id" : "0070"
-}, {
-  "name" : "WBC",
-  "description" : "Leukocytes",
-  "usage" : "P",
-  "table_id" : "0070"
-}, {
   "name" : "CNJT",
   "description" : "Conjunctiva",
   "usage" : "P",
@@ -884,8 +874,13 @@
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "THRT",
-  "description" : "Throat",
+  "name" : "SNV",
+  "description" : "Synovial Fluid",
+  "usage" : "P",
+  "table_id" : "0070"
+}, {
+  "name" : "WBC",
+  "description" : "Leukocytes",
   "usage" : "P",
   "table_id" : "0070"
 }, {
@@ -899,13 +894,8 @@
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "SER",
-  "description" : "Serum",
-  "usage" : "P",
-  "table_id" : "0070"
-}, {
-  "name" : "UR",
-  "description" : "Urine",
+  "name" : "THRT",
+  "description" : "Throat",
   "usage" : "P",
   "table_id" : "0070"
 }, {
@@ -919,13 +909,13 @@
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "STL",
-  "description" : "Stool",
+  "name" : "SER",
+  "description" : "Serum",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "WND",
-  "description" : "Wound",
+  "name" : "UR",
+  "description" : "Urine",
   "usage" : "P",
   "table_id" : "0070"
 }, {
@@ -939,8 +929,13 @@
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "TIS",
-  "description" : "Tissue",
+  "name" : "STL",
+  "description" : "Stool",
+  "usage" : "P",
+  "table_id" : "0070"
+}, {
+  "name" : "WND",
+  "description" : "Wound",
   "usage" : "P",
   "table_id" : "0070"
 }, {
@@ -954,13 +949,8 @@
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "SKN",
-  "description" : "Skin",
-  "usage" : "P",
-  "table_id" : "0070"
-}, {
-  "name" : "URTH",
-  "description" : "Urethra",
+  "name" : "TIS",
+  "description" : "Tissue",
   "usage" : "P",
   "table_id" : "0070"
 }, {
@@ -974,8 +964,13 @@
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "SWT",
-  "description" : "Sweat",
+  "name" : "SKN",
+  "description" : "Skin",
+  "usage" : "P",
+  "table_id" : "0070"
+}, {
+  "name" : "URTH",
+  "description" : "Urethra",
   "usage" : "P",
   "table_id" : "0070"
 }, {
@@ -989,8 +984,8 @@
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "UMB",
-  "description" : "Umbilical Blood",
+  "name" : "SWT",
+  "description" : "Sweat",
   "usage" : "P",
   "table_id" : "0070"
 }, {
@@ -1006,6 +1001,11 @@
 }, {
   "name" : "SEM",
   "description" : "Seminal Fluid",
+  "usage" : "P",
+  "table_id" : "0070"
+}, {
+  "name" : "UMB",
+  "description" : "Umbilical Blood",
   "usage" : "P",
   "table_id" : "0070"
 }, {
@@ -1454,11 +1454,6 @@
   "usage" : "P",
   "table_id" : "0116"
 }, {
-  "name" : "UX",
-  "description" : "Unable to change",
-  "usage" : "P",
-  "table_id" : "0119"
-}, {
   "name" : "NA",
   "description" : "Number assigned            T",
   "usage" : "P",
@@ -1466,6 +1461,11 @@
 }, {
   "name" : "RP",
   "description" : "Order replace request",
+  "usage" : "P",
+  "table_id" : "0119"
+}, {
+  "name" : "UX",
+  "description" : "Unable to change",
   "usage" : "P",
   "table_id" : "0119"
 }, {
@@ -1489,11 +1489,6 @@
   "usage" : "P",
   "table_id" : "0119"
 }, {
-  "name" : "UH",
-  "description" : "Unable to put on hold",
-  "usage" : "P",
-  "table_id" : "0119"
-}, {
   "name" : "HD",
   "description" : "Hold order request",
   "usage" : "P",
@@ -1504,8 +1499,8 @@
   "usage" : "P",
   "table_id" : "0119"
 }, {
-  "name" : "XR",
-  "description" : "Changed as requested",
+  "name" : "UH",
+  "description" : "Unable to put on hold",
   "usage" : "P",
   "table_id" : "0119"
 }, {
@@ -1519,8 +1514,8 @@
   "usage" : "P",
   "table_id" : "0119"
 }, {
-  "name" : "SS",
-  "description" : "Send order status request",
+  "name" : "XR",
+  "description" : "Changed as requested",
   "usage" : "P",
   "table_id" : "0119"
 }, {
@@ -1539,8 +1534,8 @@
   "usage" : "P",
   "table_id" : "0119"
 }, {
-  "name" : "UR",
-  "description" : "Unable to release",
+  "name" : "SS",
+  "description" : "Send order status request",
   "usage" : "P",
   "table_id" : "0119"
 }, {
@@ -1554,8 +1549,8 @@
   "usage" : "P",
   "table_id" : "0119"
 }, {
-  "name" : "XX",
-  "description" : "Order changed, unsolicited",
+  "name" : "UR",
+  "description" : "Unable to release",
   "usage" : "P",
   "table_id" : "0119"
 }, {
@@ -1569,8 +1564,8 @@
   "usage" : "P",
   "table_id" : "0119"
 }, {
-  "name" : "UD",
-  "description" : "Unable to discontinue",
+  "name" : "XX",
+  "description" : "Order changed, unsolicited",
   "usage" : "P",
   "table_id" : "0119"
 }, {
@@ -1586,6 +1581,11 @@
 }, {
   "name" : "PA",
   "description" : "Parent order",
+  "usage" : "P",
+  "table_id" : "0119"
+}, {
+  "name" : "UD",
+  "description" : "Unable to discontinue",
   "usage" : "P",
   "table_id" : "0119"
 }, {
