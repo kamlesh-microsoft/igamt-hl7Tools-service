@@ -17,65 +17,62 @@ import gov.nist.healthcare.hl7tools.service.util.mock.util.Convertor;
 
 public class DatatypeLibraryBuilder {
 
-	static Logger log = LoggerFactory.getLogger(DatatypeLibraryBuilder.class);
-	
-	public static DatatypeLibrary build(
-			CodeTableLibrary codeTableLibrary,
-			Map<String, gov.nist.healthcare.hl7tools.service.util.mock.hl7.domain.Datatype> map)
-			throws Exception {
-		DatatypeLibrary library = new DatatypeLibrary();
-		for (gov.nist.healthcare.hl7tools.service.util.mock.hl7.domain.Datatype dtt : map
-				.values())
-			library.put(transform(dtt));
-		updateComponent(library, codeTableLibrary, map);
-		return library;
-	}
+  static Logger log = LoggerFactory.getLogger(DatatypeLibraryBuilder.class);
 
-	private static Datatype transform(
-			gov.nist.healthcare.hl7tools.service.util.mock.hl7.domain.Datatype dtt) {
-		Datatype dt = new Datatype();
-		dt.setKey(dtt.getId());
-		dt.setName(dtt.getId());
-		
-		dt.setDescription(dtt.getDescription());
-		dt.setSection(dtt.getSection());
-		return dt;
-	}
+  public static DatatypeLibrary build(CodeTableLibrary codeTableLibrary,
+      Map<String, gov.nist.healthcare.hl7tools.service.util.mock.hl7.domain.Datatype> map)
+      throws Exception {
+    DatatypeLibrary library = new DatatypeLibrary();
+    for (gov.nist.healthcare.hl7tools.service.util.mock.hl7.domain.Datatype dtt : map.values())
+      library.put(transform(dtt));
+    updateComponent(library, codeTableLibrary, map);
+    return library;
+  }
 
-	private static void updateComponent(
-			DatatypeLibrary library,
-			CodeTableLibrary codeTableLibrary,
-			Map<String, gov.nist.healthcare.hl7tools.service.util.mock.hl7.domain.Datatype> map) {
-		gov.nist.healthcare.hl7tools.service.util.mock.hl7.domain.Datatype dtt;
-		for (Datatype dt : library.values()) {
-			dtt = map.get(dt.getKey());
-			if (dtt.getComponents() != null) {
-				List<Component> componentList = new ArrayList<Component>();
-				for (gov.nist.healthcare.hl7tools.service.util.mock.hl7.domain.Component cc : dtt
-						.getComponents()) {
-					Component c = new Component();
-//					log.info("**** getTableId=" + cc.getTableId() + " getParentDatatypeId=" +  cc.getParentDatatypeId() + " getDatatypeId=" + cc.getDatatypeId());
-//					String id = cc.getTableId();
-//					String id1 = id == null ? id : String.format("%04d", new Integer(id));
-//					log.info("**** codeTableLibrary=" + codeTableLibrary.get(id1));
-//					c.setCodeTable(codeTableLibrary.get(id1));
-					c.setCodeTable(codeTableLibrary.get(cc.getTableId()));
-					c.setConfLength(cc.getConfLength());
-					c.setDatatype(library.get(cc.getDatatypeId()));
-					c.setDescription(cc.getDescription());
-					c.setMaxLength(Convertor.convertLength(cc.getMaxLength()));
-					c.setMinLength(cc.getMinLength());
-					c.setPosition(cc.getPosition());
-					c.setTruncationAllowed(EBoolean.valueOf(cc.getTruncation()));
-					c.setUsage(Usage.valueOf(cc.getUsage().name()));
-					componentList.add(c);
-					if(c.getDatatype() == null) {
-						log.info(c.toString());
-					}
-				}
-				dt.setComponents(componentList);
-			}
-		}
-	}
+  private static Datatype transform(
+      gov.nist.healthcare.hl7tools.service.util.mock.hl7.domain.Datatype dtt) {
+    Datatype dt = new Datatype();
+    dt.setKey(dtt.getId());
+    dt.setName(dtt.getId());
+
+    dt.setDescription(dtt.getDescription());
+    dt.setSection(dtt.getSection());
+    return dt;
+  }
+
+  private static void updateComponent(DatatypeLibrary library, CodeTableLibrary codeTableLibrary,
+      Map<String, gov.nist.healthcare.hl7tools.service.util.mock.hl7.domain.Datatype> map) {
+    gov.nist.healthcare.hl7tools.service.util.mock.hl7.domain.Datatype dtt;
+    for (Datatype dt : library.values()) {
+      dtt = map.get(dt.getKey());
+      if (dtt.getComponents() != null) {
+        List<Component> componentList = new ArrayList<Component>();
+        for (gov.nist.healthcare.hl7tools.service.util.mock.hl7.domain.Component cc : dtt
+            .getComponents()) {
+          Component c = new Component();
+          // log.info("**** getTableId=" + cc.getTableId() + " getParentDatatypeId=" +
+          // cc.getParentDatatypeId() + " getDatatypeId=" + cc.getDatatypeId());
+          // String id = cc.getTableId();
+          // String id1 = id == null ? id : String.format("%04d", new Integer(id));
+          // log.info("**** codeTableLibrary=" + codeTableLibrary.get(id1));
+          // c.setCodeTable(codeTableLibrary.get(id1));
+          c.setCodeTable(codeTableLibrary.get(cc.getTableId()));
+          c.setConfLength(cc.getConfLength());
+          c.setDatatype(library.get(cc.getDatatypeId()));
+          c.setDescription(cc.getDescription());
+          c.setMaxLength(Convertor.convertLength(cc.getMaxLength()));
+          c.setMinLength(cc.getMinLength());
+          c.setPosition(cc.getPosition());
+          c.setTruncationAllowed(EBoolean.valueOf(cc.getTruncation()));
+          c.setUsage(Usage.valueOf(cc.getUsage().name()));
+          componentList.add(c);
+          if (c.getDatatype() == null) {
+            log.info(c.toString());
+          }
+        }
+        dt.setComponents(componentList);
+      }
+    }
+  }
 
 }

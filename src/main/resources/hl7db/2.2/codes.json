@@ -44,21 +44,6 @@
   "usage" : "P",
   "table_id" : "0002"
 }, {
-  "name" : "A37",
-  "description" : "Unlink patient information",
-  "usage" : "P",
-  "table_id" : "0003"
-}, {
-  "name" : "P03",
-  "description" : "Post detail financial transaction",
-  "usage" : "P",
-  "table_id" : "0003"
-}, {
-  "name" : "R03",
-  "description" : "Display-oriented results (query / unsolicited update)",
-  "usage" : "P",
-  "table_id" : "0003"
-}, {
   "name" : "A05",
   "description" : "Pre-admit a Patient",
   "usage" : "P",
@@ -79,18 +64,18 @@
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "A32",
-  "description" : "Cancel patient arriving",
+  "name" : "A37",
+  "description" : "Unlink patient information",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "M03",
-  "description" : "Master file - test / observation",
+  "name" : "P03",
+  "description" : "Post detail financial transaction",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "Q02",
-  "description" : "Deferred access",
+  "name" : "R03",
+  "description" : "Display-oriented results (query / unsolicited update)",
   "usage" : "P",
   "table_id" : "0003"
 }, {
@@ -109,18 +94,18 @@
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "A35",
-  "description" : "Merge patient information - account number only",
+  "name" : "A32",
+  "description" : "Cancel patient arriving",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "P01",
-  "description" : "Add and Update Patient Accounts",
+  "name" : "M03",
+  "description" : "Master file - test / observation",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "R01",
-  "description" : "Unsolicited transmission of requested observation",
+  "name" : "Q02",
+  "description" : "Deferred access",
   "usage" : "P",
   "table_id" : "0003"
 }, {
@@ -144,23 +129,18 @@
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "A30",
-  "description" : "Merge Patient information",
+  "name" : "A35",
+  "description" : "Merge patient information - account number only",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "M01",
-  "description" : "Master file not otherwise specified (for backwards compatibility only)",
+  "name" : "P01",
+  "description" : "Add and Update Patient Accounts",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "P04",
-  "description" : "Generate bill and accounts receivable statements",
-  "usage" : "P",
-  "table_id" : "0003"
-}, {
-  "name" : "R04",
-  "description" : "Response to query / transmission of requested observation",
+  "name" : "R01",
+  "description" : "Unsolicited transmission of requested observation",
   "usage" : "P",
   "table_id" : "0003"
 }, {
@@ -179,18 +159,23 @@
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "A33",
-  "description" : "Cancel patient departing",
+  "name" : "A30",
+  "description" : "Merge Patient information",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "O01",
-  "description" : "Order message",
+  "name" : "M01",
+  "description" : "Master file not otherwise specified (for backwards compatibility only)",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "Q03",
-  "description" : "Deferred response to query",
+  "name" : "P04",
+  "description" : "Generate bill and accounts receivable statements",
+  "usage" : "P",
+  "table_id" : "0003"
+}, {
+  "name" : "R04",
+  "description" : "Response to query / transmission of requested observation",
   "usage" : "P",
   "table_id" : "0003"
 }, {
@@ -214,18 +199,18 @@
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "A36",
-  "description" : "Merge patient information - patient ID and account number",
+  "name" : "A33",
+  "description" : "Cancel patient departing",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "P02",
-  "description" : "Purge Patient Accounts",
+  "name" : "O01",
+  "description" : "Order message",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "R02",
-  "description" : "Query for results of observation",
+  "name" : "Q03",
+  "description" : "Deferred response to query",
   "usage" : "P",
   "table_id" : "0003"
 }, {
@@ -249,18 +234,18 @@
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "A31",
-  "description" : "Update person information",
+  "name" : "A36",
+  "description" : "Merge patient information - patient ID and account number",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "M02",
-  "description" : "Master file - Staff Practioner",
+  "name" : "P02",
+  "description" : "Purge Patient Accounts",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "Q01",
-  "description" : "Immediate access",
+  "name" : "R02",
+  "description" : "Query for results of observation",
   "usage" : "P",
   "table_id" : "0003"
 }, {
@@ -279,18 +264,18 @@
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "A34",
-  "description" : "Merge patient information - patient ID only",
+  "name" : "A31",
+  "description" : "Update person information",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "O02",
-  "description" : "Order response",
+  "name" : "M02",
+  "description" : "Master file - Staff Practioner",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "Q05",
-  "description" : "Unsolicited display update",
+  "name" : "Q01",
+  "description" : "Immediate access",
   "usage" : "P",
   "table_id" : "0003"
 }, {
@@ -311,6 +296,21 @@
 }, {
   "name" : "A26",
   "description" : "Cancel pending transfer",
+  "usage" : "P",
+  "table_id" : "0003"
+}, {
+  "name" : "A34",
+  "description" : "Merge patient information - patient ID only",
+  "usage" : "P",
+  "table_id" : "0003"
+}, {
+  "name" : "O02",
+  "description" : "Order response",
+  "usage" : "P",
+  "table_id" : "0003"
+}, {
+  "name" : "Q05",
+  "description" : "Unsolicited display update",
   "usage" : "P",
   "table_id" : "0003"
 }, {
@@ -889,26 +889,6 @@
   "usage" : "P",
   "table_id" : "0065"
 }, {
-  "name" : "GENV",
-  "description" : "Genital vaginal",
-  "usage" : "P",
-  "table_id" : "0070"
-}, {
-  "name" : "MAC",
-  "description" : "Macrophages",
-  "usage" : "P",
-  "table_id" : "0070"
-}, {
-  "name" : "ORH",
-  "description" : "Other",
-  "usage" : "P",
-  "table_id" : "0070"
-}, {
-  "name" : "PUS",
-  "description" : "Pus",
-  "usage" : "P",
-  "table_id" : "0070"
-}, {
   "name" : "SPRM",
   "description" : "Spermatozoa",
   "usage" : "P",
@@ -949,28 +929,23 @@
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "FLU",
-  "description" : "Body fluid, unsp",
+  "name" : "GENV",
+  "description" : "Genital vaginal",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "LAM",
-  "description" : "Lamella",
+  "name" : "MAC",
+  "description" : "Macrophages",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "MEC",
-  "description" : "Meconium",
+  "name" : "ORH",
+  "description" : "Other",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "PLB",
-  "description" : "Plasma bag",
-  "usage" : "P",
-  "table_id" : "0070"
-}, {
-  "name" : "SEM",
-  "description" : "Seminal fluid",
+  "name" : "PUS",
+  "description" : "Pus",
   "usage" : "P",
   "table_id" : "0070"
 }, {
@@ -1014,23 +989,28 @@
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "GENC",
-  "description" : "Genital cervix",
+  "name" : "FLU",
+  "description" : "Body fluid, unsp",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "LNV",
-  "description" : "Line venous",
+  "name" : "LAM",
+  "description" : "Lamella",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "NAIL",
-  "description" : "Nail",
+  "name" : "MEC",
+  "description" : "Meconium",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "PMN",
-  "description" : "Polymorphonuclear neutrophils",
+  "name" : "PLB",
+  "description" : "Plasma bag",
+  "usage" : "P",
+  "table_id" : "0070"
+}, {
+  "name" : "SEM",
+  "description" : "Seminal fluid",
   "usage" : "P",
   "table_id" : "0070"
 }, {
@@ -1079,23 +1059,23 @@
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "HAR",
-  "description" : "Hair",
+  "name" : "GENC",
+  "description" : "Genital cervix",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "MAR",
-  "description" : "Marrow",
+  "name" : "LNV",
+  "description" : "Line venous",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "PER",
-  "description" : "Peritoneum",
+  "name" : "NAIL",
+  "description" : "Nail",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "RBC",
-  "description" : "Erythrocytes",
+  "name" : "PMN",
+  "description" : "Polymorphonuclear neutrophils",
   "usage" : "P",
   "table_id" : "0070"
 }, {
@@ -1139,28 +1119,23 @@
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "GAST",
-  "description" : "Gastric fluid/contents",
+  "name" : "HAR",
+  "description" : "Hair",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "LN",
-  "description" : "Line",
+  "name" : "MAR",
+  "description" : "Marrow",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "MILK",
-  "description" : "Breast milk",
+  "name" : "PER",
+  "description" : "Peritoneum",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "PLC",
-  "description" : "Placenta",
-  "usage" : "P",
-  "table_id" : "0070"
-}, {
-  "name" : "SER",
-  "description" : "Serum",
+  "name" : "RBC",
+  "description" : "Erythrocytes",
   "usage" : "P",
   "table_id" : "0070"
 }, {
@@ -1204,23 +1179,28 @@
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "GENL",
-  "description" : "Genital lochia",
+  "name" : "GAST",
+  "description" : "Gastric fluid/contents",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "LYM",
-  "description" : "Lymphocytes",
+  "name" : "LN",
+  "description" : "Line",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "NOS",
-  "description" : "Nose (nasal passage)",
+  "name" : "MILK",
+  "description" : "Breast milk",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "PRT",
-  "description" : "Peritoneal fluid / ascites",
+  "name" : "PLC",
+  "description" : "Placenta",
+  "usage" : "P",
+  "table_id" : "0070"
+}, {
+  "name" : "SER",
+  "description" : "Serum",
   "usage" : "P",
   "table_id" : "0070"
 }, {
@@ -1264,23 +1244,23 @@
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "IT",
-  "description" : "Intubation tube",
+  "name" : "GENL",
+  "description" : "Genital lochia",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "MBLD",
-  "description" : "Menstrual blood",
+  "name" : "LYM",
+  "description" : "Lymphocytes",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "PLAS",
-  "description" : "Plasma",
+  "name" : "NOS",
+  "description" : "Nose (nasal passage)",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "SAL",
-  "description" : "Saliva",
+  "name" : "PRT",
+  "description" : "Peritoneal fluid / ascites",
   "usage" : "P",
   "table_id" : "0070"
 }, {
@@ -1329,23 +1309,23 @@
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "GEN",
-  "description" : "Genital",
+  "name" : "IT",
+  "description" : "Intubation tube",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "LNA",
-  "description" : "Line arterial",
+  "name" : "MBLD",
+  "description" : "Menstrual blood",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "MLK",
-  "description" : "Milk",
+  "name" : "PLAS",
+  "description" : "Plasma",
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "PLR",
-  "description" : "Pleural fluid (thoracentesis fld)",
+  "name" : "SAL",
+  "description" : "Saliva",
   "usage" : "P",
   "table_id" : "0070"
 }, {
@@ -1394,6 +1374,31 @@
   "usage" : "P",
   "table_id" : "0070"
 }, {
+  "name" : "GEN",
+  "description" : "Genital",
+  "usage" : "P",
+  "table_id" : "0070"
+}, {
+  "name" : "LNA",
+  "description" : "Line arterial",
+  "usage" : "P",
+  "table_id" : "0070"
+}, {
+  "name" : "MLK",
+  "description" : "Milk",
+  "usage" : "P",
+  "table_id" : "0070"
+}, {
+  "name" : "PLR",
+  "description" : "Pleural fluid (thoracentesis fld)",
+  "usage" : "P",
+  "table_id" : "0070"
+}, {
+  "name" : "BG",
+  "description" : "Blood gases",
+  "usage" : "P",
+  "table_id" : "0074"
+}, {
   "name" : "EN",
   "description" : "Electroneuro (EEG, EMG)",
   "usage" : "P",
@@ -1409,8 +1414,8 @@
   "usage" : "P",
   "table_id" : "0074"
 }, {
-  "name" : "BG",
-  "description" : "Blood gases",
+  "name" : "CP",
+  "description" : "Cytopathology",
   "usage" : "P",
   "table_id" : "0074"
 }, {
@@ -1434,8 +1439,8 @@
   "usage" : "P",
   "table_id" : "0074"
 }, {
-  "name" : "CP",
-  "description" : "Cytopathology",
+  "name" : "CUS",
+  "description" : "Cardiac Ultrasound",
   "usage" : "P",
   "table_id" : "0074"
 }, {
@@ -1454,8 +1459,8 @@
   "usage" : "P",
   "table_id" : "0074"
 }, {
-  "name" : "CUS",
-  "description" : "Cardiac Ultrasound",
+  "name" : "BLB",
+  "description" : "Blood bank",
   "usage" : "P",
   "table_id" : "0074"
 }, {
@@ -1474,8 +1479,8 @@
   "usage" : "P",
   "table_id" : "0074"
 }, {
-  "name" : "BLB",
-  "description" : "Blood bank",
+  "name" : "CT",
+  "description" : "CAT scan",
   "usage" : "P",
   "table_id" : "0074"
 }, {
@@ -1499,8 +1504,8 @@
   "usage" : "P",
   "table_id" : "0074"
 }, {
-  "name" : "CT",
-  "description" : "CAT scan",
+  "name" : "AU",
+  "description" : "Audiology",
   "usage" : "P",
   "table_id" : "0074"
 }, {
@@ -1524,8 +1529,8 @@
   "usage" : "P",
   "table_id" : "0074"
 }, {
-  "name" : "AU",
-  "description" : "Audiology",
+  "name" : "CH",
+  "description" : "Chemistry",
   "usage" : "P",
   "table_id" : "0074"
 }, {
@@ -1544,8 +1549,8 @@
   "usage" : "P",
   "table_id" : "0074"
 }, {
-  "name" : "CH",
-  "description" : "Chemistry",
+  "name" : "CTH",
+  "description" : "Cardiac catheterization",
   "usage" : "P",
   "table_id" : "0074"
 }, {
@@ -1569,16 +1574,6 @@
   "usage" : "P",
   "table_id" : "0074"
 }, {
-  "name" : "CTH",
-  "description" : "Cardiac catheterization",
-  "usage" : "P",
-  "table_id" : "0074"
-}, {
-  "name" : "ACK",
-  "description" : "General acknowledgement message",
-  "usage" : "P",
-  "table_id" : "0076"
-}, {
   "name" : "MFD",
   "description" : "Master files delayed application acknowledgement",
   "usage" : "P",
@@ -1599,8 +1594,8 @@
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "ARD",
-  "description" : "Ancillary report (display)",
+  "name" : "ACK",
+  "description" : "General acknowledgement message",
   "usage" : "P",
   "table_id" : "0076"
 }, {
@@ -1616,6 +1611,11 @@
 }, {
   "name" : "RGR",
   "description" : "Pharmacy dose information",
+  "usage" : "P",
+  "table_id" : "0076"
+}, {
+  "name" : "ARD",
+  "description" : "Ancillary report (display)",
   "usage" : "P",
   "table_id" : "0076"
 }, {
@@ -1639,11 +1639,6 @@
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "ADR",
-  "description" : "ADT response",
-  "usage" : "P",
-  "table_id" : "0076"
-}, {
   "name" : "MFK",
   "description" : "Master file application acknowledgement",
   "usage" : "P",
@@ -1664,8 +1659,8 @@
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "BAR",
-  "description" : "Add / change billing account",
+  "name" : "ADR",
+  "description" : "ADT response",
   "usage" : "P",
   "table_id" : "0076"
 }, {
@@ -1681,6 +1676,11 @@
 }, {
   "name" : "RGV",
   "description" : "Pharmacy give message",
+  "usage" : "P",
+  "table_id" : "0076"
+}, {
+  "name" : "BAR",
+  "description" : "Add / change billing account",
   "usage" : "P",
   "table_id" : "0076"
 }, {
@@ -1704,11 +1704,6 @@
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "ADT",
-  "description" : "ADT message",
-  "usage" : "P",
-  "table_id" : "0076"
-}, {
   "name" : "MFN",
   "description" : "Master files notification",
   "usage" : "P",
@@ -1729,8 +1724,8 @@
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "DFT",
-  "description" : "Detail financial transaction",
+  "name" : "ADT",
+  "description" : "ADT message",
   "usage" : "P",
   "table_id" : "0076"
 }, {
@@ -1749,18 +1744,18 @@
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "null",
-  "description" : "No range defined, or normal ranges don't apply",
+  "name" : "DFT",
+  "description" : "Detail financial transaction",
   "usage" : "P",
-  "table_id" : "0078"
+  "table_id" : "0076"
 }, {
   "name" : "D",
   "description" : "Significant change down",
   "usage" : "P",
   "table_id" : "0078"
 }, {
-  "name" : "U",
-  "description" : "Significant change up",
+  "name" : "null",
+  "description" : "No range defined, or normal ranges don't apply",
   "usage" : "P",
   "table_id" : "0078"
 }, {
@@ -1774,6 +1769,11 @@
   "usage" : "P",
   "table_id" : "0078"
 }, {
+  "name" : "U",
+  "description" : "Significant change up",
+  "usage" : "P",
+  "table_id" : "0078"
+}, {
   "name" : "AA",
   "description" : "Very abnormal (applies to non-numeric units, analogous to panic limits for numerics limits)",
   "usage" : "P",
@@ -1784,18 +1784,13 @@
   "usage" : "P",
   "table_id" : "0078"
 }, {
-  "name" : "R",
-  "description" : "Resistant",
-  "usage" : "P",
-  "table_id" : "0078"
-}, {
   "name" : "H",
   "description" : "Above high normal",
   "usage" : "P",
   "table_id" : "0078"
 }, {
-  "name" : "VS",
-  "description" : "Very sensitive",
+  "name" : "R",
+  "description" : "Resistant",
   "usage" : "P",
   "table_id" : "0078"
 }, {
@@ -1809,6 +1804,11 @@
   "usage" : "P",
   "table_id" : "0078"
 }, {
+  "name" : "VS",
+  "description" : "Very sensitive",
+  "usage" : "P",
+  "table_id" : "0078"
+}, {
   "name" : "B",
   "description" : "Better (use when direction not relevant)",
   "usage" : "P",
@@ -1819,18 +1819,13 @@
   "usage" : "P",
   "table_id" : "0078"
 }, {
-  "name" : "S",
-  "description" : "Sensitive",
-  "usage" : "P",
-  "table_id" : "0078"
-}, {
   "name" : "HH",
   "description" : "Above upper panic limits",
   "usage" : "P",
   "table_id" : "0078"
 }, {
-  "name" : "W",
-  "description" : "Worse (use when direction not relevant)",
+  "name" : "S",
+  "description" : "Sensitive",
   "usage" : "P",
   "table_id" : "0078"
 }, {
@@ -1841,6 +1836,11 @@
 }, {
   "name" : "LL",
   "description" : "Below lower panic limits",
+  "usage" : "P",
+  "table_id" : "0078"
+}, {
+  "name" : "W",
+  "description" : "Worse (use when direction not relevant)",
   "usage" : "P",
   "table_id" : "0078"
 }, {
@@ -2119,11 +2119,6 @@
   "usage" : "P",
   "table_id" : "0119"
 }, {
-  "name" : "RL",
-  "description" : "Release previous hold",
-  "usage" : "P",
-  "table_id" : "0119"
-}, {
   "name" : "RQ",
   "description" : "Replaced as requested",
   "usage" : "P",
@@ -2141,6 +2136,11 @@
 }, {
   "name" : "NW",
   "description" : "New Order",
+  "usage" : "P",
+  "table_id" : "0119"
+}, {
+  "name" : "RL",
+  "description" : "Release previous hold",
   "usage" : "P",
   "table_id" : "0119"
 }, {
@@ -2189,11 +2189,6 @@
   "usage" : "P",
   "table_id" : "0119"
 }, {
-  "name" : "RO",
-  "description" : "Replacement order",
-  "usage" : "P",
-  "table_id" : "0119"
-}, {
   "name" : "RR",
   "description" : "Request received",
   "usage" : "P",
@@ -2211,6 +2206,11 @@
 }, {
   "name" : "OC",
   "description" : "Order canceled",
+  "usage" : "P",
+  "table_id" : "0119"
+}, {
+  "name" : "RO",
+  "description" : "Replacement order",
   "usage" : "P",
   "table_id" : "0119"
 }, {
@@ -2259,11 +2259,6 @@
   "usage" : "P",
   "table_id" : "0119"
 }, {
-  "name" : "RP",
-  "description" : "Order replace request",
-  "usage" : "P",
-  "table_id" : "0119"
-}, {
   "name" : "RU",
   "description" : "Replaced unsolicited",
   "usage" : "P",
@@ -2281,6 +2276,11 @@
 }, {
   "name" : "OD",
   "description" : "Order discontinued",
+  "usage" : "P",
+  "table_id" : "0119"
+}, {
+  "name" : "RP",
+  "description" : "Order replace request",
   "usage" : "P",
   "table_id" : "0119"
 }, {
@@ -3129,16 +3129,6 @@
   "usage" : "P",
   "table_id" : "0162"
 }, {
-  "name" : "LUFA",
-  "description" : "Left Upper Forearm",
-  "usage" : "P",
-  "table_id" : "0163"
-}, {
-  "name" : "PERIN",
-  "description" : "Perineal",
-  "usage" : "P",
-  "table_id" : "0163"
-}, {
   "name" : "RG",
   "description" : "Right Gluteus Medius",
   "usage" : "P",
@@ -3159,13 +3149,13 @@
   "usage" : "P",
   "table_id" : "0163"
 }, {
-  "name" : "NB",
-  "description" : "Nebulized",
+  "name" : "LUFA",
+  "description" : "Left Upper Forearm",
   "usage" : "P",
   "table_id" : "0163"
 }, {
-  "name" : "RACF",
-  "description" : "Right Antecubital Fossa",
+  "name" : "PERIN",
+  "description" : "Perineal",
   "usage" : "P",
   "table_id" : "0163"
 }, {
@@ -3194,13 +3184,13 @@
   "usage" : "P",
   "table_id" : "0163"
 }, {
-  "name" : "LUA",
-  "description" : "Left Upper Arm",
+  "name" : "NB",
+  "description" : "Nebulized",
   "usage" : "P",
   "table_id" : "0163"
 }, {
-  "name" : "OU",
-  "description" : "Bilateral Eyes",
+  "name" : "RACF",
+  "description" : "Right Antecubital Fossa",
   "usage" : "P",
   "table_id" : "0163"
 }, {
@@ -3229,13 +3219,13 @@
   "usage" : "P",
   "table_id" : "0163"
 }, {
-  "name" : "LVG",
-  "description" : "Left Ventragluteal",
+  "name" : "LUA",
+  "description" : "Left Upper Arm",
   "usage" : "P",
   "table_id" : "0163"
 }, {
-  "name" : "RA",
-  "description" : "Right Arm",
+  "name" : "OU",
+  "description" : "Bilateral Eyes",
   "usage" : "P",
   "table_id" : "0163"
 }, {
@@ -3264,13 +3254,13 @@
   "usage" : "P",
   "table_id" : "0163"
 }, {
-  "name" : "OD",
-  "description" : "Right Eye",
+  "name" : "LVG",
+  "description" : "Left Ventragluteal",
   "usage" : "P",
   "table_id" : "0163"
 }, {
-  "name" : "RD",
-  "description" : "Right Deltoid",
+  "name" : "RA",
+  "description" : "Right Arm",
   "usage" : "P",
   "table_id" : "0163"
 }, {
@@ -3299,13 +3289,13 @@
   "usage" : "P",
   "table_id" : "0163"
 }, {
-  "name" : "LUAQ",
-  "description" : "Left Upper Abd Quadrant",
+  "name" : "OD",
+  "description" : "Right Eye",
   "usage" : "P",
   "table_id" : "0163"
 }, {
-  "name" : "PA",
-  "description" : "Perianal",
+  "name" : "RD",
+  "description" : "Right Deltoid",
   "usage" : "P",
   "table_id" : "0163"
 }, {
@@ -3329,13 +3319,13 @@
   "usage" : "P",
   "table_id" : "0163"
 }, {
-  "name" : "LVL",
-  "description" : "Left Vastus Lateralis",
+  "name" : "LUAQ",
+  "description" : "Left Upper Abd Quadrant",
   "usage" : "P",
   "table_id" : "0163"
 }, {
-  "name" : "RAC",
-  "description" : "Right Anterior Chest",
+  "name" : "PA",
+  "description" : "Perianal",
   "usage" : "P",
   "table_id" : "0163"
 }, {
@@ -3364,13 +3354,13 @@
   "usage" : "P",
   "table_id" : "0163"
 }, {
-  "name" : "OS",
-  "description" : "Left Eye",
+  "name" : "LVL",
+  "description" : "Left Vastus Lateralis",
   "usage" : "P",
   "table_id" : "0163"
 }, {
-  "name" : "RE",
-  "description" : "Right Ear",
+  "name" : "RAC",
+  "description" : "Right Anterior Chest",
   "usage" : "P",
   "table_id" : "0163"
 }, {
@@ -3396,6 +3386,16 @@
 }, {
   "name" : "LT",
   "description" : "Left Thigh",
+  "usage" : "P",
+  "table_id" : "0163"
+}, {
+  "name" : "OS",
+  "description" : "Left Eye",
+  "usage" : "P",
+  "table_id" : "0163"
+}, {
+  "name" : "RE",
+  "description" : "Right Ear",
   "usage" : "P",
   "table_id" : "0163"
 }, {

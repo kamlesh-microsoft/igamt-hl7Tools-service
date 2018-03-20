@@ -44,16 +44,6 @@
   "usage" : "P",
   "table_id" : "0002"
 }, {
-  "name" : "A21",
-  "description" : "Leave of Absence - Out (leaving)",
-  "usage" : "P",
-  "table_id" : "0003"
-}, {
-  "name" : "P03",
-  "description" : "Post detail financial transaction",
-  "usage" : "P",
-  "table_id" : "0003"
-}, {
   "name" : "A05",
   "description" : "Pre-admit a Patient",
   "usage" : "P",
@@ -64,13 +54,13 @@
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "A24",
-  "description" : "Link Patient Records",
+  "name" : "A21",
+  "description" : "Leave of Absence - Out (leaving)",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "Q02",
-  "description" : "Deferred Access",
+  "name" : "P03",
+  "description" : "Post detail financial transaction",
   "usage" : "P",
   "table_id" : "0003"
 }, {
@@ -84,8 +74,13 @@
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "P01",
-  "description" : "Add and update patient account",
+  "name" : "A24",
+  "description" : "Link Patient Records",
+  "usage" : "P",
+  "table_id" : "0003"
+}, {
+  "name" : "Q02",
+  "description" : "Deferred Access",
   "usage" : "P",
   "table_id" : "0003"
 }, {
@@ -104,13 +99,8 @@
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "A22",
-  "description" : "Leave of Absence - In (returning)",
-  "usage" : "P",
-  "table_id" : "0003"
-}, {
-  "name" : "P04",
-  "description" : "Generate bills and A/R statements",
+  "name" : "P01",
+  "description" : "Add and update patient account",
   "usage" : "P",
   "table_id" : "0003"
 }, {
@@ -124,13 +114,13 @@
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "O01",
-  "description" : "Order message",
+  "name" : "A22",
+  "description" : "Leave of Absence - In (returning)",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "R01",
-  "description" : "Unsolicited transmission of requested Observ.",
+  "name" : "P04",
+  "description" : "Generate bills and A/R statements",
   "usage" : "P",
   "table_id" : "0003"
 }, {
@@ -149,8 +139,13 @@
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "P02",
-  "description" : "Purge Patient Accounts",
+  "name" : "O01",
+  "description" : "Order message",
+  "usage" : "P",
+  "table_id" : "0003"
+}, {
+  "name" : "R01",
+  "description" : "Unsolicited transmission of requested Observ.",
   "usage" : "P",
   "table_id" : "0003"
 }, {
@@ -169,13 +164,8 @@
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "A23",
-  "description" : "Delete a Patient Record",
-  "usage" : "P",
-  "table_id" : "0003"
-}, {
-  "name" : "Q01",
-  "description" : "Immediate access",
+  "name" : "P02",
+  "description" : "Purge Patient Accounts",
   "usage" : "P",
   "table_id" : "0003"
 }, {
@@ -189,13 +179,13 @@
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "O02",
-  "description" : "Order response",
+  "name" : "A23",
+  "description" : "Delete a Patient Record",
   "usage" : "P",
   "table_id" : "0003"
 }, {
-  "name" : "R03",
-  "description" : "Display oriented results, query/unsol. update",
+  "name" : "Q01",
+  "description" : "Immediate access",
   "usage" : "P",
   "table_id" : "0003"
 }, {
@@ -211,6 +201,16 @@
 }, {
   "name" : "A18",
   "description" : "Merge patient information",
+  "usage" : "P",
+  "table_id" : "0003"
+}, {
+  "name" : "O02",
+  "description" : "Order response",
+  "usage" : "P",
+  "table_id" : "0003"
+}, {
+  "name" : "R03",
+  "description" : "Display oriented results, query/unsol. update",
   "usage" : "P",
   "table_id" : "0003"
 }, {
@@ -519,6 +519,11 @@
   "usage" : "P",
   "table_id" : "0027"
 }, {
+  "name" : "SH",
+  "description" : "Shampoo",
+  "usage" : "P",
+  "table_id" : "0033"
+}, {
   "name" : "IA",
   "description" : "Intro-arterial",
   "usage" : "P",
@@ -529,8 +534,13 @@
   "usage" : "P",
   "table_id" : "0033"
 }, {
-  "name" : "SH",
-  "description" : "Shampoo",
+  "name" : "SS",
+  "description" : "IV soluset",
+  "usage" : "P",
+  "table_id" : "0033"
+}, {
+  "name" : "AP",
+  "description" : "Apply externally",
   "usage" : "P",
   "table_id" : "0033"
 }, {
@@ -544,13 +554,8 @@
   "usage" : "P",
   "table_id" : "0033"
 }, {
-  "name" : "SS",
-  "description" : "IV soluset",
-  "usage" : "P",
-  "table_id" : "0033"
-}, {
-  "name" : "AP",
-  "description" : "Apply externally",
+  "name" : "WI",
+  "description" : "Wipe",
   "usage" : "P",
   "table_id" : "0033"
 }, {
@@ -569,8 +574,8 @@
   "usage" : "P",
   "table_id" : "0033"
 }, {
-  "name" : "WI",
-  "description" : "Wipe",
+  "name" : "SL",
+  "description" : "Sublingual",
   "usage" : "P",
   "table_id" : "0033"
 }, {
@@ -584,8 +589,8 @@
   "usage" : "P",
   "table_id" : "0033"
 }, {
-  "name" : "SL",
-  "description" : "Sublingual",
+  "name" : "TP",
+  "description" : "Topically",
   "usage" : "P",
   "table_id" : "0033"
 }, {
@@ -604,8 +609,8 @@
   "usage" : "P",
   "table_id" : "0033"
 }, {
-  "name" : "TP",
-  "description" : "Topically",
+  "name" : "RC",
+  "description" : "Rectally",
   "usage" : "P",
   "table_id" : "0033"
 }, {
@@ -619,8 +624,8 @@
   "usage" : "P",
   "table_id" : "0033"
 }, {
-  "name" : "RC",
-  "description" : "Rectally",
+  "name" : "SO",
+  "description" : "Soak",
   "usage" : "P",
   "table_id" : "0033"
 }, {
@@ -634,8 +639,8 @@
   "usage" : "P",
   "table_id" : "0033"
 }, {
-  "name" : "SO",
-  "description" : "Soak",
+  "name" : "WA",
+  "description" : "Wash",
   "usage" : "P",
   "table_id" : "0033"
 }, {
@@ -651,11 +656,6 @@
 }, {
   "name" : "PT",
   "description" : "Paint",
-  "usage" : "P",
-  "table_id" : "0033"
-}, {
-  "name" : "WA",
-  "description" : "Wash",
   "usage" : "P",
   "table_id" : "0033"
 }, {
@@ -719,13 +719,13 @@
   "usage" : "P",
   "table_id" : "0036"
 }, {
-  "name" : "ER",
-  "description" : "Error, order not found",
+  "name" : "CA",
+  "description" : "Order was canceled",
   "usage" : "P",
   "table_id" : "0038"
 }, {
-  "name" : "CA",
-  "description" : "Order was canceled",
+  "name" : "ER",
+  "description" : "Error, order not found",
   "usage" : "P",
   "table_id" : "0038"
 }, {
@@ -734,23 +734,23 @@
   "usage" : "P",
   "table_id" : "0038"
 }, {
-  "name" : "HD",
-  "description" : "Order is on hold",
-  "usage" : "P",
-  "table_id" : "0038"
-}, {
   "name" : "CM",
   "description" : "Order is completed",
   "usage" : "P",
   "table_id" : "0038"
 }, {
-  "name" : "IP",
-  "description" : "In process, unspecified",
+  "name" : "HD",
+  "description" : "Order is on hold",
   "usage" : "P",
   "table_id" : "0038"
 }, {
   "name" : "DC",
   "description" : "Order was discontinued",
+  "usage" : "P",
+  "table_id" : "0038"
+}, {
+  "name" : "IP",
+  "description" : "In process, unspecified",
   "usage" : "P",
   "table_id" : "0038"
 }, {
@@ -1154,13 +1154,13 @@
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "ARD",
-  "description" : "Ancillary RPT (display)      ANR       VII",
+  "name" : "OSQ",
+  "description" : "Order status query           ORD       IV",
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "OSQ",
-  "description" : "Order status query           ORD       IV",
+  "name" : "ARD",
+  "description" : "Ancillary RPT (display)      ANR       VII",
   "usage" : "P",
   "table_id" : "0076"
 }, {
@@ -1174,13 +1174,13 @@
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "BAR",
-  "description" : "Add/change billing account   BLN       VI",
+  "name" : "UDM",
+  "description" : "Unsolicited display          QRY       V",
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "UDM",
-  "description" : "Unsolicited display          QRY       V",
+  "name" : "BAR",
+  "description" : "Add/change billing account   BLN       VI",
   "usage" : "P",
   "table_id" : "0076"
 }, {
@@ -1454,6 +1454,11 @@
   "usage" : "P",
   "table_id" : "0116"
 }, {
+  "name" : "UX",
+  "description" : "Unable to change",
+  "usage" : "P",
+  "table_id" : "0119"
+}, {
   "name" : "NA",
   "description" : "Number assigned            T",
   "usage" : "P",
@@ -1461,11 +1466,6 @@
 }, {
   "name" : "RP",
   "description" : "Order replace request",
-  "usage" : "P",
-  "table_id" : "0119"
-}, {
-  "name" : "UX",
-  "description" : "Unable to change",
   "usage" : "P",
   "table_id" : "0119"
 }, {
@@ -1489,6 +1489,11 @@
   "usage" : "P",
   "table_id" : "0119"
 }, {
+  "name" : "UH",
+  "description" : "Unable to put on hold",
+  "usage" : "P",
+  "table_id" : "0119"
+}, {
   "name" : "HD",
   "description" : "Hold order request",
   "usage" : "P",
@@ -1499,8 +1504,8 @@
   "usage" : "P",
   "table_id" : "0119"
 }, {
-  "name" : "UH",
-  "description" : "Unable to put on hold",
+  "name" : "XR",
+  "description" : "Changed as requested",
   "usage" : "P",
   "table_id" : "0119"
 }, {
@@ -1511,11 +1516,6 @@
 }, {
   "name" : "RR",
   "description" : "Request received",
-  "usage" : "P",
-  "table_id" : "0119"
-}, {
-  "name" : "XR",
-  "description" : "Changed as requested",
   "usage" : "P",
   "table_id" : "0119"
 }, {
@@ -1539,6 +1539,11 @@
   "usage" : "P",
   "table_id" : "0119"
 }, {
+  "name" : "UR",
+  "description" : "Unable to release",
+  "usage" : "P",
+  "table_id" : "0119"
+}, {
   "name" : "HR",
   "description" : "On hold as requested",
   "usage" : "P",
@@ -1549,8 +1554,8 @@
   "usage" : "P",
   "table_id" : "0119"
 }, {
-  "name" : "UR",
-  "description" : "Unable to release",
+  "name" : "XX",
+  "description" : "Order changed, unsolicited",
   "usage" : "P",
   "table_id" : "0119"
 }, {
@@ -1561,11 +1566,6 @@
 }, {
   "name" : "RU",
   "description" : "Replaced unsolicited",
-  "usage" : "P",
-  "table_id" : "0119"
-}, {
-  "name" : "XX",
-  "description" : "Order changed, unsolicited",
   "usage" : "P",
   "table_id" : "0119"
 }, {

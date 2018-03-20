@@ -11,6 +11,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Stack;
+import java.util.regex.Pattern;
 
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
@@ -63,6 +64,8 @@ public class HL72JSONConverter implements Runnable {
   int fieldIncr;
   int elementIncr = 6943;
 
+  // 2.1 2.2 2.3 2.3.1 2.4 2.5 2.5.1 2.6 2.7
+
   Map<String, Group> grpByMsg = new HashMap<String, Group>();
   Map<String, Group> grpByName = new HashMap<String, Group>();
   List<String> segIds = new ArrayList<String>();
@@ -74,6 +77,7 @@ public class HL72JSONConverter implements Runnable {
       dataSource.setDriver(new com.mysql.jdbc.Driver());
       dataSource.setUrl("jdbc:mysql://localhost/mdb");
       dataSource.setUsername("root");
+      dataSource.setPassword("Ay524TOLdE3J6rO");
 
       this.jdbcTemplate = new JdbcTemplate(dataSource);
       this.hl7Version = hl7Version;
@@ -718,7 +722,7 @@ public class HL72JSONConverter implements Runnable {
   public String SQL4_COMPONENT() {
     StringBuilder bld = new StringBuilder();
     bld.append(
-        "SELECT dc.`data_structure`, c.`data_type_code`, c.`description`, dc.`req_opt`, dc.`min_length`, dc.`max_length`, dc.`conf_length`, c.`table_id`, dc.`seq_no`");
+        "SELECT dc.`data_structure`, c.`data_type_code`, c.`description`, dc.`req_opt`, dc.`min_length`, dc.`max_length`, dc.`conf_length`, c.`table_id`, dc.`seq_no`, dc.`length_old`");
     bld.append(System.lineSeparator());
     bld.append(" FROM hl7versions v");
     bld.append(System.lineSeparator());
@@ -758,12 +762,63 @@ public class HL72JSONConverter implements Runnable {
       cmp.setDescription(rs.getString("description"));
       // fixComponentDatatype(cmp);
       fixUsage(cmp, Usage.fromValue(rs.getString("req_opt")));
-      cmp.setMinLength(rs.getInt("min_length"));
-      cmp.setMaxLength(rs.getInt("max_length"));
+
+      String min = rs.getString("min_length");
+      String max = rs.getString("max_length");
+      if (min == null || min.length() == 0 || max == null || max.length() == 0) {
+        String length_old = rs.getString("length_old");
+        if (length_old != null) {
+          length_old = length_old.replaceAll(Pattern.quote("("), "");
+          length_old = length_old.replaceAll(Pattern.quote(")"), "");
+          length_old = length_old.trim();
+          if (length_old != null && length_old.length() > 0) {
+            if (length_old.contains("..")) {
+              try {
+                String[] l = length_old.split(Pattern.quote(".."));
+                if (l.length == 2) {
+                  min = l[0];
+                  max = l[1];
+                } else {
+                  min = l[0];
+                }
+              } catch (RuntimeException e) {
+                e.printStackTrace();
+              } catch (Exception e) {
+                e.printStackTrace();
+              }
+            } else if (length_old.contains(",")) {
+              try {
+                String[] l = length_old.split(Pattern.quote(","));
+                if (l.length == 2) {
+                  min = l[0];
+                  max = l[1];
+                } else {
+                  min = l[0];
+                }
+              } catch (RuntimeException e) {
+                e.printStackTrace();
+              } catch (Exception e) {
+                e.printStackTrace();
+              }
+            } else {
+              min = "";
+              max = length_old;
+            }
+            min = min.trim();
+            max = max != null ? max.trim() : null;
+          }
+        }
+      }
+
+      cmp.setMinLength(min != null && min.length() > 0 ? Integer.parseInt(min) : 0);
+      cmp.setMaxLength(max);
+
+
       // String s = rs.getString("conf_length").replaceAll("[#=]", "");
       String s = rs.getString("conf_length");
       // int confLength = (s.length() > 0) ? new Integer(s) : 0;
-      cmp.setConfLength(s);
+      cmp.setConfLength(s != null && s.length() > 0 ? s : null);
+
       String tableId = rs.getString("table_id");
       String id = "0".equals(tableId) ? null : tableId;
       String id1 = id == null ? id : String.format("%04d", new Integer(tableId));
@@ -875,7 +930,7 @@ public class HL72JSONConverter implements Runnable {
   public String SQL4_DATAELEMENT() {
     StringBuilder bld = new StringBuilder();
     bld.append(
-        "SELECT de.`data_item`, de.`data_structure`, de.`description` , de.`min_length`, de.`max_length`, de.`conf_length`, de.`table_id`, de.`section`");
+        "SELECT de.`data_item`, de.`data_structure`, de.`description` , de.`min_length`, de.`max_length`, de.`conf_length`, de.`table_id`, de.`section`,de.`length_old`");
     bld.append(System.lineSeparator());
     bld.append(" FROM hl7versions v");
     bld.append(System.lineSeparator());
@@ -904,9 +959,54 @@ public class HL72JSONConverter implements Runnable {
           de.setDatatypeId(rs.getString("data_structure").toUpperCase());
           de.setDescription(rs.getString("description"));
           String min = rs.getString("min_length");
-          de.setMinLength(min != null && min.length() > 0 ? new Integer(min) : 0);
           String max = rs.getString("max_length");
-          de.setMaxLength(max != null && max.length() > 0 ? new Integer(max) : 0);
+          if (min == null || min.length() == 0 || max == null || max.length() == 0) {
+            String length_old = rs.getString("length_old");
+            if (length_old != null) {
+              length_old = length_old.replaceAll(Pattern.quote("("), "");
+              length_old = length_old.replaceAll(Pattern.quote(")"), "");
+              length_old = length_old.trim();
+              if (length_old != null && length_old.length() > 0) {
+                if (length_old.contains("..")) {
+                  try {
+                    String[] l = length_old.split(Pattern.quote(".."));
+                    if (l.length == 2) {
+                      min = l[0];
+                      max = l[1];
+                    } else {
+                      min = l[0];
+                    }
+                  } catch (RuntimeException e) {
+                    e.printStackTrace();
+                  } catch (Exception e) {
+                    e.printStackTrace();
+                  }
+                } else if (length_old.contains(",")) {
+                  try {
+                    String[] l = length_old.split(Pattern.quote(","));
+                    if (l.length == 2) {
+                      min = l[0];
+                      max = l[1];
+                    } else {
+                      min = l[0];
+                    }
+                  } catch (RuntimeException e) {
+                    e.printStackTrace();
+                  } catch (Exception e) {
+                    e.printStackTrace();
+                  }
+                } else {
+                  min = "";
+                  max = length_old;
+                }
+                min = min.trim();
+                max = max != null ? max.trim() : null;
+              }
+            }
+          }
+
+          de.setMinLength(min != null && min.length() > 0 ? new Integer(min) : 0);
+          de.setMaxLength(max);
           // String conf = rs.getString("conf_length").replaceAll("[=#]", "");
           String conf = rs.getString("conf_length");
           String conf1 = conf != null && conf.contains("..")

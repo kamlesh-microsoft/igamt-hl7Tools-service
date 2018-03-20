@@ -7,7 +7,6 @@
   "parent_datatype_id" : "AD",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "120#"
 }, {
   "id" : 2,
@@ -18,7 +17,6 @@
   "parent_datatype_id" : "AD",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "120#"
 }, {
   "id" : 3,
@@ -29,7 +27,6 @@
   "parent_datatype_id" : "AD",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "50#"
 }, {
   "id" : 4,
@@ -40,7 +37,6 @@
   "parent_datatype_id" : "AD",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "50#"
 }, {
   "id" : 5,
@@ -51,7 +47,6 @@
   "parent_datatype_id" : "AD",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "12="
 }, {
   "id" : 6,
@@ -62,8 +57,7 @@
   "parent_datatype_id" : "AD",
   "datatype_id" : "ID",
   "min_length" : 3,
-  "max_length" : 3,
-  "conf_length" : "",
+  "max_length" : "3",
   "table_id" : "0399"
 }, {
   "id" : 7,
@@ -74,8 +68,7 @@
   "parent_datatype_id" : "AD",
   "datatype_id" : "ID",
   "min_length" : 1,
-  "max_length" : 3,
-  "conf_length" : "",
+  "max_length" : "3",
   "table_id" : "0190"
 }, {
   "id" : 8,
@@ -86,7 +79,6 @@
   "parent_datatype_id" : "AD",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "50#"
 }, {
   "id" : 9,
@@ -97,7 +89,6 @@
   "parent_datatype_id" : "AUI",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "30="
 }, {
   "id" : 10,
@@ -107,9 +98,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "AUI",
   "datatype_id" : "DT",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 11,
   "position" : 3,
@@ -119,7 +108,6 @@
   "parent_datatype_id" : "AUI",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "199#"
 }, {
   "id" : 12,
@@ -130,8 +118,7 @@
   "parent_datatype_id" : "CCD",
   "datatype_id" : "ID",
   "min_length" : 1,
-  "max_length" : 1,
-  "conf_length" : "",
+  "max_length" : "1",
   "table_id" : "0100"
 }, {
   "id" : 13,
@@ -141,9 +128,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "CCD",
   "datatype_id" : "DTM",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 14,
   "position" : 1,
@@ -153,7 +138,6 @@
   "parent_datatype_id" : "CCP",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "6#"
 }, {
   "id" : 15,
@@ -164,7 +148,6 @@
   "parent_datatype_id" : "CCP",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "6#"
 }, {
   "id" : 16,
@@ -175,7 +158,6 @@
   "parent_datatype_id" : "CCP",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "6#"
 }, {
   "id" : 17,
@@ -185,9 +167,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "CD",
   "datatype_id" : "WVI",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 18,
   "position" : 2,
@@ -196,9 +176,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "CD",
   "datatype_id" : "WVS",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 19,
   "position" : 3,
@@ -207,9 +185,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "CD",
   "datatype_id" : "CSU",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 20,
   "position" : 4,
@@ -218,9 +194,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "CD",
   "datatype_id" : "CCP",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 21,
   "position" : 5,
@@ -230,7 +204,6 @@
   "parent_datatype_id" : "CD",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "6#"
 }, {
   "id" : 22,
@@ -240,9 +213,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "CD",
   "datatype_id" : "NR",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 23,
   "position" : 1,
@@ -252,7 +223,6 @@
   "parent_datatype_id" : "CF",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "20="
 }, {
   "id" : 24,
@@ -262,9 +232,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "CF",
   "datatype_id" : "FT",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 25,
   "position" : 3,
@@ -274,8 +242,7 @@
   "parent_datatype_id" : "CF",
   "datatype_id" : "ID",
   "min_length" : 1,
-  "max_length" : 12,
-  "conf_length" : "",
+  "max_length" : "12",
   "table_id" : "0396"
 }, {
   "id" : 26,
@@ -286,7 +253,6 @@
   "parent_datatype_id" : "CF",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "20="
 }, {
   "id" : 27,
@@ -296,9 +262,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "CF",
   "datatype_id" : "FT",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 28,
   "position" : 6,
@@ -308,8 +272,7 @@
   "parent_datatype_id" : "CF",
   "datatype_id" : "ID",
   "min_length" : 1,
-  "max_length" : 12,
-  "conf_length" : "",
+  "max_length" : "12",
   "table_id" : "0396"
 }, {
   "id" : 29,
@@ -320,7 +283,6 @@
   "parent_datatype_id" : "CF",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "10="
 }, {
   "id" : 30,
@@ -331,7 +293,6 @@
   "parent_datatype_id" : "CF",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "10="
 }, {
   "id" : 31,
@@ -342,7 +303,6 @@
   "parent_datatype_id" : "CF",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "199#"
 }, {
   "id" : 32,
@@ -353,7 +313,6 @@
   "parent_datatype_id" : "CF",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "20="
 }, {
   "id" : 33,
@@ -363,9 +322,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "CF",
   "datatype_id" : "FT",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 34,
   "position" : 12,
@@ -375,8 +332,7 @@
   "parent_datatype_id" : "CF",
   "datatype_id" : "ID",
   "min_length" : 1,
-  "max_length" : 12,
-  "conf_length" : "",
+  "max_length" : "12",
   "table_id" : "0396"
 }, {
   "id" : 35,
@@ -387,7 +343,6 @@
   "parent_datatype_id" : "CF",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "10="
 }, {
   "id" : 36,
@@ -398,7 +353,6 @@
   "parent_datatype_id" : "CF",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "199="
 }, {
   "id" : 37,
@@ -409,7 +363,6 @@
   "parent_datatype_id" : "CF",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "199="
 }, {
   "id" : 38,
@@ -420,7 +373,6 @@
   "parent_datatype_id" : "CF",
   "datatype_id" : "DTM",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "8="
 }, {
   "id" : 39,
@@ -431,7 +383,6 @@
   "parent_datatype_id" : "CF",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "199="
 }, {
   "id" : 40,
@@ -442,7 +393,6 @@
   "parent_datatype_id" : "CF",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "199="
 }, {
   "id" : 41,
@@ -453,7 +403,6 @@
   "parent_datatype_id" : "CF",
   "datatype_id" : "DTM",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "8="
 }, {
   "id" : 42,
@@ -464,7 +413,6 @@
   "parent_datatype_id" : "CF",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "199="
 }, {
   "id" : 43,
@@ -475,7 +423,6 @@
   "parent_datatype_id" : "CF",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "199="
 }, {
   "id" : 44,
@@ -486,7 +433,6 @@
   "parent_datatype_id" : "CF",
   "datatype_id" : "DTM",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "8="
 }, {
   "id" : 45,
@@ -497,7 +443,6 @@
   "parent_datatype_id" : "CNE",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "20="
 }, {
   "id" : 46,
@@ -508,7 +453,6 @@
   "parent_datatype_id" : "CNE",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "199#"
 }, {
   "id" : 47,
@@ -519,8 +463,7 @@
   "parent_datatype_id" : "CNE",
   "datatype_id" : "ID",
   "min_length" : 1,
-  "max_length" : 12,
-  "conf_length" : "",
+  "max_length" : "12",
   "table_id" : "0396"
 }, {
   "id" : 48,
@@ -531,7 +474,6 @@
   "parent_datatype_id" : "CNE",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "20="
 }, {
   "id" : 49,
@@ -542,7 +484,6 @@
   "parent_datatype_id" : "CNE",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "199#"
 }, {
   "id" : 50,
@@ -553,8 +494,7 @@
   "parent_datatype_id" : "CNE",
   "datatype_id" : "ID",
   "min_length" : 1,
-  "max_length" : 12,
-  "conf_length" : "",
+  "max_length" : "12",
   "table_id" : "0396"
 }, {
   "id" : 51,
@@ -565,7 +505,6 @@
   "parent_datatype_id" : "CNE",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "10="
 }, {
   "id" : 52,
@@ -576,7 +515,6 @@
   "parent_datatype_id" : "CNE",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "10="
 }, {
   "id" : 53,
@@ -587,7 +525,6 @@
   "parent_datatype_id" : "CNE",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "199#"
 }, {
   "id" : 54,
@@ -598,7 +535,6 @@
   "parent_datatype_id" : "CNE",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "20="
 }, {
   "id" : 55,
@@ -609,7 +545,6 @@
   "parent_datatype_id" : "CNE",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "199#"
 }, {
   "id" : 56,
@@ -620,8 +555,7 @@
   "parent_datatype_id" : "CNE",
   "datatype_id" : "ID",
   "min_length" : 1,
-  "max_length" : 12,
-  "conf_length" : "",
+  "max_length" : "12",
   "table_id" : "0396"
 }, {
   "id" : 57,
@@ -632,7 +566,6 @@
   "parent_datatype_id" : "CNE",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "10="
 }, {
   "id" : 58,
@@ -643,7 +576,6 @@
   "parent_datatype_id" : "CNE",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "199="
 }, {
   "id" : 59,
@@ -654,7 +586,6 @@
   "parent_datatype_id" : "CNE",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "199="
 }, {
   "id" : 60,
@@ -665,7 +596,6 @@
   "parent_datatype_id" : "CNE",
   "datatype_id" : "DTM",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "8="
 }, {
   "id" : 61,
@@ -676,7 +606,6 @@
   "parent_datatype_id" : "CNE",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "199="
 }, {
   "id" : 62,
@@ -687,7 +616,6 @@
   "parent_datatype_id" : "CNE",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "199="
 }, {
   "id" : 63,
@@ -698,7 +626,6 @@
   "parent_datatype_id" : "CNE",
   "datatype_id" : "DTM",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "8="
 }, {
   "id" : 64,
@@ -709,7 +636,6 @@
   "parent_datatype_id" : "CNE",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "199="
 }, {
   "id" : 65,
@@ -720,7 +646,6 @@
   "parent_datatype_id" : "CNE",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "199="
 }, {
   "id" : 66,
@@ -731,7 +656,6 @@
   "parent_datatype_id" : "CNE",
   "datatype_id" : "DTM",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "8="
 }, {
   "id" : 67,
@@ -742,7 +666,6 @@
   "parent_datatype_id" : "CNN",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "15="
 }, {
   "id" : 68,
@@ -753,7 +676,6 @@
   "parent_datatype_id" : "CNN",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "50#"
 }, {
   "id" : 69,
@@ -764,7 +686,6 @@
   "parent_datatype_id" : "CNN",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "30#"
 }, {
   "id" : 70,
@@ -775,7 +696,6 @@
   "parent_datatype_id" : "CNN",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "30#"
 }, {
   "id" : 71,
@@ -786,7 +706,6 @@
   "parent_datatype_id" : "CNN",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "20#"
 }, {
   "id" : 72,
@@ -797,7 +716,6 @@
   "parent_datatype_id" : "CNN",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "20#"
 }, {
   "id" : 73,
@@ -808,7 +726,6 @@
   "parent_datatype_id" : "CNN",
   "datatype_id" : "IS",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "6=",
   "table_id" : "0360"
 }, {
@@ -820,7 +737,6 @@
   "parent_datatype_id" : "CNN",
   "datatype_id" : "IS",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "4=",
   "table_id" : "0297"
 }, {
@@ -832,7 +748,6 @@
   "parent_datatype_id" : "CNN",
   "datatype_id" : "IS",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "20=",
   "table_id" : "0363"
 }, {
@@ -844,7 +759,6 @@
   "parent_datatype_id" : "CNN",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "199="
 }, {
   "id" : 77,
@@ -855,8 +769,7 @@
   "parent_datatype_id" : "CNN",
   "datatype_id" : "ID",
   "min_length" : 1,
-  "max_length" : 6,
-  "conf_length" : "",
+  "max_length" : "6",
   "table_id" : "0301"
 }, {
   "id" : 78,
@@ -866,9 +779,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "CP",
   "datatype_id" : "MO",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 79,
   "position" : 2,
@@ -878,8 +789,7 @@
   "parent_datatype_id" : "CP",
   "datatype_id" : "ID",
   "min_length" : 1,
-  "max_length" : 2,
-  "conf_length" : "",
+  "max_length" : "2",
   "table_id" : "0205"
 }, {
   "id" : 80,
@@ -890,7 +800,6 @@
   "parent_datatype_id" : "CP",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "="
 }, {
   "id" : 81,
@@ -901,7 +810,6 @@
   "parent_datatype_id" : "CP",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "="
 }, {
   "id" : 82,
@@ -911,9 +819,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "CP",
   "datatype_id" : "CWE",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 83,
   "position" : 6,
@@ -923,8 +829,7 @@
   "parent_datatype_id" : "CP",
   "datatype_id" : "ID",
   "min_length" : 1,
-  "max_length" : 1,
-  "conf_length" : "",
+  "max_length" : "1",
   "table_id" : "0298"
 }, {
   "id" : 84,
@@ -934,9 +839,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "CQ",
   "datatype_id" : "NM",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 85,
   "position" : 2,
@@ -946,8 +849,6 @@
   "parent_datatype_id" : "CQ",
   "datatype_id" : "CWE",
   "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : "",
   "table_id" : "9999"
 }, {
   "id" : 86,
@@ -957,9 +858,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "CSU",
   "datatype_id" : "NM",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 87,
   "position" : 2,
@@ -969,7 +868,6 @@
   "parent_datatype_id" : "CSU",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "20="
 }, {
   "id" : 88,
@@ -980,7 +878,6 @@
   "parent_datatype_id" : "CSU",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "199#"
 }, {
   "id" : 89,
@@ -991,8 +888,7 @@
   "parent_datatype_id" : "CSU",
   "datatype_id" : "ID",
   "min_length" : 1,
-  "max_length" : 12,
-  "conf_length" : "",
+  "max_length" : "12",
   "table_id" : "0396"
 }, {
   "id" : 90,
@@ -1003,7 +899,6 @@
   "parent_datatype_id" : "CSU",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "20="
 }, {
   "id" : 91,
@@ -1014,7 +909,6 @@
   "parent_datatype_id" : "CSU",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "199#"
 }, {
   "id" : 92,
@@ -1025,8 +919,7 @@
   "parent_datatype_id" : "CSU",
   "datatype_id" : "ID",
   "min_length" : 1,
-  "max_length" : 12,
-  "conf_length" : "",
+  "max_length" : "12",
   "table_id" : "0396"
 }, {
   "id" : 93,
@@ -1037,7 +930,6 @@
   "parent_datatype_id" : "CSU",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "10="
 }, {
   "id" : 94,
@@ -1048,7 +940,6 @@
   "parent_datatype_id" : "CSU",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "10="
 }, {
   "id" : 95,
@@ -1059,7 +950,7 @@
   "parent_datatype_id" : "CSU",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
+  "max_length" : "199",
   "conf_length" : "199#"
 }, {
   "id" : 96,
@@ -1070,7 +961,6 @@
   "parent_datatype_id" : "CSU",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "20="
 }, {
   "id" : 97,
@@ -1081,7 +971,6 @@
   "parent_datatype_id" : "CSU",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "199#"
 }, {
   "id" : 98,
@@ -1092,8 +981,7 @@
   "parent_datatype_id" : "CSU",
   "datatype_id" : "ID",
   "min_length" : 1,
-  "max_length" : 12,
-  "conf_length" : "",
+  "max_length" : "12",
   "table_id" : "0396"
 }, {
   "id" : 99,
@@ -1104,7 +992,6 @@
   "parent_datatype_id" : "CSU",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "10="
 }, {
   "id" : 100,
@@ -1115,7 +1002,6 @@
   "parent_datatype_id" : "CSU",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "199="
 }, {
   "id" : 101,
@@ -1126,7 +1012,6 @@
   "parent_datatype_id" : "CSU",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "199="
 }, {
   "id" : 102,
@@ -1137,7 +1022,6 @@
   "parent_datatype_id" : "CSU",
   "datatype_id" : "DTM",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "8="
 }, {
   "id" : 103,
@@ -1148,7 +1032,6 @@
   "parent_datatype_id" : "CSU",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "199="
 }, {
   "id" : 104,
@@ -1159,7 +1042,6 @@
   "parent_datatype_id" : "CSU",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "199="
 }, {
   "id" : 105,
@@ -1170,7 +1052,6 @@
   "parent_datatype_id" : "CSU",
   "datatype_id" : "DTM",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "8="
 }, {
   "id" : 106,
@@ -1181,7 +1062,6 @@
   "parent_datatype_id" : "CSU",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "199="
 }, {
   "id" : 107,
@@ -1192,7 +1072,6 @@
   "parent_datatype_id" : "CSU",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "199="
 }, {
   "id" : 108,
@@ -1203,7 +1082,6 @@
   "parent_datatype_id" : "CSU",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "8="
 }, {
   "id" : 109,
@@ -1214,7 +1092,6 @@
   "parent_datatype_id" : "CWE",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "20="
 }, {
   "id" : 110,
@@ -1225,7 +1102,6 @@
   "parent_datatype_id" : "CWE",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "199#"
 }, {
   "id" : 111,
@@ -1236,8 +1112,7 @@
   "parent_datatype_id" : "CWE",
   "datatype_id" : "ID",
   "min_length" : 1,
-  "max_length" : 12,
-  "conf_length" : "",
+  "max_length" : "12",
   "table_id" : "0396"
 }, {
   "id" : 112,
@@ -1248,7 +1123,6 @@
   "parent_datatype_id" : "CWE",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "20="
 }, {
   "id" : 113,
@@ -1259,7 +1133,6 @@
   "parent_datatype_id" : "CWE",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "199#"
 }, {
   "id" : 114,
@@ -1270,8 +1143,7 @@
   "parent_datatype_id" : "CWE",
   "datatype_id" : "ID",
   "min_length" : 1,
-  "max_length" : 12,
-  "conf_length" : "",
+  "max_length" : "12",
   "table_id" : "0396"
 }, {
   "id" : 115,
@@ -1282,7 +1154,6 @@
   "parent_datatype_id" : "CWE",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "10="
 }, {
   "id" : 116,
@@ -1293,7 +1164,6 @@
   "parent_datatype_id" : "CWE",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "10="
 }, {
   "id" : 117,
@@ -1304,7 +1174,6 @@
   "parent_datatype_id" : "CWE",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "199#"
 }, {
   "id" : 118,
@@ -1315,7 +1184,6 @@
   "parent_datatype_id" : "CWE",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "20="
 }, {
   "id" : 119,
@@ -1326,7 +1194,6 @@
   "parent_datatype_id" : "CWE",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "199#"
 }, {
   "id" : 120,
@@ -1337,8 +1204,7 @@
   "parent_datatype_id" : "CWE",
   "datatype_id" : "ID",
   "min_length" : 1,
-  "max_length" : 12,
-  "conf_length" : "",
+  "max_length" : "12",
   "table_id" : "0396"
 }, {
   "id" : 121,
@@ -1349,7 +1215,6 @@
   "parent_datatype_id" : "CWE",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "10="
 }, {
   "id" : 122,
@@ -1360,7 +1225,6 @@
   "parent_datatype_id" : "CWE",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "199="
 }, {
   "id" : 123,
@@ -1371,7 +1235,6 @@
   "parent_datatype_id" : "CWE",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "199="
 }, {
   "id" : 124,
@@ -1382,7 +1245,6 @@
   "parent_datatype_id" : "CWE",
   "datatype_id" : "DTM",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "8="
 }, {
   "id" : 125,
@@ -1393,7 +1255,6 @@
   "parent_datatype_id" : "CWE",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "199="
 }, {
   "id" : 126,
@@ -1404,7 +1265,6 @@
   "parent_datatype_id" : "CWE",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "199="
 }, {
   "id" : 127,
@@ -1415,7 +1275,6 @@
   "parent_datatype_id" : "CWE",
   "datatype_id" : "DTM",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "8="
 }, {
   "id" : 128,
@@ -1426,7 +1285,6 @@
   "parent_datatype_id" : "CWE",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "199="
 }, {
   "id" : 129,
@@ -1437,7 +1295,6 @@
   "parent_datatype_id" : "CWE",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "199="
 }, {
   "id" : 130,
@@ -1448,7 +1305,6 @@
   "parent_datatype_id" : "CWE",
   "datatype_id" : "DTM",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "8="
 }, {
   "id" : 131,
@@ -1459,7 +1315,6 @@
   "parent_datatype_id" : "CX",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "15="
 }, {
   "id" : 132,
@@ -1470,7 +1325,6 @@
   "parent_datatype_id" : "CX",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "4="
 }, {
   "id" : 133,
@@ -1481,8 +1335,7 @@
   "parent_datatype_id" : "CX",
   "datatype_id" : "ID",
   "min_length" : 3,
-  "max_length" : 3,
-  "conf_length" : "",
+  "max_length" : "3",
   "table_id" : "0061"
 }, {
   "id" : 134,
@@ -1493,8 +1346,6 @@
   "parent_datatype_id" : "CX",
   "datatype_id" : "HD",
   "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : "",
   "table_id" : "0363"
 }, {
   "id" : 135,
@@ -1505,8 +1356,7 @@
   "parent_datatype_id" : "CX",
   "datatype_id" : "ID",
   "min_length" : 2,
-  "max_length" : 5,
-  "conf_length" : "",
+  "max_length" : "5",
   "table_id" : "0203"
 }, {
   "id" : 136,
@@ -1516,9 +1366,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "CX",
   "datatype_id" : "HD",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 137,
   "position" : 7,
@@ -1527,9 +1375,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "CX",
   "datatype_id" : "DT",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 138,
   "position" : 8,
@@ -1538,9 +1384,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "CX",
   "datatype_id" : "DT",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 139,
   "position" : 9,
@@ -1549,9 +1393,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "CX",
   "datatype_id" : "CWE",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 140,
   "position" : 10,
@@ -1560,9 +1402,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "CX",
   "datatype_id" : "CWE",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 141,
   "position" : 11,
@@ -1572,7 +1412,6 @@
   "parent_datatype_id" : "CX",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "4="
 }, {
   "id" : 142,
@@ -1583,8 +1422,7 @@
   "parent_datatype_id" : "CX",
   "datatype_id" : "ID",
   "min_length" : 3,
-  "max_length" : 3,
-  "conf_length" : "",
+  "max_length" : "3",
   "table_id" : "0904"
 }, {
   "id" : 143,
@@ -1595,7 +1433,6 @@
   "parent_datatype_id" : "DDI",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "3="
 }, {
   "id" : 144,
@@ -1605,9 +1442,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "DDI",
   "datatype_id" : "MO",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 145,
   "position" : 3,
@@ -1617,7 +1452,6 @@
   "parent_datatype_id" : "DDI",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "4="
 }, {
   "id" : 146,
@@ -1627,9 +1461,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "DIN",
   "datatype_id" : "DTM",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 147,
   "position" : 2,
@@ -1639,8 +1471,6 @@
   "parent_datatype_id" : "DIN",
   "datatype_id" : "CWE",
   "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : "",
   "table_id" : "0531"
 }, {
   "id" : 148,
@@ -1651,8 +1481,6 @@
   "parent_datatype_id" : "DLD",
   "datatype_id" : "CWE",
   "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : "",
   "table_id" : "0113"
 }, {
   "id" : 149,
@@ -1662,9 +1490,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "DLD",
   "datatype_id" : "DTM",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 150,
   "position" : 1,
@@ -1674,7 +1500,6 @@
   "parent_datatype_id" : "DLN",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "20="
 }, {
   "id" : 151,
@@ -1685,8 +1510,6 @@
   "parent_datatype_id" : "DLN",
   "datatype_id" : "CWE",
   "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : "",
   "table_id" : "0333"
 }, {
   "id" : 152,
@@ -1696,9 +1519,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "DLN",
   "datatype_id" : "DT",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 153,
   "position" : 1,
@@ -1707,9 +1528,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "DLT",
   "datatype_id" : "NR",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 154,
   "position" : 2,
@@ -1719,7 +1538,6 @@
   "parent_datatype_id" : "DLT",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "4#"
 }, {
   "id" : 155,
@@ -1730,8 +1548,6 @@
   "parent_datatype_id" : "DLT",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : "",
   "table_id" : "0523"
 }, {
   "id" : 156,
@@ -1742,7 +1558,6 @@
   "parent_datatype_id" : "DLT",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "4#"
 }, {
   "id" : 157,
@@ -1752,9 +1567,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "DR",
   "datatype_id" : "DTM",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 158,
   "position" : 2,
@@ -1763,9 +1576,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "DR",
   "datatype_id" : "DTM",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 159,
   "position" : 1,
@@ -1775,8 +1586,6 @@
   "parent_datatype_id" : "DTN",
   "datatype_id" : "CWE",
   "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : "",
   "table_id" : "0149"
 }, {
   "id" : 160,
@@ -1787,7 +1596,6 @@
   "parent_datatype_id" : "DTN",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "3#"
 }, {
   "id" : 161,
@@ -1797,9 +1605,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "ED",
   "datatype_id" : "HD",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 162,
   "position" : 2,
@@ -1809,8 +1615,7 @@
   "parent_datatype_id" : "ED",
   "datatype_id" : "ID",
   "min_length" : 4,
-  "max_length" : 11,
-  "conf_length" : "",
+  "max_length" : "11",
   "table_id" : "0834"
 }, {
   "id" : 163,
@@ -1821,8 +1626,6 @@
   "parent_datatype_id" : "ED",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : "",
   "table_id" : "0291"
 }, {
   "id" : 164,
@@ -1833,8 +1636,7 @@
   "parent_datatype_id" : "ED",
   "datatype_id" : "ID",
   "min_length" : 1,
-  "max_length" : 6,
-  "conf_length" : "",
+  "max_length" : "6",
   "table_id" : "0299"
 }, {
   "id" : 165,
@@ -1844,9 +1646,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "ED",
   "datatype_id" : "TX",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 166,
   "position" : 1,
@@ -1856,7 +1656,6 @@
   "parent_datatype_id" : "EI",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "199="
 }, {
   "id" : 167,
@@ -1867,7 +1666,6 @@
   "parent_datatype_id" : "EI",
   "datatype_id" : "IS",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "20=",
   "table_id" : "0363"
 }, {
@@ -1879,7 +1677,6 @@
   "parent_datatype_id" : "EI",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "199="
 }, {
   "id" : 169,
@@ -1890,8 +1687,7 @@
   "parent_datatype_id" : "EI",
   "datatype_id" : "ID",
   "min_length" : 1,
-  "max_length" : 6,
-  "conf_length" : "",
+  "max_length" : "6",
   "table_id" : "0301"
 }, {
   "id" : 170,
@@ -1901,9 +1697,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "EIP",
   "datatype_id" : "EI",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 171,
   "position" : 2,
@@ -1912,9 +1706,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "EIP",
   "datatype_id" : "EI",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 172,
   "position" : 1,
@@ -1924,7 +1716,7 @@
   "parent_datatype_id" : "ERL",
   "datatype_id" : "ST",
   "min_length" : 3,
-  "max_length" : 3,
+  "max_length" : "3",
   "conf_length" : "="
 }, {
   "id" : 173,
@@ -1935,7 +1727,6 @@
   "parent_datatype_id" : "ERL",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "="
 }, {
   "id" : 174,
@@ -1946,7 +1737,6 @@
   "parent_datatype_id" : "ERL",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "="
 }, {
   "id" : 175,
@@ -1957,7 +1747,6 @@
   "parent_datatype_id" : "ERL",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "="
 }, {
   "id" : 176,
@@ -1968,7 +1757,6 @@
   "parent_datatype_id" : "ERL",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "="
 }, {
   "id" : 177,
@@ -1979,7 +1767,6 @@
   "parent_datatype_id" : "ERL",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "="
 }, {
   "id" : 178,
@@ -1990,8 +1777,6 @@
   "parent_datatype_id" : "FC",
   "datatype_id" : "CWE",
   "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : "",
   "table_id" : "0064"
 }, {
   "id" : 179,
@@ -2001,9 +1786,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "FC",
   "datatype_id" : "DTM",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 180,
   "position" : 1,
@@ -2013,7 +1796,6 @@
   "parent_datatype_id" : "FN",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "50#"
 }, {
   "id" : 181,
@@ -2024,7 +1806,6 @@
   "parent_datatype_id" : "FN",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "20#"
 }, {
   "id" : 182,
@@ -2035,7 +1816,6 @@
   "parent_datatype_id" : "FN",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "50#"
 }, {
   "id" : 183,
@@ -2046,7 +1826,6 @@
   "parent_datatype_id" : "FN",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "20#"
 }, {
   "id" : 184,
@@ -2057,7 +1836,6 @@
   "parent_datatype_id" : "FN",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "50#"
 }, {
   "id" : 185,
@@ -2068,7 +1846,6 @@
   "parent_datatype_id" : "HD",
   "datatype_id" : "IS",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "20=",
   "table_id" : "0300"
 }, {
@@ -2080,7 +1857,6 @@
   "parent_datatype_id" : "HD",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "199="
 }, {
   "id" : 187,
@@ -2091,8 +1867,7 @@
   "parent_datatype_id" : "HD",
   "datatype_id" : "ID",
   "min_length" : 1,
-  "max_length" : 6,
-  "conf_length" : "",
+  "max_length" : "6",
   "table_id" : "0301"
 }, {
   "id" : 188,
@@ -2103,8 +1878,6 @@
   "parent_datatype_id" : "ICD",
   "datatype_id" : "CWE",
   "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : "",
   "table_id" : "0150"
 }, {
   "id" : 189,
@@ -2115,8 +1888,7 @@
   "parent_datatype_id" : "ICD",
   "datatype_id" : "ID",
   "min_length" : 1,
-  "max_length" : 1,
-  "conf_length" : "",
+  "max_length" : "1",
   "table_id" : "0136"
 }, {
   "id" : 190,
@@ -2126,9 +1898,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "ICD",
   "datatype_id" : "DTM",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 191,
   "position" : 1,
@@ -2138,8 +1908,6 @@
   "parent_datatype_id" : "JCC",
   "datatype_id" : "CWE",
   "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : "",
   "table_id" : "0327"
 }, {
   "id" : 192,
@@ -2150,8 +1918,6 @@
   "parent_datatype_id" : "JCC",
   "datatype_id" : "CWE",
   "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : "",
   "table_id" : "0328"
 }, {
   "id" : 193,
@@ -2161,9 +1927,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "JCC",
   "datatype_id" : "TX",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 194,
   "position" : 1,
@@ -2172,9 +1936,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "MA",
   "datatype_id" : "NM",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 195,
   "position" : 2,
@@ -2183,9 +1945,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "MA",
   "datatype_id" : "NM",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 196,
   "position" : 3,
@@ -2194,9 +1954,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "MA",
   "datatype_id" : "NM",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 197,
   "position" : 4,
@@ -2205,9 +1963,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "MA",
   "datatype_id" : "NM",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 198,
   "position" : 1,
@@ -2217,7 +1973,6 @@
   "parent_datatype_id" : "MO",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "="
 }, {
   "id" : 199,
@@ -2228,8 +1983,7 @@
   "parent_datatype_id" : "MO",
   "datatype_id" : "ID",
   "min_length" : 3,
-  "max_length" : 3,
-  "conf_length" : "",
+  "max_length" : "3",
   "table_id" : "0913"
 }, {
   "id" : 200,
@@ -2239,9 +1993,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "MOC",
   "datatype_id" : "MO",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 201,
   "position" : 2,
@@ -2250,9 +2002,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "MOC",
   "datatype_id" : "CWE",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 202,
   "position" : 1,
@@ -2262,8 +2012,6 @@
   "parent_datatype_id" : "MOP",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : "",
   "table_id" : "0148"
 }, {
   "id" : 203,
@@ -2274,7 +2022,6 @@
   "parent_datatype_id" : "MOP",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "="
 }, {
   "id" : 204,
@@ -2285,8 +2032,7 @@
   "parent_datatype_id" : "MOP",
   "datatype_id" : "ID",
   "min_length" : 3,
-  "max_length" : 3,
-  "conf_length" : "",
+  "max_length" : "3",
   "table_id" : "0913"
 }, {
   "id" : 205,
@@ -2297,8 +2043,7 @@
   "parent_datatype_id" : "MSG",
   "datatype_id" : "ID",
   "min_length" : 3,
-  "max_length" : 3,
-  "conf_length" : "",
+  "max_length" : "3",
   "table_id" : "0076"
 }, {
   "id" : 206,
@@ -2309,8 +2054,7 @@
   "parent_datatype_id" : "MSG",
   "datatype_id" : "ID",
   "min_length" : 3,
-  "max_length" : 3,
-  "conf_length" : "",
+  "max_length" : "3",
   "table_id" : "0003"
 }, {
   "id" : 207,
@@ -2320,9 +2064,8 @@
   "truncation" : "NA",
   "parent_datatype_id" : "MSG",
   "datatype_id" : "ID",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : "",
+  "min_length" : 3,
+  "max_length" : "7",
   "table_id" : "0354"
 }, {
   "id" : 208,
@@ -2332,9 +2075,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "NA",
   "datatype_id" : "NM",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 209,
   "position" : 2,
@@ -2343,9 +2084,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "NA",
   "datatype_id" : "NM",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 210,
   "position" : 3,
@@ -2354,9 +2093,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "NA",
   "datatype_id" : "NM",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 211,
   "position" : 4,
@@ -2365,9 +2102,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "NA",
   "datatype_id" : "NM",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 212,
   "position" : 1,
@@ -2376,9 +2111,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "NDL",
   "datatype_id" : "CNN",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 213,
   "position" : 2,
@@ -2387,9 +2120,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "NDL",
   "datatype_id" : "DTM",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 214,
   "position" : 3,
@@ -2398,9 +2129,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "NDL",
   "datatype_id" : "DTM",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 215,
   "position" : 4,
@@ -2410,7 +2139,6 @@
   "parent_datatype_id" : "NDL",
   "datatype_id" : "IS",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "20=",
   "table_id" : "0302"
 }, {
@@ -2422,7 +2150,6 @@
   "parent_datatype_id" : "NDL",
   "datatype_id" : "IS",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "20=",
   "table_id" : "0303"
 }, {
@@ -2434,7 +2161,6 @@
   "parent_datatype_id" : "NDL",
   "datatype_id" : "IS",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "20=",
   "table_id" : "0304"
 }, {
@@ -2445,9 +2171,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "NDL",
   "datatype_id" : "HD",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 219,
   "position" : 8,
@@ -2457,7 +2181,6 @@
   "parent_datatype_id" : "NDL",
   "datatype_id" : "IS",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "20=",
   "table_id" : "0306"
 }, {
@@ -2469,7 +2192,6 @@
   "parent_datatype_id" : "NDL",
   "datatype_id" : "IS",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "20=",
   "table_id" : "0305"
 }, {
@@ -2481,7 +2203,6 @@
   "parent_datatype_id" : "NDL",
   "datatype_id" : "IS",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "20=",
   "table_id" : "0307"
 }, {
@@ -2493,7 +2214,6 @@
   "parent_datatype_id" : "NDL",
   "datatype_id" : "IS",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "20=",
   "table_id" : "0308"
 }, {
@@ -2504,9 +2224,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "NR",
   "datatype_id" : "NM",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 224,
   "position" : 2,
@@ -2515,9 +2233,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "NR",
   "datatype_id" : "NM",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 225,
   "position" : 1,
@@ -2527,8 +2243,6 @@
   "parent_datatype_id" : "OCD",
   "datatype_id" : "CNE",
   "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : "",
   "table_id" : "0350"
 }, {
   "id" : 226,
@@ -2539,7 +2253,6 @@
   "parent_datatype_id" : "OCD",
   "datatype_id" : "DT",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "8="
 }, {
   "id" : 227,
@@ -2550,7 +2263,6 @@
   "parent_datatype_id" : "OG",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "20="
 }, {
   "id" : 228,
@@ -2560,9 +2272,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "OG",
   "datatype_id" : "NM",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 229,
   "position" : 3,
@@ -2571,9 +2281,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "OG",
   "datatype_id" : "NM",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 230,
   "position" : 4,
@@ -2582,9 +2290,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "OG",
   "datatype_id" : "ST",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 231,
   "position" : 1,
@@ -2594,8 +2300,6 @@
   "parent_datatype_id" : "OSP",
   "datatype_id" : "CNE",
   "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : "",
   "table_id" : "0351"
 }, {
   "id" : 232,
@@ -2606,7 +2310,6 @@
   "parent_datatype_id" : "OSP",
   "datatype_id" : "DT",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "8="
 }, {
   "id" : 233,
@@ -2617,7 +2320,6 @@
   "parent_datatype_id" : "OSP",
   "datatype_id" : "DT",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "8="
 }, {
   "id" : 234,
@@ -2628,8 +2330,6 @@
   "parent_datatype_id" : "PIP",
   "datatype_id" : "CWE",
   "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : "",
   "table_id" : "0525"
 }, {
   "id" : 235,
@@ -2640,8 +2340,6 @@
   "parent_datatype_id" : "PIP",
   "datatype_id" : "CWE",
   "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : "",
   "table_id" : "0526"
 }, {
   "id" : 236,
@@ -2652,7 +2350,6 @@
   "parent_datatype_id" : "PIP",
   "datatype_id" : "DT",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "8="
 }, {
   "id" : 237,
@@ -2663,7 +2360,6 @@
   "parent_datatype_id" : "PIP",
   "datatype_id" : "DT",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "8="
 }, {
   "id" : 238,
@@ -2673,9 +2369,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "PIP",
   "datatype_id" : "EI",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 239,
   "position" : 1,
@@ -2685,8 +2379,6 @@
   "parent_datatype_id" : "PL",
   "datatype_id" : "HD",
   "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : "",
   "table_id" : "0302"
 }, {
   "id" : 240,
@@ -2697,8 +2389,6 @@
   "parent_datatype_id" : "PL",
   "datatype_id" : "HD",
   "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : "",
   "table_id" : "0303"
 }, {
   "id" : 241,
@@ -2709,8 +2399,6 @@
   "parent_datatype_id" : "PL",
   "datatype_id" : "HD",
   "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : "",
   "table_id" : "0304"
 }, {
   "id" : 242,
@@ -2720,9 +2408,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "PL",
   "datatype_id" : "HD",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 243,
   "position" : 5,
@@ -2732,7 +2418,6 @@
   "parent_datatype_id" : "PL",
   "datatype_id" : "IS",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "20=",
   "table_id" : "0306"
 }, {
@@ -2744,7 +2429,6 @@
   "parent_datatype_id" : "PL",
   "datatype_id" : "IS",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "20=",
   "table_id" : "0305"
 }, {
@@ -2756,8 +2440,6 @@
   "parent_datatype_id" : "PL",
   "datatype_id" : "HD",
   "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : "",
   "table_id" : "0307"
 }, {
   "id" : 246,
@@ -2768,8 +2450,6 @@
   "parent_datatype_id" : "PL",
   "datatype_id" : "HD",
   "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : "",
   "table_id" : "0308"
 }, {
   "id" : 247,
@@ -2780,7 +2460,6 @@
   "parent_datatype_id" : "PL",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "199#"
 }, {
   "id" : 248,
@@ -2790,9 +2469,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "PL",
   "datatype_id" : "EI",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 249,
   "position" : 11,
@@ -2802,8 +2479,6 @@
   "parent_datatype_id" : "PL",
   "datatype_id" : "HD",
   "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : "",
   "table_id" : "0363"
 }, {
   "id" : 250,
@@ -2814,7 +2489,6 @@
   "parent_datatype_id" : "PLN",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "20="
 }, {
   "id" : 251,
@@ -2825,8 +2499,6 @@
   "parent_datatype_id" : "PLN",
   "datatype_id" : "CWE",
   "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : "",
   "table_id" : "0338"
 }, {
   "id" : 252,
@@ -2837,7 +2509,6 @@
   "parent_datatype_id" : "PLN",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "62#"
 }, {
   "id" : 253,
@@ -2848,7 +2519,6 @@
   "parent_datatype_id" : "PLN",
   "datatype_id" : "DT",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "8="
 }, {
   "id" : 254,
@@ -2859,7 +2529,6 @@
   "parent_datatype_id" : "PPN",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "15="
 }, {
   "id" : 255,
@@ -2869,9 +2538,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "PPN",
   "datatype_id" : "FN",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 256,
   "position" : 3,
@@ -2881,7 +2548,6 @@
   "parent_datatype_id" : "PPN",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "30#"
 }, {
   "id" : 257,
@@ -2892,7 +2558,6 @@
   "parent_datatype_id" : "PPN",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "30#"
 }, {
   "id" : 258,
@@ -2903,7 +2568,6 @@
   "parent_datatype_id" : "PPN",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "20#"
 }, {
   "id" : 259,
@@ -2914,7 +2578,6 @@
   "parent_datatype_id" : "PPN",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "20#"
 }, {
   "id" : 260,
@@ -2924,9 +2587,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "PPN",
   "datatype_id" : "-",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 261,
   "position" : 8,
@@ -2936,8 +2597,6 @@
   "parent_datatype_id" : "PPN",
   "datatype_id" : "CWE",
   "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : "",
   "table_id" : "0297"
 }, {
   "id" : 262,
@@ -2948,8 +2607,6 @@
   "parent_datatype_id" : "PPN",
   "datatype_id" : "HD",
   "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : "",
   "table_id" : "0363"
 }, {
   "id" : 263,
@@ -2960,8 +2617,7 @@
   "parent_datatype_id" : "PPN",
   "datatype_id" : "ID",
   "min_length" : 1,
-  "max_length" : 5,
-  "conf_length" : "",
+  "max_length" : "5",
   "table_id" : "0200"
 }, {
   "id" : 264,
@@ -2972,7 +2628,6 @@
   "parent_datatype_id" : "PPN",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "4="
 }, {
   "id" : 265,
@@ -2983,8 +2638,7 @@
   "parent_datatype_id" : "PPN",
   "datatype_id" : "ID",
   "min_length" : 3,
-  "max_length" : 3,
-  "conf_length" : "",
+  "max_length" : "3",
   "table_id" : "0061"
 }, {
   "id" : 266,
@@ -2995,8 +2649,7 @@
   "parent_datatype_id" : "PPN",
   "datatype_id" : "ID",
   "min_length" : 1,
-  "max_length" : 5,
-  "conf_length" : "",
+  "max_length" : "5",
   "table_id" : "0203"
 }, {
   "id" : 267,
@@ -3006,9 +2659,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "PPN",
   "datatype_id" : "HD",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 268,
   "position" : 15,
@@ -3017,9 +2668,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "PPN",
   "datatype_id" : "DTM",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 269,
   "position" : 16,
@@ -3029,8 +2678,7 @@
   "parent_datatype_id" : "PPN",
   "datatype_id" : "ID",
   "min_length" : 1,
-  "max_length" : 1,
-  "conf_length" : "",
+  "max_length" : "1",
   "table_id" : "0465"
 }, {
   "id" : 270,
@@ -3041,8 +2689,6 @@
   "parent_datatype_id" : "PPN",
   "datatype_id" : "CWE",
   "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : "",
   "table_id" : "0448"
 }, {
   "id" : 271,
@@ -3052,9 +2698,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "PPN",
   "datatype_id" : "-",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 272,
   "position" : 19,
@@ -3064,8 +2708,7 @@
   "parent_datatype_id" : "PPN",
   "datatype_id" : "ID",
   "min_length" : 1,
-  "max_length" : 1,
-  "conf_length" : "",
+  "max_length" : "1",
   "table_id" : "0444"
 }, {
   "id" : 273,
@@ -3075,9 +2718,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "PPN",
   "datatype_id" : "DTM",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 274,
   "position" : 21,
@@ -3086,9 +2727,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "PPN",
   "datatype_id" : "DTM",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 275,
   "position" : 22,
@@ -3098,7 +2737,6 @@
   "parent_datatype_id" : "PPN",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "199#"
 }, {
   "id" : 276,
@@ -3108,9 +2746,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "PPN",
   "datatype_id" : "CWE",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 277,
   "position" : 24,
@@ -3119,9 +2755,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "PPN",
   "datatype_id" : "CWE",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 278,
   "position" : 25,
@@ -3131,7 +2765,6 @@
   "parent_datatype_id" : "PPN",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "4="
 }, {
   "id" : 279,
@@ -3142,8 +2775,7 @@
   "parent_datatype_id" : "PPN",
   "datatype_id" : "ID",
   "min_length" : 3,
-  "max_length" : 3,
-  "conf_length" : "",
+  "max_length" : "3",
   "table_id" : "0904"
 }, {
   "id" : 280,
@@ -3153,9 +2785,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "PRL",
   "datatype_id" : "CWE",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 281,
   "position" : 2,
@@ -3164,9 +2794,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "PRL",
   "datatype_id" : "OG",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 282,
   "position" : 3,
@@ -3175,9 +2803,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "PRL",
   "datatype_id" : "TX",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 283,
   "position" : 1,
@@ -3187,8 +2813,7 @@
   "parent_datatype_id" : "PT",
   "datatype_id" : "ID",
   "min_length" : 1,
-  "max_length" : 1,
-  "conf_length" : "",
+  "max_length" : "1",
   "table_id" : "0103"
 }, {
   "id" : 284,
@@ -3199,8 +2824,7 @@
   "parent_datatype_id" : "PT",
   "datatype_id" : "ID",
   "min_length" : 1,
-  "max_length" : 1,
-  "conf_length" : "",
+  "max_length" : "1",
   "table_id" : "0207"
 }, {
   "id" : 285,
@@ -3211,8 +2835,6 @@
   "parent_datatype_id" : "PTA",
   "datatype_id" : "CWE",
   "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : "",
   "table_id" : "0147"
 }, {
   "id" : 286,
@@ -3223,8 +2845,6 @@
   "parent_datatype_id" : "PTA",
   "datatype_id" : "CWE",
   "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : "",
   "table_id" : "0193"
 }, {
   "id" : 287,
@@ -3234,9 +2854,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "PTA",
   "datatype_id" : "-",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 288,
   "position" : 4,
@@ -3245,9 +2863,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "PTA",
   "datatype_id" : "MOP",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 289,
   "position" : 1,
@@ -3257,8 +2873,7 @@
   "parent_datatype_id" : "QIP",
   "datatype_id" : "ST",
   "min_length" : 6,
-  "max_length" : 12,
-  "conf_length" : ""
+  "max_length" : "12"
 }, {
   "id" : 290,
   "position" : 2,
@@ -3268,7 +2883,6 @@
   "parent_datatype_id" : "QIP",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "199#"
 }, {
   "id" : 291,
@@ -3278,9 +2892,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "QSC",
   "datatype_id" : "ST",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 292,
   "position" : 2,
@@ -3290,8 +2902,7 @@
   "parent_datatype_id" : "QSC",
   "datatype_id" : "ID",
   "min_length" : 2,
-  "max_length" : 2,
-  "conf_length" : "",
+  "max_length" : "2",
   "table_id" : "0209"
 }, {
   "id" : 293,
@@ -3302,7 +2913,6 @@
   "parent_datatype_id" : "QSC",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "199#"
 }, {
   "id" : 294,
@@ -3313,8 +2923,7 @@
   "parent_datatype_id" : "QSC",
   "datatype_id" : "ID",
   "min_length" : 3,
-  "max_length" : 3,
-  "conf_length" : "",
+  "max_length" : "3",
   "table_id" : "0210"
 }, {
   "id" : 295,
@@ -3325,8 +2934,7 @@
   "parent_datatype_id" : "RCD",
   "datatype_id" : "ST",
   "min_length" : 6,
-  "max_length" : 12,
-  "conf_length" : ""
+  "max_length" : "12"
 }, {
   "id" : 296,
   "position" : 2,
@@ -3336,8 +2944,7 @@
   "parent_datatype_id" : "RCD",
   "datatype_id" : "ID",
   "min_length" : 2,
-  "max_length" : 3,
-  "conf_length" : "",
+  "max_length" : "3",
   "table_id" : "0440"
 }, {
   "id" : 297,
@@ -3348,8 +2955,7 @@
   "parent_datatype_id" : "RCD",
   "datatype_id" : "NM",
   "min_length" : 1,
-  "max_length" : 5,
-  "conf_length" : ""
+  "max_length" : "5"
 }, {
   "id" : 298,
   "position" : 1,
@@ -3358,9 +2964,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "RFR",
   "datatype_id" : "NR",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 299,
   "position" : 2,
@@ -3370,8 +2974,6 @@
   "parent_datatype_id" : "RFR",
   "datatype_id" : "CWE",
   "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : "",
   "table_id" : "0001"
 }, {
   "id" : 300,
@@ -3381,9 +2983,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "RFR",
   "datatype_id" : "NR",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 301,
   "position" : 4,
@@ -3392,9 +2992,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "RFR",
   "datatype_id" : "NR",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 302,
   "position" : 5,
@@ -3404,7 +3002,6 @@
   "parent_datatype_id" : "RFR",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "20="
 }, {
   "id" : 303,
@@ -3415,7 +3012,6 @@
   "parent_datatype_id" : "RFR",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "20="
 }, {
   "id" : 304,
@@ -3425,9 +3021,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "RFR",
   "datatype_id" : "TX",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 305,
   "position" : 1,
@@ -3437,8 +3031,6 @@
   "parent_datatype_id" : "RI",
   "datatype_id" : "CWE",
   "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : "",
   "table_id" : "0335"
 }, {
   "id" : 306,
@@ -3449,7 +3041,6 @@
   "parent_datatype_id" : "RI",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "199#"
 }, {
   "id" : 307,
@@ -3460,8 +3051,6 @@
   "parent_datatype_id" : "RMC",
   "datatype_id" : "CWE",
   "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : "",
   "table_id" : "0145"
 }, {
   "id" : 308,
@@ -3472,8 +3061,6 @@
   "parent_datatype_id" : "RMC",
   "datatype_id" : "CWE",
   "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : "",
   "table_id" : "0146"
 }, {
   "id" : 309,
@@ -3483,9 +3070,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "RMC",
   "datatype_id" : "-",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 310,
   "position" : 4,
@@ -3494,9 +3079,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "RMC",
   "datatype_id" : "MOP",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 311,
   "position" : 1,
@@ -3506,7 +3089,6 @@
   "parent_datatype_id" : "RP",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "999#"
 }, {
   "id" : 312,
@@ -3516,9 +3098,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "RP",
   "datatype_id" : "HD",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 313,
   "position" : 3,
@@ -3528,8 +3108,7 @@
   "parent_datatype_id" : "RP",
   "datatype_id" : "ID",
   "min_length" : 4,
-  "max_length" : 11,
-  "conf_length" : "",
+  "max_length" : "11",
   "table_id" : "0834"
 }, {
   "id" : 314,
@@ -3540,8 +3119,6 @@
   "parent_datatype_id" : "RP",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : "",
   "table_id" : "0291"
 }, {
   "id" : 315,
@@ -3552,8 +3129,6 @@
   "parent_datatype_id" : "RPT",
   "datatype_id" : "CWE",
   "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : "",
   "table_id" : "0335"
 }, {
   "id" : 316,
@@ -3564,8 +3139,7 @@
   "parent_datatype_id" : "RPT",
   "datatype_id" : "ID",
   "min_length" : 2,
-  "max_length" : 2,
-  "conf_length" : "",
+  "max_length" : "2",
   "table_id" : "0527"
 }, {
   "id" : 317,
@@ -3576,7 +3150,6 @@
   "parent_datatype_id" : "RPT",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "10="
 }, {
   "id" : 318,
@@ -3587,7 +3160,6 @@
   "parent_datatype_id" : "RPT",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "10="
 }, {
   "id" : 319,
@@ -3598,7 +3170,6 @@
   "parent_datatype_id" : "RPT",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "10="
 }, {
   "id" : 320,
@@ -3608,9 +3179,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "RPT",
   "datatype_id" : "CWE",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 321,
   "position" : 7,
@@ -3620,8 +3189,7 @@
   "parent_datatype_id" : "RPT",
   "datatype_id" : "ID",
   "min_length" : 1,
-  "max_length" : 1,
-  "conf_length" : "",
+  "max_length" : "1",
   "table_id" : "0136"
 }, {
   "id" : 322,
@@ -3632,8 +3200,7 @@
   "parent_datatype_id" : "RPT",
   "datatype_id" : "ID",
   "min_length" : 2,
-  "max_length" : 3,
-  "conf_length" : "",
+  "max_length" : "3",
   "table_id" : "0528"
 }, {
   "id" : 323,
@@ -3644,7 +3211,6 @@
   "parent_datatype_id" : "RPT",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "10="
 }, {
   "id" : 324,
@@ -3654,9 +3220,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "RPT",
   "datatype_id" : "CWE",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 325,
   "position" : 11,
@@ -3665,9 +3229,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "RPT",
   "datatype_id" : "GTS",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 326,
   "position" : 1,
@@ -3677,7 +3239,6 @@
   "parent_datatype_id" : "SAD",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "120#"
 }, {
   "id" : 327,
@@ -3688,7 +3249,6 @@
   "parent_datatype_id" : "SAD",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "50#"
 }, {
   "id" : 328,
@@ -3699,7 +3259,6 @@
   "parent_datatype_id" : "SAD",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "12#"
 }, {
   "id" : 329,
@@ -3710,8 +3269,6 @@
   "parent_datatype_id" : "SCV",
   "datatype_id" : "CWE",
   "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : "",
   "table_id" : "0294"
 }, {
   "id" : 330,
@@ -3722,7 +3279,6 @@
   "parent_datatype_id" : "SCV",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "20="
 }, {
   "id" : 331,
@@ -3733,8 +3289,7 @@
   "parent_datatype_id" : "SN",
   "datatype_id" : "ST",
   "min_length" : 1,
-  "max_length" : 2,
-  "conf_length" : ""
+  "max_length" : "2"
 }, {
   "id" : 332,
   "position" : 2,
@@ -3743,9 +3298,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "SN",
   "datatype_id" : "NM",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 333,
   "position" : 3,
@@ -3755,8 +3308,7 @@
   "parent_datatype_id" : "SN",
   "datatype_id" : "ST",
   "min_length" : 1,
-  "max_length" : 1,
-  "conf_length" : ""
+  "max_length" : "1"
 }, {
   "id" : 334,
   "position" : 4,
@@ -3765,9 +3317,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "SN",
   "datatype_id" : "NM",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 335,
   "position" : 1,
@@ -3777,7 +3327,6 @@
   "parent_datatype_id" : "SPD",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "50="
 }, {
   "id" : 336,
@@ -3788,7 +3337,6 @@
   "parent_datatype_id" : "SPD",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "50="
 }, {
   "id" : 337,
@@ -3799,8 +3347,7 @@
   "parent_datatype_id" : "SPD",
   "datatype_id" : "ID",
   "min_length" : 1,
-  "max_length" : 1,
-  "conf_length" : "",
+  "max_length" : "1",
   "table_id" : "0337"
 }, {
   "id" : 338,
@@ -3810,9 +3357,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "SPD",
   "datatype_id" : "DT",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 339,
   "position" : 1,
@@ -3822,8 +3367,7 @@
   "parent_datatype_id" : "SRT",
   "datatype_id" : "ST",
   "min_length" : 6,
-  "max_length" : 12,
-  "conf_length" : ""
+  "max_length" : "12"
 }, {
   "id" : 340,
   "position" : 2,
@@ -3833,8 +3377,7 @@
   "parent_datatype_id" : "SRT",
   "datatype_id" : "ID",
   "min_length" : 1,
-  "max_length" : 2,
-  "conf_length" : "",
+  "max_length" : "2",
   "table_id" : "0397"
 }, {
   "id" : 341,
@@ -3845,8 +3388,6 @@
   "parent_datatype_id" : "UVC",
   "datatype_id" : "CWE",
   "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : "",
   "table_id" : "0153"
 }, {
   "id" : 342,
@@ -3856,9 +3397,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "UVC",
   "datatype_id" : "MO",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 343,
   "position" : 3,
@@ -3867,9 +3406,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "UVC",
   "datatype_id" : "NM",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 344,
   "position" : 4,
@@ -3878,9 +3415,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "UVC",
   "datatype_id" : "CWE",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 345,
   "position" : 1,
@@ -3890,8 +3425,7 @@
   "parent_datatype_id" : "VH",
   "datatype_id" : "ID",
   "min_length" : 3,
-  "max_length" : 3,
-  "conf_length" : "",
+  "max_length" : "3",
   "table_id" : "0267"
 }, {
   "id" : 346,
@@ -3902,8 +3436,7 @@
   "parent_datatype_id" : "VH",
   "datatype_id" : "ID",
   "min_length" : 3,
-  "max_length" : 3,
-  "conf_length" : "",
+  "max_length" : "3",
   "table_id" : "0267"
 }, {
   "id" : 347,
@@ -3913,9 +3446,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "VH",
   "datatype_id" : "TM",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 348,
   "position" : 4,
@@ -3924,9 +3455,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "VH",
   "datatype_id" : "TM",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 349,
   "position" : 1,
@@ -3936,8 +3465,7 @@
   "parent_datatype_id" : "VID",
   "datatype_id" : "ID",
   "min_length" : 3,
-  "max_length" : 5,
-  "conf_length" : "",
+  "max_length" : "5",
   "table_id" : "0104"
 }, {
   "id" : 350,
@@ -3948,8 +3476,6 @@
   "parent_datatype_id" : "VID",
   "datatype_id" : "CWE",
   "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : "",
   "table_id" : "0399"
 }, {
   "id" : 351,
@@ -3959,9 +3485,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "VID",
   "datatype_id" : "CWE",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 352,
   "position" : 1,
@@ -3971,7 +3495,6 @@
   "parent_datatype_id" : "VR",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "6="
 }, {
   "id" : 353,
@@ -3982,7 +3505,6 @@
   "parent_datatype_id" : "VR",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "6="
 }, {
   "id" : 354,
@@ -3993,7 +3515,6 @@
   "parent_datatype_id" : "WVI",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "4="
 }, {
   "id" : 355,
@@ -4004,7 +3525,6 @@
   "parent_datatype_id" : "WVI",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "17#"
 }, {
   "id" : 356,
@@ -4015,7 +3535,6 @@
   "parent_datatype_id" : "WVS",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "8="
 }, {
   "id" : 357,
@@ -4026,7 +3545,6 @@
   "parent_datatype_id" : "WVS",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "8="
 }, {
   "id" : 358,
@@ -4036,9 +3554,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "XAD",
   "datatype_id" : "SAD",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 359,
   "position" : 2,
@@ -4048,7 +3564,6 @@
   "parent_datatype_id" : "XAD",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "120#"
 }, {
   "id" : 360,
@@ -4059,7 +3574,6 @@
   "parent_datatype_id" : "XAD",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "50#"
 }, {
   "id" : 361,
@@ -4070,7 +3584,6 @@
   "parent_datatype_id" : "XAD",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "50#"
 }, {
   "id" : 362,
@@ -4081,7 +3594,6 @@
   "parent_datatype_id" : "XAD",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "12="
 }, {
   "id" : 363,
@@ -4092,8 +3604,7 @@
   "parent_datatype_id" : "XAD",
   "datatype_id" : "ID",
   "min_length" : 3,
-  "max_length" : 3,
-  "conf_length" : "",
+  "max_length" : "3",
   "table_id" : "0399"
 }, {
   "id" : 364,
@@ -4104,8 +3615,7 @@
   "parent_datatype_id" : "XAD",
   "datatype_id" : "ID",
   "min_length" : 1,
-  "max_length" : 3,
-  "conf_length" : "",
+  "max_length" : "3",
   "table_id" : "0190"
 }, {
   "id" : 365,
@@ -4116,7 +3626,6 @@
   "parent_datatype_id" : "XAD",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "50#"
 }, {
   "id" : 366,
@@ -4127,8 +3636,6 @@
   "parent_datatype_id" : "XAD",
   "datatype_id" : "CWE",
   "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : "",
   "table_id" : "0289"
 }, {
   "id" : 367,
@@ -4139,8 +3646,6 @@
   "parent_datatype_id" : "XAD",
   "datatype_id" : "CWE",
   "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : "",
   "table_id" : "0288"
 }, {
   "id" : 368,
@@ -4151,8 +3656,7 @@
   "parent_datatype_id" : "XAD",
   "datatype_id" : "ID",
   "min_length" : 1,
-  "max_length" : 1,
-  "conf_length" : "",
+  "max_length" : "1",
   "table_id" : "0465"
 }, {
   "id" : 369,
@@ -4162,9 +3666,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "XAD",
   "datatype_id" : "-",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 370,
   "position" : 13,
@@ -4174,7 +3676,6 @@
   "parent_datatype_id" : "XAD",
   "datatype_id" : "DTM",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "8="
 }, {
   "id" : 371,
@@ -4185,7 +3686,6 @@
   "parent_datatype_id" : "XAD",
   "datatype_id" : "DTM",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "8="
 }, {
   "id" : 372,
@@ -4196,8 +3696,6 @@
   "parent_datatype_id" : "XAD",
   "datatype_id" : "CWE",
   "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : "",
   "table_id" : "0616"
 }, {
   "id" : 373,
@@ -4208,8 +3706,7 @@
   "parent_datatype_id" : "XAD",
   "datatype_id" : "ID",
   "min_length" : 1,
-  "max_length" : 1,
-  "conf_length" : "",
+  "max_length" : "1",
   "table_id" : "0136"
 }, {
   "id" : 374,
@@ -4220,8 +3717,7 @@
   "parent_datatype_id" : "XAD",
   "datatype_id" : "ID",
   "min_length" : 1,
-  "max_length" : 1,
-  "conf_length" : "",
+  "max_length" : "1",
   "table_id" : "0136"
 }, {
   "id" : 375,
@@ -4232,8 +3728,7 @@
   "parent_datatype_id" : "XAD",
   "datatype_id" : "ID",
   "min_length" : 1,
-  "max_length" : 1,
-  "conf_length" : "",
+  "max_length" : "1",
   "table_id" : "0617"
 }, {
   "id" : 376,
@@ -4244,7 +3739,6 @@
   "parent_datatype_id" : "XAD",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "199#"
 }, {
   "id" : 377,
@@ -4255,7 +3749,6 @@
   "parent_datatype_id" : "XAD",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "199#"
 }, {
   "id" : 378,
@@ -4266,7 +3759,6 @@
   "parent_datatype_id" : "XAD",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "2="
 }, {
   "id" : 379,
@@ -4277,8 +3769,6 @@
   "parent_datatype_id" : "XAD",
   "datatype_id" : "CWE",
   "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : "",
   "table_id" : "0618"
 }, {
   "id" : 380,
@@ -4288,9 +3778,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "XAD",
   "datatype_id" : "EI",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 381,
   "position" : 1,
@@ -4300,7 +3788,6 @@
   "parent_datatype_id" : "XCN",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "15="
 }, {
   "id" : 382,
@@ -4310,9 +3797,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "XCN",
   "datatype_id" : "FN",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 383,
   "position" : 3,
@@ -4322,7 +3807,6 @@
   "parent_datatype_id" : "XCN",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "30#"
 }, {
   "id" : 384,
@@ -4333,7 +3817,6 @@
   "parent_datatype_id" : "XCN",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "30#"
 }, {
   "id" : 385,
@@ -4344,7 +3827,6 @@
   "parent_datatype_id" : "XCN",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "20#"
 }, {
   "id" : 386,
@@ -4355,7 +3837,6 @@
   "parent_datatype_id" : "XCN",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "20#"
 }, {
   "id" : 387,
@@ -4365,9 +3846,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "XCN",
   "datatype_id" : "-",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 388,
   "position" : 8,
@@ -4377,8 +3856,6 @@
   "parent_datatype_id" : "XCN",
   "datatype_id" : "CWE",
   "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : "",
   "table_id" : "0297"
 }, {
   "id" : 389,
@@ -4389,8 +3866,6 @@
   "parent_datatype_id" : "XCN",
   "datatype_id" : "HD",
   "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : "",
   "table_id" : "0363"
 }, {
   "id" : 390,
@@ -4401,8 +3876,7 @@
   "parent_datatype_id" : "XCN",
   "datatype_id" : "ID",
   "min_length" : 1,
-  "max_length" : 5,
-  "conf_length" : "",
+  "max_length" : "5",
   "table_id" : "0200"
 }, {
   "id" : 391,
@@ -4413,8 +3887,7 @@
   "parent_datatype_id" : "XCN",
   "datatype_id" : "ST",
   "min_length" : 1,
-  "max_length" : 4,
-  "conf_length" : ""
+  "max_length" : "4"
 }, {
   "id" : 392,
   "position" : 12,
@@ -4424,8 +3897,7 @@
   "parent_datatype_id" : "XCN",
   "datatype_id" : "ID",
   "min_length" : 3,
-  "max_length" : 3,
-  "conf_length" : "",
+  "max_length" : "3",
   "table_id" : "0061"
 }, {
   "id" : 393,
@@ -4436,8 +3908,7 @@
   "parent_datatype_id" : "XCN",
   "datatype_id" : "ID",
   "min_length" : 2,
-  "max_length" : 5,
-  "conf_length" : "",
+  "max_length" : "5",
   "table_id" : "0203"
 }, {
   "id" : 394,
@@ -4447,9 +3918,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "XCN",
   "datatype_id" : "HD",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 395,
   "position" : 15,
@@ -4459,8 +3928,7 @@
   "parent_datatype_id" : "XCN",
   "datatype_id" : "ID",
   "min_length" : 1,
-  "max_length" : 1,
-  "conf_length" : "",
+  "max_length" : "1",
   "table_id" : "0465"
 }, {
   "id" : 396,
@@ -4471,8 +3939,6 @@
   "parent_datatype_id" : "XCN",
   "datatype_id" : "CWE",
   "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : "",
   "table_id" : "0448"
 }, {
   "id" : 397,
@@ -4482,9 +3948,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "XCN",
   "datatype_id" : "-",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 398,
   "position" : 18,
@@ -4494,8 +3958,7 @@
   "parent_datatype_id" : "XCN",
   "datatype_id" : "ID",
   "min_length" : 1,
-  "max_length" : 1,
-  "conf_length" : "",
+  "max_length" : "1",
   "table_id" : "0444"
 }, {
   "id" : 399,
@@ -4506,7 +3969,6 @@
   "parent_datatype_id" : "XCN",
   "datatype_id" : "DTM",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "8="
 }, {
   "id" : 400,
@@ -4517,7 +3979,6 @@
   "parent_datatype_id" : "XCN",
   "datatype_id" : "DTM",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "8="
 }, {
   "id" : 401,
@@ -4528,7 +3989,6 @@
   "parent_datatype_id" : "XCN",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "199#"
 }, {
   "id" : 402,
@@ -4538,9 +3998,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "XCN",
   "datatype_id" : "CWE",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 403,
   "position" : 23,
@@ -4549,9 +4007,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "XCN",
   "datatype_id" : "CWE",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 404,
   "position" : 24,
@@ -4561,7 +4017,6 @@
   "parent_datatype_id" : "XCN",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "4="
 }, {
   "id" : 405,
@@ -4572,8 +4027,7 @@
   "parent_datatype_id" : "XCN",
   "datatype_id" : "ID",
   "min_length" : 3,
-  "max_length" : 3,
-  "conf_length" : "",
+  "max_length" : "3",
   "table_id" : "0904"
 }, {
   "id" : 406,
@@ -4584,7 +4038,6 @@
   "parent_datatype_id" : "XON",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "50#"
 }, {
   "id" : 407,
@@ -4595,8 +4048,6 @@
   "parent_datatype_id" : "XON",
   "datatype_id" : "CWE",
   "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : "",
   "table_id" : "0204"
 }, {
   "id" : 408,
@@ -4606,9 +4057,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "XON",
   "datatype_id" : "-",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 409,
   "position" : 4,
@@ -4617,9 +4066,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "XON",
   "datatype_id" : "-",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 410,
   "position" : 5,
@@ -4628,9 +4075,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "XON",
   "datatype_id" : "-",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 411,
   "position" : 6,
@@ -4640,8 +4085,6 @@
   "parent_datatype_id" : "XON",
   "datatype_id" : "HD",
   "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : "",
   "table_id" : "0363"
 }, {
   "id" : 412,
@@ -4652,8 +4095,7 @@
   "parent_datatype_id" : "XON",
   "datatype_id" : "ID",
   "min_length" : 2,
-  "max_length" : 5,
-  "conf_length" : "",
+  "max_length" : "5",
   "table_id" : "0203"
 }, {
   "id" : 413,
@@ -4663,9 +4105,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "XON",
   "datatype_id" : "HD",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 414,
   "position" : 9,
@@ -4675,8 +4115,7 @@
   "parent_datatype_id" : "XON",
   "datatype_id" : "ID",
   "min_length" : 1,
-  "max_length" : 1,
-  "conf_length" : "",
+  "max_length" : "1",
   "table_id" : "0465"
 }, {
   "id" : 415,
@@ -4686,9 +4125,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "XON",
   "datatype_id" : "ST",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 416,
   "position" : 1,
@@ -4697,9 +4134,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "XPN",
   "datatype_id" : "FN",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 417,
   "position" : 2,
@@ -4709,7 +4144,6 @@
   "parent_datatype_id" : "XPN",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "30#"
 }, {
   "id" : 418,
@@ -4720,7 +4154,6 @@
   "parent_datatype_id" : "XPN",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "30#"
 }, {
   "id" : 419,
@@ -4731,7 +4164,6 @@
   "parent_datatype_id" : "XPN",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "20#"
 }, {
   "id" : 420,
@@ -4742,7 +4174,6 @@
   "parent_datatype_id" : "XPN",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "20#"
 }, {
   "id" : 421,
@@ -4752,9 +4183,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "XPN",
   "datatype_id" : "-",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 422,
   "position" : 7,
@@ -4764,8 +4193,7 @@
   "parent_datatype_id" : "XPN",
   "datatype_id" : "ID",
   "min_length" : 1,
-  "max_length" : 5,
-  "conf_length" : "",
+  "max_length" : "5",
   "table_id" : "0200"
 }, {
   "id" : 423,
@@ -4776,8 +4204,7 @@
   "parent_datatype_id" : "XPN",
   "datatype_id" : "ID",
   "min_length" : 1,
-  "max_length" : 1,
-  "conf_length" : "",
+  "max_length" : "1",
   "table_id" : "0465"
 }, {
   "id" : 424,
@@ -4788,8 +4215,6 @@
   "parent_datatype_id" : "XPN",
   "datatype_id" : "CWE",
   "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : "",
   "table_id" : "0448"
 }, {
   "id" : 425,
@@ -4799,9 +4224,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "XPN",
   "datatype_id" : "-",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 426,
   "position" : 11,
@@ -4811,8 +4234,7 @@
   "parent_datatype_id" : "XPN",
   "datatype_id" : "ID",
   "min_length" : 1,
-  "max_length" : 1,
-  "conf_length" : "",
+  "max_length" : "1",
   "table_id" : "0444"
 }, {
   "id" : 427,
@@ -4822,9 +4244,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "XPN",
   "datatype_id" : "DTM",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 428,
   "position" : 13,
@@ -4833,9 +4253,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "XPN",
   "datatype_id" : "DTM",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 429,
   "position" : 14,
@@ -4845,7 +4263,6 @@
   "parent_datatype_id" : "XPN",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "199#"
 }, {
   "id" : 430,
@@ -4856,7 +4273,6 @@
   "parent_datatype_id" : "XPN",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "30#"
 }, {
   "id" : 431,
@@ -4866,9 +4282,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "XTN",
   "datatype_id" : "-",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 432,
   "position" : 2,
@@ -4878,8 +4292,7 @@
   "parent_datatype_id" : "XTN",
   "datatype_id" : "ID",
   "min_length" : 3,
-  "max_length" : 3,
-  "conf_length" : "",
+  "max_length" : "3",
   "table_id" : "0201"
 }, {
   "id" : 433,
@@ -4890,8 +4303,7 @@
   "parent_datatype_id" : "XTN",
   "datatype_id" : "ID",
   "min_length" : 2,
-  "max_length" : 8,
-  "conf_length" : "",
+  "max_length" : "8",
   "table_id" : "0202"
 }, {
   "id" : 434,
@@ -4902,7 +4314,6 @@
   "parent_datatype_id" : "XTN",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "199="
 }, {
   "id" : 435,
@@ -4913,7 +4324,6 @@
   "parent_datatype_id" : "XTN",
   "datatype_id" : "SNM",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "3="
 }, {
   "id" : 436,
@@ -4924,7 +4334,6 @@
   "parent_datatype_id" : "XTN",
   "datatype_id" : "SNM",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "3="
 }, {
   "id" : 437,
@@ -4935,7 +4344,6 @@
   "parent_datatype_id" : "XTN",
   "datatype_id" : "SNM",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "9="
 }, {
   "id" : 438,
@@ -4946,7 +4354,6 @@
   "parent_datatype_id" : "XTN",
   "datatype_id" : "SNM",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "5="
 }, {
   "id" : 439,
@@ -4957,7 +4364,6 @@
   "parent_datatype_id" : "XTN",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "199#"
 }, {
   "id" : 440,
@@ -4968,7 +4374,6 @@
   "parent_datatype_id" : "XTN",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "4="
 }, {
   "id" : 441,
@@ -4979,7 +4384,6 @@
   "parent_datatype_id" : "XTN",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "6="
 }, {
   "id" : 442,
@@ -4990,7 +4394,6 @@
   "parent_datatype_id" : "XTN",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "199#"
 }, {
   "id" : 443,
@@ -5000,9 +4403,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "XTN",
   "datatype_id" : "DTM",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 444,
   "position" : 14,
@@ -5011,9 +4412,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "XTN",
   "datatype_id" : "DTM",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 445,
   "position" : 15,
@@ -5023,8 +4422,6 @@
   "parent_datatype_id" : "XTN",
   "datatype_id" : "CWE",
   "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : "",
   "table_id" : "0868"
 }, {
   "id" : 446,
@@ -5035,8 +4432,6 @@
   "parent_datatype_id" : "XTN",
   "datatype_id" : "CWE",
   "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : "",
   "table_id" : "0618"
 }, {
   "id" : 447,
@@ -5046,9 +4441,7 @@
   "truncation" : "NA",
   "parent_datatype_id" : "XTN",
   "datatype_id" : "EI",
-  "min_length" : 0,
-  "max_length" : 0,
-  "conf_length" : ""
+  "min_length" : 0
 }, {
   "id" : 448,
   "position" : 18,
@@ -5058,6 +4451,5 @@
   "parent_datatype_id" : "XTN",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 0,
   "conf_length" : "2="
 } ]

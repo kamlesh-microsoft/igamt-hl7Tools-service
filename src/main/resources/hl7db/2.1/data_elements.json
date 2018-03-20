@@ -5,7 +5,7 @@
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 2,
+  "max_length" : "2",
   "table_id" : "0008"
 }, {
   "id" : "00003",
@@ -13,14 +13,14 @@
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 20
+  "max_length" : "20"
 }, {
   "id" : "00004",
   "description" : "TEXT MESSAGE",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 80
+  "max_length" : "80"
 }, {
   "id" : "00005",
   "description" : "FIELD SEPARATOR",
@@ -28,42 +28,42 @@
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 1
+  "max_length" : "1"
 }, {
   "id" : "00006",
   "description" : "SENDING APPLICATION",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 15
+  "max_length" : "15"
 }, {
   "id" : "00008",
   "description" : "Security",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 40
+  "max_length" : "40"
 }, {
   "id" : "00009",
   "description" : "RECEIVING APPLICATION",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 15
+  "max_length" : "15"
 }, {
   "id" : "00010",
   "description" : "DATE/TIME OF MESSAGE",
   "truncation" : "NA",
   "datatype_id" : "TS",
   "min_length" : 0,
-  "max_length" : 19
+  "max_length" : "19"
 }, {
   "id" : "00012",
   "description" : "MESSAGE TYPE",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 7,
+  "max_length" : "7",
   "table_id" : "0076"
 }, {
   "id" : "00013",
@@ -71,14 +71,14 @@
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 20
+  "max_length" : "20"
 }, {
   "id" : "00014",
   "description" : "PROCESSING ID",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 1,
+  "max_length" : "1",
   "table_id" : "0103"
 }, {
   "id" : "00015",
@@ -86,7 +86,7 @@
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 8,
+  "max_length" : "8",
   "table_id" : "0104"
 }, {
   "id" : "00020",
@@ -94,14 +94,14 @@
   "truncation" : "NA",
   "datatype_id" : "AD",
   "min_length" : 0,
-  "max_length" : 106
+  "max_length" : "106"
 }, {
   "id" : "00026",
   "description" : "COUNTY CODE",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 4
+  "max_length" : "4"
 }, {
   "id" : "00029",
   "description" : "EVENT TYPE CODE",
@@ -109,7 +109,7 @@
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 3,
+  "max_length" : "3",
   "table_id" : "0003"
 }, {
   "id" : "00030",
@@ -117,21 +117,21 @@
   "truncation" : "NA",
   "datatype_id" : "TS",
   "min_length" : 0,
-  "max_length" : 19
+  "max_length" : "19"
 }, {
   "id" : "00032",
   "description" : "DATE/TIME PLANNED EVENT",
   "truncation" : "NA",
   "datatype_id" : "TS",
   "min_length" : 0,
-  "max_length" : 19
+  "max_length" : "19"
 }, {
   "id" : "00034",
   "description" : "PATIENT ID INTERNAL (INTERNAL ID)",
   "truncation" : "NA",
   "datatype_id" : "CK",
   "min_length" : 0,
-  "max_length" : 16,
+  "max_length" : "16",
   "table_id" : "0061"
 }, {
   "id" : "00035",
@@ -139,7 +139,7 @@
   "truncation" : "NA",
   "datatype_id" : "CK",
   "min_length" : 0,
-  "max_length" : 20,
+  "max_length" : "20",
   "table_id" : "0061"
 }, {
   "id" : "00038",
@@ -147,21 +147,21 @@
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 12
+  "max_length" : "12"
 }, {
   "id" : "00041",
   "description" : "PATIENT NAME",
   "truncation" : "NA",
   "datatype_id" : "PN",
   "min_length" : 0,
-  "max_length" : 48
+  "max_length" : "48"
 }, {
   "id" : "00042",
   "description" : "SEX",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 1,
+  "max_length" : "1",
   "table_id" : "0001"
 }, {
   "id" : "00043",
@@ -169,14 +169,14 @@
   "truncation" : "NA",
   "datatype_id" : "DT",
   "min_length" : 0,
-  "max_length" : 8
+  "max_length" : "8"
 }, {
   "id" : "00044",
   "description" : "ETHNIC GROUP",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 1,
+  "max_length" : "1",
   "table_id" : "0005"
 }, {
   "id" : "00045",
@@ -184,7 +184,7 @@
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 3,
+  "max_length" : "3",
   "table_id" : "0006"
 }, {
   "id" : "00046",
@@ -192,7 +192,7 @@
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 1,
+  "max_length" : "1",
   "table_id" : "0002"
 }, {
   "id" : "00047",
@@ -200,7 +200,7 @@
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 15,
+  "max_length" : "15",
   "table_id" : "0063"
 }, {
   "id" : "00048",
@@ -208,28 +208,28 @@
   "truncation" : "NA",
   "datatype_id" : "PN",
   "min_length" : 0,
-  "max_length" : 48
+  "max_length" : "48"
 }, {
   "id" : "00049",
   "description" : "PHONE NUMBER - HOME",
   "truncation" : "NA",
   "datatype_id" : "TN",
   "min_length" : 0,
-  "max_length" : 40
+  "max_length" : "40"
 }, {
   "id" : "00050",
   "description" : "PHONE NUMBER - BUSINESS",
   "truncation" : "NA",
   "datatype_id" : "TN",
   "min_length" : 0,
-  "max_length" : 40
+  "max_length" : "40"
 }, {
   "id" : "00052",
   "description" : "PATIENT CLASS",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 1,
+  "max_length" : "1",
   "table_id" : "0004"
 }, {
   "id" : "00053",
@@ -237,7 +237,7 @@
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 12,
+  "max_length" : "12",
   "table_id" : "0079"
 }, {
   "id" : "00056",
@@ -245,7 +245,7 @@
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 12,
+  "max_length" : "12",
   "table_id" : "0079"
 }, {
   "id" : "00057",
@@ -253,7 +253,7 @@
   "truncation" : "NA",
   "datatype_id" : "CN",
   "min_length" : 0,
-  "max_length" : 60,
+  "max_length" : "60",
   "table_id" : "0010"
 }, {
   "id" : "00059",
@@ -261,7 +261,7 @@
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 3,
+  "max_length" : "3",
   "table_id" : "0069"
 }, {
   "id" : "00060",
@@ -269,7 +269,7 @@
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 12,
+  "max_length" : "12",
   "table_id" : "0079"
 }, {
   "id" : "00063",
@@ -277,7 +277,7 @@
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 3,
+  "max_length" : "3",
   "table_id" : "0023"
 }, {
   "id" : "00064",
@@ -285,7 +285,7 @@
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 2,
+  "max_length" : "2",
   "table_id" : "0009"
 }, {
   "id" : "00066",
@@ -294,7 +294,7 @@
   "truncation" : "NA",
   "datatype_id" : "CM",
   "min_length" : 0,
-  "max_length" : 15,
+  "max_length" : "15",
   "table_id" : "0100"
 }, {
   "id" : "00068",
@@ -302,7 +302,7 @@
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 2,
+  "max_length" : "2",
   "table_id" : "0012"
 }, {
   "id" : "00080",
@@ -311,7 +311,7 @@
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 80,
+  "max_length" : "80",
   "table_id" : "0060"
 }, {
   "id" : "00120",
@@ -319,14 +319,14 @@
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 1
+  "max_length" : "1"
 }, {
   "id" : "00129",
   "description" : "ROUTE",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 8,
+  "max_length" : "8",
   "table_id" : "0033"
 }, {
   "id" : "00130",
@@ -334,7 +334,7 @@
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 20,
+  "max_length" : "20",
   "table_id" : "0034"
 }, {
   "id" : "00131",
@@ -342,56 +342,56 @@
   "truncation" : "NA",
   "datatype_id" : "CQ",
   "min_length" : 0,
-  "max_length" : 10
+  "max_length" : "10"
 }, {
   "id" : "00133",
   "description" : "DRUG STRENGTH",
   "truncation" : "NA",
   "datatype_id" : "CQ",
   "min_length" : 0,
-  "max_length" : 14
+  "max_length" : "14"
 }, {
   "id" : "00135",
   "description" : "DRUG DOSE",
   "truncation" : "NA",
   "datatype_id" : "CM",
   "min_length" : 0,
-  "max_length" : 10
+  "max_length" : "10"
 }, {
   "id" : "00137",
   "description" : "FINAL CONCENTRATION",
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 10
+  "max_length" : "10"
 }, {
   "id" : "00138",
   "description" : "FINAL VOLUME IN ML.",
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 10
+  "max_length" : "10"
 }, {
   "id" : "00139",
   "description" : "DRUG ROLE",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 1
+  "max_length" : "1"
 }, {
   "id" : "00153",
   "description" : "DATA LINE",
   "truncation" : "NA",
   "datatype_id" : "TX",
   "min_length" : 0,
-  "max_length" : 300
+  "max_length" : "300"
 }, {
   "id" : "00154",
   "description" : "LOGICAL BREAK POINT",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 2
+  "max_length" : "2"
 }, {
   "id" : "00156",
   "description" : "QUERY DATE/TIME",
@@ -399,14 +399,14 @@
   "truncation" : "NA",
   "datatype_id" : "TS",
   "min_length" : 0,
-  "max_length" : 19
+  "max_length" : "19"
 }, {
   "id" : "00158",
   "description" : "QUERY FORMAT CODE",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 1,
+  "max_length" : "1",
   "table_id" : "0106"
 }, {
   "id" : "00159",
@@ -414,7 +414,7 @@
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 1,
+  "max_length" : "1",
   "table_id" : "0091"
 }, {
   "id" : "00160",
@@ -422,14 +422,14 @@
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 10
+  "max_length" : "10"
 }, {
   "id" : "00161",
   "description" : "DEFERRED RESPONSE TYPE",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 1,
+  "max_length" : "1",
   "table_id" : "0107"
 }, {
   "id" : "00162",
@@ -437,14 +437,14 @@
   "truncation" : "NA",
   "datatype_id" : "TS",
   "min_length" : 0,
-  "max_length" : 19
+  "max_length" : "19"
 }, {
   "id" : "00164",
   "description" : "QUANTITY LIMITED REQUEST",
   "truncation" : "NA",
   "datatype_id" : "CQ",
   "min_length" : 0,
-  "max_length" : 5,
+  "max_length" : "5",
   "table_id" : "0126"
 }, {
   "id" : "00167",
@@ -452,21 +452,21 @@
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 60
+  "max_length" : "60"
 }, {
   "id" : "00168",
   "description" : "WHO SUBJECT FILTER",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 20
+  "max_length" : "20"
 }, {
   "id" : "00169",
   "description" : "WHAT SUBJECT FILTER",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 3,
+  "max_length" : "3",
   "table_id" : "0048"
 }, {
   "id" : "00170",
@@ -474,49 +474,49 @@
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 20
+  "max_length" : "20"
 }, {
   "id" : "00171",
   "description" : "WHAT DATA CODE VALUE QUAL.",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 20
+  "max_length" : "20"
 }, {
   "id" : "00173",
   "description" : "WHERE SUBJECT FILTER",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 20
+  "max_length" : "20"
 }, {
   "id" : "00174",
   "description" : "WHEN DATA START DATE/TIME",
   "truncation" : "NA",
   "datatype_id" : "TS",
   "min_length" : 0,
-  "max_length" : 19
+  "max_length" : "19"
 }, {
   "id" : "00176",
   "description" : "WHEN DATA END DATE/TIME",
   "truncation" : "NA",
   "datatype_id" : "TS",
   "min_length" : 0,
-  "max_length" : 19
+  "max_length" : "19"
 }, {
   "id" : "00178",
   "description" : "WHAT USER QUALIFIER",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 20
+  "max_length" : "20"
 }, {
   "id" : "00179",
   "description" : "OTHER QRY SUBJECT FILTER",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 20
+  "max_length" : "20"
 }, {
   "id" : "00182",
   "description" : "ACCIDENT DATE/TIME",
@@ -524,14 +524,14 @@
   "truncation" : "NA",
   "datatype_id" : "TS",
   "min_length" : 0,
-  "max_length" : 19
+  "max_length" : "19"
 }, {
   "id" : "00184",
   "description" : "ACCIDENT CODE",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 2,
+  "max_length" : "2",
   "table_id" : "0050"
 }, {
   "id" : "00185",
@@ -539,14 +539,14 @@
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 25
+  "max_length" : "25"
 }, {
   "id" : "00189",
   "description" : "ADMITTING DOCTOR",
   "truncation" : "NA",
   "datatype_id" : "CN",
   "min_length" : 0,
-  "max_length" : 60,
+  "max_length" : "60",
   "table_id" : "0010"
 }, {
   "id" : "00191",
@@ -554,7 +554,7 @@
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 2,
+  "max_length" : "2",
   "table_id" : "0018"
 }, {
   "id" : "00193",
@@ -562,7 +562,7 @@
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 2,
+  "max_length" : "2",
   "table_id" : "0099"
 }, {
   "id" : "00194",
@@ -570,14 +570,14 @@
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 4
+  "max_length" : "4"
 }, {
   "id" : "00195",
   "description" : "FINANCIAL CLASS",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 11,
+  "max_length" : "11",
   "table_id" : "0064"
 }, {
   "id" : "00199",
@@ -585,7 +585,7 @@
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 2,
+  "max_length" : "2",
   "table_id" : "0032"
 }, {
   "id" : "00200",
@@ -593,7 +593,7 @@
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 2,
+  "max_length" : "2",
   "table_id" : "0046"
 }, {
   "id" : "00201",
@@ -601,7 +601,7 @@
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 2,
+  "max_length" : "2",
   "table_id" : "0044"
 }, {
   "id" : "00202",
@@ -609,28 +609,28 @@
   "truncation" : "NA",
   "datatype_id" : "DT",
   "min_length" : 0,
-  "max_length" : 8
+  "max_length" : "8"
 }, {
   "id" : "00203",
   "description" : "CONTRACT AMOUNT",
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 12
+  "max_length" : "12"
 }, {
   "id" : "00204",
   "description" : "CONTRACT PERIOD",
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 3
+  "max_length" : "3"
 }, {
   "id" : "00205",
   "description" : "TRANSFER TO BAD DEBT CODE",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 1,
+  "max_length" : "1",
   "table_id" : "0110"
 }, {
   "id" : "00206",
@@ -638,7 +638,7 @@
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 10,
+  "max_length" : "10",
   "table_id" : "0021"
 }, {
   "id" : "00207",
@@ -646,7 +646,7 @@
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 1,
+  "max_length" : "1",
   "table_id" : "0111"
 }, {
   "id" : "00208",
@@ -654,14 +654,14 @@
   "truncation" : "NA",
   "datatype_id" : "DT",
   "min_length" : 0,
-  "max_length" : 8
+  "max_length" : "8"
 }, {
   "id" : "00218",
   "description" : "ADMISSION TYPE",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 2,
+  "max_length" : "2",
   "table_id" : "0007"
 }, {
   "id" : "00219",
@@ -669,14 +669,14 @@
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 20
+  "max_length" : "20"
 }, {
   "id" : "00220",
   "description" : "PRE-ADMIT TEST INDICATOR",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 2,
+  "max_length" : "2",
   "table_id" : "0087"
 }, {
   "id" : "00221",
@@ -684,7 +684,7 @@
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 2,
+  "max_length" : "2",
   "table_id" : "0092"
 }, {
   "id" : "00225",
@@ -692,14 +692,14 @@
   "truncation" : "NA",
   "datatype_id" : "AD",
   "min_length" : 0,
-  "max_length" : 106
+  "max_length" : "106"
 }, {
   "id" : "00230",
   "description" : "NEXT OF KIN - PHONE NUMBER",
   "truncation" : "NA",
   "datatype_id" : "TN",
   "min_length" : 0,
-  "max_length" : 40
+  "max_length" : "40"
 }, {
   "id" : "00234",
   "description" : "SET ID - INSURANCE",
@@ -707,98 +707,98 @@
   "truncation" : "NA",
   "datatype_id" : "SI",
   "min_length" : 0,
-  "max_length" : 4
+  "max_length" : "4"
 }, {
   "id" : "00235",
   "description" : "INSURANCE COMPANY ID",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 6
+  "max_length" : "6"
 }, {
   "id" : "00236",
   "description" : "INSURANCE COMPANY NAME",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 45
+  "max_length" : "45"
 }, {
   "id" : "00237",
   "description" : "INSURANCE COMPANY ADDRESS",
   "truncation" : "NA",
   "datatype_id" : "AD",
   "min_length" : 0,
-  "max_length" : 106
+  "max_length" : "106"
 }, {
   "id" : "00242",
   "description" : "INSURANCE CO. CONTACT PERS",
   "truncation" : "NA",
   "datatype_id" : "PN",
   "min_length" : 0,
-  "max_length" : 48
+  "max_length" : "48"
 }, {
   "id" : "00243",
   "description" : "INSURANCE CO PHONE NUMBER",
   "truncation" : "NA",
   "datatype_id" : "TN",
   "min_length" : 0,
-  "max_length" : 40
+  "max_length" : "40"
 }, {
   "id" : "00248",
   "description" : "GROUP NUMBER",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 12
+  "max_length" : "12"
 }, {
   "id" : "00249",
   "description" : "GROUP NAME",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 35
+  "max_length" : "35"
 }, {
   "id" : "00250",
   "description" : "INSURED'S GROUP EMP. ID",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 12
+  "max_length" : "12"
 }, {
   "id" : "00251",
   "description" : "INSURED'S GROUP EMP. NAME",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 45
+  "max_length" : "45"
 }, {
   "id" : "00252",
   "description" : "PLAN EFFECTIVE DATE",
   "truncation" : "NA",
   "datatype_id" : "DT",
   "min_length" : 0,
-  "max_length" : 8
+  "max_length" : "8"
 }, {
   "id" : "00253",
   "description" : "PLAN EXPIRATION DATE",
   "truncation" : "NA",
   "datatype_id" : "DT",
   "min_length" : 0,
-  "max_length" : 8
+  "max_length" : "8"
 }, {
   "id" : "00254",
   "description" : "AUTHORIZATION INFORMATION",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 55
+  "max_length" : "55"
 }, {
   "id" : "00260",
   "description" : "PLAN TYPE",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 2,
+  "max_length" : "2",
   "table_id" : "0086"
 }, {
   "id" : "00261",
@@ -806,14 +806,14 @@
   "truncation" : "NA",
   "datatype_id" : "PN",
   "min_length" : 0,
-  "max_length" : 48
+  "max_length" : "48"
 }, {
   "id" : "00262",
   "description" : "INSURED'S RELATIONSHIP TO PATIENT",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 2,
+  "max_length" : "2",
   "table_id" : "0063"
 }, {
   "id" : "00263",
@@ -821,28 +821,28 @@
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 2
+  "max_length" : "2"
 }, {
   "id" : "00264",
   "description" : "COORDINATION OF BENEFITS",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 2
+  "max_length" : "2"
 }, {
   "id" : "00265",
   "description" : "COORD OF BEN. PRIORITY",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 2
+  "max_length" : "2"
 }, {
   "id" : "00266",
   "description" : "NOTICE OF ADMISSION CODE",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 2,
+  "max_length" : "2",
   "table_id" : "0081"
 }, {
   "id" : "00267",
@@ -850,14 +850,14 @@
   "truncation" : "NA",
   "datatype_id" : "DT",
   "min_length" : 0,
-  "max_length" : 8
+  "max_length" : "8"
 }, {
   "id" : "00268",
   "description" : "RPT OF ELIGIBILITY CODE",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 2,
+  "max_length" : "2",
   "table_id" : "0094"
 }, {
   "id" : "00269",
@@ -865,14 +865,14 @@
   "truncation" : "NA",
   "datatype_id" : "DT",
   "min_length" : 0,
-  "max_length" : 8
+  "max_length" : "8"
 }, {
   "id" : "00270",
   "description" : "RELEASE INFORMATION CODE",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 2,
+  "max_length" : "2",
   "table_id" : "0093"
 }, {
   "id" : "00271",
@@ -880,28 +880,28 @@
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 15
+  "max_length" : "15"
 }, {
   "id" : "00272",
   "description" : "VERIFICATION DATE",
   "truncation" : "NA",
   "datatype_id" : "DT",
   "min_length" : 0,
-  "max_length" : 8
+  "max_length" : "8"
 }, {
   "id" : "00273",
   "description" : "VERIFICATION BY",
   "truncation" : "NA",
   "datatype_id" : "CM",
   "min_length" : 0,
-  "max_length" : 60
+  "max_length" : "60"
 }, {
   "id" : "00277",
   "description" : "TYPE OF AGREEMENT CODE",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 2,
+  "max_length" : "2",
   "table_id" : "0098"
 }, {
   "id" : "00278",
@@ -909,7 +909,7 @@
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 2,
+  "max_length" : "2",
   "table_id" : "0022"
 }, {
   "id" : "00279",
@@ -917,28 +917,28 @@
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 1
+  "max_length" : "1"
 }, {
   "id" : "00280",
   "description" : "LIFETIME RESERVE DAYS",
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 4
+  "max_length" : "4"
 }, {
   "id" : "00281",
   "description" : "DELAY BEFORE L. R. DAY",
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 4
+  "max_length" : "4"
 }, {
   "id" : "00282",
   "description" : "COMPANY PLAN CODE",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 8,
+  "max_length" : "8",
   "table_id" : "0042"
 }, {
   "id" : "00283",
@@ -946,49 +946,49 @@
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 15
+  "max_length" : "15"
 }, {
   "id" : "00284",
   "description" : "POLICY DEDUCTIBLE",
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 12
+  "max_length" : "12"
 }, {
   "id" : "00285",
   "description" : "POLICY LIMIT - AMOUNT",
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 12
+  "max_length" : "12"
 }, {
   "id" : "00286",
   "description" : "POLICY LIMIT - DAYS",
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 4
+  "max_length" : "4"
 }, {
   "id" : "00287",
   "description" : "ROOM RATE - SEMI-PRIVATE",
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 12
+  "max_length" : "12"
 }, {
   "id" : "00288",
   "description" : "ROOM RATE - PRIVATE",
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 12
+  "max_length" : "12"
 }, {
   "id" : "00293",
   "description" : "DIAGNOSIS CODE",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 8,
+  "max_length" : "8",
   "table_id" : "0051"
 }, {
   "id" : "00294",
@@ -996,21 +996,21 @@
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 40
+  "max_length" : "40"
 }, {
   "id" : "00295",
   "description" : "DIAGNOSIS DATE/TIME",
   "truncation" : "NA",
   "datatype_id" : "TS",
   "min_length" : 0,
-  "max_length" : 19
+  "max_length" : "19"
 }, {
   "id" : "00297",
   "description" : "DIAGNOSIS/DRG TYPE",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 2,
+  "max_length" : "2",
   "table_id" : "0052"
 }, {
   "id" : "00298",
@@ -1018,7 +1018,7 @@
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 4,
+  "max_length" : "4",
   "table_id" : "0118"
 }, {
   "id" : "00299",
@@ -1026,7 +1026,7 @@
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 4,
+  "max_length" : "4",
   "table_id" : "0055"
 }, {
   "id" : "00300",
@@ -1034,7 +1034,7 @@
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 3
+  "max_length" : "3"
 }, {
   "id" : "00304",
   "description" : "SET ID - PROCEDURE",
@@ -1042,14 +1042,14 @@
   "truncation" : "NA",
   "datatype_id" : "SI",
   "min_length" : 0,
-  "max_length" : 4
+  "max_length" : "4"
 }, {
   "id" : "00305",
   "description" : "PROCEDURE CODE",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 10,
+  "max_length" : "10",
   "table_id" : "0088"
 }, {
   "id" : "00306",
@@ -1057,21 +1057,21 @@
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 40
+  "max_length" : "40"
 }, {
   "id" : "00307",
   "description" : "PROCEDURE DATE/TIME",
   "truncation" : "NA",
   "datatype_id" : "TS",
   "min_length" : 0,
-  "max_length" : 19
+  "max_length" : "19"
 }, {
   "id" : "00309",
   "description" : "PROCEDURE TYPE",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 2,
+  "max_length" : "2",
   "table_id" : "0090"
 }, {
   "id" : "00310",
@@ -1079,14 +1079,14 @@
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 4
+  "max_length" : "4"
 }, {
   "id" : "00311",
   "description" : "ANESTHESIOLOGIST",
   "truncation" : "NA",
   "datatype_id" : "CN",
   "min_length" : 0,
-  "max_length" : 60,
+  "max_length" : "60",
   "table_id" : "0010"
 }, {
   "id" : "00313",
@@ -1094,7 +1094,7 @@
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 2,
+  "max_length" : "2",
   "table_id" : "0019"
 }, {
   "id" : "00314",
@@ -1102,14 +1102,14 @@
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 4
+  "max_length" : "4"
 }, {
   "id" : "00315",
   "description" : "SURGEON",
   "truncation" : "NA",
   "datatype_id" : "CN",
   "min_length" : 0,
-  "max_length" : 60,
+  "max_length" : "60",
   "table_id" : "0010"
 }, {
   "id" : "00317",
@@ -1117,7 +1117,7 @@
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 2,
+  "max_length" : "2",
   "table_id" : "0059"
 }, {
   "id" : "00318",
@@ -1125,7 +1125,7 @@
   "truncation" : "NA",
   "datatype_id" : "CN",
   "min_length" : 0,
-  "max_length" : 60,
+  "max_length" : "60",
   "table_id" : "0010"
 }, {
   "id" : "00321",
@@ -1134,56 +1134,56 @@
   "truncation" : "NA",
   "datatype_id" : "SI",
   "min_length" : 0,
-  "max_length" : 4
+  "max_length" : "4"
 }, {
   "id" : "00322",
   "description" : "GUARANTOR NUMBER",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 20
+  "max_length" : "20"
 }, {
   "id" : "00323",
   "description" : "GUARANTOR NAME",
   "truncation" : "NA",
   "datatype_id" : "PN",
   "min_length" : 0,
-  "max_length" : 48
+  "max_length" : "48"
 }, {
   "id" : "00324",
   "description" : "GUARANTOR ADDRESS",
   "truncation" : "NA",
   "datatype_id" : "AD",
   "min_length" : 0,
-  "max_length" : 106
+  "max_length" : "106"
 }, {
   "id" : "00329",
   "description" : "GUARANTOR PH. NUM.- HOME",
   "truncation" : "NA",
   "datatype_id" : "TN",
   "min_length" : 0,
-  "max_length" : 40
+  "max_length" : "40"
 }, {
   "id" : "00330",
   "description" : "GUARANTOR PH. NUM-BUSINESS",
   "truncation" : "NA",
   "datatype_id" : "TN",
   "min_length" : 0,
-  "max_length" : 40
+  "max_length" : "40"
 }, {
   "id" : "00331",
   "description" : "GUARANTOR DATE OF BIRTH",
   "truncation" : "NA",
   "datatype_id" : "DT",
   "min_length" : 0,
-  "max_length" : 8
+  "max_length" : "8"
 }, {
   "id" : "00332",
   "description" : "GUARANTOR SEX",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 1,
+  "max_length" : "1",
   "table_id" : "0001"
 }, {
   "id" : "00333",
@@ -1191,7 +1191,7 @@
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 2,
+  "max_length" : "2",
   "table_id" : "0068"
 }, {
   "id" : "00334",
@@ -1199,7 +1199,7 @@
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 2,
+  "max_length" : "2",
   "table_id" : "0063"
 }, {
   "id" : "00335",
@@ -1207,70 +1207,70 @@
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 11
+  "max_length" : "11"
 }, {
   "id" : "00338",
   "description" : "GUARANTOR DATE - BEGIN",
   "truncation" : "NA",
   "datatype_id" : "DT",
   "min_length" : 0,
-  "max_length" : 8
+  "max_length" : "8"
 }, {
   "id" : "00339",
   "description" : "GUARANTOR DATE - END",
   "truncation" : "NA",
   "datatype_id" : "DT",
   "min_length" : 0,
-  "max_length" : 8
+  "max_length" : "8"
 }, {
   "id" : "00340",
   "description" : "GUARANTOR PRIORITY",
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 2
+  "max_length" : "2"
 }, {
   "id" : "00341",
   "description" : "GUARANTOR EMPLOYER NAME",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 45
+  "max_length" : "45"
 }, {
   "id" : "00342",
   "description" : "GUARANTOR EMPLOYER ADDRESS",
   "truncation" : "NA",
   "datatype_id" : "AD",
   "min_length" : 0,
-  "max_length" : 106
+  "max_length" : "106"
 }, {
   "id" : "00347",
   "description" : "GUARANTOR EMPLOY PHONE #",
   "truncation" : "NA",
   "datatype_id" : "TN",
   "min_length" : 0,
-  "max_length" : 40
+  "max_length" : "40"
 }, {
   "id" : "00351",
   "description" : "TRANSACTION DATE",
   "truncation" : "NA",
   "datatype_id" : "DT",
   "min_length" : 0,
-  "max_length" : 8
+  "max_length" : "8"
 }, {
   "id" : "00352",
   "description" : "TRANSACTION POSTING DATE",
   "truncation" : "NA",
   "datatype_id" : "DT",
   "min_length" : 0,
-  "max_length" : 8
+  "max_length" : "8"
 }, {
   "id" : "00353",
   "description" : "TRANSACTION TYPE",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 8,
+  "max_length" : "8",
   "table_id" : "0017"
 }, {
   "id" : "00354",
@@ -1278,7 +1278,7 @@
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 20,
+  "max_length" : "20",
   "table_id" : "0096"
 }, {
   "id" : "00355",
@@ -1286,7 +1286,7 @@
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 16,
+  "max_length" : "16",
   "table_id" : "0049"
 }, {
   "id" : "00356",
@@ -1294,28 +1294,28 @@
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 40
+  "max_length" : "40"
 }, {
   "id" : "00357",
   "description" : "TRANSACTION QUANTITY",
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 4
+  "max_length" : "4"
 }, {
   "id" : "00358",
   "description" : "TRANSACTION AMOUNT - EXTENDED",
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 12
+  "max_length" : "12"
 }, {
   "id" : "00359",
   "description" : "INSURANCE PLAN ID",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 8,
+  "max_length" : "8",
   "table_id" : "0072"
 }, {
   "id" : "00360",
@@ -1323,14 +1323,14 @@
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 12
+  "max_length" : "12"
 }, {
   "id" : "00361",
   "description" : "PATIENT LOCATION",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 12,
+  "max_length" : "12",
   "table_id" : "0079"
 }, {
   "id" : "00362",
@@ -1338,7 +1338,7 @@
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 1,
+  "max_length" : "1",
   "table_id" : "0024"
 }, {
   "id" : "00363",
@@ -1346,7 +1346,7 @@
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 2,
+  "max_length" : "2",
   "table_id" : "0018"
 }, {
   "id" : "00364",
@@ -1354,7 +1354,7 @@
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 8,
+  "max_length" : "8",
   "table_id" : "0051"
 }, {
   "id" : "00366",
@@ -1362,14 +1362,14 @@
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 12
+  "max_length" : "12"
 }, {
   "id" : "00369",
   "description" : "EVENT REASON CODE",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 3,
+  "max_length" : "3",
   "table_id" : "0062"
 }, {
   "id" : "00373",
@@ -1377,14 +1377,14 @@
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 2
+  "max_length" : "2"
 }, {
   "id" : "00374",
   "description" : "DRG GROUPER REVIEW CODE",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 2,
+  "max_length" : "2",
   "table_id" : "0056"
 }, {
   "id" : "00375",
@@ -1392,7 +1392,7 @@
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 2,
+  "max_length" : "2",
   "table_id" : "0083"
 }, {
   "id" : "00376",
@@ -1400,14 +1400,14 @@
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 12
+  "max_length" : "12"
 }, {
   "id" : "00377",
   "description" : "PERFORMED BY CODE",
   "truncation" : "NA",
   "datatype_id" : "CN",
   "min_length" : 0,
-  "max_length" : 60,
+  "max_length" : "60",
   "table_id" : "0084"
 }, {
   "id" : "00378",
@@ -1415,7 +1415,7 @@
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 8,
+  "max_length" : "8",
   "table_id" : "0072"
 }, {
   "id" : "00386",
@@ -1423,7 +1423,7 @@
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 2,
+  "max_length" : "2",
   "table_id" : "0045"
 }, {
   "id" : "00387",
@@ -1431,7 +1431,7 @@
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 2,
+  "max_length" : "2",
   "table_id" : "0073"
 }, {
   "id" : "00388",
@@ -1439,35 +1439,35 @@
   "truncation" : "NA",
   "datatype_id" : "DT",
   "min_length" : 0,
-  "max_length" : 8
+  "max_length" : "8"
 }, {
   "id" : "00389",
   "description" : "BAD DEBT TRANSFER AMOUNT",
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 12
+  "max_length" : "12"
 }, {
   "id" : "00390",
   "description" : "BAD DEBT RECOVERY AMOUNT",
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 12
+  "max_length" : "12"
 }, {
   "id" : "00391",
   "description" : "GUARANTOR EMPLOYEE ID NUM",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 20
+  "max_length" : "20"
 }, {
   "id" : "00392",
   "description" : "GUARANTOR EMPLOYMENT STATUS",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 2,
+  "max_length" : "2",
   "table_id" : "0066"
 }, {
   "id" : "00393",
@@ -1475,7 +1475,7 @@
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 2,
+  "max_length" : "2",
   "table_id" : "0089"
 }, {
   "id" : "00394",
@@ -1483,7 +1483,7 @@
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 2,
+  "max_length" : "2",
   "table_id" : "0053"
 }, {
   "id" : "00396",
@@ -1491,35 +1491,35 @@
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 2
+  "max_length" : "2"
 }, {
   "id" : "00397",
   "description" : "BLOOD REPLACED-PINTS (41)",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 2
+  "max_length" : "2"
 }, {
   "id" : "00398",
   "description" : "BLOOD NOT RPLCD-PINTS(42)",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 2
+  "max_length" : "2"
 }, {
   "id" : "00399",
   "description" : "CO-INSURANCE DAYS (25)",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 2
+  "max_length" : "2"
 }, {
   "id" : "00400",
   "description" : "CONDITION CODE",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 2,
+  "max_length" : "2",
   "table_id" : "0043"
 }, {
   "id" : "00405",
@@ -1527,126 +1527,126 @@
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 3
+  "max_length" : "3"
 }, {
   "id" : "00406",
   "description" : "NON COVERED DAYS - (24)",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 3
+  "max_length" : "3"
 }, {
   "id" : "00407",
   "description" : "VALUE AMOUNT & CODE",
   "truncation" : "NA",
   "datatype_id" : "CM",
   "min_length" : 0,
-  "max_length" : 12
+  "max_length" : "12"
 }, {
   "id" : "00424",
   "description" : "NUMBER OF GRACE DAYS (90)",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 2
+  "max_length" : "2"
 }, {
   "id" : "00425",
   "description" : "SPEC. PROG. INDICATOR(44)",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 2
+  "max_length" : "2"
 }, {
   "id" : "00426",
   "description" : "PSRO/UR APPROVAL IND. (87)",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 1
+  "max_length" : "1"
 }, {
   "id" : "00427",
   "description" : "PSRO/UR APRVD STAY-FM(88)",
   "truncation" : "NA",
   "datatype_id" : "DT",
   "min_length" : 0,
-  "max_length" : 8
+  "max_length" : "8"
 }, {
   "id" : "00428",
   "description" : "PSRO/UR APRVD STAY-TO(89)",
   "truncation" : "NA",
   "datatype_id" : "DT",
   "min_length" : 0,
-  "max_length" : 8
+  "max_length" : "8"
 }, {
   "id" : "00429",
   "description" : "OCCURRENCE (28-32)",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 20
+  "max_length" : "20"
 }, {
   "id" : "00435",
   "description" : "OCCURRENCE SPAN (33)",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 2
+  "max_length" : "2"
 }, {
   "id" : "00446",
   "description" : "OCCURRENCE SPAN START DATE(33)",
   "truncation" : "NA",
   "datatype_id" : "DT",
   "min_length" : 0,
-  "max_length" : 8
+  "max_length" : "8"
 }, {
   "id" : "00447",
   "description" : "OCCUR. SPAN END DATE (33)",
   "truncation" : "NA",
   "datatype_id" : "DT",
   "min_length" : 0,
-  "max_length" : 8
+  "max_length" : "8"
 }, {
   "id" : "00448",
   "description" : "UB-82 LOCATOR 2",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 30
+  "max_length" : "30"
 }, {
   "id" : "00449",
   "description" : "UB-82 LOCATOR 9",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 7
+  "max_length" : "7"
 }, {
   "id" : "00450",
   "description" : "UB-82 LOCATOR 27",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 8
+  "max_length" : "8"
 }, {
   "id" : "00451",
   "description" : "UB-82 LOCATOR 45",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 17
+  "max_length" : "17"
 }, {
   "id" : "00453",
   "description" : "DRIVER'S LIC NUM - PATIENT",
   "truncation" : "NA",
   "datatype_id" : "CM",
   "min_length" : 0,
-  "max_length" : 25
+  "max_length" : "25"
 }, {
   "id" : "00457",
   "description" : "SSN NUMBER - PATIENT",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 16
+  "max_length" : "16"
 }, {
   "id" : "00458",
   "description" : "SET ID - PATIENT VISIT",
@@ -1654,7 +1654,7 @@
   "truncation" : "NA",
   "datatype_id" : "SI",
   "min_length" : 0,
-  "max_length" : 4
+  "max_length" : "4"
 }, {
   "id" : "00459",
   "description" : "SET ID - UB82",
@@ -1662,35 +1662,35 @@
   "truncation" : "NA",
   "datatype_id" : "SI",
   "min_length" : 0,
-  "max_length" : 4
+  "max_length" : "4"
 }, {
   "id" : "00464",
   "description" : "LANGUAGE - PATIENT",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 25
+  "max_length" : "25"
 }, {
   "id" : "00469",
   "description" : "PRESCRIPTION SEQUENCE #",
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 3
+  "max_length" : "3"
 }, {
   "id" : "00470",
   "description" : "QUANTITY DISPENSED",
   "truncation" : "NA",
   "datatype_id" : "CQ",
   "min_length" : 0,
-  "max_length" : 4
+  "max_length" : "4"
 }, {
   "id" : "00473",
   "description" : "DRUG ID",
   "truncation" : "NA",
   "datatype_id" : "CE_0057",
   "min_length" : 0,
-  "max_length" : 5,
+  "max_length" : "5",
   "table_id" : "0057"
 }, {
   "id" : "00474",
@@ -1698,63 +1698,63 @@
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 5
+  "max_length" : "5"
 }, {
   "id" : "00479",
   "description" : "PRESCRIPTION TYPE",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 2
+  "max_length" : "2"
 }, {
   "id" : "00480",
   "description" : "SUBSTITUTION STATUS",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 1
+  "max_length" : "1"
 }, {
   "id" : "00481",
   "description" : "NUMBER OF REFILLS",
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 3
+  "max_length" : "3"
 }, {
   "id" : "00482",
   "description" : "REFILLS REMAINING",
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 3
+  "max_length" : "3"
 }, {
   "id" : "00483",
   "description" : "LAST REFILL DATE/TIME",
   "truncation" : "NA",
   "datatype_id" : "TS",
   "min_length" : 0,
-  "max_length" : 19
+  "max_length" : "19"
 }, {
   "id" : "00484",
   "description" : "PHARMACY INSTRUCTIONS",
   "truncation" : "NA",
   "datatype_id" : "TX",
   "min_length" : 0,
-  "max_length" : 80
+  "max_length" : "80"
 }, {
   "id" : "00489",
   "description" : "PATIENT INSTRUCTIONS",
   "truncation" : "NA",
   "datatype_id" : "TX",
   "min_length" : 0,
-  "max_length" : 80
+  "max_length" : "80"
 }, {
   "id" : "00503",
   "description" : "TRANSACTION BATCH ID",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 5
+  "max_length" : "5"
 }, {
   "id" : "00506",
   "description" : "SET ID - DIAGNOSIS",
@@ -1762,7 +1762,7 @@
   "truncation" : "NA",
   "datatype_id" : "SI",
   "min_length" : 0,
-  "max_length" : 4
+  "max_length" : "4"
 }, {
   "id" : "00507",
   "description" : "SET ID - FINANCIAL TRANSACTION",
@@ -1770,28 +1770,28 @@
   "truncation" : "NA",
   "datatype_id" : "SI",
   "min_length" : 0,
-  "max_length" : 4
+  "max_length" : "4"
 }, {
   "id" : "00509",
   "description" : "ENCODING CHARACTERS",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 4
+  "max_length" : "4"
 }, {
   "id" : "00512",
   "description" : "SENDING FACILITY",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 20
+  "max_length" : "20"
 }, {
   "id" : "00513",
   "description" : "RECEIVING FACILITY",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 30
+  "max_length" : "30"
 }, {
   "id" : "00520",
   "description" : "SET ID - OBSERVATION REQUEST",
@@ -1799,49 +1799,49 @@
   "truncation" : "NA",
   "datatype_id" : "SI",
   "min_length" : 0,
-  "max_length" : 4
+  "max_length" : "4"
 }, {
   "id" : "00523",
   "description" : "UNIVERSAL SERVICE IDENT.",
   "truncation" : "NA",
   "datatype_id" : "CE",
   "min_length" : 0,
-  "max_length" : 200
+  "max_length" : "200"
 }, {
   "id" : "00524",
   "description" : "PRIORITY",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 2
+  "max_length" : "2"
 }, {
   "id" : "00529",
   "description" : "REQUESTED DATE-TIME",
   "truncation" : "NA",
   "datatype_id" : "TS",
   "min_length" : 0,
-  "max_length" : 19
+  "max_length" : "19"
 }, {
   "id" : "00530",
   "description" : "OBSERVATION DATE/TIME",
   "truncation" : "NA",
   "datatype_id" : "TS",
   "min_length" : 0,
-  "max_length" : 19
+  "max_length" : "19"
 }, {
   "id" : "00531",
   "description" : "OBSERVATION END DATE/TIME",
   "truncation" : "NA",
   "datatype_id" : "TS",
   "min_length" : 0,
-  "max_length" : 19
+  "max_length" : "19"
 }, {
   "id" : "00532",
   "description" : "COLLECTION VOLUME",
   "truncation" : "NA",
   "datatype_id" : "CQ",
   "min_length" : 0,
-  "max_length" : 20,
+  "max_length" : "20",
   "table_id" : "0036"
 }, {
   "id" : "00533",
@@ -1849,14 +1849,14 @@
   "truncation" : "NA",
   "datatype_id" : "CN",
   "min_length" : 0,
-  "max_length" : 60
+  "max_length" : "60"
 }, {
   "id" : "00534",
   "description" : "SPECIMEN ACTION CODE",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 1,
+  "max_length" : "1",
   "table_id" : "0065"
 }, {
   "id" : "00535",
@@ -1864,7 +1864,7 @@
   "truncation" : "NA",
   "datatype_id" : "CM",
   "min_length" : 0,
-  "max_length" : 60,
+  "max_length" : "60",
   "table_id" : "0047"
 }, {
   "id" : "00536",
@@ -1872,21 +1872,21 @@
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 300
+  "max_length" : "300"
 }, {
   "id" : "00537",
   "description" : "SPECIMEN RECEIVED DATE/TIME",
   "truncation" : "NA",
   "datatype_id" : "TS",
   "min_length" : 0,
-  "max_length" : 19
+  "max_length" : "19"
 }, {
   "id" : "00538",
   "description" : "SPECIMEN SOURCE",
   "truncation" : "NA",
   "datatype_id" : "CM",
   "min_length" : 0,
-  "max_length" : 300,
+  "max_length" : "300",
   "table_id" : "0070"
 }, {
   "id" : "00539",
@@ -1894,7 +1894,7 @@
   "truncation" : "NA",
   "datatype_id" : "CN",
   "min_length" : 0,
-  "max_length" : 60,
+  "max_length" : "60",
   "table_id" : "0010"
 }, {
   "id" : "00540",
@@ -1902,56 +1902,56 @@
   "truncation" : "NA",
   "datatype_id" : "TN",
   "min_length" : 0,
-  "max_length" : 40
+  "max_length" : "40"
 }, {
   "id" : "00541",
   "description" : "PLACERS FIELD #1",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 60
+  "max_length" : "60"
 }, {
   "id" : "00542",
   "description" : "PLACERS FIELD #2",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 60
+  "max_length" : "60"
 }, {
   "id" : "00543",
   "description" : "FILLERS FIELD #1",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 60
+  "max_length" : "60"
 }, {
   "id" : "00544",
   "description" : "FILLERS FIELD #2",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 60
+  "max_length" : "60"
 }, {
   "id" : "00546",
   "description" : "RESULTS RPT/STATUS CHNG - DATE/T",
   "truncation" : "NA",
   "datatype_id" : "TS",
   "min_length" : 0,
-  "max_length" : 19
+  "max_length" : "19"
 }, {
   "id" : "00547",
   "description" : "CHARGE TO PRACTICE",
   "truncation" : "NA",
   "datatype_id" : "CM",
   "min_length" : 0,
-  "max_length" : 40
+  "max_length" : "40"
 }, {
   "id" : "00548",
   "description" : "DIAGNOSTIC SERV SECT ID",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 10,
+  "max_length" : "10",
   "table_id" : "0074"
 }, {
   "id" : "00550",
@@ -1959,14 +1959,14 @@
   "truncation" : "NA",
   "datatype_id" : "CE",
   "min_length" : 0,
-  "max_length" : 200
+  "max_length" : "200"
 }, {
   "id" : "00551",
   "description" : "RESULT COPIES TO",
   "truncation" : "NA",
   "datatype_id" : "CN",
   "min_length" : 0,
-  "max_length" : 80
+  "max_length" : "80"
 }, {
   "id" : "00559",
   "description" : "SET ID - OBSERVATION SIMPLE",
@@ -1974,42 +1974,42 @@
   "truncation" : "NA",
   "datatype_id" : "SI",
   "min_length" : 0,
-  "max_length" : 4
+  "max_length" : "4"
 }, {
   "id" : "00560",
   "description" : "OBSERVATION IDENTIFIER",
   "truncation" : "NA",
   "datatype_id" : "CE",
   "min_length" : 0,
-  "max_length" : 80
+  "max_length" : "80"
 }, {
   "id" : "00561",
   "description" : "OBSERVATION RESULTS",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 65
+  "max_length" : "65"
 }, {
   "id" : "00562",
   "description" : "UNITS",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 20
+  "max_length" : "20"
 }, {
   "id" : "00563",
   "description" : "REFERENCES RANGE",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 60
+  "max_length" : "60"
 }, {
   "id" : "00564",
   "description" : "ABNORMAL FLAGS",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 10,
+  "max_length" : "10",
   "table_id" : "0078"
 }, {
   "id" : "00565",
@@ -2017,7 +2017,7 @@
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 5,
+  "max_length" : "5",
   "table_id" : "0080"
 }, {
   "id" : "00566",
@@ -2025,7 +2025,7 @@
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 2,
+  "max_length" : "2",
   "table_id" : "0085"
 }, {
   "id" : "00567",
@@ -2033,21 +2033,21 @@
   "truncation" : "NA",
   "datatype_id" : "TS",
   "min_length" : 0,
-  "max_length" : 19
+  "max_length" : "19"
 }, {
   "id" : "00570",
   "description" : "SET ID - DISPLAY DATA",
   "truncation" : "NA",
   "datatype_id" : "SI",
   "min_length" : 0,
-  "max_length" : 4
+  "max_length" : "4"
 }, {
   "id" : "00571",
   "description" : "DISPLAY LEVEL",
   "truncation" : "NA",
   "datatype_id" : "SI",
   "min_length" : 0,
-  "max_length" : 4
+  "max_length" : "4"
 }, {
   "id" : "00572",
   "description" : "SET ID - PATIENT ID",
@@ -2055,7 +2055,7 @@
   "truncation" : "NA",
   "datatype_id" : "SI",
   "min_length" : 0,
-  "max_length" : 4
+  "max_length" : "4"
 }, {
   "id" : "00573",
   "description" : "SET ID - NOTES AND COMMENTS",
@@ -2063,14 +2063,14 @@
   "truncation" : "NA",
   "datatype_id" : "SI",
   "min_length" : 0,
-  "max_length" : 4
+  "max_length" : "4"
 }, {
   "id" : "00574",
   "description" : "SOURCE OF COMMENT",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 8,
+  "max_length" : "8",
   "table_id" : "0105"
 }, {
   "id" : "00575",
@@ -2078,7 +2078,7 @@
   "truncation" : "NA",
   "datatype_id" : "TX",
   "min_length" : 0,
-  "max_length" : 120
+  "max_length" : "120"
 }, {
   "id" : "00576",
   "description" : "PRIOR PATIENT ID - INTERNAL",
@@ -2086,7 +2086,7 @@
   "truncation" : "NA",
   "datatype_id" : "CK",
   "min_length" : 0,
-  "max_length" : 16,
+  "max_length" : "16",
   "table_id" : "0061"
 }, {
   "id" : "00577",
@@ -2094,7 +2094,7 @@
   "truncation" : "NA",
   "datatype_id" : "CK",
   "min_length" : 0,
-  "max_length" : 16,
+  "max_length" : "16",
   "table_id" : "0061"
 }, {
   "id" : "00578",
@@ -2102,7 +2102,7 @@
   "truncation" : "NA",
   "datatype_id" : "CK",
   "min_length" : 0,
-  "max_length" : 20,
+  "max_length" : "20",
   "table_id" : "0061"
 }, {
   "id" : "00579",
@@ -2110,7 +2110,7 @@
   "truncation" : "NA",
   "datatype_id" : "CN",
   "min_length" : 0,
-  "max_length" : 60,
+  "max_length" : "60",
   "table_id" : "0010"
 }, {
   "id" : "00580",
@@ -2118,7 +2118,7 @@
   "truncation" : "NA",
   "datatype_id" : "CN",
   "min_length" : 0,
-  "max_length" : 60,
+  "max_length" : "60",
   "table_id" : "0010"
 }, {
   "id" : "00581",
@@ -2126,7 +2126,7 @@
   "truncation" : "NA",
   "datatype_id" : "CK",
   "min_length" : 0,
-  "max_length" : 16,
+  "max_length" : "16",
   "table_id" : "0061"
 }, {
   "id" : "00582",
@@ -2134,21 +2134,21 @@
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 30
+  "max_length" : "30"
 }, {
   "id" : "00586",
   "description" : "RESULTS COPIES TO",
   "truncation" : "NA",
   "datatype_id" : "CN",
   "min_length" : 0,
-  "max_length" : 80
+  "max_length" : "80"
 }, {
   "id" : "00588",
   "description" : "RX ORDER STATUS",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 2,
+  "max_length" : "2",
   "table_id" : "0038"
 }, {
   "id" : "00596",
@@ -2156,42 +2156,42 @@
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 20
+  "max_length" : "20"
 }, {
   "id" : "00597",
   "description" : "PATIENT ALIAS",
   "truncation" : "NA",
   "datatype_id" : "PN",
   "min_length" : 0,
-  "max_length" : 48
+  "max_length" : "48"
 }, {
   "id" : "00598",
   "description" : "EXPECTED SEQUENCE NUMBER",
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 15
+  "max_length" : "15"
 }, {
   "id" : "00599",
   "description" : "RESULT ID",
   "truncation" : "NA",
   "datatype_id" : "TX",
   "min_length" : 0,
-  "max_length" : 20
+  "max_length" : "20"
 }, {
   "id" : "00600",
   "description" : "R/U DATE/TIME",
   "truncation" : "NA",
   "datatype_id" : "TS",
   "min_length" : 0,
-  "max_length" : 19
+  "max_length" : "19"
 }, {
   "id" : "00601",
   "description" : "REPORT PRIORITY",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 1,
+  "max_length" : "1",
   "table_id" : "0109"
 }, {
   "id" : "00602",
@@ -2199,14 +2199,14 @@
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 20
+  "max_length" : "20"
 }, {
   "id" : "00603",
   "description" : "R/U WHAT SUBJECT DEFINITION",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 3,
+  "max_length" : "3",
   "table_id" : "0048"
 }, {
   "id" : "00605",
@@ -2214,56 +2214,56 @@
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 20
+  "max_length" : "20"
 }, {
   "id" : "00607",
   "description" : "R/U DISPLAY/PRINT LOCATIONS",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 20
+  "max_length" : "20"
 }, {
   "id" : "00608",
   "description" : "R/U WHERE SUBJECT DEFINITION",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 20
+  "max_length" : "20"
 }, {
   "id" : "00609",
   "description" : "R/U WHEN DATA START DATE/TIME",
   "truncation" : "NA",
   "datatype_id" : "TS",
   "min_length" : 0,
-  "max_length" : 19
+  "max_length" : "19"
 }, {
   "id" : "00610",
   "description" : "R/U WHEN DATA END DATE/TIME",
   "truncation" : "NA",
   "datatype_id" : "TS",
   "min_length" : 0,
-  "max_length" : 19
+  "max_length" : "19"
 }, {
   "id" : "00611",
   "description" : "R/U WHAT USER QUALIFIER",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 20
+  "max_length" : "20"
 }, {
   "id" : "00612",
   "description" : "R/U OTHER RESULTS SUBJECT DEFINI",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 20
+  "max_length" : "20"
 }, {
   "id" : "00613",
   "description" : "DISCHARGE DISPOSITION",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 2,
+  "max_length" : "2",
   "table_id" : "0112"
 }, {
   "id" : "00614",
@@ -2271,7 +2271,7 @@
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 2,
+  "max_length" : "2",
   "table_id" : "0113"
 }, {
   "id" : "00615",
@@ -2279,7 +2279,7 @@
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 2,
+  "max_length" : "2",
   "table_id" : "0114"
 }, {
   "id" : "00616",
@@ -2287,7 +2287,7 @@
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 2,
+  "max_length" : "2",
   "table_id" : "0115"
 }, {
   "id" : "00617",
@@ -2295,7 +2295,7 @@
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 1,
+  "max_length" : "1",
   "table_id" : "0116"
 }, {
   "id" : "00618",
@@ -2303,35 +2303,35 @@
   "truncation" : "NA",
   "datatype_id" : "TX",
   "min_length" : 0,
-  "max_length" : 500
+  "max_length" : "500"
 }, {
   "id" : "00619",
   "description" : "DEA CLASS",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 5
+  "max_length" : "5"
 }, {
   "id" : "00620",
   "description" : "ORDERING MD'S DEA NUMBER",
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 10
+  "max_length" : "10"
 }, {
   "id" : "00621",
   "description" : "PRN STATUS",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 5
+  "max_length" : "5"
 }, {
   "id" : "00625",
   "description" : "TRANSPORTATION MODE",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 20,
+  "max_length" : "20",
   "table_id" : "0124"
 }, {
   "id" : "00626",
@@ -2339,42 +2339,42 @@
   "truncation" : "NA",
   "datatype_id" : "CE",
   "min_length" : 0,
-  "max_length" : 300
+  "max_length" : "300"
 }, {
   "id" : "00627",
   "description" : "PRINCIPAL RESULT INTERPRETER",
   "truncation" : "NA",
   "datatype_id" : "CN",
   "min_length" : 0,
-  "max_length" : 60
+  "max_length" : "60"
 }, {
   "id" : "00628",
   "description" : "ASSISTANT RESULT INTERPRETER",
   "truncation" : "NA",
   "datatype_id" : "CN",
   "min_length" : 0,
-  "max_length" : 60
+  "max_length" : "60"
 }, {
   "id" : "00629",
   "description" : "TRANSCRIPTIONIST",
   "truncation" : "NA",
   "datatype_id" : "CN",
   "min_length" : 0,
-  "max_length" : 60
+  "max_length" : "60"
 }, {
   "id" : "00630",
   "description" : "TECHNICIAN",
   "truncation" : "NA",
   "datatype_id" : "CN",
   "min_length" : 0,
-  "max_length" : 60
+  "max_length" : "60"
 }, {
   "id" : "00632",
   "description" : "DELAYED ACKNOWLEDGMENT TYPE",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 1,
+  "max_length" : "1",
   "table_id" : "0102"
 }, {
   "id" : "00633",
@@ -2382,14 +2382,14 @@
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 15
+  "max_length" : "15"
 }, {
   "id" : "00639",
   "description" : "PROBABILITY",
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 5
+  "max_length" : "5"
 }, {
   "id" : "00641",
   "description" : "ADDENDUM CONTINUATION POINTER",
@@ -2397,70 +2397,70 @@
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 60
+  "max_length" : "60"
 }, {
   "id" : "00655",
   "description" : "BATCH CREATION DATE/TIME",
   "truncation" : "NA",
   "datatype_id" : "TS",
   "min_length" : 0,
-  "max_length" : 19
+  "max_length" : "19"
 }, {
   "id" : "00656",
   "description" : "BATCH NAME/ID/TYPE",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 20
+  "max_length" : "20"
 }, {
   "id" : "00657",
   "description" : "BATCH COMMENT",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 80
+  "max_length" : "80"
 }, {
   "id" : "00658",
   "description" : "BATCH CONTROL ID",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 20
+  "max_length" : "20"
 }, {
   "id" : "00659",
   "description" : "REFERENCE BATCH CONTROL ID",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 20
+  "max_length" : "20"
 }, {
   "id" : "00660",
   "description" : "DATE/TIME OF FILE CREATION",
   "truncation" : "NA",
   "datatype_id" : "TS",
   "min_length" : 0,
-  "max_length" : 19
+  "max_length" : "19"
 }, {
   "id" : "00661",
   "description" : "FILE NAME/ID",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 20
+  "max_length" : "20"
 }, {
   "id" : "00662",
   "description" : "FILE HEADER COMMENT",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 80
+  "max_length" : "80"
 }, {
   "id" : "00663",
   "description" : "FILE CONTROL ID",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 20
+  "max_length" : "20"
 }, {
   "id" : "00664",
   "description" : "BATCH MESSAGE COUNT",
@@ -2468,21 +2468,21 @@
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 10
+  "max_length" : "10"
 }, {
   "id" : "00665",
   "description" : "BATCH COMMENT",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 80
+  "max_length" : "80"
 }, {
   "id" : "00666",
   "description" : "BATCH TOTALS",
   "truncation" : "NA",
   "datatype_id" : "CM",
   "min_length" : 0,
-  "max_length" : 100
+  "max_length" : "100"
 }, {
   "id" : "00667",
   "description" : "FILE BATCH COUNT",
@@ -2490,21 +2490,21 @@
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 10
+  "max_length" : "10"
 }, {
   "id" : "00668",
   "description" : "FILE TRAILER COMMENT",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 80
+  "max_length" : "80"
 }, {
   "id" : "00671",
   "description" : "BED STATUS",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 1,
+  "max_length" : "1",
   "table_id" : "0116"
 }, {
   "id" : "00676",
@@ -2512,7 +2512,7 @@
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 2,
+  "max_length" : "2",
   "table_id" : "0125"
 }, {
   "id" : "00685",
@@ -2521,49 +2521,49 @@
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 1
+  "max_length" : "1"
 }, {
   "id" : "00686",
   "description" : "BATCH ENCODING CHARACTERS",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 3
+  "max_length" : "3"
 }, {
   "id" : "00687",
   "description" : "BATCH SENDING APPLICATION",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 15
+  "max_length" : "15"
 }, {
   "id" : "00688",
   "description" : "BATCH SENDING FACILITY",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 20
+  "max_length" : "20"
 }, {
   "id" : "00689",
   "description" : "BATCH RECEIVING APPLICATION",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 15
+  "max_length" : "15"
 }, {
   "id" : "00690",
   "description" : "BATCH RECEIVING FACILITY",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 20
+  "max_length" : "20"
 }, {
   "id" : "00691",
   "description" : "BATCH SECURITY",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 40
+  "max_length" : "40"
 }, {
   "id" : "00692",
   "description" : "FILE FIELD SEPARATOR",
@@ -2571,63 +2571,63 @@
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 1
+  "max_length" : "1"
 }, {
   "id" : "00693",
   "description" : "FILE ENCODING CHARACTERS",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 4
+  "max_length" : "4"
 }, {
   "id" : "00694",
   "description" : "FILE SENDING APPLICATION",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 15
+  "max_length" : "15"
 }, {
   "id" : "00695",
   "description" : "FILE SENDING FACILITY",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 20
+  "max_length" : "20"
 }, {
   "id" : "00696",
   "description" : "FILE RECEIVING APPLICATION",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 15
+  "max_length" : "15"
 }, {
   "id" : "00697",
   "description" : "FILE RECEIVING FACILITY",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 20
+  "max_length" : "20"
 }, {
   "id" : "00698",
   "description" : "FILE SECURITY",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 40
+  "max_length" : "40"
 }, {
   "id" : "00699",
   "description" : "CONTINUATION POINTER",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 180
+  "max_length" : "180"
 }, {
   "id" : "00701",
   "description" : "QUERY RESULTS LEVEL",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 1,
+  "max_length" : "1",
   "table_id" : "0108"
 }, {
   "id" : "00702",
@@ -2635,7 +2635,7 @@
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 1,
+  "max_length" : "1",
   "table_id" : "0108"
 }, {
   "id" : "00703",
@@ -2643,7 +2643,7 @@
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 2,
+  "max_length" : "2",
   "table_id" : "0117"
 }, {
   "id" : "00704",
@@ -2651,7 +2651,7 @@
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 12,
+  "max_length" : "12",
   "table_id" : "0079"
 }, {
   "id" : "00705",
@@ -2659,7 +2659,7 @@
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 12,
+  "max_length" : "12",
   "table_id" : "0079"
 }, {
   "id" : "00706",
@@ -2667,35 +2667,35 @@
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 40
+  "max_length" : "40"
 }, {
   "id" : "00707",
   "description" : "GUARANTOR SPOUSE NAME",
   "truncation" : "NA",
   "datatype_id" : "PN",
   "min_length" : 0,
-  "max_length" : 48
+  "max_length" : "48"
 }, {
   "id" : "00708",
   "description" : "INSURED'S DATE OF BIRTH",
   "truncation" : "NA",
   "datatype_id" : "DT",
   "min_length" : 0,
-  "max_length" : 8
+  "max_length" : "8"
 }, {
   "id" : "00709",
   "description" : "INSURED'S ADDRESS",
   "truncation" : "NA",
   "datatype_id" : "AD",
   "min_length" : 0,
-  "max_length" : 106
+  "max_length" : "106"
 }, {
   "id" : "00710",
   "description" : "INSURED'S EMPLOYMENT STATUS",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 1,
+  "max_length" : "1",
   "table_id" : "0066"
 }, {
   "id" : "00711",
@@ -2703,7 +2703,7 @@
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 1,
+  "max_length" : "1",
   "table_id" : "0001"
 }, {
   "id" : "00712",
@@ -2712,14 +2712,14 @@
   "truncation" : "NA",
   "datatype_id" : "SI",
   "min_length" : 0,
-  "max_length" : 4
+  "max_length" : "4"
 }, {
   "id" : "00713",
   "description" : "INSURED'S EMPLOYER ADDRESS",
   "truncation" : "NA",
   "datatype_id" : "AD",
   "min_length" : 0,
-  "max_length" : 106
+  "max_length" : "106"
 }, {
   "id" : "00714",
   "description" : "ORDER CONTROL",
@@ -2727,7 +2727,7 @@
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 2,
+  "max_length" : "2",
   "table_id" : "0119"
 }, {
   "id" : "00715",
@@ -2735,28 +2735,28 @@
   "truncation" : "NA",
   "datatype_id" : "CM",
   "min_length" : 0,
-  "max_length" : 75
+  "max_length" : "75"
 }, {
   "id" : "00716",
   "description" : "FILLER ORDER #",
   "truncation" : "NA",
   "datatype_id" : "CM",
   "min_length" : 0,
-  "max_length" : 75
+  "max_length" : "75"
 }, {
   "id" : "00717",
   "description" : "PLACER GROUP #",
   "truncation" : "NA",
   "datatype_id" : "CM",
   "min_length" : 0,
-  "max_length" : 75
+  "max_length" : "75"
 }, {
   "id" : "00718",
   "description" : "ORDER STATUS",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 2,
+  "max_length" : "2",
   "table_id" : "0038"
 }, {
   "id" : "00719",
@@ -2764,7 +2764,7 @@
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 1,
+  "max_length" : "1",
   "table_id" : "0121"
 }, {
   "id" : "00720",
@@ -2772,63 +2772,63 @@
   "truncation" : "NA",
   "datatype_id" : "CM",
   "min_length" : 0,
-  "max_length" : 200
+  "max_length" : "200"
 }, {
   "id" : "00721",
   "description" : "PARENT",
   "truncation" : "NA",
   "datatype_id" : "CM",
   "min_length" : 0,
-  "max_length" : 200
+  "max_length" : "200"
 }, {
   "id" : "00722",
   "description" : "DATE/TIME OF TRANSACTION",
   "truncation" : "NA",
   "datatype_id" : "TS",
   "min_length" : 0,
-  "max_length" : 19
+  "max_length" : "19"
 }, {
   "id" : "00723",
   "description" : "ENTERED BY",
   "truncation" : "NA",
   "datatype_id" : "CN",
   "min_length" : 0,
-  "max_length" : 80
+  "max_length" : "80"
 }, {
   "id" : "00724",
   "description" : "VERIFIED BY",
   "truncation" : "NA",
   "datatype_id" : "CN",
   "min_length" : 0,
-  "max_length" : 80
+  "max_length" : "80"
 }, {
   "id" : "00725",
   "description" : "ORDERING PROVIDER",
   "truncation" : "NA",
   "datatype_id" : "CN",
   "min_length" : 0,
-  "max_length" : 80
+  "max_length" : "80"
 }, {
   "id" : "00726",
   "description" : "ENTERER'S LOCATION",
   "truncation" : "NA",
   "datatype_id" : "CM",
   "min_length" : 0,
-  "max_length" : 80
+  "max_length" : "80"
 }, {
   "id" : "00727",
   "description" : "CALL BACK PHONE NUMBER",
   "truncation" : "NA",
   "datatype_id" : "TN",
   "min_length" : 0,
-  "max_length" : 40
+  "max_length" : "40"
 }, {
   "id" : "00729",
   "description" : "CHARGE TYPE",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 50,
+  "max_length" : "50",
   "table_id" : "0122"
 }, {
   "id" : "00730",
@@ -2836,7 +2836,7 @@
   "truncation" : "NA",
   "datatype_id" : "CM",
   "min_length" : 0,
-  "max_length" : 100
+  "max_length" : "100"
 }, {
   "id" : "00731",
   "description" : "ORDER ITEM ID",
@@ -2844,28 +2844,28 @@
   "truncation" : "NA",
   "datatype_id" : "CE",
   "min_length" : 0,
-  "max_length" : 200
+  "max_length" : "200"
 }, {
   "id" : "00732",
   "description" : "PLACER ORDER #",
   "truncation" : "NA",
   "datatype_id" : "CM",
   "min_length" : 0,
-  "max_length" : 75
+  "max_length" : "75"
 }, {
   "id" : "00733",
   "description" : "FILLER ORDER #",
   "truncation" : "NA",
   "datatype_id" : "CM",
   "min_length" : 0,
-  "max_length" : 75
+  "max_length" : "75"
 }, {
   "id" : "00734",
   "description" : "RESULT STATUS",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 1,
+  "max_length" : "1",
   "table_id" : "0123"
 }, {
   "id" : "00735",
@@ -2873,316 +2873,311 @@
   "truncation" : "NA",
   "datatype_id" : "CM",
   "min_length" : 0,
-  "max_length" : 200
+  "max_length" : "200"
 }, {
   "id" : "00736",
   "description" : "SCHEDULED - DATE/TIME",
   "truncation" : "NA",
   "datatype_id" : "TS",
   "min_length" : 0,
-  "max_length" : 19
+  "max_length" : "19"
 }, {
   "id" : "00737",
   "description" : "PARENT ACCESSION #",
   "truncation" : "NA",
   "datatype_id" : "CM",
   "min_length" : 0,
-  "max_length" : 150
+  "max_length" : "150"
 }, {
   "id" : "00742",
   "description" : "SYSTEM DATE/TIME",
   "truncation" : "NA",
   "datatype_id" : "TS",
   "min_length" : 0,
-  "max_length" : 19
+  "max_length" : "19"
 }, {
   "id" : "00743",
   "description" : "STATISTICS AVAILABLE",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 1
+  "max_length" : "1"
 }, {
   "id" : "00744",
   "description" : "SOURCE IDENTIFIER",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 30
+  "max_length" : "30"
 }, {
   "id" : "00745",
   "description" : "SOURCE TYPE",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 3
+  "max_length" : "3"
 }, {
   "id" : "00746",
   "description" : "STATISTICS START",
   "truncation" : "NA",
   "datatype_id" : "TS",
   "min_length" : 0,
-  "max_length" : 19
+  "max_length" : "19"
 }, {
   "id" : "00747",
   "description" : "STATISTICS END",
   "truncation" : "NA",
   "datatype_id" : "TS",
   "min_length" : 0,
-  "max_length" : 19
+  "max_length" : "19"
 }, {
   "id" : "00748",
   "description" : "RECEIVE CHARACTER COUNT",
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 10
+  "max_length" : "10"
 }, {
   "id" : "00749",
   "description" : "SEND CHARACTER COUNT",
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 10
+  "max_length" : "10"
 }, {
   "id" : "00750",
   "description" : "MESSAGES RECEIVED",
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 10
+  "max_length" : "10"
 }, {
   "id" : "00751",
   "description" : "MESSAGES SENT",
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 10
+  "max_length" : "10"
 }, {
   "id" : "00752",
   "description" : "CHECKSUM ERRORS RECEIVED",
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 10
+  "max_length" : "10"
 }, {
   "id" : "00753",
   "description" : "LENGTH ERRORS RECEIVED",
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 10
+  "max_length" : "10"
 }, {
   "id" : "00754",
   "description" : "OTHER ERRORS RECEIVED",
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 10
+  "max_length" : "10"
 }, {
   "id" : "00755",
   "description" : "CONNECT TIMEOUTS",
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 10
+  "max_length" : "10"
 }, {
   "id" : "00756",
   "description" : "RECEIVE TIMEOUTS",
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 10
+  "max_length" : "10"
 }, {
   "id" : "00757",
   "description" : "NETWORK ERRORS",
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 10
+  "max_length" : "10"
 }, {
   "id" : "00758",
   "description" : "NETWORK CHANGE TYPE",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 4
+  "max_length" : "4"
 }, {
   "id" : "00759",
   "description" : "CURRENT CPU",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 30
+  "max_length" : "30"
 }, {
   "id" : "00760",
   "description" : "CURRENT FILESERVER",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 30
+  "max_length" : "30"
 }, {
   "id" : "00761",
   "description" : "CURRENT APPLICATION",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 30
+  "max_length" : "30"
 }, {
   "id" : "00762",
   "description" : "CURRENT FACILITY",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 30
+  "max_length" : "30"
 }, {
   "id" : "00763",
   "description" : "NEW CPU",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 30
+  "max_length" : "30"
 }, {
   "id" : "00764",
   "description" : "NEW FILESERVER",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 30
+  "max_length" : "30"
 }, {
   "id" : "00765",
   "description" : "NEW APPLICATION",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 30
+  "max_length" : "30"
 }, {
   "id" : "00766",
   "description" : "NEW FACILITY",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 30
+  "max_length" : "30"
 }, {
   "id" : "00768",
   "description" : "REFERENCE FILE CONTROL ID",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 20
+  "max_length" : "20"
 }, {
   "id" : "00769",
   "description" : "OBSERVATION SUB-ID",
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 20
+  "max_length" : "20"
 }, {
   "id" : "00770",
   "description" : "UNUSED",
   "section" : "4-14",
   "truncation" : "NA",
   "datatype_id" : "ST",
-  "min_length" : 0,
-  "max_length" : 0
+  "min_length" : 0
 }, {
   "id" : "00771",
   "description" : "UNUSED",
   "truncation" : "NA",
   "datatype_id" : "ST",
-  "min_length" : 0,
-  "max_length" : 0
+  "min_length" : 0
 }, {
   "id" : "00772",
   "description" : "UNUSED",
   "truncation" : "NA",
   "datatype_id" : "ST",
-  "min_length" : 0,
-  "max_length" : 0
+  "min_length" : 0
 }, {
   "id" : "00773",
   "description" : "UNUSED",
   "truncation" : "NA",
   "datatype_id" : "ST",
-  "min_length" : 0,
-  "max_length" : 0
+  "min_length" : 0
 }, {
   "id" : "00774",
   "description" : "UNUSED",
   "truncation" : "NA",
   "datatype_id" : "ST",
-  "min_length" : 0,
-  "max_length" : 0
+  "min_length" : 0
 }, {
   "id" : "00775",
   "description" : "ADMIT DATE/TIME",
   "truncation" : "NA",
   "datatype_id" : "TS",
   "min_length" : 0,
-  "max_length" : 19
+  "max_length" : "19"
 }, {
   "id" : "00776",
   "description" : "DISCHARGE DATE/TIME",
   "truncation" : "NA",
   "datatype_id" : "TS",
   "min_length" : 0,
-  "max_length" : 19
+  "max_length" : "19"
 }, {
   "id" : "00777",
   "description" : "CURRENT PATIENT BALANCE",
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 12
+  "max_length" : "12"
 }, {
   "id" : "00778",
   "description" : "TOTAL CHARGES",
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 12
+  "max_length" : "12"
 }, {
   "id" : "00779",
   "description" : "TOTAL ADJUSTMENTS",
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 12
+  "max_length" : "12"
 }, {
   "id" : "00780",
   "description" : "TOTAL PAYMENTS",
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 12
+  "max_length" : "12"
 }, {
   "id" : "00781",
   "description" : "GROUPER VERSION AND TYPE",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
-  "max_length" : 4
+  "max_length" : "4"
 }, {
   "id" : "00782",
   "description" : "TRANSACTION AMOUNT - UNIT",
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 12
+  "max_length" : "12"
 }, {
   "id" : "00783",
   "description" : "ORDERED BY CODE",
   "truncation" : "NA",
   "datatype_id" : "CN",
   "min_length" : 0,
-  "max_length" : 60
+  "max_length" : "60"
 }, {
   "id" : "00784",
   "description" : "UNIT COST",
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
-  "max_length" : 12
+  "max_length" : "12"
 }, {
   "id" : "00785",
   "description" : "BED LOCATION",
@@ -3190,6 +3185,6 @@
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
-  "max_length" : 12,
+  "max_length" : "12",
   "table_id" : "0079"
 } ]
