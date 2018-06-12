@@ -334,18 +334,13 @@
   "usage" : "P",
   "table_id" : "0008"
 }, {
-  "name" : "A2",
-  "description" : "Wheelchair/stretcher bound",
-  "usage" : "P",
-  "table_id" : "0009"
-}, {
   "name" : "B1",
   "description" : "Oxygen Therapy",
   "usage" : "P",
   "table_id" : "0009"
 }, {
-  "name" : "A5",
-  "description" : "Vision impaired",
+  "name" : "A2",
+  "description" : "Wheelchair/stretcher bound",
   "usage" : "P",
   "table_id" : "0009"
 }, {
@@ -354,8 +349,8 @@
   "usage" : "P",
   "table_id" : "0009"
 }, {
-  "name" : "A0",
-  "description" : "No functional limitations",
+  "name" : "A5",
+  "description" : "Vision impaired",
   "usage" : "P",
   "table_id" : "0009"
 }, {
@@ -364,13 +359,18 @@
   "usage" : "P",
   "table_id" : "0009"
 }, {
-  "name" : "A3",
-  "description" : "Comatose; non-responsive",
+  "name" : "A0",
+  "description" : "No functional limitations",
   "usage" : "P",
   "table_id" : "0009"
 }, {
   "name" : "B2",
   "description" : "Special Equipment (tunes, IV's, Catheters)",
+  "usage" : "P",
+  "table_id" : "0009"
+}, {
+  "name" : "A3",
+  "description" : "Comatose; non-responsive",
   "usage" : "P",
   "table_id" : "0009"
 }, {
@@ -384,23 +384,23 @@
   "usage" : "P",
   "table_id" : "0009"
 }, {
-  "name" : "A1",
-  "description" : "Ambulates with assistive device",
-  "usage" : "P",
-  "table_id" : "0009"
-}, {
   "name" : "A9",
   "description" : "Functional level unknown",
   "usage" : "P",
   "table_id" : "0009"
 }, {
-  "name" : "A4",
-  "description" : "Disoriented",
+  "name" : "A1",
+  "description" : "Ambulates with assistive device",
   "usage" : "P",
   "table_id" : "0009"
 }, {
   "name" : "B3",
   "description" : "Amputee",
+  "usage" : "P",
+  "table_id" : "0009"
+}, {
+  "name" : "A4",
+  "description" : "Disoriented",
   "usage" : "P",
   "table_id" : "0009"
 }, {
@@ -519,11 +519,6 @@
   "usage" : "P",
   "table_id" : "0027"
 }, {
-  "name" : "SH",
-  "description" : "Shampoo",
-  "usage" : "P",
-  "table_id" : "0033"
-}, {
   "name" : "IA",
   "description" : "Intro-arterial",
   "usage" : "P",
@@ -534,8 +529,8 @@
   "usage" : "P",
   "table_id" : "0033"
 }, {
-  "name" : "SS",
-  "description" : "IV soluset",
+  "name" : "SH",
+  "description" : "Shampoo",
   "usage" : "P",
   "table_id" : "0033"
 }, {
@@ -554,8 +549,8 @@
   "usage" : "P",
   "table_id" : "0033"
 }, {
-  "name" : "WI",
-  "description" : "Wipe",
+  "name" : "SS",
+  "description" : "IV soluset",
   "usage" : "P",
   "table_id" : "0033"
 }, {
@@ -574,8 +569,8 @@
   "usage" : "P",
   "table_id" : "0033"
 }, {
-  "name" : "SL",
-  "description" : "Sublingual",
+  "name" : "WI",
+  "description" : "Wipe",
   "usage" : "P",
   "table_id" : "0033"
 }, {
@@ -589,8 +584,8 @@
   "usage" : "P",
   "table_id" : "0033"
 }, {
-  "name" : "TP",
-  "description" : "Topically",
+  "name" : "SL",
+  "description" : "Sublingual",
   "usage" : "P",
   "table_id" : "0033"
 }, {
@@ -609,8 +604,8 @@
   "usage" : "P",
   "table_id" : "0033"
 }, {
-  "name" : "RC",
-  "description" : "Rectally",
+  "name" : "TP",
+  "description" : "Topically",
   "usage" : "P",
   "table_id" : "0033"
 }, {
@@ -624,8 +619,8 @@
   "usage" : "P",
   "table_id" : "0033"
 }, {
-  "name" : "SO",
-  "description" : "Soak",
+  "name" : "RC",
+  "description" : "Rectally",
   "usage" : "P",
   "table_id" : "0033"
 }, {
@@ -639,8 +634,8 @@
   "usage" : "P",
   "table_id" : "0033"
 }, {
-  "name" : "WA",
-  "description" : "Wash",
+  "name" : "SO",
+  "description" : "Soak",
   "usage" : "P",
   "table_id" : "0033"
 }, {
@@ -656,6 +651,11 @@
 }, {
   "name" : "PT",
   "description" : "Paint",
+  "usage" : "P",
+  "table_id" : "0033"
+}, {
+  "name" : "WA",
+  "description" : "Wash",
   "usage" : "P",
   "table_id" : "0033"
 }, {
@@ -719,13 +719,13 @@
   "usage" : "P",
   "table_id" : "0036"
 }, {
-  "name" : "CA",
-  "description" : "Order was canceled",
+  "name" : "ER",
+  "description" : "Error, order not found",
   "usage" : "P",
   "table_id" : "0038"
 }, {
-  "name" : "ER",
-  "description" : "Error, order not found",
+  "name" : "CA",
+  "description" : "Order was canceled",
   "usage" : "P",
   "table_id" : "0038"
 }, {
@@ -734,23 +734,23 @@
   "usage" : "P",
   "table_id" : "0038"
 }, {
-  "name" : "CM",
-  "description" : "Order is completed",
-  "usage" : "P",
-  "table_id" : "0038"
-}, {
   "name" : "HD",
   "description" : "Order is on hold",
   "usage" : "P",
   "table_id" : "0038"
 }, {
-  "name" : "DC",
-  "description" : "Order was discontinued",
+  "name" : "CM",
+  "description" : "Order is completed",
   "usage" : "P",
   "table_id" : "0038"
 }, {
   "name" : "IP",
   "description" : "In process, unspecified",
+  "usage" : "P",
+  "table_id" : "0038"
+}, {
+  "name" : "DC",
+  "description" : "Order was discontinued",
   "usage" : "P",
   "table_id" : "0038"
 }, {
@@ -1009,11 +1009,6 @@
   "usage" : "P",
   "table_id" : "0070"
 }, {
-  "name" : "HM",
-  "description" : "Hematology",
-  "usage" : "P",
-  "table_id" : "0074"
-}, {
   "name" : "OT",
   "description" : "Occupational Therapy",
   "usage" : "P",
@@ -1024,8 +1019,8 @@
   "usage" : "P",
   "table_id" : "0074"
 }, {
-  "name" : "CH",
-  "description" : "Chemistry",
+  "name" : "HM",
+  "description" : "Hematology",
   "usage" : "P",
   "table_id" : "0074"
 }, {
@@ -1044,8 +1039,8 @@
   "usage" : "P",
   "table_id" : "0074"
 }, {
-  "name" : "CUS",
-  "description" : "Cardiac Ultrasound",
+  "name" : "CH",
+  "description" : "Chemistry",
   "usage" : "P",
   "table_id" : "0074"
 }, {
@@ -1059,8 +1054,8 @@
   "usage" : "P",
   "table_id" : "0074"
 }, {
-  "name" : "IMM",
-  "description" : "Immunology",
+  "name" : "CUS",
+  "description" : "Cardiac Ultrasound",
   "usage" : "P",
   "table_id" : "0074"
 }, {
@@ -1074,8 +1069,8 @@
   "usage" : "P",
   "table_id" : "0074"
 }, {
-  "name" : "CP",
-  "description" : "Cytopathology",
+  "name" : "IMM",
+  "description" : "Immunology",
   "usage" : "P",
   "table_id" : "0074"
 }, {
@@ -1094,8 +1089,8 @@
   "usage" : "P",
   "table_id" : "0074"
 }, {
-  "name" : "EC",
-  "description" : "Electrocardiac (e.g., EKG, EEC, Holter)",
+  "name" : "CP",
+  "description" : "Cytopathology",
   "usage" : "P",
   "table_id" : "0074"
 }, {
@@ -1109,13 +1104,8 @@
   "usage" : "P",
   "table_id" : "0074"
 }, {
-  "name" : "BG",
-  "description" : "Blood gases",
-  "usage" : "P",
-  "table_id" : "0074"
-}, {
-  "name" : "MB",
-  "description" : "Microbiology",
+  "name" : "EC",
+  "description" : "Electrocardiac (e.g., EKG, EEC, Holter)",
   "usage" : "P",
   "table_id" : "0074"
 }, {
@@ -1129,8 +1119,13 @@
   "usage" : "P",
   "table_id" : "0074"
 }, {
-  "name" : "CT",
-  "description" : "CAT scan",
+  "name" : "BG",
+  "description" : "Blood gases",
+  "usage" : "P",
+  "table_id" : "0074"
+}, {
+  "name" : "MB",
+  "description" : "Microbiology",
   "usage" : "P",
   "table_id" : "0074"
 }, {
@@ -1144,6 +1139,11 @@
   "usage" : "P",
   "table_id" : "0074"
 }, {
+  "name" : "CT",
+  "description" : "CAT scan",
+  "usage" : "P",
+  "table_id" : "0074"
+}, {
   "name" : "DSR",
   "description" : "Display response             QRY       V",
   "usage" : "P",
@@ -1154,13 +1154,13 @@
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "OSQ",
-  "description" : "Order status query           ORD       IV",
+  "name" : "ARD",
+  "description" : "Ancillary RPT (display)      ANR       VII",
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "ARD",
-  "description" : "Ancillary RPT (display)      ANR       VII",
+  "name" : "OSQ",
+  "description" : "Order status query           ORD       IV",
   "usage" : "P",
   "table_id" : "0076"
 }, {
@@ -1174,13 +1174,13 @@
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "UDM",
-  "description" : "Unsolicited display          QRY       V",
+  "name" : "BAR",
+  "description" : "Add/change billing account   BLN       VI",
   "usage" : "P",
   "table_id" : "0076"
 }, {
-  "name" : "BAR",
-  "description" : "Add/change billing account   BLN       VI",
+  "name" : "UDM",
+  "description" : "Unsolicited display          QRY       V",
   "usage" : "P",
   "table_id" : "0076"
 }, {
@@ -1454,11 +1454,6 @@
   "usage" : "P",
   "table_id" : "0116"
 }, {
-  "name" : "UX",
-  "description" : "Unable to change",
-  "usage" : "P",
-  "table_id" : "0119"
-}, {
   "name" : "NA",
   "description" : "Number assigned            T",
   "usage" : "P",
@@ -1466,6 +1461,11 @@
 }, {
   "name" : "RP",
   "description" : "Order replace request",
+  "usage" : "P",
+  "table_id" : "0119"
+}, {
+  "name" : "UX",
+  "description" : "Unable to change",
   "usage" : "P",
   "table_id" : "0119"
 }, {
@@ -1489,11 +1489,6 @@
   "usage" : "P",
   "table_id" : "0119"
 }, {
-  "name" : "UH",
-  "description" : "Unable to put on hold",
-  "usage" : "P",
-  "table_id" : "0119"
-}, {
   "name" : "HD",
   "description" : "Hold order request",
   "usage" : "P",
@@ -1504,8 +1499,8 @@
   "usage" : "P",
   "table_id" : "0119"
 }, {
-  "name" : "XR",
-  "description" : "Changed as requested",
+  "name" : "UH",
+  "description" : "Unable to put on hold",
   "usage" : "P",
   "table_id" : "0119"
 }, {
@@ -1516,6 +1511,11 @@
 }, {
   "name" : "RR",
   "description" : "Request received",
+  "usage" : "P",
+  "table_id" : "0119"
+}, {
+  "name" : "XR",
+  "description" : "Changed as requested",
   "usage" : "P",
   "table_id" : "0119"
 }, {
@@ -1539,11 +1539,6 @@
   "usage" : "P",
   "table_id" : "0119"
 }, {
-  "name" : "UR",
-  "description" : "Unable to release",
-  "usage" : "P",
-  "table_id" : "0119"
-}, {
   "name" : "HR",
   "description" : "On hold as requested",
   "usage" : "P",
@@ -1554,8 +1549,8 @@
   "usage" : "P",
   "table_id" : "0119"
 }, {
-  "name" : "XX",
-  "description" : "Order changed, unsolicited",
+  "name" : "UR",
+  "description" : "Unable to release",
   "usage" : "P",
   "table_id" : "0119"
 }, {
@@ -1566,6 +1561,11 @@
 }, {
   "name" : "RU",
   "description" : "Replaced unsolicited",
+  "usage" : "P",
+  "table_id" : "0119"
+}, {
+  "name" : "XX",
+  "description" : "Order changed, unsolicited",
   "usage" : "P",
   "table_id" : "0119"
 }, {
