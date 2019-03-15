@@ -1,248 +1,329 @@
 [ {
   "id" : "ACK",
-  "description" : "General acknowledgment message"
+  "description" : "General acknowledgment message",
+  "section" : ""
 }, {
   "id" : "ADR",
-  "description" : "ADT response"
+  "description" : "ADT response",
+  "section" : ""
 }, {
   "id" : "ADT",
-  "description" : "ADT message"
+  "description" : "ADT message",
+  "section" : ""
 }, {
   "id" : "BAR",
-  "description" : "Add/change billing account"
+  "description" : "Add/change billing account",
+  "section" : ""
 }, {
   "id" : "CNQ",
-  "description" : "Cancel query"
+  "description" : "Cancel query",
+  "section" : ""
 }, {
   "id" : "CRM",
-  "description" : "Clinical study registration message"
+  "description" : "Clinical study registration message",
+  "section" : ""
 }, {
   "id" : "CSU",
-  "description" : "Unsolicited study data message"
+  "description" : "Unsolicited study data message",
+  "section" : ""
 }, {
   "id" : "DFT",
-  "description" : "Detail financial transactions"
+  "description" : "Detail financial transactions",
+  "section" : ""
 }, {
   "id" : "DOC",
-  "description" : "Document response"
+  "description" : "Document response",
+  "section" : ""
 }, {
   "id" : "DSR",
-  "description" : "Display response"
+  "description" : "Display response",
+  "section" : ""
 }, {
   "id" : "EDR",
-  "description" : "Enhanced display response"
+  "description" : "Enhanced display response",
+  "section" : ""
 }, {
   "id" : "EQQ",
-  "description" : "Embedded query language query"
+  "description" : "Embedded query language query",
+  "section" : ""
 }, {
   "id" : "ERP",
-  "description" : "Event replay response"
+  "description" : "Event replay response",
+  "section" : ""
 }, {
   "id" : "ERQ",
-  "description" : "Event replay query"
+  "description" : "Event replay query",
+  "section" : ""
 }, {
   "id" : "MCF",
-  "description" : "Delayed Acknowledgment (Retained for backward compatibility only)"
+  "description" : "Delayed Acknowledgment (Retained for backward compatibility only)",
+  "section" : ""
 }, {
   "id" : "MDM",
-  "description" : "Medical document management"
+  "description" : "Medical document management",
+  "section" : ""
 }, {
   "id" : "MFD",
-  "description" : "Master files delayed application acknowledgment"
+  "description" : "Master files delayed application acknowledgment",
+  "section" : ""
 }, {
   "id" : "MFK",
-  "description" : "Master files application acknowledgment"
+  "description" : "Master files application acknowledgment",
+  "section" : ""
 }, {
   "id" : "MFN",
-  "description" : "Master files notification"
+  "description" : "Master files notification",
+  "section" : ""
 }, {
   "id" : "MFQ",
-  "description" : "Master files query"
+  "description" : "Master files query",
+  "section" : ""
 }, {
   "id" : "MFR",
-  "description" : "Master files response"
+  "description" : "Master files response",
+  "section" : ""
 }, {
   "id" : "NUL",
   "description" : "No message required (for referential integrity)",
   "section" : "0"
 }, {
   "id" : "ORF",
-  "description" : "Query for results of observation"
+  "description" : "Query for results of observation",
+  "section" : ""
 }, {
   "id" : "ORM",
-  "description" : "Pharmacy/treatment order message"
+  "description" : "Pharmacy/treatment order message",
+  "section" : ""
 }, {
   "id" : "ORR",
-  "description" : "General order response message response to any ORM"
+  "description" : "General order response message response to any ORM",
+  "section" : ""
 }, {
   "id" : "ORU",
-  "description" : "Unsolicited transmission of an observation message"
+  "description" : "Unsolicited transmission of an observation message",
+  "section" : ""
 }, {
   "id" : "OSQ",
-  "description" : "Query response for order status"
+  "description" : "Query response for order status",
+  "section" : ""
 }, {
   "id" : "OSR",
-  "description" : "Query response for order status"
+  "description" : "Query response for order status",
+  "section" : ""
 }, {
   "id" : "PEX",
-  "description" : "Product experience message"
+  "description" : "Product experience message",
+  "section" : ""
 }, {
   "id" : "PGL",
-  "description" : "Patient goal message"
+  "description" : "Patient goal message",
+  "section" : ""
 }, {
   "id" : "PIN",
-  "description" : "Patient insurance information"
+  "description" : "Patient insurance information",
+  "section" : ""
 }, {
   "id" : "PPG",
-  "description" : "Patient pathway message (goal-oriented)"
+  "description" : "Patient pathway message (goal-oriented)",
+  "section" : ""
 }, {
   "id" : "PPP",
-  "description" : "Patient pathway message (problem-oriented)"
+  "description" : "Patient pathway message (problem-oriented)",
+  "section" : ""
 }, {
   "id" : "PPR",
-  "description" : "Patient problem message"
+  "description" : "Patient problem message",
+  "section" : ""
 }, {
   "id" : "PPT",
-  "description" : "Patient pathway goal-oriented response"
+  "description" : "Patient pathway goal-oriented response",
+  "section" : ""
 }, {
   "id" : "PPV",
-  "description" : "Patient goal response"
+  "description" : "Patient goal response",
+  "section" : ""
 }, {
   "id" : "PRR",
-  "description" : "Patient problem response"
+  "description" : "Patient problem response",
+  "section" : ""
 }, {
   "id" : "PTR",
-  "description" : "Patient pathway problem-oriented response"
+  "description" : "Patient pathway problem-oriented response",
+  "section" : ""
 }, {
   "id" : "QCK",
-  "description" : "Deferred query"
+  "description" : "Deferred query",
+  "section" : ""
 }, {
   "id" : "QRY",
-  "description" : "Query, original mode"
+  "description" : "Query, original mode",
+  "section" : ""
 }, {
   "id" : "RAR",
-  "description" : "Pharmacy/treatment administration information"
+  "description" : "Pharmacy/treatment administration information",
+  "section" : ""
 }, {
   "id" : "RAS",
-  "description" : "Pharmacy/treatment administration message"
+  "description" : "Pharmacy/treatment administration message",
+  "section" : ""
 }, {
   "id" : "RCI",
-  "description" : "Return clinical information"
+  "description" : "Return clinical information",
+  "section" : ""
 }, {
   "id" : "RCL",
-  "description" : "Return clinical list"
+  "description" : "Return clinical list",
+  "section" : ""
 }, {
   "id" : "RDE",
-  "description" : "Pharmacy/treatment encoded order message"
+  "description" : "Pharmacy/treatment encoded order message",
+  "section" : ""
 }, {
   "id" : "RDR",
-  "description" : "Pharmacy/treatment dispense information"
+  "description" : "Pharmacy/treatment dispense information",
+  "section" : ""
 }, {
   "id" : "RDS",
-  "description" : "Pharmacy/treatment dispense message"
+  "description" : "Pharmacy/treatment dispense message",
+  "section" : ""
 }, {
   "id" : "REF",
-  "description" : "Patient referral"
+  "description" : "Patient referral",
+  "section" : ""
 }, {
   "id" : "RER",
-  "description" : "Pharmacy/treatment encoded order information"
+  "description" : "Pharmacy/treatment encoded order information",
+  "section" : ""
 }, {
   "id" : "RGR",
-  "description" : "Pharmacy/treatment dose information"
+  "description" : "Pharmacy/treatment dose information",
+  "section" : ""
 }, {
   "id" : "RGV",
-  "description" : "Pharmacy/treatment give message"
+  "description" : "Pharmacy/treatment give message",
+  "section" : ""
 }, {
   "id" : "ROC",
-  "description" : "Request clinical information"
+  "description" : "Request clinical information",
+  "section" : ""
 }, {
   "id" : "ROD",
-  "description" : "Request pateint demographics"
+  "description" : "Request pateint demographics",
+  "section" : ""
 }, {
   "id" : "ROR",
-  "description" : "Pharmacy/treatment order response"
+  "description" : "Pharmacy/treatment order response",
+  "section" : ""
 }, {
   "id" : "RPA",
-  "description" : "Return patient authorization"
+  "description" : "Return patient authorization",
+  "section" : ""
 }, {
   "id" : "RPI",
-  "description" : "Return patient information"
+  "description" : "Return patient information",
+  "section" : ""
 }, {
   "id" : "RPL",
-  "description" : "Return patient display list"
+  "description" : "Return patient display list",
+  "section" : ""
 }, {
   "id" : "RPR",
-  "description" : "Return patient list"
+  "description" : "Return patient list",
+  "section" : ""
 }, {
   "id" : "RQA",
-  "description" : "Request patient authorization"
+  "description" : "Request patient authorization",
+  "section" : ""
 }, {
   "id" : "RQC",
-  "description" : "Request clinical information"
+  "description" : "Request clinical information",
+  "section" : ""
 }, {
   "id" : "RQI",
-  "description" : "Request patient information"
+  "description" : "Request patient information",
+  "section" : ""
 }, {
   "id" : "RQP",
-  "description" : "Request patient demographics"
+  "description" : "Request patient demographics",
+  "section" : ""
 }, {
   "id" : "RQQ",
-  "description" : "Event replay query"
+  "description" : "Event replay query",
+  "section" : ""
 }, {
   "id" : "RRA",
-  "description" : "Pharmacy/treatment administration acknowledgment message"
+  "description" : "Pharmacy/treatment administration acknowledgment message",
+  "section" : ""
 }, {
   "id" : "RRD",
-  "description" : "Pharmacy/treatment dispense acknowledgment message"
+  "description" : "Pharmacy/treatment dispense acknowledgment message",
+  "section" : ""
 }, {
   "id" : "RRE",
-  "description" : "Pharmacy/treatment encoded order acknowledgment message"
+  "description" : "Pharmacy/treatment encoded order acknowledgment message",
+  "section" : ""
 }, {
   "id" : "RRG",
-  "description" : "Pharmacy/treatment give acknowledgment message"
+  "description" : "Pharmacy/treatment give acknowledgment message",
+  "section" : ""
 }, {
   "id" : "RRI",
-  "description" : "Return referral information"
+  "description" : "Return referral information",
+  "section" : ""
 }, {
   "id" : "SIU",
-  "description" : "Schedule information unsolicited"
+  "description" : "Schedule information unsolicited",
+  "section" : ""
 }, {
   "id" : "SPQ",
-  "description" : "Stored procedure request"
+  "description" : "Stored procedure request",
+  "section" : ""
 }, {
   "id" : "SQM",
-  "description" : "Schedule query message"
+  "description" : "Schedule query message",
+  "section" : ""
 }, {
   "id" : "SQR",
-  "description" : "Schedule query response"
+  "description" : "Schedule query response",
+  "section" : ""
 }, {
   "id" : "SRM",
-  "description" : "Schedule request message"
+  "description" : "Schedule request message",
+  "section" : ""
 }, {
   "id" : "SRR",
-  "description" : "Scheduled request response"
+  "description" : "Scheduled request response",
+  "section" : ""
 }, {
   "id" : "SUR",
-  "description" : "Summary product experience report"
+  "description" : "Summary product experience report",
+  "section" : ""
 }, {
   "id" : "TBR",
-  "description" : "Tabular data response"
+  "description" : "Tabular data response",
+  "section" : ""
 }, {
   "id" : "UDM",
-  "description" : "Unsolicited display update message"
+  "description" : "Unsolicited display update message",
+  "section" : ""
 }, {
   "id" : "VQQ",
-  "description" : "Virtual table query"
+  "description" : "Virtual table query",
+  "section" : ""
 }, {
   "id" : "VXQ",
-  "description" : "Query for vaccination record"
+  "description" : "Query for vaccination record",
+  "section" : ""
 }, {
   "id" : "VXR",
-  "description" : "Vaccination record response"
+  "description" : "Vaccination record response",
+  "section" : ""
 }, {
   "id" : "VXU",
-  "description" : "Unsolicited vaccination record update"
+  "description" : "Unsolicited vaccination record update",
+  "section" : ""
 }, {
   "id" : "VXX",
-  "description" : "Response for vaccination query with multiple PID matches"
+  "description" : "Response for vaccination query with multiple PID matches",
+  "section" : ""
 } ]

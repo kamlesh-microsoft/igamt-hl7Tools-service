@@ -77,7 +77,7 @@ public class HL72JSONConverter implements Runnable {
       dataSource.setDriver(new com.mysql.jdbc.Driver());
       dataSource.setUrl("jdbc:mysql://localhost/mdb");
       dataSource.setUsername("root");
-      dataSource.setPassword("Ay524TOLdE3J6rO");
+      dataSource.setPassword("root");
 
       this.jdbcTemplate = new JdbcTemplate(dataSource);
       this.hl7Version = hl7Version;
@@ -549,8 +549,8 @@ public class HL72JSONConverter implements Runnable {
     bld.append(hl7Version);
     bld.append("'");
     bld.append(System.lineSeparator());
-    // bld.append(" AND s.visible = 'TRUE'");
-    bld.append(" AND s.visible = '1'");
+    bld.append(" AND s.visible = 'TRUE'");
+//    bld.append(" AND s.visible = '1'");
     bld.append(System.lineSeparator());
     bld.append(" ORDER BY s.seg_code");
     bld.append(System.lineSeparator());

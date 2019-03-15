@@ -5196,7 +5196,7 @@
   "max_length" : "60"
 }, {
   "id" : "00637",
-  "description" : "Valid Coded \"Answers\"",
+  "description" : "Valid Coded \"Answers\"\"\"",
   "section" : "8.7.5.3",
   "truncation" : "NA",
   "datatype_id" : "CE",
@@ -5728,7 +5728,8 @@
   "section" : "2.24.19.1",
   "truncation" : "NA",
   "datatype_id" : "VARIES",
-  "min_length" : 0
+  "min_length" : 0,
+  "max_length" : ""
 }, {
   "id" : "00704",
   "description" : "Stored procedure name",
@@ -9534,7 +9535,8 @@
   "section" : "12.3.3.3",
   "truncation" : "NA",
   "datatype_id" : "CE",
-  "min_length" : 0
+  "min_length" : 0,
+  "max_length" : ""
 }, {
   "id" : "01198",
   "description" : "Role Person",
@@ -10205,21 +10207,24 @@
   "section" : "3.3.8.5",
   "truncation" : "NA",
   "datatype_id" : "CX",
-  "min_length" : 0
+  "min_length" : 0,
+  "max_length" : ""
 }, {
   "id" : "01280",
   "description" : "Prior Alternate Visit ID",
   "section" : "3.3.8.6",
   "truncation" : "NA",
   "datatype_id" : "CX",
-  "min_length" : 0
+  "min_length" : 0,
+  "max_length" : ""
 }, {
   "id" : "01281",
   "description" : "Prior Patient Name",
   "section" : "3.3.8.7",
   "truncation" : "NA",
   "datatype_id" : "XPN",
-  "min_length" : 0
+  "min_length" : 0,
+  "max_length" : ""
 }, {
   "id" : "01283",
   "description" : "Set ID - DB1",
@@ -10367,7 +10372,8 @@
   "section" : "8.8.4.5",
   "truncation" : "NA",
   "datatype_id" : "XON",
-  "min_length" : 0
+  "min_length" : 0,
+  "max_length" : ""
 }, {
   "id" : "01303",
   "description" : "Dispense-To Location",
@@ -10379,13 +10385,17 @@
 }, {
   "id" : "99998",
   "description" : "new number (within next version)",
+  "section" : "",
   "truncation" : "NA",
   "datatype_id" : "TX",
-  "min_length" : 0
+  "min_length" : 0,
+  "max_length" : ""
 }, {
   "id" : "99999",
   "description" : "new (within next version)",
+  "section" : "",
   "truncation" : "NA",
   "datatype_id" : "TX",
-  "min_length" : 0
+  "min_length" : 0,
+  "max_length" : ""
 } ]

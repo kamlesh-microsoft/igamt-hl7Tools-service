@@ -5749,7 +5749,8 @@
   "section" : "2.24.19.1",
   "truncation" : "NA",
   "datatype_id" : "VARIES",
-  "min_length" : 0
+  "min_length" : 0,
+  "max_length" : ""
 }, {
   "id" : "00704",
   "description" : "Stored Procedure Name",
@@ -9328,7 +9329,8 @@
   "section" : "C.2.1.1",
   "truncation" : "NA",
   "datatype_id" : "TS",
-  "min_length" : 0
+  "min_length" : 0,
+  "max_length" : ""
 }, {
   "id" : "01173",
   "description" : "Statistics Available",
@@ -9336,6 +9338,7 @@
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
+  "max_length" : "",
   "table_id" : "0136"
 }, {
   "id" : "01174",
@@ -9343,98 +9346,112 @@
   "section" : "C.2.2.2",
   "truncation" : "NA",
   "datatype_id" : "ST",
-  "min_length" : 0
+  "min_length" : 0,
+  "max_length" : ""
 }, {
   "id" : "01175",
   "description" : "Source Type",
   "section" : "C.2.2.3",
   "truncation" : "NA",
   "datatype_id" : "ID",
-  "min_length" : 0
+  "min_length" : 0,
+  "max_length" : ""
 }, {
   "id" : "01176",
   "description" : "Statistics Start",
   "section" : "C.2.2.4",
   "truncation" : "NA",
   "datatype_id" : "TS",
-  "min_length" : 0
+  "min_length" : 0,
+  "max_length" : ""
 }, {
   "id" : "01177",
   "description" : "Statistics End",
   "section" : "C.2.2.5",
   "truncation" : "NA",
   "datatype_id" : "TS",
-  "min_length" : 0
+  "min_length" : 0,
+  "max_length" : ""
 }, {
   "id" : "01178",
   "description" : "Receive Character Count",
   "section" : "C.2.2.6",
   "truncation" : "NA",
   "datatype_id" : "NM",
-  "min_length" : 0
+  "min_length" : 0,
+  "max_length" : ""
 }, {
   "id" : "01179",
   "description" : "Send Character Count",
   "section" : "C.2.2.7",
   "truncation" : "NA",
   "datatype_id" : "NM",
-  "min_length" : 0
+  "min_length" : 0,
+  "max_length" : ""
 }, {
   "id" : "01180",
   "description" : "Messages Received",
   "section" : "C.2.2.8",
   "truncation" : "NA",
   "datatype_id" : "NM",
-  "min_length" : 0
+  "min_length" : 0,
+  "max_length" : ""
 }, {
   "id" : "01181",
   "description" : "Messages Sent",
   "section" : "C.2.2.9",
   "truncation" : "NA",
   "datatype_id" : "NM",
-  "min_length" : 0
+  "min_length" : 0,
+  "max_length" : ""
 }, {
   "id" : "01182",
   "description" : "Checksum Errors Received",
   "section" : "C.2.2.10",
   "truncation" : "NA",
   "datatype_id" : "NM",
-  "min_length" : 0
+  "min_length" : 0,
+  "max_length" : ""
 }, {
   "id" : "01183",
   "description" : "Length Errors Received",
   "section" : "C.2.2.11",
   "truncation" : "NA",
   "datatype_id" : "NM",
-  "min_length" : 0
+  "min_length" : 0,
+  "max_length" : ""
 }, {
   "id" : "01184",
   "description" : "Other Errors Received",
   "section" : "C.2.2.12",
   "truncation" : "NA",
   "datatype_id" : "NM",
-  "min_length" : 0
+  "min_length" : 0,
+  "max_length" : ""
 }, {
   "id" : "01185",
   "description" : "Connect Timeouts",
   "section" : "C.2.2.13",
   "truncation" : "NA",
   "datatype_id" : "NM",
-  "min_length" : 0
+  "min_length" : 0,
+  "max_length" : ""
 }, {
   "id" : "01186",
   "description" : "Receive Timeouts",
   "section" : "C.2.2.14",
   "truncation" : "NA",
   "datatype_id" : "NM",
-  "min_length" : 0
+  "min_length" : 0,
+  "max_length" : ""
 }, {
   "id" : "01187",
   "description" : "Network Errors",
   "section" : "C.2.2.15",
   "truncation" : "NA",
   "datatype_id" : "NM",
-  "min_length" : 0
+  "min_length" : 0,
+  "max_length" : ""
 }, {
   "id" : "01188",
   "description" : "Network Change Type",
@@ -9442,6 +9459,7 @@
   "truncation" : "NA",
   "datatype_id" : "IS",
   "min_length" : 0,
+  "max_length" : "",
   "table_id" : "0333"
 }, {
   "id" : "01189",
@@ -9449,56 +9467,64 @@
   "section" : "C.2.3.2",
   "truncation" : "NA",
   "datatype_id" : "ST",
-  "min_length" : 0
+  "min_length" : 0,
+  "max_length" : ""
 }, {
   "id" : "01190",
   "description" : "Current Fileserver",
   "section" : "C.2.3.3",
   "truncation" : "NA",
   "datatype_id" : "ST",
-  "min_length" : 0
+  "min_length" : 0,
+  "max_length" : ""
 }, {
   "id" : "01191",
   "description" : "Current Application",
   "section" : "C.2.3.4",
   "truncation" : "NA",
   "datatype_id" : "ST",
-  "min_length" : 0
+  "min_length" : 0,
+  "max_length" : ""
 }, {
   "id" : "01192",
   "description" : "Current Facility",
   "section" : "C.2.3.5",
   "truncation" : "NA",
   "datatype_id" : "ST",
-  "min_length" : 0
+  "min_length" : 0,
+  "max_length" : ""
 }, {
   "id" : "01193",
   "description" : "New CPU",
   "section" : "C.2.3.6",
   "truncation" : "NA",
   "datatype_id" : "ST",
-  "min_length" : 0
+  "min_length" : 0,
+  "max_length" : ""
 }, {
   "id" : "01194",
   "description" : "New Fileserver",
   "section" : "C.2.3.7",
   "truncation" : "NA",
   "datatype_id" : "ST",
-  "min_length" : 0
+  "min_length" : 0,
+  "max_length" : ""
 }, {
   "id" : "01195",
   "description" : "New Application",
   "section" : "C.2.3.8",
   "truncation" : "NA",
   "datatype_id" : "ST",
-  "min_length" : 0
+  "min_length" : 0,
+  "max_length" : ""
 }, {
   "id" : "01196",
   "description" : "New Facility",
   "section" : "C.2.3.9",
   "truncation" : "NA",
   "datatype_id" : "ST",
-  "min_length" : 0
+  "min_length" : 0,
+  "max_length" : ""
 }, {
   "id" : "01197",
   "description" : "Role-ROL",

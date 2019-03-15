@@ -172,7 +172,8 @@
   "section" : "2.15.8.5",
   "truncation" : "NA",
   "datatype_id" : "-",
-  "min_length" : 0
+  "min_length" : 0,
+  "max_length" : ""
 }, {
   "id" : "00023",
   "description" : "Error Condition",
@@ -5227,7 +5228,7 @@
   "table_id" : "9999"
 }, {
   "id" : "00637",
-  "description" : "Valid Coded \"Answers\"",
+  "description" : "Valid Coded \"Answers\"\"\"",
   "section" : "8.8.10.3",
   "truncation" : "NA",
   "datatype_id" : "CE",
@@ -15192,7 +15193,9 @@
 }, {
   "id" : "09999",
   "description" : "Reserved for harmonization with V2.6",
+  "section" : "",
   "truncation" : "NA",
   "datatype_id" : "VARIES",
-  "min_length" : 0
+  "min_length" : 0,
+  "max_length" : ""
 } ]

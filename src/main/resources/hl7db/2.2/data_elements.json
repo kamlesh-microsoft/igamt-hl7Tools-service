@@ -5677,6 +5677,7 @@
 }, {
   "id" : "00744",
   "description" : "Source Identifier",
+  "section" : "",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
@@ -5684,6 +5685,7 @@
 }, {
   "id" : "00745",
   "description" : "Source Type",
+  "section" : "",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
@@ -5691,6 +5693,7 @@
 }, {
   "id" : "00746",
   "description" : "Statistics Start",
+  "section" : "",
   "truncation" : "NA",
   "datatype_id" : "TS",
   "min_length" : 0,
@@ -5698,6 +5701,7 @@
 }, {
   "id" : "00747",
   "description" : "Statistics End",
+  "section" : "",
   "truncation" : "NA",
   "datatype_id" : "TS",
   "min_length" : 0,
@@ -5705,6 +5709,7 @@
 }, {
   "id" : "00748",
   "description" : "Receive Character Count",
+  "section" : "",
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
@@ -5712,6 +5717,7 @@
 }, {
   "id" : "00749",
   "description" : "Send Character Count",
+  "section" : "",
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
@@ -5719,6 +5725,7 @@
 }, {
   "id" : "00750",
   "description" : "Message Received",
+  "section" : "",
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
@@ -5726,6 +5733,7 @@
 }, {
   "id" : "00751",
   "description" : "Message Sent",
+  "section" : "",
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
@@ -5733,6 +5741,7 @@
 }, {
   "id" : "00752",
   "description" : "Checksum Errors Received",
+  "section" : "",
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
@@ -5740,6 +5749,7 @@
 }, {
   "id" : "00753",
   "description" : "Length Errors Received",
+  "section" : "",
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
@@ -5747,6 +5757,7 @@
 }, {
   "id" : "00754",
   "description" : "Other Errors Received",
+  "section" : "",
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
@@ -5754,6 +5765,7 @@
 }, {
   "id" : "00755",
   "description" : "Connect Timeouts",
+  "section" : "",
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
@@ -5761,6 +5773,7 @@
 }, {
   "id" : "00756",
   "description" : "Receive Timeouts",
+  "section" : "",
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
@@ -5768,6 +5781,7 @@
 }, {
   "id" : "00757",
   "description" : "Network Errors",
+  "section" : "",
   "truncation" : "NA",
   "datatype_id" : "NM",
   "min_length" : 0,
@@ -5775,6 +5789,7 @@
 }, {
   "id" : "00758",
   "description" : "Network Change Type",
+  "section" : "",
   "truncation" : "NA",
   "datatype_id" : "ID",
   "min_length" : 0,
@@ -5782,6 +5797,7 @@
 }, {
   "id" : "00759",
   "description" : "Current CPU",
+  "section" : "",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
@@ -5789,6 +5805,7 @@
 }, {
   "id" : "00760",
   "description" : "Current Fileserver",
+  "section" : "",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
@@ -5796,6 +5813,7 @@
 }, {
   "id" : "00761",
   "description" : "Current Application",
+  "section" : "",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
@@ -5803,6 +5821,7 @@
 }, {
   "id" : "00762",
   "description" : "Current Facility",
+  "section" : "",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
@@ -5810,6 +5829,7 @@
 }, {
   "id" : "00763",
   "description" : "New CPU",
+  "section" : "",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
@@ -5817,6 +5837,7 @@
 }, {
   "id" : "00764",
   "description" : "New Fileserver",
+  "section" : "",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
@@ -5824,6 +5845,7 @@
 }, {
   "id" : "00765",
   "description" : "New Application",
+  "section" : "",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
@@ -5831,6 +5853,7 @@
 }, {
   "id" : "00766",
   "description" : "New Facility",
+  "section" : "",
   "truncation" : "NA",
   "datatype_id" : "ST",
   "min_length" : 0,
@@ -5838,13 +5861,17 @@
 }, {
   "id" : "99998",
   "description" : "new number (within next version)",
+  "section" : "",
   "truncation" : "NA",
   "datatype_id" : "TX",
-  "min_length" : 0
+  "min_length" : 0,
+  "max_length" : ""
 }, {
   "id" : "99999",
   "description" : "new (within next version)",
+  "section" : "",
   "truncation" : "NA",
   "datatype_id" : "TX",
-  "min_length" : 0
+  "min_length" : 0,
+  "max_length" : ""
 } ]
